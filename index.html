@@ -8,7 +8,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="NETWORK学習">
 <link rel="manifest" href="manifest.webmanifest">
-<title>NETWORK 学習アプリ</title>
+<title>MY STUDY 学習アプリ</title>
 <style>
 :root{--bg:#f5f7fb;--card:#fff;--text:#111827;--sub:#6b7280;--line:#e5e7eb;--accent:#2563eb;--ok:#047857;--ng:#b91c1c}
 *{box-sizing:border-box} body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue","Noto Sans JP",sans-serif;background:var(--bg);color:var(--text)}
@@ -35,8 +35,8 @@ details{border-top:1px solid var(--line);padding-top:10px;margin-top:10px}summar
 a{color:var(--accent)}
 </style>
 </head>
-<body data-version="v3">
-<header><h1>NETWORK 学習アプリ</h1><div class="sub">知識の地図 → 詳細 → 問題 → 間違えた論点へ戻る　<span style="opacity:.55">v3</span></div></header>
+<body data-version="v4">
+<header><h1>MY STUDY 学習アプリ</h1><div class="sub">科目 → 知識の地図 → 詳細 → 問題 → 間違えた論点へ戻る　<span style="opacity:.55">v4</span></div></header>
 <main id="app"></main>
 <nav>
 <button data-tab="home" class="active">🏠<br>全体</button>
@@ -57,8 +57,14 @@ function topicById(id){for(const u of D.units){const t=u.topics.find(x=>x.id===i
 function goUnit(id){state.unit=id;state.topic=null;render()}
 function goTopic(id){state.topic=id;state.tab='topics';render();document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('active',b.dataset.tab==='topics'))}
 function home(){
-return `<div class="card"><div class="big">4単元</div><div class="small">PDFの内容をアプリ用に分割</div></div>`+
-D.units.map(u=>`<div class="card unit" onclick="goUnit('${u.id}')"><h2>${u.id} ${esc(u.title)}</h2><div class="small">${esc(u.summary)}</div><div style="margin-top:10px">${u.topics.map(t=>`<span class="pill">${esc(t.title)}</span>`).join('')}</div></div>`).join('');
+const cats=[...new Set(D.units.map(u=>u.category||'その他'))];
+let out=`<div class="card"><div class="big">${D.units.length}単元</div><div class="small">複数科目を1つのiPhone学習アプリで管理</div></div>`;
+for(const c of cats){
+  const icon=c==='IT・ネットワーク'?'🌐':(c==='給与計算'?'💴':'📚');
+  out+=`<div class="card"><h2>${icon} ${esc(c)}</h2><div class="small">タップして単元を開く</div></div>`;
+  out+=D.units.filter(u=>(u.category||'その他')===c).map(u=>`<div class="card unit" onclick="goUnit('${u.id}')"><h2>${u.id} ${esc(u.title)}</h2><div class="small">${esc(u.summary)}</div><div style="margin-top:10px">${u.topics.map(t=>`<span class="pill">${esc(t.title)}</span>`).join('')}</div></div>`).join('');
+}
+return out;
 }
 function unitView(u){
 return `<button onclick="state.unit=null;render()">← 全体へ</button><div class="card"><h2>${u.id} ${esc(u.title)}</h2><p>${esc(u.summary)}</p>${u.map.map(x=>`<div class="mapline">${esc(x)}</div>`).join('')}</div>`+
@@ -81,7 +87,7 @@ function selectChoice(c){state.selected=c;state.answered=false;render()}
 function answerQ(){if(state.selected==null)return alert('選択肢を選んでください');state.answered=true;const q=D.questions[state.q];if(state.selected!==q.answer&&!wrong.includes(q.topic)){wrong.push(q.topic);localStorage.setItem('wrongTopics',JSON.stringify(wrong))}render()}
 function nextQ(){state.q=(state.q+1)%D.questions.length;state.selected=null;state.answered=false;render()}
 function review(){
-return D.units.map(u=>`<div class="card"><h2>${u.id} ${esc(u.title)}</h2>${u.review.map(x=>`<div class="mapline">✓ ${esc(x)}</div>`).join('')}</div>`).join('');
+return D.units.map(u=>`<div class="card"><div class="small">${esc(u.category||'')}</div><h2>${u.id} ${esc(u.title)}</h2>${u.review.map(x=>`<div class="mapline">✓ ${esc(x)}</div>`).join('')}</div>`).join('');
 }
 function render(){if(state.tab==='home')app.innerHTML=state.unit?unitView(unitById(state.unit)):home(); else if(state.tab==='topics')app.innerHTML=topics(); else if(state.tab==='quiz')app.innerHTML=quiz(); else app.innerHTML=review();window.scrollTo({top:0,behavior:'instant'})}
 render();

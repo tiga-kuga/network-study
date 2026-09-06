@@ -1,6 +1,6 @@
 {
-  "name": "NETWORK 学習アプリ",
-  "short_name": "NETWORK学習",
+  "name": "MY STUDY 学習アプリ",
+  "short_name": "MY STUDY",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#ffffff",
