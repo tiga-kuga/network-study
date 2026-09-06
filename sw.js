@@ -1,4 +1,49 @@
-const CACHE='network-study-v2';
-const ASSETS=['./','./index.html','./data.js','./manifest.webmanifest','./icon.svg'];
-self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS))));
-self.addEventListener('fetch',e=>e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request))));
+const CACHE='network-study-v3';
+const CORE=['./','./index.html','./data.js','./manifest.webmanifest','./icon.svg'];
+
+self.addEventListener('install', event => {
+  self.skipWaiting();
+  event.waitUntil(
+    caches.open(CACHE).then(cache => cache.addAll(CORE))
+  );
+});
+
+self.addEventListener('activate', event => {
+  event.waitUntil(
+    caches.keys()
+      .then(keys => Promise.all(keys.filter(k => k !== CACHE).map(k => caches.delete(k))))
+      .then(() => self.clients.claim())
+  );
+});
+
+self.addEventListener('fetch', event => {
+  const req = event.request;
+  if (req.method !== 'GET') return;
+
+  const url = new URL(req.url);
+  const isCore = url.pathname.endsWith('/index.html') ||
+                 url.pathname.endsWith('/data.js') ||
+                 url.pathname.endsWith('/manifest.webmanifest') ||
+                 url.pathname.endsWith('/sw.js') ||
+                 url.pathname.endsWith('/');
+
+  if (isCore) {
+    event.respondWith(
+      fetch(req, {cache: 'no-store'})
+        .then(res => {
+          const copy = res.clone();
+          caches.open(CACHE).then(cache => cache.put(req, copy));
+          return res;
+        })
+        .catch(() => caches.match(req))
+    );
+  } else {
+    event.respondWith(
+      caches.match(req).then(cached => cached || fetch(req).then(res => {
+        const copy = res.clone();
+        caches.open(CACHE).then(cache => cache.put(req, copy));
+        return res;
+      }))
+    );
+  }
+});
