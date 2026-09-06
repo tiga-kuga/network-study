@@ -527,6 +527,474 @@ window.APP_DATA = {
         "ハミング＝2bit検出・1bit訂正",
         "有線＝CSMA/CD、無線＝CSMA/CA"
       ]
+    },
+    {
+      "id": "NW5",
+      "title": "TCP/IP・ネットワークインタフェース層・インターネット層",
+      "summary": "TCP/IP / カプセル化 / Ethernet / STP / VLAN / IPv4・IPv6 / ICMP・ARP・RARP・VRRP",
+      "map": [
+        "TCP/IP → 4階層：アプリケーション / トランスポート / インターネット / ネットワークインタフェース",
+        "送信側 → カプセル化 / 受信側 → 非カプセル化",
+        "ネットワークインタフェース層 → Ethernet / STP / VLAN / PPP・PPPoE",
+        "インターネット層 → IP / IPv4 / IPv6 / ICMP / ARP / RARP / VRRP"
+      ],
+      "topics": [
+        {
+          "id": "NW5-1",
+          "title": "TCP/IP階層モデル",
+          "role": "プロトコル全体を、どの階層が何を担当するかで整理する土台。",
+          "overview": "TCP/IPはインターネットやイントラネットの基盤として利用される通信プロトコルの総称で、4階層から構成される。",
+          "structure": [
+            "アプリケーション層 → アプリケーションデータのやり取りの規格",
+            "トランスポート層 → ノード間のデータ転送の信頼性 / TCP・UDP",
+            "インターネット層 → ネットワーク間のエンドツーエンド通信 / IP",
+            "ネットワークインタフェース層 → 直接接続されたノード間 / LANはEthernet、WANはPPP・PPPoE"
+          ],
+          "principles": [
+            "通信は対応する階層同士で行われるため、サービスに応じて様々な下位層の手段を利用できる。",
+            "上位層は下位層の役割や実施内容を知らなくても通信が成立する。"
+          ],
+          "conditions": [],
+          "effects": [
+            "プロトコルを階層化して役割を分担する。"
+          ],
+          "exceptions": [],
+          "notes": [
+            "TCP/IPと呼ぶが、TCPとIPだけでなく各層で様々なプロトコルが使われる。"
+          ],
+          "differences": [
+            "TCP / UDP → トランスポート層",
+            "IP → インターネット層",
+            "Ethernet / PPP / PPPoE → ネットワークインタフェース層"
+          ],
+          "related": [
+            "NW5-2 カプセル化・非カプセル化",
+            "NW6-1 TCP・UDP"
+          ],
+          "exam": [
+            "TCP/IP＝4階層",
+            "各プロトコルと階層の対応"
+          ]
+        },
+        {
+          "id": "NW5-2",
+          "title": "カプセル化・非カプセル化",
+          "role": "データがTCP/IPの各階層を通るときの処理順序を理解する。",
+          "overview": "送信側は上位層から下位層へヘッダを付加してカプセル化し、受信側は下位層から上位層へヘッダを除去して非カプセル化する。",
+          "structure": [
+            "送信：アプリケーション → トランスポート → インターネット → ネットワークインタフェース",
+            "カプセル化 → 上位層から下位層へデータを渡す際にヘッダを付加",
+            "受信：ネットワークインタフェース → インターネット → トランスポート → アプリケーション",
+            "非カプセル化 → 送信側で付加したヘッダを除去"
+          ],
+          "principles": [
+            "TCPヘッダには宛先やポート番号など、IPヘッダにはIPアドレスなどの情報を付加する。"
+          ],
+          "conditions": [
+            "送受信時の階層間データ受け渡し。"
+          ],
+          "effects": [
+            "各階層に必要な制御情報を付加・除去する。"
+          ],
+          "exceptions": [],
+          "notes": [],
+          "differences": [
+            "カプセル化＝ヘッダ付加",
+            "非カプセル化＝ヘッダ除去"
+          ],
+          "related": [
+            "NW5-1 TCP/IP階層モデル"
+          ],
+          "exam": [
+            "送信＝上→下",
+            "受信＝下→上",
+            "ヘッダの付加・除去"
+          ]
+        },
+        {
+          "id": "NW5-3",
+          "title": "Ethernet・STP・VLAN・PPP/PPPoE",
+          "role": "ネットワークインタフェース層で使われる代表的なプロトコルと技術を整理する。",
+          "overview": "LANではEthernet、WANではPPP・PPPoEが代表的。STPはループ回避、VLANは仮想的なグループ形成に使われる。",
+          "structure": [
+            "Ethernet → 主にLAN / ヘッダに宛先・送信元MACアドレス",
+            "STP → ループの一部を論理的にブロック → 木構造 → ブロードキャストストーム防止",
+            "リンクアグリゲーション → 複数物理回線を論理的に1本へ束ねる",
+            "VLAN → 物理構成に関係なく仮想グループ形成",
+            "PPP → 電話回線などで2地点通信",
+            "PPPoE → 常時接続環境でPPPを利用"
+          ],
+          "principles": [
+            "別VLAN同士ではブロードキャストパケットを届けることができない。",
+            "PPPoEはID・パスワードで認証し、成功後に接続する。"
+          ],
+          "conditions": [
+            "STP：LANがループ状になる場合のループ回避",
+            "VLAN：L2スイッチ接続端末を仮想的にグループ化"
+          ],
+          "effects": [
+            "STP＝通信ループ防止",
+            "リンクアグリゲーション＝通信容量増大＋可用性",
+            "VLAN＝仮想的なLAN分割"
+          ],
+          "exceptions": [],
+          "notes": [
+            "STPはIEEE802.1dで標準化。",
+            "VLAN方式：ポートベース / タグ / アドレスベース / ポリシーベース。",
+            "IPoEはPPPoEの後継技術として説明され、専用通信機器不要・ユーザー名/パスワード入力不要・大容量・混雑しにくい・IPv6のみ対応。"
+          ],
+          "differences": [
+            "STP＝ループ防止 / VLAN＝仮想グループ化",
+            "ポートベースVLAN＝物理ポート",
+            "タグVLAN＝VLAN ID",
+            "アドレスベースVLAN＝MAC/IP",
+            "ポリシーベースVLAN＝ネットワークプロトコル"
+          ],
+          "related": [
+            "NW5-1 TCP/IP階層モデル",
+            "NW5-4 IPv4"
+          ],
+          "exam": [
+            "ループ・ブロードキャストストーム → STP",
+            "物理構成に関係なくグループ化 → VLAN",
+            "タグ情報・VLAN ID → タグVLAN"
+          ]
+        },
+        {
+          "id": "NW5-4",
+          "title": "IPv4・サブネットマスク・CIDR",
+          "role": "インターネット層の中心となるIPv4アドレスとネットワーク範囲の指定方法を整理する。",
+          "overview": "IPv4は32ビット。IPアドレスはネットワークアドレス部とホストアドレス部から構成され、サブネットマスクやCIDRで範囲を指定する。",
+          "structure": [
+            "IPv4 → 32bit → 8bitずつ区切り10進数表記",
+            "IPアドレス → ネットワークアドレス部 + ホストアドレス部",
+            "ホスト部が全0 → ネットワークアドレス",
+            "ホスト部が全1 → ブロードキャストアドレス",
+            "サブネットマスク：1＝ネットワーク部 / 0＝ホスト部",
+            "CIDR → クラスにとらわれず任意ビット長のネットマスク"
+          ],
+          "principles": [
+            "グローバルIPアドレス＝インターネット接続用。",
+            "プライベートIPアドレス＝LANなど内部ネットワーク用。"
+          ],
+          "conditions": [],
+          "effects": [
+            "CIDRによりIPアドレスの効率的割当てやネットワーク集約によるルーティング負荷軽減が可能。"
+          ],
+          "exceptions": [],
+          "notes": [
+            "プライベートIP：10.0.0.0～10.255.255.255",
+            "プライベートIP：172.16.0.0～172.31.255.255",
+            "プライベートIP：192.168.0.0～192.168.255.255",
+            "255.255.255.0＝/24、255.255.255.240＝/28、255.255.255.252＝/30"
+          ],
+          "differences": [
+            "グローバルIP ↔ プライベートIP",
+            "従来のクラス分け ↔ CIDR"
+          ],
+          "related": [
+            "NW5-5 IPv6",
+            "NW5-6 ARP"
+          ],
+          "exam": [
+            "IPv4＝32bit",
+            "サブネットマスクの1/0",
+            "プレフィックス /24・/28・/30",
+            "プライベートIP範囲"
+          ]
+        },
+        {
+          "id": "NW5-5",
+          "title": "IPv6",
+          "role": "IPv4のアドレス枯渇問題に対応する次世代IPアドレスを理解する。",
+          "overview": "IPv6は128ビットの16進数を使用し、16ビットずつ8つにコロンで区切って表記する。",
+          "structure": [
+            "IPv6 → 128bit / 16進数",
+            "128bit → 16bit × 8 → : で区切る",
+            "連続する0 → 省略可能",
+            "複数連続する16bitの0 → :: で省略"
+          ],
+          "principles": [
+            "『::』は1つのIPv6アドレス中1か所のみ使用可能。"
+          ],
+          "conditions": [],
+          "effects": [
+            "IPアドレス枯渇問題から解放",
+            "IPsec標準実装",
+            "アドレス自動設定",
+            "効率的な経路集約でルータ負荷軽減"
+          ],
+          "exceptions": [],
+          "notes": [
+            "IPv4 over IPv6によりIPv4アドレスをIPv6内にカプセル化してIPv6で通信可能。"
+          ],
+          "differences": [
+            "IPv4＝32bit / IPv6＝128bit"
+          ],
+          "related": [
+            "NW5-4 IPv4"
+          ],
+          "exam": [
+            "IPv6＋ネットワーク層暗号化 → IPsec",
+            ":: は1か所のみ",
+            "128bit"
+          ]
+        },
+        {
+          "id": "NW5-6",
+          "title": "ICMP・ARP・RARP・VRRP",
+          "role": "IP通信を補助する問い合わせ・アドレス解決・冗長化プロトコルを整理する。",
+          "overview": "ICMPは通信状態やエラー通知、ARP/RARPはIPとMACの対応、VRRPはルータ冗長化に用いる。",
+          "structure": [
+            "ICMP → 問い合わせ / エラー通知",
+            "ARP → IPアドレスからMACアドレスを取得",
+            "RARP → MACアドレスからIPアドレスを取得",
+            "VRRP → 物理的に2台のルータを論理的に1台へ見せる"
+          ],
+          "principles": [
+            "ARP RequestはLAN内へブロードキャスト。",
+            "ARP Replyは送信元MACアドレスへユニキャストされる場合がほとんど。",
+            "ARP Requestは同一ネットワーク内にしか届かない。"
+          ],
+          "conditions": [
+            "別ネットワークのノードと通信する場合、ゲートウェイ側機器が代理でARP Replyを送信。"
+          ],
+          "effects": [
+            "ICMP＝通信状態確認・エラー通知",
+            "VRRP＝デフォルトゲートウェイの冗長化"
+          ],
+          "exceptions": [
+            "RARPは現在あまり使われていない。"
+          ],
+          "notes": [
+            "ping・tracerouteはICMPを使用。",
+            "VRRPはIETFで標準化され、マルチベンダー環境で実装可能。"
+          ],
+          "differences": [
+            "ARP＝IP→MAC",
+            "RARP＝MAC→IP",
+            "ICMP＝状態/エラー",
+            "VRRP＝ルータ冗長化"
+          ],
+          "related": [
+            "NW5-4 IPv4",
+            "NW3-3 接続機器"
+          ],
+          "exam": [
+            "ping / traceroute → ICMP",
+            "IP→MAC → ARP",
+            "MAC→IP → RARP",
+            "ルータ冗長化 → VRRP"
+          ]
+        }
+      ],
+      "review": [
+        "TCP/IP＝4階層",
+        "送信＝カプセル化、受信＝非カプセル化",
+        "Ethernet＝LAN、PPP/PPPoE＝WAN",
+        "STP＝ループ防止、VLAN＝仮想グループ化",
+        "IPv4＝32bit、IPv6＝128bit",
+        "ARP＝IP→MAC、ICMP＝通信状態・エラー",
+        "VRRP＝ルータ冗長化"
+      ]
+    },
+    {
+      "id": "NW6",
+      "title": "トランスポート層・アプリケーション層",
+      "summary": "TCP / UDP / ポート番号 / 3ウェイハンドシェイク / HTTP・HTTPS / SMTP・POP・IMAP / DHCP / DNS",
+      "map": [
+        "トランスポート層 → TCP / UDP / ポート番号",
+        "TCP → 3ウェイハンドシェイク",
+        "TCP上 → HTTP / HTTPS / SMTP / POP3 / IMAP",
+        "UDP上 → DHCP / DNS"
+      ],
+      "topics": [
+        {
+          "id": "NW6-1",
+          "title": "TCP・UDP・ポート番号",
+          "role": "トランスポート層での通信方式とサービス識別方法を理解する。",
+          "overview": "TCPとUDPはIPアドレスに加えてポート番号を使用し、1つのIPアドレスで複数サービスを提供できる。",
+          "structure": [
+            "TCP → コネクション型 / 高信頼",
+            "UDP → コネクションレス / 順序保証なし / 処理コスト小 / TCPより高速",
+            "IPアドレス + ポート番号 → サービスを識別",
+            "0～1023 → ウェルノウンポート"
+          ],
+          "principles": [
+            "TCP：宛先情報、到着確認、重複・抜け落ちチェックなどのデータ制御。",
+            "UDP：リアルタイム性が重要な音声・動画ストリーミングなどで使用。"
+          ],
+          "conditions": [],
+          "effects": [
+            "TCP＝信頼性確保",
+            "UDP＝処理速度を優先"
+          ],
+          "exceptions": [],
+          "notes": [
+            "ソケット＝IPアドレスとポート番号で通信するための機器等のインタフェース。",
+            "TCP機能：コネクション管理 / 応答確認 / シーケンス / ウィンドウ制御 / フロー制御。",
+            "UDPは送信者アドレスの偽装が容易で、DNSなどを使ったDDoS攻撃で使われることもある。"
+          ],
+          "differences": [
+            "TCP＝コネクション型・高信頼",
+            "UDP＝コネクションレス・高速"
+          ],
+          "related": [
+            "NW6-2 3ウェイハンドシェイク",
+            "NW6-3 アプリケーション層"
+          ],
+          "exam": [
+            "リアルタイム・ストリーミング → UDP",
+            "高信頼・コネクション型 → TCP",
+            "0～1023 → ウェルノウンポート"
+          ]
+        },
+        {
+          "id": "NW6-2",
+          "title": "3ウェイハンドシェイク",
+          "role": "TCPが通信前にコネクションを確立する手順を理解する。",
+          "overview": "TCPは3回のパケット送信を経てコネクションを確立する。",
+          "structure": [
+            "SYN → SYN/ACK → ACK → コネクション確立",
+            "切断：FIN → ACK → FIN → ACK"
+          ],
+          "principles": [
+            "要求元がSYN、要求先がSYN/ACK、要求元がACKを送る。"
+          ],
+          "conditions": [
+            "TCPのコネクション確立時。"
+          ],
+          "effects": [
+            "通信開始前に仮想的な通信路を確立。"
+          ],
+          "exceptions": [],
+          "notes": [],
+          "differences": [
+            "接続＝SYN/SYN-ACK/ACK",
+            "切断＝FIN/ACK/FIN/ACK"
+          ],
+          "related": [
+            "NW6-1 TCP"
+          ],
+          "exam": [
+            "順序問題：SYN → SYN/ACK → ACK"
+          ]
+        },
+        {
+          "id": "NW6-3",
+          "title": "HTTP・HTTPS・SMTP・POP・IMAP",
+          "role": "TCP上で動作する代表的なアプリケーション層プロトコルを整理する。",
+          "overview": "Web通信と電子メールで使われる代表的プロトコルを、用途・ポート番号・保存方法で区別する。",
+          "structure": [
+            "HTTP → WWW / Request→Response / TCP80",
+            "HTTPS → SSLを利用したHTTP / TCP443",
+            "SMTP → 電子メール送信 / TCP25",
+            "POP3 → 電子メール受信 / クライアントへダウンロード / TCP110",
+            "IMAP → ダウンロードせずメールサーバ上で操作・保存"
+          ],
+          "principles": [],
+          "conditions": [],
+          "effects": [],
+          "exceptions": [],
+          "notes": [
+            "HTTPステータス：200＝正しく表示、403＝アクセス禁止、404＝ページが見つからない、503＝サービスが一時的に利用不可。"
+          ],
+          "differences": [
+            "HTTP＝80 / HTTPS＝443",
+            "SMTP＝送信 / POP＝受信",
+            "POP＝DLして閲覧 / IMAP＝サーバ上で操作・保存"
+          ],
+          "related": [
+            "NW6-1 TCP・ポート番号"
+          ],
+          "exam": [
+            "80＝HTTP",
+            "443＝HTTPS",
+            "25＝SMTP",
+            "110＝POP3",
+            "404＝Not Found"
+          ]
+        },
+        {
+          "id": "NW6-4",
+          "title": "DHCP",
+          "role": "ネットワーク接続時にIPアドレスを自動割当てする仕組みを理解する。",
+          "overview": "DHCPはクライアントとサーバ間でメッセージを交換し、クライアントが使用するIPアドレスを決定する。",
+          "structure": [
+            "DHCP DISCOVER → DHCP OFFER → DHCP REQUEST → DHCP ACK",
+            "IP未割当て時：送信元 0.0.0.0 → 宛先 255.255.255.255",
+            "DHCPサーバ宛 → UDP67 / DHCPクライアント宛 → UDP68"
+          ],
+          "principles": [
+            "クライアントにIPが付与されるまでは自身のネットワークが決まっていないためブロードキャストする。"
+          ],
+          "conditions": [
+            "コンピュータがネットワークへ接続し、自動でIPアドレスを取得するとき。"
+          ],
+          "effects": [
+            "IPアドレスを自動的に割り振る。"
+          ],
+          "exceptions": [],
+          "notes": [],
+          "differences": [
+            "サーバ＝67 / クライアント＝68"
+          ],
+          "related": [
+            "NW6-1 UDP",
+            "NW5-4 IPv4"
+          ],
+          "exam": [
+            "DISCOVER→OFFER→REQUEST→ACK",
+            "0.0.0.0 / 255.255.255.255",
+            "67/68"
+          ]
+        },
+        {
+          "id": "NW6-5",
+          "title": "DNS",
+          "role": "ドメイン名とIPアドレスを対応付ける名前解決を理解する。",
+          "overview": "DNSはドメイン名とIPアドレスを対応付ける分散型サービス。",
+          "structure": [
+            "通常の名前解決 → DNSクライアントからDNSサーバへ UDP53",
+            "ゾーン転送 → DNSサーバ間で TCP53",
+            "www.example.co.jp → ルート → jp → co → example → www"
+          ],
+          "principles": [
+            "DNS名はピリオドで階層化され、各階層が下位ドメイン名やホスト名を管理する。"
+          ],
+          "conditions": [
+            "名前解決とゾーン転送では使用するトランスポートが異なる。"
+          ],
+          "effects": [
+            "ドメイン名からIPアドレスを取得。"
+          ],
+          "exceptions": [
+            "ゾーン転送はTCP53を使用。"
+          ],
+          "notes": [],
+          "differences": [
+            "通常の名前解決＝UDP53",
+            "ゾーン転送＝TCP53"
+          ],
+          "related": [
+            "NW6-1 UDP/TCP",
+            "NW5-4 IP"
+          ],
+          "exam": [
+            "ドメイン名→IP＝DNS",
+            "通常＝UDP53 / ゾーン転送＝TCP53"
+          ]
+        }
+      ],
+      "review": [
+        "TCP＝高信頼・コネクション型、UDP＝高速・コネクションレス",
+        "TCP接続＝SYN → SYN/ACK → ACK",
+        "HTTP＝80、HTTPS＝443",
+        "SMTP＝送信、POP＝DL受信、IMAP＝サーバ上操作",
+        "DHCP＝DISCOVER → OFFER → REQUEST → ACK",
+        "DHCP＝67サーバ / 68クライアント",
+        "DNS＝名前解決UDP53、ゾーン転送TCP53"
+      ]
     }
   ],
   "questions": [
@@ -849,6 +1317,374 @@ window.APP_DATA = {
       "explain": "IEEE 802.3はEthernet。802.11は無線LAN。",
       "point": "802.3＝Ethernet",
       "topic": "NW4-3"
+    },
+    {
+      "id": "NW5-Q01",
+      "type": "四択",
+      "q": "TCP/IP階層モデルはいくつの階層から構成される？",
+      "choices": [
+        "3階層",
+        "4階層",
+        "5階層",
+        "7階層"
+      ],
+      "answer": "4階層",
+      "explain": "TCP/IP階層モデルは4階層。",
+      "point": "TCP/IP＝4階層",
+      "topic": "NW5-1"
+    },
+    {
+      "id": "NW5-Q02",
+      "type": "対応",
+      "q": "Ethernetが属する階層は？",
+      "choices": [
+        "アプリケーション層",
+        "トランスポート層",
+        "インターネット層",
+        "ネットワークインタフェース層"
+      ],
+      "answer": "ネットワークインタフェース層",
+      "explain": "LANではEthernetが代表的なネットワークインタフェース層のプロトコル。",
+      "point": "LAN→Ethernet",
+      "topic": "NW5-1"
+    },
+    {
+      "id": "NW5-Q03",
+      "type": "○×",
+      "q": "送信側では下位層から上位層の順にカプセル化する。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "×",
+      "explain": "送信側はアプリケーション層からネットワークインタフェース層へ、上位層→下位層の順にカプセル化する。",
+      "point": "送信＝上→下",
+      "topic": "NW5-2"
+    },
+    {
+      "id": "NW5-Q04",
+      "type": "四択",
+      "q": "LANのループによるブロードキャストストームを防ぐものは？",
+      "choices": [
+        "VLAN",
+        "STP",
+        "ARP",
+        "ICMP"
+      ],
+      "answer": "STP",
+      "explain": "STPはループの一部を論理的にブロックして木構造として扱う。",
+      "point": "ループ・ブロードキャストストーム",
+      "topic": "NW5-3"
+    },
+    {
+      "id": "NW5-Q05",
+      "type": "四択",
+      "q": "タグVLANのグルーピングに使用するものは？",
+      "choices": [
+        "VLAN ID",
+        "ポート番号",
+        "SSID",
+        "プレフィックス長"
+      ],
+      "answer": "VLAN ID",
+      "explain": "タグVLANはパケット内のタグ情報にVLAN IDを指定する。",
+      "point": "タグ情報→VLAN ID",
+      "topic": "NW5-3"
+    },
+    {
+      "id": "NW5-Q06",
+      "type": "対応",
+      "q": "IPアドレスからMACアドレスを得るプロトコルは？",
+      "choices": [
+        "ARP",
+        "RARP",
+        "ICMP",
+        "VRRP"
+      ],
+      "answer": "ARP",
+      "explain": "ARPはIPアドレスからMACアドレスを得る。",
+      "point": "IP→MAC",
+      "topic": "NW5-6"
+    },
+    {
+      "id": "NW5-Q07",
+      "type": "対応",
+      "q": "MACアドレスからIPアドレスを得るプロトコルは？",
+      "choices": [
+        "ARP",
+        "RARP",
+        "ICMP",
+        "VRRP"
+      ],
+      "answer": "RARP",
+      "explain": "RARPはARPの逆でMACアドレスからIPアドレスを得る。",
+      "point": "MAC→IP",
+      "topic": "NW5-6"
+    },
+    {
+      "id": "NW5-Q08",
+      "type": "○×",
+      "q": "ARP Requestは別ネットワークまでブロードキャストされる。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "×",
+      "explain": "ARP Requestは同一ネットワーク内にしか届かない。",
+      "point": "ARP Request＝同一ネットワーク内",
+      "topic": "NW5-6"
+    },
+    {
+      "id": "NW5-Q09",
+      "type": "数字",
+      "q": "IPv4とIPv6のビット数の組合せとして正しいものは？",
+      "choices": [
+        "IPv4 32bit / IPv6 128bit",
+        "IPv4 64bit / IPv6 128bit",
+        "IPv4 32bit / IPv6 64bit"
+      ],
+      "answer": "IPv4 32bit / IPv6 128bit",
+      "explain": "IPv4は32bit、IPv6は128bit。",
+      "point": "32 / 128",
+      "topic": "NW5-5"
+    },
+    {
+      "id": "NW5-Q10",
+      "type": "四択",
+      "q": "255.255.255.240のプレフィックス表記は？",
+      "choices": [
+        "/16",
+        "/24",
+        "/28",
+        "/30"
+      ],
+      "answer": "/28",
+      "explain": "原資料では255.255.255.240＝/28。",
+      "point": "255.255.255.240→/28",
+      "topic": "NW5-4"
+    },
+    {
+      "id": "NW5-Q11",
+      "type": "○×",
+      "q": "IPv6の『::』は1つのIPv6アドレス内で何度でも使用できる。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "×",
+      "explain": "『::』は1つのアドレス中1か所のみ使用可能。",
+      "point": "::＝1か所のみ",
+      "topic": "NW5-5"
+    },
+    {
+      "id": "NW5-Q12",
+      "type": "資格問題型",
+      "q": "IPv6を利用した通信で、ネットワーク層の暗号化に利用するものは？",
+      "choices": [
+        "IPsec",
+        "PPP",
+        "SSH",
+        "SSL"
+      ],
+      "answer": "IPsec",
+      "explain": "原資料の例題ではIPv6の特徴としてIPsecが標準実装されている点からIPsecを選ぶ。",
+      "point": "IPv6＋ネットワーク層暗号化",
+      "topic": "NW5-5"
+    },
+    {
+      "id": "NW5-Q13",
+      "type": "着目語句",
+      "q": "『ping』『traceroute』から判断するプロトコルは？",
+      "choices": [
+        "ICMP",
+        "ARP",
+        "RARP",
+        "VRRP"
+      ],
+      "answer": "ICMP",
+      "explain": "pingやtracerouteはICMPを使用する。",
+      "point": "ping / traceroute",
+      "topic": "NW5-6"
+    },
+    {
+      "id": "NW5-Q14",
+      "type": "条件判断",
+      "q": "2台のルータを論理的に1台として見せ、デフォルトゲートウェイを冗長化するプロトコルは？",
+      "choices": [
+        "STP",
+        "VRRP",
+        "ARP",
+        "PPP"
+      ],
+      "answer": "VRRP",
+      "explain": "VRRPはネットワーク層機器の冗長化に使用される。",
+      "point": "ルータ＋冗長化＋仮想",
+      "topic": "NW5-6"
+    },
+    {
+      "id": "NW6-Q01",
+      "type": "比較",
+      "q": "TCPとUDPの違いとして正しいものは？",
+      "choices": [
+        "TCP＝コネクション型・高信頼 / UDP＝コネクションレス・高速",
+        "TCP＝コネクションレス / UDP＝コネクション型"
+      ],
+      "answer": "TCP＝コネクション型・高信頼 / UDP＝コネクションレス・高速",
+      "explain": "TCPは信頼性重視、UDPは順序保証をせず処理コストが小さい。",
+      "point": "信頼性 vs 処理速度",
+      "topic": "NW6-1"
+    },
+    {
+      "id": "NW6-Q02",
+      "type": "数字",
+      "q": "ウェルノウンポートの範囲は？",
+      "choices": [
+        "0～255",
+        "0～1023",
+        "1024～65535"
+      ],
+      "answer": "0～1023",
+      "explain": "0～1023をウェルノウンポートという。",
+      "point": "0～1023",
+      "topic": "NW6-1"
+    },
+    {
+      "id": "NW6-Q03",
+      "type": "数字",
+      "q": "HTTPSのポート番号は？",
+      "choices": [
+        "25",
+        "53",
+        "80",
+        "443"
+      ],
+      "answer": "443",
+      "explain": "HTTPSはTCP443番を使用する。",
+      "point": "HTTPS＝443",
+      "topic": "NW6-3"
+    },
+    {
+      "id": "NW6-Q04",
+      "type": "着目語句",
+      "q": "『リアルタイム』『ストリーミング』『コネクションレス』から判断するものは？",
+      "choices": [
+        "TCP",
+        "UDP"
+      ],
+      "answer": "UDP",
+      "explain": "UDPは処理速度が速く、リアルタイム性が重要な通信で使われる。",
+      "point": "リアルタイム→UDP",
+      "topic": "NW6-1"
+    },
+    {
+      "id": "NW6-Q05",
+      "type": "並べ替え",
+      "q": "TCP接続確立の正しい順序は？",
+      "choices": [
+        "SYN → SYN/ACK → ACK",
+        "ACK → SYN → SYN/ACK",
+        "FIN → ACK → FIN"
+      ],
+      "answer": "SYN → SYN/ACK → ACK",
+      "explain": "3ウェイハンドシェイクの順序。",
+      "point": "SYN→SYN/ACK→ACK",
+      "topic": "NW6-2"
+    },
+    {
+      "id": "NW6-Q06",
+      "type": "四択",
+      "q": "HTTPステータスコード404の意味は？",
+      "choices": [
+        "正しく表示",
+        "アクセス禁止",
+        "ページが見つからない",
+        "サービスが一時的に利用不可"
+      ],
+      "answer": "ページが見つからない",
+      "explain": "404はNot Found。",
+      "point": "404＝Not Found",
+      "topic": "NW6-3"
+    },
+    {
+      "id": "NW6-Q07",
+      "type": "比較",
+      "q": "SMTPとPOPの違いとして正しいものは？",
+      "choices": [
+        "SMTP＝送信 / POP＝受信",
+        "SMTP＝受信 / POP＝送信"
+      ],
+      "answer": "SMTP＝送信 / POP＝受信",
+      "explain": "SMTPは電子メールの送信、POPは受信に利用される。",
+      "point": "SMTP送信 / POP受信",
+      "topic": "NW6-3"
+    },
+    {
+      "id": "NW6-Q08",
+      "type": "比較",
+      "q": "POPとIMAPの違いとして正しいものは？",
+      "choices": [
+        "POP＝クライアントへダウンロード / IMAP＝サーバ上で操作・保存",
+        "POP＝サーバ上で操作 / IMAP＝必ずダウンロード"
+      ],
+      "answer": "POP＝クライアントへダウンロード / IMAP＝サーバ上で操作・保存",
+      "explain": "POPはクライアントにダウンロードして閲覧し、IMAPはサーバ上で操作・保存する。",
+      "point": "DL vs サーバ上",
+      "topic": "NW6-3"
+    },
+    {
+      "id": "NW6-Q09",
+      "type": "並べ替え",
+      "q": "DHCPのメッセージ交換の正しい順序は？",
+      "choices": [
+        "DISCOVER → OFFER → REQUEST → ACK",
+        "OFFER → DISCOVER → ACK → REQUEST",
+        "REQUEST → OFFER → DISCOVER → ACK"
+      ],
+      "answer": "DISCOVER → OFFER → REQUEST → ACK",
+      "explain": "DHCPのアドレス割当て手順。",
+      "point": "DORA順序",
+      "topic": "NW6-4"
+    },
+    {
+      "id": "NW6-Q10",
+      "type": "数字",
+      "q": "DHCPサーバ宛とクライアント宛のポート番号の組合せは？",
+      "choices": [
+        "サーバ67 / クライアント68",
+        "サーバ68 / クライアント67",
+        "両方53"
+      ],
+      "answer": "サーバ67 / クライアント68",
+      "explain": "DHCPサーバ宛はUDP67、クライアント宛はUDP68。",
+      "point": "Server67 / Client68",
+      "topic": "NW6-4"
+    },
+    {
+      "id": "NW6-Q11",
+      "type": "条件判断",
+      "q": "DHCPでIPアドレス未割当てのクライアントが使う送信元IPと宛先IPは？",
+      "choices": [
+        "0.0.0.0 → 255.255.255.255",
+        "127.0.0.1 → 0.0.0.0",
+        "255.255.255.255 → 0.0.0.0"
+      ],
+      "answer": "0.0.0.0 → 255.255.255.255",
+      "explain": "未割当てなので送信元0.0.0.0、宛先はブロードキャスト255.255.255.255。",
+      "point": "0.0.0.0 / 255.255.255.255",
+      "topic": "NW6-4"
+    },
+    {
+      "id": "NW6-Q12",
+      "type": "比較",
+      "q": "通常のDNS名前解決とDNSサーバ間のゾーン転送の組合せとして正しいものは？",
+      "choices": [
+        "名前解決＝UDP53 / ゾーン転送＝TCP53",
+        "名前解決＝TCP53 / ゾーン転送＝UDP53"
+      ],
+      "answer": "名前解決＝UDP53 / ゾーン転送＝TCP53",
+      "explain": "通常の名前解決はUDP53、ゾーン転送はTCP53を使用する。",
+      "point": "ゾーン転送だけTCP53",
+      "topic": "NW6-5"
     }
   ]
 };
