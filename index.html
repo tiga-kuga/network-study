@@ -35,8 +35,8 @@ details{border-top:1px solid var(--line);padding-top:10px;margin-top:10px}summar
 a{color:var(--accent)}
 </style>
 </head>
-<body data-version="v7">
-<header><h1>MY STUDY 学習アプリ</h1><div class="sub">科目 → 知識の地図 → 詳細 → 問題 → 間違えた論点へ戻る　<span style="opacity:.55">v7</span></div></header>
+<body data-version="v8">
+<header><h1>MY STUDY 学習アプリ</h1><div class="sub">科目 → 知識の地図 → 詳細 → 問題 → 間違えた論点へ戻る　<span style="opacity:.55">v8</span></div></header>
 <main id="app"></main>
 <nav>
 <button data-tab="home" class="active">🏠<br>全体</button>
@@ -47,10 +47,10 @@ a{color:var(--accent)}
 <script src="data.js"></script>
 <script>
 const D=window.APP_DATA, app=document.getElementById('app');
-let state={tab:'home',unit:null,topic:null,q:0,selected:null,answered:false};
+let state={tab:'home',unit:null,topic:null,q:0,quizTopic:null,selected:null,answered:false};
 let wrong=JSON.parse(localStorage.getItem('wrongTopics')||'[]');
 function esc(s){return String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]))}
-function setTab(t){state.tab=t;state.unit=null;state.topic=null;render();document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('active',b.dataset.tab===t))}
+function setTab(t){state.tab=t;state.unit=null;state.topic=null;if(t==='quiz')state.quizTopic=null;render();document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('active',b.dataset.tab===t))}
 document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>setTab(b.dataset.tab));
 function unitById(id){return D.units.find(u=>u.id===id)}
 function topicById(id){for(const u of D.units){const t=u.topics.find(x=>x.id===id);if(t)return {u,t}}}
@@ -76,16 +76,35 @@ const sec=(name,arr)=>arr&&arr.length?`<h4>${name}</h4><ul>${arr.map(x=>`<li>${e
 return `<button onclick="state.topic=null;render()">← 論点一覧</button><div class="card topic"><div class="small">${u.id} / ${esc(u.title)}</div><h3>${t.id} ${esc(t.title)}</h3><h4>この論点の役割</h4><div>${esc(t.role)}</div><h4>概要</h4><div>${esc(t.overview)}</div>${sec('基本構造',t.structure)}${sec('原則',t.principles)}${sec('成立条件・適用条件',t.conditions)}${sec('結論・効果',t.effects)}${sec('例外',t.exceptions)}${sec('注意点',t.notes)}${sec('似た概念との違い',t.differences)}${sec('関連論点',t.related)}${sec('資格問題での着眼点',t.exam)}<div class="btnrow"><button class="primary" onclick="startTopicQuiz('${t.id}')">この論点を問題で確認</button></div></div>`}
 return D.units.map(u=>`<div class="card"><h2>${u.id} ${esc(u.title)}</h2>${u.topics.map(t=>`<button class="choice" onclick="goTopic('${t.id}')">${t.id}　${esc(t.title)}</button>`).join('')}</div>`).join('');
 }
-function startTopicQuiz(tid){const ix=D.questions.findIndex(q=>q.topic===tid);state.q=ix>=0?ix:0;state.tab='quiz';state.selected=null;state.answered=false;render();document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('active',b.dataset.tab==='quiz'))}
+function startTopicQuiz(tid){
+const qs=D.questions.filter(q=>q.topic===tid);
+if(!qs.length)return alert('この論点に紐づく確認問題はまだありません');
+state.quizTopic=tid;
+state.q=0;
+state.tab='quiz';
+state.selected=null;
+state.answered=false;
+render();
+document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('active',b.dataset.tab==='quiz'))
+}
 function quiz(){
-const q=D.questions[state.q], pct=Math.round((state.q)/D.questions.length*100);
+const pool=state.quizTopic?D.questions.filter(x=>x.topic===state.quizTopic):D.questions;
+if(!pool.length){
+return `<div class="card"><h2>問題がありません</h2><div class="small">この論点に紐づく確認問題はまだ登録されていません。</div><div class="btnrow"><button onclick="state.tab='topics';state.quizTopic=null;render()">論点へ戻る</button></div></div>`;
+}
+if(state.q>=pool.length)state.q=0;
+const q=pool[state.q], pct=Math.round((state.q)/pool.length*100);
 let feedback='';
-if(state.answered){const ok=state.selected===q.answer; feedback=`<div class="notice ${ok?'correct':'wrong'}"><b>${ok?'正解':'不正解'}</b><br>正解：${esc(q.answer)}<br>${esc(q.explain)}<br><b>判断ポイント：</b>${esc(q.point)}<br><button class="good" onclick="goTopic('${q.topic}')">対応する論点 ${q.topic} に戻る</button></div>`}
-return `<div class="card"><div class="small">問題 ${state.q+1} / ${D.questions.length}</div><div class="progress"><div class="bar" style="width:${pct}%"></div></div><h2>${esc(q.type)}｜${esc(q.q)}</h2>${q.choices.map(c=>`<button class="choice ${state.selected===c?'selected':''}" onclick="selectChoice(${JSON.stringify(c)})">${esc(c)}</button>`).join('')}<div class="btnrow"><button class="primary" onclick="answerQ()">答え合わせ</button><button onclick="nextQ()">次の問題</button></div>${feedback}</div><div class="card"><b>間違えた論点</b><div class="small">${wrong.length?wrong.join(' / '):'まだありません'}</div><button class="bad" style="margin-top:8px" onclick="wrong=[];localStorage.setItem('wrongTopics','[]');render()">履歴を消す</button></div>`;
+if(state.answered){
+  const ok=state.selected===q.answer;
+  feedback=`<div class="notice ${ok?'correct':'wrong'}"><b>${ok?'正解':'不正解'}</b><br>正解：${esc(q.answer)}<br>${esc(q.explain)}<br><b>判断ポイント：</b>${esc(q.point)}<br><button class="good" onclick="goTopic('${q.topic}')">対応する論点 ${q.topic} に戻る</button></div>`
+}
+const mode=state.quizTopic?`<div class="notice">この論点の問題だけを出題中：<b>${esc(state.quizTopic)}</b></div>`:'';
+return `<div class="card">${mode}<div class="small">問題 ${state.q+1} / ${pool.length}</div><div class="progress"><div class="bar" style="width:${pct}%"></div></div><h2>${esc(q.type)}｜${esc(q.q)}</h2>${q.choices.map(c=>`<button class="choice ${state.selected===c?'selected':''}" onclick="selectChoice(${JSON.stringify(c)})">${esc(c)}</button>`).join('')}<div class="btnrow"><button class="primary" onclick="answerQ()">答え合わせ</button><button onclick="nextQ()">次の問題</button>${state.quizTopic?`<button onclick="goTopic('${state.quizTopic}')">この論点へ戻る</button>`:''}</div>${feedback}</div><div class="card"><b>間違えた論点</b><div class="small">${wrong.length?wrong.join(' / '):'まだありません'}</div><button class="bad" style="margin-top:8px" onclick="wrong=[];localStorage.setItem('wrongTopics','[]');render()">履歴を消す</button></div>`;
 }
 function selectChoice(c){state.selected=c;state.answered=false;render()}
-function answerQ(){if(state.selected==null)return alert('選択肢を選んでください');state.answered=true;const q=D.questions[state.q];if(state.selected!==q.answer&&!wrong.includes(q.topic)){wrong.push(q.topic);localStorage.setItem('wrongTopics',JSON.stringify(wrong))}render()}
-function nextQ(){state.q=(state.q+1)%D.questions.length;state.selected=null;state.answered=false;render()}
+function answerQ(){if(state.selected==null)return alert('選択肢を選んでください');state.answered=true;const pool=state.quizTopic?D.questions.filter(x=>x.topic===state.quizTopic):D.questions;const q=pool[state.q];if(state.selected!==q.answer&&!wrong.includes(q.topic)){wrong.push(q.topic);localStorage.setItem('wrongTopics',JSON.stringify(wrong))}render()}
+function nextQ(){const pool=state.quizTopic?D.questions.filter(x=>x.topic===state.quizTopic):D.questions;state.q=(state.q+1)%pool.length;state.selected=null;state.answered=false;render()}
 function review(){
 return D.units.map(u=>`<div class="card"><div class="small">${esc(u.category||'')}</div><h2>${u.id} ${esc(u.title)}</h2>${u.review.map(x=>`<div class="mapline">✓ ${esc(x)}</div>`).join('')}</div>`).join('');
 }
