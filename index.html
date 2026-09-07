@@ -25,6 +25,7 @@ button{border:0;border-radius:12px;padding:11px 14px;font-size:14px;font-weight:
 button.primary{background:var(--accent);color:#fff}button.good{background:#ecfdf5;color:var(--ok)}button.bad{background:#fef2f2;color:var(--ng)}
 .choice{display:block;width:100%;text-align:left;margin:8px 0;background:#f8fafc;border:1px solid var(--line)}
 .choice.selected{outline:2px solid var(--accent)}
+.topic-return-highlight{outline:3px solid var(--accent);box-shadow:0 0 0 6px rgba(37,99,235,.12);transition:outline .25s,box-shadow .25s}
 .notice{padding:12px;border-radius:12px;background:#eff6ff;font-size:13px;line-height:1.5}
 .correct{background:#ecfdf5;color:var(--ok)}.wrong{background:#fef2f2;color:var(--ng)}
 nav{position:fixed;bottom:0;left:0;right:0;background:rgba(255,255,255,.96);border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(4,1fr);padding:8px 8px max(8px,env(safe-area-inset-bottom));z-index:20}
@@ -36,7 +37,7 @@ a{color:var(--accent)}
 </style>
 </head>
 <body data-version="v8">
-<header><h1>MY STUDY 学習アプリ</h1><div class="sub">科目 → 知識の地図 → 詳細 → 問題 → 間違えた論点へ戻る　<span style="opacity:.55">v8</span></div></header>
+<header><h1>MY STUDY 学習アプリ</h1><div class="sub">科目 → 知識の地図 → 詳細 → 問題 → 間違えた論点へ戻る　<span style="opacity:.55">v9</span></div></header>
 <main id="app"></main>
 <nav>
 <button data-tab="home" class="active">🏠<br>全体</button>
@@ -47,7 +48,7 @@ a{color:var(--accent)}
 <script src="data.js"></script>
 <script>
 const D=window.APP_DATA, app=document.getElementById('app');
-let state={tab:'home',unit:null,topic:null,q:0,quizTopic:null,selected:null,answered:false};
+let state={tab:'home',unit:null,topic:null,q:0,quizTopic:null,selected:null,answered:false,scrollTarget:null};
 let wrong=JSON.parse(localStorage.getItem('wrongTopics')||'[]');
 function esc(s){return String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]))}
 function setTab(t){state.tab=t;state.unit=null;state.topic=null;if(t==='quiz')state.quizTopic=null;render();document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('active',b.dataset.tab===t))}
@@ -56,6 +57,7 @@ function unitById(id){return D.units.find(u=>u.id===id)}
 function topicById(id){for(const u of D.units){const t=u.topics.find(x=>x.id===id);if(t)return {u,t}}}
 function goUnit(id){state.unit=id;state.topic=null;render()}
 function goTopic(id){state.topic=id;state.tab='topics';render();document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('active',b.dataset.tab==='topics'))}
+function backToTopicList(id){state.topic=null;state.tab='topics';state.scrollTarget=id;render();}
 function home(){
 const cats=[...new Set(D.units.map(u=>u.category||'その他'))];
 let out=`<div class="card"><div class="big">${D.units.length}単元</div><div class="small">複数科目を1つのiPhone学習アプリで管理</div></div>`;
@@ -73,8 +75,8 @@ u.topics.map(t=>`<div class="card unit" onclick="goTopic('${t.id}')"><h3>${t.id}
 function topics(){
 if(state.topic){const z=topicById(state.topic);if(!z)return ''; const {u,t}=z;
 const sec=(name,arr)=>arr&&arr.length?`<h4>${name}</h4><ul>${arr.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:'';
-return `<button onclick="state.topic=null;render()">← 論点一覧</button><div class="card topic"><div class="small">${u.id} / ${esc(u.title)}</div><h3>${t.id} ${esc(t.title)}</h3><h4>この論点の役割</h4><div>${esc(t.role)}</div><h4>概要</h4><div>${esc(t.overview)}</div>${sec('基本構造',t.structure)}${sec('原則',t.principles)}${sec('成立条件・適用条件',t.conditions)}${sec('結論・効果',t.effects)}${sec('例外',t.exceptions)}${sec('注意点',t.notes)}${sec('似た概念との違い',t.differences)}${sec('関連論点',t.related)}${sec('資格問題での着眼点',t.exam)}<div class="btnrow"><button class="primary" onclick="startTopicQuiz('${t.id}')">この論点を問題で確認</button></div></div>`}
-return D.units.map(u=>`<div class="card"><h2>${u.id} ${esc(u.title)}</h2>${u.topics.map(t=>`<button class="choice" onclick="goTopic('${t.id}')">${t.id}　${esc(t.title)}</button>`).join('')}</div>`).join('');
+return `<button onclick="backToTopicList('${t.id}')">← 論点一覧</button><div class="card topic"><div class="small">${u.id} / ${esc(u.title)}</div><h3>${t.id} ${esc(t.title)}</h3><h4>この論点の役割</h4><div>${esc(t.role)}</div><h4>概要</h4><div>${esc(t.overview)}</div>${sec('基本構造',t.structure)}${sec('原則',t.principles)}${sec('成立条件・適用条件',t.conditions)}${sec('結論・効果',t.effects)}${sec('例外',t.exceptions)}${sec('注意点',t.notes)}${sec('似た概念との違い',t.differences)}${sec('関連論点',t.related)}${sec('資格問題での着眼点',t.exam)}<div class="btnrow"><button class="primary" onclick="startTopicQuiz('${t.id}')">この論点を問題で確認</button></div></div>`}
+return D.units.map(u=>`<div class="card"><h2>${u.id} ${esc(u.title)}</h2>${u.topics.map(t=>`<button id="topic-${t.id}" class="choice" onclick="goTopic('${t.id}')">${t.id}　${esc(t.title)}</button>`).join('')}</div>`).join('');
 }
 function startTopicQuiz(tid){
 const qs=D.questions.filter(q=>q.topic===tid);
@@ -100,15 +102,18 @@ if(state.answered){
   feedback=`<div class="notice ${ok?'correct':'wrong'}"><b>${ok?'正解':'不正解'}</b><br>正解：${esc(q.answer)}<br>${esc(q.explain)}<br><b>判断ポイント：</b>${esc(q.point)}<br><button class="good" onclick="goTopic('${q.topic}')">対応する論点 ${q.topic} に戻る</button></div>`
 }
 const mode=state.quizTopic?`<div class="notice">この論点の問題だけを出題中：<b>${esc(state.quizTopic)}</b></div>`:'';
-return `<div class="card">${mode}<div class="small">問題 ${state.q+1} / ${pool.length}</div><div class="progress"><div class="bar" style="width:${pct}%"></div></div><h2>${esc(q.type)}｜${esc(q.q)}</h2>${q.choices.map(c=>`<button class="choice ${state.selected===c?'selected':''}" onclick="selectChoice(${JSON.stringify(c)})">${esc(c)}</button>`).join('')}<div class="btnrow"><button class="primary" onclick="answerQ()">答え合わせ</button><button onclick="nextQ()">次の問題</button>${state.quizTopic?`<button onclick="goTopic('${state.quizTopic}')">この論点へ戻る</button>`:''}</div>${feedback}</div><div class="card"><b>間違えた論点</b><div class="small">${wrong.length?wrong.join(' / '):'まだありません'}</div><button class="bad" style="margin-top:8px" onclick="wrong=[];localStorage.setItem('wrongTopics','[]');render()">履歴を消す</button></div>`;
+return `<div class="card">${mode}<div class="small">問題 ${state.q+1} / ${pool.length}</div><div class="progress"><div class="bar" style="width:${pct}%"></div></div><h2>${esc(q.type)}｜${esc(q.q)}</h2>${q.choices.map((c,i)=>`<button type="button" class="choice ${state.selected===c?'selected':''}" onclick="selectChoice(${i})">${esc(c)}</button>`).join('')}<div class="btnrow"><button class="primary" onclick="answerQ()">答え合わせ</button><button onclick="nextQ()">次の問題</button>${state.quizTopic?`<button onclick="goTopic('${state.quizTopic}')">この論点へ戻る</button>`:''}</div>${feedback}</div><div class="card"><b>間違えた論点</b><div class="small">${wrong.length?wrong.join(' / '):'まだありません'}</div><button class="bad" style="margin-top:8px" onclick="wrong=[];localStorage.setItem('wrongTopics','[]');render()">履歴を消す</button></div>`;
 }
-function selectChoice(c){state.selected=c;state.answered=false;render()}
+function selectChoice(i){const pool=state.quizTopic?D.questions.filter(x=>x.topic===state.quizTopic):D.questions;const q=pool[state.q];if(!q||!q.choices||i<0||i>=q.choices.length)return;state.selected=q.choices[i];state.answered=false;render(false)}
 function answerQ(){if(state.selected==null)return alert('選択肢を選んでください');state.answered=true;const pool=state.quizTopic?D.questions.filter(x=>x.topic===state.quizTopic):D.questions;const q=pool[state.q];if(state.selected!==q.answer&&!wrong.includes(q.topic)){wrong.push(q.topic);localStorage.setItem('wrongTopics',JSON.stringify(wrong))}render()}
 function nextQ(){const pool=state.quizTopic?D.questions.filter(x=>x.topic===state.quizTopic):D.questions;state.q=(state.q+1)%pool.length;state.selected=null;state.answered=false;render()}
 function review(){
 return D.units.map(u=>`<div class="card"><div class="small">${esc(u.category||'')}</div><h2>${u.id} ${esc(u.title)}</h2>${u.review.map(x=>`<div class="mapline">✓ ${esc(x)}</div>`).join('')}</div>`).join('');
 }
-function render(){if(state.tab==='home')app.innerHTML=state.unit?unitView(unitById(state.unit)):home(); else if(state.tab==='topics')app.innerHTML=topics(); else if(state.tab==='quiz')app.innerHTML=quiz(); else app.innerHTML=review();window.scrollTo({top:0,behavior:'instant'})}
+function render(resetScroll=true){if(state.tab==='home')app.innerHTML=state.unit?unitView(unitById(state.unit)):home(); else if(state.tab==='topics')app.innerHTML=topics(); else if(state.tab==='quiz')app.innerHTML=quiz(); else app.innerHTML=review();
+const target=state.scrollTarget;
+if(target){state.scrollTarget=null;requestAnimationFrame(()=>{const el=document.getElementById('topic-'+target);if(el){el.scrollIntoView({behavior:'instant',block:'center'});el.classList.add('topic-return-highlight');setTimeout(()=>el.classList.remove('topic-return-highlight'),1400);}});}
+else if(resetScroll)window.scrollTo({top:0,behavior:'instant'});}
 render();
 if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}))}
 </script>
