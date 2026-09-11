@@ -1,4 +1,4 @@
-const CACHE='my-study-v35';
+const CACHE='my-study-v36';
 const CORE=['./','./index.html','./data.js','./manifest.webmanifest','./icon.svg'];
 
 self.addEventListener('install', event => {

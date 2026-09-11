@@ -1,0 +1,1477 @@
+{
+  "version": "v36",
+  "center_theme": "国民年金・厚生年金保険の保険料等",
+  "new_major_topics": [],
+  "new_subtopics": [],
+  "existing_topic_additions": {
+    "PEN2-1": "国民年金保険料の納付・付加保険料・前納・早割・還付",
+    "PEN2-2": "産前産後免除・法定免除・申請免除・学生納付特例・納付猶予",
+    "PEN2-3": "追納・追納加算額・付加保険料との関係",
+    "PEN2-4": "報酬・標準報酬月額・標準賞与額",
+    "PEN2-5": "定時決定・資格取得時決定・随時改定・休業終了時改定",
+    "PEN2-6": "厚生年金保険料の計算・徴収・事業主控除",
+    "PEN2-7": "育児休業等期間の保険料免除"
+  },
+  "questions": [
+    {
+      "id": "PEN2-Q01",
+      "type": "○×",
+      "q": "令和8年度における国民年金の保険料は、17,920円である。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "○",
+      "explain": "設問のとおり正しい。",
+      "point": "年度ごとの定額保険料額を確認する。",
+      "topic": "PEN2-1",
+      "source_group": "資格問題_保険料等_v36",
+      "source_section": "国民年金の保険料",
+      "source_no": 1,
+      "subtopic": "定額保険料額",
+      "attention": "令和8年度・17,920円",
+      "mistake": "年度や金額を取り違える。",
+      "review_tag": "PENSION_PREMIUM_V36_01"
+    },
+    {
+      "id": "PEN2-Q02",
+      "type": "○×",
+      "q": "保険料の免除を受けていない第1号被保険者が令和8年8月31日に死亡した場合には、8月分までの保険料が徴収されることとなる。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "○",
+      "explain": "設問のとおり。第1号被保険者としての資格喪失月との関係で判断する。",
+      "point": "死亡日と資格喪失日・被保険者期間の月を確認する。",
+      "topic": "PEN2-1",
+      "source_group": "資格問題_保険料等_v36",
+      "source_section": "国民年金の保険料",
+      "source_no": 2,
+      "subtopic": "死亡と保険料徴収",
+      "attention": "8月31日死亡・8月分",
+      "mistake": "死亡月は一律徴収しないと誤る。",
+      "review_tag": "PENSION_PREMIUM_V36_02"
+    },
+    {
+      "id": "PEN2-Q03",
+      "type": "○×",
+      "q": "65歳以上70歳未満の特例による任意加入被保険者は、付加保険料を納付することができる。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "×",
+      "explain": "65歳以上70歳未満の特例による任意加入被保険者は、付加保険料を納付することはできない。",
+      "point": "特例による任意加入被保険者かどうかを確認する。",
+      "topic": "PEN2-1",
+      "source_group": "資格問題_保険料等_v36",
+      "source_section": "国民年金の保険料",
+      "source_no": 3,
+      "subtopic": "付加保険料の対象者",
+      "attention": "65歳以上70歳未満・特例任意加入",
+      "mistake": "任意加入ならすべて付加保険料を納付できると考える。",
+      "review_tag": "PENSION_PREMIUM_V36_03"
+    },
+    {
+      "id": "PEN2-Q04",
+      "type": "○×",
+      "q": "第2号被保険者は付加保険料を納付することができないが、第3号被保険者は付加保険料を納付することができる。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "×",
+      "explain": "第2号被保険者・第3号被保険者はいずれも付加保険料を納付できない。",
+      "point": "被保険者区分ごとに付加保険料の可否を分ける。",
+      "topic": "PEN2-1",
+      "source_group": "資格問題_保険料等_v36",
+      "source_section": "国民年金の保険料",
+      "source_no": 4,
+      "subtopic": "付加保険料と被保険者区分",
+      "attention": "第2号・第3号",
+      "mistake": "第3号だけは納付できると混同する。",
+      "review_tag": "PENSION_PREMIUM_V36_04"
+    },
+    {
+      "id": "PEN2-Q05",
+      "type": "○×",
+      "q": "国民年金の保険料の納付方法は、納付書による現金納付に限る。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "×",
+      "explain": "納付書による現金納付のほか、口座振替やクレジットカード等による納付もある。",
+      "point": "「～に限る」という断定に注意する。",
+      "topic": "PEN2-1",
+      "source_group": "資格問題_保険料等_v36",
+      "source_section": "国民年金の保険料",
+      "source_no": 5,
+      "subtopic": "保険料の納付方法",
+      "attention": "現金納付に限る",
+      "mistake": "納付書だけと限定してしまう。",
+      "review_tag": "PENSION_PREMIUM_V36_05"
+    },
+    {
+      "id": "PEN2-Q06",
+      "type": "○×",
+      "q": "夫は、第1号被保険者である妻の保険料を連帯して納付する義務を負う。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "○",
+      "explain": "設問のとおり正しい。",
+      "point": "本人以外の連帯納付義務者を確認する。",
+      "topic": "PEN2-1",
+      "source_group": "資格問題_保険料等_v36",
+      "source_section": "国民年金の保険料",
+      "source_no": 6,
+      "subtopic": "連帯納付義務",
+      "attention": "夫・第1号被保険者の妻",
+      "mistake": "保険料は本人だけが納めるものと考える。",
+      "review_tag": "PENSION_PREMIUM_V36_06"
+    },
+    {
+      "id": "PEN2-Q07",
+      "type": "○×",
+      "q": "第1号被保険者は、原則として、出産予定日（産前産後期間の保険料免除の届出前に出産した場合は出産日）の属する月の前月（多胎妊娠の場合は3か月前）から出産予定月の翌々月までの期間に係る保険料を納付することを要しない。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "○",
+      "explain": "設問のとおり正しい。",
+      "point": "開始月と終了月、多胎妊娠の3か月前を確認する。",
+      "topic": "PEN2-2",
+      "source_group": "資格問題_保険料等_v36",
+      "source_section": "国民年金の保険料",
+      "source_no": 7,
+      "subtopic": "産前産後期間の保険料免除",
+      "attention": "前月・多胎3か月前・翌々月",
+      "mistake": "産前産後休業の労働法上の期間と混同する。",
+      "review_tag": "PENSION_PREMIUM_V36_07"
+    },
+    {
+      "id": "PEN2-Q08",
+      "type": "○×",
+      "q": "毎月の国民年金の保険料は、当月末日までに納付しなければならない。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "×",
+      "explain": "毎月の保険料の納期限は翌月末日。",
+      "point": "当月末か翌月末かを確認する。",
+      "topic": "PEN2-1",
+      "source_group": "資格問題_保険料等_v36",
+      "source_section": "国民年金の保険料",
+      "source_no": 8,
+      "subtopic": "納付期限",
+      "attention": "当月末日",
+      "mistake": "翌月末日を当月末日と取り違える。",
+      "review_tag": "PENSION_PREMIUM_V36_08"
+    },
+    {
+      "id": "PEN2-Q09",
+      "type": "○×",
+      "q": "第1号被保険者は、最大で3年度分の保険料を前納することができる。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "×",
+      "explain": "最大で2年度分の保険料を前納することができる。",
+      "point": "前納できる最大期間を確認する。",
+      "topic": "PEN2-1",
+      "source_group": "資格問題_保険料等_v36",
+      "source_section": "国民年金の保険料",
+      "source_no": 9,
+      "subtopic": "前納期間",
+      "attention": "3年度分・2年度分",
+      "mistake": "年数を1つ多く覚える。",
+      "review_tag": "PENSION_PREMIUM_V36_09"
+    },
+    {
+      "id": "PEN2-Q10",
+      "type": "○×",
+      "q": "毎月の保険料を、納付書により現金で当月末日までに納付すると、月額60円の割引となる。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "×",
+      "explain": "いわゆる早割制度は、口座振替による納付が対象となる。",
+      "point": "割引の条件が「現金」か「口座振替」かを確認する。",
+      "topic": "PEN2-1",
+      "source_group": "資格問題_保険料等_v36",
+      "source_section": "国民年金の保険料",
+      "source_no": 10,
+      "subtopic": "早割",
+      "attention": "現金・当月末・60円",
+      "mistake": "納付時期だけ見て納付方法を見落とす。",
+      "review_tag": "PENSION_PREMIUM_V36_10"
+    },
+    {
+      "id": "PEN2-Q11",
+      "type": "○×",
+      "q": "第1号被保険者が保険料を前納した後、前納に係る期間の経過前に第3号被保険者となった場合には、その者の請求に基づいて、前納した保険料のうち未経過期間に係る保険料が還付される。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "○",
+      "explain": "設問のとおり正しい。",
+      "point": "前納後に納付不要となった期間があるか確認する。",
+      "topic": "PEN2-1",
+      "source_group": "資格問題_保険料等_v36",
+      "source_section": "国民年金の保険料",
+      "source_no": 11,
+      "subtopic": "前納保険料の還付",
+      "attention": "前納・第3号・未経過期間",
+      "mistake": "前納した保険料は一切返らないと考える。",
+      "review_tag": "PENSION_PREMIUM_V36_11"
+    },
+    {
+      "id": "PEN2-Q12",
+      "type": "○×",
+      "q": "第1号被保険者で、産前産後期間の保険料免除及び保険料の一部免除を受ける者を除き、障害基礎年金の受給権者となったときは、その受給権者となった日の属する月の翌月から保険料の納付が免除される。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "×",
+      "explain": "障害基礎年金の受給権者となった日の属する月の前月から、既に納付された保険料を除き、保険料の納付が免除される。",
+      "point": "免除開始月が「翌月」ではなく「属する月の前月」である点を確認する。",
+      "topic": "PEN2-2",
+      "source_group": "資格問題_保険料等_v36",
+      "source_section": "国民年金の保険料",
+      "source_no": 12,
+      "subtopic": "障害基礎年金受給者の法定免除",
+      "attention": "前月・既納分を除く",
+      "mistake": "免除開始を翌月と誤る。",
+      "review_tag": "PENSION_PREMIUM_V36_12"
+    },
+    {
+      "id": "PEN2-Q13",
+      "type": "○×",
+      "q": "第1号被保険者が法定免除の事由に該当するに至ったときは、原則として、14日以内に市町村長に所定の事項を記載した届書を提出しなければならない。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "○",
+      "explain": "設問のとおり正しい。",
+      "point": "届出先と14日以内を確認する。",
+      "topic": "PEN2-2",
+      "source_group": "資格問題_保険料等_v36",
+      "source_section": "国民年金の保険料",
+      "source_no": 13,
+      "subtopic": "法定免除の届出",
+      "attention": "14日以内・市町村長",
+      "mistake": "免除だから届出不要と考える。",
+      "review_tag": "PENSION_PREMIUM_V36_13"
+    },
+    {
+      "id": "PEN2-Q14",
+      "type": "○×",
+      "q": "法定免除の期間の各月につき保険料を納付する旨の申出は、生活保護法による生活扶助を受けていることにより法定免除とされている者は行うことができない。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "×",
+      "explain": "生活扶助を受けていることにより法定免除とされている者についても、保険料を納付する旨の申出を行うことができる。",
+      "point": "「法定免除＝納付申出不可」と決めつけない。",
+      "topic": "PEN2-2",
+      "source_group": "資格問題_保険料等_v36",
+      "source_section": "国民年金の保険料",
+      "source_no": 14,
+      "subtopic": "法定免除期間の納付申出",
+      "attention": "生活扶助・納付申出",
+      "mistake": "自動的な免除だから申出できないと誤る。",
+      "review_tag": "PENSION_PREMIUM_V36_14"
+    },
+    {
+      "id": "PEN2-Q15",
+      "type": "○×",
+      "q": "夫婦（夫40歳、妻35歳。ともに第1号被保険者）の2人のみの世帯で、保険料を納付することを要しない特例について、申請による全額免除を受けるには前年所得が102万円以下でなければならない。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "×",
+      "explain": "設問の数値は誤り。画像の解説では（2＋1）×35万円＋32万円＝137万円とされている。",
+      "point": "扶養親族等の数を含む所得基準式を確認する。",
+      "topic": "PEN2-2",
+      "source_group": "資格問題_保険料等_v36",
+      "source_section": "国民年金の保険料",
+      "source_no": 15,
+      "subtopic": "全額免除の所得基準",
+      "attention": "夫婦2人・102万円・137万円",
+      "mistake": "基準額の計算式で扶養人数を誤る。",
+      "review_tag": "PENSION_PREMIUM_V36_15"
+    },
+    {
+      "id": "PEN2-Q16",
+      "type": "○×",
+      "q": "扶養親族等がない第1号被保険者について、その保険料を納付することを要しない保険料半額免除の所得基準額は168万円以下である。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "×",
+      "explain": "画像の解説では128万円以下とされている。",
+      "point": "免除区分ごとの所得基準額を確認する。",
+      "topic": "PEN2-2",
+      "source_group": "資格問題_保険料等_v36",
+      "source_section": "国民年金の保険料",
+      "source_no": 16,
+      "subtopic": "半額免除の所得基準",
+      "attention": "168万円・128万円",
+      "mistake": "別の免除区分の基準額と混同する。",
+      "review_tag": "PENSION_PREMIUM_V36_16"
+    },
+    {
+      "id": "PEN2-Q17",
+      "type": "○×",
+      "q": "申請による保険料免除の規定により保険料を納付することを要しないものとする期間のある各月はその前年において、失業により保険料を納付することが困難と認められるときは、保険料の納付が免除される場合がある。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "○",
+      "explain": "設問のとおり正しい。",
+      "point": "申請免除の特例事由として失業が示されている点を確認する。",
+      "topic": "PEN2-2",
+      "source_group": "資格問題_保険料等_v36",
+      "source_section": "国民年金の保険料",
+      "source_no": 17,
+      "subtopic": "申請免除の特例",
+      "attention": "失業・納付困難",
+      "mistake": "所得基準だけで判断してしまう。",
+      "review_tag": "PENSION_PREMIUM_V36_17"
+    },
+    {
+      "id": "PEN2-Q18",
+      "type": "○×",
+      "q": "学生納付特例は、第1号被保険者本人の所得が基準額以下であっても、配偶者の所得が基準額を超えるときは適用されない。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "×",
+      "explain": "学生納付特例を適用する場合の所得要件は、本人についてのみ問われる。",
+      "point": "誰の所得を判定する制度かを確認する。",
+      "topic": "PEN2-2",
+      "source_group": "資格問題_保険料等_v36",
+      "source_section": "国民年金の保険料",
+      "source_no": 18,
+      "subtopic": "学生納付特例の所得要件",
+      "attention": "本人・配偶者",
+      "mistake": "免除・猶予の所得要件と混同する。",
+      "review_tag": "PENSION_PREMIUM_V36_18"
+    },
+    {
+      "id": "PEN2-Q19",
+      "type": "○×",
+      "q": "納付猶予は、第1号被保険者本人の所得が基準額以下であっても、配偶者の所得が基準額を超えるときは適用されない。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "○",
+      "explain": "設問のとおり正しい。納付猶予では配偶者の所得も判定に影響する。",
+      "point": "本人だけでなく配偶者所得も確認する。",
+      "topic": "PEN2-2",
+      "source_group": "資格問題_保険料等_v36",
+      "source_section": "国民年金の保険料",
+      "source_no": 19,
+      "subtopic": "納付猶予の所得要件",
+      "attention": "本人・配偶者",
+      "mistake": "学生納付特例と同じと考える。",
+      "review_tag": "PENSION_PREMIUM_V36_19"
+    },
+    {
+      "id": "PEN2-Q20",
+      "type": "○×",
+      "q": "任意加入被保険者が障害基礎年金の受給権者となった場合、法定免除の対象となる。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "×",
+      "explain": "任意加入被保険者には保険料免除の規定は適用されない。",
+      "point": "任意加入被保険者かどうかを最初に確認する。",
+      "topic": "PEN2-2",
+      "source_group": "資格問題_保険料等_v36",
+      "source_section": "国民年金の保険料",
+      "source_no": 20,
+      "subtopic": "任意加入と免除",
+      "attention": "任意加入被保険者・法定免除",
+      "mistake": "受給権があれば一律免除と考える。",
+      "review_tag": "PENSION_PREMIUM_V36_20"
+    },
+    {
+      "id": "PEN2-Q21",
+      "type": "○×",
+      "q": "第1号被保険者が令和8年10月15日に保険料全額免除を申請する場合には、保険料免除期間について令和6年9月分に遡って免除の申請を行うことができる。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "○",
+      "explain": "設問のとおり。申請時点から2年1か月前の月まで遡って申請できる扱いを確認する。",
+      "point": "申請時点からの遡及可能期間を数える。",
+      "topic": "PEN2-2",
+      "source_group": "資格問題_保険料等_v36",
+      "source_section": "国民年金の保険料",
+      "source_no": 21,
+      "subtopic": "免除申請の遡及",
+      "attention": "令和8年10月15日・令和6年9月",
+      "mistake": "2年前と2年1か月前を混同する。",
+      "review_tag": "PENSION_PREMIUM_V36_21"
+    },
+    {
+      "id": "PEN2-Q22",
+      "type": "○×",
+      "q": "保険料の追納を行い、保険料が納付されたものとみなされた月についても、申出により付加保険料を納付することができる。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "×",
+      "explain": "追納により保険料が納付されたものとみなされた月について、付加保険料を納付することはできない。",
+      "point": "追納後に付加保険料を追加できるかを確認する。",
+      "topic": "PEN2-3",
+      "source_group": "資格問題_保険料等_v36",
+      "source_section": "国民年金の保険料",
+      "source_no": 22,
+      "subtopic": "追納と付加保険料",
+      "attention": "追納済み月・付加保険料",
+      "mistake": "通常納付と同じように付加できると考える。",
+      "review_tag": "PENSION_PREMIUM_V36_22"
+    },
+    {
+      "id": "PEN2-Q23",
+      "type": "○×",
+      "q": "45歳の障害基礎年金の受給権者は、保険料免除の規定により納付することを要しないものとされた保険料について、追納をすることができない。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "×",
+      "explain": "障害基礎年金の受給権者であっても、所定の要件を満たしていれば追納をすることができる。",
+      "point": "免除理由と追納可否を分けて判断する。",
+      "topic": "PEN2-3",
+      "source_group": "資格問題_保険料等_v36",
+      "source_section": "国民年金の保険料",
+      "source_no": 23,
+      "subtopic": "法定免除期間の追納",
+      "attention": "障害基礎年金受給権者・追納",
+      "mistake": "免除された理由だけで追納不可と決めつける。",
+      "review_tag": "PENSION_PREMIUM_V36_23"
+    },
+    {
+      "id": "PEN2-Q24",
+      "type": "○×",
+      "q": "保険料を追納する場合におけるその追納すべき額は、当該追納に係る期間の各月の保険料の額に、追納する年度に応じて定められた加算額を加算した額とされる。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "○",
+      "explain": "設問のとおり正しい。",
+      "point": "追納額＝当時の保険料額＋必要に応じた加算額。",
+      "topic": "PEN2-3",
+      "source_group": "資格問題_保険料等_v36",
+      "source_section": "国民年金の保険料",
+      "source_no": 24,
+      "subtopic": "追納額の計算",
+      "attention": "各月の保険料額・加算額",
+      "mistake": "すべての追納に同じ加算が付くと考える。",
+      "review_tag": "PENSION_PREMIUM_V36_24"
+    },
+    {
+      "id": "PEN2-Q25",
+      "type": "○×",
+      "q": "第1号被保険者が令和6年3月分の保険料について全額免除を受け、これを令和8年5月に追納する場合には、追納すべき額に政令で定める額が加算される。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "×",
+      "explain": "画像の解説では、この場合は加算されないとされている。",
+      "point": "免除年度から何年度目の追納かを数える。",
+      "topic": "PEN2-3",
+      "source_group": "資格問題_保険料等_v36",
+      "source_section": "国民年金の保険料",
+      "source_no": 25,
+      "subtopic": "追納加算額",
+      "attention": "令和6年3月・令和8年5月",
+      "mistake": "単に2年以上経過したとみて加算対象とする。",
+      "review_tag": "PENSION_PREMIUM_V36_25"
+    },
+    {
+      "id": "PEN2-Q26",
+      "type": "○×",
+      "q": "報酬とは、賃金、給料、俸給、手当、賞与その他いかなる名称であるかを問わず、労働者が労働の対償として受けるすべてのものをいう。ただし、臨時に受けるもの及び3か月を超える期間ごとに受けるものは、この限りでない。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "○",
+      "explain": "設問のとおり正しい。",
+      "point": "労働の対償か、臨時か、支給周期が3か月を超えるかを確認する。",
+      "topic": "PEN2-4",
+      "source_group": "資格問題_保険料等_v36",
+      "source_section": "厚生年金保険の保険料等",
+      "source_no": 1,
+      "subtopic": "報酬の範囲",
+      "attention": "労働の対償・臨時・3か月超",
+      "mistake": "名称だけで報酬かどうかを決める。",
+      "review_tag": "PENSION_PREMIUM_V36_26"
+    },
+    {
+      "id": "PEN2-Q27",
+      "type": "○×",
+      "q": "厚生年金保険法において、被保険者である労働者が、労働の対償として毎年期を定め四半期毎に受けるものは、賞与という名称であっても、報酬とされる。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "○",
+      "explain": "設問のとおり正しい。年4回以上支給されるものは報酬として扱われる。",
+      "point": "名称ではなく支給回数・周期を見る。",
+      "topic": "PEN2-4",
+      "source_group": "資格問題_保険料等_v36",
+      "source_section": "厚生年金保険の保険料等",
+      "source_no": 2,
+      "subtopic": "年4回以上の賞与と報酬",
+      "attention": "四半期毎・賞与という名称",
+      "mistake": "「賞与」という名前だけで賞与扱いにする。",
+      "review_tag": "PENSION_PREMIUM_V36_27"
+    },
+    {
+      "id": "PEN2-Q28",
+      "type": "○×",
+      "q": "厚生年金保険の標準報酬月額は、第1級58,000円から第32級650,000円までの32等級に区分されている。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "×",
+      "explain": "第1級88,000円から第32級650,000円までの32等級。",
+      "point": "最低等級額と等級数を確認する。",
+      "topic": "PEN2-4",
+      "source_group": "資格問題_保険料等_v36",
+      "source_section": "厚生年金保険の保険料等",
+      "source_no": 3,
+      "subtopic": "標準報酬月額の等級",
+      "attention": "58,000円・88,000円・32等級",
+      "mistake": "古い額や別制度の額と混同する。",
+      "review_tag": "PENSION_PREMIUM_V36_28"
+    },
+    {
+      "id": "PEN2-Q29",
+      "type": "○×",
+      "q": "厚生年金保険法においては、毎年3月31日における全被保険者の標準報酬月額を平均した額の100分の200に相当する額が現行の最高等級の標準報酬月額を超える場合には、その状態が継続すると認められるときは、その年の4月1日から最高等級の上に更に等級を加える標準報酬月額の等級区分の改定を行うことができる。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "×",
+      "explain": "画像の解説では、この基準日・適用時期の記述が誤りとされている。",
+      "point": "最高等級改定の基準日・適用開始時期を確認する。",
+      "topic": "PEN2-5",
+      "source_group": "資格問題_保険料等_v36",
+      "source_section": "厚生年金保険の保険料等",
+      "source_no": 4,
+      "subtopic": "最高等級の改定",
+      "attention": "3月31日・4月1日",
+      "mistake": "数字の比率だけ見て日付を見落とす。",
+      "review_tag": "PENSION_PREMIUM_V36_29"
+    },
+    {
+      "id": "PEN2-Q30",
+      "type": "○×",
+      "q": "標準報酬月額に係る定時決定は、毎年7月1日現在使用されるすべての被保険者について行われる。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "×",
+      "explain": "6月1日から7月1日までに資格取得した者、7月から9月までに随時改定・育児休業等終了時改定・産前産後休業終了時改定が行われる者などは、その年の定時決定の対象外となる。",
+      "point": "「すべて」という断定に注意し、除外対象を確認する。",
+      "topic": "PEN2-5",
+      "source_group": "資格問題_保険料等_v36",
+      "source_section": "厚生年金保険の保険料等",
+      "source_no": 5,
+      "subtopic": "定時決定の対象者",
+      "attention": "毎年7月1日・すべて",
+      "mistake": "原則対象を例外なしと覚える。",
+      "review_tag": "PENSION_PREMIUM_V36_30"
+    },
+    {
+      "id": "PEN2-Q31",
+      "type": "○×",
+      "q": "定時決定された標準報酬月額は、原則として、その年の8月から翌年の7月までの各月の標準報酬月額とされる。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "×",
+      "explain": "原則として、その年の9月から翌年8月まで。",
+      "point": "適用開始月を確認する。",
+      "topic": "PEN2-5",
+      "source_group": "資格問題_保険料等_v36",
+      "source_section": "厚生年金保険の保険料等",
+      "source_no": 6,
+      "subtopic": "定時決定の有効期間",
+      "attention": "8月～翌7月・9月～翌8月",
+      "mistake": "1か月ずらして覚える。",
+      "review_tag": "PENSION_PREMIUM_V36_31"
+    },
+    {
+      "id": "PEN2-Q32",
+      "type": "○×",
+      "q": "6月1日から12月31日までの間に被保険者資格を取得した者については、資格取得時に決定された額をその翌年の8月までの各月の標準報酬月額とする。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "○",
+      "explain": "設問のとおり正しい。",
+      "point": "資格取得時期と有効期限を対応させる。",
+      "topic": "PEN2-5",
+      "source_group": "資格問題_保険料等_v36",
+      "source_section": "厚生年金保険の保険料等",
+      "source_no": 7,
+      "subtopic": "資格取得時決定の有効期間",
+      "attention": "6月1日～12月31日・翌年8月まで",
+      "mistake": "定時決定の9月開始と混同する。",
+      "review_tag": "PENSION_PREMIUM_V36_32"
+    },
+    {
+      "id": "PEN2-Q33",
+      "type": "○×",
+      "q": "60歳以上の者が、退職した後も同一の適用事業所において継続して再雇用された場合には、一旦被保険者資格を喪失し、同時に再雇用による被保険者資格を取得することとして、資格取得時決定により標準報酬月額を決定することができる。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "○",
+      "explain": "設問のとおり正しい。",
+      "point": "60歳以上・同一事業所・継続再雇用を確認する。",
+      "topic": "PEN2-5",
+      "source_group": "資格問題_保険料等_v36",
+      "source_section": "厚生年金保険の保険料等",
+      "source_no": 8,
+      "subtopic": "60歳以上の再雇用",
+      "attention": "資格喪失・再取得",
+      "mistake": "単なる随時改定と考える。",
+      "review_tag": "PENSION_PREMIUM_V36_33"
+    },
+    {
+      "id": "PEN2-Q34",
+      "type": "○×",
+      "q": "短時間労働者以外の者について、昇給等により報酬の額に変動があった月以後の継続した3か月の報酬支払基礎日数が17日未満の月がある場合には、その月を除いて標準報酬月額を決定する。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "×",
+      "explain": "報酬支払基礎日数が17日未満の月がある場合には、随時改定は行われない。",
+      "point": "3か月すべての基礎日数要件を満たすかを見る。",
+      "topic": "PEN2-5",
+      "source_group": "資格問題_保険料等_v36",
+      "source_section": "厚生年金保険の保険料等",
+      "source_no": 9,
+      "subtopic": "随時改定の基礎日数",
+      "attention": "17日未満・除外して平均",
+      "mistake": "不足月を除外して計算できると誤る。",
+      "review_tag": "PENSION_PREMIUM_V36_34"
+    },
+    {
+      "id": "PEN2-Q35",
+      "type": "○×",
+      "q": "育児休業等終了時改定の規定によって改定された標準報酬月額は、育児休業等終了日の翌日から起算して3か月を経過した日の属する月の翌月から適用される。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "×",
+      "explain": "画像の解説では、育児休業等終了日の翌日から起算して2月を経過した日の属する月の翌月から適用されるとされている。",
+      "point": "「3か月」ではなく「2月を経過した日の属する月の翌月」。",
+      "topic": "PEN2-5",
+      "source_group": "資格問題_保険料等_v36",
+      "source_section": "厚生年金保険の保険料等",
+      "source_no": 10,
+      "subtopic": "育児休業等終了時改定",
+      "attention": "3か月・2月",
+      "mistake": "3か月平均をそのまま適用開始時期と混同する。",
+      "review_tag": "PENSION_PREMIUM_V36_35"
+    },
+    {
+      "id": "PEN2-Q36",
+      "type": "○×",
+      "q": "残業手当の減少により、産前産後休業終了日の翌日が属する月以後3か月間の報酬の平均額が従前の標準報酬月額の基礎となった報酬月額に比べ変動したが、基本給等の固定的賃金に変動がない場合には、産前産後休業終了時改定の対象とはならない。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "×",
+      "explain": "産前産後休業終了時改定は、固定的賃金の変動がなくても要件を満たせば行われる。",
+      "point": "通常の随時改定の要件を持ち込まない。",
+      "topic": "PEN2-5",
+      "source_group": "資格問題_保険料等_v36",
+      "source_section": "厚生年金保険の保険料等",
+      "source_no": 11,
+      "subtopic": "産前産後休業終了時改定",
+      "attention": "固定的賃金の変動なし",
+      "mistake": "随時改定と同じ要件だと考える。",
+      "review_tag": "PENSION_PREMIUM_V36_36"
+    },
+    {
+      "id": "PEN2-Q37",
+      "type": "○×",
+      "q": "厚生年金保険の標準賞与額については、その額が150万円を超えるときは、150万円とされる。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "○",
+      "explain": "設問のとおり正しい。",
+      "point": "厚生年金の標準賞与額の1か月上限を確認する。",
+      "topic": "PEN2-4",
+      "source_group": "資格問題_保険料等_v36",
+      "source_section": "厚生年金保険の保険料等",
+      "source_no": 12,
+      "subtopic": "標準賞与額の上限",
+      "attention": "150万円",
+      "mistake": "健康保険の年度累計上限と混同する。",
+      "review_tag": "PENSION_PREMIUM_V36_37"
+    },
+    {
+      "id": "PEN2-Q38",
+      "type": "○×",
+      "q": "7月、11月及び翌年3月にそれぞれ250万円、300万円、200万円の賞与を受けた場合、健康保険の標準賞与額は、7月250万円、11月300万円、翌年3月200万円となる。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "×",
+      "explain": "年度累計の上限573万円があるため、翌年3月の標準賞与額は23万円となる。",
+      "point": "年度累計573万円の上限から残額を計算する。",
+      "topic": "PEN2-4",
+      "source_group": "資格問題_保険料等_v36",
+      "source_section": "厚生年金保険の保険料等",
+      "source_no": 13,
+      "subtopic": "健康保険の標準賞与額上限",
+      "attention": "250万円・300万円・200万円・573万円",
+      "mistake": "各回だけを見て年度累計上限を忘れる。",
+      "review_tag": "PENSION_PREMIUM_V36_38"
+    },
+    {
+      "id": "PEN2-Q39",
+      "type": "○×",
+      "q": "厚生年金保険の保険料は被保険者期間の計算の基礎となる各月につき徴収され、その額は、標準報酬月額及び標準賞与額にそれぞれ保険料率を乗じて得た額である。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "○",
+      "explain": "設問のとおり正しい。",
+      "point": "保険料の対象月と計算基礎を確認する。",
+      "topic": "PEN2-6",
+      "source_group": "資格問題_保険料等_v36",
+      "source_section": "厚生年金保険の保険料等",
+      "source_no": 14,
+      "subtopic": "厚生年金保険料の計算",
+      "attention": "標準報酬月額・標準賞与額・保険料率",
+      "mistake": "月額だけで計算すると誤る。",
+      "review_tag": "PENSION_PREMIUM_V36_39"
+    },
+    {
+      "id": "PEN2-Q40",
+      "type": "○×",
+      "q": "第1号厚生年金被保険者に係る厚生年金保険の保険料率は、1000分の183.00である。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "○",
+      "explain": "設問のとおり正しい。",
+      "point": "保険料率の数値を確認する。",
+      "topic": "PEN2-6",
+      "source_group": "資格問題_保険料等_v36",
+      "source_section": "厚生年金保険の保険料等",
+      "source_no": 15,
+      "subtopic": "厚生年金保険料率",
+      "attention": "183.00/1000",
+      "mistake": "健康保険料率などと混同する。",
+      "review_tag": "PENSION_PREMIUM_V36_40"
+    },
+    {
+      "id": "PEN2-Q41",
+      "type": "○×",
+      "q": "月末に厚生年金保険の被保険者の資格を喪失した場合、その月分の保険料は徴収されない。また、月の末日付けで退職したときは、退職した日が属する月分の保険料は徴収されない。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "×",
+      "explain": "月末退職では資格喪失日が翌月となり、退職月は被保険者期間に算入されるため、退職月分の保険料が徴収される。",
+      "point": "退職日と資格喪失日を分けて判断する。",
+      "topic": "PEN2-6",
+      "source_group": "資格問題_保険料等_v36",
+      "source_section": "厚生年金保険の保険料等",
+      "source_no": 16,
+      "subtopic": "月末退職と当月保険料",
+      "attention": "月末退職・翌月資格喪失",
+      "mistake": "退職日＝資格喪失日と考える。",
+      "review_tag": "PENSION_PREMIUM_V36_41"
+    },
+    {
+      "id": "PEN2-Q42",
+      "type": "○×",
+      "q": "賞与が支払われた日に厚生年金保険の被保険者の資格を喪失した者については、当該被保険者に対し支払われた賞与について、保険料を徴収しない。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "○",
+      "explain": "設問のとおり正しい。",
+      "point": "賞与支給日に被保険者資格があるかを確認する。",
+      "topic": "PEN2-6",
+      "source_group": "資格問題_保険料等_v36",
+      "source_section": "厚生年金保険の保険料等",
+      "source_no": 17,
+      "subtopic": "資格喪失日と賞与保険料",
+      "attention": "賞与支給日・資格喪失",
+      "mistake": "退職前の労働に対する賞与なら徴収すると考える。",
+      "review_tag": "PENSION_PREMIUM_V36_42"
+    },
+    {
+      "id": "PEN2-Q43",
+      "type": "○×",
+      "q": "育児休業等をしている第1号厚生年金被保険者が使用される適用事業所の事業主が、厚生労働大臣に申出をしたときは、育児休業等を開始した日の属する月から、その育児休業等が終了する日の翌日が属する月までの期間に係る保険料が徴収されない。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "×",
+      "explain": "画像の解説では、終了日の翌日が属する月の前月までの期間に係る保険料を徴収しない取扱いとされている。",
+      "point": "終了月ではなく「終了日の翌日が属する月の前月」までを確認する。",
+      "topic": "PEN2-7",
+      "source_group": "資格問題_保険料等_v36",
+      "source_section": "厚生年金保険の保険料等",
+      "source_no": 18,
+      "subtopic": "育児休業等期間の保険料免除",
+      "attention": "開始月・終了日の翌日の属する月・前月",
+      "mistake": "終了日が属する月までと単純化する。",
+      "review_tag": "PENSION_PREMIUM_V36_43"
+    },
+    {
+      "id": "PEN2-Q44",
+      "type": "○×",
+      "q": "任意単独被保険者に係る毎月の保険料は、その月の10日までに納付しなければならない。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "×",
+      "explain": "任意単独被保険者に係る保険料についても、設問の「その月の10日まで」は誤り。",
+      "point": "納付期限の基準日を確認する。",
+      "topic": "PEN2-6",
+      "source_group": "資格問題_保険料等_v36",
+      "source_section": "厚生年金保険の保険料等",
+      "source_no": 19,
+      "subtopic": "任意単独被保険者の納付期限",
+      "attention": "その月の10日",
+      "mistake": "一般の納付期限と混同する。",
+      "review_tag": "PENSION_PREMIUM_V36_44"
+    },
+    {
+      "id": "PEN2-Q45",
+      "type": "○×",
+      "q": "事業主は、第1号厚生年金被保険者に対して通貨をもって報酬を支払う場合においては、被保険者の負担すべき前月の標準報酬月額に係る保険料及びその報酬に係る賞与についての保険料に相当する額を報酬から控除することができる。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "○",
+      "explain": "設問のとおり正しい。",
+      "point": "控除できる保険料が前月分と賞与分である点を確認する。",
+      "topic": "PEN2-6",
+      "source_group": "資格問題_保険料等_v36",
+      "source_section": "厚生年金保険の保険料等",
+      "source_no": 20,
+      "subtopic": "事業主による保険料控除",
+      "attention": "前月分・賞与分",
+      "mistake": "当月分を自由に控除できると考える。",
+      "review_tag": "PENSION_PREMIUM_V36_45"
+    },
+    {
+      "id": "PEN2-Q46",
+      "type": "○×",
+      "q": "前月から引き続き第1号厚生年金被保険者である者が5月31日に退職した場合には、事業主は、その被保険者の負担すべき4月の標準報酬月額に係る保険料のみに相当する額を、その者に通貨をもって支払う報酬から控除することができる。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "×",
+      "explain": "5月31日退職では資格喪失日は6月1日となり、5月分の保険料も発生するため、4月分と5月分を控除できる。",
+      "point": "月末退職→翌月1日資格喪失→退職月分保険料あり。",
+      "topic": "PEN2-6",
+      "source_group": "資格問題_保険料等_v36",
+      "source_section": "厚生年金保険の保険料等",
+      "source_no": 21,
+      "subtopic": "月末退職時の控除",
+      "attention": "5月31日退職・4月分・5月分",
+      "mistake": "退職月分は不要と誤る。",
+      "review_tag": "PENSION_PREMIUM_V36_46"
+    }
+  ],
+  "matrix": [
+    {
+      "problem": 1,
+      "section": "国民年金の保険料",
+      "major": "PEN2",
+      "subtopic": "PEN2-1",
+      "attention": "令和8年度・17,920円",
+      "criterion": "年度ごとの定額保険料額を確認する。",
+      "mistake": "年度や金額を取り違える。",
+      "review_to": "PEN2-1",
+      "review_tag": "PENSION_PREMIUM_V36_01"
+    },
+    {
+      "problem": 2,
+      "section": "国民年金の保険料",
+      "major": "PEN2",
+      "subtopic": "PEN2-1",
+      "attention": "8月31日死亡・8月分",
+      "criterion": "死亡日と資格喪失日・被保険者期間の月を確認する。",
+      "mistake": "死亡月は一律徴収しないと誤る。",
+      "review_to": "PEN2-1",
+      "review_tag": "PENSION_PREMIUM_V36_02"
+    },
+    {
+      "problem": 3,
+      "section": "国民年金の保険料",
+      "major": "PEN2",
+      "subtopic": "PEN2-1",
+      "attention": "65歳以上70歳未満・特例任意加入",
+      "criterion": "特例による任意加入被保険者かどうかを確認する。",
+      "mistake": "任意加入ならすべて付加保険料を納付できると考える。",
+      "review_to": "PEN2-1",
+      "review_tag": "PENSION_PREMIUM_V36_03"
+    },
+    {
+      "problem": 4,
+      "section": "国民年金の保険料",
+      "major": "PEN2",
+      "subtopic": "PEN2-1",
+      "attention": "第2号・第3号",
+      "criterion": "被保険者区分ごとに付加保険料の可否を分ける。",
+      "mistake": "第3号だけは納付できると混同する。",
+      "review_to": "PEN2-1",
+      "review_tag": "PENSION_PREMIUM_V36_04"
+    },
+    {
+      "problem": 5,
+      "section": "国民年金の保険料",
+      "major": "PEN2",
+      "subtopic": "PEN2-1",
+      "attention": "現金納付に限る",
+      "criterion": "「～に限る」という断定に注意する。",
+      "mistake": "納付書だけと限定してしまう。",
+      "review_to": "PEN2-1",
+      "review_tag": "PENSION_PREMIUM_V36_05"
+    },
+    {
+      "problem": 6,
+      "section": "国民年金の保険料",
+      "major": "PEN2",
+      "subtopic": "PEN2-1",
+      "attention": "夫・第1号被保険者の妻",
+      "criterion": "本人以外の連帯納付義務者を確認する。",
+      "mistake": "保険料は本人だけが納めるものと考える。",
+      "review_to": "PEN2-1",
+      "review_tag": "PENSION_PREMIUM_V36_06"
+    },
+    {
+      "problem": 7,
+      "section": "国民年金の保険料",
+      "major": "PEN2",
+      "subtopic": "PEN2-2",
+      "attention": "前月・多胎3か月前・翌々月",
+      "criterion": "開始月と終了月、多胎妊娠の3か月前を確認する。",
+      "mistake": "産前産後休業の労働法上の期間と混同する。",
+      "review_to": "PEN2-2",
+      "review_tag": "PENSION_PREMIUM_V36_07"
+    },
+    {
+      "problem": 8,
+      "section": "国民年金の保険料",
+      "major": "PEN2",
+      "subtopic": "PEN2-1",
+      "attention": "当月末日",
+      "criterion": "当月末か翌月末かを確認する。",
+      "mistake": "翌月末日を当月末日と取り違える。",
+      "review_to": "PEN2-1",
+      "review_tag": "PENSION_PREMIUM_V36_08"
+    },
+    {
+      "problem": 9,
+      "section": "国民年金の保険料",
+      "major": "PEN2",
+      "subtopic": "PEN2-1",
+      "attention": "3年度分・2年度分",
+      "criterion": "前納できる最大期間を確認する。",
+      "mistake": "年数を1つ多く覚える。",
+      "review_to": "PEN2-1",
+      "review_tag": "PENSION_PREMIUM_V36_09"
+    },
+    {
+      "problem": 10,
+      "section": "国民年金の保険料",
+      "major": "PEN2",
+      "subtopic": "PEN2-1",
+      "attention": "現金・当月末・60円",
+      "criterion": "割引の条件が「現金」か「口座振替」かを確認する。",
+      "mistake": "納付時期だけ見て納付方法を見落とす。",
+      "review_to": "PEN2-1",
+      "review_tag": "PENSION_PREMIUM_V36_10"
+    },
+    {
+      "problem": 11,
+      "section": "国民年金の保険料",
+      "major": "PEN2",
+      "subtopic": "PEN2-1",
+      "attention": "前納・第3号・未経過期間",
+      "criterion": "前納後に納付不要となった期間があるか確認する。",
+      "mistake": "前納した保険料は一切返らないと考える。",
+      "review_to": "PEN2-1",
+      "review_tag": "PENSION_PREMIUM_V36_11"
+    },
+    {
+      "problem": 12,
+      "section": "国民年金の保険料",
+      "major": "PEN2",
+      "subtopic": "PEN2-2",
+      "attention": "前月・既納分を除く",
+      "criterion": "免除開始月が「翌月」ではなく「属する月の前月」である点を確認する。",
+      "mistake": "免除開始を翌月と誤る。",
+      "review_to": "PEN2-2",
+      "review_tag": "PENSION_PREMIUM_V36_12"
+    },
+    {
+      "problem": 13,
+      "section": "国民年金の保険料",
+      "major": "PEN2",
+      "subtopic": "PEN2-2",
+      "attention": "14日以内・市町村長",
+      "criterion": "届出先と14日以内を確認する。",
+      "mistake": "免除だから届出不要と考える。",
+      "review_to": "PEN2-2",
+      "review_tag": "PENSION_PREMIUM_V36_13"
+    },
+    {
+      "problem": 14,
+      "section": "国民年金の保険料",
+      "major": "PEN2",
+      "subtopic": "PEN2-2",
+      "attention": "生活扶助・納付申出",
+      "criterion": "「法定免除＝納付申出不可」と決めつけない。",
+      "mistake": "自動的な免除だから申出できないと誤る。",
+      "review_to": "PEN2-2",
+      "review_tag": "PENSION_PREMIUM_V36_14"
+    },
+    {
+      "problem": 15,
+      "section": "国民年金の保険料",
+      "major": "PEN2",
+      "subtopic": "PEN2-2",
+      "attention": "夫婦2人・102万円・137万円",
+      "criterion": "扶養親族等の数を含む所得基準式を確認する。",
+      "mistake": "基準額の計算式で扶養人数を誤る。",
+      "review_to": "PEN2-2",
+      "review_tag": "PENSION_PREMIUM_V36_15"
+    },
+    {
+      "problem": 16,
+      "section": "国民年金の保険料",
+      "major": "PEN2",
+      "subtopic": "PEN2-2",
+      "attention": "168万円・128万円",
+      "criterion": "免除区分ごとの所得基準額を確認する。",
+      "mistake": "別の免除区分の基準額と混同する。",
+      "review_to": "PEN2-2",
+      "review_tag": "PENSION_PREMIUM_V36_16"
+    },
+    {
+      "problem": 17,
+      "section": "国民年金の保険料",
+      "major": "PEN2",
+      "subtopic": "PEN2-2",
+      "attention": "失業・納付困難",
+      "criterion": "申請免除の特例事由として失業が示されている点を確認する。",
+      "mistake": "所得基準だけで判断してしまう。",
+      "review_to": "PEN2-2",
+      "review_tag": "PENSION_PREMIUM_V36_17"
+    },
+    {
+      "problem": 18,
+      "section": "国民年金の保険料",
+      "major": "PEN2",
+      "subtopic": "PEN2-2",
+      "attention": "本人・配偶者",
+      "criterion": "誰の所得を判定する制度かを確認する。",
+      "mistake": "免除・猶予の所得要件と混同する。",
+      "review_to": "PEN2-2",
+      "review_tag": "PENSION_PREMIUM_V36_18"
+    },
+    {
+      "problem": 19,
+      "section": "国民年金の保険料",
+      "major": "PEN2",
+      "subtopic": "PEN2-2",
+      "attention": "本人・配偶者",
+      "criterion": "本人だけでなく配偶者所得も確認する。",
+      "mistake": "学生納付特例と同じと考える。",
+      "review_to": "PEN2-2",
+      "review_tag": "PENSION_PREMIUM_V36_19"
+    },
+    {
+      "problem": 20,
+      "section": "国民年金の保険料",
+      "major": "PEN2",
+      "subtopic": "PEN2-2",
+      "attention": "任意加入被保険者・法定免除",
+      "criterion": "任意加入被保険者かどうかを最初に確認する。",
+      "mistake": "受給権があれば一律免除と考える。",
+      "review_to": "PEN2-2",
+      "review_tag": "PENSION_PREMIUM_V36_20"
+    },
+    {
+      "problem": 21,
+      "section": "国民年金の保険料",
+      "major": "PEN2",
+      "subtopic": "PEN2-2",
+      "attention": "令和8年10月15日・令和6年9月",
+      "criterion": "申請時点からの遡及可能期間を数える。",
+      "mistake": "2年前と2年1か月前を混同する。",
+      "review_to": "PEN2-2",
+      "review_tag": "PENSION_PREMIUM_V36_21"
+    },
+    {
+      "problem": 22,
+      "section": "国民年金の保険料",
+      "major": "PEN2",
+      "subtopic": "PEN2-3",
+      "attention": "追納済み月・付加保険料",
+      "criterion": "追納後に付加保険料を追加できるかを確認する。",
+      "mistake": "通常納付と同じように付加できると考える。",
+      "review_to": "PEN2-3",
+      "review_tag": "PENSION_PREMIUM_V36_22"
+    },
+    {
+      "problem": 23,
+      "section": "国民年金の保険料",
+      "major": "PEN2",
+      "subtopic": "PEN2-3",
+      "attention": "障害基礎年金受給権者・追納",
+      "criterion": "免除理由と追納可否を分けて判断する。",
+      "mistake": "免除された理由だけで追納不可と決めつける。",
+      "review_to": "PEN2-3",
+      "review_tag": "PENSION_PREMIUM_V36_23"
+    },
+    {
+      "problem": 24,
+      "section": "国民年金の保険料",
+      "major": "PEN2",
+      "subtopic": "PEN2-3",
+      "attention": "各月の保険料額・加算額",
+      "criterion": "追納額＝当時の保険料額＋必要に応じた加算額。",
+      "mistake": "すべての追納に同じ加算が付くと考える。",
+      "review_to": "PEN2-3",
+      "review_tag": "PENSION_PREMIUM_V36_24"
+    },
+    {
+      "problem": 25,
+      "section": "国民年金の保険料",
+      "major": "PEN2",
+      "subtopic": "PEN2-3",
+      "attention": "令和6年3月・令和8年5月",
+      "criterion": "免除年度から何年度目の追納かを数える。",
+      "mistake": "単に2年以上経過したとみて加算対象とする。",
+      "review_to": "PEN2-3",
+      "review_tag": "PENSION_PREMIUM_V36_25"
+    },
+    {
+      "problem": 1,
+      "section": "厚生年金保険の保険料等",
+      "major": "PEN2",
+      "subtopic": "PEN2-4",
+      "attention": "労働の対償・臨時・3か月超",
+      "criterion": "労働の対償か、臨時か、支給周期が3か月を超えるかを確認する。",
+      "mistake": "名称だけで報酬かどうかを決める。",
+      "review_to": "PEN2-4",
+      "review_tag": "PENSION_PREMIUM_V36_26"
+    },
+    {
+      "problem": 2,
+      "section": "厚生年金保険の保険料等",
+      "major": "PEN2",
+      "subtopic": "PEN2-4",
+      "attention": "四半期毎・賞与という名称",
+      "criterion": "名称ではなく支給回数・周期を見る。",
+      "mistake": "「賞与」という名前だけで賞与扱いにする。",
+      "review_to": "PEN2-4",
+      "review_tag": "PENSION_PREMIUM_V36_27"
+    },
+    {
+      "problem": 3,
+      "section": "厚生年金保険の保険料等",
+      "major": "PEN2",
+      "subtopic": "PEN2-4",
+      "attention": "58,000円・88,000円・32等級",
+      "criterion": "最低等級額と等級数を確認する。",
+      "mistake": "古い額や別制度の額と混同する。",
+      "review_to": "PEN2-4",
+      "review_tag": "PENSION_PREMIUM_V36_28"
+    },
+    {
+      "problem": 4,
+      "section": "厚生年金保険の保険料等",
+      "major": "PEN2",
+      "subtopic": "PEN2-5",
+      "attention": "3月31日・4月1日",
+      "criterion": "最高等級改定の基準日・適用開始時期を確認する。",
+      "mistake": "数字の比率だけ見て日付を見落とす。",
+      "review_to": "PEN2-5",
+      "review_tag": "PENSION_PREMIUM_V36_29"
+    },
+    {
+      "problem": 5,
+      "section": "厚生年金保険の保険料等",
+      "major": "PEN2",
+      "subtopic": "PEN2-5",
+      "attention": "毎年7月1日・すべて",
+      "criterion": "「すべて」という断定に注意し、除外対象を確認する。",
+      "mistake": "原則対象を例外なしと覚える。",
+      "review_to": "PEN2-5",
+      "review_tag": "PENSION_PREMIUM_V36_30"
+    },
+    {
+      "problem": 6,
+      "section": "厚生年金保険の保険料等",
+      "major": "PEN2",
+      "subtopic": "PEN2-5",
+      "attention": "8月～翌7月・9月～翌8月",
+      "criterion": "適用開始月を確認する。",
+      "mistake": "1か月ずらして覚える。",
+      "review_to": "PEN2-5",
+      "review_tag": "PENSION_PREMIUM_V36_31"
+    },
+    {
+      "problem": 7,
+      "section": "厚生年金保険の保険料等",
+      "major": "PEN2",
+      "subtopic": "PEN2-5",
+      "attention": "6月1日～12月31日・翌年8月まで",
+      "criterion": "資格取得時期と有効期限を対応させる。",
+      "mistake": "定時決定の9月開始と混同する。",
+      "review_to": "PEN2-5",
+      "review_tag": "PENSION_PREMIUM_V36_32"
+    },
+    {
+      "problem": 8,
+      "section": "厚生年金保険の保険料等",
+      "major": "PEN2",
+      "subtopic": "PEN2-5",
+      "attention": "資格喪失・再取得",
+      "criterion": "60歳以上・同一事業所・継続再雇用を確認する。",
+      "mistake": "単なる随時改定と考える。",
+      "review_to": "PEN2-5",
+      "review_tag": "PENSION_PREMIUM_V36_33"
+    },
+    {
+      "problem": 9,
+      "section": "厚生年金保険の保険料等",
+      "major": "PEN2",
+      "subtopic": "PEN2-5",
+      "attention": "17日未満・除外して平均",
+      "criterion": "3か月すべての基礎日数要件を満たすかを見る。",
+      "mistake": "不足月を除外して計算できると誤る。",
+      "review_to": "PEN2-5",
+      "review_tag": "PENSION_PREMIUM_V36_34"
+    },
+    {
+      "problem": 10,
+      "section": "厚生年金保険の保険料等",
+      "major": "PEN2",
+      "subtopic": "PEN2-5",
+      "attention": "3か月・2月",
+      "criterion": "「3か月」ではなく「2月を経過した日の属する月の翌月」。",
+      "mistake": "3か月平均をそのまま適用開始時期と混同する。",
+      "review_to": "PEN2-5",
+      "review_tag": "PENSION_PREMIUM_V36_35"
+    },
+    {
+      "problem": 11,
+      "section": "厚生年金保険の保険料等",
+      "major": "PEN2",
+      "subtopic": "PEN2-5",
+      "attention": "固定的賃金の変動なし",
+      "criterion": "通常の随時改定の要件を持ち込まない。",
+      "mistake": "随時改定と同じ要件だと考える。",
+      "review_to": "PEN2-5",
+      "review_tag": "PENSION_PREMIUM_V36_36"
+    },
+    {
+      "problem": 12,
+      "section": "厚生年金保険の保険料等",
+      "major": "PEN2",
+      "subtopic": "PEN2-4",
+      "attention": "150万円",
+      "criterion": "厚生年金の標準賞与額の1か月上限を確認する。",
+      "mistake": "健康保険の年度累計上限と混同する。",
+      "review_to": "PEN2-4",
+      "review_tag": "PENSION_PREMIUM_V36_37"
+    },
+    {
+      "problem": 13,
+      "section": "厚生年金保険の保険料等",
+      "major": "PEN2",
+      "subtopic": "PEN2-4",
+      "attention": "250万円・300万円・200万円・573万円",
+      "criterion": "年度累計573万円の上限から残額を計算する。",
+      "mistake": "各回だけを見て年度累計上限を忘れる。",
+      "review_to": "PEN2-4",
+      "review_tag": "PENSION_PREMIUM_V36_38"
+    },
+    {
+      "problem": 14,
+      "section": "厚生年金保険の保険料等",
+      "major": "PEN2",
+      "subtopic": "PEN2-6",
+      "attention": "標準報酬月額・標準賞与額・保険料率",
+      "criterion": "保険料の対象月と計算基礎を確認する。",
+      "mistake": "月額だけで計算すると誤る。",
+      "review_to": "PEN2-6",
+      "review_tag": "PENSION_PREMIUM_V36_39"
+    },
+    {
+      "problem": 15,
+      "section": "厚生年金保険の保険料等",
+      "major": "PEN2",
+      "subtopic": "PEN2-6",
+      "attention": "183.00/1000",
+      "criterion": "保険料率の数値を確認する。",
+      "mistake": "健康保険料率などと混同する。",
+      "review_to": "PEN2-6",
+      "review_tag": "PENSION_PREMIUM_V36_40"
+    },
+    {
+      "problem": 16,
+      "section": "厚生年金保険の保険料等",
+      "major": "PEN2",
+      "subtopic": "PEN2-6",
+      "attention": "月末退職・翌月資格喪失",
+      "criterion": "退職日と資格喪失日を分けて判断する。",
+      "mistake": "退職日＝資格喪失日と考える。",
+      "review_to": "PEN2-6",
+      "review_tag": "PENSION_PREMIUM_V36_41"
+    },
+    {
+      "problem": 17,
+      "section": "厚生年金保険の保険料等",
+      "major": "PEN2",
+      "subtopic": "PEN2-6",
+      "attention": "賞与支給日・資格喪失",
+      "criterion": "賞与支給日に被保険者資格があるかを確認する。",
+      "mistake": "退職前の労働に対する賞与なら徴収すると考える。",
+      "review_to": "PEN2-6",
+      "review_tag": "PENSION_PREMIUM_V36_42"
+    },
+    {
+      "problem": 18,
+      "section": "厚生年金保険の保険料等",
+      "major": "PEN2",
+      "subtopic": "PEN2-7",
+      "attention": "開始月・終了日の翌日の属する月・前月",
+      "criterion": "終了月ではなく「終了日の翌日が属する月の前月」までを確認する。",
+      "mistake": "終了日が属する月までと単純化する。",
+      "review_to": "PEN2-7",
+      "review_tag": "PENSION_PREMIUM_V36_43"
+    },
+    {
+      "problem": 19,
+      "section": "厚生年金保険の保険料等",
+      "major": "PEN2",
+      "subtopic": "PEN2-6",
+      "attention": "その月の10日",
+      "criterion": "納付期限の基準日を確認する。",
+      "mistake": "一般の納付期限と混同する。",
+      "review_to": "PEN2-6",
+      "review_tag": "PENSION_PREMIUM_V36_44"
+    },
+    {
+      "problem": 20,
+      "section": "厚生年金保険の保険料等",
+      "major": "PEN2",
+      "subtopic": "PEN2-6",
+      "attention": "前月分・賞与分",
+      "criterion": "控除できる保険料が前月分と賞与分である点を確認する。",
+      "mistake": "当月分を自由に控除できると考える。",
+      "review_to": "PEN2-6",
+      "review_tag": "PENSION_PREMIUM_V36_45"
+    },
+    {
+      "problem": 21,
+      "section": "厚生年金保険の保険料等",
+      "major": "PEN2",
+      "subtopic": "PEN2-6",
+      "attention": "5月31日退職・4月分・5月分",
+      "criterion": "月末退職→翌月1日資格喪失→退職月分保険料あり。",
+      "mistake": "退職月分は不要と誤る。",
+      "review_to": "PEN2-6",
+      "review_tag": "PENSION_PREMIUM_V36_46"
+    }
+  ],
+  "level1_update": [
+    "PEN2 国民年金・厚生年金保険の保険料等",
+    "├─PEN2-1 国民年金保険料の納付［国民年金 Q1-11］",
+    "├─PEN2-2 保険料の免除・猶予［国民年金 Q7,12-21］",
+    "├─PEN2-3 追納［国民年金 Q22-25］",
+    "├─PEN2-4 標準報酬月額・標準賞与額［厚生年金 Q1-3,12-13］",
+    "├─PEN2-5 標準報酬月額の決定・改定［厚生年金 Q4-11］",
+    "├─PEN2-6 保険料の計算・負担・納付［厚生年金 Q14-17,19-21］",
+    "└─PEN2-7 休業期間の保険料免除［厚生年金 Q18］"
+  ],
+  "cross_analysis": {
+    "repeated": [
+      "納付期限・前納・付加保険料",
+      "免除制度の対象者・開始月・所得要件",
+      "標準報酬月額の決定・改定時期",
+      "保険料徴収月と資格喪失日"
+    ],
+    "traps": [
+      "当月末／翌月末",
+      "前月／翌月",
+      "2年度／3年度",
+      "17日／11日",
+      "8月～翌7月／9月～翌8月",
+      "退職日／資格喪失日"
+    ],
+    "principle_exception": [
+      "任意加入被保険者は保険料免除の対象外",
+      "学生納付特例は本人所得のみ",
+      "納付猶予は配偶者所得も判定",
+      "月末退職は退職月分の厚生年金保険料あり"
+    ]
+  }
+}
