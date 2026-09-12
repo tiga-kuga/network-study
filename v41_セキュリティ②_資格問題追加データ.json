@@ -1,0 +1,3623 @@
+{
+  "version": "v41",
+  "base_version": "v40",
+  "center_theme": "情報セキュリティ",
+  "source": {
+    "title": "科目A対策セレクト過去問題集12_セキュリティ②",
+    "problems": 39
+  },
+  "step1_affiliations": [
+    {
+      "center_theme": "情報セキュリティ",
+      "major_topic_id": "SEC7",
+      "major_topic": "セキュリティ対策の種類",
+      "subtopic_id": "SEC7-1",
+      "subtopic": "セキュリティ対策の機能と多層防御",
+      "question_focus": "VDIによる端末分離",
+      "problem": 1,
+      "related_topics": []
+    },
+    {
+      "center_theme": "情報セキュリティ",
+      "major_topic_id": "NW1",
+      "major_topic": "ネットワークの種類と特徴",
+      "subtopic_id": "NW1-4",
+      "subtopic": "NAT・NAPT・プロキシ",
+      "question_focus": "NAPTのセキュリティ効果",
+      "problem": 2,
+      "related_topics": []
+    },
+    {
+      "center_theme": "情報セキュリティ",
+      "major_topic_id": "SEC7",
+      "major_topic": "セキュリティ対策の種類",
+      "subtopic_id": "SEC7-6",
+      "subtopic": "ログ管理・SIEM・ディジタルフォレンジックス",
+      "question_focus": "ディジタルフォレンジックスの手順",
+      "problem": 3,
+      "related_topics": []
+    },
+    {
+      "center_theme": "情報セキュリティ",
+      "major_topic_id": "SEC7",
+      "major_topic": "セキュリティ対策の種類",
+      "subtopic_id": "SEC7-8",
+      "subtopic": "制御システム・IoT・ウイルス対策",
+      "question_focus": "フォールスネガティブ",
+      "problem": 4,
+      "related_topics": []
+    },
+    {
+      "center_theme": "情報セキュリティ",
+      "major_topic_id": "SEC9",
+      "major_topic": "アプリケーションセキュリティ",
+      "subtopic_id": "SEC9-7",
+      "subtopic": "セキュリティバイデザイン",
+      "question_focus": "SBOM",
+      "problem": 5,
+      "related_topics": [
+        "SEC1-7"
+      ]
+    },
+    {
+      "center_theme": "情報セキュリティ",
+      "major_topic_id": "SEC7",
+      "major_topic": "セキュリティ対策の種類",
+      "subtopic_id": "SEC7-9",
+      "subtopic": "物理的セキュリティ対策とRASIS",
+      "question_focus": "TPM",
+      "problem": 6,
+      "related_topics": []
+    },
+    {
+      "center_theme": "情報セキュリティ",
+      "major_topic_id": "SEC7",
+      "major_topic": "セキュリティ対策の種類",
+      "subtopic_id": "SEC7-6",
+      "subtopic": "ログ管理・SIEM・ディジタルフォレンジックス",
+      "question_focus": "SIEM",
+      "problem": 7,
+      "related_topics": []
+    },
+    {
+      "center_theme": "情報セキュリティ",
+      "major_topic_id": "SEC7",
+      "major_topic": "セキュリティ対策の種類",
+      "subtopic_id": "SEC7-9",
+      "subtopic": "物理的セキュリティ対策とRASIS",
+      "question_focus": "ICカードの耐タンパ性",
+      "problem": 8,
+      "related_topics": []
+    },
+    {
+      "center_theme": "情報セキュリティ",
+      "major_topic_id": "SEC7",
+      "major_topic": "セキュリティ対策の種類",
+      "subtopic_id": "SEC7-3",
+      "subtopic": "ファイアウォールとWAF",
+      "question_focus": "WAFの設置場所",
+      "problem": 9,
+      "related_topics": []
+    },
+    {
+      "center_theme": "情報セキュリティ",
+      "major_topic_id": "SEC7",
+      "major_topic": "セキュリティ対策の種類",
+      "subtopic_id": "SEC7-6",
+      "subtopic": "ログ管理・SIEM・ディジタルフォレンジックス",
+      "question_focus": "ディジタルフォレンジックスの定義",
+      "problem": 10,
+      "related_topics": []
+    },
+    {
+      "center_theme": "情報セキュリティ",
+      "major_topic_id": "SEC4",
+      "major_topic": "情報セキュリティに関する技術（認証技術）",
+      "subtopic_id": "SEC4-7",
+      "subtopic": "生体認証",
+      "question_focus": "虹彩認証",
+      "problem": 11,
+      "related_topics": []
+    },
+    {
+      "center_theme": "情報セキュリティ",
+      "major_topic_id": "SEC8",
+      "major_topic": "セキュアプロトコル",
+      "subtopic_id": "SEC8-4",
+      "subtopic": "WPA2・WPA3とEAP",
+      "question_focus": "WPA2-PSK",
+      "problem": 12,
+      "related_topics": []
+    },
+    {
+      "center_theme": "情報セキュリティ",
+      "major_topic_id": "SEC9",
+      "major_topic": "アプリケーションセキュリティ",
+      "subtopic_id": "SEC9-6",
+      "subtopic": "DNSSEC",
+      "question_focus": "DNSSEC",
+      "problem": 13,
+      "related_topics": [
+        "SEC3-3"
+      ]
+    },
+    {
+      "center_theme": "情報セキュリティ",
+      "major_topic_id": "SEC8",
+      "major_topic": "セキュアプロトコル",
+      "subtopic_id": "SEC8-2",
+      "subtopic": "IPsecとL2TP",
+      "question_focus": "IPsec・L2TP・TLSのOSI位置",
+      "problem": 14,
+      "related_topics": [
+        "SEC8-1"
+      ]
+    },
+    {
+      "center_theme": "情報セキュリティ",
+      "major_topic_id": "SEC7",
+      "major_topic": "セキュリティ対策の種類",
+      "subtopic_id": "SEC7-8",
+      "subtopic": "制御システム・IoT・ウイルス対策",
+      "question_focus": "サンドボックス",
+      "problem": 15,
+      "related_topics": []
+    },
+    {
+      "center_theme": "情報セキュリティ",
+      "major_topic_id": "SEC7",
+      "major_topic": "セキュリティ対策の種類",
+      "subtopic_id": "SEC7-3",
+      "subtopic": "ファイアウォールとWAF",
+      "question_focus": "パケットフィルタリングの判断情報",
+      "problem": 16,
+      "related_topics": []
+    },
+    {
+      "center_theme": "情報セキュリティ",
+      "major_topic_id": "SEC7",
+      "major_topic": "セキュリティ対策の種類",
+      "subtopic_id": "SEC7-3",
+      "subtopic": "ファイアウォールとWAF",
+      "question_focus": "WAF",
+      "problem": 17,
+      "related_topics": []
+    },
+    {
+      "center_theme": "情報セキュリティ",
+      "major_topic_id": "SEC3",
+      "major_topic": "その他の攻撃手法",
+      "subtopic_id": "SEC3-3",
+      "subtopic": "DNSキャッシュポイズニング・リフレクション攻撃",
+      "question_focus": "DNSキャッシュポイズニング対策",
+      "problem": 18,
+      "related_topics": []
+    },
+    {
+      "center_theme": "情報セキュリティ",
+      "major_topic_id": "SEC8",
+      "major_topic": "セキュアプロトコル",
+      "subtopic_id": "SEC8-1",
+      "subtopic": "SSL/TLS",
+      "question_focus": "クライアント証明書付きTLS",
+      "problem": 19,
+      "related_topics": [
+        "SEC5-6"
+      ]
+    },
+    {
+      "center_theme": "情報セキュリティ",
+      "major_topic_id": "SEC9",
+      "major_topic": "アプリケーションセキュリティ",
+      "subtopic_id": "SEC9-3",
+      "subtopic": "クロスサイトスクリプティング対策",
+      "question_focus": "XSS対策",
+      "problem": 20,
+      "related_topics": []
+    },
+    {
+      "center_theme": "情報セキュリティ",
+      "major_topic_id": "SEC5",
+      "major_topic": "情報セキュリティに関する技術（暗号技術）",
+      "subtopic_id": "SEC5-4",
+      "subtopic": "ハッシュ関数",
+      "question_focus": "ブロックチェーン",
+      "problem": 21,
+      "related_topics": []
+    },
+    {
+      "center_theme": "情報セキュリティ",
+      "major_topic_id": "SEC8",
+      "major_topic": "セキュアプロトコル",
+      "subtopic_id": "SEC8-4",
+      "subtopic": "WPA2・WPA3とEAP",
+      "question_focus": "WPA2・CCMP・AES",
+      "problem": 22,
+      "related_topics": []
+    },
+    {
+      "center_theme": "情報セキュリティ",
+      "major_topic_id": "SEC3",
+      "major_topic": "その他の攻撃手法",
+      "subtopic_id": "SEC3-2",
+      "subtopic": "IPスプーフィング・セッションハイジャック・SEOポイズニング",
+      "question_focus": "ログアウト時のセッションID無効化",
+      "problem": 23,
+      "related_topics": []
+    },
+    {
+      "center_theme": "情報セキュリティ",
+      "major_topic_id": "SEC7",
+      "major_topic": "セキュリティ対策の種類",
+      "subtopic_id": "SEC7-3",
+      "subtopic": "ファイアウォールとWAF",
+      "question_focus": "パケットフィルタリングで防げるもの",
+      "problem": 24,
+      "related_topics": []
+    },
+    {
+      "center_theme": "情報セキュリティ",
+      "major_topic_id": "SEC8",
+      "major_topic": "セキュアプロトコル",
+      "subtopic_id": "SEC8-5",
+      "subtopic": "SSH",
+      "question_focus": "SSH",
+      "problem": 25,
+      "related_topics": []
+    },
+    {
+      "center_theme": "情報セキュリティ",
+      "major_topic_id": "SEC8",
+      "major_topic": "セキュアプロトコル",
+      "subtopic_id": "SEC8-6",
+      "subtopic": "OP25BとSMTP AUTH",
+      "question_focus": "OP25B",
+      "problem": 26,
+      "related_topics": []
+    },
+    {
+      "center_theme": "情報セキュリティ",
+      "major_topic_id": "SEC8",
+      "major_topic": "セキュアプロトコル",
+      "subtopic_id": "SEC8-7",
+      "subtopic": "SPF・DKIM・DMARC",
+      "question_focus": "SPF",
+      "problem": 27,
+      "related_topics": []
+    },
+    {
+      "center_theme": "情報セキュリティ",
+      "major_topic_id": "SEC7",
+      "major_topic": "セキュリティ対策の種類",
+      "subtopic_id": "SEC7-3",
+      "subtopic": "ファイアウォールとWAF",
+      "question_focus": "WAFの通信内容検査",
+      "problem": 28,
+      "related_topics": []
+    },
+    {
+      "center_theme": "情報セキュリティ",
+      "major_topic_id": "NW5",
+      "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+      "subtopic_id": "NW5-3",
+      "subtopic": "Ethernet・STP・VLAN・PPP/PPPoE",
+      "question_focus": "VLANによるセグメント分割",
+      "problem": 29,
+      "related_topics": []
+    },
+    {
+      "center_theme": "情報セキュリティ",
+      "major_topic_id": "SEC8",
+      "major_topic": "セキュアプロトコル",
+      "subtopic_id": "SEC8-6",
+      "subtopic": "OP25BとSMTP AUTH",
+      "question_focus": "サブミッションポート587",
+      "problem": 30,
+      "related_topics": []
+    },
+    {
+      "center_theme": "情報セキュリティ",
+      "major_topic_id": "SEC9",
+      "major_topic": "アプリケーションセキュリティ",
+      "subtopic_id": "SEC9-4",
+      "subtopic": "SQLインジェクション対策",
+      "question_focus": "SQLインジェクション対策",
+      "problem": 31,
+      "related_topics": []
+    },
+    {
+      "center_theme": "情報セキュリティ",
+      "major_topic_id": "SEC3",
+      "major_topic": "その他の攻撃手法",
+      "subtopic_id": "SEC3-3",
+      "subtopic": "DNSキャッシュポイズニング・リフレクション攻撃",
+      "question_focus": "オープンリゾルバ悪用",
+      "problem": 32,
+      "related_topics": []
+    },
+    {
+      "center_theme": "情報セキュリティ",
+      "major_topic_id": "SEC3",
+      "major_topic": "その他の攻撃手法",
+      "subtopic_id": "SEC3-5",
+      "subtopic": "クリプトジャッキング・ゼロデイ・サイドチャネル",
+      "question_focus": "サイドチャネル攻撃",
+      "problem": 33,
+      "related_topics": []
+    },
+    {
+      "center_theme": "情報セキュリティ",
+      "major_topic_id": "SEC6",
+      "major_topic": "情報セキュリティマネジメント",
+      "subtopic_id": "SEC6-4",
+      "subtopic": "情報セキュリティ組織・機関",
+      "question_focus": "JPCERT/CCとCSIRTマテリアル",
+      "problem": 34,
+      "related_topics": []
+    },
+    {
+      "center_theme": "情報セキュリティ",
+      "major_topic_id": "SEC6",
+      "major_topic": "情報セキュリティマネジメント",
+      "subtopic_id": "SEC6-5",
+      "subtopic": "リスクの種類とリスクアセスメント",
+      "question_focus": "リスクアセスメント",
+      "problem": 35,
+      "related_topics": [
+        "SEC6-6",
+        "SEC6-7",
+        "SEC6-8"
+      ]
+    },
+    {
+      "center_theme": "情報セキュリティ",
+      "major_topic_id": "SEC8",
+      "major_topic": "セキュアプロトコル",
+      "subtopic_id": "SEC8-7",
+      "subtopic": "SPF・DKIM・DMARC",
+      "question_focus": "SPFの仕組み",
+      "problem": 36,
+      "related_topics": []
+    },
+    {
+      "center_theme": "情報セキュリティ",
+      "major_topic_id": "SEC7",
+      "major_topic": "セキュリティ対策の種類",
+      "subtopic_id": "SEC7-4",
+      "subtopic": "サーバの要塞化",
+      "question_focus": "セキュアOS",
+      "problem": 37,
+      "related_topics": []
+    },
+    {
+      "center_theme": "情報セキュリティ",
+      "major_topic_id": "SEC7",
+      "major_topic": "セキュリティ対策の種類",
+      "subtopic_id": "SEC7-8",
+      "subtopic": "制御システム・IoT・ウイルス対策",
+      "question_focus": "ランサムウェア対策とWORM",
+      "problem": 38,
+      "related_topics": []
+    },
+    {
+      "center_theme": "情報セキュリティ",
+      "major_topic_id": "SEC8",
+      "major_topic": "セキュアプロトコル",
+      "subtopic_id": "SEC8-7",
+      "subtopic": "SPF・DKIM・DMARC",
+      "question_focus": "DKIM",
+      "problem": 39,
+      "related_topics": []
+    }
+  ],
+  "step2_knowledge_extraction": [
+    {
+      "problem": 1,
+      "problem_theme": "VDIによる端末分離",
+      "asked": "端末へ『何を送るか』を見る。",
+      "conclusion": "正解：生成したデスクトップ画面の画像データだけをPCへ送る。VDIはサーバ側でOS・アプリケーションを実行し、画面画像だけを端末へ伝送する。",
+      "judgment_core": "条件・着目語句：VDI・画像データだけ → 判断基準：端末へ『何を送るか』を見る。 → 結論：生成したデスクトップ画面の画像データだけをPCへ送る",
+      "attention": "VDI・画像データだけ",
+      "mistake": "VDIを不正コード検知装置やファイル削除機能と考える。",
+      "review_to": "SEC7-1",
+      "review_tag": "SECURITY_A12_V41_01"
+    },
+    {
+      "problem": 2,
+      "problem_theme": "NAPTのセキュリティ効果",
+      "asked": "NAPTが変換する情報と外部から見えるアドレスを見る。",
+      "conclusion": "正解：内部PCへのインターネットからの不正アクセスを困難にする。NAPTでは内部PCのプライベートIPが外部から直接見えにくくなる。",
+      "judgment_core": "条件・着目語句：IPアドレス・ポート番号・プライベートIP → 判断基準：NAPTが変換する情報と外部から見えるアドレスを見る。 → 結論：内部PCへのインターネットからの不正アクセスを困難にする",
+      "attention": "IPアドレス・ポート番号・プライベートIP",
+      "mistake": "IDSやアプリケーションFWの機能と混同する。",
+      "review_to": "NW1-4",
+      "review_tag": "SECURITY_A12_V41_02"
+    },
+    {
+      "problem": 3,
+      "problem_theme": "ディジタルフォレンジックスの手順",
+      "asked": "事後調査・証拠・復元かを見る。",
+      "conclusion": "正解：ディスクを解析し削除ログを復元して不正アクセス痕跡を発見する。フォレンジックスは電子記録を保全・収集・検査・分析して事実と証拠性を明らかにする。",
+      "judgment_core": "条件・着目語句：削除ログ・復元・痕跡 → 判断基準：事後調査・証拠・復元かを見る。 → 結論：ディスクを解析し削除ログを復元して不正アクセス痕跡を発見する",
+      "attention": "削除ログ・復元・痕跡",
+      "mistake": "SIEMやアンチウイルスの検知と混同する。",
+      "review_to": "SEC7-6",
+      "review_tag": "SECURITY_A12_V41_03"
+    },
+    {
+      "problem": 4,
+      "problem_theme": "フォールスネガティブ",
+      "asked": "実際の状態と判定結果を2×2で考える。",
+      "conclusion": "正解：感染ファイルを非感染と判断。フォールスネガティブは異常を正常と判断する見逃し・検知漏れ。",
+      "judgment_core": "条件・着目語句：異常→正常・見逃し → 判断基準：実際の状態と判定結果を2×2で考える。 → 結論：感染ファイルを非感染と判断",
+      "attention": "異常→正常・見逃し",
+      "mistake": "フォールスポジティブと逆に覚える。",
+      "review_to": "SEC7-8",
+      "review_tag": "SECURITY_A12_V41_04"
+    },
+    {
+      "problem": 5,
+      "problem_theme": "SBOM",
+      "asked": "『構成部品』『依存関係』を見る。",
+      "conclusion": "正解：ソフトウェアを構成するコンポーネントと相互依存関係などをリスト化した一覧。SBOMはソフトウェア部品表で、構成コンポーネントと依存関係を一覧化する。",
+      "judgment_core": "条件・着目語句：Software Bill of Materials・依存関係 → 判断基準：『構成部品』『依存関係』を見る。 → 結論：ソフトウェアを構成するコンポーネントと相互依存関係などをリスト化した一覧",
+      "attention": "Software Bill of Materials・依存関係",
+      "mistake": "SIEM、IT資産台帳、脆弱性管理プロセスと混同する。",
+      "review_to": "SEC9-7",
+      "review_tag": "SECURITY_A12_V41_05"
+    },
+    {
+      "problem": 6,
+      "problem_theme": "TPM",
+      "asked": "ハードウェア・鍵・ハッシュ・暗号処理。",
+      "conclusion": "正解：PCなどに搭載され、鍵生成・ハッシュ演算・暗号処理を行うセキュリティチップ。TPMはハードウェア搭載のセキュリティチップで、耐タンパ性をもつ。",
+      "judgment_core": "条件・着目語句：TPM・セキュリティチップ・耐タンパ性 → 判断基準：ハードウェア・鍵・ハッシュ・暗号処理。 → 結論：PCなどに搭載され、鍵生成・ハッシュ演算・暗号処理を行うセキュリティチップ",
+      "attention": "TPM・セキュリティチップ・耐タンパ性",
+      "mistake": "UTMやSIEMと混同する。",
+      "review_to": "SEC7-9",
+      "review_tag": "SECURITY_A12_V41_06"
+    },
+    {
+      "problem": 7,
+      "problem_theme": "SIEM",
+      "asked": "ログの『一元収集＋相関分析』を見る。",
+      "conclusion": "正解：複数サーバやネットワーク機器のログを収集・分析し不審アクセスを検知。SIEMは複数機器のログを一元収集・分析して異常を検知する。",
+      "judgment_core": "条件・着目語句：複数機器・ログ・収集分析 → 判断基準：ログの『一元収集＋相関分析』を見る。 → 結論：複数サーバやネットワーク機器のログを収集・分析し不審アクセスを検知",
+      "attention": "複数機器・ログ・収集分析",
+      "mistake": "IPS、SNMP、NetFlowと混同する。",
+      "review_to": "SEC7-6",
+      "review_tag": "SECURITY_A12_V41_07"
+    },
+    {
+      "problem": 8,
+      "problem_theme": "ICカードの耐タンパ性",
+      "asked": "物理解析を困難にする対策かを見る。",
+      "conclusion": "正解：読み出し用プローブ取付けを検出するとICチップ内情報を消去する回路を設ける。耐タンパ性は内部構造や記録データへの解析・改ざんに対する耐性。",
+      "judgment_core": "条件・着目語句：プローブ・保存情報消去・解析困難 → 判断基準：物理解析を困難にする対策かを見る。 → 結論：読み出し用プローブ取付けを検出するとICチップ内情報を消去する回路を設ける",
+      "attention": "プローブ・保存情報消去・解析困難",
+      "mistake": "可用性や運用管理の対策を耐タンパ性と誤る。",
+      "review_to": "SEC7-9",
+      "review_tag": "SECURITY_A12_V41_08"
+    },
+    {
+      "problem": 9,
+      "problem_theme": "WAFの設置場所",
+      "asked": "WAFが平文HTTPを検査できる位置かを見る。",
+      "conclusion": "正解：SSLアクセラレータで復号された後、Webサーバへ到達する前。WAFはWebアプリケーションへの通信内容を検査するため、復号後かつWebサーバ手前に置く。",
+      "judgment_core": "条件・着目語句：WAF・SSLアクセラレータ・復号 → 判断基準：WAFが平文HTTPを検査できる位置かを見る。 → 結論：SSLアクセラレータで復号された後、Webサーバへ到達する前",
+      "attention": "WAF・SSLアクセラレータ・復号",
+      "mistake": "暗号化されたままでもWAFが内容検査できると考える。",
+      "review_to": "SEC7-3",
+      "review_tag": "SECURITY_A12_V41_09"
+    },
+    {
+      "problem": 10,
+      "problem_theme": "ディジタルフォレンジックスの定義",
+      "asked": "『法的証拠性』『保全・収集・分析』を見る。",
+      "conclusion": "正解：コンピュータ犯罪の法的証拠性を確保するため、原因究明に必要な情報を保全・収集・分析する。フォレンジックスは未然防止ではなく、発生後の調査と証拠性確保を目的とする。",
+      "judgment_core": "条件・着目語句：法的証拠性・保全・収集・分析 → 判断基準：『法的証拠性』『保全・収集・分析』を見る。 → 結論：コンピュータ犯罪の法的証拠性を確保するため、原因究明に必要な情報を保全・収集・分析する",
+      "attention": "法的証拠性・保全・収集・分析",
+      "mistake": "防御・予防策と混同する。",
+      "review_to": "SEC7-6",
+      "review_tag": "SECURITY_A12_V41_10"
+    },
+    {
+      "problem": 11,
+      "problem_theme": "虹彩認証",
+      "asked": "虹彩の安定性・非接触・認証精度を見る。",
+      "conclusion": "正解：他人受入率を顔認証より低くすることが可能。資料では虹彩は経年変化が少なく、認証精度が高く、他人受入率が非常に低いとされる。",
+      "judgment_core": "条件・着目語句：他人受入率・経年変化・非接触 → 判断基準：虹彩の安定性・非接触・認証精度を見る。 → 結論：他人受入率を顔認証より低くすることが可能",
+      "attention": "他人受入率・経年変化・非接触",
+      "mistake": "指紋認証の特徴と混同する。",
+      "review_to": "SEC4-7",
+      "review_tag": "SECURITY_A12_V41_11"
+    },
+    {
+      "problem": 12,
+      "problem_theme": "WPA2-PSK",
+      "asked": "SSIDとPSKの役割を分ける。",
+      "conclusion": "正解：APと同じSSIDと事前共有パスワードが設定された端末だけに接続を許可する。WPA2-PSKはあらかじめ設定したPre-Shared Keyを用いて認証する。",
+      "judgment_core": "条件・着目語句：WPA2-PSK・Pre-Shared Key・SSID → 判断基準：SSIDとPSKの役割を分ける。 → 結論：APと同じSSIDと事前共有パスワードが設定された端末だけに接続を許可する",
+      "attention": "WPA2-PSK・Pre-Shared Key・SSID",
+      "mistake": "SSIDそのものを暗号鍵と誤る。",
+      "review_to": "SEC8-4",
+      "review_tag": "SECURITY_A12_V41_12"
+    },
+    {
+      "problem": 13,
+      "problem_theme": "DNSSEC",
+      "asked": "ディジタル署名・公開鍵暗号方式かを見る。",
+      "conclusion": "正解：公開鍵暗号方式によるディジタル署名で正当なDNSサーバからの応答を検証する。DNSSECはDNS情報にディジタル署名を付加し完全性を保証する。",
+      "judgment_core": "条件・着目語句：DNSSEC・ディジタル署名・完全性 → 判断基準：ディジタル署名・公開鍵暗号方式かを見る。 → 結論：公開鍵暗号方式によるディジタル署名で正当なDNSサーバからの応答を検証する",
+      "attention": "DNSSEC・ディジタル署名・完全性",
+      "mistake": "ソースポートランダム化や再帰問合せ制限と混同する。",
+      "review_to": "SEC9-6",
+      "review_tag": "SECURITY_A12_V41_13"
+    },
+    {
+      "problem": 14,
+      "problem_theme": "IPsec・L2TP・TLSのOSI位置",
+      "asked": "各プロトコルの動作層を並べる。",
+      "conclusion": "正解：TLS → IPsec → L2TP。TLSは第4層、IPsecは第3層、L2TPは第2層で動作する。",
+      "judgment_core": "条件・着目語句：TLS第4層・IPsec第3層・L2TP第2層 → 判断基準：各プロトコルの動作層を並べる。 → 結論：TLS → IPsec → L2TP",
+      "attention": "TLS第4層・IPsec第3層・L2TP第2層",
+      "mistake": "名前の印象だけで順序を選ぶ。",
+      "review_to": "SEC8-2",
+      "review_tag": "SECURITY_A12_V41_14"
+    },
+    {
+      "problem": 15,
+      "problem_theme": "サンドボックス",
+      "asked": "『隔離した実行環境』を見る。",
+      "conclusion": "正解：不正動作の可能性があるプログラムを特別な領域で動作させ、他領域への悪影響を防ぐ。サンドボックスはホストOSから隔離した実行環境で不審プログラムを動かす。",
+      "judgment_core": "条件・着目語句：隔離・特別な領域・不正プログラム → 判断基準：『隔離した実行環境』を見る。 → 結論：不正動作の可能性があるプログラムを特別な領域で動作させ、他領域への悪影響を防ぐ",
+      "attention": "隔離・特別な領域・不正プログラム",
+      "mistake": "SIEM、サニタイジング、リバースプロキシと混同する。",
+      "review_to": "SEC7-8",
+      "review_tag": "SECURITY_A12_V41_15"
+    },
+    {
+      "problem": 16,
+      "problem_theme": "パケットフィルタリングの判断情報",
+      "asked": "OSI層とヘッダ情報を対応させる。",
+      "conclusion": "正解：送信元・宛先のIPアドレスとポート番号。パケットフィルタリング型FWは第3・第4層のIPアドレスやポート番号で判断する。",
+      "judgment_core": "条件・着目語句：IPアドレス・ポート番号 → 判断基準：OSI層とヘッダ情報を対応させる。 → 結論：送信元・宛先のIPアドレスとポート番号",
+      "attention": "IPアドレス・ポート番号",
+      "mistake": "HTTP内容やMACアドレスを選ぶ。",
+      "review_to": "SEC7-3",
+      "review_tag": "SECURITY_A12_V41_16"
+    },
+    {
+      "problem": 17,
+      "problem_theme": "WAF",
+      "asked": "保護対象がWebアプリケーションかを見る。",
+      "conclusion": "正解：Webアプリケーションへの攻撃を検知し阻止する。WAFはSQLインジェクションやXSSなどWebアプリケーションへの攻撃を防ぐ。",
+      "judgment_core": "条件・着目語句：WAF・Webアプリケーション → 判断基準：保護対象がWebアプリケーションかを見る。 → 結論：Webアプリケーションへの攻撃を検知し阻止する",
+      "attention": "WAF・Webアプリケーション",
+      "mistake": "HIDSやアンチウイルスと混同する。",
+      "review_to": "SEC7-3",
+      "review_tag": "SECURITY_A12_V41_17"
+    },
+    {
+      "problem": 18,
+      "problem_theme": "DNSキャッシュポイズニング対策",
+      "asked": "再帰問合せの許可範囲と予測困難性を見る。",
+      "conclusion": "正解：再帰問合せは内部ネットワークからのものだけ許可する。外部からの再帰問合せを許可しないことで攻撃に利用される範囲を制限する。",
+      "judgment_core": "条件・着目語句：再帰問合せ・内部のみ・固定しない → 判断基準：再帰問合せの許可範囲と予測困難性を見る。 → 結論：再帰問合せは内部ネットワークからのものだけ許可する",
+      "attention": "再帰問合せ・内部のみ・固定しない",
+      "mistake": "ポート番号やIDを固定すると安全になると誤る。",
+      "review_to": "SEC3-3",
+      "review_tag": "SECURITY_A12_V41_18"
+    },
+    {
+      "problem": 19,
+      "problem_theme": "クライアント証明書付きTLS",
+      "asked": "通信の両端と証明書の主体を見る。",
+      "conclusion": "正解：PCとWebサーバ間を暗号化し利用者認証。インターネット利用者のPCはDMZ上のWebサーバとTLS通信し、個人証明書により利用者認証も行える。",
+      "judgment_core": "条件・着目語句：PC・Webサーバ・利用者個人の証明書 → 判断基準：通信の両端と証明書の主体を見る。 → 結論：PCとWebサーバ間を暗号化し利用者認証",
+      "attention": "PC・Webサーバ・利用者個人の証明書",
+      "mistake": "内部DBサーバとPCが直接TLS通信すると考える。",
+      "review_to": "SEC8-1",
+      "review_tag": "SECURITY_A12_V41_19"
+    },
+    {
+      "problem": 20,
+      "problem_theme": "XSS対策",
+      "asked": "出力時にブラウザでコードとして実行されないかを見る。",
+      "conclusion": "正解：入力データの出力時にHTMLタグとして解釈されないよう処理する。XSS対策では出力データをスクリプトやHTMLとして解釈させない処理が有効。",
+      "judgment_core": "条件・着目語句：HTMLタグとして解釈されない → 判断基準：出力時にブラウザでコードとして実行されないかを見る。 → 結論：入力データの出力時にHTMLタグとして解釈されないよう処理する",
+      "attention": "HTMLタグとして解釈されない",
+      "mistake": "OSパッチや入力サイズ制限でXSSを防げると考える。",
+      "review_to": "SEC9-3",
+      "review_tag": "SECURITY_A12_V41_20"
+    },
+    {
+      "problem": 21,
+      "problem_theme": "ブロックチェーン",
+      "asked": "ハッシュの連鎖＋分散管理を見る。",
+      "conclusion": "正解：ブロックチェーン。ブロックチェーンはハッシュを利用して改ざん検知し、分散管理する台帳技術。",
+      "judgment_core": "条件・着目語句：分散型台帳・ハッシュ値・同期 → 判断基準：ハッシュの連鎖＋分散管理を見る。 → 結論：ブロックチェーン",
+      "attention": "分散型台帳・ハッシュ値・同期",
+      "mistake": "MACやXML署名と混同する。",
+      "review_to": "SEC5-4",
+      "review_tag": "SECURITY_A12_V41_21"
+    },
+    {
+      "problem": 22,
+      "problem_theme": "WPA2・CCMP・AES",
+      "asked": "プロトコル・方式・アルゴリズムの組合せを見る。",
+      "conclusion": "正解：WPA2（CCMP）・AES・128ビット。資料ではWPA2（CCMP）はAES 128ビット、WPA（TKIP）はRC4を使用すると整理している。",
+      "judgment_core": "条件・着目語句：WPA2・CCMP・AES・128ビット → 判断基準：プロトコル・方式・アルゴリズムの組合せを見る。 → 結論：WPA2（CCMP）・AES・128ビット",
+      "attention": "WPA2・CCMP・AES・128ビット",
+      "mistake": "WPA/TKIPとWPA2/CCMPを入れ替える。",
+      "review_to": "SEC8-4",
+      "review_tag": "SECURITY_A12_V41_22"
+    },
+    {
+      "problem": 23,
+      "problem_theme": "ログアウト時のセッションID無効化",
+      "asked": "ログアウト後もIDが有効かどうかを見る。",
+      "conclusion": "正解：WebサーバでセッションIDを無効にする。ログアウトとともにセッションIDを無効化すれば、盗まれたIDの再利用を防げる。",
+      "judgment_core": "条件・着目語句：ログアウト・セッションID・無効化 → 判断基準：ログアウト後もIDが有効かどうかを見る。 → 結論：WebサーバでセッションIDを無効にする",
+      "attention": "ログアウト・セッションID・無効化",
+      "mistake": "ブラウザキャッシュ削除をセッション管理と混同する。",
+      "review_to": "SEC3-2",
+      "review_tag": "SECURITY_A12_V41_23"
+    },
+    {
+      "problem": 24,
+      "problem_theme": "パケットフィルタリングで防げるもの",
+      "asked": "ヘッダ情報だけで許可/拒否できるかを見る。",
+      "conclusion": "正解：外部に公開していないサーバへのアクセス。未公開サーバ・未使用ポートへの通信はIP/ポートルールで遮断できる。",
+      "judgment_core": "条件・着目語句：未公開サーバ・IPアドレス・ポート番号 → 判断基準：ヘッダ情報だけで許可/拒否できるかを見る。 → 結論：外部に公開していないサーバへのアクセス",
+      "attention": "未公開サーバ・IPアドレス・ポート番号",
+      "mistake": "通信内容の検査が必要な攻撃も防げると考える。",
+      "review_to": "SEC7-3",
+      "review_tag": "SECURITY_A12_V41_24"
+    },
+    {
+      "problem": 25,
+      "problem_theme": "SSH",
+      "asked": "用途が『安全なリモートログイン』かを見る。",
+      "conclusion": "正解：SSH。SSHは暗号化された通信で遠隔ログイン・操作を行う。",
+      "judgment_core": "条件・着目語句：SSH・遠隔ログイン・暗号化 → 判断基準：用途が『安全なリモートログイン』かを見る。 → 結論：SSH",
+      "attention": "SSH・遠隔ログイン・暗号化",
+      "mistake": "TLSやRADIUSを選ぶ。",
+      "review_to": "SEC8-5",
+      "review_tag": "SECURITY_A12_V41_25"
+    },
+    {
+      "problem": 26,
+      "problem_theme": "OP25B",
+      "asked": "動的IPか、正規メールサーバを経由するかを見る。",
+      "conclusion": "正解：動的IPからISPのメールサーバを経由せず外部へ直接送信。OP25Bは動的IPからネットワーク外の25番ポートへの直接通信を遮断する。",
+      "judgment_core": "条件・着目語句：動的IP・25番・直接送信 → 判断基準：動的IPか、正規メールサーバを経由するかを見る。 → 結論：動的IPからISPのメールサーバを経由せず外部へ直接送信",
+      "attention": "動的IP・25番・直接送信",
+      "mistake": "固定IPや正規メールサーバ経由まで遮断すると考える。",
+      "review_to": "SEC8-6",
+      "review_tag": "SECURITY_A12_V41_26"
+    },
+    {
+      "problem": 27,
+      "problem_theme": "SPF",
+      "asked": "DNS上のSPF情報と送信元IPの一致を見る。",
+      "conclusion": "正解：受信メールの送信元IPと、送信元ドメインDNSに登録されたメールサーバIPを照合。SPFはDNSに登録された許可送信サーバ情報と実際の送信元IPを照合する。",
+      "judgment_core": "条件・着目語句：SPF・送信元IP・DNS → 判断基準：DNS上のSPF情報と送信元IPの一致を見る。 → 結論：受信メールの送信元IPと、送信元ドメインDNSに登録されたメールサーバIPを照合",
+      "attention": "SPF・送信元IP・DNS",
+      "mistake": "DNSBLやハッシュ検証と混同する。",
+      "review_to": "SEC8-7",
+      "review_tag": "SECURITY_A12_V41_27"
+    },
+    {
+      "problem": 28,
+      "problem_theme": "WAFの通信内容検査",
+      "asked": "『通信内容を検査』『Webアプリケーション』を見る。",
+      "conclusion": "正解：Webアプリケーションへの通信内容を検査し不正操作を遮断する。WAFはWebアプリケーションへの通信内容を検査し、SQLインジェクションやXSSなどを防ぐ。",
+      "judgment_core": "条件・着目語句：WAF・通信内容・不正操作遮断 → 判断基準：『通信内容を検査』『Webアプリケーション』を見る。 → 結論：Webアプリケーションへの通信内容を検査し不正操作を遮断する",
+      "attention": "WAF・通信内容・不正操作遮断",
+      "mistake": "ペネトレーションテストやSSLアクセラレータと混同する。",
+      "review_to": "SEC7-3",
+      "review_tag": "SECURITY_A12_V41_28"
+    },
+    {
+      "problem": 29,
+      "problem_theme": "VLANによるセグメント分割",
+      "asked": "VLANで変わるのはブロードキャストドメインかを見る。",
+      "conclusion": "正解：ブロードキャストの到達範囲を制限し不要なアドレス情報流出リスクを低減する。VLANは論理的にネットワークを分割し、ブロードキャストを各VLAN内に閉じ込める。",
+      "judgment_core": "条件・着目語句：VLAN・ブロードキャスト・セグメント → 判断基準：VLANで変わるのはブロードキャストドメインかを見る。 → 結論：ブロードキャストの到達範囲を制限し不要なアドレス情報流出リスクを低減する",
+      "attention": "VLAN・ブロードキャスト・セグメント",
+      "mistake": "ポートセキュリティやACLの機能と混同する。",
+      "review_to": "NW5-3",
+      "review_tag": "SECURITY_A12_V41_29"
+    },
+    {
+      "problem": 30,
+      "problem_theme": "サブミッションポート587",
+      "asked": "587番とSMTP-AUTHを結び付ける。",
+      "conclusion": "正解：SMTP-AUTHで送信者認証。OP25B環境でも正規利用者が送信できるよう、587番でSMTP-AUTHを使って認証する。",
+      "judgment_core": "条件・着目語句：587番・SMTP-AUTH・OP25B → 判断基準：587番とSMTP-AUTHを結び付ける。 → 結論：SMTP-AUTHで送信者認証",
+      "attention": "587番・SMTP-AUTH・OP25B",
+      "mistake": "SPFやPOP before SMTPと混同する。",
+      "review_to": "SEC8-6",
+      "review_tag": "SECURITY_A12_V41_30"
+    },
+    {
+      "problem": 31,
+      "problem_theme": "SQLインジェクション対策",
+      "asked": "攻撃名と対策の対応を見る。",
+      "conclusion": "正解：SQLインジェクション対策としてDB問合せ作成時にバインド機構を使う。バインド機構によって入力値をSQL構文ではなく値として扱う。",
+      "judgment_core": "条件・着目語句：SQLインジェクション・バインド機構 → 判断基準：攻撃名と対策の対応を見る。 → 結論：SQLインジェクション対策としてDB問合せ作成時にバインド機構を使う",
+      "attention": "SQLインジェクション・バインド機構",
+      "mistake": "別攻撃の対策を取り違える。",
+      "review_to": "SEC9-4",
+      "review_tag": "SECURITY_A12_V41_31"
+    },
+    {
+      "problem": 32,
+      "problem_theme": "オープンリゾルバ悪用",
+      "asked": "DNS応答が攻撃対象へ反射される構造を見る。",
+      "conclusion": "正解：送信元IPを攻撃対象に偽装したDNS問合せを多数DNSサーバへ送り、大量応答を攻撃対象へ集中。オープンリゾルバを反射元に使うDNSリフレクション型DoS。",
+      "judgment_core": "条件・着目語句：オープンリゾルバ・送信元IP偽装・DNS応答 → 判断基準：DNS応答が攻撃対象へ反射される構造を見る。 → 結論：送信元IPを攻撃対象に偽装したDNS問合せを多数DNSサーバへ送り、大量応答を攻撃対象へ集中",
+      "attention": "オープンリゾルバ・送信元IP偽装・DNS応答",
+      "mistake": "ICMPフラッド、ファーミング、第三者中継と混同する。",
+      "review_to": "SEC3-3",
+      "review_tag": "SECURITY_A12_V41_32"
+    },
+    {
+      "problem": 33,
+      "problem_theme": "サイドチャネル攻撃",
+      "asked": "処理時間・消費電流・漏えい電波などの副次情報を見る。",
+      "conclusion": "正解：暗号処理デバイスの処理時間・消費電流などから秘密情報を得る。サイドチャネル攻撃は処理中に生じる物理量やエラーメッセージを間接観測して秘密情報を得る。",
+      "judgment_core": "条件・着目語句：物理量・処理時間・消費電流 → 判断基準：処理時間・消費電流・漏えい電波などの副次情報を見る。 → 結論：暗号処理デバイスの処理時間・消費電流などから秘密情報を得る",
+      "attention": "物理量・処理時間・消費電流",
+      "mistake": "スキャベジング、MITM、SQLインジェクションと混同する。",
+      "review_to": "SEC3-5",
+      "review_tag": "SECURITY_A12_V41_33"
+    },
+    {
+      "problem": 34,
+      "problem_theme": "JPCERT/CCとCSIRTマテリアル",
+      "asked": "作成主体と資料名を対応させる。",
+      "conclusion": "正解：CSIRTマテリアル。CSIRTマテリアルは組織内CSIRTの構築を支援する目的でJPCERT/CCが作成する。",
+      "judgment_core": "条件・着目語句：JPCERT/CC・CSIRTマテリアル → 判断基準：作成主体と資料名を対応させる。 → 結論：CSIRTマテリアル",
+      "attention": "JPCERT/CC・CSIRTマテリアル",
+      "mistake": "JIPDEC、IPA、デジタル・フォレンジック研究会の資料と混同する。",
+      "review_to": "SEC6-4",
+      "review_tag": "SECURITY_A12_V41_34"
+    },
+    {
+      "problem": 35,
+      "problem_theme": "リスクアセスメント",
+      "asked": "リスクアセスメントの範囲を見る。",
+      "conclusion": "正解：リスク特定・リスク分析・リスク評価。リスクアセスメントはリスク特定→リスク分析→リスク評価。リスク対応はその後。",
+      "judgment_core": "条件・着目語句：リスク特定・分析・評価 → 判断基準：リスクアセスメントの範囲を見る。 → 結論：リスク特定・リスク分析・リスク評価",
+      "attention": "リスク特定・分析・評価",
+      "mistake": "リスク対応・受容を含める。",
+      "review_to": "SEC6-5",
+      "review_tag": "SECURITY_A12_V41_35"
+    },
+    {
+      "problem": 36,
+      "problem_theme": "SPFの仕組み",
+      "asked": "SPF＝DNSの許可IP照合。",
+      "conclusion": "正解：受信サーバが送信元ドメイン情報と実際の送信サーバIPからドメイン詐称を確認する。受信サーバはDNSのSPFレコードに登録された許可送信サーバと実際の送信元IPを照合する。",
+      "judgment_core": "条件・着目語句：送信元ドメイン・SPFレコード・送信元IP → 判断基準：SPF＝DNSの許可IP照合。 → 結論：受信サーバが送信元ドメイン情報と実際の送信サーバIPからドメイン詐称を確認する",
+      "attention": "送信元ドメイン・SPFレコード・送信元IP",
+      "mistake": "DKIMのデジタル署名と混同する。",
+      "review_to": "SEC8-7",
+      "review_tag": "SECURITY_A12_V41_36"
+    },
+    {
+      "problem": 37,
+      "problem_theme": "セキュアOS",
+      "asked": "OSの強制アクセス制御かを見る。",
+      "conclusion": "正解：強制アクセス制御でファイル更新を禁止し、侵入後も改ざんを防止できる。セキュアOSはアクセス制御強化や最小権限化によってOSレベルの保護を強化する。",
+      "judgment_core": "条件・着目語句：セキュアOS・強制アクセス制御・最小権限 → 判断基準：OSの強制アクセス制御かを見る。 → 結論：強制アクセス制御でファイル更新を禁止し、侵入後も改ざんを防止できる",
+      "attention": "セキュアOS・強制アクセス制御・最小権限",
+      "mistake": "SSO、WAF、多要素認証と混同する。",
+      "review_to": "SEC7-4",
+      "review_tag": "SECURITY_A12_V41_37"
+    },
+    {
+      "problem": 38,
+      "problem_theme": "ランサムウェア対策とWORM",
+      "asked": "バックアップ先が後から書換可能かを見る。",
+      "conclusion": "正解：WORM機能をもつストレージへ重要データをバックアップ。WORMは一度書き込んだデータを後から変更・削除できず、感染端末からの暗号化被害を受けにくい。",
+      "judgment_core": "条件・着目語句：WORM・変更不可・バックアップ → 判断基準：バックアップ先が後から書換可能かを見る。 → 結論：WORM機能をもつストレージへ重要データをバックアップ",
+      "attention": "WORM・変更不可・バックアップ",
+      "mistake": "RAIDやオンラインレプリケーションをバックアップ保護と同一視する。",
+      "review_to": "SEC7-8",
+      "review_tag": "SECURITY_A12_V41_38"
+    },
+    {
+      "problem": 39,
+      "problem_theme": "DKIM",
+      "asked": "デジタル署名を使う送信ドメイン認証かを見る。",
+      "conclusion": "正解：送信側メールサーバでメールにデジタル署名を付与し、受信側で検証して送信元ドメインを認証する。DKIMは電子メールへデジタル署名を付与し、受信側で検証して送信元の正当性を確認する。",
+      "judgment_core": "条件・着目語句：DKIM・デジタル署名・送信元ドメイン → 判断基準：デジタル署名を使う送信ドメイン認証かを見る。 → 結論：送信側メールサーバでメールにデジタル署名を付与し、受信側で検証して送信元ドメインを認証する",
+      "attention": "DKIM・デジタル署名・送信元ドメイン",
+      "mistake": "SMTP-AUTH、DMARC、SPFと混同する。",
+      "review_to": "SEC8-7",
+      "review_tag": "SECURITY_A12_V41_39"
+    }
+  ],
+  "step3_level2_additions": {
+    "NW1-4": {
+      "notes": [
+        "NAPTはIPアドレスとポート番号を変換し、インターネット側からはルータのグローバルIPアドレスが見える。",
+        "内部PCのプライベートIPアドレスを外部から直接見えにくくするため、インターネットから内部PCへの不正アクセスを困難にする効果がある。"
+      ],
+      "exam": [
+        "NAPTは侵入検知・遮断やHTTP内容の検査を行う機能ではない。"
+      ]
+    },
+    "NW5-3": {
+      "notes": [
+        "VLANでネットワークを論理分割すると、ブロードキャストパケットの到達範囲を各VLAN内に制限できる。",
+        "異なるVLANに属する端末は直接通信できず、不要なアドレス情報の流出リスクを低減できる。"
+      ],
+      "exam": [
+        "VLANそのものはICMP遮断、MACアドレス認証、物理ポートごとのIP制限を行う機能ではない。"
+      ]
+    },
+    "SEC3-2": {
+      "notes": [
+        "セッションIDは長時間同じものを使い続けるほど乗っ取られる機会が高まる。",
+        "ログアウト時にWebサーバ側でセッションIDを無効化すると、盗まれたIDの悪用を防ぎやすい。"
+      ],
+      "exam": [
+        "ブラウザキャッシュの消去とセッションIDの無効化を混同しない。"
+      ]
+    },
+    "SEC3-3": {
+      "notes": [
+        "DNSキャッシュポイズニング対策として、外部ネットワークからの再帰的問合せには応答せず、内部ネットワークからのものだけを許可する設定が有効。",
+        "トランザクションIDや送信元ポート番号を固定すると、偽応答の推測・偽装が容易になる。",
+        "オープンリゾルバは不特定多数からのDNS問合せに応答するリゾルバで、送信元IPを攻撃対象に偽装した大量問合せによりDNS応答を攻撃対象へ集中させる攻撃に悪用される。"
+      ],
+      "exam": [
+        "DNSキャッシュポイズニング ↔ DNSリフレクション（オープンリゾルバ悪用）を、目的と通信の流れで区別する。"
+      ]
+    },
+    "SEC3-5": {
+      "notes": [
+        "サイドチャネル攻撃は、処理時間・消費電流・漏えい電波・エラーメッセージなど、物理デバイスから得られる間接情報から秘密情報を得る攻撃。"
+      ],
+      "exam": [
+        "装置を直接破壊・侵入するのではなく、処理に伴って生じる物理量を観測する点が判断の核。"
+      ]
+    },
+    "SEC4-7": {
+      "notes": [
+        "虹彩認証は虹彩の複雑な線状パターンを利用し、経年変化が少なく、他人受入率を顔認証より低くできる。",
+        "資料では、虹彩は生後2年経過後は経年変化しないため定期的な再登録は不要と説明されている。",
+        "虹彩認証は非接触であり、装置接触後の遺留物を使う偽造という説明には該当しない。"
+      ],
+      "exam": [
+        "生体認証は『認証精度』『偽造困難性』『接触/非接触』『装置の大きさ』を比較する。"
+      ]
+    },
+    "SEC5-4": {
+      "notes": [
+        "ブロックチェーンは、取引データとハッシュ値を順次つなげて記録し、ネットワーク上の多数のコンピュータで分散して同期・保有する。",
+        "ハッシュ関数を付加することで取引データの改ざんを検知し、分散管理によって完全性と可用性を確保する。"
+      ],
+      "exam": [
+        "『ハッシュ値を順次つなぐ』『分散型台帳』『多数のコンピュータで同期』がブロックチェーンの着目語句。"
+      ]
+    },
+    "SEC6-4": {
+      "notes": [
+        "JPCERT/CCは、日本国内のコンピュータセキュリティインシデントについて、報告受付・対応支援・状況把握・手口分析・再発防止の助言などを技術的立場から行う中立組織。",
+        "組織内CSIRTの構築を支援する『CSIRTマテリアル』はJPCERT/CCが作成する。"
+      ],
+      "exam": [
+        "CSIRTマテリアル＝JPCERT/CC、ISMSユーザーズガイド＝JIPDEC、内部不正防止ガイドライン＝IPAという資料内の対応を区別する。"
+      ]
+    },
+    "SEC6-5": {
+      "notes": [
+        "JIS Q 31000:2019のリスクアセスメントは『リスク特定 → リスク分析 → リスク評価』で構成される。",
+        "リスク対応はリスクアセスメントの後段に位置する。"
+      ],
+      "exam": [
+        "『リスク受容』『リスク対応』をリスクアセスメントの構成要素に混ぜない。"
+      ]
+    },
+    "SEC6-6": {
+      "notes": [
+        "リスク分析では、発生確率と影響度からリスクの大きさを算定する。"
+      ]
+    },
+    "SEC6-7": {
+      "notes": [
+        "リスク評価では、リスクの大きさとリスク受容基準を比較して対策実施の必要性を判断する。"
+      ]
+    },
+    "SEC7-1": {
+      "notes": [
+        "VDIはサーバ上でクライアントOSやアプリケーションを実行し、生成したデスクトップ画面の画像データだけをクライアント端末へ伝送する。",
+        "Webサイトの受信データそのものをPCへ送らない構成により、未知のマルウェアがPCへ直接ダウンロードされるリスクを低減できる。"
+      ],
+      "exam": [
+        "VDIは『実行ファイルを削除する』『不正コードを検知する』仕組みではなく、処理場所と端末へ送るデータの違いが核。"
+      ]
+    },
+    "SEC7-3": {
+      "notes": [
+        "パケットフィルタリング型ファイアウォールは、第3層・第4層のIPアドレスやポート番号などで通信の通過可否を判断する。",
+        "POSTデータやURLなどアプリケーション層の内容、MACアドレスはパケットフィルタリング型FWの判断材料ではない。",
+        "外部に公開していないサーバやサービスへの通信は、IPアドレス・ポート番号のルールで必要サービスに影響を与えず遮断できる。",
+        "WAFはSQLインジェクションやXSSなどWebアプリケーションへの通信内容を検査し、不正な操作を検知・阻止する。",
+        "WAFに暗号化・復号機能がない場合、SSLアクセラレータなどで復号された後、Webサーバへ届く前の位置で検査する。"
+      ],
+      "exam": [
+        "FW＝IP/ポート、WAF＝Webアプリケーション層の通信内容、という層の違いを見る。",
+        "許可済みHTTP通信の中身を使う脆弱性攻撃・マクロウイルス・DDoSは、単純なパケットフィルタだけでは防げない。"
+      ]
+    },
+    "SEC7-4": {
+      "notes": [
+        "セキュアOSは、通常のOSよりアクセス制御を強化し、権限を必要最小限に制限する。",
+        "強制アクセス制御を設定することで、システム侵入後でもファイル更新を禁止し、改ざんを防止できる場合がある。"
+      ],
+      "exam": [
+        "SSO、WAF、多要素認証の説明とセキュアOSのアクセス制御強化を区別する。"
+      ]
+    },
+    "SEC7-6": {
+      "notes": [
+        "ディジタルフォレンジックスは、電子機器に残る記録を保全・収集・検査・分析し、法的な証拠性を明らかにする活動。",
+        "手順は大きく『収集 → 検査 → 分析 → 報告』の4フェーズ。",
+        "削除されたログファイルの復元によって不正アクセスの痕跡を発見する行為はディジタルフォレンジックスに該当する。",
+        "SIEMは複数サーバやネットワーク機器のログを一元収集・分析し、不審なアクセスや異常を検知する。"
+      ],
+      "exam": [
+        "SIEM＝リアルタイムなログ集約・相関分析、フォレンジックス＝発生後の証拠保全・原因究明という役割を区別する。"
+      ]
+    },
+    "SEC7-8": {
+      "notes": [
+        "フォールスネガティブ：異常なものを正常と判断する『検知漏れ・見逃し』。",
+        "フォールスポジティブ：異常でないものを異常と判断する『過剰検知』。",
+        "サンドボックスはホストOSから隔離した仮想的な実行環境で不審プログラムを動作させ、他領域への悪影響を防ぐ。",
+        "ランサムウェア対策では、一度書き込んだデータを変更・削除できないWORMストレージへ重要データをバックアップすると被害低減が期待できる。",
+        "RAID5、常時レプリケーション、通常のネットワークドライブへのバックアップは、ランサムウェアによる暗号化が連鎖する可能性がある。"
+      ],
+      "exam": [
+        "false negative＝『異常を正常と見逃す』、false positive＝『正常を異常と誤検知』。",
+        "隔離環境で実行する＝サンドボックス、変更不可バックアップ＝WORM。"
+      ]
+    },
+    "SEC7-9": {
+      "notes": [
+        "TPMはPCなどに搭載され、鍵生成・ハッシュ演算・暗号処理を行うセキュリティチップ。",
+        "TPMは耐タンパ性をもち、秘密鍵を取り出すことが極めて困難なため、ファイルで秘密鍵を管理する場合より漏えいリスクを低減できる。",
+        "耐タンパ性を高める例：読み出し用プローブの取付けを検出するとICチップ内の保存情報を消去する回路を設ける。"
+      ],
+      "exam": [
+        "耐タンパ性＝内部構造や記録データの解析・改ざんに対する耐性。利便性・可用性・退職者カード停止とは別。"
+      ]
+    },
+    "SEC8-1": {
+      "notes": [
+        "TLSはトランスポート層（第4層）で動作し、証明書による認証、鍵交換、暗号化、改ざん検出などを行う。",
+        "利用者個人のディジタル証明書を用いたTLS通信では、PCと公開Webサーバ間の通信を暗号化するとともに利用者認証を行える。"
+      ],
+      "exam": [
+        "Webシステムでインターネット上のPCが直接通信する相手はDMZ上のWebサーバであり、内部DBサーバではない。"
+      ]
+    },
+    "SEC8-2": {
+      "notes": [
+        "IPsecはIP層（第3層）で動作し、IPパケット単位の暗号化・認証・改ざん検出を行う。",
+        "L2TPは第2層で動作するトンネリングプロトコルで、単体では暗号化機能をもたないためIPsecと併用される。",
+        "OSI上の相対位置は上位から TLS → IPsec → L2TP。"
+      ],
+      "exam": [
+        "プロトコル名とOSI層を対応させる。"
+      ]
+    },
+    "SEC8-4": {
+      "notes": [
+        "WPA2-PSKは、あらかじめ設定したパスフレーズ（Pre-Shared Key）を用いて認証を行う。",
+        "SSIDはアクセスポイント識別用IDであり、共通鍵として使用するものではない。",
+        "資料の組合せでは、WPA2（CCMP）＝AES・128ビット、WPA（TKIP）＝RC4。"
+      ],
+      "exam": [
+        "WPA/WPA2、TKIP/CCMP、RC4/AESの組合せを区別する。"
+      ]
+    },
+    "SEC8-5": {
+      "notes": [
+        "SSHは遠隔コンピュータへID/パスワードでログインでき、公開鍵暗号方式を使った認証も可能で、通信を暗号化して遠隔操作できる。"
+      ],
+      "exam": [
+        "L2TP＝トンネリング、RADIUS＝認証、TLS＝通信暗号化、SSH＝安全なリモートログイン。"
+      ]
+    },
+    "SEC8-6": {
+      "notes": [
+        "OP25Bは、管理ネットワーク内の動的IPアドレスから管理ネットワーク外の25番ポートへの直接通信を遮断し、スパムメール送信を防ぐ。",
+        "動的IPからでも契約プロバイダのメールサーバを経由する通信は正しい通信として扱われる。",
+        "サブミッションポート587番は、OP25B環境でもSMTP-AUTHで送信者認証を行い、正規利用者がメール送信できるようにする目的で使われる。"
+      ],
+      "exam": [
+        "OP25B＝動的IPから外部25番への『直接』送信を遮断、587番＝SMTP-AUTHで正規送信を許可。"
+      ]
+    },
+    "SEC8-7": {
+      "notes": [
+        "SPFは、受信メールの送信元IPアドレスと、送信元ドメインのDNSに登録されたメールサーバのIPアドレスを照合し、送信元ドメイン詐称を検証する。",
+        "SPF対応受信サーバは送信元ドメインのSPFレコードをDNSへ問い合わせ、送信サーバが許可されていない場合は詐称と判断する。",
+        "DKIMは送信側メールサーバで電子メールにデジタル署名を付与し、受信側メールサーバで署名を検証して送信元ドメインを認証する。"
+      ],
+      "exam": [
+        "SPF＝DNS登録IPとの照合、DKIM＝デジタル署名、SMTP-AUTH＝送信者のID/パスワード認証、DMARC＝認証失敗時の処理方針。"
+      ]
+    },
+    "SEC9-3": {
+      "notes": [
+        "XSS対策では、Webページへ入力されたデータの出力時にHTMLタグとして解釈されないよう処理する。",
+        "XSSはWebアプリケーションの脆弱性であり、OSのセキュリティパッチ適用だけでは直接の対策にならない。"
+      ],
+      "exam": [
+        "XSS対策＝出力時の無害化・エスケープ、許容量制限＝バッファオーバーフロー対策。"
+      ]
+    },
+    "SEC9-4": {
+      "notes": [
+        "SQLインジェクション対策では、WebアプリケーションからDB問合せを作成する際にバインド機構を使用する。",
+        "バインド機構を使うことで入力文字列を値として扱い、不正なSQL断片をSQL文として実行させない。"
+      ],
+      "exam": [
+        "セッションIDの推測困難化＝セッション乗っ取り対策、ファイル名の直接指定回避＝ディレクトリトラバーサル対策、シェル起動禁止＝OSコマンドインジェクション対策。"
+      ]
+    },
+    "SEC9-6": {
+      "notes": [
+        "DNSSECはDNS情報にディジタル署名を付加し、DNS情報の完全性を保証する。",
+        "公開鍵暗号方式によるディジタル署名を用い、正当なDNSサーバからの応答であることを検証する。",
+        "DNSSECはDNSキャッシュポイズニング対策として利用される。"
+      ],
+      "exam": [
+        "ソースポートランダマイゼーションや再帰問合せ制限とDNSSECの仕組みを混同しない。"
+      ]
+    },
+    "SEC9-7": {
+      "notes": [
+        "SBOM（Software Bill of Materials）は、ソフトウェアを構成するコンポーネントと相互の依存関係などを一覧化した情報。",
+        "SBOMはソフトウェアの透明性を確保し、脆弱性管理やライセンス管理などのセキュリティリスク管理に用いられる。",
+        "あるコンポーネントに脆弱性がある場合、そのコンポーネントに依存するソフトウェアも関連して管理する必要がある。"
+      ],
+      "exam": [
+        "SBOM＝構成部品・依存関係の一覧。SIEM、IT資産台帳、脆弱性管理プロセスそのものとは別。"
+      ]
+    }
+  },
+  "step4_questions": [
+    {
+      "id": "SEC-A12-Q01",
+      "type": "四択",
+      "q": "内部PCからWebサイトを参照するとき、DMZ上のVDIサーバを利用することで未知のマルウェアがPCへダウンロードされるのを防ぐ効果を生む動作はどれか。",
+      "choices": [
+        "受信データをIPsecでカプセル化してPCへ送る",
+        "実行ファイルを削除し、その他のデータをPCへ送る",
+        "生成したデスクトップ画面の画像データだけをPCへ送る",
+        "不正コードが検知されない場合だけ受信データをPCへ送る"
+      ],
+      "answer": "生成したデスクトップ画面の画像データだけをPCへ送る",
+      "explain": "VDIはサーバ側でOS・アプリケーションを実行し、画面画像だけを端末へ伝送する。",
+      "point": "端末へ『何を送るか』を見る。",
+      "topic": "SEC7-1",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集12_セキュリティ②_v41",
+      "source_section": "セキュリティ②",
+      "source_no": 1,
+      "subtopic": "VDIによる端末分離",
+      "attention": "VDI・画像データだけ",
+      "mistake": "VDIを不正コード検知装置やファイル削除機能と考える。",
+      "review_tag": "SECURITY_A12_V41_01"
+    },
+    {
+      "id": "SEC-A12-Q02",
+      "type": "四択",
+      "q": "ファイアウォールのNAPT機能によるセキュリティ上の効果はどれか。",
+      "choices": [
+        "公開Webサーバの脆弱性攻撃を防御する",
+        "侵入を検知して通信を遮断する",
+        "特定WebサービスのHTTP通信を検知・遮断する",
+        "内部PCへのインターネットからの不正アクセスを困難にする"
+      ],
+      "answer": "内部PCへのインターネットからの不正アクセスを困難にする",
+      "explain": "NAPTでは内部PCのプライベートIPが外部から直接見えにくくなる。",
+      "point": "NAPTが変換する情報と外部から見えるアドレスを見る。",
+      "topic": "NW1-4",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集12_セキュリティ②_v41",
+      "source_section": "セキュリティ②",
+      "source_no": 2,
+      "subtopic": "NAPTのセキュリティ効果",
+      "attention": "IPアドレス・ポート番号・プライベートIP",
+      "mistake": "IDSやアプリケーションFWの機能と混同する。",
+      "review_tag": "SECURITY_A12_V41_02"
+    },
+    {
+      "id": "SEC-A12-Q03",
+      "type": "四択",
+      "q": "ディジタルフォレンジックスの『収集・検査・分析・報告』のいずれかに該当するものはどれか。",
+      "choices": [
+        "ログをリアルタイム相関分析し不正アクセスを検出する",
+        "ディスクを解析し削除ログを復元して不正アクセス痕跡を発見する",
+        "外部送信メールを暗号化して漏えいを防ぐ",
+        "実行ファイルのハッシュ値と脅威情報を照合してマルウェアを発見する"
+      ],
+      "answer": "ディスクを解析し削除ログを復元して不正アクセス痕跡を発見する",
+      "explain": "フォレンジックスは電子記録を保全・収集・検査・分析して事実と証拠性を明らかにする。",
+      "point": "事後調査・証拠・復元かを見る。",
+      "topic": "SEC7-6",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集12_セキュリティ②_v41",
+      "source_section": "セキュリティ②",
+      "source_no": 3,
+      "subtopic": "ディジタルフォレンジックスの手順",
+      "attention": "削除ログ・復元・痕跡",
+      "mistake": "SIEMやアンチウイルスの検知と混同する。",
+      "review_tag": "SECURITY_A12_V41_03"
+    },
+    {
+      "id": "SEC-A12-Q04",
+      "type": "四択",
+      "q": "マルウェア対策ソフトでフォールスネガティブに該当するものはどれか。",
+      "choices": [
+        "非感染ファイルを非感染と判断",
+        "非感染ファイルを感染と判断",
+        "感染ファイルを非感染と判断",
+        "感染ファイルを感染と判断"
+      ],
+      "answer": "感染ファイルを非感染と判断",
+      "explain": "フォールスネガティブは異常を正常と判断する見逃し・検知漏れ。",
+      "point": "実際の状態と判定結果を2×2で考える。",
+      "topic": "SEC7-8",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集12_セキュリティ②_v41",
+      "source_section": "セキュリティ②",
+      "source_no": 4,
+      "subtopic": "フォールスネガティブ",
+      "attention": "異常→正常・見逃し",
+      "mistake": "フォールスポジティブと逆に覚える。",
+      "review_tag": "SECURITY_A12_V41_04"
+    },
+    {
+      "id": "SEC-A12-Q05",
+      "type": "四択",
+      "q": "ソフトウェアのセキュリティ管理に使用されるSBOMはどれか。",
+      "choices": [
+        "セキュリティアラートやログを集約・分析するシステム",
+        "組織内のソフトウェアを含むIT資産をリスト化したDB",
+        "脆弱性と設定ミスを特定・評価・処理・報告するプロセス・ツール・戦略",
+        "ソフトウェアを構成するコンポーネントと相互依存関係などをリスト化した一覧"
+      ],
+      "answer": "ソフトウェアを構成するコンポーネントと相互依存関係などをリスト化した一覧",
+      "explain": "SBOMはソフトウェア部品表で、構成コンポーネントと依存関係を一覧化する。",
+      "point": "『構成部品』『依存関係』を見る。",
+      "topic": "SEC9-7",
+      "related_topics": [
+        "SEC1-7"
+      ],
+      "source_group": "科目A対策セレクト過去問題集12_セキュリティ②_v41",
+      "source_section": "セキュリティ②",
+      "source_no": 5,
+      "subtopic": "SBOM",
+      "attention": "Software Bill of Materials・依存関係",
+      "mistake": "SIEM、IT資産台帳、脆弱性管理プロセスと混同する。",
+      "review_tag": "SECURITY_A12_V41_05"
+    },
+    {
+      "id": "SEC-A12-Q06",
+      "type": "四択",
+      "q": "TPM（Trusted Platform Module）に該当するものはどれか。",
+      "choices": [
+        "PCなどに搭載され、鍵生成・ハッシュ演算・暗号処理を行うセキュリティチップ",
+        "送信ドメイン認証技術",
+        "FW・侵入検知・マルウェア対策を統合したネットワーク監視装置",
+        "ログを一元管理し相関分析するシステム"
+      ],
+      "answer": "PCなどに搭載され、鍵生成・ハッシュ演算・暗号処理を行うセキュリティチップ",
+      "explain": "TPMはハードウェア搭載のセキュリティチップで、耐タンパ性をもつ。",
+      "point": "ハードウェア・鍵・ハッシュ・暗号処理。",
+      "topic": "SEC7-9",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集12_セキュリティ②_v41",
+      "source_section": "セキュリティ②",
+      "source_no": 6,
+      "subtopic": "TPM",
+      "attention": "TPM・セキュリティチップ・耐タンパ性",
+      "mistake": "UTMやSIEMと混同する。",
+      "review_tag": "SECURITY_A12_V41_06"
+    },
+    {
+      "id": "SEC-A12-Q07",
+      "type": "四択",
+      "q": "SIEMの特徴はどれか。",
+      "choices": [
+        "DMZ通過通信を全監視し不正通信を遮断",
+        "MIB情報を分析し中間者攻撃を遮断",
+        "IPFIX情報を監視し他者PCの不正利用通信を検知",
+        "複数サーバやネットワーク機器のログを収集・分析し不審アクセスを検知"
+      ],
+      "answer": "複数サーバやネットワーク機器のログを収集・分析し不審アクセスを検知",
+      "explain": "SIEMは複数機器のログを一元収集・分析して異常を検知する。",
+      "point": "ログの『一元収集＋相関分析』を見る。",
+      "topic": "SEC7-6",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集12_セキュリティ②_v41",
+      "source_section": "セキュリティ②",
+      "source_no": 7,
+      "subtopic": "SIEM",
+      "attention": "複数機器・ログ・収集分析",
+      "mistake": "IPS、SNMP、NetFlowと混同する。",
+      "review_tag": "SECURITY_A12_V41_07"
+    },
+    {
+      "id": "SEC-A12-Q08",
+      "type": "四択",
+      "q": "ICカードの耐タンパ性を高める対策はどれか。",
+      "choices": [
+        "非接触認証で利便性を高める",
+        "予備カードを保管し故障時に交換する",
+        "読み出し用プローブ取付けを検出するとICチップ内情報を消去する回路を設ける",
+        "退職者カードを業務システム側で停止する"
+      ],
+      "answer": "読み出し用プローブ取付けを検出するとICチップ内情報を消去する回路を設ける",
+      "explain": "耐タンパ性は内部構造や記録データへの解析・改ざんに対する耐性。",
+      "point": "物理解析を困難にする対策かを見る。",
+      "topic": "SEC7-9",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集12_セキュリティ②_v41",
+      "source_section": "セキュリティ②",
+      "source_no": 8,
+      "subtopic": "ICカードの耐タンパ性",
+      "attention": "プローブ・保存情報消去・解析困難",
+      "mistake": "可用性や運用管理の対策を耐タンパ性と誤る。",
+      "review_tag": "SECURITY_A12_V41_08"
+    },
+    {
+      "id": "SEC-A12-Q09",
+      "type": "四択",
+      "q": "WAFに暗号化・復号機能がないとき、Webアプリケーション攻撃対策として最も適切な設置位置はどれか。",
+      "choices": [
+        "暗号化されたHTTPS通信のままの位置",
+        "暗号化されたHTTPS通信のままの別位置",
+        "SSLアクセラレータで復号された後、Webサーバへ到達する前",
+        "WebサーバとDBサーバの間"
+      ],
+      "answer": "SSLアクセラレータで復号された後、Webサーバへ到達する前",
+      "explain": "WAFはWebアプリケーションへの通信内容を検査するため、復号後かつWebサーバ手前に置く。",
+      "point": "WAFが平文HTTPを検査できる位置かを見る。",
+      "topic": "SEC7-3",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集12_セキュリティ②_v41",
+      "source_section": "セキュリティ②",
+      "source_no": 9,
+      "subtopic": "WAFの設置場所",
+      "attention": "WAF・SSLアクセラレータ・復号",
+      "mistake": "暗号化されたままでもWAFが内容検査できると考える。",
+      "review_tag": "SECURITY_A12_V41_09"
+    },
+    {
+      "id": "SEC-A12-Q10",
+      "type": "四択",
+      "q": "ディジタルフォレンジックスの説明として適切なものはどれか。",
+      "choices": [
+        "メールを運用基準でフィルタリングする",
+        "外部攻撃からサーバを防御する",
+        "記憶媒体を任意データ列で上書きして消去する",
+        "コンピュータ犯罪の法的証拠性を確保するため、原因究明に必要な情報を保全・収集・分析する"
+      ],
+      "answer": "コンピュータ犯罪の法的証拠性を確保するため、原因究明に必要な情報を保全・収集・分析する",
+      "explain": "フォレンジックスは未然防止ではなく、発生後の調査と証拠性確保を目的とする。",
+      "point": "『法的証拠性』『保全・収集・分析』を見る。",
+      "topic": "SEC7-6",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集12_セキュリティ②_v41",
+      "source_section": "セキュリティ②",
+      "source_no": 10,
+      "subtopic": "ディジタルフォレンジックスの定義",
+      "attention": "法的証拠性・保全・収集・分析",
+      "mistake": "防御・予防策と混同する。",
+      "review_tag": "SECURITY_A12_V41_10"
+    },
+    {
+      "id": "SEC-A12-Q11",
+      "type": "四択",
+      "q": "虹彩認証に関する記述のうち最も適切なものはどれか。",
+      "choices": [
+        "経年変化対策で虹彩情報を定期的に再登録する必要がある",
+        "赤外線カメラ使用時は照度を高くするほど負担なく精度向上する",
+        "他人受入率を顔認証より低くすることが可能",
+        "装置接触後の遺留物を加工して認証データを偽造できる"
+      ],
+      "answer": "他人受入率を顔認証より低くすることが可能",
+      "explain": "資料では虹彩は経年変化が少なく、認証精度が高く、他人受入率が非常に低いとされる。",
+      "point": "虹彩の安定性・非接触・認証精度を見る。",
+      "topic": "SEC4-7",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集12_セキュリティ②_v41",
+      "source_section": "セキュリティ②",
+      "source_no": 11,
+      "subtopic": "虹彩認証",
+      "attention": "他人受入率・経年変化・非接触",
+      "mistake": "指紋認証の特徴と混同する。",
+      "review_tag": "SECURITY_A12_V41_11"
+    },
+    {
+      "id": "SEC-A12-Q12",
+      "type": "四択",
+      "q": "無線LAN環境におけるWPA2-PSKの機能はどれか。",
+      "choices": [
+        "SSIDを共通鍵として通信を暗号化する",
+        "APと同じSSIDと事前共有パスワードが設定された端末だけに接続を許可する",
+        "IEEE 802.11ac端末だけ接続許可する",
+        "利用者ごとに付与したSSIDでアクセス権限を識別する"
+      ],
+      "answer": "APと同じSSIDと事前共有パスワードが設定された端末だけに接続を許可する",
+      "explain": "WPA2-PSKはあらかじめ設定したPre-Shared Keyを用いて認証する。",
+      "point": "SSIDとPSKの役割を分ける。",
+      "topic": "SEC8-4",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集12_セキュリティ②_v41",
+      "source_section": "セキュリティ②",
+      "source_no": 12,
+      "subtopic": "WPA2-PSK",
+      "attention": "WPA2-PSK・Pre-Shared Key・SSID",
+      "mistake": "SSIDそのものを暗号鍵と誤る。",
+      "review_tag": "SECURITY_A12_V41_12"
+    },
+    {
+      "id": "SEC-A12-Q13",
+      "type": "四択",
+      "q": "DNSSECについての記述のうち適切なものはどれか。",
+      "choices": [
+        "送信元ポートをランダム化して不正応答を防止する",
+        "再帰問合せ元を制限してDNS DoSを防止する",
+        "共通鍵によるメッセージ認証でDNS応答を検証する",
+        "公開鍵暗号方式によるディジタル署名で正当なDNSサーバからの応答を検証する"
+      ],
+      "answer": "公開鍵暗号方式によるディジタル署名で正当なDNSサーバからの応答を検証する",
+      "explain": "DNSSECはDNS情報にディジタル署名を付加し完全性を保証する。",
+      "point": "ディジタル署名・公開鍵暗号方式かを見る。",
+      "topic": "SEC9-6",
+      "related_topics": [
+        "SEC3-3"
+      ],
+      "source_group": "科目A対策セレクト過去問題集12_セキュリティ②_v41",
+      "source_section": "セキュリティ②",
+      "source_no": 13,
+      "subtopic": "DNSSEC",
+      "attention": "DNSSEC・ディジタル署名・完全性",
+      "mistake": "ソースポートランダム化や再帰問合せ制限と混同する。",
+      "review_tag": "SECURITY_A12_V41_13"
+    },
+    {
+      "id": "SEC-A12-Q14",
+      "type": "四択",
+      "q": "VPNで使われるIPsec、L2TP、TLSのOSI基本参照モデル上の相対的な位置関係として正しいものはどれか。",
+      "choices": [
+        "IPsec → L2TP → TLS",
+        "IPsec → TLS → L2TP",
+        "TLS → IPsec → L2TP",
+        "TLS → L2TP → IPsec"
+      ],
+      "answer": "TLS → IPsec → L2TP",
+      "explain": "TLSは第4層、IPsecは第3層、L2TPは第2層で動作する。",
+      "point": "各プロトコルの動作層を並べる。",
+      "topic": "SEC8-2",
+      "related_topics": [
+        "SEC8-1"
+      ],
+      "source_group": "科目A対策セレクト過去問題集12_セキュリティ②_v41",
+      "source_section": "セキュリティ②",
+      "source_no": 14,
+      "subtopic": "IPsec・L2TP・TLSのOSI位置",
+      "attention": "TLS第4層・IPsec第3層・L2TP第2層",
+      "mistake": "名前の印象だけで順序を選ぶ。",
+      "review_tag": "SECURITY_A12_V41_14"
+    },
+    {
+      "id": "SEC-A12-Q15",
+      "type": "四択",
+      "q": "情報セキュリティにおけるサンドボックスの説明はどれか。",
+      "choices": [
+        "多様な機器が出力する大量ログを分析する",
+        "HTMLタグ・JavaScript・SQL文などを別文字列に置換する",
+        "Webサーバ前段で代理応答する",
+        "不正動作の可能性があるプログラムを特別な領域で動作させ、他領域への悪影響を防ぐ"
+      ],
+      "answer": "不正動作の可能性があるプログラムを特別な領域で動作させ、他領域への悪影響を防ぐ",
+      "explain": "サンドボックスはホストOSから隔離した実行環境で不審プログラムを動かす。",
+      "point": "『隔離した実行環境』を見る。",
+      "topic": "SEC7-8",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集12_セキュリティ②_v41",
+      "source_section": "セキュリティ②",
+      "source_no": 15,
+      "subtopic": "サンドボックス",
+      "attention": "隔離・特別な領域・不正プログラム",
+      "mistake": "SIEM、サニタイジング、リバースプロキシと混同する。",
+      "review_tag": "SECURITY_A12_V41_15"
+    },
+    {
+      "id": "SEC-A12-Q16",
+      "type": "四択",
+      "q": "パケットフィルタリング型ファイアウォールが通過可否を判断するときに用いるものはどれか。",
+      "choices": [
+        "POSTデータ",
+        "送信元・宛先のIPアドレスとポート番号",
+        "送信元MACアドレス",
+        "URL"
+      ],
+      "answer": "送信元・宛先のIPアドレスとポート番号",
+      "explain": "パケットフィルタリング型FWは第3・第4層のIPアドレスやポート番号で判断する。",
+      "point": "OSI層とヘッダ情報を対応させる。",
+      "topic": "SEC7-3",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集12_セキュリティ②_v41",
+      "source_section": "セキュリティ②",
+      "source_no": 16,
+      "subtopic": "パケットフィルタリングの判断情報",
+      "attention": "IPアドレス・ポート番号",
+      "mistake": "HTTP内容やMACアドレスを選ぶ。",
+      "review_tag": "SECURITY_A12_V41_16"
+    },
+    {
+      "id": "SEC-A12-Q17",
+      "type": "四択",
+      "q": "WAFの説明はどれか。",
+      "choices": [
+        "Webアプリケーションへの攻撃を検知し阻止する",
+        "Webブラウザ内で通信改ざん攻撃を監視する",
+        "サーバOSへの不正ログインを監視する",
+        "ファイルのマルウェア感染を監視する"
+      ],
+      "answer": "Webアプリケーションへの攻撃を検知し阻止する",
+      "explain": "WAFはSQLインジェクションやXSSなどWebアプリケーションへの攻撃を防ぐ。",
+      "point": "保護対象がWebアプリケーションかを見る。",
+      "topic": "SEC7-3",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集12_セキュリティ②_v41",
+      "source_section": "セキュリティ②",
+      "source_no": 17,
+      "subtopic": "WAF",
+      "attention": "WAF・Webアプリケーション",
+      "mistake": "HIDSやアンチウイルスと混同する。",
+      "review_tag": "SECURITY_A12_V41_17"
+    },
+    {
+      "id": "SEC-A12-Q18",
+      "type": "四択",
+      "q": "外部からDNSキャッシュサーバへ行われるキャッシュポイズニング攻撃への適切な対策はどれか。",
+      "choices": [
+        "外部からの再帰問合せにも応答する",
+        "再帰問合せは内部ネットワークからのものだけ許可する",
+        "送信元ポート番号を固定する",
+        "トランザクションIDを固定する"
+      ],
+      "answer": "再帰問合せは内部ネットワークからのものだけ許可する",
+      "explain": "外部からの再帰問合せを許可しないことで攻撃に利用される範囲を制限する。",
+      "point": "再帰問合せの許可範囲と予測困難性を見る。",
+      "topic": "SEC3-3",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集12_セキュリティ②_v41",
+      "source_section": "セキュリティ②",
+      "source_no": 18,
+      "subtopic": "DNSキャッシュポイズニング対策",
+      "attention": "再帰問合せ・内部のみ・固定しない",
+      "mistake": "ポート番号やIDを固定すると安全になると誤る。",
+      "review_tag": "SECURITY_A12_V41_18"
+    },
+    {
+      "id": "SEC-A12-Q19",
+      "type": "四択",
+      "q": "利用者個人のディジタル証明書を用いたTLS通信で期待できる効果はどれか。",
+      "choices": [
+        "PCとDBサーバ間を暗号化しDBサーバ正当性を検証",
+        "PCとDBサーバ間を暗号化し利用者認証",
+        "PCとWebサーバ間を暗号化しDBサーバ正当性を検証",
+        "PCとWebサーバ間を暗号化し利用者認証"
+      ],
+      "answer": "PCとWebサーバ間を暗号化し利用者認証",
+      "explain": "インターネット利用者のPCはDMZ上のWebサーバとTLS通信し、個人証明書により利用者認証も行える。",
+      "point": "通信の両端と証明書の主体を見る。",
+      "topic": "SEC8-1",
+      "related_topics": [
+        "SEC5-6"
+      ],
+      "source_group": "科目A対策セレクト過去問題集12_セキュリティ②_v41",
+      "source_section": "セキュリティ②",
+      "source_no": 19,
+      "subtopic": "クライアント証明書付きTLS",
+      "attention": "PC・Webサーバ・利用者個人の証明書",
+      "mistake": "内部DBサーバとPCが直接TLS通信すると考える。",
+      "review_tag": "SECURITY_A12_V41_19"
+    },
+    {
+      "id": "SEC-A12-Q20",
+      "type": "四択",
+      "q": "クロスサイトスクリプティング対策に該当するものはどれか。",
+      "choices": [
+        "SNMPエージェント常時稼働で攻撃検知",
+        "WebサーバOSへセキュリティパッチ適用",
+        "入力データの出力時にHTMLタグとして解釈されないよう処理する",
+        "許容量超の大きさの入力を禁止する"
+      ],
+      "answer": "入力データの出力時にHTMLタグとして解釈されないよう処理する",
+      "explain": "XSS対策では出力データをスクリプトやHTMLとして解釈させない処理が有効。",
+      "point": "出力時にブラウザでコードとして実行されないかを見る。",
+      "topic": "SEC9-3",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集12_セキュリティ②_v41",
+      "source_section": "セキュリティ②",
+      "source_no": 20,
+      "subtopic": "XSS対策",
+      "attention": "HTMLタグとして解釈されない",
+      "mistake": "OSパッチや入力サイズ制限でXSSを防げると考える。",
+      "review_tag": "SECURITY_A12_V41_20"
+    },
+    {
+      "id": "SEC-A12-Q21",
+      "type": "四択",
+      "q": "取引データとハッシュ値を順次つなげた分散型台帳を多数のコンピュータで同期保有し、完全性と可用性を確保する技術はどれか。",
+      "choices": [
+        "MAC",
+        "XML署名",
+        "ニューラルネットワーク",
+        "ブロックチェーン"
+      ],
+      "answer": "ブロックチェーン",
+      "explain": "ブロックチェーンはハッシュを利用して改ざん検知し、分散管理する台帳技術。",
+      "point": "ハッシュの連鎖＋分散管理を見る。",
+      "topic": "SEC5-4",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集12_セキュリティ②_v41",
+      "source_section": "セキュリティ②",
+      "source_no": 21,
+      "subtopic": "ブロックチェーン",
+      "attention": "分散型台帳・ハッシュ値・同期",
+      "mistake": "MACやXML署名と混同する。",
+      "review_tag": "SECURITY_A12_V41_21"
+    },
+    {
+      "id": "SEC-A12-Q22",
+      "type": "四択",
+      "q": "無線LANのセキュリティプロトコル、暗号アルゴリズム、鍵長の適切な組合せはどれか。",
+      "choices": [
+        "WPA（TKIP）・AES・128/192/256ビット",
+        "WPA（TKIP）・RC4・64ビット",
+        "WPA2（CCMP）・AES・128ビット",
+        "WPA2（CCMP）・RC4・64ビット"
+      ],
+      "answer": "WPA2（CCMP）・AES・128ビット",
+      "explain": "資料ではWPA2（CCMP）はAES 128ビット、WPA（TKIP）はRC4を使用すると整理している。",
+      "point": "プロトコル・方式・アルゴリズムの組合せを見る。",
+      "topic": "SEC8-4",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集12_セキュリティ②_v41",
+      "source_section": "セキュリティ②",
+      "source_no": 22,
+      "subtopic": "WPA2・CCMP・AES",
+      "attention": "WPA2・CCMP・AES・128ビット",
+      "mistake": "WPA/TKIPとWPA2/CCMPを入れ替える。",
+      "review_tag": "SECURITY_A12_V41_22"
+    },
+    {
+      "id": "SEC-A12-Q23",
+      "type": "四択",
+      "q": "Webシステムでセッション乗っ取りの機会を減らすため、利用者ログアウト時に行うべき処理はどれか。",
+      "choices": [
+        "WebサーバでセッションIDをストレージへ格納",
+        "WebサーバでセッションIDを無効にする",
+        "ブラウザのWebページキャッシュをクリア",
+        "ブラウザでセッションIDをストレージへ格納"
+      ],
+      "answer": "WebサーバでセッションIDを無効にする",
+      "explain": "ログアウトとともにセッションIDを無効化すれば、盗まれたIDの再利用を防げる。",
+      "point": "ログアウト後もIDが有効かどうかを見る。",
+      "topic": "SEC3-2",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集12_セキュリティ②_v41",
+      "source_section": "セキュリティ②",
+      "source_no": 23,
+      "subtopic": "ログアウト時のセッションID無効化",
+      "attention": "ログアウト・セッションID・無効化",
+      "mistake": "ブラウザキャッシュ削除をセッション管理と混同する。",
+      "review_tag": "SECURITY_A12_V41_23"
+    },
+    {
+      "id": "SEC-A12-Q24",
+      "type": "四択",
+      "q": "本来必要なサービスに影響を及ぼさず、パケットフィルタリング型FWのルールで防げるものはどれか。",
+      "choices": [
+        "外部に公開していないサーバへのアクセス",
+        "公開サービスのソフトウェア脆弱性を突く攻撃",
+        "メール添付マクロウイルスの侵入",
+        "多数IoT機器からのHTTP DDoS"
+      ],
+      "answer": "外部に公開していないサーバへのアクセス",
+      "explain": "未公開サーバ・未使用ポートへの通信はIP/ポートルールで遮断できる。",
+      "point": "ヘッダ情報だけで許可/拒否できるかを見る。",
+      "topic": "SEC7-3",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集12_セキュリティ②_v41",
+      "source_section": "セキュリティ②",
+      "source_no": 24,
+      "subtopic": "パケットフィルタリングで防げるもの",
+      "attention": "未公開サーバ・IPアドレス・ポート番号",
+      "mistake": "通信内容の検査が必要な攻撃も防げると考える。",
+      "review_tag": "SECURITY_A12_V41_24"
+    },
+    {
+      "id": "SEC-A12-Q25",
+      "type": "四択",
+      "q": "暗号化や認証機能をもち、遠隔コンピュータへ安全にログインするプロトコルはどれか。",
+      "choices": [
+        "L2TP",
+        "RADIUS",
+        "SSH",
+        "TLS"
+      ],
+      "answer": "SSH",
+      "explain": "SSHは暗号化された通信で遠隔ログイン・操作を行う。",
+      "point": "用途が『安全なリモートログイン』かを見る。",
+      "topic": "SEC8-5",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集12_セキュリティ②_v41",
+      "source_section": "セキュリティ②",
+      "source_no": 25,
+      "subtopic": "SSH",
+      "attention": "SSH・遠隔ログイン・暗号化",
+      "mistake": "TLSやRADIUSを選ぶ。",
+      "review_tag": "SECURITY_A12_V41_25"
+    },
+    {
+      "id": "SEC-A12-Q26",
+      "type": "四択",
+      "q": "SMTP-AUTHを使っていない場合、OP25Bで遮断されるメールはどれか。",
+      "choices": [
+        "固定IPからの広告メール",
+        "固定IPからの逆引き不能メール",
+        "動的IPからISPのメールサーバ経由で送信",
+        "動的IPからISPのメールサーバを経由せず外部へ直接送信"
+      ],
+      "answer": "動的IPからISPのメールサーバを経由せず外部へ直接送信",
+      "explain": "OP25Bは動的IPからネットワーク外の25番ポートへの直接通信を遮断する。",
+      "point": "動的IPか、正規メールサーバを経由するかを見る。",
+      "topic": "SEC8-6",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集12_セキュリティ②_v41",
+      "source_section": "セキュリティ②",
+      "source_no": 26,
+      "subtopic": "OP25B",
+      "attention": "動的IP・25番・直接送信",
+      "mistake": "固定IPや正規メールサーバ経由まで遮断すると考える。",
+      "review_tag": "SECURITY_A12_V41_26"
+    },
+    {
+      "id": "SEC-A12-Q27",
+      "type": "四択",
+      "q": "SPFの特徴はどれか。",
+      "choices": [
+        "送信元IPからドメインを検索しDNSBL照会",
+        "受信メールの送信元IPと、送信元ドメインDNSに登録されたメールサーバIPを照合",
+        "送信元ドメインからIPを検索してDNSBL照会",
+        "PCがドメイン由来ハッシュ値とメール添付ハッシュ値を照合"
+      ],
+      "answer": "受信メールの送信元IPと、送信元ドメインDNSに登録されたメールサーバIPを照合",
+      "explain": "SPFはDNSに登録された許可送信サーバ情報と実際の送信元IPを照合する。",
+      "point": "DNS上のSPF情報と送信元IPの一致を見る。",
+      "topic": "SEC8-7",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集12_セキュリティ②_v41",
+      "source_section": "セキュリティ②",
+      "source_no": 27,
+      "subtopic": "SPF",
+      "attention": "SPF・送信元IP・DNS",
+      "mistake": "DNSBLやハッシュ検証と混同する。",
+      "review_tag": "SECURITY_A12_V41_27"
+    },
+    {
+      "id": "SEC-A12-Q28",
+      "type": "四択",
+      "q": "WAFの説明として適切なものはどれか。",
+      "choices": [
+        "公開Webサーバへ実際に侵入を試みる",
+        "TLS暗号化/復号処理を専用ハードウェアで行う",
+        "質問形式で自組織の対策レベルを診断する",
+        "Webアプリケーションへの通信内容を検査し不正操作を遮断する"
+      ],
+      "answer": "Webアプリケーションへの通信内容を検査し不正操作を遮断する",
+      "explain": "WAFはWebアプリケーションへの通信内容を検査し、SQLインジェクションやXSSなどを防ぐ。",
+      "point": "『通信内容を検査』『Webアプリケーション』を見る。",
+      "topic": "SEC7-3",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集12_セキュリティ②_v41",
+      "source_section": "セキュリティ②",
+      "source_no": 28,
+      "subtopic": "WAFの通信内容検査",
+      "attention": "WAF・通信内容・不正操作遮断",
+      "mistake": "ペネトレーションテストやSSLアクセラレータと混同する。",
+      "review_tag": "SECURITY_A12_V41_28"
+    },
+    {
+      "id": "SEC-A12-Q29",
+      "type": "四択",
+      "q": "レイヤー3スイッチのポートをVLANで複数セグメントに分けたとき得られるセキュリティ上の効果はどれか。",
+      "choices": [
+        "ICMPを同一セグメント内も含め全遮断する",
+        "ブロードキャストの到達範囲を制限し不要なアドレス情報流出リスクを低減する",
+        "MACアドレスで接続可否を判別する",
+        "物理ポートごとに特定IPのPCだけ接続許可する"
+      ],
+      "answer": "ブロードキャストの到達範囲を制限し不要なアドレス情報流出リスクを低減する",
+      "explain": "VLANは論理的にネットワークを分割し、ブロードキャストを各VLAN内に閉じ込める。",
+      "point": "VLANで変わるのはブロードキャストドメインかを見る。",
+      "topic": "NW5-3",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集12_セキュリティ②_v41",
+      "source_section": "セキュリティ②",
+      "source_no": 29,
+      "subtopic": "VLANによるセグメント分割",
+      "attention": "VLAN・ブロードキャスト・セグメント",
+      "mistake": "ポートセキュリティやACLの機能と混同する。",
+      "review_tag": "SECURITY_A12_V41_29"
+    },
+    {
+      "id": "SEC-A12-Q30",
+      "type": "四択",
+      "q": "スパムメール対策としてサブミッションポート587を導入する目的はどれか。",
+      "choices": [
+        "DNS公開鍵で署名検証",
+        "DNSへSPFレコードを問い合わせ",
+        "POP before SMTPで送信者認証",
+        "SMTP-AUTHで送信者認証"
+      ],
+      "answer": "SMTP-AUTHで送信者認証",
+      "explain": "OP25B環境でも正規利用者が送信できるよう、587番でSMTP-AUTHを使って認証する。",
+      "point": "587番とSMTP-AUTHを結び付ける。",
+      "topic": "SEC8-6",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集12_セキュリティ②_v41",
+      "source_section": "セキュリティ②",
+      "source_no": 30,
+      "subtopic": "サブミッションポート587",
+      "attention": "587番・SMTP-AUTH・OP25B",
+      "mistake": "SPFやPOP before SMTPと混同する。",
+      "review_tag": "SECURITY_A12_V41_30"
+    },
+    {
+      "id": "SEC-A12-Q31",
+      "type": "四択",
+      "q": "Webアプリケーションの脅威と対策の適切な組合せはどれか。",
+      "choices": [
+        "OSコマンドインジェクション対策としてセッションIDを推測困難にする",
+        "SQLインジェクション対策としてDB問合せ作成時にバインド機構を使う",
+        "XSS対策として入力データをファイル名に直接指定しない",
+        "セッションハイジャック対策としてシェル起動を禁止する"
+      ],
+      "answer": "SQLインジェクション対策としてDB問合せ作成時にバインド機構を使う",
+      "explain": "バインド機構によって入力値をSQL構文ではなく値として扱う。",
+      "point": "攻撃名と対策の対応を見る。",
+      "topic": "SEC9-4",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集12_セキュリティ②_v41",
+      "source_section": "セキュリティ②",
+      "source_no": 31,
+      "subtopic": "SQLインジェクション対策",
+      "attention": "SQLインジェクション・バインド機構",
+      "mistake": "別攻撃の対策を取り違える。",
+      "review_tag": "SECURITY_A12_V41_31"
+    },
+    {
+      "id": "SEC-A12-Q32",
+      "type": "四択",
+      "q": "オープンリゾルバを悪用した攻撃はどれか。",
+      "choices": [
+        "送信元偽装ICMPを多数宛先へ送り応答を攻撃対象へ集中",
+        "hostsファイルを書き換え偽サイトへ誘導",
+        "送信元IPを攻撃対象に偽装したDNS問合せを多数DNSサーバへ送り、大量応答を攻撃対象へ集中",
+        "第三者中継メールサーバからなりすましメールを大量送信"
+      ],
+      "answer": "送信元IPを攻撃対象に偽装したDNS問合せを多数DNSサーバへ送り、大量応答を攻撃対象へ集中",
+      "explain": "オープンリゾルバを反射元に使うDNSリフレクション型DoS。",
+      "point": "DNS応答が攻撃対象へ反射される構造を見る。",
+      "topic": "SEC3-3",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集12_セキュリティ②_v41",
+      "source_section": "セキュリティ②",
+      "source_no": 32,
+      "subtopic": "オープンリゾルバ悪用",
+      "attention": "オープンリゾルバ・送信元IP偽装・DNS応答",
+      "mistake": "ICMPフラッド、ファーミング、第三者中継と混同する。",
+      "review_tag": "SECURITY_A12_V41_32"
+    },
+    {
+      "id": "SEC-A12-Q33",
+      "type": "四択",
+      "q": "サイドチャネル攻撃に該当するものはどれか。",
+      "choices": [
+        "暗号処理デバイスの処理時間・消費電流などから秘密情報を得る",
+        "紙ごみから秘密情報を探し出す",
+        "通信2者間へ割り込み情報をすり替えて盗聴する",
+        "SQL断片を送りDBを改ざんする"
+      ],
+      "answer": "暗号処理デバイスの処理時間・消費電流などから秘密情報を得る",
+      "explain": "サイドチャネル攻撃は処理中に生じる物理量やエラーメッセージを間接観測して秘密情報を得る。",
+      "point": "処理時間・消費電流・漏えい電波などの副次情報を見る。",
+      "topic": "SEC3-5",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集12_セキュリティ②_v41",
+      "source_section": "セキュリティ②",
+      "source_no": 33,
+      "subtopic": "サイドチャネル攻撃",
+      "attention": "物理量・処理時間・消費電流",
+      "mistake": "スキャベジング、MITM、SQLインジェクションと混同する。",
+      "review_tag": "SECURITY_A12_V41_33"
+    },
+    {
+      "id": "SEC-A12-Q34",
+      "type": "四択",
+      "q": "組織的なインシデント対応体制の構築・運用支援を目的にJPCERT/CCが作成したものはどれか。",
+      "choices": [
+        "CSIRTマテリアル",
+        "ISMSユーザーズガイド",
+        "証拠保全ガイドライン",
+        "組織における内部不正防止ガイドライン"
+      ],
+      "answer": "CSIRTマテリアル",
+      "explain": "CSIRTマテリアルは組織内CSIRTの構築を支援する目的でJPCERT/CCが作成する。",
+      "point": "作成主体と資料名を対応させる。",
+      "topic": "SEC6-4",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集12_セキュリティ②_v41",
+      "source_section": "セキュリティ②",
+      "source_no": 34,
+      "subtopic": "JPCERT/CCとCSIRTマテリアル",
+      "attention": "JPCERT/CC・CSIRTマテリアル",
+      "mistake": "JIPDEC、IPA、デジタル・フォレンジック研究会の資料と混同する。",
+      "review_tag": "SECURITY_A12_V41_34"
+    },
+    {
+      "id": "SEC-A12-Q35",
+      "type": "四択",
+      "q": "JIS Q 31000:2019におけるリスクアセスメントを構成するプロセスの組合せはどれか。",
+      "choices": [
+        "リスク特定・リスク評価・リスク受容",
+        "リスク特定・リスク分析・リスク評価",
+        "リスク分析・リスク対応・リスク受容",
+        "リスク分析・リスク評価・リスク対応"
+      ],
+      "answer": "リスク特定・リスク分析・リスク評価",
+      "explain": "リスクアセスメントはリスク特定→リスク分析→リスク評価。リスク対応はその後。",
+      "point": "リスクアセスメントの範囲を見る。",
+      "topic": "SEC6-5",
+      "related_topics": [
+        "SEC6-6",
+        "SEC6-7",
+        "SEC6-8"
+      ],
+      "source_group": "科目A対策セレクト過去問題集12_セキュリティ②_v41",
+      "source_section": "セキュリティ②",
+      "source_no": 35,
+      "subtopic": "リスクアセスメント",
+      "attention": "リスク特定・分析・評価",
+      "mistake": "リスク対応・受容を含める。",
+      "review_tag": "SECURITY_A12_V41_35"
+    },
+    {
+      "id": "SEC-A12-Q36",
+      "type": "四択",
+      "q": "SPFの仕組みはどれか。",
+      "choices": [
+        "受信サーバがメールのデジタル署名を検証する",
+        "受信サーバが送信元ドメイン情報と実際の送信サーバIPからドメイン詐称を確認する",
+        "送信サーバが全メールをアーカイブする",
+        "上司承認までメール送信を保留する"
+      ],
+      "answer": "受信サーバが送信元ドメイン情報と実際の送信サーバIPからドメイン詐称を確認する",
+      "explain": "受信サーバはDNSのSPFレコードに登録された許可送信サーバと実際の送信元IPを照合する。",
+      "point": "SPF＝DNSの許可IP照合。",
+      "topic": "SEC8-7",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集12_セキュリティ②_v41",
+      "source_section": "セキュリティ②",
+      "source_no": 36,
+      "subtopic": "SPFの仕組み",
+      "attention": "送信元ドメイン・SPFレコード・送信元IP",
+      "mistake": "DKIMのデジタル署名と混同する。",
+      "review_tag": "SECURITY_A12_V41_36"
+    },
+    {
+      "id": "SEC-A12-Q37",
+      "type": "四択",
+      "q": "セキュアOSを利用することで期待できるセキュリティ上の効果はどれか。",
+      "choices": [
+        "1回認証で複数システムを利用できる",
+        "通信路上でWeb攻撃を解析・ブロックする",
+        "強制アクセス制御でファイル更新を禁止し、侵入後も改ざんを防止できる",
+        "パスワード＋専用トークンで認証する"
+      ],
+      "answer": "強制アクセス制御でファイル更新を禁止し、侵入後も改ざんを防止できる",
+      "explain": "セキュアOSはアクセス制御強化や最小権限化によってOSレベルの保護を強化する。",
+      "point": "OSの強制アクセス制御かを見る。",
+      "topic": "SEC7-4",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集12_セキュリティ②_v41",
+      "source_section": "セキュリティ②",
+      "source_no": 37,
+      "subtopic": "セキュアOS",
+      "attention": "セキュアOS・強制アクセス制御・最小権限",
+      "mistake": "SSO、WAF、多要素認証と混同する。",
+      "review_tag": "SECURITY_A12_V41_37"
+    },
+    {
+      "id": "SEC-A12-Q38",
+      "type": "四択",
+      "q": "PCストレージ上の重要データを保護する方法のうち、ランサムウェア感染被害の低減に効果があるものはどれか。",
+      "choices": [
+        "WORM機能をもつストレージへ重要データをバックアップ",
+        "RAID5にする",
+        "内蔵ストレージへ常時レプリケーション",
+        "共有フォルダをネットワークドライブとしてバックアップ"
+      ],
+      "answer": "WORM機能をもつストレージへ重要データをバックアップ",
+      "explain": "WORMは一度書き込んだデータを後から変更・削除できず、感染端末からの暗号化被害を受けにくい。",
+      "point": "バックアップ先が後から書換可能かを見る。",
+      "topic": "SEC7-8",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集12_セキュリティ②_v41",
+      "source_section": "セキュリティ②",
+      "source_no": 38,
+      "subtopic": "ランサムウェア対策とWORM",
+      "attention": "WORM・変更不可・バックアップ",
+      "mistake": "RAIDやオンラインレプリケーションをバックアップ保護と同一視する。",
+      "review_tag": "SECURITY_A12_V41_38"
+    },
+    {
+      "id": "SEC-A12-Q39",
+      "type": "四択",
+      "q": "DKIMに関する記述のうち適切なものはどれか。",
+      "choices": [
+        "送信側メールサーバでメールにデジタル署名を付与し、受信側で検証して送信元ドメインを認証する",
+        "送信時にID・パスワードで正規利用者か認証する",
+        "認証失敗時の処理ポリシーをDNSへ登録する",
+        "送信元ドメインDNSの送信サーバIPと実際の送信元IPを照合する"
+      ],
+      "answer": "送信側メールサーバでメールにデジタル署名を付与し、受信側で検証して送信元ドメインを認証する",
+      "explain": "DKIMは電子メールへデジタル署名を付与し、受信側で検証して送信元の正当性を確認する。",
+      "point": "デジタル署名を使う送信ドメイン認証かを見る。",
+      "topic": "SEC8-7",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集12_セキュリティ②_v41",
+      "source_section": "セキュリティ②",
+      "source_no": 39,
+      "subtopic": "DKIM",
+      "attention": "DKIM・デジタル署名・送信元ドメイン",
+      "mistake": "SMTP-AUTH、DMARC、SPFと混同する。",
+      "review_tag": "SECURITY_A12_V41_39"
+    }
+  ],
+  "step5_cross_analysis": {
+    "repeated_topics": [
+      "ファイアウォール/WAFと通信レイヤの違い",
+      "DNS関連対策（DNSSEC・キャッシュポイズニング・オープンリゾルバ）",
+      "メール送信元認証とスパム対策（OP25B・SMTP-AUTH・SPF・DKIM）",
+      "ログ・検知・事後調査（SIEM・フォレンジックス・フォールスネガティブ）",
+      "Webアプリケーション対策（XSS・SQLインジェクション・セッション管理）",
+      "暗号・認証・安全な通信（TLS・SSH・WPA2）"
+    ],
+    "common_judgment_conditions": [
+      "どのOSI層・どの通信情報を見ているか",
+      "通信内容を検査するのか、IP/ポートだけを見るのか",
+      "予防・検知・隔離・事後調査のどの段階か",
+      "DNSやメールで『誰を認証するか』『何を照合するか』",
+      "攻撃対象へデータが直接届くか、分離・隔離されているか"
+    ],
+    "confusable_concepts": [
+      "パケットフィルタリングFW ↔ WAF ↔ IPS",
+      "SIEM ↔ ディジタルフォレンジックス",
+      "フォールスネガティブ ↔ フォールスポジティブ",
+      "SPF ↔ DKIM ↔ DMARC ↔ SMTP-AUTH",
+      "DNSSEC ↔ ソースポートランダマイゼーション ↔ 再帰問合せ制限",
+      "WPA2-PSK ↔ SSID",
+      "SSH ↔ TLS ↔ RADIUS ↔ L2TP"
+    ],
+    "frequent_attention_words": [
+      "送信元IPアドレス",
+      "ポート番号",
+      "再帰的問合せ",
+      "ディジタル署名",
+      "ログ",
+      "証拠",
+      "隔離",
+      "デスクトップ画面",
+      "バインド機構",
+      "ブロードキャスト",
+      "動的IPアドレス",
+      "SMTP-AUTH"
+    ],
+    "common_traps": [
+      "アプリケーション層の内容検査とネットワーク層/トランスポート層のフィルタリングを混同させる",
+      "固定すると安全に見える値（ポート番号・トランザクションID）を選ばせる",
+      "似た送信ドメイン認証技術の方式を入れ替える",
+      "可用性対策や運用管理を耐タンパ性・マルウェア対策として選ばせる",
+      "『未然防止』と『発生後の調査』を入れ替える"
+    ],
+    "principle_exception": [
+      "WAFに復号機能がない場合は、暗号化通信のままでは内容を検査できない",
+      "パケットフィルタリングFWでは許可済みHTTP通信のアプリケーション攻撃までは判定できない",
+      "RAIDやオンラインレプリケーションはランサムウェア暗号化の連鎖を防げない",
+      "L2TP単体には暗号化機能がない"
+    ]
+  },
+  "step6_matrix": [
+    {
+      "problem": 1,
+      "major_topic": "セキュリティ対策の種類",
+      "subtopic": "セキュリティ対策の機能と多層防御",
+      "question_focus": "VDIによる端末分離",
+      "attention": "VDI・画像データだけ",
+      "criterion": "端末へ『何を送るか』を見る。",
+      "mistake": "VDIを不正コード検知装置やファイル削除機能と考える。",
+      "review_to": "SEC7-1",
+      "review_tag": "SECURITY_A12_V41_01"
+    },
+    {
+      "problem": 2,
+      "major_topic": "ネットワークの種類と特徴",
+      "subtopic": "NAT・NAPT・プロキシ",
+      "question_focus": "NAPTのセキュリティ効果",
+      "attention": "IPアドレス・ポート番号・プライベートIP",
+      "criterion": "NAPTが変換する情報と外部から見えるアドレスを見る。",
+      "mistake": "IDSやアプリケーションFWの機能と混同する。",
+      "review_to": "NW1-4",
+      "review_tag": "SECURITY_A12_V41_02"
+    },
+    {
+      "problem": 3,
+      "major_topic": "セキュリティ対策の種類",
+      "subtopic": "ログ管理・SIEM・ディジタルフォレンジックス",
+      "question_focus": "ディジタルフォレンジックスの手順",
+      "attention": "削除ログ・復元・痕跡",
+      "criterion": "事後調査・証拠・復元かを見る。",
+      "mistake": "SIEMやアンチウイルスの検知と混同する。",
+      "review_to": "SEC7-6",
+      "review_tag": "SECURITY_A12_V41_03"
+    },
+    {
+      "problem": 4,
+      "major_topic": "セキュリティ対策の種類",
+      "subtopic": "制御システム・IoT・ウイルス対策",
+      "question_focus": "フォールスネガティブ",
+      "attention": "異常→正常・見逃し",
+      "criterion": "実際の状態と判定結果を2×2で考える。",
+      "mistake": "フォールスポジティブと逆に覚える。",
+      "review_to": "SEC7-8",
+      "review_tag": "SECURITY_A12_V41_04"
+    },
+    {
+      "problem": 5,
+      "major_topic": "アプリケーションセキュリティ",
+      "subtopic": "セキュリティバイデザイン",
+      "question_focus": "SBOM",
+      "attention": "Software Bill of Materials・依存関係",
+      "criterion": "『構成部品』『依存関係』を見る。",
+      "mistake": "SIEM、IT資産台帳、脆弱性管理プロセスと混同する。",
+      "review_to": "SEC9-7",
+      "review_tag": "SECURITY_A12_V41_05"
+    },
+    {
+      "problem": 6,
+      "major_topic": "セキュリティ対策の種類",
+      "subtopic": "物理的セキュリティ対策とRASIS",
+      "question_focus": "TPM",
+      "attention": "TPM・セキュリティチップ・耐タンパ性",
+      "criterion": "ハードウェア・鍵・ハッシュ・暗号処理。",
+      "mistake": "UTMやSIEMと混同する。",
+      "review_to": "SEC7-9",
+      "review_tag": "SECURITY_A12_V41_06"
+    },
+    {
+      "problem": 7,
+      "major_topic": "セキュリティ対策の種類",
+      "subtopic": "ログ管理・SIEM・ディジタルフォレンジックス",
+      "question_focus": "SIEM",
+      "attention": "複数機器・ログ・収集分析",
+      "criterion": "ログの『一元収集＋相関分析』を見る。",
+      "mistake": "IPS、SNMP、NetFlowと混同する。",
+      "review_to": "SEC7-6",
+      "review_tag": "SECURITY_A12_V41_07"
+    },
+    {
+      "problem": 8,
+      "major_topic": "セキュリティ対策の種類",
+      "subtopic": "物理的セキュリティ対策とRASIS",
+      "question_focus": "ICカードの耐タンパ性",
+      "attention": "プローブ・保存情報消去・解析困難",
+      "criterion": "物理解析を困難にする対策かを見る。",
+      "mistake": "可用性や運用管理の対策を耐タンパ性と誤る。",
+      "review_to": "SEC7-9",
+      "review_tag": "SECURITY_A12_V41_08"
+    },
+    {
+      "problem": 9,
+      "major_topic": "セキュリティ対策の種類",
+      "subtopic": "ファイアウォールとWAF",
+      "question_focus": "WAFの設置場所",
+      "attention": "WAF・SSLアクセラレータ・復号",
+      "criterion": "WAFが平文HTTPを検査できる位置かを見る。",
+      "mistake": "暗号化されたままでもWAFが内容検査できると考える。",
+      "review_to": "SEC7-3",
+      "review_tag": "SECURITY_A12_V41_09"
+    },
+    {
+      "problem": 10,
+      "major_topic": "セキュリティ対策の種類",
+      "subtopic": "ログ管理・SIEM・ディジタルフォレンジックス",
+      "question_focus": "ディジタルフォレンジックスの定義",
+      "attention": "法的証拠性・保全・収集・分析",
+      "criterion": "『法的証拠性』『保全・収集・分析』を見る。",
+      "mistake": "防御・予防策と混同する。",
+      "review_to": "SEC7-6",
+      "review_tag": "SECURITY_A12_V41_10"
+    },
+    {
+      "problem": 11,
+      "major_topic": "情報セキュリティに関する技術（認証技術）",
+      "subtopic": "生体認証",
+      "question_focus": "虹彩認証",
+      "attention": "他人受入率・経年変化・非接触",
+      "criterion": "虹彩の安定性・非接触・認証精度を見る。",
+      "mistake": "指紋認証の特徴と混同する。",
+      "review_to": "SEC4-7",
+      "review_tag": "SECURITY_A12_V41_11"
+    },
+    {
+      "problem": 12,
+      "major_topic": "セキュアプロトコル",
+      "subtopic": "WPA2・WPA3とEAP",
+      "question_focus": "WPA2-PSK",
+      "attention": "WPA2-PSK・Pre-Shared Key・SSID",
+      "criterion": "SSIDとPSKの役割を分ける。",
+      "mistake": "SSIDそのものを暗号鍵と誤る。",
+      "review_to": "SEC8-4",
+      "review_tag": "SECURITY_A12_V41_12"
+    },
+    {
+      "problem": 13,
+      "major_topic": "アプリケーションセキュリティ",
+      "subtopic": "DNSSEC",
+      "question_focus": "DNSSEC",
+      "attention": "DNSSEC・ディジタル署名・完全性",
+      "criterion": "ディジタル署名・公開鍵暗号方式かを見る。",
+      "mistake": "ソースポートランダム化や再帰問合せ制限と混同する。",
+      "review_to": "SEC9-6",
+      "review_tag": "SECURITY_A12_V41_13"
+    },
+    {
+      "problem": 14,
+      "major_topic": "セキュアプロトコル",
+      "subtopic": "IPsecとL2TP",
+      "question_focus": "IPsec・L2TP・TLSのOSI位置",
+      "attention": "TLS第4層・IPsec第3層・L2TP第2層",
+      "criterion": "各プロトコルの動作層を並べる。",
+      "mistake": "名前の印象だけで順序を選ぶ。",
+      "review_to": "SEC8-2",
+      "review_tag": "SECURITY_A12_V41_14"
+    },
+    {
+      "problem": 15,
+      "major_topic": "セキュリティ対策の種類",
+      "subtopic": "制御システム・IoT・ウイルス対策",
+      "question_focus": "サンドボックス",
+      "attention": "隔離・特別な領域・不正プログラム",
+      "criterion": "『隔離した実行環境』を見る。",
+      "mistake": "SIEM、サニタイジング、リバースプロキシと混同する。",
+      "review_to": "SEC7-8",
+      "review_tag": "SECURITY_A12_V41_15"
+    },
+    {
+      "problem": 16,
+      "major_topic": "セキュリティ対策の種類",
+      "subtopic": "ファイアウォールとWAF",
+      "question_focus": "パケットフィルタリングの判断情報",
+      "attention": "IPアドレス・ポート番号",
+      "criterion": "OSI層とヘッダ情報を対応させる。",
+      "mistake": "HTTP内容やMACアドレスを選ぶ。",
+      "review_to": "SEC7-3",
+      "review_tag": "SECURITY_A12_V41_16"
+    },
+    {
+      "problem": 17,
+      "major_topic": "セキュリティ対策の種類",
+      "subtopic": "ファイアウォールとWAF",
+      "question_focus": "WAF",
+      "attention": "WAF・Webアプリケーション",
+      "criterion": "保護対象がWebアプリケーションかを見る。",
+      "mistake": "HIDSやアンチウイルスと混同する。",
+      "review_to": "SEC7-3",
+      "review_tag": "SECURITY_A12_V41_17"
+    },
+    {
+      "problem": 18,
+      "major_topic": "その他の攻撃手法",
+      "subtopic": "DNSキャッシュポイズニング・リフレクション攻撃",
+      "question_focus": "DNSキャッシュポイズニング対策",
+      "attention": "再帰問合せ・内部のみ・固定しない",
+      "criterion": "再帰問合せの許可範囲と予測困難性を見る。",
+      "mistake": "ポート番号やIDを固定すると安全になると誤る。",
+      "review_to": "SEC3-3",
+      "review_tag": "SECURITY_A12_V41_18"
+    },
+    {
+      "problem": 19,
+      "major_topic": "セキュアプロトコル",
+      "subtopic": "SSL/TLS",
+      "question_focus": "クライアント証明書付きTLS",
+      "attention": "PC・Webサーバ・利用者個人の証明書",
+      "criterion": "通信の両端と証明書の主体を見る。",
+      "mistake": "内部DBサーバとPCが直接TLS通信すると考える。",
+      "review_to": "SEC8-1",
+      "review_tag": "SECURITY_A12_V41_19"
+    },
+    {
+      "problem": 20,
+      "major_topic": "アプリケーションセキュリティ",
+      "subtopic": "クロスサイトスクリプティング対策",
+      "question_focus": "XSS対策",
+      "attention": "HTMLタグとして解釈されない",
+      "criterion": "出力時にブラウザでコードとして実行されないかを見る。",
+      "mistake": "OSパッチや入力サイズ制限でXSSを防げると考える。",
+      "review_to": "SEC9-3",
+      "review_tag": "SECURITY_A12_V41_20"
+    },
+    {
+      "problem": 21,
+      "major_topic": "情報セキュリティに関する技術（暗号技術）",
+      "subtopic": "ハッシュ関数",
+      "question_focus": "ブロックチェーン",
+      "attention": "分散型台帳・ハッシュ値・同期",
+      "criterion": "ハッシュの連鎖＋分散管理を見る。",
+      "mistake": "MACやXML署名と混同する。",
+      "review_to": "SEC5-4",
+      "review_tag": "SECURITY_A12_V41_21"
+    },
+    {
+      "problem": 22,
+      "major_topic": "セキュアプロトコル",
+      "subtopic": "WPA2・WPA3とEAP",
+      "question_focus": "WPA2・CCMP・AES",
+      "attention": "WPA2・CCMP・AES・128ビット",
+      "criterion": "プロトコル・方式・アルゴリズムの組合せを見る。",
+      "mistake": "WPA/TKIPとWPA2/CCMPを入れ替える。",
+      "review_to": "SEC8-4",
+      "review_tag": "SECURITY_A12_V41_22"
+    },
+    {
+      "problem": 23,
+      "major_topic": "その他の攻撃手法",
+      "subtopic": "IPスプーフィング・セッションハイジャック・SEOポイズニング",
+      "question_focus": "ログアウト時のセッションID無効化",
+      "attention": "ログアウト・セッションID・無効化",
+      "criterion": "ログアウト後もIDが有効かどうかを見る。",
+      "mistake": "ブラウザキャッシュ削除をセッション管理と混同する。",
+      "review_to": "SEC3-2",
+      "review_tag": "SECURITY_A12_V41_23"
+    },
+    {
+      "problem": 24,
+      "major_topic": "セキュリティ対策の種類",
+      "subtopic": "ファイアウォールとWAF",
+      "question_focus": "パケットフィルタリングで防げるもの",
+      "attention": "未公開サーバ・IPアドレス・ポート番号",
+      "criterion": "ヘッダ情報だけで許可/拒否できるかを見る。",
+      "mistake": "通信内容の検査が必要な攻撃も防げると考える。",
+      "review_to": "SEC7-3",
+      "review_tag": "SECURITY_A12_V41_24"
+    },
+    {
+      "problem": 25,
+      "major_topic": "セキュアプロトコル",
+      "subtopic": "SSH",
+      "question_focus": "SSH",
+      "attention": "SSH・遠隔ログイン・暗号化",
+      "criterion": "用途が『安全なリモートログイン』かを見る。",
+      "mistake": "TLSやRADIUSを選ぶ。",
+      "review_to": "SEC8-5",
+      "review_tag": "SECURITY_A12_V41_25"
+    },
+    {
+      "problem": 26,
+      "major_topic": "セキュアプロトコル",
+      "subtopic": "OP25BとSMTP AUTH",
+      "question_focus": "OP25B",
+      "attention": "動的IP・25番・直接送信",
+      "criterion": "動的IPか、正規メールサーバを経由するかを見る。",
+      "mistake": "固定IPや正規メールサーバ経由まで遮断すると考える。",
+      "review_to": "SEC8-6",
+      "review_tag": "SECURITY_A12_V41_26"
+    },
+    {
+      "problem": 27,
+      "major_topic": "セキュアプロトコル",
+      "subtopic": "SPF・DKIM・DMARC",
+      "question_focus": "SPF",
+      "attention": "SPF・送信元IP・DNS",
+      "criterion": "DNS上のSPF情報と送信元IPの一致を見る。",
+      "mistake": "DNSBLやハッシュ検証と混同する。",
+      "review_to": "SEC8-7",
+      "review_tag": "SECURITY_A12_V41_27"
+    },
+    {
+      "problem": 28,
+      "major_topic": "セキュリティ対策の種類",
+      "subtopic": "ファイアウォールとWAF",
+      "question_focus": "WAFの通信内容検査",
+      "attention": "WAF・通信内容・不正操作遮断",
+      "criterion": "『通信内容を検査』『Webアプリケーション』を見る。",
+      "mistake": "ペネトレーションテストやSSLアクセラレータと混同する。",
+      "review_to": "SEC7-3",
+      "review_tag": "SECURITY_A12_V41_28"
+    },
+    {
+      "problem": 29,
+      "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+      "subtopic": "Ethernet・STP・VLAN・PPP/PPPoE",
+      "question_focus": "VLANによるセグメント分割",
+      "attention": "VLAN・ブロードキャスト・セグメント",
+      "criterion": "VLANで変わるのはブロードキャストドメインかを見る。",
+      "mistake": "ポートセキュリティやACLの機能と混同する。",
+      "review_to": "NW5-3",
+      "review_tag": "SECURITY_A12_V41_29"
+    },
+    {
+      "problem": 30,
+      "major_topic": "セキュアプロトコル",
+      "subtopic": "OP25BとSMTP AUTH",
+      "question_focus": "サブミッションポート587",
+      "attention": "587番・SMTP-AUTH・OP25B",
+      "criterion": "587番とSMTP-AUTHを結び付ける。",
+      "mistake": "SPFやPOP before SMTPと混同する。",
+      "review_to": "SEC8-6",
+      "review_tag": "SECURITY_A12_V41_30"
+    },
+    {
+      "problem": 31,
+      "major_topic": "アプリケーションセキュリティ",
+      "subtopic": "SQLインジェクション対策",
+      "question_focus": "SQLインジェクション対策",
+      "attention": "SQLインジェクション・バインド機構",
+      "criterion": "攻撃名と対策の対応を見る。",
+      "mistake": "別攻撃の対策を取り違える。",
+      "review_to": "SEC9-4",
+      "review_tag": "SECURITY_A12_V41_31"
+    },
+    {
+      "problem": 32,
+      "major_topic": "その他の攻撃手法",
+      "subtopic": "DNSキャッシュポイズニング・リフレクション攻撃",
+      "question_focus": "オープンリゾルバ悪用",
+      "attention": "オープンリゾルバ・送信元IP偽装・DNS応答",
+      "criterion": "DNS応答が攻撃対象へ反射される構造を見る。",
+      "mistake": "ICMPフラッド、ファーミング、第三者中継と混同する。",
+      "review_to": "SEC3-3",
+      "review_tag": "SECURITY_A12_V41_32"
+    },
+    {
+      "problem": 33,
+      "major_topic": "その他の攻撃手法",
+      "subtopic": "クリプトジャッキング・ゼロデイ・サイドチャネル",
+      "question_focus": "サイドチャネル攻撃",
+      "attention": "物理量・処理時間・消費電流",
+      "criterion": "処理時間・消費電流・漏えい電波などの副次情報を見る。",
+      "mistake": "スキャベジング、MITM、SQLインジェクションと混同する。",
+      "review_to": "SEC3-5",
+      "review_tag": "SECURITY_A12_V41_33"
+    },
+    {
+      "problem": 34,
+      "major_topic": "情報セキュリティマネジメント",
+      "subtopic": "情報セキュリティ組織・機関",
+      "question_focus": "JPCERT/CCとCSIRTマテリアル",
+      "attention": "JPCERT/CC・CSIRTマテリアル",
+      "criterion": "作成主体と資料名を対応させる。",
+      "mistake": "JIPDEC、IPA、デジタル・フォレンジック研究会の資料と混同する。",
+      "review_to": "SEC6-4",
+      "review_tag": "SECURITY_A12_V41_34"
+    },
+    {
+      "problem": 35,
+      "major_topic": "情報セキュリティマネジメント",
+      "subtopic": "リスクの種類とリスクアセスメント",
+      "question_focus": "リスクアセスメント",
+      "attention": "リスク特定・分析・評価",
+      "criterion": "リスクアセスメントの範囲を見る。",
+      "mistake": "リスク対応・受容を含める。",
+      "review_to": "SEC6-5",
+      "review_tag": "SECURITY_A12_V41_35"
+    },
+    {
+      "problem": 36,
+      "major_topic": "セキュアプロトコル",
+      "subtopic": "SPF・DKIM・DMARC",
+      "question_focus": "SPFの仕組み",
+      "attention": "送信元ドメイン・SPFレコード・送信元IP",
+      "criterion": "SPF＝DNSの許可IP照合。",
+      "mistake": "DKIMのデジタル署名と混同する。",
+      "review_to": "SEC8-7",
+      "review_tag": "SECURITY_A12_V41_36"
+    },
+    {
+      "problem": 37,
+      "major_topic": "セキュリティ対策の種類",
+      "subtopic": "サーバの要塞化",
+      "question_focus": "セキュアOS",
+      "attention": "セキュアOS・強制アクセス制御・最小権限",
+      "criterion": "OSの強制アクセス制御かを見る。",
+      "mistake": "SSO、WAF、多要素認証と混同する。",
+      "review_to": "SEC7-4",
+      "review_tag": "SECURITY_A12_V41_37"
+    },
+    {
+      "problem": 38,
+      "major_topic": "セキュリティ対策の種類",
+      "subtopic": "制御システム・IoT・ウイルス対策",
+      "question_focus": "ランサムウェア対策とWORM",
+      "attention": "WORM・変更不可・バックアップ",
+      "criterion": "バックアップ先が後から書換可能かを見る。",
+      "mistake": "RAIDやオンラインレプリケーションをバックアップ保護と同一視する。",
+      "review_to": "SEC7-8",
+      "review_tag": "SECURITY_A12_V41_38"
+    },
+    {
+      "problem": 39,
+      "major_topic": "セキュアプロトコル",
+      "subtopic": "SPF・DKIM・DMARC",
+      "question_focus": "DKIM",
+      "attention": "DKIM・デジタル署名・送信元ドメイン",
+      "criterion": "デジタル署名を使う送信ドメイン認証かを見る。",
+      "mistake": "SMTP-AUTH、DMARC、SPFと混同する。",
+      "review_to": "SEC8-7",
+      "review_tag": "SECURITY_A12_V41_39"
+    }
+  ],
+  "step7_level1_update": [
+    "【情報セキュリティ】",
+    "├─関連ネットワーク",
+    "│ ├─NW1-4 NAT・NAPT・プロキシ［問題2］",
+    "│ └─NW5-3 Ethernet・STP・VLAN・PPP/PPPoE［問題29］",
+    "├─SEC3 その他の攻撃手法",
+    "│ ├─SEC3-2 IPスプーフィング・セッションハイジャック・SEOポイズニング［問題23］",
+    "│ ├─SEC3-3 DNSキャッシュポイズニング・リフレクション攻撃［問題18・32］",
+    "│ └─SEC3-5 クリプトジャッキング・ゼロデイ・サイドチャネル［問題33］",
+    "├─SEC4 認証技術",
+    "│ └─SEC4-7 生体認証［問題11］",
+    "├─SEC5 暗号技術",
+    "│ └─SEC5-4 ハッシュ関数［問題21］",
+    "├─SEC6 情報セキュリティマネジメント",
+    "│ ├─SEC6-4 情報セキュリティ組織・機関［問題34］",
+    "│ └─SEC6-5〜7 リスクアセスメント［問題35］",
+    "├─SEC7 セキュリティ対策の種類",
+    "│ ├─SEC7-1 多層防御・VDI［問題1］",
+    "│ ├─SEC7-3 ファイアウォールとWAF［問題9・16・17・24・28］",
+    "│ ├─SEC7-4 サーバ要塞化・セキュアOS［問題37］",
+    "│ ├─SEC7-6 ログ管理・SIEM・ディジタルフォレンジックス［問題3・7・10］",
+    "│ ├─SEC7-8 制御システム・IoT・ウイルス対策［問題4・15・38］",
+    "│ └─SEC7-9 物理的セキュリティ・耐タンパ性［問題6・8］",
+    "├─SEC8 セキュアプロトコル",
+    "│ ├─SEC8-1 SSL/TLS［問題19］",
+    "│ ├─SEC8-2 IPsecとL2TP［問題14］",
+    "│ ├─SEC8-4 WPA2・WPA3とEAP［問題12・22］",
+    "│ ├─SEC8-5 SSH［問題25］",
+    "│ ├─SEC8-6 OP25BとSMTP AUTH［問題26・30］",
+    "│ └─SEC8-7 SPF・DKIM・DMARC［問題27・36・39］",
+    "└─SEC9 アプリケーションセキュリティ",
+    "  ├─SEC9-3 XSS対策［問題20］",
+    "  ├─SEC9-4 SQLインジェクション対策［問題31］",
+    "  ├─SEC9-6 DNSSEC［問題13］",
+    "  └─SEC9-7 セキュリティバイデザイン・SBOM［問題5］"
+  ],
+  "step8_review_flow": [
+    {
+      "problem_id": "SEC-A12-Q01",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → SEC7-1 セキュリティ対策の機能と多層防御",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "SECURITY_A12_V41_01"
+    },
+    {
+      "problem_id": "SEC-A12-Q02",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW1-4 NAT・NAPT・プロキシ",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "SECURITY_A12_V41_02"
+    },
+    {
+      "problem_id": "SEC-A12-Q03",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → SEC7-6 ログ管理・SIEM・ディジタルフォレンジックス",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "SECURITY_A12_V41_03"
+    },
+    {
+      "problem_id": "SEC-A12-Q04",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → SEC7-8 制御システム・IoT・ウイルス対策",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "SECURITY_A12_V41_04"
+    },
+    {
+      "problem_id": "SEC-A12-Q05",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → SEC9-7 セキュリティバイデザイン",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "SECURITY_A12_V41_05"
+    },
+    {
+      "problem_id": "SEC-A12-Q06",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → SEC7-9 物理的セキュリティ対策とRASIS",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "SECURITY_A12_V41_06"
+    },
+    {
+      "problem_id": "SEC-A12-Q07",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → SEC7-6 ログ管理・SIEM・ディジタルフォレンジックス",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "SECURITY_A12_V41_07"
+    },
+    {
+      "problem_id": "SEC-A12-Q08",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → SEC7-9 物理的セキュリティ対策とRASIS",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "SECURITY_A12_V41_08"
+    },
+    {
+      "problem_id": "SEC-A12-Q09",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → SEC7-3 ファイアウォールとWAF",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "SECURITY_A12_V41_09"
+    },
+    {
+      "problem_id": "SEC-A12-Q10",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → SEC7-6 ログ管理・SIEM・ディジタルフォレンジックス",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "SECURITY_A12_V41_10"
+    },
+    {
+      "problem_id": "SEC-A12-Q11",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → SEC4-7 生体認証",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "SECURITY_A12_V41_11"
+    },
+    {
+      "problem_id": "SEC-A12-Q12",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → SEC8-4 WPA2・WPA3とEAP",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "SECURITY_A12_V41_12"
+    },
+    {
+      "problem_id": "SEC-A12-Q13",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → SEC9-6 DNSSEC",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "SECURITY_A12_V41_13"
+    },
+    {
+      "problem_id": "SEC-A12-Q14",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → SEC8-2 IPsecとL2TP",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "SECURITY_A12_V41_14"
+    },
+    {
+      "problem_id": "SEC-A12-Q15",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → SEC7-8 制御システム・IoT・ウイルス対策",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "SECURITY_A12_V41_15"
+    },
+    {
+      "problem_id": "SEC-A12-Q16",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → SEC7-3 ファイアウォールとWAF",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "SECURITY_A12_V41_16"
+    },
+    {
+      "problem_id": "SEC-A12-Q17",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → SEC7-3 ファイアウォールとWAF",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "SECURITY_A12_V41_17"
+    },
+    {
+      "problem_id": "SEC-A12-Q18",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → SEC3-3 DNSキャッシュポイズニング・リフレクション攻撃",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "SECURITY_A12_V41_18"
+    },
+    {
+      "problem_id": "SEC-A12-Q19",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → SEC8-1 SSL/TLS",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "SECURITY_A12_V41_19"
+    },
+    {
+      "problem_id": "SEC-A12-Q20",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → SEC9-3 クロスサイトスクリプティング対策",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "SECURITY_A12_V41_20"
+    },
+    {
+      "problem_id": "SEC-A12-Q21",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → SEC5-4 ハッシュ関数",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "SECURITY_A12_V41_21"
+    },
+    {
+      "problem_id": "SEC-A12-Q22",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → SEC8-4 WPA2・WPA3とEAP",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "SECURITY_A12_V41_22"
+    },
+    {
+      "problem_id": "SEC-A12-Q23",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → SEC3-2 IPスプーフィング・セッションハイジャック・SEOポイズニング",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "SECURITY_A12_V41_23"
+    },
+    {
+      "problem_id": "SEC-A12-Q24",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → SEC7-3 ファイアウォールとWAF",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "SECURITY_A12_V41_24"
+    },
+    {
+      "problem_id": "SEC-A12-Q25",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → SEC8-5 SSH",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "SECURITY_A12_V41_25"
+    },
+    {
+      "problem_id": "SEC-A12-Q26",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → SEC8-6 OP25BとSMTP AUTH",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "SECURITY_A12_V41_26"
+    },
+    {
+      "problem_id": "SEC-A12-Q27",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → SEC8-7 SPF・DKIM・DMARC",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "SECURITY_A12_V41_27"
+    },
+    {
+      "problem_id": "SEC-A12-Q28",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → SEC7-3 ファイアウォールとWAF",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "SECURITY_A12_V41_28"
+    },
+    {
+      "problem_id": "SEC-A12-Q29",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW5-3 Ethernet・STP・VLAN・PPP/PPPoE",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "SECURITY_A12_V41_29"
+    },
+    {
+      "problem_id": "SEC-A12-Q30",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → SEC8-6 OP25BとSMTP AUTH",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "SECURITY_A12_V41_30"
+    },
+    {
+      "problem_id": "SEC-A12-Q31",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → SEC9-4 SQLインジェクション対策",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "SECURITY_A12_V41_31"
+    },
+    {
+      "problem_id": "SEC-A12-Q32",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → SEC3-3 DNSキャッシュポイズニング・リフレクション攻撃",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "SECURITY_A12_V41_32"
+    },
+    {
+      "problem_id": "SEC-A12-Q33",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → SEC3-5 クリプトジャッキング・ゼロデイ・サイドチャネル",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "SECURITY_A12_V41_33"
+    },
+    {
+      "problem_id": "SEC-A12-Q34",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → SEC6-4 情報セキュリティ組織・機関",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "SECURITY_A12_V41_34"
+    },
+    {
+      "problem_id": "SEC-A12-Q35",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → SEC6-5 リスクの種類とリスクアセスメント",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "SECURITY_A12_V41_35"
+    },
+    {
+      "problem_id": "SEC-A12-Q36",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → SEC8-7 SPF・DKIM・DMARC",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "SECURITY_A12_V41_36"
+    },
+    {
+      "problem_id": "SEC-A12-Q37",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → SEC7-4 サーバの要塞化",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "SECURITY_A12_V41_37"
+    },
+    {
+      "problem_id": "SEC-A12-Q38",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → SEC7-8 制御システム・IoT・ウイルス対策",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "SECURITY_A12_V41_38"
+    },
+    {
+      "problem_id": "SEC-A12-Q39",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → SEC8-7 SPF・DKIM・DMARC",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "SECURITY_A12_V41_39"
+    }
+  ],
+  "step9_final_additional_data": {
+    "new_major_topics": [],
+    "new_subtopics": [],
+    "existing_topic_additions": [
+      "NW1-4",
+      "NW5-3",
+      "SEC3-2",
+      "SEC3-3",
+      "SEC3-5",
+      "SEC4-7",
+      "SEC5-4",
+      "SEC6-4",
+      "SEC6-5",
+      "SEC6-6",
+      "SEC6-7",
+      "SEC7-1",
+      "SEC7-3",
+      "SEC7-4",
+      "SEC7-6",
+      "SEC7-8",
+      "SEC7-9",
+      "SEC8-1",
+      "SEC8-2",
+      "SEC8-4",
+      "SEC8-5",
+      "SEC8-6",
+      "SEC8-7",
+      "SEC9-3",
+      "SEC9-4",
+      "SEC9-6",
+      "SEC9-7"
+    ],
+    "questions_added": 39,
+    "question_topic_matrix": [
+      {
+        "problem": 1,
+        "major_topic": "セキュリティ対策の種類",
+        "subtopic": "セキュリティ対策の機能と多層防御",
+        "question_focus": "VDIによる端末分離",
+        "attention": "VDI・画像データだけ",
+        "criterion": "端末へ『何を送るか』を見る。",
+        "mistake": "VDIを不正コード検知装置やファイル削除機能と考える。",
+        "review_to": "SEC7-1",
+        "review_tag": "SECURITY_A12_V41_01"
+      },
+      {
+        "problem": 2,
+        "major_topic": "ネットワークの種類と特徴",
+        "subtopic": "NAT・NAPT・プロキシ",
+        "question_focus": "NAPTのセキュリティ効果",
+        "attention": "IPアドレス・ポート番号・プライベートIP",
+        "criterion": "NAPTが変換する情報と外部から見えるアドレスを見る。",
+        "mistake": "IDSやアプリケーションFWの機能と混同する。",
+        "review_to": "NW1-4",
+        "review_tag": "SECURITY_A12_V41_02"
+      },
+      {
+        "problem": 3,
+        "major_topic": "セキュリティ対策の種類",
+        "subtopic": "ログ管理・SIEM・ディジタルフォレンジックス",
+        "question_focus": "ディジタルフォレンジックスの手順",
+        "attention": "削除ログ・復元・痕跡",
+        "criterion": "事後調査・証拠・復元かを見る。",
+        "mistake": "SIEMやアンチウイルスの検知と混同する。",
+        "review_to": "SEC7-6",
+        "review_tag": "SECURITY_A12_V41_03"
+      },
+      {
+        "problem": 4,
+        "major_topic": "セキュリティ対策の種類",
+        "subtopic": "制御システム・IoT・ウイルス対策",
+        "question_focus": "フォールスネガティブ",
+        "attention": "異常→正常・見逃し",
+        "criterion": "実際の状態と判定結果を2×2で考える。",
+        "mistake": "フォールスポジティブと逆に覚える。",
+        "review_to": "SEC7-8",
+        "review_tag": "SECURITY_A12_V41_04"
+      },
+      {
+        "problem": 5,
+        "major_topic": "アプリケーションセキュリティ",
+        "subtopic": "セキュリティバイデザイン",
+        "question_focus": "SBOM",
+        "attention": "Software Bill of Materials・依存関係",
+        "criterion": "『構成部品』『依存関係』を見る。",
+        "mistake": "SIEM、IT資産台帳、脆弱性管理プロセスと混同する。",
+        "review_to": "SEC9-7",
+        "review_tag": "SECURITY_A12_V41_05"
+      },
+      {
+        "problem": 6,
+        "major_topic": "セキュリティ対策の種類",
+        "subtopic": "物理的セキュリティ対策とRASIS",
+        "question_focus": "TPM",
+        "attention": "TPM・セキュリティチップ・耐タンパ性",
+        "criterion": "ハードウェア・鍵・ハッシュ・暗号処理。",
+        "mistake": "UTMやSIEMと混同する。",
+        "review_to": "SEC7-9",
+        "review_tag": "SECURITY_A12_V41_06"
+      },
+      {
+        "problem": 7,
+        "major_topic": "セキュリティ対策の種類",
+        "subtopic": "ログ管理・SIEM・ディジタルフォレンジックス",
+        "question_focus": "SIEM",
+        "attention": "複数機器・ログ・収集分析",
+        "criterion": "ログの『一元収集＋相関分析』を見る。",
+        "mistake": "IPS、SNMP、NetFlowと混同する。",
+        "review_to": "SEC7-6",
+        "review_tag": "SECURITY_A12_V41_07"
+      },
+      {
+        "problem": 8,
+        "major_topic": "セキュリティ対策の種類",
+        "subtopic": "物理的セキュリティ対策とRASIS",
+        "question_focus": "ICカードの耐タンパ性",
+        "attention": "プローブ・保存情報消去・解析困難",
+        "criterion": "物理解析を困難にする対策かを見る。",
+        "mistake": "可用性や運用管理の対策を耐タンパ性と誤る。",
+        "review_to": "SEC7-9",
+        "review_tag": "SECURITY_A12_V41_08"
+      },
+      {
+        "problem": 9,
+        "major_topic": "セキュリティ対策の種類",
+        "subtopic": "ファイアウォールとWAF",
+        "question_focus": "WAFの設置場所",
+        "attention": "WAF・SSLアクセラレータ・復号",
+        "criterion": "WAFが平文HTTPを検査できる位置かを見る。",
+        "mistake": "暗号化されたままでもWAFが内容検査できると考える。",
+        "review_to": "SEC7-3",
+        "review_tag": "SECURITY_A12_V41_09"
+      },
+      {
+        "problem": 10,
+        "major_topic": "セキュリティ対策の種類",
+        "subtopic": "ログ管理・SIEM・ディジタルフォレンジックス",
+        "question_focus": "ディジタルフォレンジックスの定義",
+        "attention": "法的証拠性・保全・収集・分析",
+        "criterion": "『法的証拠性』『保全・収集・分析』を見る。",
+        "mistake": "防御・予防策と混同する。",
+        "review_to": "SEC7-6",
+        "review_tag": "SECURITY_A12_V41_10"
+      },
+      {
+        "problem": 11,
+        "major_topic": "情報セキュリティに関する技術（認証技術）",
+        "subtopic": "生体認証",
+        "question_focus": "虹彩認証",
+        "attention": "他人受入率・経年変化・非接触",
+        "criterion": "虹彩の安定性・非接触・認証精度を見る。",
+        "mistake": "指紋認証の特徴と混同する。",
+        "review_to": "SEC4-7",
+        "review_tag": "SECURITY_A12_V41_11"
+      },
+      {
+        "problem": 12,
+        "major_topic": "セキュアプロトコル",
+        "subtopic": "WPA2・WPA3とEAP",
+        "question_focus": "WPA2-PSK",
+        "attention": "WPA2-PSK・Pre-Shared Key・SSID",
+        "criterion": "SSIDとPSKの役割を分ける。",
+        "mistake": "SSIDそのものを暗号鍵と誤る。",
+        "review_to": "SEC8-4",
+        "review_tag": "SECURITY_A12_V41_12"
+      },
+      {
+        "problem": 13,
+        "major_topic": "アプリケーションセキュリティ",
+        "subtopic": "DNSSEC",
+        "question_focus": "DNSSEC",
+        "attention": "DNSSEC・ディジタル署名・完全性",
+        "criterion": "ディジタル署名・公開鍵暗号方式かを見る。",
+        "mistake": "ソースポートランダム化や再帰問合せ制限と混同する。",
+        "review_to": "SEC9-6",
+        "review_tag": "SECURITY_A12_V41_13"
+      },
+      {
+        "problem": 14,
+        "major_topic": "セキュアプロトコル",
+        "subtopic": "IPsecとL2TP",
+        "question_focus": "IPsec・L2TP・TLSのOSI位置",
+        "attention": "TLS第4層・IPsec第3層・L2TP第2層",
+        "criterion": "各プロトコルの動作層を並べる。",
+        "mistake": "名前の印象だけで順序を選ぶ。",
+        "review_to": "SEC8-2",
+        "review_tag": "SECURITY_A12_V41_14"
+      },
+      {
+        "problem": 15,
+        "major_topic": "セキュリティ対策の種類",
+        "subtopic": "制御システム・IoT・ウイルス対策",
+        "question_focus": "サンドボックス",
+        "attention": "隔離・特別な領域・不正プログラム",
+        "criterion": "『隔離した実行環境』を見る。",
+        "mistake": "SIEM、サニタイジング、リバースプロキシと混同する。",
+        "review_to": "SEC7-8",
+        "review_tag": "SECURITY_A12_V41_15"
+      },
+      {
+        "problem": 16,
+        "major_topic": "セキュリティ対策の種類",
+        "subtopic": "ファイアウォールとWAF",
+        "question_focus": "パケットフィルタリングの判断情報",
+        "attention": "IPアドレス・ポート番号",
+        "criterion": "OSI層とヘッダ情報を対応させる。",
+        "mistake": "HTTP内容やMACアドレスを選ぶ。",
+        "review_to": "SEC7-3",
+        "review_tag": "SECURITY_A12_V41_16"
+      },
+      {
+        "problem": 17,
+        "major_topic": "セキュリティ対策の種類",
+        "subtopic": "ファイアウォールとWAF",
+        "question_focus": "WAF",
+        "attention": "WAF・Webアプリケーション",
+        "criterion": "保護対象がWebアプリケーションかを見る。",
+        "mistake": "HIDSやアンチウイルスと混同する。",
+        "review_to": "SEC7-3",
+        "review_tag": "SECURITY_A12_V41_17"
+      },
+      {
+        "problem": 18,
+        "major_topic": "その他の攻撃手法",
+        "subtopic": "DNSキャッシュポイズニング・リフレクション攻撃",
+        "question_focus": "DNSキャッシュポイズニング対策",
+        "attention": "再帰問合せ・内部のみ・固定しない",
+        "criterion": "再帰問合せの許可範囲と予測困難性を見る。",
+        "mistake": "ポート番号やIDを固定すると安全になると誤る。",
+        "review_to": "SEC3-3",
+        "review_tag": "SECURITY_A12_V41_18"
+      },
+      {
+        "problem": 19,
+        "major_topic": "セキュアプロトコル",
+        "subtopic": "SSL/TLS",
+        "question_focus": "クライアント証明書付きTLS",
+        "attention": "PC・Webサーバ・利用者個人の証明書",
+        "criterion": "通信の両端と証明書の主体を見る。",
+        "mistake": "内部DBサーバとPCが直接TLS通信すると考える。",
+        "review_to": "SEC8-1",
+        "review_tag": "SECURITY_A12_V41_19"
+      },
+      {
+        "problem": 20,
+        "major_topic": "アプリケーションセキュリティ",
+        "subtopic": "クロスサイトスクリプティング対策",
+        "question_focus": "XSS対策",
+        "attention": "HTMLタグとして解釈されない",
+        "criterion": "出力時にブラウザでコードとして実行されないかを見る。",
+        "mistake": "OSパッチや入力サイズ制限でXSSを防げると考える。",
+        "review_to": "SEC9-3",
+        "review_tag": "SECURITY_A12_V41_20"
+      },
+      {
+        "problem": 21,
+        "major_topic": "情報セキュリティに関する技術（暗号技術）",
+        "subtopic": "ハッシュ関数",
+        "question_focus": "ブロックチェーン",
+        "attention": "分散型台帳・ハッシュ値・同期",
+        "criterion": "ハッシュの連鎖＋分散管理を見る。",
+        "mistake": "MACやXML署名と混同する。",
+        "review_to": "SEC5-4",
+        "review_tag": "SECURITY_A12_V41_21"
+      },
+      {
+        "problem": 22,
+        "major_topic": "セキュアプロトコル",
+        "subtopic": "WPA2・WPA3とEAP",
+        "question_focus": "WPA2・CCMP・AES",
+        "attention": "WPA2・CCMP・AES・128ビット",
+        "criterion": "プロトコル・方式・アルゴリズムの組合せを見る。",
+        "mistake": "WPA/TKIPとWPA2/CCMPを入れ替える。",
+        "review_to": "SEC8-4",
+        "review_tag": "SECURITY_A12_V41_22"
+      },
+      {
+        "problem": 23,
+        "major_topic": "その他の攻撃手法",
+        "subtopic": "IPスプーフィング・セッションハイジャック・SEOポイズニング",
+        "question_focus": "ログアウト時のセッションID無効化",
+        "attention": "ログアウト・セッションID・無効化",
+        "criterion": "ログアウト後もIDが有効かどうかを見る。",
+        "mistake": "ブラウザキャッシュ削除をセッション管理と混同する。",
+        "review_to": "SEC3-2",
+        "review_tag": "SECURITY_A12_V41_23"
+      },
+      {
+        "problem": 24,
+        "major_topic": "セキュリティ対策の種類",
+        "subtopic": "ファイアウォールとWAF",
+        "question_focus": "パケットフィルタリングで防げるもの",
+        "attention": "未公開サーバ・IPアドレス・ポート番号",
+        "criterion": "ヘッダ情報だけで許可/拒否できるかを見る。",
+        "mistake": "通信内容の検査が必要な攻撃も防げると考える。",
+        "review_to": "SEC7-3",
+        "review_tag": "SECURITY_A12_V41_24"
+      },
+      {
+        "problem": 25,
+        "major_topic": "セキュアプロトコル",
+        "subtopic": "SSH",
+        "question_focus": "SSH",
+        "attention": "SSH・遠隔ログイン・暗号化",
+        "criterion": "用途が『安全なリモートログイン』かを見る。",
+        "mistake": "TLSやRADIUSを選ぶ。",
+        "review_to": "SEC8-5",
+        "review_tag": "SECURITY_A12_V41_25"
+      },
+      {
+        "problem": 26,
+        "major_topic": "セキュアプロトコル",
+        "subtopic": "OP25BとSMTP AUTH",
+        "question_focus": "OP25B",
+        "attention": "動的IP・25番・直接送信",
+        "criterion": "動的IPか、正規メールサーバを経由するかを見る。",
+        "mistake": "固定IPや正規メールサーバ経由まで遮断すると考える。",
+        "review_to": "SEC8-6",
+        "review_tag": "SECURITY_A12_V41_26"
+      },
+      {
+        "problem": 27,
+        "major_topic": "セキュアプロトコル",
+        "subtopic": "SPF・DKIM・DMARC",
+        "question_focus": "SPF",
+        "attention": "SPF・送信元IP・DNS",
+        "criterion": "DNS上のSPF情報と送信元IPの一致を見る。",
+        "mistake": "DNSBLやハッシュ検証と混同する。",
+        "review_to": "SEC8-7",
+        "review_tag": "SECURITY_A12_V41_27"
+      },
+      {
+        "problem": 28,
+        "major_topic": "セキュリティ対策の種類",
+        "subtopic": "ファイアウォールとWAF",
+        "question_focus": "WAFの通信内容検査",
+        "attention": "WAF・通信内容・不正操作遮断",
+        "criterion": "『通信内容を検査』『Webアプリケーション』を見る。",
+        "mistake": "ペネトレーションテストやSSLアクセラレータと混同する。",
+        "review_to": "SEC7-3",
+        "review_tag": "SECURITY_A12_V41_28"
+      },
+      {
+        "problem": 29,
+        "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+        "subtopic": "Ethernet・STP・VLAN・PPP/PPPoE",
+        "question_focus": "VLANによるセグメント分割",
+        "attention": "VLAN・ブロードキャスト・セグメント",
+        "criterion": "VLANで変わるのはブロードキャストドメインかを見る。",
+        "mistake": "ポートセキュリティやACLの機能と混同する。",
+        "review_to": "NW5-3",
+        "review_tag": "SECURITY_A12_V41_29"
+      },
+      {
+        "problem": 30,
+        "major_topic": "セキュアプロトコル",
+        "subtopic": "OP25BとSMTP AUTH",
+        "question_focus": "サブミッションポート587",
+        "attention": "587番・SMTP-AUTH・OP25B",
+        "criterion": "587番とSMTP-AUTHを結び付ける。",
+        "mistake": "SPFやPOP before SMTPと混同する。",
+        "review_to": "SEC8-6",
+        "review_tag": "SECURITY_A12_V41_30"
+      },
+      {
+        "problem": 31,
+        "major_topic": "アプリケーションセキュリティ",
+        "subtopic": "SQLインジェクション対策",
+        "question_focus": "SQLインジェクション対策",
+        "attention": "SQLインジェクション・バインド機構",
+        "criterion": "攻撃名と対策の対応を見る。",
+        "mistake": "別攻撃の対策を取り違える。",
+        "review_to": "SEC9-4",
+        "review_tag": "SECURITY_A12_V41_31"
+      },
+      {
+        "problem": 32,
+        "major_topic": "その他の攻撃手法",
+        "subtopic": "DNSキャッシュポイズニング・リフレクション攻撃",
+        "question_focus": "オープンリゾルバ悪用",
+        "attention": "オープンリゾルバ・送信元IP偽装・DNS応答",
+        "criterion": "DNS応答が攻撃対象へ反射される構造を見る。",
+        "mistake": "ICMPフラッド、ファーミング、第三者中継と混同する。",
+        "review_to": "SEC3-3",
+        "review_tag": "SECURITY_A12_V41_32"
+      },
+      {
+        "problem": 33,
+        "major_topic": "その他の攻撃手法",
+        "subtopic": "クリプトジャッキング・ゼロデイ・サイドチャネル",
+        "question_focus": "サイドチャネル攻撃",
+        "attention": "物理量・処理時間・消費電流",
+        "criterion": "処理時間・消費電流・漏えい電波などの副次情報を見る。",
+        "mistake": "スキャベジング、MITM、SQLインジェクションと混同する。",
+        "review_to": "SEC3-5",
+        "review_tag": "SECURITY_A12_V41_33"
+      },
+      {
+        "problem": 34,
+        "major_topic": "情報セキュリティマネジメント",
+        "subtopic": "情報セキュリティ組織・機関",
+        "question_focus": "JPCERT/CCとCSIRTマテリアル",
+        "attention": "JPCERT/CC・CSIRTマテリアル",
+        "criterion": "作成主体と資料名を対応させる。",
+        "mistake": "JIPDEC、IPA、デジタル・フォレンジック研究会の資料と混同する。",
+        "review_to": "SEC6-4",
+        "review_tag": "SECURITY_A12_V41_34"
+      },
+      {
+        "problem": 35,
+        "major_topic": "情報セキュリティマネジメント",
+        "subtopic": "リスクの種類とリスクアセスメント",
+        "question_focus": "リスクアセスメント",
+        "attention": "リスク特定・分析・評価",
+        "criterion": "リスクアセスメントの範囲を見る。",
+        "mistake": "リスク対応・受容を含める。",
+        "review_to": "SEC6-5",
+        "review_tag": "SECURITY_A12_V41_35"
+      },
+      {
+        "problem": 36,
+        "major_topic": "セキュアプロトコル",
+        "subtopic": "SPF・DKIM・DMARC",
+        "question_focus": "SPFの仕組み",
+        "attention": "送信元ドメイン・SPFレコード・送信元IP",
+        "criterion": "SPF＝DNSの許可IP照合。",
+        "mistake": "DKIMのデジタル署名と混同する。",
+        "review_to": "SEC8-7",
+        "review_tag": "SECURITY_A12_V41_36"
+      },
+      {
+        "problem": 37,
+        "major_topic": "セキュリティ対策の種類",
+        "subtopic": "サーバの要塞化",
+        "question_focus": "セキュアOS",
+        "attention": "セキュアOS・強制アクセス制御・最小権限",
+        "criterion": "OSの強制アクセス制御かを見る。",
+        "mistake": "SSO、WAF、多要素認証と混同する。",
+        "review_to": "SEC7-4",
+        "review_tag": "SECURITY_A12_V41_37"
+      },
+      {
+        "problem": 38,
+        "major_topic": "セキュリティ対策の種類",
+        "subtopic": "制御システム・IoT・ウイルス対策",
+        "question_focus": "ランサムウェア対策とWORM",
+        "attention": "WORM・変更不可・バックアップ",
+        "criterion": "バックアップ先が後から書換可能かを見る。",
+        "mistake": "RAIDやオンラインレプリケーションをバックアップ保護と同一視する。",
+        "review_to": "SEC7-8",
+        "review_tag": "SECURITY_A12_V41_38"
+      },
+      {
+        "problem": 39,
+        "major_topic": "セキュアプロトコル",
+        "subtopic": "SPF・DKIM・DMARC",
+        "question_focus": "DKIM",
+        "attention": "DKIM・デジタル署名・送信元ドメイン",
+        "criterion": "デジタル署名を使う送信ドメイン認証かを見る。",
+        "mistake": "SMTP-AUTH、DMARC、SPFと混同する。",
+        "review_to": "SEC8-7",
+        "review_tag": "SECURITY_A12_V41_39"
+      }
+    ],
+    "review_tags": [
+      {
+        "problem_id": "SEC-A12-Q01",
+        "tag": "SECURITY_A12_V41_01",
+        "review_to": "SEC7-1"
+      },
+      {
+        "problem_id": "SEC-A12-Q02",
+        "tag": "SECURITY_A12_V41_02",
+        "review_to": "NW1-4"
+      },
+      {
+        "problem_id": "SEC-A12-Q03",
+        "tag": "SECURITY_A12_V41_03",
+        "review_to": "SEC7-6"
+      },
+      {
+        "problem_id": "SEC-A12-Q04",
+        "tag": "SECURITY_A12_V41_04",
+        "review_to": "SEC7-8"
+      },
+      {
+        "problem_id": "SEC-A12-Q05",
+        "tag": "SECURITY_A12_V41_05",
+        "review_to": "SEC9-7"
+      },
+      {
+        "problem_id": "SEC-A12-Q06",
+        "tag": "SECURITY_A12_V41_06",
+        "review_to": "SEC7-9"
+      },
+      {
+        "problem_id": "SEC-A12-Q07",
+        "tag": "SECURITY_A12_V41_07",
+        "review_to": "SEC7-6"
+      },
+      {
+        "problem_id": "SEC-A12-Q08",
+        "tag": "SECURITY_A12_V41_08",
+        "review_to": "SEC7-9"
+      },
+      {
+        "problem_id": "SEC-A12-Q09",
+        "tag": "SECURITY_A12_V41_09",
+        "review_to": "SEC7-3"
+      },
+      {
+        "problem_id": "SEC-A12-Q10",
+        "tag": "SECURITY_A12_V41_10",
+        "review_to": "SEC7-6"
+      },
+      {
+        "problem_id": "SEC-A12-Q11",
+        "tag": "SECURITY_A12_V41_11",
+        "review_to": "SEC4-7"
+      },
+      {
+        "problem_id": "SEC-A12-Q12",
+        "tag": "SECURITY_A12_V41_12",
+        "review_to": "SEC8-4"
+      },
+      {
+        "problem_id": "SEC-A12-Q13",
+        "tag": "SECURITY_A12_V41_13",
+        "review_to": "SEC9-6"
+      },
+      {
+        "problem_id": "SEC-A12-Q14",
+        "tag": "SECURITY_A12_V41_14",
+        "review_to": "SEC8-2"
+      },
+      {
+        "problem_id": "SEC-A12-Q15",
+        "tag": "SECURITY_A12_V41_15",
+        "review_to": "SEC7-8"
+      },
+      {
+        "problem_id": "SEC-A12-Q16",
+        "tag": "SECURITY_A12_V41_16",
+        "review_to": "SEC7-3"
+      },
+      {
+        "problem_id": "SEC-A12-Q17",
+        "tag": "SECURITY_A12_V41_17",
+        "review_to": "SEC7-3"
+      },
+      {
+        "problem_id": "SEC-A12-Q18",
+        "tag": "SECURITY_A12_V41_18",
+        "review_to": "SEC3-3"
+      },
+      {
+        "problem_id": "SEC-A12-Q19",
+        "tag": "SECURITY_A12_V41_19",
+        "review_to": "SEC8-1"
+      },
+      {
+        "problem_id": "SEC-A12-Q20",
+        "tag": "SECURITY_A12_V41_20",
+        "review_to": "SEC9-3"
+      },
+      {
+        "problem_id": "SEC-A12-Q21",
+        "tag": "SECURITY_A12_V41_21",
+        "review_to": "SEC5-4"
+      },
+      {
+        "problem_id": "SEC-A12-Q22",
+        "tag": "SECURITY_A12_V41_22",
+        "review_to": "SEC8-4"
+      },
+      {
+        "problem_id": "SEC-A12-Q23",
+        "tag": "SECURITY_A12_V41_23",
+        "review_to": "SEC3-2"
+      },
+      {
+        "problem_id": "SEC-A12-Q24",
+        "tag": "SECURITY_A12_V41_24",
+        "review_to": "SEC7-3"
+      },
+      {
+        "problem_id": "SEC-A12-Q25",
+        "tag": "SECURITY_A12_V41_25",
+        "review_to": "SEC8-5"
+      },
+      {
+        "problem_id": "SEC-A12-Q26",
+        "tag": "SECURITY_A12_V41_26",
+        "review_to": "SEC8-6"
+      },
+      {
+        "problem_id": "SEC-A12-Q27",
+        "tag": "SECURITY_A12_V41_27",
+        "review_to": "SEC8-7"
+      },
+      {
+        "problem_id": "SEC-A12-Q28",
+        "tag": "SECURITY_A12_V41_28",
+        "review_to": "SEC7-3"
+      },
+      {
+        "problem_id": "SEC-A12-Q29",
+        "tag": "SECURITY_A12_V41_29",
+        "review_to": "NW5-3"
+      },
+      {
+        "problem_id": "SEC-A12-Q30",
+        "tag": "SECURITY_A12_V41_30",
+        "review_to": "SEC8-6"
+      },
+      {
+        "problem_id": "SEC-A12-Q31",
+        "tag": "SECURITY_A12_V41_31",
+        "review_to": "SEC9-4"
+      },
+      {
+        "problem_id": "SEC-A12-Q32",
+        "tag": "SECURITY_A12_V41_32",
+        "review_to": "SEC3-3"
+      },
+      {
+        "problem_id": "SEC-A12-Q33",
+        "tag": "SECURITY_A12_V41_33",
+        "review_to": "SEC3-5"
+      },
+      {
+        "problem_id": "SEC-A12-Q34",
+        "tag": "SECURITY_A12_V41_34",
+        "review_to": "SEC6-4"
+      },
+      {
+        "problem_id": "SEC-A12-Q35",
+        "tag": "SECURITY_A12_V41_35",
+        "review_to": "SEC6-5"
+      },
+      {
+        "problem_id": "SEC-A12-Q36",
+        "tag": "SECURITY_A12_V41_36",
+        "review_to": "SEC8-7"
+      },
+      {
+        "problem_id": "SEC-A12-Q37",
+        "tag": "SECURITY_A12_V41_37",
+        "review_to": "SEC7-4"
+      },
+      {
+        "problem_id": "SEC-A12-Q38",
+        "tag": "SECURITY_A12_V41_38",
+        "review_to": "SEC7-8"
+      },
+      {
+        "problem_id": "SEC-A12-Q39",
+        "tag": "SECURITY_A12_V41_39",
+        "review_to": "SEC8-7"
+      }
+    ],
+    "level1_update": "step7_level1_update を参照"
+  }
+}
