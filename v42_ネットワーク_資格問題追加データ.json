@@ -1,0 +1,4339 @@
+{
+  "version": "v42",
+  "base_version": "v41",
+  "center_theme": "ネットワーク",
+  "source": {
+    "title": "科目A対策セレクト過去問題集10_ネットワーク",
+    "problems": 49
+  },
+  "step1_affiliations": [
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "NW1",
+      "major_topic": "ネットワークの種類と特徴",
+      "subtopic_id": "NW1-1",
+      "subtopic": "LAN",
+      "question_focus": "LPWA",
+      "problem": 1,
+      "related_topics": []
+    },
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "NW1",
+      "major_topic": "ネットワークの種類と特徴",
+      "subtopic_id": "NW1-1",
+      "subtopic": "LAN",
+      "question_focus": "SSID",
+      "problem": 2,
+      "related_topics": []
+    },
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "NW1",
+      "major_topic": "ネットワークの種類と特徴",
+      "subtopic_id": "NW1-3",
+      "subtopic": "SDN・NFV",
+      "question_focus": "NFV",
+      "problem": 3,
+      "related_topics": []
+    },
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "NW1",
+      "major_topic": "ネットワークの種類と特徴",
+      "subtopic_id": "NW1-4",
+      "subtopic": "NAT・NAPT・プロキシ",
+      "question_focus": "NAPT",
+      "problem": 4,
+      "related_topics": []
+    },
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "NW1",
+      "major_topic": "ネットワークの種類と特徴",
+      "subtopic_id": "NW1-4",
+      "subtopic": "NAT・NAPT・プロキシ",
+      "question_focus": "リバースプロキシ",
+      "problem": 5,
+      "related_topics": []
+    },
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "NW2",
+      "major_topic": "通信回線とその評価",
+      "subtopic_id": "NW2-2",
+      "subtopic": "回線種別・VoIP・5G",
+      "question_focus": "VoIP音声ペイロード計算",
+      "problem": 6,
+      "related_topics": []
+    },
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "NW2",
+      "major_topic": "通信回線とその評価",
+      "subtopic_id": "NW2-3",
+      "subtopic": "データ転送速度・ビット誤り率",
+      "question_focus": "伝送時間",
+      "problem": 7,
+      "related_topics": []
+    },
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "NW2",
+      "major_topic": "通信回線とその評価",
+      "subtopic_id": "NW2-3",
+      "subtopic": "データ転送速度・ビット誤り率",
+      "question_focus": "応答時間",
+      "problem": 8,
+      "related_topics": []
+    },
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "NW2",
+      "major_topic": "通信回線とその評価",
+      "subtopic_id": "NW2-3",
+      "subtopic": "データ転送速度・ビット誤り率",
+      "question_focus": "ボトルネックとダウンロード時間",
+      "problem": 9,
+      "related_topics": []
+    },
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "NW2",
+      "major_topic": "通信回線とその評価",
+      "subtopic_id": "NW2-3",
+      "subtopic": "データ転送速度・ビット誤り率",
+      "question_focus": "複数区間の伝送時間",
+      "problem": 10,
+      "related_topics": []
+    },
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "NW2",
+      "major_topic": "通信回線とその評価",
+      "subtopic_id": "NW2-3",
+      "subtopic": "データ転送速度・ビット誤り率",
+      "question_focus": "LAN利用率",
+      "problem": 11,
+      "related_topics": []
+    },
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "NW2",
+      "major_topic": "通信回線とその評価",
+      "subtopic_id": "NW2-3",
+      "subtopic": "データ転送速度・ビット誤り率",
+      "question_focus": "ビット誤り率",
+      "problem": 12,
+      "related_topics": []
+    },
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "NW1",
+      "major_topic": "ネットワークの種類と特徴",
+      "subtopic_id": "NW1-4",
+      "subtopic": "NAT・NAPT・プロキシ",
+      "question_focus": "NAPT応答パケットの書換え",
+      "problem": 13,
+      "related_topics": []
+    },
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "NW2",
+      "major_topic": "通信回線とその評価",
+      "subtopic_id": "NW2-3",
+      "subtopic": "データ転送速度・ビット誤り率",
+      "question_focus": "ビット誤り率",
+      "problem": 14,
+      "related_topics": []
+    },
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "NW1",
+      "major_topic": "ネットワークの種類と特徴",
+      "subtopic_id": "NW1-4",
+      "subtopic": "NAT・NAPT・プロキシ",
+      "question_focus": "フォワードプロキシ",
+      "problem": 15,
+      "related_topics": []
+    },
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "NW4",
+      "major_topic": "伝送制御とメディアアクセス制御",
+      "subtopic_id": "NW4-3",
+      "subtopic": "CSMA/CD・CSMA/CA",
+      "question_focus": "CSMA/CD",
+      "problem": 16,
+      "related_topics": []
+    },
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "NW5",
+      "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+      "subtopic_id": "NW5-2",
+      "subtopic": "カプセル化・非カプセル化",
+      "question_focus": "MAC宛先とIP宛先",
+      "problem": 17,
+      "related_topics": [
+        "NW5-3"
+      ]
+    },
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "NW3",
+      "major_topic": "ネットワークアーキテクチャと接続",
+      "subtopic_id": "NW3-3",
+      "subtopic": "接続機器",
+      "question_focus": "L2スイッチとブリッジ",
+      "problem": 18,
+      "related_topics": []
+    },
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "NW4",
+      "major_topic": "伝送制御とメディアアクセス制御",
+      "subtopic_id": "NW4-3",
+      "subtopic": "CSMA/CD・CSMA/CA",
+      "question_focus": "CSMA/CDとスループット",
+      "problem": 19,
+      "related_topics": []
+    },
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "NW3",
+      "major_topic": "ネットワークアーキテクチャと接続",
+      "subtopic_id": "NW3-3",
+      "subtopic": "接続機器",
+      "question_focus": "ルータの機能",
+      "problem": 20,
+      "related_topics": []
+    },
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "NW3",
+      "major_topic": "ネットワークアーキテクチャと接続",
+      "subtopic_id": "NW3-3",
+      "subtopic": "接続機器",
+      "question_focus": "L2スイッチの機能",
+      "problem": 21,
+      "related_topics": []
+    },
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "NW3",
+      "major_topic": "ネットワークアーキテクチャと接続",
+      "subtopic_id": "NW3-3",
+      "subtopic": "接続機器",
+      "question_focus": "LAN間接続装置",
+      "problem": 22,
+      "related_topics": []
+    },
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "NW6",
+      "major_topic": "トランスポート層・アプリケーション層",
+      "subtopic_id": "NW6-5",
+      "subtopic": "DNS",
+      "question_focus": "DNSとレコード",
+      "problem": 23,
+      "related_topics": []
+    },
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "NW5",
+      "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+      "subtopic_id": "NW5-6",
+      "subtopic": "ICMP・ARP・RARP・VRRP",
+      "question_focus": "ICMP",
+      "problem": 24,
+      "related_topics": []
+    },
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "NW1",
+      "major_topic": "ネットワークの種類と特徴",
+      "subtopic_id": "NW1-4",
+      "subtopic": "NAT・NAPT・プロキシ",
+      "question_focus": "プロキシとキャッシュ",
+      "problem": 25,
+      "related_topics": []
+    },
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "NW5",
+      "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+      "subtopic_id": "NW5-6",
+      "subtopic": "ICMP・ARP・RARP・VRRP",
+      "question_focus": "ARP",
+      "problem": 26,
+      "related_topics": []
+    },
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "NW5",
+      "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+      "subtopic_id": "NW5-5",
+      "subtopic": "IPv6",
+      "question_focus": "IPv6表記",
+      "problem": 27,
+      "related_topics": []
+    },
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "NW5",
+      "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+      "subtopic_id": "NW5-5",
+      "subtopic": "IPv6",
+      "question_focus": "IPv6とIPsec",
+      "problem": 28,
+      "related_topics": [
+        "SEC8-2"
+      ]
+    },
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "NW5",
+      "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+      "subtopic_id": "NW5-4",
+      "subtopic": "IPv4・サブネットマスク・CIDR",
+      "question_focus": "ネットワークアドレス",
+      "problem": 29,
+      "related_topics": []
+    },
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "NW5",
+      "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+      "subtopic_id": "NW5-3",
+      "subtopic": "Ethernet・STP・VLAN・PPP/PPPoE",
+      "question_focus": "イーサネットブロードキャスト",
+      "problem": 30,
+      "related_topics": []
+    },
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "NW5",
+      "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+      "subtopic_id": "NW5-4",
+      "subtopic": "IPv4・サブネットマスク・CIDR",
+      "question_focus": "サブネット内アドレス割当て",
+      "problem": 31,
+      "related_topics": []
+    },
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "NW5",
+      "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+      "subtopic_id": "NW5-6",
+      "subtopic": "ICMP・ARP・RARP・VRRP",
+      "question_focus": "RARP",
+      "problem": 32,
+      "related_topics": []
+    },
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "NW5",
+      "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+      "subtopic_id": "NW5-4",
+      "subtopic": "IPv4・サブネットマスク・CIDR",
+      "question_focus": "経路集約",
+      "problem": 33,
+      "related_topics": []
+    },
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "NW5",
+      "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+      "subtopic_id": "NW5-6",
+      "subtopic": "ICMP・ARP・RARP・VRRP",
+      "question_focus": "ARP",
+      "problem": 34,
+      "related_topics": []
+    },
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "NW5",
+      "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+      "subtopic_id": "NW5-6",
+      "subtopic": "ICMP・ARP・RARP・VRRP",
+      "question_focus": "pingとICMP",
+      "problem": 35,
+      "related_topics": []
+    },
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "NW5",
+      "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+      "subtopic_id": "NW5-3",
+      "subtopic": "Ethernet・STP・VLAN・PPP/PPPoE",
+      "question_focus": "PPP",
+      "problem": 36,
+      "related_topics": []
+    },
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "NW5",
+      "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+      "subtopic_id": "NW5-3",
+      "subtopic": "Ethernet・STP・VLAN・PPP/PPPoE",
+      "question_focus": "ブロードキャストストーム",
+      "problem": 37,
+      "related_topics": []
+    },
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "NW6",
+      "major_topic": "トランスポート層・アプリケーション層",
+      "subtopic_id": "NW6-3",
+      "subtopic": "HTTP・HTTPS・SMTP・POP・IMAP",
+      "question_focus": "WebSocket",
+      "problem": 38,
+      "related_topics": []
+    },
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "NW5",
+      "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+      "subtopic_id": "NW5-6",
+      "subtopic": "ICMP・ARP・RARP・VRRP",
+      "question_focus": "ARP",
+      "problem": 39,
+      "related_topics": []
+    },
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "NW5",
+      "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+      "subtopic_id": "NW5-4",
+      "subtopic": "IPv4・サブネットマスク・CIDR",
+      "question_focus": "グローバル/プライベートIPv4",
+      "problem": 40,
+      "related_topics": []
+    },
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "NW6",
+      "major_topic": "トランスポート層・アプリケーション層",
+      "subtopic_id": "NW6-3",
+      "subtopic": "HTTP・HTTPS・SMTP・POP・IMAP",
+      "question_focus": "SOAP",
+      "problem": 41,
+      "related_topics": []
+    },
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "NW5",
+      "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+      "subtopic_id": "NW5-6",
+      "subtopic": "ICMP・ARP・RARP・VRRP",
+      "question_focus": "VRRP",
+      "problem": 42,
+      "related_topics": []
+    },
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "NW5",
+      "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+      "subtopic_id": "NW5-4",
+      "subtopic": "IPv4・サブネットマスク・CIDR",
+      "question_focus": "サブネット分割",
+      "problem": 43,
+      "related_topics": []
+    },
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "NW6",
+      "major_topic": "トランスポート層・アプリケーション層",
+      "subtopic_id": "NW6-1",
+      "subtopic": "TCP・UDP・ポート番号",
+      "question_focus": "UDP",
+      "problem": 44,
+      "related_topics": []
+    },
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "NW5",
+      "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+      "subtopic_id": "NW5-2",
+      "subtopic": "カプセル化・非カプセル化",
+      "question_focus": "ルータ通過時のMAC/IPアドレス",
+      "problem": 45,
+      "related_topics": [
+        "NW3-3"
+      ]
+    },
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "NW1",
+      "major_topic": "ネットワークの種類と特徴",
+      "subtopic_id": "NW1-3",
+      "subtopic": "SDN・NFV",
+      "question_focus": "SDN・OpenFlow",
+      "problem": 46,
+      "related_topics": []
+    },
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "NW6",
+      "major_topic": "トランスポート層・アプリケーション層",
+      "subtopic_id": "NW6-4",
+      "subtopic": "DHCP",
+      "question_focus": "DHCP",
+      "problem": 47,
+      "related_topics": []
+    },
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "NW6",
+      "major_topic": "トランスポート層・アプリケーション層",
+      "subtopic_id": "NW6-3",
+      "subtopic": "HTTP・HTTPS・SMTP・POP・IMAP",
+      "question_focus": "URLでのポート番号指定",
+      "problem": 48,
+      "related_topics": [
+        "NW6-1"
+      ]
+    },
+    {
+      "center_theme": "ネットワーク",
+      "major_topic_id": "SEC4",
+      "major_topic": "情報セキュリティに関する技術（認証技術）",
+      "subtopic_id": "SEC4-5",
+      "subtopic": "SAML認証",
+      "question_focus": "SAML",
+      "problem": 49,
+      "related_topics": []
+    }
+  ],
+  "step2_knowledge_extraction": [
+    {
+      "problem": 1,
+      "problem_theme": "LPWA",
+      "asked": "省電力・広範囲・低速という特徴を識別する。",
+      "conclusion": "正解：バッテリ消費量が少なく、一つの基地局で広範囲をカバーし、複数センサ接続に適する。LPWAは低速だが省電力・広範囲の無線通信。",
+      "judgment_core": "条件・着目語句：LPWA・LowPower・WideArea → 判断基準：省電力・広範囲・低速という特徴を識別する。 → 結論：バッテリ消費量が少なく、一つの基地局で広範囲をカバーし、複数センサ接続に適する",
+      "attention": "LPWA・LowPower・WideArea",
+      "mistake": "WiGigやPLCの説明を選ぶ。",
+      "review_to": "NW1-1",
+      "review_tag": "NETWORK_A10_V42_01"
+    },
+    {
+      "problem": 2,
+      "problem_theme": "SSID",
+      "asked": "ネットワーク識別子かホスト識別子かを見る。",
+      "conclusion": "正解：最長32オクテットのネットワーク識別子で接続APの選択に用いられる。SSIDは無線LANのネットワーク名・識別子。",
+      "judgment_core": "条件・着目語句：SSID・32オクテット・ネットワーク識別子 → 判断基準：ネットワーク識別子かホスト識別子かを見る。 → 結論：最長32オクテットのネットワーク識別子で接続APの選択に用いられる",
+      "attention": "SSID・32オクテット・ネットワーク識別子",
+      "mistake": "MACアドレスと混同する。",
+      "review_to": "NW1-1",
+      "review_tag": "NETWORK_A10_V42_02"
+    },
+    {
+      "problem": 3,
+      "problem_theme": "NFV",
+      "asked": "汎用サーバ上でネットワーク機能をソフトウェア化するかを見る。",
+      "conclusion": "正解：仮想化技術でネットワーク機能を汎用サーバ上のソフトウェアとして実現し柔軟な基盤を構築する。NFVはネットワーク機能の仮想化。",
+      "judgment_core": "条件・着目語句：NFV・仮想化・汎用サーバ → 判断基準：汎用サーバ上でネットワーク機能をソフトウェア化するかを見る。 → 結論：仮想化技術でネットワーク機能を汎用サーバ上のソフトウェアとして実現し柔軟な基盤を構築する",
+      "attention": "NFV・仮想化・汎用サーバ",
+      "mistake": "AR、深層学習、ペトリネットと混同する。",
+      "review_to": "NW1-3",
+      "review_tag": "NETWORK_A10_V42_03"
+    },
+    {
+      "problem": 4,
+      "problem_theme": "NAPT",
+      "asked": "IPだけでなくポート番号も変換する点を見る。",
+      "conclusion": "正解：NAPT。NAPTはIPアドレスとポート番号を変換する。",
+      "judgment_core": "条件・着目語句：NAPT・ポート番号・1つのグローバルIP → 判断基準：IPだけでなくポート番号も変換する点を見る。 → 結論：NAPT",
+      "attention": "NAPT・ポート番号・1つのグローバルIP",
+      "mistake": "NATやNTPと混同する。",
+      "review_to": "NW1-4",
+      "review_tag": "NETWORK_A10_V42_04"
+    },
+    {
+      "problem": 5,
+      "problem_theme": "リバースプロキシ",
+      "asked": "誰の代理かを見る。",
+      "conclusion": "正解：リバースプロキシ。リバースプロキシはWebサーバ側の代理として外部クライアントからの要求を中継する。",
+      "judgment_core": "条件・着目語句：Webサーバ側・外部クライアント・中継 → 判断基準：誰の代理かを見る。 → 結論：リバースプロキシ",
+      "attention": "Webサーバ側・外部クライアント・中継",
+      "mistake": "フォワードプロキシと逆にする。",
+      "review_to": "NW1-4",
+      "review_tag": "NETWORK_A10_V42_05"
+    },
+    {
+      "problem": 6,
+      "problem_theme": "VoIP音声ペイロード計算",
+      "asked": "周期から1秒当たりパケット数を求め、最後に8で割る。",
+      "conclusion": "正解：10。1秒100パケットなので8kbit÷100＝80bit＝10byte。",
+      "judgment_core": "条件・着目語句：8kbit/s・10ms・byte換算 → 判断基準：周期から1秒当たりパケット数を求め、最後に8で割る。 → 結論：10",
+      "attention": "8kbit/s・10ms・byte換算",
+      "mistake": "80ビットを80バイトと誤る。",
+      "review_to": "NW2-2",
+      "review_tag": "NETWORK_A10_V42_06"
+    },
+    {
+      "problem": 7,
+      "problem_theme": "伝送時間",
+      "asked": "総データ量÷実効速度。",
+      "conclusion": "正解：0.16。8Mbit÷(100Mbit/s×0.5)=0.16秒。",
+      "judgment_core": "条件・着目語句：1,000バイト×1,000件・50% → 判断基準：総データ量÷実効速度。 → 結論：0.16",
+      "attention": "1,000バイト×1,000件・50%",
+      "mistake": "バイト→ビット換算や効率を忘れる。",
+      "review_to": "NW2-3",
+      "review_tag": "NETWORK_A10_V42_07"
+    },
+    {
+      "problem": 8,
+      "problem_theme": "応答時間",
+      "asked": "伝送時間と両端処理時間を合算する。",
+      "conclusion": "正解：5.8。実効0.6MB/s、総3MBの伝送5秒＋処理0.4＋0.4＝5.8秒。",
+      "judgment_core": "条件・着目語句：上り＋下り・処理時間 → 判断基準：伝送時間と両端処理時間を合算する。 → 結論：5.8",
+      "attention": "上り＋下り・処理時間",
+      "mistake": "伝送時間だけで答える。",
+      "review_to": "NW2-3",
+      "review_tag": "NETWORK_A10_V42_08"
+    },
+    {
+      "problem": 9,
+      "problem_theme": "ボトルネックとダウンロード時間",
+      "asked": "複数区間では最も遅い実効速度を使う。",
+      "conclusion": "正解：54。LAN実効80Mbit/sがボトルネック。540MB=4320Mbit、4320÷80=54秒。",
+      "judgment_core": "条件・着目語句：80Mbps・90Mbps・540MB → 判断基準：複数区間では最も遅い実効速度を使う。 → 結論：54",
+      "attention": "80Mbps・90Mbps・540MB",
+      "mistake": "物理速度100Mbpsをそのまま使う。",
+      "review_to": "NW2-3",
+      "review_tag": "NETWORK_A10_V42_09"
+    },
+    {
+      "problem": 10,
+      "problem_theme": "複数区間の伝送時間",
+      "asked": "区間ごとの伝送時間とルータ処理をすべて足す。",
+      "conclusion": "正解：12。1.2+8+1.2+0.8+0.8=12ms。",
+      "judgment_core": "条件・着目語句：1,500バイト・10Mbps・1.5Mbps・0.8ms → 判断基準：区間ごとの伝送時間とルータ処理をすべて足す。 → 結論：12",
+      "attention": "1,500バイト・10Mbps・1.5Mbps・0.8ms",
+      "mistake": "中継回線だけ計算する。",
+      "review_to": "NW2-3",
+      "review_tag": "NETWORK_A10_V42_10"
+    },
+    {
+      "problem": 11,
+      "problem_theme": "LAN利用率",
+      "asked": "制御情報込みの1秒当たり総ビット数を求める。",
+      "conclusion": "正解：12。1回1,300byte、2組で1.248Mbit/s、1.248÷10≈12%。",
+      "judgment_core": "条件・着目語句：30%付加・60回/秒・2組 → 判断基準：制御情報込みの1秒当たり総ビット数を求める。 → 結論：12",
+      "attention": "30%付加・60回/秒・2組",
+      "mistake": "制御情報や組数を忘れる。",
+      "review_to": "NW2-3",
+      "review_tag": "NETWORK_A10_V42_11"
+    },
+    {
+      "problem": 12,
+      "problem_theme": "ビット誤り率",
+      "asked": "誤り数÷総伝送ビット数。",
+      "conclusion": "正解：3.33×10^-10。100秒で3,000Mbitを伝送するので1÷3,000,000,000。",
+      "judgment_core": "条件・着目語句：30Mbit/s・100秒・1bit → 判断基準：誤り数÷総伝送ビット数。 → 結論：3.33×10^-10",
+      "attention": "30Mbit/s・100秒・1bit",
+      "mistake": "100秒を分母にする。",
+      "review_to": "NW2-3",
+      "review_tag": "NETWORK_A10_V42_12"
+    },
+    {
+      "problem": 13,
+      "problem_theme": "NAPT応答パケットの書換え",
+      "asked": "通信方向がWebサーバ→PCである点を見る。",
+      "conclusion": "正解：宛先IPアドレスと宛先ポート番号。戻り通信ではグローバル宛先を内部PCのプライベートIP/ポートへ変換する。",
+      "judgment_core": "条件・着目語句：応答パケット・宛先IP・宛先ポート → 判断基準：通信方向がWebサーバ→PCである点を見る。 → 結論：宛先IPアドレスと宛先ポート番号",
+      "attention": "応答パケット・宛先IP・宛先ポート",
+      "mistake": "送信元側を書き換えると考える。",
+      "review_to": "NW1-4",
+      "review_tag": "NETWORK_A10_V42_13"
+    },
+    {
+      "problem": 14,
+      "problem_theme": "ビット誤り率",
+      "asked": "総ビット数を先に求める。",
+      "conclusion": "正解：1.56×10^-7。100秒で6,400,000bit。1÷6,400,000=1.56×10^-7。",
+      "judgment_core": "条件・着目語句：64kbit/s・100秒・1bit → 判断基準：総ビット数を先に求める。 → 結論：1.56×10^-7",
+      "attention": "64kbit/s・100秒・1bit",
+      "mistake": "kbitの桁を誤る。",
+      "review_to": "NW2-3",
+      "review_tag": "NETWORK_A10_V42_14"
+    },
+    {
+      "problem": 15,
+      "problem_theme": "フォワードプロキシ",
+      "asked": "代理する側がクライアントかサーバかを見る。",
+      "conclusion": "正解：Webブラウザの代理としてWebサーバへリクエストを送信する。フォワードプロキシはクライアントの代理。",
+      "judgment_core": "条件・着目語句：Webブラウザの代理 → 判断基準：代理する側がクライアントかサーバかを見る。 → 結論：Webブラウザの代理としてWebサーバへリクエストを送信する",
+      "attention": "Webブラウザの代理",
+      "mistake": "リバースプロキシと混同する。",
+      "review_to": "NW1-4",
+      "review_tag": "NETWORK_A10_V42_15"
+    },
+    {
+      "problem": 16,
+      "problem_theme": "CSMA/CD",
+      "asked": "Collision Detectionの動作を見る。",
+      "conclusion": "正解：各ステーションがキャリア検知し、衝突時は再送する。CSMA/CDは搬送波検知・多重アクセス・衝突検知。",
+      "judgment_core": "条件・着目語句：キャリア検知・衝突・再送 → 判断基準：Collision Detectionの動作を見る。 → 結論：各ステーションがキャリア検知し、衝突時は再送する",
+      "attention": "キャリア検知・衝突・再送",
+      "mistake": "TDMA、CSMA/CA、トークン方式と混同する。",
+      "review_to": "NW4-3",
+      "review_tag": "NETWORK_A10_V42_16"
+    },
+    {
+      "problem": 17,
+      "problem_theme": "MAC宛先とIP宛先",
+      "asked": "相手が同一ブロードキャストドメインかを見る。",
+      "conclusion": "正解：デフォルトゲートウェイのMAC・ホストBのIP。MACは次ホップ、IPは最終宛先。",
+      "judgment_core": "条件・着目語句：MAC＝次ホップ・IP＝最終宛先 → 判断基準：相手が同一ブロードキャストドメインかを見る。 → 結論：デフォルトゲートウェイのMAC・ホストBのIP",
+      "attention": "MAC＝次ホップ・IP＝最終宛先",
+      "mistake": "MACも最終端末を指定すると考える。",
+      "review_to": "NW5-2",
+      "review_tag": "NETWORK_A10_V42_17"
+    },
+    {
+      "problem": 18,
+      "problem_theme": "L2スイッチとブリッジ",
+      "asked": "OSI第2層かを見る。",
+      "conclusion": "正解：ブリッジ。L2スイッチとブリッジはデータリンク層でMACアドレスを扱う。",
+      "judgment_core": "条件・着目語句：L2・MACアドレス → 判断基準：OSI第2層かを見る。 → 結論：ブリッジ",
+      "attention": "L2・MACアドレス",
+      "mistake": "ルータやリピータを選ぶ。",
+      "review_to": "NW3-3",
+      "review_tag": "NETWORK_A10_V42_18"
+    },
+    {
+      "problem": 19,
+      "problem_theme": "CSMA/CDとスループット",
+      "asked": "衝突後の再送動作を見る。",
+      "conclusion": "正解：衝突発生時の再送により、衝突頻度が増すとスループットが下がる。衝突が多いほど再送が増え実効スループットが下がる。",
+      "judgment_core": "条件・着目語句：衝突・再送・スループット → 判断基準：衝突後の再送動作を見る。 → 結論：衝突発生時の再送により、衝突頻度が増すとスループットが下がる",
+      "attention": "衝突・再送・スループット",
+      "mistake": "キャリア検知すれば衝突しないと考える。",
+      "review_to": "NW4-3",
+      "review_tag": "NETWORK_A10_V42_19"
+    },
+    {
+      "problem": 20,
+      "problem_theme": "ルータの機能",
+      "asked": "OSI層と参照アドレスを見る。",
+      "conclusion": "正解：IPアドレスを識別し、異なるネットワーク間の転送経路を決定する。ルータは第3層でIPアドレスを基に経路制御する。",
+      "judgment_core": "条件・着目語句：ルータ・第3層・IPアドレス → 判断基準：OSI層と参照アドレスを見る。 → 結論：IPアドレスを識別し、異なるネットワーク間の転送経路を決定する",
+      "attention": "ルータ・第3層・IPアドレス",
+      "mistake": "L2スイッチやゲートウェイの説明と混同する。",
+      "review_to": "NW3-3",
+      "review_tag": "NETWORK_A10_V42_20"
+    },
+    {
+      "problem": 21,
+      "problem_theme": "L2スイッチの機能",
+      "asked": "第2層・MACアドレス。",
+      "conclusion": "正解：MACアドレスを解析して必要なLANポートへデータを流す。L2スイッチはMACアドレスを基に必要ポートへフレームを転送する。",
+      "judgment_core": "条件・着目語句：MACアドレス・必要ポート → 判断基準：第2層・MACアドレス。 → 結論：MACアドレスを解析して必要なLANポートへデータを流す",
+      "attention": "MACアドレス・必要ポート",
+      "mistake": "IPアドレスを使うルータと混同する。",
+      "review_to": "NW3-3",
+      "review_tag": "NETWORK_A10_V42_21"
+    },
+    {
+      "problem": 22,
+      "problem_theme": "LAN間接続装置",
+      "asked": "装置とOSI層・参照情報を対応させる。",
+      "conclusion": "正解：リピータは同種セグメント間で信号を増幅して伝送距離を延長する。リピータは物理層で信号を増幅する。",
+      "judgment_core": "条件・着目語句：リピータ・物理層・信号増幅 → 判断基準：装置とOSI層・参照情報を対応させる。 → 結論：リピータは同種セグメント間で信号を増幅して伝送距離を延長する",
+      "attention": "リピータ・物理層・信号増幅",
+      "mistake": "ブリッジとルータの参照アドレスを逆にする。",
+      "review_to": "NW3-3",
+      "review_tag": "NETWORK_A10_V42_22"
+    },
+    {
+      "problem": 23,
+      "problem_theme": "DNSとレコード",
+      "asked": "方向とレコード用途を確認する。",
+      "conclusion": "正解：IPアドレスに対応するホスト名を調べることを逆引きという。逆引きはIP→ホスト名。問い合わせソフトはリゾルバ。",
+      "judgment_core": "条件・着目語句：逆引き・PTR・リゾルバ → 判断基準：方向とレコード用途を確認する。 → 結論：IPアドレスに対応するホスト名を調べることを逆引きという",
+      "attention": "逆引き・PTR・リゾルバ",
+      "mistake": "MX/NS/CNAMEの役割を取り違える。",
+      "review_to": "NW6-5",
+      "review_tag": "NETWORK_A10_V42_23"
+    },
+    {
+      "problem": 24,
+      "problem_theme": "ICMP",
+      "asked": "エラー報告・pingを連想する。",
+      "conclusion": "正解：送信元ホストへIPパケットの送信エラー報告などの制御メッセージを通知する。ICMPはエラー報告や診断用の制御メッセージを扱う。",
+      "judgment_core": "条件・着目語句：ICMP・制御メッセージ・エラー報告 → 判断基準：エラー報告・pingを連想する。 → 結論：送信元ホストへIPパケットの送信エラー報告などの制御メッセージを通知する",
+      "attention": "ICMP・制御メッセージ・エラー報告",
+      "mistake": "ARP/RARP/NAT/DHCPと混同する。",
+      "review_to": "NW5-6",
+      "review_tag": "NETWORK_A10_V42_24"
+    },
+    {
+      "problem": 25,
+      "problem_theme": "プロキシとキャッシュ",
+      "asked": "中継＋キャッシュという機能を見る。",
+      "conclusion": "正解：プロキシ。Webプロキシはアクセス中継・キャッシュ・URLフィルタリングなどに利用される。",
+      "judgment_core": "条件・着目語句：プロキシ・キャッシュ → 判断基準：中継＋キャッシュという機能を見る。 → 結論：プロキシ",
+      "attention": "プロキシ・キャッシュ",
+      "mistake": "NAPTやFWを選ぶ。",
+      "review_to": "NW1-4",
+      "review_tag": "NETWORK_A10_V42_25"
+    },
+    {
+      "problem": 26,
+      "problem_theme": "ARP",
+      "asked": "変換方向を見る。",
+      "conclusion": "正解：IPアドレスからMACアドレスを得る。ARPはIP→MAC。",
+      "judgment_core": "条件・着目語句：ARP・IP→MAC → 判断基準：変換方向を見る。 → 結論：IPアドレスからMACアドレスを得る",
+      "attention": "ARP・IP→MAC",
+      "mistake": "RARPやDNSと逆にする。",
+      "review_to": "NW5-6",
+      "review_tag": "NETWORK_A10_V42_26"
+    },
+    {
+      "problem": 27,
+      "problem_theme": "IPv6表記",
+      "asked": "区切り記号と省略記号の使用回数を見る。",
+      "conclusion": "正解：2001:db8::3ab:ff01。IPv6はコロン区切りで、『::』は1か所だけ使用できる。",
+      "judgment_core": "条件・着目語句：IPv6・コロン・::は1か所 → 判断基準：区切り記号と省略記号の使用回数を見る。 → 結論：2001:db8::3ab:ff01",
+      "attention": "IPv6・コロン・::は1か所",
+      "mistake": "『::』を2か所使う。",
+      "review_to": "NW5-5",
+      "review_tag": "NETWORK_A10_V42_27"
+    },
+    {
+      "problem": 28,
+      "problem_theme": "IPv6とIPsec",
+      "asked": "IP層で実現する機能かを見る。",
+      "conclusion": "正解：暗号化。資料ではIPv6のIPsecによる暗号化を示している。",
+      "judgment_core": "条件・着目語句：IPv6・拡張ヘッダ・IPsec → 判断基準：IP層で実現する機能かを見る。 → 結論：暗号化",
+      "attention": "IPv6・拡張ヘッダ・IPsec",
+      "mistake": "アプリケーション層の検査機能を選ぶ。",
+      "review_to": "NW5-5",
+      "review_tag": "NETWORK_A10_V42_28"
+    },
+    {
+      "problem": 29,
+      "problem_theme": "ネットワークアドレス",
+      "asked": "サブネット幅を求める。",
+      "conclusion": "正解：10.170.70.16。/28なので第4オクテットは16刻み。19は16～31の範囲。",
+      "judgment_core": "条件・着目語句：255.255.255.240・/28・16刻み → 判断基準：サブネット幅を求める。 → 結論：10.170.70.16",
+      "attention": "255.255.255.240・/28・16刻み",
+      "mistake": "ブロードキャスト31を選ぶ。",
+      "review_to": "NW5-4",
+      "review_tag": "NETWORK_A10_V42_29"
+    },
+    {
+      "problem": 30,
+      "problem_theme": "イーサネットブロードキャスト",
+      "asked": "全ノード・一度の送信。",
+      "conclusion": "正解：同一セグメント内の全ノードへ一度の送信で伝送する。ブロードキャストは同一セグメント内の全ノード宛て。",
+      "judgment_core": "条件・着目語句：ブロードキャスト・全ノード → 判断基準：全ノード・一度の送信。 → 結論：同一セグメント内の全ノードへ一度の送信で伝送する",
+      "attention": "ブロードキャスト・全ノード",
+      "mistake": "マルチキャストのように選択ノードと考える。",
+      "review_to": "NW5-3",
+      "review_tag": "NETWORK_A10_V42_30"
+    },
+    {
+      "problem": 31,
+      "problem_theme": "サブネット内アドレス割当て",
+      "asked": "ネットワーク/ブロードキャストを除いた範囲を確定する。",
+      "conclusion": "正解：10.16.32.117。/26の利用可能範囲は65～126。末尾126から10番目は117。",
+      "judgment_core": "条件・着目語句：/26・65～126・降順 → 判断基準：ネットワーク/ブロードキャストを除いた範囲を確定する。 → 結論：10.16.32.117",
+      "attention": "/26・65～126・降順",
+      "mistake": "127を割当可能と考える。",
+      "review_to": "NW5-4",
+      "review_tag": "NETWORK_A10_V42_31"
+    },
+    {
+      "problem": 32,
+      "problem_theme": "RARP",
+      "asked": "ARPとの向きの違いを見る。",
+      "conclusion": "正解：MACアドレスからIPアドレスを求める。RARPはARPと逆でMAC→IP。",
+      "judgment_core": "条件・着目語句：RARP・MAC→IP → 判断基準：ARPとの向きの違いを見る。 → 結論：MACアドレスからIPアドレスを求める",
+      "attention": "RARP・MAC→IP",
+      "mistake": "ARPやDNS、NATと混同する。",
+      "review_to": "NW5-6",
+      "review_tag": "NETWORK_A10_V42_32"
+    },
+    {
+      "problem": 33,
+      "problem_theme": "経路集約",
+      "asked": "共通プレフィックスの長さを見る。",
+      "conclusion": "正解：192.168.0.0/22。2つの/23で共通する先頭22ビットをまとめる。",
+      "judgment_core": "条件・着目語句：/23・共通22ビット・集約 → 判断基準：共通プレフィックスの長さを見る。 → 結論：192.168.0.0/22",
+      "attention": "/23・共通22ビット・集約",
+      "mistake": "境界でないネットワークアドレスを選ぶ。",
+      "review_to": "NW5-4",
+      "review_tag": "NETWORK_A10_V42_33"
+    },
+    {
+      "problem": 34,
+      "problem_theme": "ARP",
+      "asked": "変換方向を確認する。",
+      "conclusion": "正解：ARP。ARPはIP→MAC。",
+      "judgment_core": "条件・着目語句：IP→MAC → 判断基準：変換方向を確認する。 → 結論：ARP",
+      "attention": "IP→MAC",
+      "mistake": "RARPと逆にする。",
+      "review_to": "NW5-6",
+      "review_tag": "NETWORK_A10_V42_34"
+    },
+    {
+      "problem": 35,
+      "problem_theme": "pingとICMP",
+      "asked": "ping＝ICMPを結び付ける。",
+      "conclusion": "正解：ICMP。pingはICMPを利用して疎通確認する。",
+      "judgment_core": "条件・着目語句：ping・ICMP → 判断基準：ping＝ICMPを結び付ける。 → 結論：ICMP",
+      "attention": "ping・ICMP",
+      "mistake": "SNMPを選ぶ。",
+      "review_to": "NW5-6",
+      "review_tag": "NETWORK_A10_V42_35"
+    },
+    {
+      "problem": 36,
+      "problem_theme": "PPP",
+      "asked": "WAN・ダイヤルアップ・リンク制御を見る。",
+      "conclusion": "正解：PPP。PPPは電話回線などを用いた2地点の通信やダイヤルアップ接続で利用される。",
+      "judgment_core": "条件・着目語句：PPP・ダイヤルアップ → 判断基準：WAN・ダイヤルアップ・リンク制御を見る。 → 結論：PPP",
+      "attention": "PPP・ダイヤルアップ",
+      "mistake": "SLIPやUDPと混同する。",
+      "review_to": "NW5-3",
+      "review_tag": "NETWORK_A10_V42_36"
+    },
+    {
+      "problem": 37,
+      "problem_theme": "ブロードキャストストーム",
+      "asked": "ループ構成が原因かを見る。",
+      "conclusion": "正解：スイッチ間にループ経路ができ、フレームが大量複製され通信が極端に遅くなる。L2ループによりブロードキャストが循環・増殖する。",
+      "judgment_core": "条件・着目語句：スイッチ間ループ・大量複製 → 判断基準：ループ構成が原因かを見る。 → 結論：スイッチ間にループ経路ができ、フレームが大量複製され通信が極端に遅くなる",
+      "attention": "スイッチ間ループ・大量複製",
+      "mistake": "単なる通常ブロードキャストと混同する。",
+      "review_to": "NW5-3",
+      "review_tag": "NETWORK_A10_V42_37"
+    },
+    {
+      "problem": 38,
+      "problem_theme": "WebSocket",
+      "asked": "双方向通信という用途を見る。",
+      "conclusion": "正解：Webブラウザとサーバ間で双方向通信する。WebSocketはWeb上のサーバ・クライアント間で双方向通信を実現する。",
+      "judgment_core": "条件・着目語句：WebSocket・双方向通信 → 判断基準：双方向通信という用途を見る。 → 結論：Webブラウザとサーバ間で双方向通信する",
+      "attention": "WebSocket・双方向通信",
+      "mistake": "既存Web機能やバックグラウンド処理と混同する。",
+      "review_to": "NW6-3",
+      "review_tag": "NETWORK_A10_V42_38"
+    },
+    {
+      "problem": 39,
+      "problem_theme": "ARP",
+      "asked": "IP→MACの変換。",
+      "conclusion": "正解：IPアドレスからMACアドレスを得る。ARPは物理アドレス（MAC）の問い合わせに用いる。",
+      "judgment_core": "条件・着目語句：ARP・MACアドレス → 判断基準：IP→MACの変換。 → 結論：IPアドレスからMACアドレスを得る",
+      "attention": "ARP・MACアドレス",
+      "mistake": "TCP、RIP、DHCPの説明と混同する。",
+      "review_to": "NW5-6",
+      "review_tag": "NETWORK_A10_V42_39"
+    },
+    {
+      "problem": 40,
+      "problem_theme": "グローバル/プライベートIPv4",
+      "asked": "プライベート範囲・マルチキャスト範囲との比較。",
+      "conclusion": "正解：グローバルアドレス。資料のプライベート範囲に含まれず、クラスDでもないためグローバルアドレス。",
+      "judgment_core": "条件・着目語句：208.77.188.166・プライベート範囲 → 判断基準：プライベート範囲・マルチキャスト範囲との比較。 → 結論：グローバルアドレス",
+      "attention": "208.77.188.166・プライベート範囲",
+      "mistake": "クラスCならすべてプライベートと誤る。",
+      "review_to": "NW5-4",
+      "review_tag": "NETWORK_A10_V42_40"
+    },
+    {
+      "problem": 41,
+      "problem_theme": "SOAP",
+      "asked": "XMLのヘッダ＋ボディを見る。",
+      "conclusion": "正解：SOAP。SOAPはXMLで構造化されたメッセージを交換する。",
+      "judgment_core": "条件・着目語句：SOAP・XML → 判断基準：XMLのヘッダ＋ボディを見る。 → 結論：SOAP",
+      "attention": "SOAP・XML",
+      "mistake": "SIPや分散オブジェクト技術と混同する。",
+      "review_to": "NW6-3",
+      "review_tag": "NETWORK_A10_V42_41"
+    },
+    {
+      "problem": 42,
+      "problem_theme": "VRRP",
+      "asked": "目的がルータ冗長化かを見る。",
+      "conclusion": "正解：VRRP。VRRPは複数ルータを仮想的に1台として動作させる。",
+      "judgment_core": "条件・着目語句：VRRP・仮想ルータ・冗長化 → 判断基準：目的がルータ冗長化かを見る。 → 結論：VRRP",
+      "attention": "VRRP・仮想ルータ・冗長化",
+      "mistake": "SNMPやPPPと混同する。",
+      "review_to": "NW5-6",
+      "review_tag": "NETWORK_A10_V42_42"
+    },
+    {
+      "problem": 43,
+      "problem_theme": "サブネット分割",
+      "asked": "必要サブネット数を満たす最小ビット数を借りる。",
+      "conclusion": "正解：255.255.255.240。10個以上にするには4ビット借りて16分割。第4オクテット11110000=240。",
+      "judgment_core": "条件・着目語句：10サブネット・4ビット・240 → 判断基準：必要サブネット数を満たす最小ビット数を借りる。 → 結論：255.255.255.240",
+      "attention": "10サブネット・4ビット・240",
+      "mistake": "必要以上に多くビットを借りてホスト数を減らす。",
+      "review_to": "NW5-4",
+      "review_tag": "NETWORK_A10_V42_43"
+    },
+    {
+      "problem": 44,
+      "problem_theme": "UDP",
+      "asked": "コネクションレス・上位層という条件を見る。",
+      "conclusion": "正解：UDP。UDPはコネクションレスで確認応答・順序制御をもたない。",
+      "judgment_core": "条件・着目語句：UDP・コネクションレス → 判断基準：コネクションレス・上位層という条件を見る。 → 結論：UDP",
+      "attention": "UDP・コネクションレス",
+      "mistake": "TCPと逆にする。",
+      "review_to": "NW6-1",
+      "review_tag": "NETWORK_A10_V42_44"
+    },
+    {
+      "problem": 45,
+      "problem_theme": "ルータ通過時のMAC/IPアドレス",
+      "asked": "モニタ位置とMAC/IPの役割を分ける。",
+      "conclusion": "正解：宛先MAC=ルータ2、送信元MAC=ルータ1、宛先IP=端末b、送信元IP=端末a。MACアドレスは各リンクの両端、IPアドレスは通信端末a/bを保持する（NAT/NAPT除く）。",
+      "judgment_core": "条件・着目語句：MAC＝ルータ1/2・IP＝端末a/b → 判断基準：モニタ位置とMAC/IPの役割を分ける。 → 結論：宛先MAC=ルータ2、送信元MAC=ルータ1、宛先IP=端末b、送信元IP=端末a",
+      "attention": "MAC＝ルータ1/2・IP＝端末a/b",
+      "mistake": "IPアドレスまでルータへ置き換わると考える。",
+      "review_to": "NW5-2",
+      "review_tag": "NETWORK_A10_V42_45"
+    },
+    {
+      "problem": 46,
+      "problem_theme": "SDN・OpenFlow",
+      "asked": "制御プレーンと転送機能の分離を見る。",
+      "conclusion": "正解：データ転送機能とネットワーク制御機能を論理分離し、制御を集中的に行うアーキテクチャ。SDNは転送と制御を分離し、ソフトウェア的に集中管理する。",
+      "judgment_core": "条件・着目語句：SDN・OpenFlow・集中制御 → 判断基準：制御プレーンと転送機能の分離を見る。 → 結論：データ転送機能とネットワーク制御機能を論理分離し、制御を集中的に行うアーキテクチャ",
+      "attention": "SDN・OpenFlow・集中制御",
+      "mistake": "DNS、VoLTE、SANと混同する。",
+      "review_to": "NW1-3",
+      "review_tag": "NETWORK_A10_V42_46"
+    },
+    {
+      "problem": 47,
+      "problem_theme": "DHCP",
+      "asked": "初期状態でサーバIPを知らなくても動く理由を見る。",
+      "conclusion": "正解：DHCP端末にDHCPサーバのアドレスをあらかじめ設定する必要はない。DHCP DISCOVERをブロードキャストしてサーバを探索する。",
+      "judgment_core": "条件・着目語句：DHCP DISCOVER・ブロードキャスト → 判断基準：初期状態でサーバIPを知らなくても動く理由を見る。 → 結論：DHCP端末にDHCPサーバのアドレスをあらかじめ設定する必要はない",
+      "attention": "DHCP DISCOVER・ブロードキャスト",
+      "mistake": "固定IPとの混在不可、同一IP固定と誤る。",
+      "review_to": "NW6-4",
+      "review_tag": "NETWORK_A10_V42_47"
+    },
+    {
+      "problem": 48,
+      "problem_theme": "URLでのポート番号指定",
+      "asked": "URLの構造でホスト名の位置を見る。",
+      "conclusion": "正解：https://www.example.com:8080/member/login?id=user。ポート番号はFQDN（ホスト名）の直後に『:8080』と記載する。",
+      "judgment_core": "条件・着目語句：FQDN直後・:8080 → 判断基準：URLの構造でホスト名の位置を見る。 → 結論：https://www.example.com:8080/member/login?id=user",
+      "attention": "FQDN直後・:8080",
+      "mistake": "クエリ文字列やパスの後ろに付ける。",
+      "review_to": "NW6-3",
+      "review_tag": "NETWORK_A10_V42_48"
+    },
+    {
+      "problem": 49,
+      "problem_theme": "SAML",
+      "asked": "交換する情報が認証・認可かを見る。",
+      "conclusion": "正解：認証や認可に関する情報を交換する仕様。SAMLはXMLベースで認証・認可情報を交換し、SSOを実現する。",
+      "judgment_core": "条件・着目語句：SAML・認証・認可・SSO → 判断基準：交換する情報が認証・認可かを見る。 → 結論：認証や認可に関する情報を交換する仕様",
+      "attention": "SAML・認証・認可・SSO",
+      "mistake": "SNMP、脅威情報交換、VPNと混同する。",
+      "review_to": "SEC4-5",
+      "review_tag": "NETWORK_A10_V42_49"
+    }
+  ],
+  "step3_level2_additions": {
+    "NW1-1": {
+      "notes": [
+        "LPWAは、低速だが省電力で、一つの基地局で100mを超える広範囲をカバーできる無線通信技術。複数センサを接続し、小規模データを長期間送受信する用途に適する。",
+        "SSIDは無線LANのネットワーク識別子で、最長32オクテット。接続するアクセスポイントの選択に用いられる。"
+      ],
+      "exam": [
+        "LPWAは有線通信・高速大容量通信・電力線通信ではない。",
+        "SSIDはMACアドレスやホスト識別子ではなく、ネットワーク識別子。"
+      ]
+    },
+    "NW1-3": {
+      "notes": [
+        "NFVは仮想化技術を利用し、ルータやスイッチなどのネットワーク機能を汎用サーバ上のソフトウェアとして実現する。",
+        "SDNはデータ転送機能とネットワーク制御機能を論理的に分離し、ネットワーク制御を集中的に行うアーキテクチャ。OpenFlowはSDNを実現する技術の一つ。"
+      ],
+      "exam": [
+        "NFV＝ネットワーク機能を汎用サーバ上へ仮想化、SDN＝転送機能と制御機能を分離して集中制御。"
+      ]
+    },
+    "NW1-4": {
+      "notes": [
+        "NAPTはプライベートIPアドレスとグローバルIPアドレスに加えてTCP/UDPのポート番号も変換し、複数端末で一つのグローバルIPアドレスを共有できる。",
+        "Webサーバから内部PCへの応答通信では、NAPTルータが宛先IPアドレスと宛先ポート番号を書き換える。",
+        "フォワードプロキシはクライアントの代理としてWebサーバへリクエストを送信する。キャッシュやURLフィルタリングにも利用される。",
+        "リバースプロキシはインターネット側クライアントから受けたリクエストをWebサーバへ中継し、Webサーバ側の代理として動作する。"
+      ],
+      "exam": [
+        "NAPTは『IPアドレス＋ポート番号』を変換する。",
+        "フォワードプロキシ＝クライアント側の代理、リバースプロキシ＝Webサーバ側の代理。"
+      ]
+    },
+    "NW2-2": {
+      "notes": [
+        "VoIPの1パケット音声ペイロードは『1秒当たりの符号化ビット数 ÷ 1秒当たりのパケット数 ÷ 8』でバイト換算できる。"
+      ],
+      "exam": [
+        "パケット生成周期10msなら1秒間に100パケット。ビットとバイトの換算に注意。"
+      ]
+    },
+    "NW2-3": {
+      "notes": [
+        "伝送時間＝データ量÷実効転送速度。バイトで与えられたデータ量は必要に応じて8倍してビットへ換算する。",
+        "伝送効率が指定される場合、実効転送速度＝回線速度×伝送効率。",
+        "複数区間を通る通信では、各区間の伝送時間と装置処理時間を合算して応答時間を求める。",
+        "複数の回線速度が直列に存在する場合、より遅い実効速度が全体のボトルネックになる。",
+        "LAN利用率＝1秒当たりの総転送ビット数÷LAN伝送速度。",
+        "ビット誤り率＝誤りビット数÷総伝送ビット数。"
+      ],
+      "exam": [
+        "『Mバイト↔Mビット』『伝送効率』『制御情報の付加』『処理時間の加算』を見落とさない。",
+        "ビット誤り率は、指定時間内に伝送した総ビット数を先に求める。"
+      ]
+    },
+    "NW3-3": {
+      "notes": [
+        "スイッチングハブ（L2スイッチ）とブリッジは第2層で動作し、MACアドレスを基にフレームを中継する。",
+        "ルータは第3層で動作し、IPアドレスを基に転送経路を決定する。",
+        "リピータは第1層で信号を増幅し、同種セグメント間の伝送距離を延長する。",
+        "ゲートウェイは上位層で異なるプロトコル間の変換を行う。"
+      ],
+      "exam": [
+        "L1＝リピータ、L2＝ブリッジ/L2スイッチ、L3＝ルータ、上位層＝ゲートウェイ、という対応を使う。"
+      ]
+    },
+    "NW4-3": {
+      "notes": [
+        "CSMA/CDは、有線LANで伝送路が空いていることを確認して送信し、衝突を検知したら送信を中止し、ランダム時間待って再送する。",
+        "衝突頻度が増えると再送が増え、スループットが低下する。",
+        "無線LANのCSMA/CAでは、衝突検知ではなくRTS/CTSなどを用いて衝突回避を行う。"
+      ],
+      "exam": [
+        "CSMA/CD＝Collision Detection、CSMA/CA＝Collision Avoidance。"
+      ]
+    },
+    "NW5-2": {
+      "notes": [
+        "異なるブロードキャストドメイン間の通信では、IPデータグラムの送信元・宛先IPアドレスは基本的にエンドツーエンドの端末を示す一方、イーサネットフレームのMACアドレスは各リンクごとに次ホップへ合わせて変わる。",
+        "相手端末が同一ブロードキャストドメインにいない場合、イーサネットフレームの宛先MACアドレスはデフォルトゲートウェイとなるルータのMACアドレスになる。"
+      ],
+      "exam": [
+        "IPアドレス＝エンドツーエンド、MACアドレス＝リンクごと・次ホップ、という違いを見る。NAT/NAPTがある場合はIP書換えの例外がある。"
+      ]
+    },
+    "NW5-3": {
+      "notes": [
+        "イーサネットのブロードキャストは、同一セグメント内の全ノードに対して一度の送信でデータを伝送する。",
+        "PPPはWANを介したダイヤルアップ接続などで利用され、リンク制御やエラー処理機能をもつ。",
+        "スイッチ間にループ経路ができると、ブロードキャストフレームが大量に複製・循環してブロードキャストストームが発生し、通信が極端に遅くなることがある。"
+      ],
+      "exam": [
+        "ブロードキャスト＝同一セグメント内の全ノード。",
+        "ブロードキャストストームの核は『スイッチ間のループ』。"
+      ]
+    },
+    "NW5-4": {
+      "notes": [
+        "ネットワークアドレスはIPアドレスとサブネットマスクから求める。/26ではホスト部は6ビットとなり、ネットワークアドレスとブロードキャストアドレスを除いて62個を割当て可能。",
+        "複数IPv4ネットワークの経路集約では、先頭から共通するビット列までをネットワーク部としてまとめる。",
+        "クラスCを10個以上の同じ大きさのサブネットへ分割し、ホスト数を最大化するには、4ビット借りて16分割するため255.255.255.240を用いる。",
+        "資料内のクラスフル表記では、10.0.0.0/8、172.16.0.0～172.31.255.255、192.168.0.0～192.168.255.255がプライベートアドレス範囲として示される。"
+      ],
+      "exam": [
+        "ネットワークアドレス・ブロードキャストアドレスはホストへ割り当てない。",
+        "経路集約＝共通プレフィックスを探す。サブネット分割＝必要個数を満たす最小ビット数を借りる。"
+      ]
+    },
+    "NW5-5": {
+      "notes": [
+        "IPv6アドレスは128ビットを16ビットずつ8区画に分け、16進数をコロンで区切って表記する。",
+        "連続する0は『::』で省略できるが、1つのIPv6アドレス中で『::』を使えるのは1か所のみ。",
+        "資料では、IPv6の拡張ヘッダを利用するセキュリティ機能としてIPsecによる暗号化が挙げられている。"
+      ],
+      "exam": [
+        "IPv6表記はコロン区切り。『::』を複数箇所に使う表記は不可。"
+      ]
+    },
+    "NW5-6": {
+      "notes": [
+        "ARPはIPアドレスからMACアドレスを取得する。RARPは逆にMACアドレスからIPアドレスを取得する。",
+        "ICMPはIPパケットの送信エラー報告などの制御メッセージを通知し、pingによる疎通確認にも用いられる。",
+        "VRRPは複数台のルータを仮想的に1台として動作させ、ルータを冗長化する。"
+      ],
+      "exam": [
+        "ARP＝IP→MAC、RARP＝MAC→IP、ICMP＝エラー報告/ping、VRRP＝ルータ冗長化。"
+      ]
+    },
+    "NW6-1": {
+      "notes": [
+        "UDPはIPの上位層で動作するコネクションレス型のデータグラム通信で、確認応答や順序制御の機能をもたない。"
+      ],
+      "exam": [
+        "TCP＝コネクション型・確認応答/順序制御あり、UDP＝コネクションレス・それらの機能なし。"
+      ]
+    },
+    "NW6-3": {
+      "notes": [
+        "WebSocketはWebブラウザとサーバ間の双方向通信を実現するプロトコル。",
+        "SOAPはXMLのヘッダとボディで構成されるメッセージを用い、他のコンピュータ上のデータやサービスを呼び出すためのプロトコル。",
+        "URLでWebサーバのポート番号を明示する場合はFQDN（ホスト名）の直後に『:ポート番号』を記述する。"
+      ],
+      "exam": [
+        "WebSocket＝双方向通信、SOAP＝XMLメッセージ、URLのポート指定＝ホスト名直後。"
+      ]
+    },
+    "NW6-4": {
+      "notes": [
+        "DHCPはIPアドレスに加えてサブネットマスク、デフォルトゲートウェイ、DNSサーバのIPアドレスなども配信できる。",
+        "DHCPクライアントは事前にDHCPサーバのIPアドレスを設定する必要はなく、DHCP DISCOVERをブロードキャストしてサーバを探索する。",
+        "IPアドレス未割当て時のDHCP DISCOVERでは、送信元IPアドレス0.0.0.0、宛先IPアドレス255.255.255.255を用いる。",
+        "固定IPの端末とDHCP端末は、DHCPの割当て範囲から固定IPを除外することで混在できる。"
+      ],
+      "exam": [
+        "DHCPの流れは DISCOVER → OFFER → REQUEST → ACK。"
+      ]
+    },
+    "NW6-5": {
+      "notes": [
+        "DNSの逆引きはIPアドレスからホスト名を調べる操作。",
+        "Aレコード＝ホスト名→IPv4、AAAA＝ホスト名→IPv6、MX＝メール配送先、CNAME＝別名、NS＝ゾーンを管理するDNSサーバ、PTR＝逆引き、TXT＝任意テキスト、SRV＝サービス提供ホストとポート、SOA＝ゾーン管理情報。",
+        "DNSサーバへ問い合わせを行うソフトウェアはリゾルバと呼ばれる。"
+      ],
+      "exam": [
+        "MX/CNAME/NS/PTRを取り違えない。『逆引き』の方向はIP→ホスト名。"
+      ]
+    },
+    "SEC4-5": {
+      "notes": [
+        "SAMLはXMLベースのデータ構造を用い、複数のシステムやサービス間で認証・認可情報を交換する仕様。",
+        "SAMLではIdP（Identity Provider）とSP（Service Provider）を用いてシングルサインオンを実現する。"
+      ],
+      "exam": [
+        "SAML＝認証・認可情報の交換。負荷監視、脅威情報交換、VPN暗号化の仕様ではない。"
+      ]
+    }
+  },
+  "step4_questions": [
+    {
+      "id": "NW-A10-Q01",
+      "type": "四択",
+      "q": "IoTで活用が検討されるLPWAの特徴として適切なものはどれか。",
+      "choices": [
+        "2線接続のシリアル有線通信で同一基板上の回路間通信に適する",
+        "60GHz帯の近距離高速無線で4K・8K映像の大容量伝送に適する",
+        "電力線を通信に使いスマートメータ自動検針に適する",
+        "バッテリ消費量が少なく、一つの基地局で広範囲をカバーし、複数センサ接続に適する"
+      ],
+      "answer": "バッテリ消費量が少なく、一つの基地局で広範囲をカバーし、複数センサ接続に適する",
+      "explain": "LPWAは低速だが省電力・広範囲の無線通信。",
+      "point": "省電力・広範囲・低速という特徴を識別する。",
+      "topic": "NW1-1",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 1,
+      "subtopic": "LPWA",
+      "attention": "LPWA・LowPower・WideArea",
+      "mistake": "WiGigやPLCの説明を選ぶ。",
+      "review_tag": "NETWORK_A10_V42_01"
+    },
+    {
+      "id": "NW-A10-Q02",
+      "type": "四択",
+      "q": "無線LANで用いられるSSIDの説明として適切なものはどれか。",
+      "choices": [
+        "48ビットのネットワーク識別子でAPのMACアドレスと一致する",
+        "48ビットのホスト識別子でMACアドレスと同様に働く",
+        "最長32オクテットのネットワーク識別子で接続APの選択に用いられる",
+        "最長32オクテットのホスト識別子でネットワーク上で一意である"
+      ],
+      "answer": "最長32オクテットのネットワーク識別子で接続APの選択に用いられる",
+      "explain": "SSIDは無線LANのネットワーク名・識別子。",
+      "point": "ネットワーク識別子かホスト識別子かを見る。",
+      "topic": "NW1-1",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 2,
+      "subtopic": "SSID",
+      "attention": "SSID・32オクテット・ネットワーク識別子",
+      "mistake": "MACアドレスと混同する。",
+      "review_tag": "NETWORK_A10_V42_02"
+    },
+    {
+      "id": "NW-A10-Q03",
+      "type": "四択",
+      "q": "NFVに関する記述として適切なものはどれか。",
+      "choices": [
+        "GISとARで現実空間と仮想空間を融合する",
+        "仮想化技術でネットワーク機能を汎用サーバ上のソフトウェアとして実現し柔軟な基盤を構築する",
+        "ニューラルネットワークで画像・音声・自然言語処理を学習する",
+        "プレースとトランジションの有向グラフで並列性・競合性を分析する"
+      ],
+      "answer": "仮想化技術でネットワーク機能を汎用サーバ上のソフトウェアとして実現し柔軟な基盤を構築する",
+      "explain": "NFVはネットワーク機能の仮想化。",
+      "point": "汎用サーバ上でネットワーク機能をソフトウェア化するかを見る。",
+      "topic": "NW1-3",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 3,
+      "subtopic": "NFV",
+      "attention": "NFV・仮想化・汎用サーバ",
+      "mistake": "AR、深層学習、ペトリネットと混同する。",
+      "review_tag": "NETWORK_A10_V42_03"
+    },
+    {
+      "id": "NW-A10-Q04",
+      "type": "四択",
+      "q": "TCP/UDPのポート番号を識別し、複数のプライベートIP端末が一つのグローバルIPを共有してインターネットへアクセスする仕組みはどれか。",
+      "choices": [
+        "IPスプーフィング",
+        "IPマルチキャスト",
+        "NAPT",
+        "NTP"
+      ],
+      "answer": "NAPT",
+      "explain": "NAPTはIPアドレスとポート番号を変換する。",
+      "point": "IPだけでなくポート番号も変換する点を見る。",
+      "topic": "NW1-4",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 4,
+      "subtopic": "NAPT",
+      "attention": "NAPT・ポート番号・1つのグローバルIP",
+      "mistake": "NATやNTPと混同する。",
+      "review_tag": "NETWORK_A10_V42_04"
+    },
+    {
+      "id": "NW-A10-Q05",
+      "type": "四択",
+      "q": "インターネット経由のクライアントから受けたリクエストをWebサーバへ中継する仕組みはどれか。",
+      "choices": [
+        "DMZ",
+        "フォワードプロキシ",
+        "プロキシARP",
+        "リバースプロキシ"
+      ],
+      "answer": "リバースプロキシ",
+      "explain": "リバースプロキシはWebサーバ側の代理として外部クライアントからの要求を中継する。",
+      "point": "誰の代理かを見る。",
+      "topic": "NW1-4",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 5,
+      "subtopic": "リバースプロキシ",
+      "attention": "Webサーバ側・外部クライアント・中継",
+      "mistake": "フォワードプロキシと逆にする。",
+      "review_tag": "NETWORK_A10_V42_05"
+    },
+    {
+      "id": "NW-A10-Q06",
+      "type": "四択",
+      "q": "VoIPで8kビット/秒の音声符号化、パケット生成周期10msのとき、1パケットの音声ペイロードは何バイトか。",
+      "choices": [
+        "8",
+        "10",
+        "80",
+        "100"
+      ],
+      "answer": "10",
+      "explain": "1秒100パケットなので8kbit÷100＝80bit＝10byte。",
+      "point": "周期から1秒当たりパケット数を求め、最後に8で割る。",
+      "topic": "NW2-2",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 6,
+      "subtopic": "VoIP音声ペイロード計算",
+      "attention": "8kbit/s・10ms・byte換算",
+      "mistake": "80ビットを80バイトと誤る。",
+      "review_tag": "NETWORK_A10_V42_06"
+    },
+    {
+      "id": "NW-A10-Q07",
+      "type": "四択",
+      "q": "100Mbit/s、伝送効率50%のLANで、1,000バイトの電文1,000件を連続伝送する時間は何秒か。",
+      "choices": [
+        "0.02",
+        "0.08",
+        "0.16",
+        "1.6"
+      ],
+      "answer": "0.16",
+      "explain": "8Mbit÷(100Mbit/s×0.5)=0.16秒。",
+      "point": "総データ量÷実効速度。",
+      "topic": "NW2-3",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 7,
+      "subtopic": "伝送時間",
+      "attention": "1,000バイト×1,000件・50%",
+      "mistake": "バイト→ビット換算や効率を忘れる。",
+      "review_tag": "NETWORK_A10_V42_07"
+    },
+    {
+      "id": "NW-A10-Q08",
+      "type": "四択",
+      "q": "8Mbit/s・伝送効率60%、上り1MB・下り2MB、クライアント処理0.4秒、サーバ処理0.4秒の通信で応答時間は何秒か。",
+      "choices": [
+        "1.4",
+        "3.8",
+        "5.0",
+        "5.8"
+      ],
+      "answer": "5.8",
+      "explain": "実効0.6MB/s、総3MBの伝送5秒＋処理0.4＋0.4＝5.8秒。",
+      "point": "伝送時間と両端処理時間を合算する。",
+      "topic": "NW2-3",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 8,
+      "subtopic": "応答時間",
+      "attention": "上り＋下り・処理時間",
+      "mistake": "伝送時間だけで答える。",
+      "review_tag": "NETWORK_A10_V42_08"
+    },
+    {
+      "id": "NW-A10-Q09",
+      "type": "四択",
+      "q": "100Mbit/s LAN（効率80%）と実効90Mbit/sのFTTHで540MBをダウンロードするとき、およそ何秒か。",
+      "choices": [
+        "43",
+        "48",
+        "54",
+        "60"
+      ],
+      "answer": "54",
+      "explain": "LAN実効80Mbit/sがボトルネック。540MB=4320Mbit、4320÷80=54秒。",
+      "point": "複数区間では最も遅い実効速度を使う。",
+      "topic": "NW2-3",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 9,
+      "subtopic": "ボトルネックとダウンロード時間",
+      "attention": "80Mbps・90Mbps・540MB",
+      "mistake": "物理速度100Mbpsをそのまま使う。",
+      "review_tag": "NETWORK_A10_V42_09"
+    },
+    {
+      "id": "NW-A10-Q10",
+      "type": "四択",
+      "q": "1,500バイトのフレームを10Mbit/s LAN→1.5Mbit/s中継回線→10Mbit/s LANで送り、2台のルータ処理が各0.8msのとき、総時間は約何msか。",
+      "choices": [
+        "3",
+        "6",
+        "10",
+        "12"
+      ],
+      "answer": "12",
+      "explain": "1.2+8+1.2+0.8+0.8=12ms。",
+      "point": "区間ごとの伝送時間とルータ処理をすべて足す。",
+      "topic": "NW2-3",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 10,
+      "subtopic": "複数区間の伝送時間",
+      "attention": "1,500バイト・10Mbps・1.5Mbps・0.8ms",
+      "mistake": "中継回線だけ計算する。",
+      "review_tag": "NETWORK_A10_V42_10"
+    },
+    {
+      "id": "NW-A10-Q11",
+      "type": "四択",
+      "q": "10Mbit/s LANで、平均1,000バイトのファイルに30%制御情報を付加し、60回/秒の転送を2組が行う。LAN利用率は約何%か。",
+      "choices": [
+        "2",
+        "6",
+        "10",
+        "12"
+      ],
+      "answer": "12",
+      "explain": "1回1,300byte、2組で1.248Mbit/s、1.248÷10≈12%。",
+      "point": "制御情報込みの1秒当たり総ビット数を求める。",
+      "topic": "NW2-3",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 11,
+      "subtopic": "LAN利用率",
+      "attention": "30%付加・60回/秒・2組",
+      "mistake": "制御情報や組数を忘れる。",
+      "review_tag": "NETWORK_A10_V42_11"
+    },
+    {
+      "id": "NW-A10-Q12",
+      "type": "四択",
+      "q": "30Mbit/sの回線で100秒に1回の1ビット誤りがある。ビット誤り率はどれか。",
+      "choices": [
+        "4.17×10^-11",
+        "3.33×10^-10",
+        "4.17×10^-5",
+        "3.33×10^-4"
+      ],
+      "answer": "3.33×10^-10",
+      "explain": "100秒で3,000Mbitを伝送するので1÷3,000,000,000。",
+      "point": "誤り数÷総伝送ビット数。",
+      "topic": "NW2-3",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 12,
+      "subtopic": "ビット誤り率",
+      "attention": "30Mbit/s・100秒・1bit",
+      "mistake": "100秒を分母にする。",
+      "review_tag": "NETWORK_A10_V42_12"
+    },
+    {
+      "id": "NW-A10-Q13",
+      "type": "四択",
+      "q": "NAPTルータを経由したWebサーバ→PCの応答パケットで、ルータが書き換えるフィールドはどれか。",
+      "choices": [
+        "宛先IPアドレスと送信元IPアドレス",
+        "宛先IPアドレスと宛先ポート番号",
+        "送信元IPアドレスと送信元ポート番号",
+        "宛先ポート番号と送信元ポート番号"
+      ],
+      "answer": "宛先IPアドレスと宛先ポート番号",
+      "explain": "戻り通信ではグローバル宛先を内部PCのプライベートIP/ポートへ変換する。",
+      "point": "通信方向がWebサーバ→PCである点を見る。",
+      "topic": "NW1-4",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 13,
+      "subtopic": "NAPT応答パケットの書換え",
+      "attention": "応答パケット・宛先IP・宛先ポート",
+      "mistake": "送信元側を書き換えると考える。",
+      "review_tag": "NETWORK_A10_V42_13"
+    },
+    {
+      "id": "NW-A10-Q14",
+      "type": "四択",
+      "q": "64kbit/sの回線で100秒に1回の1ビット誤りがある。ビット誤り率はどれか。",
+      "choices": [
+        "1.95×10^-8",
+        "1.56×10^-7",
+        "1.95×10^-5",
+        "1.56×10^-4"
+      ],
+      "answer": "1.56×10^-7",
+      "explain": "100秒で6,400,000bit。1÷6,400,000=1.56×10^-7。",
+      "point": "総ビット数を先に求める。",
+      "topic": "NW2-3",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 14,
+      "subtopic": "ビット誤り率",
+      "attention": "64kbit/s・100秒・1bit",
+      "mistake": "kbitの桁を誤る。",
+      "review_tag": "NETWORK_A10_V42_14"
+    },
+    {
+      "id": "NW-A10-Q15",
+      "type": "四択",
+      "q": "TCP/IPネットワークのフォワードプロキシに関する説明として最も適切なものはどれか。",
+      "choices": [
+        "Webサーバと同一組織内でWebサーバの代理として応答する",
+        "Webブラウザと同一組織内になければならない",
+        "Webブラウザの代理としてWebサーバへリクエストを送信する",
+        "電子メールを複数サーバ経由で転送する"
+      ],
+      "answer": "Webブラウザの代理としてWebサーバへリクエストを送信する",
+      "explain": "フォワードプロキシはクライアントの代理。",
+      "point": "代理する側がクライアントかサーバかを見る。",
+      "topic": "NW1-4",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 15,
+      "subtopic": "フォワードプロキシ",
+      "attention": "Webブラウザの代理",
+      "mistake": "リバースプロキシと混同する。",
+      "review_tag": "NETWORK_A10_V42_15"
+    },
+    {
+      "id": "NW-A10-Q16",
+      "type": "四択",
+      "q": "イーサネットのCSMA/CDに関する記述として適切なものはどれか。",
+      "choices": [
+        "各ステーションがキャリア検知し、衝突時は再送する",
+        "タイムスロット分割で同一周波数を多重化する",
+        "RTS/CTSとACKを用いる",
+        "トークンを受け取った端末だけ送信する"
+      ],
+      "answer": "各ステーションがキャリア検知し、衝突時は再送する",
+      "explain": "CSMA/CDは搬送波検知・多重アクセス・衝突検知。",
+      "point": "Collision Detectionの動作を見る。",
+      "topic": "NW4-3",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 16,
+      "subtopic": "CSMA/CD",
+      "attention": "キャリア検知・衝突・再送",
+      "mistake": "TDMA、CSMA/CA、トークン方式と混同する。",
+      "review_tag": "NETWORK_A10_V42_16"
+    },
+    {
+      "id": "NW-A10-Q17",
+      "type": "四択",
+      "q": "LAN1のホストAから別LANのホストBへ送信する。LAN1上でのイーサネットフレーム宛先とIPデータグラム宛先の正しい組合せはどれか。",
+      "choices": [
+        "ホストBのMAC・ホストBのIP",
+        "ホストBのMAC・ルータのIP",
+        "デフォルトゲートウェイのMAC・ホストBのIP",
+        "デフォルトゲートウェイのMAC・ルータのIP"
+      ],
+      "answer": "デフォルトゲートウェイのMAC・ホストBのIP",
+      "explain": "MACは次ホップ、IPは最終宛先。",
+      "point": "相手が同一ブロードキャストドメインかを見る。",
+      "topic": "NW5-2",
+      "related_topics": [
+        "NW5-3"
+      ],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 17,
+      "subtopic": "MAC宛先とIP宛先",
+      "attention": "MAC＝次ホップ・IP＝最終宛先",
+      "mistake": "MACも最終端末を指定すると考える。",
+      "review_tag": "NETWORK_A10_V42_17"
+    },
+    {
+      "id": "NW-A10-Q18",
+      "type": "四択",
+      "q": "CSMA/CD方式LANのスイッチングハブと同等の機能をもち、同じ階層で動作する装置はどれか。",
+      "choices": [
+        "ゲートウェイ",
+        "ブリッジ",
+        "リピータ",
+        "ルータ"
+      ],
+      "answer": "ブリッジ",
+      "explain": "L2スイッチとブリッジはデータリンク層でMACアドレスを扱う。",
+      "point": "OSI第2層かを見る。",
+      "topic": "NW3-3",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 18,
+      "subtopic": "L2スイッチとブリッジ",
+      "attention": "L2・MACアドレス",
+      "mistake": "ルータやリピータを選ぶ。",
+      "review_tag": "NETWORK_A10_V42_18"
+    },
+    {
+      "id": "NW-A10-Q19",
+      "type": "四択",
+      "q": "CSMA/CD方式に関する記述として適切なものはどれか。",
+      "choices": [
+        "衝突発生時の再送により、衝突頻度が増すとスループットが下がる",
+        "搬送波を検出してから送るので送信後の衝突は発生しない",
+        "ハブ接続では衝突検出できないため利用できない",
+        "フレーム長は8ビット単位でなくてもよい"
+      ],
+      "answer": "衝突発生時の再送により、衝突頻度が増すとスループットが下がる",
+      "explain": "衝突が多いほど再送が増え実効スループットが下がる。",
+      "point": "衝突後の再送動作を見る。",
+      "topic": "NW4-3",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 19,
+      "subtopic": "CSMA/CDとスループット",
+      "attention": "衝突・再送・スループット",
+      "mistake": "キャリア検知すれば衝突しないと考える。",
+      "review_tag": "NETWORK_A10_V42_19"
+    },
+    {
+      "id": "NW-A10-Q20",
+      "type": "四択",
+      "q": "ルータの機能に関する記述として適切なものはどれか。",
+      "choices": [
+        "MACアドレス表でフレーム転送ポートを決める",
+        "データリンク層でネットワーク同士を接続する",
+        "トランスポート層以上でプロトコル変換する",
+        "IPアドレスを識別し、異なるネットワーク間の転送経路を決定する"
+      ],
+      "answer": "IPアドレスを識別し、異なるネットワーク間の転送経路を決定する",
+      "explain": "ルータは第3層でIPアドレスを基に経路制御する。",
+      "point": "OSI層と参照アドレスを見る。",
+      "topic": "NW3-3",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 20,
+      "subtopic": "ルータの機能",
+      "attention": "ルータ・第3層・IPアドレス",
+      "mistake": "L2スイッチやゲートウェイの説明と混同する。",
+      "review_tag": "NETWORK_A10_V42_20"
+    },
+    {
+      "id": "NW-A10-Q21",
+      "type": "四択",
+      "q": "レイヤ2スイッチングハブの機能として適切なものはどれか。",
+      "choices": [
+        "IPアドレスを解析して中継/破棄を判断",
+        "MACアドレスを解析して必要なLANポートへデータを流す",
+        "物理層でネットワークを延長",
+        "上位層プロトコルを翻訳する"
+      ],
+      "answer": "MACアドレスを解析して必要なLANポートへデータを流す",
+      "explain": "L2スイッチはMACアドレスを基に必要ポートへフレームを転送する。",
+      "point": "第2層・MACアドレス。",
+      "topic": "NW3-3",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 21,
+      "subtopic": "L2スイッチの機能",
+      "attention": "MACアドレス・必要ポート",
+      "mistake": "IPアドレスを使うルータと混同する。",
+      "review_tag": "NETWORK_A10_V42_21"
+    },
+    {
+      "id": "NW-A10-Q22",
+      "type": "四択",
+      "q": "LAN間接続装置に関する記述のうち適切なものはどれか。",
+      "choices": [
+        "ゲートウェイは第1～3層だけのプロトコルを変換する",
+        "ブリッジはIPアドレスでフレーム中継する",
+        "リピータは同種セグメント間で信号を増幅して伝送距離を延長する",
+        "ルータはMACアドレスでフレーム中継する"
+      ],
+      "answer": "リピータは同種セグメント間で信号を増幅して伝送距離を延長する",
+      "explain": "リピータは物理層で信号を増幅する。",
+      "point": "装置とOSI層・参照情報を対応させる。",
+      "topic": "NW3-3",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 22,
+      "subtopic": "LAN間接続装置",
+      "attention": "リピータ・物理層・信号増幅",
+      "mistake": "ブリッジとルータの参照アドレスを逆にする。",
+      "review_tag": "NETWORK_A10_V42_22"
+    },
+    {
+      "id": "NW-A10-Q23",
+      "type": "四択",
+      "q": "DNSに関する記述のうち適切なものはどれか。",
+      "choices": [
+        "DNSサーバのホスト名を登録するレコードをMXという",
+        "DNSサーバに問い合わせるソフトウェアをレゾリューションという",
+        "IPアドレスに対応するホスト名を調べることを逆引きという",
+        "ホスト名に別名を登録するレコードをNSという"
+      ],
+      "answer": "IPアドレスに対応するホスト名を調べることを逆引きという",
+      "explain": "逆引きはIP→ホスト名。問い合わせソフトはリゾルバ。",
+      "point": "方向とレコード用途を確認する。",
+      "topic": "NW6-5",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 23,
+      "subtopic": "DNSとレコード",
+      "attention": "逆引き・PTR・リゾルバ",
+      "mistake": "MX/NS/CNAMEの役割を取り違える。",
+      "review_tag": "NETWORK_A10_V42_23"
+    },
+    {
+      "id": "NW-A10-Q24",
+      "type": "四択",
+      "q": "IPv4ネットワークにおけるICMPの機能として適切なものはどれか。",
+      "choices": [
+        "MACアドレスからIPアドレスを解決する",
+        "グローバルIPとプライベートIPを変換する",
+        "送信元ホストへIPパケットの送信エラー報告などの制御メッセージを通知する",
+        "IPアドレスを一元管理して動的割当てする"
+      ],
+      "answer": "送信元ホストへIPパケットの送信エラー報告などの制御メッセージを通知する",
+      "explain": "ICMPはエラー報告や診断用の制御メッセージを扱う。",
+      "point": "エラー報告・pingを連想する。",
+      "topic": "NW5-6",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 24,
+      "subtopic": "ICMP",
+      "attention": "ICMP・制御メッセージ・エラー報告",
+      "mistake": "ARP/RARP/NAT/DHCPと混同する。",
+      "review_tag": "NETWORK_A10_V42_24"
+    },
+    {
+      "id": "NW-A10-Q25",
+      "type": "四択",
+      "q": "社内ネットワークからインターネットアクセスを中継し、Webコンテンツをキャッシュして高速化し、セキュリティ確保にも利用されるものはどれか。",
+      "choices": [
+        "DMZ",
+        "IPマスカレード（NAPT）",
+        "ファイアウォール",
+        "プロキシ"
+      ],
+      "answer": "プロキシ",
+      "explain": "Webプロキシはアクセス中継・キャッシュ・URLフィルタリングなどに利用される。",
+      "point": "中継＋キャッシュという機能を見る。",
+      "topic": "NW1-4",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 25,
+      "subtopic": "プロキシとキャッシュ",
+      "attention": "プロキシ・キャッシュ",
+      "mistake": "NAPTやFWを選ぶ。",
+      "review_tag": "NETWORK_A10_V42_25"
+    },
+    {
+      "id": "NW-A10-Q26",
+      "type": "四択",
+      "q": "TCP/IPネットワークで使用されるARPの説明として適切なものはどれか。",
+      "choices": [
+        "IPアドレスからMACアドレスを得る",
+        "IPアドレスからホスト名を得る",
+        "MACアドレスからIPアドレスを得る",
+        "ホスト名からIPアドレスを得る"
+      ],
+      "answer": "IPアドレスからMACアドレスを得る",
+      "explain": "ARPはIP→MAC。",
+      "point": "変換方向を見る。",
+      "topic": "NW5-6",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 26,
+      "subtopic": "ARP",
+      "attention": "ARP・IP→MAC",
+      "mistake": "RARPやDNSと逆にする。",
+      "review_tag": "NETWORK_A10_V42_26"
+    },
+    {
+      "id": "NW-A10-Q27",
+      "type": "四択",
+      "q": "IPv6アドレスの表記として適切なものはどれか。",
+      "choices": [
+        "2001:db8::3ab::ff01",
+        "2001:db8::3ab:ff01",
+        "2001:db8.3ab:ff01",
+        "2001.db8.3ab.ff01"
+      ],
+      "answer": "2001:db8::3ab:ff01",
+      "explain": "IPv6はコロン区切りで、『::』は1か所だけ使用できる。",
+      "point": "区切り記号と省略記号の使用回数を見る。",
+      "topic": "NW5-5",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 27,
+      "subtopic": "IPv6表記",
+      "attention": "IPv6・コロン・::は1か所",
+      "mistake": "『::』を2か所使う。",
+      "review_tag": "NETWORK_A10_V42_27"
+    },
+    {
+      "id": "NW-A10-Q28",
+      "type": "四択",
+      "q": "IPv6で拡張ヘッダを利用して実現できるセキュリティ機能はどれか。",
+      "choices": [
+        "URLフィルタリング",
+        "暗号化",
+        "情報漏えい検知",
+        "マルウェア検知"
+      ],
+      "answer": "暗号化",
+      "explain": "資料ではIPv6のIPsecによる暗号化を示している。",
+      "point": "IP層で実現する機能かを見る。",
+      "topic": "NW5-5",
+      "related_topics": [
+        "SEC8-2"
+      ],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 28,
+      "subtopic": "IPv6とIPsec",
+      "attention": "IPv6・拡張ヘッダ・IPsec",
+      "mistake": "アプリケーション層の検査機能を選ぶ。",
+      "review_tag": "NETWORK_A10_V42_28"
+    },
+    {
+      "id": "NW-A10-Q29",
+      "type": "四択",
+      "q": "IPアドレス10.170.70.19、サブネットマスク255.255.255.240のPCのネットワークアドレスはどれか。",
+      "choices": [
+        "10.170.70.0",
+        "10.170.70.16",
+        "10.170.70.31",
+        "10.170.70.255"
+      ],
+      "answer": "10.170.70.16",
+      "explain": "/28なので第4オクテットは16刻み。19は16～31の範囲。",
+      "point": "サブネット幅を求める。",
+      "topic": "NW5-4",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 29,
+      "subtopic": "ネットワークアドレス",
+      "attention": "255.255.255.240・/28・16刻み",
+      "mistake": "ブロードキャスト31を選ぶ。",
+      "review_tag": "NETWORK_A10_V42_29"
+    },
+    {
+      "id": "NW-A10-Q30",
+      "type": "四択",
+      "q": "イーサネットのブロードキャストフレームによるデータ伝送の説明として適切なものはどれか。",
+      "choices": [
+        "同一セグメント内の全ノードへ一度の送信で伝送する",
+        "同一セグメント内の全ノードへ順番に伝送する",
+        "選択された複数ノードへ一度に伝送する",
+        "選択された複数ノードへ順番に伝送する"
+      ],
+      "answer": "同一セグメント内の全ノードへ一度の送信で伝送する",
+      "explain": "ブロードキャストは同一セグメント内の全ノード宛て。",
+      "point": "全ノード・一度の送信。",
+      "topic": "NW5-3",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 30,
+      "subtopic": "イーサネットブロードキャスト",
+      "attention": "ブロードキャスト・全ノード",
+      "mistake": "マルチキャストのように選択ノードと考える。",
+      "review_tag": "NETWORK_A10_V42_30"
+    },
+    {
+      "id": "NW-A10-Q31",
+      "type": "四択",
+      "q": "ネットワーク10.16.32.64/26で、割当て可能アドレスを末尾から降順に使うとき、10番目に割り当てるアドレスはどれか。",
+      "choices": [
+        "10.16.32.54",
+        "10.16.32.55",
+        "10.16.32.117",
+        "10.16.32.118"
+      ],
+      "answer": "10.16.32.117",
+      "explain": "/26の利用可能範囲は65～126。末尾126から10番目は117。",
+      "point": "ネットワーク/ブロードキャストを除いた範囲を確定する。",
+      "topic": "NW5-4",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 31,
+      "subtopic": "サブネット内アドレス割当て",
+      "attention": "/26・65～126・降順",
+      "mistake": "127を割当可能と考える。",
+      "review_tag": "NETWORK_A10_V42_31"
+    },
+    {
+      "id": "NW-A10-Q32",
+      "type": "四択",
+      "q": "TCP/IPネットワークにおけるRARPの機能として適切なものはどれか。",
+      "choices": [
+        "通信先IPへ到達するか調べる",
+        "MACアドレスからIPアドレスを求める",
+        "ドメイン名とホスト名からIPアドレスを求める",
+        "プライベートIPとグローバルIPを変換する"
+      ],
+      "answer": "MACアドレスからIPアドレスを求める",
+      "explain": "RARPはARPと逆でMAC→IP。",
+      "point": "ARPとの向きの違いを見る。",
+      "topic": "NW5-6",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 32,
+      "subtopic": "RARP",
+      "attention": "RARP・MAC→IP",
+      "mistake": "ARPやDNS、NATと混同する。",
+      "review_tag": "NETWORK_A10_V42_32"
+    },
+    {
+      "id": "NW-A10-Q33",
+      "type": "四択",
+      "q": "IPv4ネットワーク192.168.0.0/23と192.168.2.0/23を集約したネットワークはどれか。",
+      "choices": [
+        "192.168.0.0/22",
+        "192.168.1.0/22",
+        "192.168.1.0/23",
+        "192.168.3.0/23"
+      ],
+      "answer": "192.168.0.0/22",
+      "explain": "2つの/23で共通する先頭22ビットをまとめる。",
+      "point": "共通プレフィックスの長さを見る。",
+      "topic": "NW5-4",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 33,
+      "subtopic": "経路集約",
+      "attention": "/23・共通22ビット・集約",
+      "mistake": "境界でないネットワークアドレスを選ぶ。",
+      "review_tag": "NETWORK_A10_V42_33"
+    },
+    {
+      "id": "NW-A10-Q34",
+      "type": "四択",
+      "q": "IPv4でIPアドレスからMACアドレスを取得するために用いるプロトコルはどれか。",
+      "choices": [
+        "ARP",
+        "DHCP",
+        "ICMP",
+        "RARP"
+      ],
+      "answer": "ARP",
+      "explain": "ARPはIP→MAC。",
+      "point": "変換方向を確認する。",
+      "topic": "NW5-6",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 34,
+      "subtopic": "ARP",
+      "attention": "IP→MAC",
+      "mistake": "RARPと逆にする。",
+      "review_tag": "NETWORK_A10_V42_34"
+    },
+    {
+      "id": "NW-A10-Q35",
+      "type": "四択",
+      "q": "ネットワーク機器の接続状態を調べるpingが用いるプロトコルはどれか。",
+      "choices": [
+        "DHCP",
+        "ICMP",
+        "SMTP",
+        "SNMP"
+      ],
+      "answer": "ICMP",
+      "explain": "pingはICMPを利用して疎通確認する。",
+      "point": "ping＝ICMPを結び付ける。",
+      "topic": "NW5-6",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 35,
+      "subtopic": "pingとICMP",
+      "attention": "ping・ICMP",
+      "mistake": "SNMPを選ぶ。",
+      "review_tag": "NETWORK_A10_V42_35"
+    },
+    {
+      "id": "NW-A10-Q36",
+      "type": "四択",
+      "q": "WANを介して2ノードをダイヤルアップ接続するときに使われ、リンク制御やエラー処理機能をもつプロトコルはどれか。",
+      "choices": [
+        "FTP",
+        "PPP",
+        "SLIP",
+        "UDP"
+      ],
+      "answer": "PPP",
+      "explain": "PPPは電話回線などを用いた2地点の通信やダイヤルアップ接続で利用される。",
+      "point": "WAN・ダイヤルアップ・リンク制御を見る。",
+      "topic": "NW5-3",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 36,
+      "subtopic": "PPP",
+      "attention": "PPP・ダイヤルアップ",
+      "mistake": "SLIPやUDPと混同する。",
+      "review_tag": "NETWORK_A10_V42_36"
+    },
+    {
+      "id": "NW-A10-Q37",
+      "type": "四択",
+      "q": "ブロードキャストストームの説明として適切なものはどれか。",
+      "choices": [
+        "1台のルータにPCが多すぎてインターネットが遅くなる",
+        "IP重複で再送が頻発する",
+        "宛先MACがFF-FF-FF-FF-FF-FFなので全PCが受信するだけの状態",
+        "スイッチ間にループ経路ができ、フレームが大量複製され通信が極端に遅くなる"
+      ],
+      "answer": "スイッチ間にループ経路ができ、フレームが大量複製され通信が極端に遅くなる",
+      "explain": "L2ループによりブロードキャストが循環・増殖する。",
+      "point": "ループ構成が原因かを見る。",
+      "topic": "NW5-3",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 37,
+      "subtopic": "ブロードキャストストーム",
+      "attention": "スイッチ間ループ・大量複製",
+      "mistake": "単なる通常ブロードキャストと混同する。",
+      "review_tag": "NETWORK_A10_V42_37"
+    },
+    {
+      "id": "NW-A10-Q38",
+      "type": "四択",
+      "q": "WebSocketによって実現できるものはどれか。",
+      "choices": [
+        "JavaScriptをバックグラウンド動作させる",
+        "Webページで映像や音声を再生する",
+        "Webページにビットマップを描画する",
+        "Webブラウザとサーバ間で双方向通信する"
+      ],
+      "answer": "Webブラウザとサーバ間で双方向通信する",
+      "explain": "WebSocketはWeb上のサーバ・クライアント間で双方向通信を実現する。",
+      "point": "双方向通信という用途を見る。",
+      "topic": "NW6-3",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 38,
+      "subtopic": "WebSocket",
+      "attention": "WebSocket・双方向通信",
+      "mistake": "既存Web機能やバックグラウンド処理と混同する。",
+      "review_tag": "NETWORK_A10_V42_38"
+    },
+    {
+      "id": "NW-A10-Q39",
+      "type": "四択",
+      "q": "TCP/IPネットワークにおけるARPの説明として適切なものはどれか。",
+      "choices": [
+        "IPアドレスからMACアドレスを得る",
+        "IPネットワークの誤り制御を行う",
+        "ホップ数で経路制御する",
+        "端末へ動的にIPアドレスを割り当てる"
+      ],
+      "answer": "IPアドレスからMACアドレスを得る",
+      "explain": "ARPは物理アドレス（MAC）の問い合わせに用いる。",
+      "point": "IP→MACの変換。",
+      "topic": "NW5-6",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 39,
+      "subtopic": "ARP",
+      "attention": "ARP・MACアドレス",
+      "mistake": "TCP、RIP、DHCPの説明と混同する。",
+      "review_tag": "NETWORK_A10_V42_39"
+    },
+    {
+      "id": "NW-A10-Q40",
+      "type": "四択",
+      "q": "IPアドレス208.77.188.166はどのアドレスに該当するか。",
+      "choices": [
+        "グローバルアドレス",
+        "プライベートアドレス",
+        "ブロードキャストアドレス",
+        "マルチキャストアドレス"
+      ],
+      "answer": "グローバルアドレス",
+      "explain": "資料のプライベート範囲に含まれず、クラスDでもないためグローバルアドレス。",
+      "point": "プライベート範囲・マルチキャスト範囲との比較。",
+      "topic": "NW5-4",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 40,
+      "subtopic": "グローバル/プライベートIPv4",
+      "attention": "208.77.188.166・プライベート範囲",
+      "mistake": "クラスCならすべてプライベートと誤る。",
+      "review_tag": "NETWORK_A10_V42_40"
+    },
+    {
+      "id": "NW-A10-Q41",
+      "type": "四択",
+      "q": "他のコンピュータ上のデータやサービスを呼び出すためのプロトコルで、メッセージ記述がXMLのヘッダとボディで構成されるものはどれか。",
+      "choices": [
+        "CORBA",
+        "DCOM",
+        "SIP",
+        "SOAP"
+      ],
+      "answer": "SOAP",
+      "explain": "SOAPはXMLで構造化されたメッセージを交換する。",
+      "point": "XMLのヘッダ＋ボディを見る。",
+      "topic": "NW6-3",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 41,
+      "subtopic": "SOAP",
+      "attention": "SOAP・XML",
+      "mistake": "SIPや分散オブジェクト技術と混同する。",
+      "review_tag": "NETWORK_A10_V42_41"
+    },
+    {
+      "id": "NW-A10-Q42",
+      "type": "四択",
+      "q": "ルータを冗長化するために用いられるプロトコルはどれか。",
+      "choices": [
+        "PPP",
+        "RARP",
+        "SNMP",
+        "VRRP"
+      ],
+      "answer": "VRRP",
+      "explain": "VRRPは複数ルータを仮想的に1台として動作させる。",
+      "point": "目的がルータ冗長化かを見る。",
+      "topic": "NW5-6",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 42,
+      "subtopic": "VRRP",
+      "attention": "VRRP・仮想ルータ・冗長化",
+      "mistake": "SNMPやPPPと混同する。",
+      "review_tag": "NETWORK_A10_V42_42"
+    },
+    {
+      "id": "NW-A10-Q43",
+      "type": "四択",
+      "q": "クラスCのIPアドレスを10個の同じ大きさのサブネットへ分割し、ホスト数を最大にするサブネットマスクはどれか。",
+      "choices": [
+        "255.255.255.192",
+        "255.255.255.224",
+        "255.255.255.240",
+        "255.255.255.248"
+      ],
+      "answer": "255.255.255.240",
+      "explain": "10個以上にするには4ビット借りて16分割。第4オクテット11110000=240。",
+      "point": "必要サブネット数を満たす最小ビット数を借りる。",
+      "topic": "NW5-4",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 43,
+      "subtopic": "サブネット分割",
+      "attention": "10サブネット・4ビット・240",
+      "mistake": "必要以上に多くビットを借りてホスト数を減らす。",
+      "review_tag": "NETWORK_A10_V42_43"
+    },
+    {
+      "id": "NW-A10-Q44",
+      "type": "四択",
+      "q": "IPの上位階層で、コネクションレスのデータグラム通信を実現し、確認応答や順序制御をもたないプロトコルはどれか。",
+      "choices": [
+        "ICMP",
+        "PPP",
+        "TCP",
+        "UDP"
+      ],
+      "answer": "UDP",
+      "explain": "UDPはコネクションレスで確認応答・順序制御をもたない。",
+      "point": "コネクションレス・上位層という条件を見る。",
+      "topic": "NW6-1",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 44,
+      "subtopic": "UDP",
+      "attention": "UDP・コネクションレス",
+      "mistake": "TCPと逆にする。",
+      "review_tag": "NETWORK_A10_V42_44"
+    },
+    {
+      "id": "NW-A10-Q45",
+      "type": "四択",
+      "q": "端末a→端末bのパケットを、ルータ1とルータ2の間でモニタした。ヘッダ内アドレスの正しい組合せはどれか。",
+      "choices": [
+        "宛先MAC=端末b、送信元MAC=端末a、宛先IP=端末b、送信元IP=端末a",
+        "宛先MAC=端末b、送信元MAC=端末a、宛先IP=ルータ2、送信元IP=ルータ1",
+        "宛先MAC=ルータ2、送信元MAC=ルータ1、宛先IP=端末b、送信元IP=端末a",
+        "宛先MAC=ルータ2、送信元MAC=ルータ1、宛先IP=ルータ2、送信元IP=ルータ1"
+      ],
+      "answer": "宛先MAC=ルータ2、送信元MAC=ルータ1、宛先IP=端末b、送信元IP=端末a",
+      "explain": "MACアドレスは各リンクの両端、IPアドレスは通信端末a/bを保持する（NAT/NAPT除く）。",
+      "point": "モニタ位置とMAC/IPの役割を分ける。",
+      "topic": "NW5-2",
+      "related_topics": [
+        "NW3-3"
+      ],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 45,
+      "subtopic": "ルータ通過時のMAC/IPアドレス",
+      "attention": "MAC＝ルータ1/2・IP＝端末a/b",
+      "mistake": "IPアドレスまでルータへ置き換わると考える。",
+      "review_tag": "NETWORK_A10_V42_45"
+    },
+    {
+      "id": "NW-A10-Q46",
+      "type": "四択",
+      "q": "OpenFlowを使ったSDNに関する記述として適切なものはどれか。",
+      "choices": [
+        "DNSによって名前で通信する仕組み",
+        "携帯電話網でパケット交換方式の音声通話を実現する方式",
+        "WWNで識別するストレージ用ネットワーク",
+        "データ転送機能とネットワーク制御機能を論理分離し、制御を集中的に行うアーキテクチャ"
+      ],
+      "answer": "データ転送機能とネットワーク制御機能を論理分離し、制御を集中的に行うアーキテクチャ",
+      "explain": "SDNは転送と制御を分離し、ソフトウェア的に集中管理する。",
+      "point": "制御プレーンと転送機能の分離を見る。",
+      "topic": "NW1-3",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 46,
+      "subtopic": "SDN・OpenFlow",
+      "attention": "SDN・OpenFlow・集中制御",
+      "mistake": "DNS、VoLTE、SANと混同する。",
+      "review_tag": "NETWORK_A10_V42_46"
+    },
+    {
+      "id": "NW-A10-Q47",
+      "type": "四択",
+      "q": "DHCPサーバが設置されたLAN環境の説明として適切なものはどれか。",
+      "choices": [
+        "IPは自動設定できるがサブネットマスクやデフォルトゲートウェイは設定できない",
+        "DHCP端末と固定IP端末は混在できない",
+        "DHCP端末にDHCPサーバのアドレスをあらかじめ設定する必要はない",
+        "一度割り当てられたPCには必ず同じIPが割り当てられる"
+      ],
+      "answer": "DHCP端末にDHCPサーバのアドレスをあらかじめ設定する必要はない",
+      "explain": "DHCP DISCOVERをブロードキャストしてサーバを探索する。",
+      "point": "初期状態でサーバIPを知らなくても動く理由を見る。",
+      "topic": "NW6-4",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 47,
+      "subtopic": "DHCP",
+      "attention": "DHCP DISCOVER・ブロードキャスト",
+      "mistake": "固定IPとの混在不可、同一IP固定と誤る。",
+      "review_tag": "NETWORK_A10_V42_47"
+    },
+    {
+      "id": "NW-A10-Q48",
+      "type": "四択",
+      "q": "URL『https://www.example.com/member/login?id=user』でWebサーバのポート8080を指定する正しい位置はどれか。",
+      "choices": [
+        "https://www.example.com/member/login?id=user:8080",
+        "https:8080://www.example.com/member/login?id=user",
+        "https://www.example.com/member/login:8080?id=user",
+        "https://www.example.com:8080/member/login?id=user"
+      ],
+      "answer": "https://www.example.com:8080/member/login?id=user",
+      "explain": "ポート番号はFQDN（ホスト名）の直後に『:8080』と記載する。",
+      "point": "URLの構造でホスト名の位置を見る。",
+      "topic": "NW6-3",
+      "related_topics": [
+        "NW6-1"
+      ],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 48,
+      "subtopic": "URLでのポート番号指定",
+      "attention": "FQDN直後・:8080",
+      "mistake": "クエリ文字列やパスの後ろに付ける。",
+      "review_tag": "NETWORK_A10_V42_48"
+    },
+    {
+      "id": "NW-A10-Q49",
+      "type": "四択",
+      "q": "複数のシステムやサービスの間で利用されるSAMLはどれか。",
+      "choices": [
+        "システム負荷や動作状況の情報を送信する仕様",
+        "脆弱性や脅威情報を交換する仕様",
+        "通信を暗号化しVPNを実装する仕様",
+        "認証や認可に関する情報を交換する仕様"
+      ],
+      "answer": "認証や認可に関する情報を交換する仕様",
+      "explain": "SAMLはXMLベースで認証・認可情報を交換し、SSOを実現する。",
+      "point": "交換する情報が認証・認可かを見る。",
+      "topic": "SEC4-5",
+      "related_topics": [],
+      "source_group": "科目A対策セレクト過去問題集10_ネットワーク_v42",
+      "source_section": "ネットワーク",
+      "source_no": 49,
+      "subtopic": "SAML",
+      "attention": "SAML・認証・認可・SSO",
+      "mistake": "SNMP、脅威情報交換、VPNと混同する。",
+      "review_tag": "NETWORK_A10_V42_49"
+    }
+  ],
+  "step5_cross_analysis": {
+    "repeated_topics": [
+      "IPアドレス・MACアドレス・ARP/RARP/ICMP",
+      "サブネットマスク・CIDR・ネットワークアドレス・経路集約",
+      "LAN接続装置とOSI階層（リピータ・ブリッジ・L2スイッチ・ルータ・ゲートウェイ）",
+      "NAPT・フォワードプロキシ・リバースプロキシ",
+      "伝送時間・実効速度・利用率・ビット誤り率",
+      "CSMA/CD・Ethernet・ブロードキャスト",
+      "DNS・DHCPなどTCP/IPアプリケーション層プロトコル"
+    ],
+    "common_judgment_conditions": [
+      "どのOSI/TCP-IP層で動作するか",
+      "IPアドレスを見る装置か、MACアドレスを見る装置か",
+      "エンドツーエンドの情報か、リンクごとに変わる情報か",
+      "ビット/バイト、回線速度/実効速度、伝送効率の単位",
+      "正引き/逆引き、IP→MAC/MAC→IPなど変換方向",
+      "ブロードキャストドメイン内か外か"
+    ],
+    "confusable_concepts": [
+      "ARP ↔ RARP ↔ DNS ↔ DHCP",
+      "フォワードプロキシ ↔ リバースプロキシ",
+      "NAT ↔ NAPT",
+      "ブリッジ/L2スイッチ ↔ ルータ ↔ リピータ ↔ ゲートウェイ",
+      "CSMA/CD ↔ CSMA/CA",
+      "TCP ↔ UDP",
+      "NFV ↔ SDN"
+    ],
+    "frequent_attention_words": [
+      "IPアドレス",
+      "MACアドレス",
+      "ポート番号",
+      "サブネットマスク",
+      "伝送効率",
+      "実効速度",
+      "ブロードキャスト",
+      "デフォルトゲートウェイ",
+      "逆引き",
+      "コネクションレス",
+      "冗長化"
+    ],
+    "common_traps": [
+      "IPとMACの役割を入れ替える",
+      "通信方向を無視してNAPTの書換えフィールドを選ぶ",
+      "ビットとバイトを取り違える",
+      "ネットワークアドレス・ブロードキャストアドレスをホストへ割り当てる",
+      "似た装置をOSI層ではなく名称の印象だけで選ぶ",
+      "『全ノード』と『選択された複数ノード』を取り違える"
+    ],
+    "principle_exception": [
+      "IPヘッダは通常エンドツーエンドで維持されるが、NAT/NAPTがある場合は書き換えられる",
+      "DHCPの割当てIPは必ず同じとは限らない",
+      "IPv6の『::』省略表記は1アドレス中1か所のみ"
+    ]
+  },
+  "step6_matrix": [
+    {
+      "problem": 1,
+      "major_topic": "ネットワークの種類と特徴",
+      "subtopic": "LAN",
+      "question_focus": "LPWA",
+      "attention": "LPWA・LowPower・WideArea",
+      "criterion": "省電力・広範囲・低速という特徴を識別する。",
+      "mistake": "WiGigやPLCの説明を選ぶ。",
+      "review_to": "NW1-1",
+      "review_tag": "NETWORK_A10_V42_01"
+    },
+    {
+      "problem": 2,
+      "major_topic": "ネットワークの種類と特徴",
+      "subtopic": "LAN",
+      "question_focus": "SSID",
+      "attention": "SSID・32オクテット・ネットワーク識別子",
+      "criterion": "ネットワーク識別子かホスト識別子かを見る。",
+      "mistake": "MACアドレスと混同する。",
+      "review_to": "NW1-1",
+      "review_tag": "NETWORK_A10_V42_02"
+    },
+    {
+      "problem": 3,
+      "major_topic": "ネットワークの種類と特徴",
+      "subtopic": "SDN・NFV",
+      "question_focus": "NFV",
+      "attention": "NFV・仮想化・汎用サーバ",
+      "criterion": "汎用サーバ上でネットワーク機能をソフトウェア化するかを見る。",
+      "mistake": "AR、深層学習、ペトリネットと混同する。",
+      "review_to": "NW1-3",
+      "review_tag": "NETWORK_A10_V42_03"
+    },
+    {
+      "problem": 4,
+      "major_topic": "ネットワークの種類と特徴",
+      "subtopic": "NAT・NAPT・プロキシ",
+      "question_focus": "NAPT",
+      "attention": "NAPT・ポート番号・1つのグローバルIP",
+      "criterion": "IPだけでなくポート番号も変換する点を見る。",
+      "mistake": "NATやNTPと混同する。",
+      "review_to": "NW1-4",
+      "review_tag": "NETWORK_A10_V42_04"
+    },
+    {
+      "problem": 5,
+      "major_topic": "ネットワークの種類と特徴",
+      "subtopic": "NAT・NAPT・プロキシ",
+      "question_focus": "リバースプロキシ",
+      "attention": "Webサーバ側・外部クライアント・中継",
+      "criterion": "誰の代理かを見る。",
+      "mistake": "フォワードプロキシと逆にする。",
+      "review_to": "NW1-4",
+      "review_tag": "NETWORK_A10_V42_05"
+    },
+    {
+      "problem": 6,
+      "major_topic": "通信回線とその評価",
+      "subtopic": "回線種別・VoIP・5G",
+      "question_focus": "VoIP音声ペイロード計算",
+      "attention": "8kbit/s・10ms・byte換算",
+      "criterion": "周期から1秒当たりパケット数を求め、最後に8で割る。",
+      "mistake": "80ビットを80バイトと誤る。",
+      "review_to": "NW2-2",
+      "review_tag": "NETWORK_A10_V42_06"
+    },
+    {
+      "problem": 7,
+      "major_topic": "通信回線とその評価",
+      "subtopic": "データ転送速度・ビット誤り率",
+      "question_focus": "伝送時間",
+      "attention": "1,000バイト×1,000件・50%",
+      "criterion": "総データ量÷実効速度。",
+      "mistake": "バイト→ビット換算や効率を忘れる。",
+      "review_to": "NW2-3",
+      "review_tag": "NETWORK_A10_V42_07"
+    },
+    {
+      "problem": 8,
+      "major_topic": "通信回線とその評価",
+      "subtopic": "データ転送速度・ビット誤り率",
+      "question_focus": "応答時間",
+      "attention": "上り＋下り・処理時間",
+      "criterion": "伝送時間と両端処理時間を合算する。",
+      "mistake": "伝送時間だけで答える。",
+      "review_to": "NW2-3",
+      "review_tag": "NETWORK_A10_V42_08"
+    },
+    {
+      "problem": 9,
+      "major_topic": "通信回線とその評価",
+      "subtopic": "データ転送速度・ビット誤り率",
+      "question_focus": "ボトルネックとダウンロード時間",
+      "attention": "80Mbps・90Mbps・540MB",
+      "criterion": "複数区間では最も遅い実効速度を使う。",
+      "mistake": "物理速度100Mbpsをそのまま使う。",
+      "review_to": "NW2-3",
+      "review_tag": "NETWORK_A10_V42_09"
+    },
+    {
+      "problem": 10,
+      "major_topic": "通信回線とその評価",
+      "subtopic": "データ転送速度・ビット誤り率",
+      "question_focus": "複数区間の伝送時間",
+      "attention": "1,500バイト・10Mbps・1.5Mbps・0.8ms",
+      "criterion": "区間ごとの伝送時間とルータ処理をすべて足す。",
+      "mistake": "中継回線だけ計算する。",
+      "review_to": "NW2-3",
+      "review_tag": "NETWORK_A10_V42_10"
+    },
+    {
+      "problem": 11,
+      "major_topic": "通信回線とその評価",
+      "subtopic": "データ転送速度・ビット誤り率",
+      "question_focus": "LAN利用率",
+      "attention": "30%付加・60回/秒・2組",
+      "criterion": "制御情報込みの1秒当たり総ビット数を求める。",
+      "mistake": "制御情報や組数を忘れる。",
+      "review_to": "NW2-3",
+      "review_tag": "NETWORK_A10_V42_11"
+    },
+    {
+      "problem": 12,
+      "major_topic": "通信回線とその評価",
+      "subtopic": "データ転送速度・ビット誤り率",
+      "question_focus": "ビット誤り率",
+      "attention": "30Mbit/s・100秒・1bit",
+      "criterion": "誤り数÷総伝送ビット数。",
+      "mistake": "100秒を分母にする。",
+      "review_to": "NW2-3",
+      "review_tag": "NETWORK_A10_V42_12"
+    },
+    {
+      "problem": 13,
+      "major_topic": "ネットワークの種類と特徴",
+      "subtopic": "NAT・NAPT・プロキシ",
+      "question_focus": "NAPT応答パケットの書換え",
+      "attention": "応答パケット・宛先IP・宛先ポート",
+      "criterion": "通信方向がWebサーバ→PCである点を見る。",
+      "mistake": "送信元側を書き換えると考える。",
+      "review_to": "NW1-4",
+      "review_tag": "NETWORK_A10_V42_13"
+    },
+    {
+      "problem": 14,
+      "major_topic": "通信回線とその評価",
+      "subtopic": "データ転送速度・ビット誤り率",
+      "question_focus": "ビット誤り率",
+      "attention": "64kbit/s・100秒・1bit",
+      "criterion": "総ビット数を先に求める。",
+      "mistake": "kbitの桁を誤る。",
+      "review_to": "NW2-3",
+      "review_tag": "NETWORK_A10_V42_14"
+    },
+    {
+      "problem": 15,
+      "major_topic": "ネットワークの種類と特徴",
+      "subtopic": "NAT・NAPT・プロキシ",
+      "question_focus": "フォワードプロキシ",
+      "attention": "Webブラウザの代理",
+      "criterion": "代理する側がクライアントかサーバかを見る。",
+      "mistake": "リバースプロキシと混同する。",
+      "review_to": "NW1-4",
+      "review_tag": "NETWORK_A10_V42_15"
+    },
+    {
+      "problem": 16,
+      "major_topic": "伝送制御とメディアアクセス制御",
+      "subtopic": "CSMA/CD・CSMA/CA",
+      "question_focus": "CSMA/CD",
+      "attention": "キャリア検知・衝突・再送",
+      "criterion": "Collision Detectionの動作を見る。",
+      "mistake": "TDMA、CSMA/CA、トークン方式と混同する。",
+      "review_to": "NW4-3",
+      "review_tag": "NETWORK_A10_V42_16"
+    },
+    {
+      "problem": 17,
+      "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+      "subtopic": "カプセル化・非カプセル化",
+      "question_focus": "MAC宛先とIP宛先",
+      "attention": "MAC＝次ホップ・IP＝最終宛先",
+      "criterion": "相手が同一ブロードキャストドメインかを見る。",
+      "mistake": "MACも最終端末を指定すると考える。",
+      "review_to": "NW5-2",
+      "review_tag": "NETWORK_A10_V42_17"
+    },
+    {
+      "problem": 18,
+      "major_topic": "ネットワークアーキテクチャと接続",
+      "subtopic": "接続機器",
+      "question_focus": "L2スイッチとブリッジ",
+      "attention": "L2・MACアドレス",
+      "criterion": "OSI第2層かを見る。",
+      "mistake": "ルータやリピータを選ぶ。",
+      "review_to": "NW3-3",
+      "review_tag": "NETWORK_A10_V42_18"
+    },
+    {
+      "problem": 19,
+      "major_topic": "伝送制御とメディアアクセス制御",
+      "subtopic": "CSMA/CD・CSMA/CA",
+      "question_focus": "CSMA/CDとスループット",
+      "attention": "衝突・再送・スループット",
+      "criterion": "衝突後の再送動作を見る。",
+      "mistake": "キャリア検知すれば衝突しないと考える。",
+      "review_to": "NW4-3",
+      "review_tag": "NETWORK_A10_V42_19"
+    },
+    {
+      "problem": 20,
+      "major_topic": "ネットワークアーキテクチャと接続",
+      "subtopic": "接続機器",
+      "question_focus": "ルータの機能",
+      "attention": "ルータ・第3層・IPアドレス",
+      "criterion": "OSI層と参照アドレスを見る。",
+      "mistake": "L2スイッチやゲートウェイの説明と混同する。",
+      "review_to": "NW3-3",
+      "review_tag": "NETWORK_A10_V42_20"
+    },
+    {
+      "problem": 21,
+      "major_topic": "ネットワークアーキテクチャと接続",
+      "subtopic": "接続機器",
+      "question_focus": "L2スイッチの機能",
+      "attention": "MACアドレス・必要ポート",
+      "criterion": "第2層・MACアドレス。",
+      "mistake": "IPアドレスを使うルータと混同する。",
+      "review_to": "NW3-3",
+      "review_tag": "NETWORK_A10_V42_21"
+    },
+    {
+      "problem": 22,
+      "major_topic": "ネットワークアーキテクチャと接続",
+      "subtopic": "接続機器",
+      "question_focus": "LAN間接続装置",
+      "attention": "リピータ・物理層・信号増幅",
+      "criterion": "装置とOSI層・参照情報を対応させる。",
+      "mistake": "ブリッジとルータの参照アドレスを逆にする。",
+      "review_to": "NW3-3",
+      "review_tag": "NETWORK_A10_V42_22"
+    },
+    {
+      "problem": 23,
+      "major_topic": "トランスポート層・アプリケーション層",
+      "subtopic": "DNS",
+      "question_focus": "DNSとレコード",
+      "attention": "逆引き・PTR・リゾルバ",
+      "criterion": "方向とレコード用途を確認する。",
+      "mistake": "MX/NS/CNAMEの役割を取り違える。",
+      "review_to": "NW6-5",
+      "review_tag": "NETWORK_A10_V42_23"
+    },
+    {
+      "problem": 24,
+      "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+      "subtopic": "ICMP・ARP・RARP・VRRP",
+      "question_focus": "ICMP",
+      "attention": "ICMP・制御メッセージ・エラー報告",
+      "criterion": "エラー報告・pingを連想する。",
+      "mistake": "ARP/RARP/NAT/DHCPと混同する。",
+      "review_to": "NW5-6",
+      "review_tag": "NETWORK_A10_V42_24"
+    },
+    {
+      "problem": 25,
+      "major_topic": "ネットワークの種類と特徴",
+      "subtopic": "NAT・NAPT・プロキシ",
+      "question_focus": "プロキシとキャッシュ",
+      "attention": "プロキシ・キャッシュ",
+      "criterion": "中継＋キャッシュという機能を見る。",
+      "mistake": "NAPTやFWを選ぶ。",
+      "review_to": "NW1-4",
+      "review_tag": "NETWORK_A10_V42_25"
+    },
+    {
+      "problem": 26,
+      "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+      "subtopic": "ICMP・ARP・RARP・VRRP",
+      "question_focus": "ARP",
+      "attention": "ARP・IP→MAC",
+      "criterion": "変換方向を見る。",
+      "mistake": "RARPやDNSと逆にする。",
+      "review_to": "NW5-6",
+      "review_tag": "NETWORK_A10_V42_26"
+    },
+    {
+      "problem": 27,
+      "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+      "subtopic": "IPv6",
+      "question_focus": "IPv6表記",
+      "attention": "IPv6・コロン・::は1か所",
+      "criterion": "区切り記号と省略記号の使用回数を見る。",
+      "mistake": "『::』を2か所使う。",
+      "review_to": "NW5-5",
+      "review_tag": "NETWORK_A10_V42_27"
+    },
+    {
+      "problem": 28,
+      "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+      "subtopic": "IPv6",
+      "question_focus": "IPv6とIPsec",
+      "attention": "IPv6・拡張ヘッダ・IPsec",
+      "criterion": "IP層で実現する機能かを見る。",
+      "mistake": "アプリケーション層の検査機能を選ぶ。",
+      "review_to": "NW5-5",
+      "review_tag": "NETWORK_A10_V42_28"
+    },
+    {
+      "problem": 29,
+      "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+      "subtopic": "IPv4・サブネットマスク・CIDR",
+      "question_focus": "ネットワークアドレス",
+      "attention": "255.255.255.240・/28・16刻み",
+      "criterion": "サブネット幅を求める。",
+      "mistake": "ブロードキャスト31を選ぶ。",
+      "review_to": "NW5-4",
+      "review_tag": "NETWORK_A10_V42_29"
+    },
+    {
+      "problem": 30,
+      "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+      "subtopic": "Ethernet・STP・VLAN・PPP/PPPoE",
+      "question_focus": "イーサネットブロードキャスト",
+      "attention": "ブロードキャスト・全ノード",
+      "criterion": "全ノード・一度の送信。",
+      "mistake": "マルチキャストのように選択ノードと考える。",
+      "review_to": "NW5-3",
+      "review_tag": "NETWORK_A10_V42_30"
+    },
+    {
+      "problem": 31,
+      "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+      "subtopic": "IPv4・サブネットマスク・CIDR",
+      "question_focus": "サブネット内アドレス割当て",
+      "attention": "/26・65～126・降順",
+      "criterion": "ネットワーク/ブロードキャストを除いた範囲を確定する。",
+      "mistake": "127を割当可能と考える。",
+      "review_to": "NW5-4",
+      "review_tag": "NETWORK_A10_V42_31"
+    },
+    {
+      "problem": 32,
+      "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+      "subtopic": "ICMP・ARP・RARP・VRRP",
+      "question_focus": "RARP",
+      "attention": "RARP・MAC→IP",
+      "criterion": "ARPとの向きの違いを見る。",
+      "mistake": "ARPやDNS、NATと混同する。",
+      "review_to": "NW5-6",
+      "review_tag": "NETWORK_A10_V42_32"
+    },
+    {
+      "problem": 33,
+      "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+      "subtopic": "IPv4・サブネットマスク・CIDR",
+      "question_focus": "経路集約",
+      "attention": "/23・共通22ビット・集約",
+      "criterion": "共通プレフィックスの長さを見る。",
+      "mistake": "境界でないネットワークアドレスを選ぶ。",
+      "review_to": "NW5-4",
+      "review_tag": "NETWORK_A10_V42_33"
+    },
+    {
+      "problem": 34,
+      "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+      "subtopic": "ICMP・ARP・RARP・VRRP",
+      "question_focus": "ARP",
+      "attention": "IP→MAC",
+      "criterion": "変換方向を確認する。",
+      "mistake": "RARPと逆にする。",
+      "review_to": "NW5-6",
+      "review_tag": "NETWORK_A10_V42_34"
+    },
+    {
+      "problem": 35,
+      "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+      "subtopic": "ICMP・ARP・RARP・VRRP",
+      "question_focus": "pingとICMP",
+      "attention": "ping・ICMP",
+      "criterion": "ping＝ICMPを結び付ける。",
+      "mistake": "SNMPを選ぶ。",
+      "review_to": "NW5-6",
+      "review_tag": "NETWORK_A10_V42_35"
+    },
+    {
+      "problem": 36,
+      "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+      "subtopic": "Ethernet・STP・VLAN・PPP/PPPoE",
+      "question_focus": "PPP",
+      "attention": "PPP・ダイヤルアップ",
+      "criterion": "WAN・ダイヤルアップ・リンク制御を見る。",
+      "mistake": "SLIPやUDPと混同する。",
+      "review_to": "NW5-3",
+      "review_tag": "NETWORK_A10_V42_36"
+    },
+    {
+      "problem": 37,
+      "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+      "subtopic": "Ethernet・STP・VLAN・PPP/PPPoE",
+      "question_focus": "ブロードキャストストーム",
+      "attention": "スイッチ間ループ・大量複製",
+      "criterion": "ループ構成が原因かを見る。",
+      "mistake": "単なる通常ブロードキャストと混同する。",
+      "review_to": "NW5-3",
+      "review_tag": "NETWORK_A10_V42_37"
+    },
+    {
+      "problem": 38,
+      "major_topic": "トランスポート層・アプリケーション層",
+      "subtopic": "HTTP・HTTPS・SMTP・POP・IMAP",
+      "question_focus": "WebSocket",
+      "attention": "WebSocket・双方向通信",
+      "criterion": "双方向通信という用途を見る。",
+      "mistake": "既存Web機能やバックグラウンド処理と混同する。",
+      "review_to": "NW6-3",
+      "review_tag": "NETWORK_A10_V42_38"
+    },
+    {
+      "problem": 39,
+      "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+      "subtopic": "ICMP・ARP・RARP・VRRP",
+      "question_focus": "ARP",
+      "attention": "ARP・MACアドレス",
+      "criterion": "IP→MACの変換。",
+      "mistake": "TCP、RIP、DHCPの説明と混同する。",
+      "review_to": "NW5-6",
+      "review_tag": "NETWORK_A10_V42_39"
+    },
+    {
+      "problem": 40,
+      "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+      "subtopic": "IPv4・サブネットマスク・CIDR",
+      "question_focus": "グローバル/プライベートIPv4",
+      "attention": "208.77.188.166・プライベート範囲",
+      "criterion": "プライベート範囲・マルチキャスト範囲との比較。",
+      "mistake": "クラスCならすべてプライベートと誤る。",
+      "review_to": "NW5-4",
+      "review_tag": "NETWORK_A10_V42_40"
+    },
+    {
+      "problem": 41,
+      "major_topic": "トランスポート層・アプリケーション層",
+      "subtopic": "HTTP・HTTPS・SMTP・POP・IMAP",
+      "question_focus": "SOAP",
+      "attention": "SOAP・XML",
+      "criterion": "XMLのヘッダ＋ボディを見る。",
+      "mistake": "SIPや分散オブジェクト技術と混同する。",
+      "review_to": "NW6-3",
+      "review_tag": "NETWORK_A10_V42_41"
+    },
+    {
+      "problem": 42,
+      "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+      "subtopic": "ICMP・ARP・RARP・VRRP",
+      "question_focus": "VRRP",
+      "attention": "VRRP・仮想ルータ・冗長化",
+      "criterion": "目的がルータ冗長化かを見る。",
+      "mistake": "SNMPやPPPと混同する。",
+      "review_to": "NW5-6",
+      "review_tag": "NETWORK_A10_V42_42"
+    },
+    {
+      "problem": 43,
+      "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+      "subtopic": "IPv4・サブネットマスク・CIDR",
+      "question_focus": "サブネット分割",
+      "attention": "10サブネット・4ビット・240",
+      "criterion": "必要サブネット数を満たす最小ビット数を借りる。",
+      "mistake": "必要以上に多くビットを借りてホスト数を減らす。",
+      "review_to": "NW5-4",
+      "review_tag": "NETWORK_A10_V42_43"
+    },
+    {
+      "problem": 44,
+      "major_topic": "トランスポート層・アプリケーション層",
+      "subtopic": "TCP・UDP・ポート番号",
+      "question_focus": "UDP",
+      "attention": "UDP・コネクションレス",
+      "criterion": "コネクションレス・上位層という条件を見る。",
+      "mistake": "TCPと逆にする。",
+      "review_to": "NW6-1",
+      "review_tag": "NETWORK_A10_V42_44"
+    },
+    {
+      "problem": 45,
+      "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+      "subtopic": "カプセル化・非カプセル化",
+      "question_focus": "ルータ通過時のMAC/IPアドレス",
+      "attention": "MAC＝ルータ1/2・IP＝端末a/b",
+      "criterion": "モニタ位置とMAC/IPの役割を分ける。",
+      "mistake": "IPアドレスまでルータへ置き換わると考える。",
+      "review_to": "NW5-2",
+      "review_tag": "NETWORK_A10_V42_45"
+    },
+    {
+      "problem": 46,
+      "major_topic": "ネットワークの種類と特徴",
+      "subtopic": "SDN・NFV",
+      "question_focus": "SDN・OpenFlow",
+      "attention": "SDN・OpenFlow・集中制御",
+      "criterion": "制御プレーンと転送機能の分離を見る。",
+      "mistake": "DNS、VoLTE、SANと混同する。",
+      "review_to": "NW1-3",
+      "review_tag": "NETWORK_A10_V42_46"
+    },
+    {
+      "problem": 47,
+      "major_topic": "トランスポート層・アプリケーション層",
+      "subtopic": "DHCP",
+      "question_focus": "DHCP",
+      "attention": "DHCP DISCOVER・ブロードキャスト",
+      "criterion": "初期状態でサーバIPを知らなくても動く理由を見る。",
+      "mistake": "固定IPとの混在不可、同一IP固定と誤る。",
+      "review_to": "NW6-4",
+      "review_tag": "NETWORK_A10_V42_47"
+    },
+    {
+      "problem": 48,
+      "major_topic": "トランスポート層・アプリケーション層",
+      "subtopic": "HTTP・HTTPS・SMTP・POP・IMAP",
+      "question_focus": "URLでのポート番号指定",
+      "attention": "FQDN直後・:8080",
+      "criterion": "URLの構造でホスト名の位置を見る。",
+      "mistake": "クエリ文字列やパスの後ろに付ける。",
+      "review_to": "NW6-3",
+      "review_tag": "NETWORK_A10_V42_48"
+    },
+    {
+      "problem": 49,
+      "major_topic": "情報セキュリティに関する技術（認証技術）",
+      "subtopic": "SAML認証",
+      "question_focus": "SAML",
+      "attention": "SAML・認証・認可・SSO",
+      "criterion": "交換する情報が認証・認可かを見る。",
+      "mistake": "SNMP、脅威情報交換、VPNと混同する。",
+      "review_to": "SEC4-5",
+      "review_tag": "NETWORK_A10_V42_49"
+    }
+  ],
+  "step7_level1_update": [
+    "【ネットワーク】",
+    "├─NW1 ネットワークの種類と特徴",
+    "│ ├─NW1-1 LAN［問題1・2］",
+    "│ ├─NW1-3 SDN・NFV［問題3・46］",
+    "│ └─NW1-4 NAT・NAPT・プロキシ［問題4・5・13・15・25］",
+    "├─NW2 通信回線とその評価",
+    "│ ├─NW2-2 回線種別・VoIP・5G［問題6］",
+    "│ └─NW2-3 データ転送速度・ビット誤り率［問題7・8・9・10・11・12・14］",
+    "├─NW3 ネットワークアーキテクチャと接続",
+    "│ └─NW3-3 接続機器［問題18・20・21・22］",
+    "├─NW4 伝送制御とメディアアクセス制御",
+    "│ └─NW4-3 CSMA/CD・CSMA/CA［問題16・19］",
+    "├─NW5 TCP/IP・インターネット層",
+    "│ ├─NW5-2 カプセル化・非カプセル化［問題17・45］",
+    "│ ├─NW5-3 Ethernet・STP・VLAN・PPP/PPPoE［問題30・36・37］",
+    "│ ├─NW5-4 IPv4・サブネットマスク・CIDR［問題29・31・33・40・43］",
+    "│ ├─NW5-5 IPv6［問題27・28］",
+    "│ └─NW5-6 ICMP・ARP・RARP・VRRP［問題24・26・32・34・35・39・42］",
+    "├─NW6 トランスポート層・アプリケーション層",
+    "│ ├─NW6-1 TCP・UDP・ポート番号［問題44］",
+    "│ ├─NW6-3 HTTP・HTTPS・SMTP・POP・IMAP［問題38・41・48］",
+    "│ ├─NW6-4 DHCP［問題47］",
+    "│ └─NW6-5 DNS［問題23］",
+    "└─SEC4 認証技術",
+    "  └─SEC4-5 SAML認証［問題49］"
+  ],
+  "step8_review_flow": [
+    {
+      "problem_id": "NW-A10-Q01",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW1-1 LAN",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_01"
+    },
+    {
+      "problem_id": "NW-A10-Q02",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW1-1 LAN",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_02"
+    },
+    {
+      "problem_id": "NW-A10-Q03",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW1-3 SDN・NFV",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_03"
+    },
+    {
+      "problem_id": "NW-A10-Q04",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW1-4 NAT・NAPT・プロキシ",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_04"
+    },
+    {
+      "problem_id": "NW-A10-Q05",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW1-4 NAT・NAPT・プロキシ",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_05"
+    },
+    {
+      "problem_id": "NW-A10-Q06",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW2-2 回線種別・VoIP・5G",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_06"
+    },
+    {
+      "problem_id": "NW-A10-Q07",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW2-3 データ転送速度・ビット誤り率",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_07"
+    },
+    {
+      "problem_id": "NW-A10-Q08",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW2-3 データ転送速度・ビット誤り率",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_08"
+    },
+    {
+      "problem_id": "NW-A10-Q09",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW2-3 データ転送速度・ビット誤り率",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_09"
+    },
+    {
+      "problem_id": "NW-A10-Q10",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW2-3 データ転送速度・ビット誤り率",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_10"
+    },
+    {
+      "problem_id": "NW-A10-Q11",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW2-3 データ転送速度・ビット誤り率",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_11"
+    },
+    {
+      "problem_id": "NW-A10-Q12",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW2-3 データ転送速度・ビット誤り率",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_12"
+    },
+    {
+      "problem_id": "NW-A10-Q13",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW1-4 NAT・NAPT・プロキシ",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_13"
+    },
+    {
+      "problem_id": "NW-A10-Q14",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW2-3 データ転送速度・ビット誤り率",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_14"
+    },
+    {
+      "problem_id": "NW-A10-Q15",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW1-4 NAT・NAPT・プロキシ",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_15"
+    },
+    {
+      "problem_id": "NW-A10-Q16",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW4-3 CSMA/CD・CSMA/CA",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_16"
+    },
+    {
+      "problem_id": "NW-A10-Q17",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW5-2 カプセル化・非カプセル化",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_17"
+    },
+    {
+      "problem_id": "NW-A10-Q18",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW3-3 接続機器",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_18"
+    },
+    {
+      "problem_id": "NW-A10-Q19",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW4-3 CSMA/CD・CSMA/CA",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_19"
+    },
+    {
+      "problem_id": "NW-A10-Q20",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW3-3 接続機器",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_20"
+    },
+    {
+      "problem_id": "NW-A10-Q21",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW3-3 接続機器",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_21"
+    },
+    {
+      "problem_id": "NW-A10-Q22",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW3-3 接続機器",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_22"
+    },
+    {
+      "problem_id": "NW-A10-Q23",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW6-5 DNS",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_23"
+    },
+    {
+      "problem_id": "NW-A10-Q24",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW5-6 ICMP・ARP・RARP・VRRP",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_24"
+    },
+    {
+      "problem_id": "NW-A10-Q25",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW1-4 NAT・NAPT・プロキシ",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_25"
+    },
+    {
+      "problem_id": "NW-A10-Q26",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW5-6 ICMP・ARP・RARP・VRRP",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_26"
+    },
+    {
+      "problem_id": "NW-A10-Q27",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW5-5 IPv6",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_27"
+    },
+    {
+      "problem_id": "NW-A10-Q28",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW5-5 IPv6",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_28"
+    },
+    {
+      "problem_id": "NW-A10-Q29",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW5-4 IPv4・サブネットマスク・CIDR",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_29"
+    },
+    {
+      "problem_id": "NW-A10-Q30",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW5-3 Ethernet・STP・VLAN・PPP/PPPoE",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_30"
+    },
+    {
+      "problem_id": "NW-A10-Q31",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW5-4 IPv4・サブネットマスク・CIDR",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_31"
+    },
+    {
+      "problem_id": "NW-A10-Q32",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW5-6 ICMP・ARP・RARP・VRRP",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_32"
+    },
+    {
+      "problem_id": "NW-A10-Q33",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW5-4 IPv4・サブネットマスク・CIDR",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_33"
+    },
+    {
+      "problem_id": "NW-A10-Q34",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW5-6 ICMP・ARP・RARP・VRRP",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_34"
+    },
+    {
+      "problem_id": "NW-A10-Q35",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW5-6 ICMP・ARP・RARP・VRRP",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_35"
+    },
+    {
+      "problem_id": "NW-A10-Q36",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW5-3 Ethernet・STP・VLAN・PPP/PPPoE",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_36"
+    },
+    {
+      "problem_id": "NW-A10-Q37",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW5-3 Ethernet・STP・VLAN・PPP/PPPoE",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_37"
+    },
+    {
+      "problem_id": "NW-A10-Q38",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW6-3 HTTP・HTTPS・SMTP・POP・IMAP",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_38"
+    },
+    {
+      "problem_id": "NW-A10-Q39",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW5-6 ICMP・ARP・RARP・VRRP",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_39"
+    },
+    {
+      "problem_id": "NW-A10-Q40",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW5-4 IPv4・サブネットマスク・CIDR",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_40"
+    },
+    {
+      "problem_id": "NW-A10-Q41",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW6-3 HTTP・HTTPS・SMTP・POP・IMAP",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_41"
+    },
+    {
+      "problem_id": "NW-A10-Q42",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW5-6 ICMP・ARP・RARP・VRRP",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_42"
+    },
+    {
+      "problem_id": "NW-A10-Q43",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW5-4 IPv4・サブネットマスク・CIDR",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_43"
+    },
+    {
+      "problem_id": "NW-A10-Q44",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW6-1 TCP・UDP・ポート番号",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_44"
+    },
+    {
+      "problem_id": "NW-A10-Q45",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW5-2 カプセル化・非カプセル化",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_45"
+    },
+    {
+      "problem_id": "NW-A10-Q46",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW1-3 SDN・NFV",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_46"
+    },
+    {
+      "problem_id": "NW-A10-Q47",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW6-4 DHCP",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_47"
+    },
+    {
+      "problem_id": "NW-A10-Q48",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → NW6-3 HTTP・HTTPS・SMTP・POP・IMAP",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_48"
+    },
+    {
+      "problem_id": "NW-A10-Q49",
+      "flow": [
+        "問題を間違える",
+        "判断ポイントを確認",
+        "LEVEL2 → SEC4-5 SAML認証",
+        "原則・条件・比較・注意語句を復習",
+        "問題へ戻る"
+      ],
+      "review_tag": "NETWORK_A10_V42_49"
+    }
+  ],
+  "step9_final_additional_data": {
+    "new_major_topics": [],
+    "new_subtopics": [],
+    "existing_topic_additions": [
+      "NW1-1",
+      "NW1-3",
+      "NW1-4",
+      "NW2-2",
+      "NW2-3",
+      "NW3-3",
+      "NW4-3",
+      "NW5-2",
+      "NW5-3",
+      "NW5-4",
+      "NW5-5",
+      "NW5-6",
+      "NW6-1",
+      "NW6-3",
+      "NW6-4",
+      "NW6-5",
+      "SEC4-5"
+    ],
+    "questions_added": 49,
+    "question_topic_matrix": [
+      {
+        "problem": 1,
+        "major_topic": "ネットワークの種類と特徴",
+        "subtopic": "LAN",
+        "question_focus": "LPWA",
+        "attention": "LPWA・LowPower・WideArea",
+        "criterion": "省電力・広範囲・低速という特徴を識別する。",
+        "mistake": "WiGigやPLCの説明を選ぶ。",
+        "review_to": "NW1-1",
+        "review_tag": "NETWORK_A10_V42_01"
+      },
+      {
+        "problem": 2,
+        "major_topic": "ネットワークの種類と特徴",
+        "subtopic": "LAN",
+        "question_focus": "SSID",
+        "attention": "SSID・32オクテット・ネットワーク識別子",
+        "criterion": "ネットワーク識別子かホスト識別子かを見る。",
+        "mistake": "MACアドレスと混同する。",
+        "review_to": "NW1-1",
+        "review_tag": "NETWORK_A10_V42_02"
+      },
+      {
+        "problem": 3,
+        "major_topic": "ネットワークの種類と特徴",
+        "subtopic": "SDN・NFV",
+        "question_focus": "NFV",
+        "attention": "NFV・仮想化・汎用サーバ",
+        "criterion": "汎用サーバ上でネットワーク機能をソフトウェア化するかを見る。",
+        "mistake": "AR、深層学習、ペトリネットと混同する。",
+        "review_to": "NW1-3",
+        "review_tag": "NETWORK_A10_V42_03"
+      },
+      {
+        "problem": 4,
+        "major_topic": "ネットワークの種類と特徴",
+        "subtopic": "NAT・NAPT・プロキシ",
+        "question_focus": "NAPT",
+        "attention": "NAPT・ポート番号・1つのグローバルIP",
+        "criterion": "IPだけでなくポート番号も変換する点を見る。",
+        "mistake": "NATやNTPと混同する。",
+        "review_to": "NW1-4",
+        "review_tag": "NETWORK_A10_V42_04"
+      },
+      {
+        "problem": 5,
+        "major_topic": "ネットワークの種類と特徴",
+        "subtopic": "NAT・NAPT・プロキシ",
+        "question_focus": "リバースプロキシ",
+        "attention": "Webサーバ側・外部クライアント・中継",
+        "criterion": "誰の代理かを見る。",
+        "mistake": "フォワードプロキシと逆にする。",
+        "review_to": "NW1-4",
+        "review_tag": "NETWORK_A10_V42_05"
+      },
+      {
+        "problem": 6,
+        "major_topic": "通信回線とその評価",
+        "subtopic": "回線種別・VoIP・5G",
+        "question_focus": "VoIP音声ペイロード計算",
+        "attention": "8kbit/s・10ms・byte換算",
+        "criterion": "周期から1秒当たりパケット数を求め、最後に8で割る。",
+        "mistake": "80ビットを80バイトと誤る。",
+        "review_to": "NW2-2",
+        "review_tag": "NETWORK_A10_V42_06"
+      },
+      {
+        "problem": 7,
+        "major_topic": "通信回線とその評価",
+        "subtopic": "データ転送速度・ビット誤り率",
+        "question_focus": "伝送時間",
+        "attention": "1,000バイト×1,000件・50%",
+        "criterion": "総データ量÷実効速度。",
+        "mistake": "バイト→ビット換算や効率を忘れる。",
+        "review_to": "NW2-3",
+        "review_tag": "NETWORK_A10_V42_07"
+      },
+      {
+        "problem": 8,
+        "major_topic": "通信回線とその評価",
+        "subtopic": "データ転送速度・ビット誤り率",
+        "question_focus": "応答時間",
+        "attention": "上り＋下り・処理時間",
+        "criterion": "伝送時間と両端処理時間を合算する。",
+        "mistake": "伝送時間だけで答える。",
+        "review_to": "NW2-3",
+        "review_tag": "NETWORK_A10_V42_08"
+      },
+      {
+        "problem": 9,
+        "major_topic": "通信回線とその評価",
+        "subtopic": "データ転送速度・ビット誤り率",
+        "question_focus": "ボトルネックとダウンロード時間",
+        "attention": "80Mbps・90Mbps・540MB",
+        "criterion": "複数区間では最も遅い実効速度を使う。",
+        "mistake": "物理速度100Mbpsをそのまま使う。",
+        "review_to": "NW2-3",
+        "review_tag": "NETWORK_A10_V42_09"
+      },
+      {
+        "problem": 10,
+        "major_topic": "通信回線とその評価",
+        "subtopic": "データ転送速度・ビット誤り率",
+        "question_focus": "複数区間の伝送時間",
+        "attention": "1,500バイト・10Mbps・1.5Mbps・0.8ms",
+        "criterion": "区間ごとの伝送時間とルータ処理をすべて足す。",
+        "mistake": "中継回線だけ計算する。",
+        "review_to": "NW2-3",
+        "review_tag": "NETWORK_A10_V42_10"
+      },
+      {
+        "problem": 11,
+        "major_topic": "通信回線とその評価",
+        "subtopic": "データ転送速度・ビット誤り率",
+        "question_focus": "LAN利用率",
+        "attention": "30%付加・60回/秒・2組",
+        "criterion": "制御情報込みの1秒当たり総ビット数を求める。",
+        "mistake": "制御情報や組数を忘れる。",
+        "review_to": "NW2-3",
+        "review_tag": "NETWORK_A10_V42_11"
+      },
+      {
+        "problem": 12,
+        "major_topic": "通信回線とその評価",
+        "subtopic": "データ転送速度・ビット誤り率",
+        "question_focus": "ビット誤り率",
+        "attention": "30Mbit/s・100秒・1bit",
+        "criterion": "誤り数÷総伝送ビット数。",
+        "mistake": "100秒を分母にする。",
+        "review_to": "NW2-3",
+        "review_tag": "NETWORK_A10_V42_12"
+      },
+      {
+        "problem": 13,
+        "major_topic": "ネットワークの種類と特徴",
+        "subtopic": "NAT・NAPT・プロキシ",
+        "question_focus": "NAPT応答パケットの書換え",
+        "attention": "応答パケット・宛先IP・宛先ポート",
+        "criterion": "通信方向がWebサーバ→PCである点を見る。",
+        "mistake": "送信元側を書き換えると考える。",
+        "review_to": "NW1-4",
+        "review_tag": "NETWORK_A10_V42_13"
+      },
+      {
+        "problem": 14,
+        "major_topic": "通信回線とその評価",
+        "subtopic": "データ転送速度・ビット誤り率",
+        "question_focus": "ビット誤り率",
+        "attention": "64kbit/s・100秒・1bit",
+        "criterion": "総ビット数を先に求める。",
+        "mistake": "kbitの桁を誤る。",
+        "review_to": "NW2-3",
+        "review_tag": "NETWORK_A10_V42_14"
+      },
+      {
+        "problem": 15,
+        "major_topic": "ネットワークの種類と特徴",
+        "subtopic": "NAT・NAPT・プロキシ",
+        "question_focus": "フォワードプロキシ",
+        "attention": "Webブラウザの代理",
+        "criterion": "代理する側がクライアントかサーバかを見る。",
+        "mistake": "リバースプロキシと混同する。",
+        "review_to": "NW1-4",
+        "review_tag": "NETWORK_A10_V42_15"
+      },
+      {
+        "problem": 16,
+        "major_topic": "伝送制御とメディアアクセス制御",
+        "subtopic": "CSMA/CD・CSMA/CA",
+        "question_focus": "CSMA/CD",
+        "attention": "キャリア検知・衝突・再送",
+        "criterion": "Collision Detectionの動作を見る。",
+        "mistake": "TDMA、CSMA/CA、トークン方式と混同する。",
+        "review_to": "NW4-3",
+        "review_tag": "NETWORK_A10_V42_16"
+      },
+      {
+        "problem": 17,
+        "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+        "subtopic": "カプセル化・非カプセル化",
+        "question_focus": "MAC宛先とIP宛先",
+        "attention": "MAC＝次ホップ・IP＝最終宛先",
+        "criterion": "相手が同一ブロードキャストドメインかを見る。",
+        "mistake": "MACも最終端末を指定すると考える。",
+        "review_to": "NW5-2",
+        "review_tag": "NETWORK_A10_V42_17"
+      },
+      {
+        "problem": 18,
+        "major_topic": "ネットワークアーキテクチャと接続",
+        "subtopic": "接続機器",
+        "question_focus": "L2スイッチとブリッジ",
+        "attention": "L2・MACアドレス",
+        "criterion": "OSI第2層かを見る。",
+        "mistake": "ルータやリピータを選ぶ。",
+        "review_to": "NW3-3",
+        "review_tag": "NETWORK_A10_V42_18"
+      },
+      {
+        "problem": 19,
+        "major_topic": "伝送制御とメディアアクセス制御",
+        "subtopic": "CSMA/CD・CSMA/CA",
+        "question_focus": "CSMA/CDとスループット",
+        "attention": "衝突・再送・スループット",
+        "criterion": "衝突後の再送動作を見る。",
+        "mistake": "キャリア検知すれば衝突しないと考える。",
+        "review_to": "NW4-3",
+        "review_tag": "NETWORK_A10_V42_19"
+      },
+      {
+        "problem": 20,
+        "major_topic": "ネットワークアーキテクチャと接続",
+        "subtopic": "接続機器",
+        "question_focus": "ルータの機能",
+        "attention": "ルータ・第3層・IPアドレス",
+        "criterion": "OSI層と参照アドレスを見る。",
+        "mistake": "L2スイッチやゲートウェイの説明と混同する。",
+        "review_to": "NW3-3",
+        "review_tag": "NETWORK_A10_V42_20"
+      },
+      {
+        "problem": 21,
+        "major_topic": "ネットワークアーキテクチャと接続",
+        "subtopic": "接続機器",
+        "question_focus": "L2スイッチの機能",
+        "attention": "MACアドレス・必要ポート",
+        "criterion": "第2層・MACアドレス。",
+        "mistake": "IPアドレスを使うルータと混同する。",
+        "review_to": "NW3-3",
+        "review_tag": "NETWORK_A10_V42_21"
+      },
+      {
+        "problem": 22,
+        "major_topic": "ネットワークアーキテクチャと接続",
+        "subtopic": "接続機器",
+        "question_focus": "LAN間接続装置",
+        "attention": "リピータ・物理層・信号増幅",
+        "criterion": "装置とOSI層・参照情報を対応させる。",
+        "mistake": "ブリッジとルータの参照アドレスを逆にする。",
+        "review_to": "NW3-3",
+        "review_tag": "NETWORK_A10_V42_22"
+      },
+      {
+        "problem": 23,
+        "major_topic": "トランスポート層・アプリケーション層",
+        "subtopic": "DNS",
+        "question_focus": "DNSとレコード",
+        "attention": "逆引き・PTR・リゾルバ",
+        "criterion": "方向とレコード用途を確認する。",
+        "mistake": "MX/NS/CNAMEの役割を取り違える。",
+        "review_to": "NW6-5",
+        "review_tag": "NETWORK_A10_V42_23"
+      },
+      {
+        "problem": 24,
+        "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+        "subtopic": "ICMP・ARP・RARP・VRRP",
+        "question_focus": "ICMP",
+        "attention": "ICMP・制御メッセージ・エラー報告",
+        "criterion": "エラー報告・pingを連想する。",
+        "mistake": "ARP/RARP/NAT/DHCPと混同する。",
+        "review_to": "NW5-6",
+        "review_tag": "NETWORK_A10_V42_24"
+      },
+      {
+        "problem": 25,
+        "major_topic": "ネットワークの種類と特徴",
+        "subtopic": "NAT・NAPT・プロキシ",
+        "question_focus": "プロキシとキャッシュ",
+        "attention": "プロキシ・キャッシュ",
+        "criterion": "中継＋キャッシュという機能を見る。",
+        "mistake": "NAPTやFWを選ぶ。",
+        "review_to": "NW1-4",
+        "review_tag": "NETWORK_A10_V42_25"
+      },
+      {
+        "problem": 26,
+        "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+        "subtopic": "ICMP・ARP・RARP・VRRP",
+        "question_focus": "ARP",
+        "attention": "ARP・IP→MAC",
+        "criterion": "変換方向を見る。",
+        "mistake": "RARPやDNSと逆にする。",
+        "review_to": "NW5-6",
+        "review_tag": "NETWORK_A10_V42_26"
+      },
+      {
+        "problem": 27,
+        "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+        "subtopic": "IPv6",
+        "question_focus": "IPv6表記",
+        "attention": "IPv6・コロン・::は1か所",
+        "criterion": "区切り記号と省略記号の使用回数を見る。",
+        "mistake": "『::』を2か所使う。",
+        "review_to": "NW5-5",
+        "review_tag": "NETWORK_A10_V42_27"
+      },
+      {
+        "problem": 28,
+        "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+        "subtopic": "IPv6",
+        "question_focus": "IPv6とIPsec",
+        "attention": "IPv6・拡張ヘッダ・IPsec",
+        "criterion": "IP層で実現する機能かを見る。",
+        "mistake": "アプリケーション層の検査機能を選ぶ。",
+        "review_to": "NW5-5",
+        "review_tag": "NETWORK_A10_V42_28"
+      },
+      {
+        "problem": 29,
+        "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+        "subtopic": "IPv4・サブネットマスク・CIDR",
+        "question_focus": "ネットワークアドレス",
+        "attention": "255.255.255.240・/28・16刻み",
+        "criterion": "サブネット幅を求める。",
+        "mistake": "ブロードキャスト31を選ぶ。",
+        "review_to": "NW5-4",
+        "review_tag": "NETWORK_A10_V42_29"
+      },
+      {
+        "problem": 30,
+        "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+        "subtopic": "Ethernet・STP・VLAN・PPP/PPPoE",
+        "question_focus": "イーサネットブロードキャスト",
+        "attention": "ブロードキャスト・全ノード",
+        "criterion": "全ノード・一度の送信。",
+        "mistake": "マルチキャストのように選択ノードと考える。",
+        "review_to": "NW5-3",
+        "review_tag": "NETWORK_A10_V42_30"
+      },
+      {
+        "problem": 31,
+        "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+        "subtopic": "IPv4・サブネットマスク・CIDR",
+        "question_focus": "サブネット内アドレス割当て",
+        "attention": "/26・65～126・降順",
+        "criterion": "ネットワーク/ブロードキャストを除いた範囲を確定する。",
+        "mistake": "127を割当可能と考える。",
+        "review_to": "NW5-4",
+        "review_tag": "NETWORK_A10_V42_31"
+      },
+      {
+        "problem": 32,
+        "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+        "subtopic": "ICMP・ARP・RARP・VRRP",
+        "question_focus": "RARP",
+        "attention": "RARP・MAC→IP",
+        "criterion": "ARPとの向きの違いを見る。",
+        "mistake": "ARPやDNS、NATと混同する。",
+        "review_to": "NW5-6",
+        "review_tag": "NETWORK_A10_V42_32"
+      },
+      {
+        "problem": 33,
+        "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+        "subtopic": "IPv4・サブネットマスク・CIDR",
+        "question_focus": "経路集約",
+        "attention": "/23・共通22ビット・集約",
+        "criterion": "共通プレフィックスの長さを見る。",
+        "mistake": "境界でないネットワークアドレスを選ぶ。",
+        "review_to": "NW5-4",
+        "review_tag": "NETWORK_A10_V42_33"
+      },
+      {
+        "problem": 34,
+        "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+        "subtopic": "ICMP・ARP・RARP・VRRP",
+        "question_focus": "ARP",
+        "attention": "IP→MAC",
+        "criterion": "変換方向を確認する。",
+        "mistake": "RARPと逆にする。",
+        "review_to": "NW5-6",
+        "review_tag": "NETWORK_A10_V42_34"
+      },
+      {
+        "problem": 35,
+        "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+        "subtopic": "ICMP・ARP・RARP・VRRP",
+        "question_focus": "pingとICMP",
+        "attention": "ping・ICMP",
+        "criterion": "ping＝ICMPを結び付ける。",
+        "mistake": "SNMPを選ぶ。",
+        "review_to": "NW5-6",
+        "review_tag": "NETWORK_A10_V42_35"
+      },
+      {
+        "problem": 36,
+        "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+        "subtopic": "Ethernet・STP・VLAN・PPP/PPPoE",
+        "question_focus": "PPP",
+        "attention": "PPP・ダイヤルアップ",
+        "criterion": "WAN・ダイヤルアップ・リンク制御を見る。",
+        "mistake": "SLIPやUDPと混同する。",
+        "review_to": "NW5-3",
+        "review_tag": "NETWORK_A10_V42_36"
+      },
+      {
+        "problem": 37,
+        "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+        "subtopic": "Ethernet・STP・VLAN・PPP/PPPoE",
+        "question_focus": "ブロードキャストストーム",
+        "attention": "スイッチ間ループ・大量複製",
+        "criterion": "ループ構成が原因かを見る。",
+        "mistake": "単なる通常ブロードキャストと混同する。",
+        "review_to": "NW5-3",
+        "review_tag": "NETWORK_A10_V42_37"
+      },
+      {
+        "problem": 38,
+        "major_topic": "トランスポート層・アプリケーション層",
+        "subtopic": "HTTP・HTTPS・SMTP・POP・IMAP",
+        "question_focus": "WebSocket",
+        "attention": "WebSocket・双方向通信",
+        "criterion": "双方向通信という用途を見る。",
+        "mistake": "既存Web機能やバックグラウンド処理と混同する。",
+        "review_to": "NW6-3",
+        "review_tag": "NETWORK_A10_V42_38"
+      },
+      {
+        "problem": 39,
+        "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+        "subtopic": "ICMP・ARP・RARP・VRRP",
+        "question_focus": "ARP",
+        "attention": "ARP・MACアドレス",
+        "criterion": "IP→MACの変換。",
+        "mistake": "TCP、RIP、DHCPの説明と混同する。",
+        "review_to": "NW5-6",
+        "review_tag": "NETWORK_A10_V42_39"
+      },
+      {
+        "problem": 40,
+        "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+        "subtopic": "IPv4・サブネットマスク・CIDR",
+        "question_focus": "グローバル/プライベートIPv4",
+        "attention": "208.77.188.166・プライベート範囲",
+        "criterion": "プライベート範囲・マルチキャスト範囲との比較。",
+        "mistake": "クラスCならすべてプライベートと誤る。",
+        "review_to": "NW5-4",
+        "review_tag": "NETWORK_A10_V42_40"
+      },
+      {
+        "problem": 41,
+        "major_topic": "トランスポート層・アプリケーション層",
+        "subtopic": "HTTP・HTTPS・SMTP・POP・IMAP",
+        "question_focus": "SOAP",
+        "attention": "SOAP・XML",
+        "criterion": "XMLのヘッダ＋ボディを見る。",
+        "mistake": "SIPや分散オブジェクト技術と混同する。",
+        "review_to": "NW6-3",
+        "review_tag": "NETWORK_A10_V42_41"
+      },
+      {
+        "problem": 42,
+        "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+        "subtopic": "ICMP・ARP・RARP・VRRP",
+        "question_focus": "VRRP",
+        "attention": "VRRP・仮想ルータ・冗長化",
+        "criterion": "目的がルータ冗長化かを見る。",
+        "mistake": "SNMPやPPPと混同する。",
+        "review_to": "NW5-6",
+        "review_tag": "NETWORK_A10_V42_42"
+      },
+      {
+        "problem": 43,
+        "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+        "subtopic": "IPv4・サブネットマスク・CIDR",
+        "question_focus": "サブネット分割",
+        "attention": "10サブネット・4ビット・240",
+        "criterion": "必要サブネット数を満たす最小ビット数を借りる。",
+        "mistake": "必要以上に多くビットを借りてホスト数を減らす。",
+        "review_to": "NW5-4",
+        "review_tag": "NETWORK_A10_V42_43"
+      },
+      {
+        "problem": 44,
+        "major_topic": "トランスポート層・アプリケーション層",
+        "subtopic": "TCP・UDP・ポート番号",
+        "question_focus": "UDP",
+        "attention": "UDP・コネクションレス",
+        "criterion": "コネクションレス・上位層という条件を見る。",
+        "mistake": "TCPと逆にする。",
+        "review_to": "NW6-1",
+        "review_tag": "NETWORK_A10_V42_44"
+      },
+      {
+        "problem": 45,
+        "major_topic": "TCP/IP・ネットワークインタフェース層・インターネット層",
+        "subtopic": "カプセル化・非カプセル化",
+        "question_focus": "ルータ通過時のMAC/IPアドレス",
+        "attention": "MAC＝ルータ1/2・IP＝端末a/b",
+        "criterion": "モニタ位置とMAC/IPの役割を分ける。",
+        "mistake": "IPアドレスまでルータへ置き換わると考える。",
+        "review_to": "NW5-2",
+        "review_tag": "NETWORK_A10_V42_45"
+      },
+      {
+        "problem": 46,
+        "major_topic": "ネットワークの種類と特徴",
+        "subtopic": "SDN・NFV",
+        "question_focus": "SDN・OpenFlow",
+        "attention": "SDN・OpenFlow・集中制御",
+        "criterion": "制御プレーンと転送機能の分離を見る。",
+        "mistake": "DNS、VoLTE、SANと混同する。",
+        "review_to": "NW1-3",
+        "review_tag": "NETWORK_A10_V42_46"
+      },
+      {
+        "problem": 47,
+        "major_topic": "トランスポート層・アプリケーション層",
+        "subtopic": "DHCP",
+        "question_focus": "DHCP",
+        "attention": "DHCP DISCOVER・ブロードキャスト",
+        "criterion": "初期状態でサーバIPを知らなくても動く理由を見る。",
+        "mistake": "固定IPとの混在不可、同一IP固定と誤る。",
+        "review_to": "NW6-4",
+        "review_tag": "NETWORK_A10_V42_47"
+      },
+      {
+        "problem": 48,
+        "major_topic": "トランスポート層・アプリケーション層",
+        "subtopic": "HTTP・HTTPS・SMTP・POP・IMAP",
+        "question_focus": "URLでのポート番号指定",
+        "attention": "FQDN直後・:8080",
+        "criterion": "URLの構造でホスト名の位置を見る。",
+        "mistake": "クエリ文字列やパスの後ろに付ける。",
+        "review_to": "NW6-3",
+        "review_tag": "NETWORK_A10_V42_48"
+      },
+      {
+        "problem": 49,
+        "major_topic": "情報セキュリティに関する技術（認証技術）",
+        "subtopic": "SAML認証",
+        "question_focus": "SAML",
+        "attention": "SAML・認証・認可・SSO",
+        "criterion": "交換する情報が認証・認可かを見る。",
+        "mistake": "SNMP、脅威情報交換、VPNと混同する。",
+        "review_to": "SEC4-5",
+        "review_tag": "NETWORK_A10_V42_49"
+      }
+    ],
+    "review_tags": [
+      {
+        "problem_id": "NW-A10-Q01",
+        "tag": "NETWORK_A10_V42_01",
+        "review_to": "NW1-1"
+      },
+      {
+        "problem_id": "NW-A10-Q02",
+        "tag": "NETWORK_A10_V42_02",
+        "review_to": "NW1-1"
+      },
+      {
+        "problem_id": "NW-A10-Q03",
+        "tag": "NETWORK_A10_V42_03",
+        "review_to": "NW1-3"
+      },
+      {
+        "problem_id": "NW-A10-Q04",
+        "tag": "NETWORK_A10_V42_04",
+        "review_to": "NW1-4"
+      },
+      {
+        "problem_id": "NW-A10-Q05",
+        "tag": "NETWORK_A10_V42_05",
+        "review_to": "NW1-4"
+      },
+      {
+        "problem_id": "NW-A10-Q06",
+        "tag": "NETWORK_A10_V42_06",
+        "review_to": "NW2-2"
+      },
+      {
+        "problem_id": "NW-A10-Q07",
+        "tag": "NETWORK_A10_V42_07",
+        "review_to": "NW2-3"
+      },
+      {
+        "problem_id": "NW-A10-Q08",
+        "tag": "NETWORK_A10_V42_08",
+        "review_to": "NW2-3"
+      },
+      {
+        "problem_id": "NW-A10-Q09",
+        "tag": "NETWORK_A10_V42_09",
+        "review_to": "NW2-3"
+      },
+      {
+        "problem_id": "NW-A10-Q10",
+        "tag": "NETWORK_A10_V42_10",
+        "review_to": "NW2-3"
+      },
+      {
+        "problem_id": "NW-A10-Q11",
+        "tag": "NETWORK_A10_V42_11",
+        "review_to": "NW2-3"
+      },
+      {
+        "problem_id": "NW-A10-Q12",
+        "tag": "NETWORK_A10_V42_12",
+        "review_to": "NW2-3"
+      },
+      {
+        "problem_id": "NW-A10-Q13",
+        "tag": "NETWORK_A10_V42_13",
+        "review_to": "NW1-4"
+      },
+      {
+        "problem_id": "NW-A10-Q14",
+        "tag": "NETWORK_A10_V42_14",
+        "review_to": "NW2-3"
+      },
+      {
+        "problem_id": "NW-A10-Q15",
+        "tag": "NETWORK_A10_V42_15",
+        "review_to": "NW1-4"
+      },
+      {
+        "problem_id": "NW-A10-Q16",
+        "tag": "NETWORK_A10_V42_16",
+        "review_to": "NW4-3"
+      },
+      {
+        "problem_id": "NW-A10-Q17",
+        "tag": "NETWORK_A10_V42_17",
+        "review_to": "NW5-2"
+      },
+      {
+        "problem_id": "NW-A10-Q18",
+        "tag": "NETWORK_A10_V42_18",
+        "review_to": "NW3-3"
+      },
+      {
+        "problem_id": "NW-A10-Q19",
+        "tag": "NETWORK_A10_V42_19",
+        "review_to": "NW4-3"
+      },
+      {
+        "problem_id": "NW-A10-Q20",
+        "tag": "NETWORK_A10_V42_20",
+        "review_to": "NW3-3"
+      },
+      {
+        "problem_id": "NW-A10-Q21",
+        "tag": "NETWORK_A10_V42_21",
+        "review_to": "NW3-3"
+      },
+      {
+        "problem_id": "NW-A10-Q22",
+        "tag": "NETWORK_A10_V42_22",
+        "review_to": "NW3-3"
+      },
+      {
+        "problem_id": "NW-A10-Q23",
+        "tag": "NETWORK_A10_V42_23",
+        "review_to": "NW6-5"
+      },
+      {
+        "problem_id": "NW-A10-Q24",
+        "tag": "NETWORK_A10_V42_24",
+        "review_to": "NW5-6"
+      },
+      {
+        "problem_id": "NW-A10-Q25",
+        "tag": "NETWORK_A10_V42_25",
+        "review_to": "NW1-4"
+      },
+      {
+        "problem_id": "NW-A10-Q26",
+        "tag": "NETWORK_A10_V42_26",
+        "review_to": "NW5-6"
+      },
+      {
+        "problem_id": "NW-A10-Q27",
+        "tag": "NETWORK_A10_V42_27",
+        "review_to": "NW5-5"
+      },
+      {
+        "problem_id": "NW-A10-Q28",
+        "tag": "NETWORK_A10_V42_28",
+        "review_to": "NW5-5"
+      },
+      {
+        "problem_id": "NW-A10-Q29",
+        "tag": "NETWORK_A10_V42_29",
+        "review_to": "NW5-4"
+      },
+      {
+        "problem_id": "NW-A10-Q30",
+        "tag": "NETWORK_A10_V42_30",
+        "review_to": "NW5-3"
+      },
+      {
+        "problem_id": "NW-A10-Q31",
+        "tag": "NETWORK_A10_V42_31",
+        "review_to": "NW5-4"
+      },
+      {
+        "problem_id": "NW-A10-Q32",
+        "tag": "NETWORK_A10_V42_32",
+        "review_to": "NW5-6"
+      },
+      {
+        "problem_id": "NW-A10-Q33",
+        "tag": "NETWORK_A10_V42_33",
+        "review_to": "NW5-4"
+      },
+      {
+        "problem_id": "NW-A10-Q34",
+        "tag": "NETWORK_A10_V42_34",
+        "review_to": "NW5-6"
+      },
+      {
+        "problem_id": "NW-A10-Q35",
+        "tag": "NETWORK_A10_V42_35",
+        "review_to": "NW5-6"
+      },
+      {
+        "problem_id": "NW-A10-Q36",
+        "tag": "NETWORK_A10_V42_36",
+        "review_to": "NW5-3"
+      },
+      {
+        "problem_id": "NW-A10-Q37",
+        "tag": "NETWORK_A10_V42_37",
+        "review_to": "NW5-3"
+      },
+      {
+        "problem_id": "NW-A10-Q38",
+        "tag": "NETWORK_A10_V42_38",
+        "review_to": "NW6-3"
+      },
+      {
+        "problem_id": "NW-A10-Q39",
+        "tag": "NETWORK_A10_V42_39",
+        "review_to": "NW5-6"
+      },
+      {
+        "problem_id": "NW-A10-Q40",
+        "tag": "NETWORK_A10_V42_40",
+        "review_to": "NW5-4"
+      },
+      {
+        "problem_id": "NW-A10-Q41",
+        "tag": "NETWORK_A10_V42_41",
+        "review_to": "NW6-3"
+      },
+      {
+        "problem_id": "NW-A10-Q42",
+        "tag": "NETWORK_A10_V42_42",
+        "review_to": "NW5-6"
+      },
+      {
+        "problem_id": "NW-A10-Q43",
+        "tag": "NETWORK_A10_V42_43",
+        "review_to": "NW5-4"
+      },
+      {
+        "problem_id": "NW-A10-Q44",
+        "tag": "NETWORK_A10_V42_44",
+        "review_to": "NW6-1"
+      },
+      {
+        "problem_id": "NW-A10-Q45",
+        "tag": "NETWORK_A10_V42_45",
+        "review_to": "NW5-2"
+      },
+      {
+        "problem_id": "NW-A10-Q46",
+        "tag": "NETWORK_A10_V42_46",
+        "review_to": "NW1-3"
+      },
+      {
+        "problem_id": "NW-A10-Q47",
+        "tag": "NETWORK_A10_V42_47",
+        "review_to": "NW6-4"
+      },
+      {
+        "problem_id": "NW-A10-Q48",
+        "tag": "NETWORK_A10_V42_48",
+        "review_to": "NW6-3"
+      },
+      {
+        "problem_id": "NW-A10-Q49",
+        "tag": "NETWORK_A10_V42_49",
+        "review_to": "SEC4-5"
+      }
+    ],
+    "level1_update": "step7_level1_update を参照"
+  }
+}
