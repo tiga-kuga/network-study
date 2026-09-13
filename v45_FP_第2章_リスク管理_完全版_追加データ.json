@@ -1,0 +1,758 @@
+{
+  "version": "v45",
+  "base_version": "v44",
+  "source": "Edge.pdf",
+  "scope": "第2章 リスク管理 完全版",
+  "new_unit": "FP2",
+  "level1": [
+    "リスク管理",
+    "├─保険の基本",
+    "├─生命保険",
+    "├─損害保険",
+    "└─第三分野の保険"
+  ],
+  "level2_additions": [
+    {
+      "id": "FP2-1",
+      "title": "保険の基本",
+      "role": "制度・法規・契約者保護の基礎",
+      "overview": "公的/私的保険、保険法・保険業法、クーリングオフ、契約者保護を整理する。",
+      "structure": [
+        "保険制度→公的/私的",
+        "法規→保険法/保険業法",
+        "契約撤回→クーリングオフ",
+        "契約者保護→保護機構/少額短期/ソルベンシー・マージン"
+      ],
+      "principles": [
+        "公的保険は原則強制、私的保険は任意。",
+        "保険法＝契約内容・履行、保険業法＝保険会社・募集人の運営規制。",
+        "告知は質問応答義務。",
+        "クーリングオフは原則8日以内。"
+      ],
+      "conditions": [
+        "保険法上の解除権は解除事由を知って1カ月、契約締結から5年経過後に消滅。",
+        "契約者と被保険者が異なる場合は原則被保険者同意。"
+      ],
+      "effects": [
+        "契約・募集・撤回・契約者保護を判断できる。"
+      ],
+      "exceptions": [
+        "医師診査済み・法人契約等はクーリングオフ不可。",
+        "少額短期保険会社・共済は保護機構の対象外。"
+      ],
+      "notes": [
+        "少額短期保険は保険期間が原則1年（損害保険2年）以内。"
+      ],
+      "differences": [
+        "保険法＝契約 / 保険業法＝業者規制"
+      ],
+      "related": [
+        "FP2-2",
+        "FP2-3"
+      ],
+      "exam": [
+        "8日、1カ月、5年の期間に着目。"
+      ]
+    },
+    {
+      "id": "FP2-2",
+      "title": "生命保険",
+      "role": "契約・保険料・商品・税金の中心論点",
+      "overview": "基本用語、保険料、配当、見直し、各商品、税金を整理する。",
+      "structure": [
+        "仕組み→死亡/生存/生死混合",
+        "保険料→予定死亡率/予定利率/予定事業費率",
+        "見直し→払済/延長/減額/転換",
+        "商品→定期/終身/養老/個人年金/変額",
+        "税金→生命保険料控除/保険金課税"
+      ],
+      "principles": [
+        "純保険料＝予定死亡率＋予定利率、付加保険料＝予定事業費率。",
+        "責任開始＝申込＋告知/診査＋第1回保険料払込。",
+        "定期＝一定期間の死亡保障、終身＝一生涯保障、養老＝死亡/満期双方。"
+      ],
+      "conditions": [
+        "2012年以降契約の所得税生命保険料控除は各区分上限4万円、合計12万円。"
+      ],
+      "effects": [
+        "保障内容・見直し・課税を判断できる。"
+      ],
+      "exceptions": [
+        "払済＝期間維持・金額減、延長＝金額維持・期間短縮。",
+        "団体信用生命保険は生命保険料控除対象外。"
+      ],
+      "notes": [
+        "リビング・ニーズ特約は余命6カ月以内、特約保険料不要。"
+      ],
+      "differences": [
+        "払済/延長",
+        "契約者・被保険者・受取人による課税区分"
+      ],
+      "related": [
+        "FP2-1",
+        "FP2-4"
+      ],
+      "exam": [
+        "予定基礎率、払済/延長、課税関係を重点確認。"
+      ]
+    },
+    {
+      "id": "FP2-3",
+      "title": "損害保険",
+      "role": "火災・地震・自動車・傷害・賠償責任を比較",
+      "overview": "実損補償を中心に各損害保険を整理する。",
+      "structure": [
+        "火災→地震等は対象外",
+        "地震→火災保険付帯",
+        "自動車→自賠責/任意",
+        "傷害→普通/家族/国内旅行/海外旅行",
+        "賠償責任→個人/PL/施設/受託/請負"
+      ],
+      "principles": [
+        "地震保険は単独契約不可。",
+        "自賠責は強制保険で対人のみ。",
+        "普通傷害保険は急激・偶然・外来事故。"
+      ],
+      "conditions": [
+        "地震保険は火災保険金額の30～50%、建物5,000万円・家財1,000万円上限。",
+        "自賠責限度額は死亡3,000万円、後遺障害4,000万円、傷害120万円。"
+      ],
+      "effects": [
+        "事故原因と対象から補償可否を判断できる。"
+      ],
+      "exceptions": [
+        "普通傷害は細菌性食中毒・地震等×、国内旅行は食中毒○地震等×、海外旅行は食中毒・地震等○。",
+        "個人賠償は職務遂行中×。"
+      ],
+      "notes": [
+        "借家人の軽過失火災は家主に責任あり、隣家には原則なし。"
+      ],
+      "differences": [
+        "自賠責＝対人のみ",
+        "普通/国内旅行/海外旅行の対象差"
+      ],
+      "related": [
+        "FP2-1"
+      ],
+      "exam": [
+        "30～50%、5,000/1,000、食中毒/地震の比較。"
+      ]
+    },
+    {
+      "id": "FP2-4",
+      "title": "第三分野の保険",
+      "role": "医療・がん・三大疾病・所得補償・介護を整理",
+      "overview": "第三分野の各種保険と特約を比較する。",
+      "structure": [
+        "医療→入院/手術",
+        "がん→診断/入院等",
+        "特定疾病→三大疾病",
+        "所得補償→就業不能",
+        "介護→要介護状態",
+        "特約→リビング・ニーズ/先進医療"
+      ],
+      "principles": [
+        "同一疾病の再入院が180日以内なら1入院。",
+        "がん保険は支払日数無制限。",
+        "所得補償は入院有無に関係なく就業不能期間の所得を補償。"
+      ],
+      "conditions": [
+        "リビング・ニーズは余命6カ月以内。",
+        "先進医療は療養時点で対象か判定。"
+      ],
+      "effects": [
+        "疾病・就業不能・介護のリスク別に保険を区別できる。"
+      ],
+      "exceptions": [
+        "リビング・ニーズ特約保険料不要。"
+      ],
+      "notes": [],
+      "differences": [
+        "医療＝入院/手術、所得補償＝就業不能所得、介護＝要介護"
+      ],
+      "related": [
+        "FP2-2"
+      ],
+      "exam": [
+        "180日、6カ月、療養時点を確認。"
+      ]
+    }
+  ],
+  "level3_questions": [
+    {
+      "id": "FP2-V45-Q01",
+      "type": "四択",
+      "q": "保険法と保険業法の正しい組合せは？",
+      "choices": [
+        "保険法＝契約内容・履行、保険業法＝保険会社・募集人の運営規制",
+        "逆の組合せ",
+        "両方とも税法",
+        "両方とも公的保険のみ"
+      ],
+      "answer": "保険法＝契約内容・履行、保険業法＝保険会社・募集人の運営規制",
+      "explain": "原資料の区分どおり。",
+      "point": "法律の対象",
+      "topic": "FP2-1",
+      "subtopic": "保険法と保険業法",
+      "attention": "保険法/保険業法",
+      "mistake": "役割逆転",
+      "review_tag": "FP_RISK_V45_01",
+      "source_group": "Edge.pdf 第2章 リスク管理",
+      "source_section": "保険法と保険業法"
+    },
+    {
+      "id": "FP2-V45-Q02",
+      "type": "四択",
+      "q": "クーリングオフは原則何日以内？",
+      "choices": [
+        "5日",
+        "8日",
+        "14日",
+        "20日"
+      ],
+      "answer": "8日",
+      "explain": "基準となる遅い日からその日を含め8日以内。",
+      "point": "日数",
+      "topic": "FP2-1",
+      "subtopic": "クーリングオフ",
+      "attention": "8日",
+      "mistake": "20日と混同",
+      "review_tag": "FP_RISK_V45_02",
+      "source_group": "Edge.pdf 第2章 リスク管理",
+      "source_section": "クーリングオフ"
+    },
+    {
+      "id": "FP2-V45-Q03",
+      "type": "○×",
+      "q": "契約者は保険会社が求めていない事項も自主的に全て申告する義務がある。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "×",
+      "explain": "質問応答義務。",
+      "point": "求められた事項のみ",
+      "topic": "FP2-1",
+      "subtopic": "告知義務",
+      "attention": "質問応答義務",
+      "mistake": "自主申告と誤認",
+      "review_tag": "FP_RISK_V45_03",
+      "source_group": "Edge.pdf 第2章 リスク管理",
+      "source_section": "告知義務"
+    },
+    {
+      "id": "FP2-V45-Q04",
+      "type": "○×",
+      "q": "少額短期保険会社は保険契約者保護機構の対象である。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "×",
+      "explain": "対象外。",
+      "point": "対象外の主体",
+      "topic": "FP2-1",
+      "subtopic": "契約者保護",
+      "attention": "少額短期",
+      "mistake": "一般保険会社と混同",
+      "review_tag": "FP_RISK_V45_04",
+      "source_group": "Edge.pdf 第2章 リスク管理",
+      "source_section": "契約者保護"
+    },
+    {
+      "id": "FP2-V45-Q05",
+      "type": "四択",
+      "q": "付加保険料の計算に用いるのは？",
+      "choices": [
+        "予定死亡率",
+        "予定利率",
+        "予定事業費率",
+        "予定損害率"
+      ],
+      "answer": "予定事業費率",
+      "explain": "付加保険料は予定事業費率。",
+      "point": "純/付加の区別",
+      "topic": "FP2-2",
+      "subtopic": "保険料算定",
+      "attention": "予定事業費率",
+      "mistake": "予定死亡率と混同",
+      "review_tag": "FP_RISK_V45_05",
+      "source_group": "Edge.pdf 第2章 リスク管理",
+      "source_section": "保険料算定"
+    },
+    {
+      "id": "FP2-V45-Q06",
+      "type": "四択",
+      "q": "責任開始の3要素は？",
+      "choices": [
+        "申込・告知/診査・第1回保険料払込",
+        "申込・契約者貸付・保険料払込",
+        "告知・減額・転換",
+        "申込・失効・復活"
+      ],
+      "answer": "申込・告知/診査・第1回保険料払込",
+      "explain": "3つ完了時点。",
+      "point": "3要素",
+      "topic": "FP2-2",
+      "subtopic": "責任開始日",
+      "attention": "申込/告知/初回保険料",
+      "mistake": "要素不足",
+      "review_tag": "FP_RISK_V45_06",
+      "source_group": "Edge.pdf 第2章 リスク管理",
+      "source_section": "責任開始日"
+    },
+    {
+      "id": "FP2-V45-Q07",
+      "type": "○×",
+      "q": "払済保険は保険金額を維持し、保険期間を短縮する。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "×",
+      "explain": "それは延長保険。",
+      "point": "何を維持するか",
+      "topic": "FP2-2",
+      "subtopic": "払済保険と延長保険",
+      "attention": "払済/延長",
+      "mistake": "逆にする",
+      "review_tag": "FP_RISK_V45_07",
+      "source_group": "Edge.pdf 第2章 リスク管理",
+      "source_section": "払済保険と延長保険"
+    },
+    {
+      "id": "FP2-V45-Q08",
+      "type": "四択",
+      "q": "余命基準は？",
+      "choices": [
+        "3カ月以内",
+        "6カ月以内",
+        "1年以内",
+        "2年以内"
+      ],
+      "answer": "6カ月以内",
+      "explain": "原資料は6カ月。",
+      "point": "期間",
+      "topic": "FP2-2",
+      "subtopic": "リビング・ニーズ",
+      "attention": "6カ月",
+      "mistake": "3カ月と混同",
+      "review_tag": "FP_RISK_V45_08",
+      "source_group": "Edge.pdf 第2章 リスク管理",
+      "source_section": "リビング・ニーズ"
+    },
+    {
+      "id": "FP2-V45-Q09",
+      "type": "四択",
+      "q": "契約者A・被保険者B・受取人Aの死亡保険金は？",
+      "choices": [
+        "相続税",
+        "所得税・住民税",
+        "贈与税",
+        "非課税"
+      ],
+      "answer": "所得税・住民税",
+      "explain": "契約者＝受取人。",
+      "point": "3者関係",
+      "topic": "FP2-2",
+      "subtopic": "死亡保険金課税",
+      "attention": "契約者＝受取人",
+      "mistake": "死亡＝相続税と決めつける",
+      "review_tag": "FP_RISK_V45_09",
+      "source_group": "Edge.pdf 第2章 リスク管理",
+      "source_section": "死亡保険金課税"
+    },
+    {
+      "id": "FP2-V45-Q10",
+      "type": "四択",
+      "q": "2012年以降契約の各区分の所得税控除上限は原則？",
+      "choices": [
+        "2.8万円",
+        "3.5万円",
+        "4万円",
+        "5万円"
+      ],
+      "answer": "4万円",
+      "explain": "一般・介護医療・個人年金各4万円。",
+      "point": "新制度",
+      "topic": "FP2-2",
+      "subtopic": "生命保険料控除",
+      "attention": "4万円",
+      "mistake": "旧制度と混同",
+      "review_tag": "FP_RISK_V45_10",
+      "source_group": "Edge.pdf 第2章 リスク管理",
+      "source_section": "生命保険料控除"
+    },
+    {
+      "id": "FP2-V45-Q11",
+      "type": "四択",
+      "q": "地震保険の上限は？",
+      "choices": [
+        "建物3000万・家財500万",
+        "建物3000万・家財1000万",
+        "建物5000万・家財1000万",
+        "建物5000万・家財2000万"
+      ],
+      "answer": "建物5000万・家財1000万",
+      "explain": "火災保険金額の30～50%。",
+      "point": "割合と上限",
+      "topic": "FP2-3",
+      "subtopic": "地震保険",
+      "attention": "5000/1000",
+      "mistake": "3000と混同",
+      "review_tag": "FP_RISK_V45_11",
+      "source_group": "Edge.pdf 第2章 リスク管理",
+      "source_section": "地震保険"
+    },
+    {
+      "id": "FP2-V45-Q12",
+      "type": "四択",
+      "q": "自賠責の補償対象は？",
+      "choices": [
+        "対人のみ",
+        "対物のみ",
+        "対人・対物",
+        "車両のみ"
+      ],
+      "answer": "対人のみ",
+      "explain": "強制保険で対人のみ。",
+      "point": "対象",
+      "topic": "FP2-3",
+      "subtopic": "自賠責",
+      "attention": "対人のみ",
+      "mistake": "任意保険と混同",
+      "review_tag": "FP_RISK_V45_12",
+      "source_group": "Edge.pdf 第2章 リスク管理",
+      "source_section": "自賠責"
+    },
+    {
+      "id": "FP2-V45-Q13",
+      "type": "○×",
+      "q": "生計を一にする別居の未婚の子も家族傷害保険の対象となる。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "○",
+      "explain": "原資料では対象。",
+      "point": "家族範囲",
+      "topic": "FP2-3",
+      "subtopic": "家族傷害",
+      "attention": "別居未婚の子",
+      "mistake": "同居のみと誤認",
+      "review_tag": "FP_RISK_V45_13",
+      "source_group": "Edge.pdf 第2章 リスク管理",
+      "source_section": "家族傷害"
+    },
+    {
+      "id": "FP2-V45-Q14",
+      "type": "○×",
+      "q": "普通傷害保険は一般に細菌性食中毒も補償する。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "×",
+      "explain": "対象外。",
+      "point": "事故原因",
+      "topic": "FP2-3",
+      "subtopic": "普通傷害",
+      "attention": "細菌性食中毒",
+      "mistake": "国内旅行と混同",
+      "review_tag": "FP_RISK_V45_14",
+      "source_group": "Edge.pdf 第2章 リスク管理",
+      "source_section": "普通傷害"
+    },
+    {
+      "id": "FP2-V45-Q15",
+      "type": "四択",
+      "q": "食中毒と地震等の両方を補償するのは？",
+      "choices": [
+        "普通傷害",
+        "国内旅行傷害",
+        "海外旅行傷害",
+        "家族傷害"
+      ],
+      "answer": "海外旅行傷害",
+      "explain": "海外旅行は両方対象。",
+      "point": "保険種別比較",
+      "topic": "FP2-3",
+      "subtopic": "旅行傷害",
+      "attention": "海外旅行",
+      "mistake": "国内旅行と混同",
+      "review_tag": "FP_RISK_V45_15",
+      "source_group": "Edge.pdf 第2章 リスク管理",
+      "source_section": "旅行傷害"
+    },
+    {
+      "id": "FP2-V45-Q16",
+      "type": "四択",
+      "q": "個人賠償責任保険で原則対象外なのは？",
+      "choices": [
+        "店の商品を破損",
+        "自転車で歩行者にけが",
+        "職務中に顧客の服を汚す",
+        "飼い犬が他人に危害"
+      ],
+      "answer": "職務中に顧客の服を汚す",
+      "explain": "仕事中は対象外。",
+      "point": "日常/職務",
+      "topic": "FP2-3",
+      "subtopic": "個人賠償",
+      "attention": "職務遂行中",
+      "mistake": "全賠償責任が対象と思う",
+      "review_tag": "FP_RISK_V45_16",
+      "source_group": "Edge.pdf 第2章 リスク管理",
+      "source_section": "個人賠償"
+    },
+    {
+      "id": "FP2-V45-Q17",
+      "type": "○×",
+      "q": "製造食品による食中毒の賠償責任は施設所有（管理）者賠償責任保険で補償する。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "×",
+      "explain": "PL保険。",
+      "point": "製品起因",
+      "topic": "FP2-3",
+      "subtopic": "PL保険",
+      "attention": "生産物",
+      "mistake": "施設管理と混同",
+      "review_tag": "FP_RISK_V45_17",
+      "source_group": "Edge.pdf 第2章 リスク管理",
+      "source_section": "PL保険"
+    },
+    {
+      "id": "FP2-V45-Q18",
+      "type": "四択",
+      "q": "同一疾病再入院を1入院とみなす基準は？",
+      "choices": [
+        "30日",
+        "60日",
+        "90日",
+        "180日"
+      ],
+      "answer": "180日",
+      "explain": "退院翌日から180日以内。",
+      "point": "期間",
+      "topic": "FP2-4",
+      "subtopic": "医療保険",
+      "attention": "180日",
+      "mistake": "90日と混同",
+      "review_tag": "FP_RISK_V45_18",
+      "source_group": "Edge.pdf 第2章 リスク管理",
+      "source_section": "医療保険"
+    },
+    {
+      "id": "FP2-V45-Q19",
+      "type": "○×",
+      "q": "がん保険の入院給付には一般に支払日数上限がある。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "×",
+      "explain": "原資料では無制限。",
+      "point": "医療保険との差",
+      "topic": "FP2-4",
+      "subtopic": "がん保険",
+      "attention": "無制限",
+      "mistake": "医療保険と混同",
+      "review_tag": "FP_RISK_V45_19",
+      "source_group": "Edge.pdf 第2章 リスク管理",
+      "source_section": "がん保険"
+    },
+    {
+      "id": "FP2-V45-Q20",
+      "type": "○×",
+      "q": "所得補償保険は入院していなければ補償されない。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "×",
+      "explain": "入院有無に関係なく就業不能期間の所得を補償。",
+      "point": "入院要件なし",
+      "topic": "FP2-4",
+      "subtopic": "所得補償",
+      "attention": "就業不能",
+      "mistake": "医療保険と混同",
+      "review_tag": "FP_RISK_V45_20",
+      "source_group": "Edge.pdf 第2章 リスク管理",
+      "source_section": "所得補償"
+    },
+    {
+      "id": "FP2-V45-Q21",
+      "type": "四択",
+      "q": "先進医療の対象判定時点は？",
+      "choices": [
+        "加入時",
+        "申込時",
+        "療養時",
+        "請求時"
+      ],
+      "answer": "療養時",
+      "explain": "療養時点の先進医療が対象。",
+      "point": "時点",
+      "topic": "FP2-4",
+      "subtopic": "先進医療特約",
+      "attention": "療養時",
+      "mistake": "加入時固定と誤認",
+      "review_tag": "FP_RISK_V45_21",
+      "source_group": "Edge.pdf 第2章 リスク管理",
+      "source_section": "先進医療特約"
+    },
+    {
+      "id": "FP2-V45-Q22",
+      "type": "○×",
+      "q": "リビング・ニーズ特約には別途特約保険料が必要である。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "×",
+      "explain": "特約保険料不要。",
+      "point": "保険料有無",
+      "topic": "FP2-4",
+      "subtopic": "リビング・ニーズ",
+      "attention": "不要",
+      "mistake": "特約＝有料と思う",
+      "review_tag": "FP_RISK_V45_22",
+      "source_group": "Edge.pdf 第2章 リスク管理",
+      "source_section": "リビング・ニーズ"
+    }
+  ],
+  "level4_exam_strategy": [
+    "保険法/保険業法",
+    "8日",
+    "予定事業費率",
+    "払済/延長",
+    "課税関係",
+    "地震保険30～50%・5000/1000",
+    "傷害保険比較",
+    "第三分野の期間・時点"
+  ],
+  "level5_quick": [
+    "保険法＝契約、保険業法＝業者規制",
+    "クーリングオフ＝8日",
+    "付加保険料＝予定事業費率",
+    "払済＝期間維持・金額減 / 延長＝金額維持・期間短縮",
+    "地震保険＝30～50%、建物5000万・家財1000万",
+    "普通傷害＝食中毒×、国内旅行＝食中毒○、海外旅行＝食中毒・地震等○",
+    "リビング・ニーズ＝余命6カ月以内"
+  ],
+  "review_routes": [
+    {
+      "question_id": "FP2-V45-Q01",
+      "topic": "FP2-1",
+      "tag": "FP_RISK_V45_01"
+    },
+    {
+      "question_id": "FP2-V45-Q02",
+      "topic": "FP2-1",
+      "tag": "FP_RISK_V45_02"
+    },
+    {
+      "question_id": "FP2-V45-Q03",
+      "topic": "FP2-1",
+      "tag": "FP_RISK_V45_03"
+    },
+    {
+      "question_id": "FP2-V45-Q04",
+      "topic": "FP2-1",
+      "tag": "FP_RISK_V45_04"
+    },
+    {
+      "question_id": "FP2-V45-Q05",
+      "topic": "FP2-2",
+      "tag": "FP_RISK_V45_05"
+    },
+    {
+      "question_id": "FP2-V45-Q06",
+      "topic": "FP2-2",
+      "tag": "FP_RISK_V45_06"
+    },
+    {
+      "question_id": "FP2-V45-Q07",
+      "topic": "FP2-2",
+      "tag": "FP_RISK_V45_07"
+    },
+    {
+      "question_id": "FP2-V45-Q08",
+      "topic": "FP2-2",
+      "tag": "FP_RISK_V45_08"
+    },
+    {
+      "question_id": "FP2-V45-Q09",
+      "topic": "FP2-2",
+      "tag": "FP_RISK_V45_09"
+    },
+    {
+      "question_id": "FP2-V45-Q10",
+      "topic": "FP2-2",
+      "tag": "FP_RISK_V45_10"
+    },
+    {
+      "question_id": "FP2-V45-Q11",
+      "topic": "FP2-3",
+      "tag": "FP_RISK_V45_11"
+    },
+    {
+      "question_id": "FP2-V45-Q12",
+      "topic": "FP2-3",
+      "tag": "FP_RISK_V45_12"
+    },
+    {
+      "question_id": "FP2-V45-Q13",
+      "topic": "FP2-3",
+      "tag": "FP_RISK_V45_13"
+    },
+    {
+      "question_id": "FP2-V45-Q14",
+      "topic": "FP2-3",
+      "tag": "FP_RISK_V45_14"
+    },
+    {
+      "question_id": "FP2-V45-Q15",
+      "topic": "FP2-3",
+      "tag": "FP_RISK_V45_15"
+    },
+    {
+      "question_id": "FP2-V45-Q16",
+      "topic": "FP2-3",
+      "tag": "FP_RISK_V45_16"
+    },
+    {
+      "question_id": "FP2-V45-Q17",
+      "topic": "FP2-3",
+      "tag": "FP_RISK_V45_17"
+    },
+    {
+      "question_id": "FP2-V45-Q18",
+      "topic": "FP2-4",
+      "tag": "FP_RISK_V45_18"
+    },
+    {
+      "question_id": "FP2-V45-Q19",
+      "topic": "FP2-4",
+      "tag": "FP_RISK_V45_19"
+    },
+    {
+      "question_id": "FP2-V45-Q20",
+      "topic": "FP2-4",
+      "tag": "FP_RISK_V45_20"
+    },
+    {
+      "question_id": "FP2-V45-Q21",
+      "topic": "FP2-4",
+      "tag": "FP_RISK_V45_21"
+    },
+    {
+      "question_id": "FP2-V45-Q22",
+      "topic": "FP2-4",
+      "tag": "FP_RISK_V45_22"
+    }
+  ]
+}
