@@ -10993,18 +10993,18 @@ window.APP_DATA = {
       "summary": "データ分類 / 度数分布 / 代表値 / ばらつき / 四分位 / 標準化 / その他の図表 / ローレンツ曲線",
       "map": [
         "データの基礎",
-        "├─データの分類 → 量的 / 質的",
-        "├─4つの尺度 → 名義 / 順序 / 間隔 / 比例",
-        "├─度数分布 → 階級 / 階級値 / 度数",
-        "├─相対度数 → 相対 / 累積相対",
-        "├─ヒストグラム → 分布の形",
-        "├─代表値 → 平均 / 中央値 / 最頻値",
-        "├─ばらつき → 分散 / 標準偏差 / 変動係数",
-        "├─四分位 → IQR / 箱ひげ図 / 外れ値",
-        "├─標準化 → z得点 / 偏差値",
-        "├─その他の図表 → 幹葉図 / 棒 / 円 / クロス集計",
-        "├─所得分布 → ローレンツ曲線 / ジニ係数",
-        "└─図表横断 → 箱ひげ図 / ヒストグラム / ローレンツ曲線"
+        "├─データの分類 → 量的 / 質的 ［PDF原図あり］",
+        "├─4つの尺度 → 名義 / 順序 / 間隔 / 比例 ［PDF原図あり］",
+        "├─度数分布 → 階級 / 階級値 / 度数 ［PDF原図あり］",
+        "├─相対度数 → 相対 / 累積相対 ［PDF原図あり］",
+        "├─ヒストグラム → 分布の形 ［PDF原図あり］",
+        "├─代表値 → 平均 / 中央値 / 最頻値 ［PDF原図あり］",
+        "├─ばらつき → 分散 / 標準偏差 / 変動係数 ［PDF原図あり］",
+        "├─四分位 → IQR / 箱ひげ図 / 外れ値 ［PDF原図あり］",
+        "├─標準化 → z得点 / 偏差値 ［PDF原図あり］",
+        "├─その他の図表 → 幹葉図 / 棒 / 円 / クロス集計 ［PDF原図あり］",
+        "├─所得分布 → ローレンツ曲線 / ジニ係数 ［PDF原図あり］",
+        "└─図表横断 → 箱ひげ図 / ヒストグラム / ローレンツ曲線 ［PDF原図あり］"
       ],
       "topics": [
         {
@@ -11060,7 +11060,10 @@ window.APP_DATA = {
             "STAT1-V55-Q01",
             "STAT1-V55-Q02"
           ],
-          "example_ids": []
+          "example_ids": [],
+          "original_asset_ids": [
+            "PDFORIG_STAT_001"
+          ]
         },
         {
           "id": "STAT1-2",
@@ -11113,7 +11116,12 @@ window.APP_DATA = {
           "question_ids": [
             "STAT1-V55-Q03"
           ],
-          "example_ids": []
+          "example_ids": [],
+          "original_asset_ids": [
+            "PDFORIG_STAT_002",
+            "PDFORIG_STAT3_010",
+            "PDFORIG_STAT3_016"
+          ]
         },
         {
           "id": "STAT1-3",
@@ -11165,7 +11173,10 @@ window.APP_DATA = {
           "question_ids": [
             "STAT1-V55-Q04"
           ],
-          "example_ids": []
+          "example_ids": [],
+          "original_asset_ids": [
+            "PDFORIG_STAT_003"
+          ]
         },
         {
           "id": "STAT1-4",
@@ -11218,7 +11229,16 @@ window.APP_DATA = {
           "question_ids": [
             "STAT1-V55-Q05"
           ],
-          "example_ids": []
+          "example_ids": [],
+          "original_asset_ids": [
+            "PDFORIG_STAT_004",
+            "PDFORIG_STAT_006",
+            "PDFORIG_STAT_013",
+            "PDFORIG_STAT_014",
+            "PDFORIG_STAT3_002",
+            "PDFORIG_STAT3_011",
+            "PDFORIG_STAT3_016"
+          ]
         },
         {
           "id": "STAT1-5",
@@ -11269,7 +11289,12 @@ window.APP_DATA = {
           "question_ids": [
             "STAT1-V55-Q06"
           ],
-          "example_ids": []
+          "example_ids": [],
+          "original_asset_ids": [
+            "PDFORIG_STAT_005",
+            "PDFORIG_STAT_006",
+            "PDFORIG_STAT_014"
+          ]
         },
         {
           "id": "STAT1-6",
@@ -11331,7 +11356,12 @@ window.APP_DATA = {
             "STAT1-V55-Q08",
             "STAT1-V55-Q09"
           ],
-          "example_ids": []
+          "example_ids": [],
+          "original_asset_ids": [
+            "PDFORIG_STAT_007",
+            "PDFORIG_STAT_008",
+            "PDFORIG_STAT_009"
+          ]
         },
         {
           "id": "STAT1-7",
@@ -11384,7 +11414,11 @@ window.APP_DATA = {
             "STAT1-V55-Q10",
             "STAT1-V55-Q11"
           ],
-          "example_ids": []
+          "example_ids": [],
+          "original_asset_ids": [
+            "PDFORIG_STAT_010",
+            "PDFORIG_STAT_011"
+          ]
         },
         {
           "id": "STAT1-8",
@@ -11434,7 +11468,13 @@ window.APP_DATA = {
             "STAT1-V55-Q12",
             "STAT1-V55-Q13"
           ],
-          "example_ids": []
+          "example_ids": [],
+          "original_asset_ids": [
+            "PDFORIG_STAT_005",
+            "PDFORIG_STAT_012",
+            "PDFORIG_STAT_013",
+            "PDFORIG_STAT_014"
+          ]
         },
         {
           "id": "STAT1-9",
@@ -11511,6 +11551,16 @@ window.APP_DATA = {
           "example_ids": [
             "EXAMPLE_STAT_V56_01",
             "EXAMPLE_STAT_V56_02"
+          ],
+          "original_asset_ids": [
+            "PDFORIG_STAT2_001",
+            "PDFORIG_STAT2_002",
+            "PDFORIG_STAT2_003",
+            "PDFORIG_STAT2_004",
+            "PDFORIG_STAT2_005",
+            "PDFORIG_STAT2_006",
+            "PDFORIG_STAT3_013",
+            "PDFORIG_STAT3_017"
           ]
         },
         {
@@ -11584,6 +11634,16 @@ window.APP_DATA = {
           ],
           "example_ids": [
             "EXAMPLE_STAT_V56_03"
+          ],
+          "original_asset_ids": [
+            "PDFORIG_STAT2_007",
+            "PDFORIG_STAT2_008",
+            "PDFORIG_STAT2_009",
+            "PDFORIG_STAT2_010",
+            "PDFORIG_STAT2_011",
+            "PDFORIG_STAT3_013",
+            "PDFORIG_STAT3_014",
+            "PDFORIG_STAT3_017"
           ]
         },
         {
@@ -11658,6 +11718,16 @@ window.APP_DATA = {
           ],
           "example_ids": [
             "EXAMPLE_STAT_V56_04"
+          ],
+          "original_asset_ids": [
+            "PDFORIG_STAT2_012",
+            "PDFORIG_STAT2_013",
+            "PDFORIG_STAT2_014",
+            "PDFORIG_STAT2_015",
+            "PDFORIG_STAT2_016",
+            "PDFORIG_STAT2_017",
+            "PDFORIG_STAT3_013",
+            "PDFORIG_STAT3_017"
           ]
         },
         {
@@ -11728,6 +11798,12 @@ window.APP_DATA = {
           "example_ids": [
             "EXAMPLE_STAT_V57_01",
             "EXAMPLE_STAT_V57_02"
+          ],
+          "original_asset_ids": [
+            "PDFORIG_STAT3_001",
+            "PDFORIG_STAT3_006",
+            "PDFORIG_STAT3_007",
+            "PDFORIG_STAT3_014"
           ]
         },
         {
@@ -11803,6 +11879,17 @@ window.APP_DATA = {
           "example_ids": [
             "EXAMPLE_STAT_V57_03",
             "EXAMPLE_STAT_V57_04"
+          ],
+          "original_asset_ids": [
+            "PDFORIG_STAT3_002",
+            "PDFORIG_STAT3_003",
+            "PDFORIG_STAT3_004",
+            "PDFORIG_STAT3_005",
+            "PDFORIG_STAT3_008",
+            "PDFORIG_STAT3_009",
+            "PDFORIG_STAT3_011",
+            "PDFORIG_STAT3_015",
+            "PDFORIG_STAT3_018"
           ]
         },
         {
@@ -11873,6 +11960,12 @@ window.APP_DATA = {
           ],
           "example_ids": [
             "EXAMPLE_STAT_V57_05"
+          ],
+          "original_asset_ids": [
+            "PDFORIG_STAT2_011",
+            "PDFORIG_STAT3_012",
+            "PDFORIG_STAT3_013",
+            "PDFORIG_STAT3_017"
           ]
         }
       ],
@@ -14467,7 +14560,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "LANは限定された領域内のネットワーク。点在するLAN同士を結ぶのはWAN。",
       "point": "『限定された領域』か『LAN間』か。",
-      "topic": "NW1-1"
+      "topic": "NW1-1",
+      "original_asset_ids": []
     },
     {
       "id": "NW1-Q02",
@@ -14482,7 +14576,8 @@ window.APP_DATA = {
       "answer": "NAPT",
       "explain": "NAPTはIPアドレスに加えてポート番号も変換する。",
       "point": "『ポート番号』『複数端末』『1つのグローバルIP』",
-      "topic": "NW1-4"
+      "topic": "NW1-4",
+      "original_asset_ids": []
     },
     {
       "id": "NW1-Q03",
@@ -14495,7 +14590,8 @@ window.APP_DATA = {
       "answer": "NATはIPを1対1、NAPTはIP＋ポート番号",
       "explain": "NATは1対1変換、NAPTはポート番号も使う。",
       "point": "1対1 vs ポート番号",
-      "topic": "NW1-4"
+      "topic": "NW1-4",
+      "original_asset_ids": []
     },
     {
       "id": "NW1-Q04",
@@ -14510,7 +14606,8 @@ window.APP_DATA = {
       "answer": "リバースプロキシ",
       "explain": "Internet側からWebサーバ側への要求を中継する。",
       "point": "Internet → Webサーバ",
-      "topic": "NW1-4"
+      "topic": "NW1-4",
+      "original_asset_ids": []
     },
     {
       "id": "NW1-Q05",
@@ -14523,7 +14620,8 @@ window.APP_DATA = {
       "answer": "ソフトウェア",
       "explain": "SDNはネットワーク機器をソフトウェア的に一元管理する。",
       "point": "一元管理",
-      "topic": "NW1-3"
+      "topic": "NW1-3",
+      "original_asset_ids": []
     },
     {
       "id": "NW1-Q06",
@@ -14538,7 +14636,8 @@ window.APP_DATA = {
       "answer": "Wi-Fi 6E",
       "explain": "Wi-Fi 6Eは6GHz帯を利用できる。",
       "point": "6GHz → 6E",
-      "topic": "NW1-1"
+      "topic": "NW1-1",
+      "original_asset_ids": []
     },
     {
       "id": "NW2-Q01",
@@ -14551,7 +14650,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "この説明は半二重方式。",
       "point": "同時不可＝半二重",
-      "topic": "NW2-1"
+      "topic": "NW2-1",
+      "original_asset_ids": []
     },
     {
       "id": "NW2-Q02",
@@ -14564,7 +14664,8 @@ window.APP_DATA = {
       "answer": "回線利用率",
       "explain": "回線利用率を加味した実際の転送速度が実効転送速度。",
       "point": "理論値ではなく実効値",
-      "topic": "NW2-3"
+      "topic": "NW2-3",
+      "original_asset_ids": []
     },
     {
       "id": "NW2-Q03",
@@ -14579,7 +14680,8 @@ window.APP_DATA = {
       "answer": "約6.67秒",
       "explain": "100MB×8÷(200Mbps×0.6)≒6.67秒。",
       "point": "Byte→bit、利用率を掛ける",
-      "topic": "NW2-3"
+      "topic": "NW2-3",
+      "original_asset_ids": []
     },
     {
       "id": "NW2-Q04",
@@ -14594,7 +14696,8 @@ window.APP_DATA = {
       "answer": "SIP",
       "explain": "VoIPの代表規格にはSIPとH.323がある。",
       "point": "VoIP規格",
-      "topic": "NW2-2"
+      "topic": "NW2-2",
+      "original_asset_ids": []
     },
     {
       "id": "NW2-Q05",
@@ -14608,7 +14711,8 @@ window.APP_DATA = {
       "answer": "高速大容量・高信頼低遅延・多数同時接続",
       "explain": "原資料の5Gの3特徴。",
       "point": "5Gの3特徴",
-      "topic": "NW2-2"
+      "topic": "NW2-2",
+      "original_asset_ids": []
     },
     {
       "id": "NW3-Q01",
@@ -14622,7 +14726,8 @@ window.APP_DATA = {
       "answer": "7層",
       "explain": "ISOが策定した7層モデル。",
       "point": "7層",
-      "topic": "NW3-1"
+      "topic": "NW3-1",
+      "original_asset_ids": []
     },
     {
       "id": "NW3-Q02",
@@ -14636,7 +14741,8 @@ window.APP_DATA = {
       "answer": "ネットワーク層",
       "explain": "ネットワーク層はルーティングや中継を行う。",
       "point": "IP・ルーティング",
-      "topic": "NW3-1"
+      "topic": "NW3-1",
+      "original_asset_ids": []
     },
     {
       "id": "NW3-Q03",
@@ -14650,7 +14756,8 @@ window.APP_DATA = {
       "answer": "L2スイッチ",
       "explain": "L2スイッチはMACアドレスを見て転送する。",
       "point": "MAC＝L2",
-      "topic": "NW3-3"
+      "topic": "NW3-3",
+      "original_asset_ids": []
     },
     {
       "id": "NW3-Q04",
@@ -14664,7 +14771,8 @@ window.APP_DATA = {
       "answer": "スター型",
       "explain": "スター型はハブを中心に放射状に接続する。",
       "point": "ハブ中心",
-      "topic": "NW3-2"
+      "topic": "NW3-2",
+      "original_asset_ids": []
     },
     {
       "id": "NW3-Q05",
@@ -14678,7 +14786,8 @@ window.APP_DATA = {
       "answer": "プレゼンテーション層",
       "explain": "データ形式を規定する層。",
       "point": "文字コード・圧縮・暗号化",
-      "topic": "NW3-1"
+      "topic": "NW3-1",
+      "original_asset_ids": []
     },
     {
       "id": "NW4-Q01",
@@ -14691,7 +14800,8 @@ window.APP_DATA = {
       "answer": "回線接続→データリンク確立→データ伝送→データリンク解放→回線切断",
       "explain": "原資料の5段階。",
       "point": "確立→伝送→解放",
-      "topic": "NW4-1"
+      "topic": "NW4-1",
+      "original_asset_ids": []
     },
     {
       "id": "NW4-Q02",
@@ -14704,7 +14814,8 @@ window.APP_DATA = {
       "answer": "任意ビット列・全二重に適する・FCS",
       "explain": "HDLCは任意ビット列を透過的に送れる。",
       "point": "任意bit・全二重・FCS",
-      "topic": "NW4-1"
+      "topic": "NW4-1",
+      "original_asset_ids": []
     },
     {
       "id": "NW4-Q03",
@@ -14718,7 +14829,8 @@ window.APP_DATA = {
       "answer": "CRC",
       "explain": "FCSにはCRC符号（16bit）が入る。",
       "point": "FCS→CRC",
-      "topic": "NW4-1"
+      "topic": "NW4-1",
+      "original_asset_ids": []
     },
     {
       "id": "NW4-Q04",
@@ -14732,7 +14844,8 @@ window.APP_DATA = {
       "answer": "ハミング符号",
       "explain": "ハミング符号は2bitまで検出・1bit訂正。",
       "point": "2検出・1訂正",
-      "topic": "NW4-2"
+      "topic": "NW4-2",
+      "original_asset_ids": []
     },
     {
       "id": "NW4-Q05",
@@ -14747,7 +14860,8 @@ window.APP_DATA = {
       "answer": "CSMA/CA",
       "explain": "CSMA/CAは無線LANで衝突を回避する。",
       "point": "無線・DIFS・バックオフ・ACK",
-      "topic": "NW4-3"
+      "topic": "NW4-3",
+      "original_asset_ids": []
     },
     {
       "id": "NW4-Q06",
@@ -14760,7 +14874,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "全二重通信では衝突検知が不要。",
       "point": "全二重→CSMA/CD不要",
-      "topic": "NW4-3"
+      "topic": "NW4-3",
+      "original_asset_ids": []
     },
     {
       "id": "NW4-Q07",
@@ -14774,7 +14889,8 @@ window.APP_DATA = {
       "answer": "Ethernet",
       "explain": "IEEE 802.3はEthernet。802.11は無線LAN。",
       "point": "802.3＝Ethernet",
-      "topic": "NW4-3"
+      "topic": "NW4-3",
+      "original_asset_ids": []
     },
     {
       "id": "NW5-Q01",
@@ -14789,7 +14905,8 @@ window.APP_DATA = {
       "answer": "4階層",
       "explain": "TCP/IP階層モデルは4階層。",
       "point": "TCP/IP＝4階層",
-      "topic": "NW5-1"
+      "topic": "NW5-1",
+      "original_asset_ids": []
     },
     {
       "id": "NW5-Q02",
@@ -14804,7 +14921,8 @@ window.APP_DATA = {
       "answer": "ネットワークインタフェース層",
       "explain": "LANではEthernetが代表的なネットワークインタフェース層のプロトコル。",
       "point": "LAN→Ethernet",
-      "topic": "NW5-1"
+      "topic": "NW5-1",
+      "original_asset_ids": []
     },
     {
       "id": "NW5-Q03",
@@ -14817,7 +14935,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "送信側はアプリケーション層からネットワークインタフェース層へ、上位層→下位層の順にカプセル化する。",
       "point": "送信＝上→下",
-      "topic": "NW5-2"
+      "topic": "NW5-2",
+      "original_asset_ids": []
     },
     {
       "id": "NW5-Q04",
@@ -14832,7 +14951,8 @@ window.APP_DATA = {
       "answer": "STP",
       "explain": "STPはループの一部を論理的にブロックして木構造として扱う。",
       "point": "ループ・ブロードキャストストーム",
-      "topic": "NW5-3"
+      "topic": "NW5-3",
+      "original_asset_ids": []
     },
     {
       "id": "NW5-Q05",
@@ -14847,7 +14967,8 @@ window.APP_DATA = {
       "answer": "VLAN ID",
       "explain": "タグVLANはパケット内のタグ情報にVLAN IDを指定する。",
       "point": "タグ情報→VLAN ID",
-      "topic": "NW5-3"
+      "topic": "NW5-3",
+      "original_asset_ids": []
     },
     {
       "id": "NW5-Q06",
@@ -14862,7 +14983,8 @@ window.APP_DATA = {
       "answer": "ARP",
       "explain": "ARPはIPアドレスからMACアドレスを得る。",
       "point": "IP→MAC",
-      "topic": "NW5-6"
+      "topic": "NW5-6",
+      "original_asset_ids": []
     },
     {
       "id": "NW5-Q07",
@@ -14877,7 +14999,8 @@ window.APP_DATA = {
       "answer": "RARP",
       "explain": "RARPはARPの逆でMACアドレスからIPアドレスを得る。",
       "point": "MAC→IP",
-      "topic": "NW5-6"
+      "topic": "NW5-6",
+      "original_asset_ids": []
     },
     {
       "id": "NW5-Q08",
@@ -14890,7 +15013,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "ARP Requestは同一ネットワーク内にしか届かない。",
       "point": "ARP Request＝同一ネットワーク内",
-      "topic": "NW5-6"
+      "topic": "NW5-6",
+      "original_asset_ids": []
     },
     {
       "id": "NW5-Q09",
@@ -14904,7 +15028,8 @@ window.APP_DATA = {
       "answer": "IPv4 32bit / IPv6 128bit",
       "explain": "IPv4は32bit、IPv6は128bit。",
       "point": "32 / 128",
-      "topic": "NW5-5"
+      "topic": "NW5-5",
+      "original_asset_ids": []
     },
     {
       "id": "NW5-Q10",
@@ -14919,7 +15044,8 @@ window.APP_DATA = {
       "answer": "/28",
       "explain": "原資料では255.255.255.240＝/28。",
       "point": "255.255.255.240→/28",
-      "topic": "NW5-4"
+      "topic": "NW5-4",
+      "original_asset_ids": []
     },
     {
       "id": "NW5-Q11",
@@ -14932,7 +15058,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "『::』は1つのアドレス中1か所のみ使用可能。",
       "point": "::＝1か所のみ",
-      "topic": "NW5-5"
+      "topic": "NW5-5",
+      "original_asset_ids": []
     },
     {
       "id": "NW5-Q12",
@@ -14947,7 +15074,8 @@ window.APP_DATA = {
       "answer": "IPsec",
       "explain": "原資料の例題ではIPv6の特徴としてIPsecが標準実装されている点からIPsecを選ぶ。",
       "point": "IPv6＋ネットワーク層暗号化",
-      "topic": "NW5-5"
+      "topic": "NW5-5",
+      "original_asset_ids": []
     },
     {
       "id": "NW5-Q13",
@@ -14962,7 +15090,8 @@ window.APP_DATA = {
       "answer": "ICMP",
       "explain": "pingやtracerouteはICMPを使用する。",
       "point": "ping / traceroute",
-      "topic": "NW5-6"
+      "topic": "NW5-6",
+      "original_asset_ids": []
     },
     {
       "id": "NW5-Q14",
@@ -14977,7 +15106,8 @@ window.APP_DATA = {
       "answer": "VRRP",
       "explain": "VRRPはネットワーク層機器の冗長化に使用される。",
       "point": "ルータ＋冗長化＋仮想",
-      "topic": "NW5-6"
+      "topic": "NW5-6",
+      "original_asset_ids": []
     },
     {
       "id": "NW6-Q01",
@@ -14990,7 +15120,8 @@ window.APP_DATA = {
       "answer": "TCP＝コネクション型・高信頼 / UDP＝コネクションレス・高速",
       "explain": "TCPは信頼性重視、UDPは順序保証をせず処理コストが小さい。",
       "point": "信頼性 vs 処理速度",
-      "topic": "NW6-1"
+      "topic": "NW6-1",
+      "original_asset_ids": []
     },
     {
       "id": "NW6-Q02",
@@ -15004,7 +15135,8 @@ window.APP_DATA = {
       "answer": "0～1023",
       "explain": "0～1023をウェルノウンポートという。",
       "point": "0～1023",
-      "topic": "NW6-1"
+      "topic": "NW6-1",
+      "original_asset_ids": []
     },
     {
       "id": "NW6-Q03",
@@ -15019,7 +15151,8 @@ window.APP_DATA = {
       "answer": "443",
       "explain": "HTTPSはTCP443番を使用する。",
       "point": "HTTPS＝443",
-      "topic": "NW6-3"
+      "topic": "NW6-3",
+      "original_asset_ids": []
     },
     {
       "id": "NW6-Q04",
@@ -15032,7 +15165,8 @@ window.APP_DATA = {
       "answer": "UDP",
       "explain": "UDPは処理速度が速く、リアルタイム性が重要な通信で使われる。",
       "point": "リアルタイム→UDP",
-      "topic": "NW6-1"
+      "topic": "NW6-1",
+      "original_asset_ids": []
     },
     {
       "id": "NW6-Q05",
@@ -15046,7 +15180,8 @@ window.APP_DATA = {
       "answer": "SYN → SYN/ACK → ACK",
       "explain": "3ウェイハンドシェイクの順序。",
       "point": "SYN→SYN/ACK→ACK",
-      "topic": "NW6-2"
+      "topic": "NW6-2",
+      "original_asset_ids": []
     },
     {
       "id": "NW6-Q06",
@@ -15061,7 +15196,8 @@ window.APP_DATA = {
       "answer": "ページが見つからない",
       "explain": "404はNot Found。",
       "point": "404＝Not Found",
-      "topic": "NW6-3"
+      "topic": "NW6-3",
+      "original_asset_ids": []
     },
     {
       "id": "NW6-Q07",
@@ -15074,7 +15210,8 @@ window.APP_DATA = {
       "answer": "SMTP＝送信 / POP＝受信",
       "explain": "SMTPは電子メールの送信、POPは受信に利用される。",
       "point": "SMTP送信 / POP受信",
-      "topic": "NW6-3"
+      "topic": "NW6-3",
+      "original_asset_ids": []
     },
     {
       "id": "NW6-Q08",
@@ -15087,7 +15224,8 @@ window.APP_DATA = {
       "answer": "POP＝クライアントへダウンロード / IMAP＝サーバ上で操作・保存",
       "explain": "POPはクライアントにダウンロードして閲覧し、IMAPはサーバ上で操作・保存する。",
       "point": "DL vs サーバ上",
-      "topic": "NW6-3"
+      "topic": "NW6-3",
+      "original_asset_ids": []
     },
     {
       "id": "NW6-Q09",
@@ -15101,7 +15239,8 @@ window.APP_DATA = {
       "answer": "DISCOVER → OFFER → REQUEST → ACK",
       "explain": "DHCPのアドレス割当て手順。",
       "point": "DORA順序",
-      "topic": "NW6-4"
+      "topic": "NW6-4",
+      "original_asset_ids": []
     },
     {
       "id": "NW6-Q10",
@@ -15115,7 +15254,8 @@ window.APP_DATA = {
       "answer": "サーバ67 / クライアント68",
       "explain": "DHCPサーバ宛はUDP67、クライアント宛はUDP68。",
       "point": "Server67 / Client68",
-      "topic": "NW6-4"
+      "topic": "NW6-4",
+      "original_asset_ids": []
     },
     {
       "id": "NW6-Q11",
@@ -15129,7 +15269,8 @@ window.APP_DATA = {
       "answer": "0.0.0.0 → 255.255.255.255",
       "explain": "未割当てなので送信元0.0.0.0、宛先はブロードキャスト255.255.255.255。",
       "point": "0.0.0.0 / 255.255.255.255",
-      "topic": "NW6-4"
+      "topic": "NW6-4",
+      "original_asset_ids": []
     },
     {
       "id": "NW6-Q12",
@@ -15142,7 +15283,8 @@ window.APP_DATA = {
       "answer": "名前解決＝UDP53 / ゾーン転送＝TCP53",
       "explain": "通常の名前解決はUDP53、ゾーン転送はTCP53を使用する。",
       "point": "ゾーン転送だけTCP53",
-      "topic": "NW6-5"
+      "topic": "NW6-5",
+      "original_asset_ids": []
     },
     {
       "id": "PAY1-Q01",
@@ -15155,7 +15297,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "毎日の残業時間は1分単位で計算する。",
       "point": "『毎日』『15分未満切捨て』",
-      "topic": "PAY1-3"
+      "topic": "PAY1-3",
+      "original_asset_ids": []
     },
     {
       "id": "PAY1-Q02",
@@ -15168,7 +15311,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "2割5分以上の率で計算した割増賃金を上乗せする。",
       "point": "『2割』ではなく『2割5分以上』",
-      "topic": "PAY1-3"
+      "topic": "PAY1-3",
+      "original_asset_ids": []
     },
     {
       "id": "PAY1-Q03",
@@ -15181,7 +15325,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "会社規模が小さいことだけを理由に年次有給休暇が不要になるわけではない。",
       "point": "『10人未満』",
-      "topic": "PAY1-3"
+      "topic": "PAY1-3",
+      "original_asset_ids": []
     },
     {
       "id": "PAY1-Q04",
@@ -15194,7 +15339,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "6か月継続勤務し、8割以上出勤した場合には年次有給休暇が発生する。",
       "point": "『6か月』『8割』",
-      "topic": "PAY1-3"
+      "topic": "PAY1-3",
+      "original_asset_ids": []
     },
     {
       "id": "PAY1-Q05",
@@ -15207,7 +15353,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "給与は毎月1回以上支払う。",
       "point": "年俸制でも『毎月1回以上』",
-      "topic": "PAY1-3"
+      "topic": "PAY1-3",
+      "original_asset_ids": []
     },
     {
       "id": "PAY1-Q06",
@@ -15220,7 +15367,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "画像の解説では、給与から差し引く所得税は仮のもので、12月の給与支給時に年末調整して年間所得税額を確定する流れ。",
       "point": "『自由に選べる』",
-      "topic": "PAY1-4"
+      "topic": "PAY1-4",
+      "original_asset_ids": []
     },
     {
       "id": "PAY1-Q07",
@@ -15233,7 +15381,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "本人の希望だけで加入・非加入を決めるものではない。",
       "point": "『本人の希望だけ』",
-      "topic": "PAY1-4"
+      "topic": "PAY1-4",
+      "original_asset_ids": []
     },
     {
       "id": "PAY1-Q08",
@@ -15246,7 +15395,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "画像の解説では、一定額までが非課税で、月額15万円までとされている。",
       "point": "『全額』『20万円』→ 非課税限度額15万円",
-      "topic": "PAY1-4"
+      "topic": "PAY1-4",
+      "original_asset_ids": []
     },
     {
       "id": "PAY1-Q09",
@@ -15259,7 +15409,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "画像の解説では40歳以上65歳未満が対象。",
       "point": "『40歳以上65歳未満』",
-      "topic": "PAY1-4"
+      "topic": "PAY1-4",
+      "original_asset_ids": []
     },
     {
       "id": "PAY1-Q10",
@@ -15272,7 +15423,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "画像の解説では、役員は原則として雇用保険には加入できず、健康保険・厚生年金保険には一定の場合に加入する。",
       "point": "役員の保険を逆にしない",
-      "topic": "PAY1-4"
+      "topic": "PAY1-4",
+      "original_asset_ids": []
     },
     {
       "id": "PAY1-Q11",
@@ -15285,7 +15437,8 @@ window.APP_DATA = {
       "answer": "労災保険",
       "explain": "健康保険は業務と関係しないけが・病気、労災保険は業務に関係するけが・病気を対象とする。",
       "point": "『業務との関係』",
-      "topic": "PAY1-4"
+      "topic": "PAY1-4",
+      "original_asset_ids": []
     },
     {
       "id": "PAY1-Q12",
@@ -15299,7 +15452,8 @@ window.APP_DATA = {
       "answer": "3割",
       "explain": "画像の解説では原則3割。",
       "point": "『原則3割』",
-      "topic": "PAY1-4"
+      "topic": "PAY1-4",
+      "original_asset_ids": []
     },
     {
       "id": "PAY2-Q01",
@@ -15314,7 +15468,8 @@ window.APP_DATA = {
       "answer": "要出勤日数",
       "explain": "予定された勤務日数を指す。",
       "point": "『予定』か『実績』か",
-      "topic": "PAY2-1"
+      "topic": "PAY2-1",
+      "original_asset_ids": []
     },
     {
       "id": "PAY2-Q02",
@@ -15327,7 +15482,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "画像では法定休日に出勤した日数として説明されている。",
       "point": "法定休日か所定休日か",
-      "topic": "PAY2-1"
+      "topic": "PAY2-1",
+      "original_asset_ids": []
     },
     {
       "id": "PAY2-Q03",
@@ -15342,7 +15498,8 @@ window.APP_DATA = {
       "answer": "法定内時間外",
       "explain": "所定を超えるが法定8時間以内。",
       "point": "所定7h < 実働8h ≤ 法定8h",
-      "topic": "PAY2-2"
+      "topic": "PAY2-2",
+      "original_asset_ids": []
     },
     {
       "id": "PAY2-Q04",
@@ -15356,7 +15513,8 @@ window.APP_DATA = {
       "answer": "1日8時間・週40時間",
       "explain": "法定労働時間の原則。",
       "point": "1日8時間・1週40時間",
-      "topic": "PAY2-2"
+      "topic": "PAY2-2",
+      "original_asset_ids": []
     },
     {
       "id": "PAY2-Q05",
@@ -15371,7 +15529,8 @@ window.APP_DATA = {
       "answer": "36協定",
       "explain": "法定時間外労働や法定休日労働に必要な協定。",
       "point": "『法定時間を超える』",
-      "topic": "PAY2-7"
+      "topic": "PAY2-7",
+      "original_asset_ids": []
     },
     {
       "id": "PAY2-Q06",
@@ -15384,7 +15543,8 @@ window.APP_DATA = {
       "answer": "安全衛生法上の安全衛生教育",
       "explain": "一般健康診断は労働時間に含まれない例。",
       "point": "指揮命令下か",
-      "topic": "PAY2-8"
+      "topic": "PAY2-8",
+      "original_asset_ids": []
     },
     {
       "id": "PAY2-Q07",
@@ -15399,7 +15559,8 @@ window.APP_DATA = {
       "answer": "45分",
       "explain": "6時間を超え8時間までの場合は少なくとも45分。",
       "point": "6時間超〜8時間まで",
-      "topic": "PAY2-9"
+      "topic": "PAY2-9",
+      "original_asset_ids": []
     },
     {
       "id": "PAY2-Q08",
@@ -15413,7 +15574,8 @@ window.APP_DATA = {
       "answer": "1時間",
       "explain": "8時間超は少なくとも1時間。",
       "point": "8時間超",
-      "topic": "PAY2-9"
+      "topic": "PAY2-9",
+      "original_asset_ids": []
     },
     {
       "id": "PAY2-Q09",
@@ -15426,7 +15588,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "手待ち時間は労働から解放されていないため労働時間。",
       "point": "自由利用できるか",
-      "topic": "PAY2-9"
+      "topic": "PAY2-9",
+      "original_asset_ids": []
     },
     {
       "id": "PAY2-Q10",
@@ -15439,7 +15602,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "特定曜日に固定する必要はない。",
       "point": "法定休日 ≠ 日曜日固定",
-      "topic": "PAY2-10"
+      "topic": "PAY2-10",
+      "original_asset_ids": []
     },
     {
       "id": "PAY2-Q11",
@@ -15453,7 +15617,8 @@ window.APP_DATA = {
       "answer": "毎週1回以上",
       "explain": "4週間を通じて4日以上の方式もある。",
       "point": "毎週1回以上",
-      "topic": "PAY2-10"
+      "topic": "PAY2-10",
+      "original_asset_ids": []
     },
     {
       "id": "PAY2-Q12",
@@ -15466,7 +15631,8 @@ window.APP_DATA = {
       "answer": "代休",
       "explain": "後から休ませるのが代休。",
       "point": "『後から』",
-      "topic": "PAY2-11"
+      "topic": "PAY2-11",
+      "original_asset_ids": []
     },
     {
       "id": "PAY2-Q13",
@@ -15479,7 +15645,8 @@ window.APP_DATA = {
       "answer": "振替休日",
       "explain": "事前に休日と労働日を交換する。",
       "point": "『事前』",
-      "topic": "PAY2-11"
+      "topic": "PAY2-11",
+      "original_asset_ids": []
     },
     {
       "id": "PAY2-Q14",
@@ -15492,7 +15659,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "代休は休日労働の事実を消さない。",
       "point": "代休＝事後",
-      "topic": "PAY2-11"
+      "topic": "PAY2-11",
+      "original_asset_ids": []
     },
     {
       "id": "PAY2-Q15",
@@ -15505,7 +15673,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "別週への振替で元の週が40時間を超えると時間外割増が必要となる。",
       "point": "振替休日でも週40時間超に注意",
-      "topic": "PAY2-11"
+      "topic": "PAY2-11",
+      "original_asset_ids": []
     },
     {
       "id": "PAY2-Q16",
@@ -15518,7 +15687,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "年休の発生要件。",
       "point": "6か月＋8割",
-      "topic": "PAY2-12"
+      "topic": "PAY2-12",
+      "original_asset_ids": []
     },
     {
       "id": "PAY2-Q17",
@@ -15532,7 +15702,8 @@ window.APP_DATA = {
       "answer": "10日",
       "explain": "6か月以上継続勤務＋8割以上出勤で10日。",
       "point": "最初は10日",
-      "topic": "PAY2-12"
+      "topic": "PAY2-12",
+      "original_asset_ids": []
     },
     {
       "id": "PAY2-Q18",
@@ -15545,7 +15716,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "消滅時効に関する説明。",
       "point": "繰越と2年",
-      "topic": "PAY2-12"
+      "topic": "PAY2-12",
+      "original_asset_ids": []
     },
     {
       "id": "PAY2-Q19",
@@ -15559,7 +15731,8 @@ window.APP_DATA = {
       "answer": "11日",
       "explain": "付与日数表より。",
       "point": "1年6か月＝11日",
-      "topic": "PAY2-13"
+      "topic": "PAY2-13",
+      "original_asset_ids": []
     },
     {
       "id": "PAY2-Q20",
@@ -15572,7 +15745,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "正社員と同様に権利として認められる。",
       "point": "パートでも6か月＋8割",
-      "topic": "PAY2-13"
+      "topic": "PAY2-13",
+      "original_asset_ids": []
     },
     {
       "id": "PAY2-Q21",
@@ -15586,7 +15760,8 @@ window.APP_DATA = {
       "answer": "30時間未満",
       "explain": "比例付与の確認欄に記載の条件。",
       "point": "30時間未満",
-      "topic": "PAY2-13"
+      "topic": "PAY2-13",
+      "original_asset_ids": []
     },
     {
       "id": "PAY2-Q22",
@@ -15600,7 +15775,8 @@ window.APP_DATA = {
       "answer": "時季変更権",
       "explain": "事業の正常な運営を妨げる場合に会社側が持つ。",
       "point": "会社側の権利",
-      "topic": "PAY2-13"
+      "topic": "PAY2-13",
+      "original_asset_ids": []
     },
     {
       "id": "PAY2-Q23",
@@ -15614,7 +15790,8 @@ window.APP_DATA = {
       "answer": "計画的付与",
       "explain": "年次有給休暇を計画的に消化させる仕組み。",
       "point": "労使協定・5日超部分",
-      "topic": "PAY2-14"
+      "topic": "PAY2-14",
+      "original_asset_ids": []
     },
     {
       "id": "PAY2-Q24",
@@ -15628,7 +15805,8 @@ window.APP_DATA = {
       "answer": "5日",
       "explain": "時季指定義務に関する数字。",
       "point": "5日",
-      "topic": "PAY2-14"
+      "topic": "PAY2-14",
+      "original_asset_ids": []
     },
     {
       "id": "PAY2-Q25",
@@ -15641,7 +15819,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "年次有給休暇管理簿の保存期間。",
       "point": "5年間（当分の間は3年間）",
-      "topic": "PAY2-14"
+      "topic": "PAY2-14",
+      "original_asset_ids": []
     },
     {
       "id": "PAY2-Q26",
@@ -15655,7 +15834,8 @@ window.APP_DATA = {
       "answer": "出産予定日の6週間前",
       "explain": "多胎妊娠の場合は14週間前。",
       "point": "6週間・多胎14週間",
-      "topic": "PAY2-15"
+      "topic": "PAY2-15",
+      "original_asset_ids": []
     },
     {
       "id": "PAY2-Q27",
@@ -15669,7 +15849,8 @@ window.APP_DATA = {
       "answer": "8週間",
       "explain": "産後8週間は就業させてはならない。",
       "point": "8週間",
-      "topic": "PAY2-15"
+      "topic": "PAY2-15",
+      "original_asset_ids": []
     },
     {
       "id": "PAY2-Q28",
@@ -15683,7 +15864,8 @@ window.APP_DATA = {
       "answer": "1日2回・各30分",
       "explain": "育児時間の規定。",
       "point": "1日2回・各30分",
-      "topic": "PAY2-15"
+      "topic": "PAY2-15",
+      "original_asset_ids": []
     },
     {
       "id": "PAY2-Q29",
@@ -15697,7 +15879,8 @@ window.APP_DATA = {
       "answer": "93日",
       "explain": "3回まで分割取得できる。",
       "point": "93日",
-      "topic": "PAY2-15"
+      "topic": "PAY2-15",
+      "original_asset_ids": []
     },
     {
       "id": "PAY2-Q30",
@@ -15711,7 +15894,8 @@ window.APP_DATA = {
       "answer": "フレックスタイム制",
       "explain": "フレックスタイム制の説明。",
       "point": "始業・終業時刻を自由に選択",
-      "topic": "PAY2-16"
+      "topic": "PAY2-16",
+      "original_asset_ids": []
     },
     {
       "id": "PAY2-Q31",
@@ -15725,7 +15909,8 @@ window.APP_DATA = {
       "answer": "45時間",
       "explain": "延長時間の限度の表より。",
       "point": "1か月45時間",
-      "topic": "PAY2-17"
+      "topic": "PAY2-17",
+      "original_asset_ids": []
     },
     {
       "id": "PAY2-Q32",
@@ -15739,7 +15924,8 @@ window.APP_DATA = {
       "answer": "360時間",
       "explain": "延長時間の限度の表より。",
       "point": "1年360時間",
-      "topic": "PAY2-17"
+      "topic": "PAY2-17",
+      "original_asset_ids": []
     },
     {
       "id": "PAY2-Q33",
@@ -15752,7 +15938,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "1か月単位での端数処理として、30分未満切捨て、30分以上1時間に切上げが認められる。",
       "point": "1か月単位",
-      "topic": "PAY2-17"
+      "topic": "PAY2-17",
+      "original_asset_ids": []
     },
     {
       "id": "PAY2-Q34",
@@ -15765,7 +15952,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "1日単位や15分単位の端数処理は違法。",
       "point": "1か月単位・30分基準",
-      "topic": "PAY2-17"
+      "topic": "PAY2-17",
+      "original_asset_ids": []
     },
     {
       "id": "PAY2-Q35",
@@ -15778,7 +15966,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "適用除外の整理。",
       "point": "何が除外され、何が残るか",
-      "topic": "PAY2-18"
+      "topic": "PAY2-18",
+      "original_asset_ids": []
     },
     {
       "id": "PAY2-Q36",
@@ -15791,7 +15980,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "すべての社員（管理監督者なども含む）が対象。",
       "point": "対象は全社員",
-      "topic": "PAY2-18"
+      "topic": "PAY2-18",
+      "original_asset_ids": []
     },
     {
       "id": "PAY2-Q37",
@@ -15805,7 +15995,8 @@ window.APP_DATA = {
       "answer": "タイムカードやICカードの記録",
       "explain": "その他、パソコンの使用時間の記録など。",
       "point": "客観的な方法",
-      "topic": "PAY2-18"
+      "topic": "PAY2-18",
+      "original_asset_ids": []
     },
     {
       "id": "PAY3-Q01",
@@ -15818,7 +16009,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "諸手当の種類は会社ごとに取り決める。",
       "point": "『必ず』に注意",
-      "topic": "PAY3-1"
+      "topic": "PAY3-1",
+      "original_asset_ids": []
     },
     {
       "id": "PAY3-Q02",
@@ -15831,7 +16023,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "20時間を超えた5時間分の追加支給が必要。",
       "point": "固定時間と実績比較",
-      "topic": "PAY3-1"
+      "topic": "PAY3-1",
+      "original_asset_ids": []
     },
     {
       "id": "PAY3-Q03",
@@ -15845,7 +16038,8 @@ window.APP_DATA = {
       "answer": "2割5分以上",
       "explain": "時間外労働の基本率。",
       "point": "25%",
-      "topic": "PAY3-2"
+      "topic": "PAY3-2",
+      "original_asset_ids": []
     },
     {
       "id": "PAY3-Q04",
@@ -15859,7 +16053,8 @@ window.APP_DATA = {
       "answer": "3割5分以上",
       "explain": "法定休日労働の基本率。",
       "point": "35%",
-      "topic": "PAY3-2"
+      "topic": "PAY3-2",
+      "original_asset_ids": []
     },
     {
       "id": "PAY3-Q05",
@@ -15873,7 +16068,8 @@ window.APP_DATA = {
       "answer": "22時〜翌5時",
       "explain": "深夜労働の時間帯。",
       "point": "22〜5時",
-      "topic": "PAY3-2"
+      "topic": "PAY3-2",
+      "original_asset_ids": []
     },
     {
       "id": "PAY3-Q06",
@@ -15887,7 +16083,8 @@ window.APP_DATA = {
       "answer": "5割以上",
       "explain": "時間外25%＋深夜25%。",
       "point": "25+25",
-      "topic": "PAY3-2"
+      "topic": "PAY3-2",
+      "original_asset_ids": []
     },
     {
       "id": "PAY3-Q07",
@@ -15901,7 +16098,8 @@ window.APP_DATA = {
       "answer": "6割以上",
       "explain": "休日35%＋深夜25%。",
       "point": "35+25",
-      "topic": "PAY3-2"
+      "topic": "PAY3-2",
+      "original_asset_ids": []
     },
     {
       "id": "PAY3-Q08",
@@ -15914,7 +16112,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "所定を超えるが法定8時間以内なので法定内時間外。",
       "point": "所定超・法定内",
-      "topic": "PAY3-3"
+      "topic": "PAY3-3",
+      "original_asset_ids": []
     },
     {
       "id": "PAY3-Q09",
@@ -15927,7 +16126,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "法定休日労働では、8時間超を理由に時間外割増を重ねる扱いではない。",
       "point": "休日と時間外を混同しない",
-      "topic": "PAY3-3"
+      "topic": "PAY3-3",
+      "original_asset_ids": []
     },
     {
       "id": "PAY3-Q10",
@@ -15941,7 +16141,8 @@ window.APP_DATA = {
       "answer": "1か月平均所定労働時間",
       "explain": "月給制の基本式。",
       "point": "月給÷月平均所定時間",
-      "topic": "PAY3-4"
+      "topic": "PAY3-4",
+      "original_asset_ids": []
     },
     {
       "id": "PAY3-Q11",
@@ -15954,7 +16155,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "名称ではなく支給実態で判断する。",
       "point": "名称では決めない",
-      "topic": "PAY3-5"
+      "topic": "PAY3-5",
+      "original_asset_ids": []
     },
     {
       "id": "PAY3-Q12",
@@ -15967,7 +16169,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "扶養人数に応じない一律支給は基礎に含める。",
       "point": "支給実態",
-      "topic": "PAY3-5"
+      "topic": "PAY3-5",
+      "original_asset_ids": []
     },
     {
       "id": "PAY3-Q13",
@@ -15980,7 +16183,8 @@ window.APP_DATA = {
       "answer": "切捨て",
       "explain": "50銭未満は切捨て。",
       "point": "50銭基準",
-      "topic": "PAY3-6"
+      "topic": "PAY3-6",
+      "original_asset_ids": []
     },
     {
       "id": "PAY3-Q14",
@@ -15993,7 +16197,8 @@ window.APP_DATA = {
       "answer": "1日→1週→変形期間",
       "explain": "段階的に判定し、重複計上しない。",
       "point": "1日→週→期間",
-      "topic": "PAY3-7"
+      "topic": "PAY3-7",
+      "original_asset_ids": []
     },
     {
       "id": "PAY3-Q15",
@@ -16007,7 +16212,8 @@ window.APP_DATA = {
       "answer": "171.4時間",
       "explain": "画像の上限表より。",
       "point": "30日=171.4h",
-      "topic": "PAY3-7"
+      "topic": "PAY3-7",
+      "original_asset_ids": []
     },
     {
       "id": "PAY3-Q16",
@@ -16021,7 +16227,8 @@ window.APP_DATA = {
       "answer": "5割以上",
       "explain": "60時間超部分は5割以上。",
       "point": "60h超=50%",
-      "topic": "PAY3-8"
+      "topic": "PAY3-8",
+      "original_asset_ids": []
     },
     {
       "id": "PAY3-Q17",
@@ -16035,7 +16242,8 @@ window.APP_DATA = {
       "answer": "2か月以内",
       "explain": "画像の説明による。",
       "point": "2か月以内",
-      "topic": "PAY3-8"
+      "topic": "PAY3-8",
+      "original_asset_ids": []
     },
     {
       "id": "PAY3-Q18",
@@ -16048,7 +16256,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "正当な手続により労働義務を免除された日として全労働日に含めない。",
       "point": "代替休暇と年休出勤率",
-      "topic": "PAY3-8"
+      "topic": "PAY3-8",
+      "original_asset_ids": []
     },
     {
       "id": "PAY3-Q19",
@@ -16061,7 +16270,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "前者はノーワーク・ノーペイ、後者は制裁。",
       "point": "控除と制裁の区別",
-      "topic": "PAY3-9"
+      "topic": "PAY3-9",
+      "original_asset_ids": []
     },
     {
       "id": "PAY3-Q20",
@@ -16074,7 +16284,8 @@ window.APP_DATA = {
       "answer": "1年間の月平均所定労働日数で割る方法、またはその月の所定労働日数で割る方法",
       "explain": "会社の規定によって方法がある。",
       "point": "欠勤控除の分母",
-      "topic": "PAY3-9"
+      "topic": "PAY3-9",
+      "original_asset_ids": []
     },
     {
       "id": "PAY3-Q21",
@@ -16088,7 +16299,8 @@ window.APP_DATA = {
       "answer": "平均賃金1日分の半額",
       "explain": "労基法上の制限。",
       "point": "1回=半額",
-      "topic": "PAY3-10"
+      "topic": "PAY3-10",
+      "original_asset_ids": []
     },
     {
       "id": "PAY3-Q22",
@@ -16102,7 +16314,8 @@ window.APP_DATA = {
       "answer": "賃金総額の10分の1",
       "explain": "総額制限。",
       "point": "総額=10分の1",
-      "topic": "PAY3-10"
+      "topic": "PAY3-10",
+      "original_asset_ids": []
     },
     {
       "id": "PAY3-Q23",
@@ -16116,7 +16329,8 @@ window.APP_DATA = {
       "answer": "直前3か月の賃金総額÷その期間の総日数",
       "explain": "算定事由発生日以前3か月で計算。",
       "point": "3か月÷総日数",
-      "topic": "PAY3-11"
+      "topic": "PAY3-11",
+      "original_asset_ids": []
     },
     {
       "id": "PAY3-Q24",
@@ -16129,7 +16343,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "直前の賃金締切日から起算する。",
       "point": "締切日あり",
-      "topic": "PAY3-11"
+      "topic": "PAY3-11",
+      "original_asset_ids": []
     },
     {
       "id": "PAY3-Q25",
@@ -16142,7 +16357,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "画像に算定期間から除外する期間として示されている。",
       "point": "除外期間",
-      "topic": "PAY3-11"
+      "topic": "PAY3-11",
+      "original_asset_ids": []
     },
     {
       "id": "PAY3-Q26",
@@ -16156,7 +16372,8 @@ window.APP_DATA = {
       "answer": "15万円",
       "explain": "月15万円まで非課税。",
       "point": "公共交通=15万円",
-      "topic": "PAY3-12"
+      "topic": "PAY3-12",
+      "original_asset_ids": []
     },
     {
       "id": "PAY3-Q27",
@@ -16169,7 +16386,8 @@ window.APP_DATA = {
       "answer": "1か月当たりに換算して報酬へ算入",
       "explain": "標準報酬月額に反映するため月割り。",
       "point": "社会保険は月額換算",
-      "topic": "PAY3-13"
+      "topic": "PAY3-13",
+      "original_asset_ids": []
     },
     {
       "id": "PAY3-Q28",
@@ -16182,7 +16400,8 @@ window.APP_DATA = {
       "answer": "支給された通勤手当全額を賃金として扱う",
       "explain": "雇用保険では1か月額への換算は不要と説明されている。",
       "point": "雇用保険は支給額",
-      "topic": "PAY3-13"
+      "topic": "PAY3-13",
+      "original_asset_ids": []
     },
     {
       "id": "PAY3-Q29",
@@ -16195,7 +16414,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "2つの要件をともに満たす場合。",
       "point": "50%＋7,500円",
-      "topic": "PAY3-14"
+      "topic": "PAY3-14",
+      "original_asset_ids": []
     },
     {
       "id": "PAY3-Q30",
@@ -16208,7 +16428,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "社宅の非課税判断。",
       "point": "50%以上負担",
-      "topic": "PAY3-14"
+      "topic": "PAY3-14",
+      "original_asset_ids": []
     },
     {
       "id": "PAY3-Q31",
@@ -16221,7 +16442,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "画像の3分の2基準。",
       "point": "3分の2",
-      "topic": "PAY3-14"
+      "topic": "PAY3-14",
+      "original_asset_ids": []
     },
     {
       "id": "PAY3-Q32",
@@ -16235,7 +16457,8 @@ window.APP_DATA = {
       "answer": "被保険者の勤務地・適用事業所所在地",
       "explain": "勤務する適用事業所の所在地で決める。",
       "point": "勤務地側",
-      "topic": "PAY3-14"
+      "topic": "PAY3-14",
+      "original_asset_ids": []
     },
     {
       "id": "PAY3-Q33",
@@ -16248,7 +16471,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "画像では派遣元事業所の所在地で決定すると説明されている。",
       "point": "派遣元",
-      "topic": "PAY3-14"
+      "topic": "PAY3-14",
+      "original_asset_ids": []
     },
     {
       "id": "PAY4-Q01",
@@ -16262,7 +16486,8 @@ window.APP_DATA = {
       "answer": "社会保険→税金→その他",
       "explain": "画像の3ステップ。",
       "point": "所得税は社会保険控除後",
-      "topic": "PAY4-2"
+      "topic": "PAY4-2",
+      "original_asset_ids": []
     },
     {
       "id": "PAY4-Q02",
@@ -16275,7 +16500,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "法定控除とは別に労使協定等による控除。",
       "point": "法定控除か会社独自か",
-      "topic": "PAY4-1"
+      "topic": "PAY4-1",
+      "original_asset_ids": []
     },
     {
       "id": "PAY4-Q03",
@@ -16288,7 +16514,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "原則として翌月支払給与から控除。",
       "point": "翌月控除",
-      "topic": "PAY4-3"
+      "topic": "PAY4-3",
+      "original_asset_ids": []
     },
     {
       "id": "PAY4-Q04",
@@ -16301,7 +16528,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "資格取得月から発生。",
       "point": "資格取得月",
-      "topic": "PAY4-4"
+      "topic": "PAY4-4",
+      "original_asset_ids": []
     },
     {
       "id": "PAY4-Q05",
@@ -16314,7 +16542,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "資格喪失日は退職日の翌日なので4月1日。",
       "point": "退職日の翌日",
-      "topic": "PAY4-4"
+      "topic": "PAY4-4",
+      "original_asset_ids": []
     },
     {
       "id": "PAY4-Q06",
@@ -16328,7 +16557,8 @@ window.APP_DATA = {
       "answer": "40歳",
       "explain": "40歳から介護保険の被保険者。",
       "point": "40歳",
-      "topic": "PAY4-4"
+      "topic": "PAY4-4",
+      "original_asset_ids": []
     },
     {
       "id": "PAY4-Q07",
@@ -16341,7 +16571,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "40歳到達日は誕生日の前日3月31日なので3月分から。",
       "point": "誕生日の前日",
-      "topic": "PAY4-4"
+      "topic": "PAY4-4",
+      "original_asset_ids": []
     },
     {
       "id": "PAY4-Q08",
@@ -16355,7 +16586,8 @@ window.APP_DATA = {
       "answer": "賃金総支給額×雇用保険料率",
       "explain": "雇用保険料の基本式。",
       "point": "総支給額",
-      "topic": "PAY4-5"
+      "topic": "PAY4-5",
+      "original_asset_ids": []
     },
     {
       "id": "PAY4-Q09",
@@ -16368,7 +16600,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "画像では賃金に含まれる。",
       "point": "通勤手当も対象",
-      "topic": "PAY4-5"
+      "topic": "PAY4-5",
+      "original_asset_ids": []
     },
     {
       "id": "PAY4-Q10",
@@ -16381,7 +16614,8 @@ window.APP_DATA = {
       "answer": "切捨て",
       "explain": "画像の端数処理。",
       "point": "50銭以下",
-      "topic": "PAY4-5"
+      "topic": "PAY4-5",
+      "original_asset_ids": []
     },
     {
       "id": "PAY4-Q11",
@@ -16395,7 +16629,8 @@ window.APP_DATA = {
       "answer": "社会保険料等控除後の給与額",
       "explain": "社会保険料等を控除後の額を使う。",
       "point": "控除後給与",
-      "topic": "PAY4-6"
+      "topic": "PAY4-6",
+      "original_asset_ids": []
     },
     {
       "id": "PAY4-Q12",
@@ -16408,7 +16643,8 @@ window.APP_DATA = {
       "answer": "甲欄",
       "explain": "申告書提出ありは甲欄。",
       "point": "あり=甲欄",
-      "topic": "PAY4-7"
+      "topic": "PAY4-7",
+      "original_asset_ids": []
     },
     {
       "id": "PAY4-Q13",
@@ -16421,7 +16657,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "提出なしは乙欄。",
       "point": "なし=乙欄",
-      "topic": "PAY4-7"
+      "topic": "PAY4-7",
+      "original_asset_ids": []
     },
     {
       "id": "PAY4-Q14",
@@ -16434,7 +16671,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "画像では16歳未満は原則含めない。",
       "point": "16歳",
-      "topic": "PAY4-8"
+      "topic": "PAY4-8",
+      "original_asset_ids": []
     },
     {
       "id": "PAY4-Q15",
@@ -16448,7 +16686,8 @@ window.APP_DATA = {
       "answer": "19歳以上23歳未満",
       "explain": "画像の年齢区分。",
       "point": "19〜23歳未満",
-      "topic": "PAY4-8"
+      "topic": "PAY4-8",
+      "original_asset_ids": []
     },
     {
       "id": "PAY4-Q16",
@@ -16462,7 +16701,8 @@ window.APP_DATA = {
       "answer": "70歳以上",
       "explain": "画像の年齢区分。",
       "point": "70歳以上",
-      "topic": "PAY4-8"
+      "topic": "PAY4-8",
+      "original_asset_ids": []
     },
     {
       "id": "PAY4-Q17",
@@ -16475,7 +16715,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "原則の納付期限。",
       "point": "翌月10日",
-      "topic": "PAY4-10"
+      "topic": "PAY4-10",
+      "original_asset_ids": []
     },
     {
       "id": "PAY4-Q18",
@@ -16489,7 +16730,8 @@ window.APP_DATA = {
       "answer": "7月10日",
       "explain": "画像の特例。",
       "point": "7/10",
-      "topic": "PAY4-10"
+      "topic": "PAY4-10",
+      "original_asset_ids": []
     },
     {
       "id": "PAY4-Q19",
@@ -16502,7 +16744,8 @@ window.APP_DATA = {
       "answer": "前年の所得",
       "explain": "住民税は前年所得に対して課税。",
       "point": "前年所得",
-      "topic": "PAY4-11"
+      "topic": "PAY4-11",
+      "original_asset_ids": []
     },
     {
       "id": "PAY4-Q20",
@@ -16516,7 +16759,8 @@ window.APP_DATA = {
       "answer": "1月31日",
       "explain": "毎年1月31日まで。",
       "point": "1/31",
-      "topic": "PAY4-12"
+      "topic": "PAY4-12",
+      "original_asset_ids": []
     },
     {
       "id": "PAY4-Q21",
@@ -16530,7 +16774,8 @@ window.APP_DATA = {
       "answer": "6月〜翌5月",
       "explain": "12か月に分けて控除。",
       "point": "6月〜翌5月",
-      "topic": "PAY4-12"
+      "topic": "PAY4-12",
+      "original_asset_ids": []
     },
     {
       "id": "PAY4-Q22",
@@ -16543,7 +16788,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "原則の納期限。",
       "point": "翌月10日",
-      "topic": "PAY4-12"
+      "topic": "PAY4-12",
+      "original_asset_ids": []
     },
     {
       "id": "PAY4-Q23",
@@ -16556,7 +16802,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "1月1日〜5月31日の退職は原則一括徴収。",
       "point": "1〜5月退職",
-      "topic": "PAY4-13"
+      "topic": "PAY4-13",
+      "original_asset_ids": []
     },
     {
       "id": "PAY4-Q24",
@@ -16571,7 +16818,8 @@ window.APP_DATA = {
       "answer": "必ず一括徴収のみ",
       "explain": "6〜12月退職は3つから選択可能。",
       "point": "6〜12月退職",
-      "topic": "PAY4-13"
+      "topic": "PAY4-13",
+      "original_asset_ids": []
     },
     {
       "id": "PAY5-Q01",
@@ -16584,7 +16832,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "年3回以下の支給を賞与としている。",
       "point": "年3回以下",
-      "topic": "PAY5-1"
+      "topic": "PAY5-1",
+      "original_asset_ids": []
     },
     {
       "id": "PAY5-Q02",
@@ -16597,7 +16846,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "年間4回以上は賞与として扱わない。",
       "point": "年4回以上",
-      "topic": "PAY5-1"
+      "topic": "PAY5-1",
+      "original_asset_ids": []
     },
     {
       "id": "PAY5-Q03",
@@ -16611,7 +16861,8 @@ window.APP_DATA = {
       "answer": "5日以内",
       "explain": "5日以内に提出する。",
       "point": "5日以内",
-      "topic": "PAY5-1"
+      "topic": "PAY5-1",
+      "original_asset_ids": []
     },
     {
       "id": "PAY5-Q04",
@@ -16625,7 +16876,8 @@ window.APP_DATA = {
       "answer": "1,000円未満",
       "explain": "標準賞与額は1,000円未満切捨て。",
       "point": "1,000円未満",
-      "topic": "PAY5-1"
+      "topic": "PAY5-1",
+      "original_asset_ids": []
     },
     {
       "id": "PAY5-Q05",
@@ -16639,7 +16891,8 @@ window.APP_DATA = {
       "answer": "健康保険：年度累計573万円 / 厚生年金：支給1回150万円",
       "explain": "資料に示された上限。",
       "point": "573万円・150万円",
-      "topic": "PAY5-1"
+      "topic": "PAY5-1",
+      "original_asset_ids": []
     },
     {
       "id": "PAY5-Q06",
@@ -16652,7 +16905,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "賞与では標準賞与額を基礎にする。",
       "point": "標準賞与額",
-      "topic": "PAY5-2"
+      "topic": "PAY5-2",
+      "original_asset_ids": []
     },
     {
       "id": "PAY5-Q07",
@@ -16665,7 +16919,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "資料に示された退職時の取扱い。",
       "point": "資格喪失月",
-      "topic": "PAY5-2"
+      "topic": "PAY5-2",
+      "original_asset_ids": []
     },
     {
       "id": "PAY5-Q08",
@@ -16678,7 +16933,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "賞与保険料も免除される。",
       "point": "育休免除",
-      "topic": "PAY5-2"
+      "topic": "PAY5-2",
+      "original_asset_ids": []
     },
     {
       "id": "PAY5-Q09",
@@ -16691,7 +16947,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "賞与は支給月から控除。",
       "point": "40歳到達月",
-      "topic": "PAY5-2"
+      "topic": "PAY5-2",
+      "original_asset_ids": []
     },
     {
       "id": "PAY5-Q10",
@@ -16704,7 +16961,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "賞与も賃金として扱う。",
       "point": "賞与も賃金",
-      "topic": "PAY5-3"
+      "topic": "PAY5-3",
+      "original_asset_ids": []
     },
     {
       "id": "PAY5-Q11",
@@ -16718,7 +16976,8 @@ window.APP_DATA = {
       "answer": "賃金総支給額×雇用保険料率（労働者負担分）",
       "explain": "賃金総支給額を基礎とする。",
       "point": "賃金総支給額",
-      "topic": "PAY5-3"
+      "topic": "PAY5-3",
+      "original_asset_ids": []
     },
     {
       "id": "PAY5-Q12",
@@ -16731,7 +16990,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "労災保険は会社負担のみ。",
       "point": "労災＝会社負担",
-      "topic": "PAY5-3"
+      "topic": "PAY5-3",
+      "original_asset_ids": []
     },
     {
       "id": "PAY5-Q13",
@@ -16745,7 +17005,8 @@ window.APP_DATA = {
       "answer": "前月の社会保険料等控除後給与と扶養親族等の数",
       "explain": "算出率表に当てはめる。",
       "point": "前月給与＋扶養親族等",
-      "topic": "PAY5-4"
+      "topic": "PAY5-4",
+      "original_asset_ids": []
     },
     {
       "id": "PAY5-Q14",
@@ -16758,7 +17019,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "社会保険料等控除後の賞与額を使う。",
       "point": "控除後賞与",
-      "topic": "PAY5-4"
+      "topic": "PAY5-4",
+      "original_asset_ids": []
     },
     {
       "id": "PAY5-Q15",
@@ -16772,7 +17034,8 @@ window.APP_DATA = {
       "answer": "1/6",
       "explain": "原則1/6。",
       "point": "1/6",
-      "topic": "PAY5-4"
+      "topic": "PAY5-4",
+      "original_asset_ids": []
     },
     {
       "id": "PAY5-Q16",
@@ -16785,7 +17048,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "資料の注記による。",
       "point": "6か月超",
-      "topic": "PAY5-4"
+      "topic": "PAY5-4",
+      "original_asset_ids": []
     },
     {
       "id": "PAY5-Q17",
@@ -16798,7 +17062,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "年間で差額を調整する。",
       "point": "年間精算",
-      "topic": "PAY5-5"
+      "topic": "PAY5-5",
+      "original_asset_ids": []
     },
     {
       "id": "PAY5-Q18",
@@ -16812,7 +17077,8 @@ window.APP_DATA = {
       "answer": "12月31日",
       "explain": "基本的に12月31日が基準。",
       "point": "12月31日",
-      "topic": "PAY5-5"
+      "topic": "PAY5-5",
+      "original_asset_ids": []
     },
     {
       "id": "PAY5-Q19",
@@ -16825,7 +17091,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "年末に精算するものとして説明されている。",
       "point": "各種控除",
-      "topic": "PAY5-5"
+      "topic": "PAY5-5",
+      "original_asset_ids": []
     },
     {
       "id": "PAY5-Q20",
@@ -16839,7 +17106,8 @@ window.APP_DATA = {
       "answer": "出題されない",
       "explain": "資料では2級では出題されない。",
       "point": "2級では出題されない",
-      "topic": "PAY5-5"
+      "topic": "PAY5-5",
+      "original_asset_ids": []
     },
     {
       "id": "LAB1-Q01",
@@ -16852,7 +17120,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "資料では最低の基準とされている。",
       "point": "最低基準",
-      "topic": "LAB1-1"
+      "topic": "LAB1-1",
+      "original_asset_ids": []
     },
     {
       "id": "LAB1-Q02",
@@ -16865,7 +17134,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "労働条件は労使対等の立場で決定する。",
       "point": "労使対等",
-      "topic": "LAB1-1"
+      "topic": "LAB1-1",
+      "original_asset_ids": []
     },
     {
       "id": "LAB1-Q03",
@@ -16879,7 +17149,8 @@ window.APP_DATA = {
       "answer": "賃金",
       "explain": "資料では性別を理由とする賃金の差別的取扱いを禁止している。",
       "point": "男女同一賃金＝賃金",
-      "topic": "LAB1-1"
+      "topic": "LAB1-1",
+      "original_asset_ids": []
     },
     {
       "id": "LAB1-Q04",
@@ -16894,7 +17165,8 @@ window.APP_DATA = {
       "answer": "国籍・信条・社会的身分",
       "explain": "資料に示された3要素。",
       "point": "国籍・信条・社会的身分",
-      "topic": "LAB1-1"
+      "topic": "LAB1-1",
+      "original_asset_ids": []
     },
     {
       "id": "LAB1-Q05",
@@ -16907,7 +17179,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "資料では合意により成立するとされている。",
       "point": "合意で成立",
-      "topic": "LAB1-2"
+      "topic": "LAB1-2",
+      "original_asset_ids": []
     },
     {
       "id": "LAB1-Q06",
@@ -16920,7 +17193,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "基準に達しない部分が無効となり、その部分は法定基準による。",
       "point": "違反部分のみ無効",
-      "topic": "LAB1-2"
+      "topic": "LAB1-2",
+      "original_asset_ids": []
     },
     {
       "id": "LAB1-Q07",
@@ -16934,7 +17208,8 @@ window.APP_DATA = {
       "answer": "法令 ≥ 労働協約 ≥ 就業規則 ≥ 労働契約",
       "explain": "資料の図のとおり。",
       "point": "効力の順序",
-      "topic": "LAB1-2"
+      "topic": "LAB1-2",
+      "original_asset_ids": []
     },
     {
       "id": "LAB1-Q08",
@@ -16948,7 +17223,8 @@ window.APP_DATA = {
       "answer": "賠償予定・前借金相殺・強制貯金",
       "explain": "資料の『金銭に関する禁止事項』。",
       "point": "3つの禁止",
-      "topic": "LAB1-2"
+      "topic": "LAB1-2",
+      "original_asset_ids": []
     },
     {
       "id": "LAB1-Q09",
@@ -16961,7 +17237,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "更新時も改めて明示が必要。",
       "point": "更新時も明示",
-      "topic": "LAB1-3"
+      "topic": "LAB1-3",
+      "original_asset_ids": []
     },
     {
       "id": "LAB1-Q10",
@@ -16975,7 +17252,8 @@ window.APP_DATA = {
       "answer": "定めがある場合に明示する事項",
       "explain": "絶対的明示事項と区別する。",
       "point": "相対的＝定めがある場合",
-      "topic": "LAB1-3"
+      "topic": "LAB1-3",
+      "original_asset_ids": []
     },
     {
       "id": "LAB1-Q11",
@@ -16988,7 +17266,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "資料に示された効果。",
       "point": "事実と相違→即時解除",
-      "topic": "LAB1-3"
+      "topic": "LAB1-3",
+      "original_asset_ids": []
     },
     {
       "id": "LAB1-Q12",
@@ -17002,7 +17281,8 @@ window.APP_DATA = {
       "answer": "14日以内",
       "explain": "14日以内に帰郷する場合、使用者が必要な旅費を負担する。",
       "point": "14日以内",
-      "topic": "LAB1-3"
+      "topic": "LAB1-3",
+      "original_asset_ids": []
     },
     {
       "id": "LAB1-Q13",
@@ -17016,7 +17296,8 @@ window.APP_DATA = {
       "answer": "3年",
       "explain": "原則として3年を超えてはならない。",
       "point": "原則3年",
-      "topic": "LAB1-4"
+      "topic": "LAB1-4",
+      "original_asset_ids": []
     },
     {
       "id": "LAB1-Q14",
@@ -17029,7 +17310,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "原則3年に対する例外として示されている。",
       "point": "60歳以上→5年",
-      "topic": "LAB1-4"
+      "topic": "LAB1-4",
+      "original_asset_ids": []
     },
     {
       "id": "LAB1-Q15",
@@ -17042,7 +17324,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "資料では契約期間中の解雇についてこの基準が示されている。",
       "point": "やむを得ない事由",
-      "topic": "LAB1-4"
+      "topic": "LAB1-4",
+      "original_asset_ids": []
     },
     {
       "id": "LAB1-Q16",
@@ -17055,7 +17338,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "資料の無期転換の基本構造。",
       "point": "通算5年超＋申込み",
-      "topic": "LAB1-4"
+      "topic": "LAB1-4",
+      "original_asset_ids": []
     },
     {
       "id": "LAB1-Q17",
@@ -17069,7 +17353,8 @@ window.APP_DATA = {
       "answer": "常時10人以上",
       "explain": "資料では常時10人以上。",
       "point": "10人以上",
-      "topic": "LAB1-5"
+      "topic": "LAB1-5",
+      "original_asset_ids": []
     },
     {
       "id": "LAB1-Q18",
@@ -17082,7 +17367,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "事業場単位で判断する。",
       "point": "事業場単位",
-      "topic": "LAB1-5"
+      "topic": "LAB1-5",
+      "original_asset_ids": []
     },
     {
       "id": "LAB1-Q19",
@@ -17095,7 +17381,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "資料では『意見を聴く』ことが必要であり、同意とはされていない。",
       "point": "意見聴取≠同意",
-      "topic": "LAB1-5"
+      "topic": "LAB1-5",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q01",
@@ -17108,7 +17395,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "画像の体系では、公的年金制度を国民年金と厚生年金保険に区分している。",
       "point": "公的年金の種類",
-      "topic": "PEN1-1"
+      "topic": "PEN1-1",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q02",
@@ -17123,7 +17411,8 @@ window.APP_DATA = {
       "answer": "第1号・第2号・第3号",
       "explain": "強制加入被保険者は第1号・第2号・第3号。",
       "point": "1号・2号・3号",
-      "topic": "PEN1-2"
+      "topic": "PEN1-2",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q03",
@@ -17136,7 +17425,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "第1号被保険者は原則として日本国内に住所を有する20歳以上60歳未満の者。",
       "point": "20歳・60歳",
-      "topic": "PEN1-2"
+      "topic": "PEN1-2",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q04",
@@ -17149,7 +17439,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "第2号被保険者には国内居住要件がない。",
       "point": "第2号＋国内住所",
-      "topic": "PEN1-2"
+      "topic": "PEN1-2",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q05",
@@ -17164,7 +17455,8 @@ window.APP_DATA = {
       "answer": "配偶者",
       "explain": "第3号被保険者は第2号被保険者の配偶者。",
       "point": "配偶者",
-      "topic": "PEN1-2"
+      "topic": "PEN1-2",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q06",
@@ -17179,7 +17471,8 @@ window.APP_DATA = {
       "answer": "20歳以上60歳未満",
       "explain": "第3号被保険者の基本年齢は20歳以上60歳未満。",
       "point": "20歳～60歳未満",
-      "topic": "PEN1-2"
+      "topic": "PEN1-2",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q07",
@@ -17192,7 +17485,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "画像の確認欄に年間収入130万円未満が示されている。",
       "point": "130万円未満",
-      "topic": "PEN1-2"
+      "topic": "PEN1-2",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q08",
@@ -17205,7 +17499,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "日本国内に住所を有する60歳以上65歳未満の者は任意加入の対象に含まれる。",
       "point": "国内＋60～65歳未満",
-      "topic": "PEN1-2"
+      "topic": "PEN1-2",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q09",
@@ -17218,7 +17513,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "海外居住の日本国籍20歳以上65歳未満の者が任意加入の対象として示されている。",
       "point": "国外＋日本国籍＋20～65歳未満",
-      "topic": "PEN1-2"
+      "topic": "PEN1-2",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q10",
@@ -17233,7 +17529,8 @@ window.APP_DATA = {
       "answer": "65歳以上70歳未満",
       "explain": "特例による任意加入は65歳以上70歳未満の一定の者。",
       "point": "65～70歳未満",
-      "topic": "PEN1-2"
+      "topic": "PEN1-2",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q11",
@@ -17246,7 +17543,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "60歳到達による資格喪失はその日。",
       "point": "60歳到達＝その日",
-      "topic": "PEN1-4"
+      "topic": "PEN1-4",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q12",
@@ -17259,7 +17557,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "死亡による資格喪失は原則として翌日。",
       "point": "死亡＝翌日",
-      "topic": "PEN1-4"
+      "topic": "PEN1-4",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q13",
@@ -17274,7 +17573,8 @@ window.APP_DATA = {
       "answer": "2分の1以上",
       "explain": "任意適用には2分の1以上の同意が必要。",
       "point": "加入＝1/2",
-      "topic": "PEN1-3"
+      "topic": "PEN1-3",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q14",
@@ -17289,7 +17589,8 @@ window.APP_DATA = {
       "answer": "4分の3以上",
       "explain": "任意適用の取消しには4分の3以上の同意が必要。",
       "point": "取消＝3/4",
-      "topic": "PEN1-3"
+      "topic": "PEN1-3",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q15",
@@ -17304,7 +17605,8 @@ window.APP_DATA = {
       "answer": "加入1/2以上・取消3/4以上",
       "explain": "加入は1/2以上、取消しは3/4以上。",
       "point": "1/2 ↔ 3/4",
-      "topic": "PEN1-3"
+      "topic": "PEN1-3",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q16",
@@ -17317,7 +17619,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "継続して4か月を超えて使用される予定なら当初から被保険者となる。",
       "point": "季節＝4か月超予定",
-      "topic": "PEN1-3"
+      "topic": "PEN1-3",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q17",
@@ -17332,7 +17635,8 @@ window.APP_DATA = {
       "answer": "4か月",
       "explain": "季節的業務は4か月を超える予定が基準。",
       "point": "4か月",
-      "topic": "PEN1-3"
+      "topic": "PEN1-3",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q18",
@@ -17347,7 +17651,8 @@ window.APP_DATA = {
       "answer": "6か月",
       "explain": "臨時的事業は6か月を超える予定が基準。",
       "point": "6か月",
-      "topic": "PEN1-3"
+      "topic": "PEN1-3",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q19",
@@ -17360,7 +17665,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "画像では両方が要件として示されている。",
       "point": "事業主同意＋認可",
-      "topic": "PEN1-3"
+      "topic": "PEN1-3",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q20",
@@ -17375,7 +17681,8 @@ window.APP_DATA = {
       "answer": "70歳以上",
       "explain": "70歳以上で老齢厚生年金等の受給権を有しない一定の者が対象。",
       "point": "70歳以上",
-      "topic": "PEN1-3"
+      "topic": "PEN1-3",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q21",
@@ -17388,7 +17695,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "70歳到達による資格喪失はその日。",
       "point": "70歳到達＝その日",
-      "topic": "PEN1-4"
+      "topic": "PEN1-4",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q22",
@@ -17401,7 +17709,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "被保険者期間は月によって計算する。",
       "point": "月単位",
-      "topic": "PEN1-5"
+      "topic": "PEN1-5",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q23",
@@ -17416,7 +17725,8 @@ window.APP_DATA = {
       "answer": "1か月",
       "explain": "同月得喪は原則1か月として算入する。",
       "point": "同月得喪＝1か月",
-      "topic": "PEN1-5"
+      "topic": "PEN1-5",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q24",
@@ -17431,7 +17741,8 @@ window.APP_DATA = {
       "answer": "4/3",
       "explain": "昭和61年3月31日までの一定期間は実期間の月数×4/3。",
       "point": "4/3",
-      "topic": "PEN1-5"
+      "topic": "PEN1-5",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q25",
@@ -17446,7 +17757,8 @@ window.APP_DATA = {
       "answer": "6/5",
       "explain": "この期間は実期間の月数×6/5。",
       "point": "6/5",
-      "topic": "PEN1-5"
+      "topic": "PEN1-5",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q01",
@@ -17459,7 +17771,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "画像では、付加保険料は定額保険料とは別に任意で納付するものとして整理されている。",
       "point": "付加保険料＝任意",
-      "topic": "PEN2-1"
+      "topic": "PEN2-1",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q02",
@@ -17474,7 +17787,8 @@ window.APP_DATA = {
       "answer": "400円",
       "explain": "付加保険料は月額400円と示されている。",
       "point": "付加保険料の金額",
-      "topic": "PEN2-1"
+      "topic": "PEN2-1",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q03",
@@ -17489,7 +17803,8 @@ window.APP_DATA = {
       "answer": "翌月末日",
       "explain": "毎月の保険料は翌月末日までに納付する。",
       "point": "納期限",
-      "topic": "PEN2-1"
+      "topic": "PEN2-1",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q04",
@@ -17502,7 +17817,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "画像では、口座振替で当月末に納付する早割制度が示されている。",
       "point": "早割＝口座振替・当月末",
-      "topic": "PEN2-1"
+      "topic": "PEN2-1",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q05",
@@ -17517,7 +17833,8 @@ window.APP_DATA = {
       "answer": "自動免除",
       "explain": "画像では法定免除、申請免除、学生納付特例、納付猶予が示されている。",
       "point": "免除等の4区分",
-      "topic": "PEN2-2"
+      "topic": "PEN2-2",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q06",
@@ -17532,7 +17849,8 @@ window.APP_DATA = {
       "answer": "全額・4分の3・半額・4分の1",
       "explain": "申請免除は全額、4分の3、半額、4分の1の4区分。",
       "point": "申請免除の割合",
-      "topic": "PEN2-2"
+      "topic": "PEN2-2",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q07",
@@ -17545,7 +17863,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "画像の確認欄では、任意加入被保険者はこれらの対象とならないと示されている。",
       "point": "任意加入は免除等の対象外",
-      "topic": "PEN2-2"
+      "topic": "PEN2-2",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q08",
@@ -17558,7 +17877,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "画像では、学生本人の所得が一定額以下であること等を要件としている。",
       "point": "学生本人の所得",
-      "topic": "PEN2-2"
+      "topic": "PEN2-2",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q09",
@@ -17573,7 +17893,8 @@ window.APP_DATA = {
       "answer": "10年",
       "explain": "追納について10年の範囲が示されている。",
       "point": "追納＝10年",
-      "topic": "PEN2-3"
+      "topic": "PEN2-3",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q10",
@@ -17586,7 +17907,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "画像では原則として先に経過した月、つまり古い期間から納付する。",
       "point": "追納順序",
-      "topic": "PEN2-3"
+      "topic": "PEN2-3",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q11",
@@ -17599,7 +17921,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "追納は承認を受けて行う仕組みとして示されている。",
       "point": "追納＝承認",
-      "topic": "PEN2-3"
+      "topic": "PEN2-3",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q12",
@@ -17612,7 +17935,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "画像では3年度目以降の追納について加算が示されている。",
       "point": "3年度目以降の加算",
-      "topic": "PEN2-3"
+      "topic": "PEN2-3",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q13",
@@ -17625,7 +17949,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "画像の報酬の定義では、そのように整理されている。",
       "point": "報酬の範囲",
-      "topic": "PEN2-4"
+      "topic": "PEN2-4",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q14",
@@ -17640,7 +17965,8 @@ window.APP_DATA = {
       "answer": "32等級",
       "explain": "厚生年金は第1級88,000円から第32級650,000円までの32等級。",
       "point": "厚生年金＝32等級",
-      "topic": "PEN2-4"
+      "topic": "PEN2-4",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q15",
@@ -17655,7 +17981,8 @@ window.APP_DATA = {
       "answer": "150万円",
       "explain": "厚生年金の標準賞与額は1か月150万円を上限とする。",
       "point": "厚年賞与上限150万円",
-      "topic": "PEN2-4"
+      "topic": "PEN2-4",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q16",
@@ -17670,7 +17997,8 @@ window.APP_DATA = {
       "answer": "573万円",
       "explain": "健康保険では4月1日から翌年3月31日までの年度累計573万円が上限。",
       "point": "健保賞与上限573万円",
-      "topic": "PEN2-4"
+      "topic": "PEN2-4",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q17",
@@ -17685,7 +18013,8 @@ window.APP_DATA = {
       "answer": "4・5・6月",
       "explain": "定時決定では原則として4月、5月、6月の報酬を基礎にする。",
       "point": "定時決定＝4・5・6月",
-      "topic": "PEN2-5"
+      "topic": "PEN2-5",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q18",
@@ -17700,7 +18029,8 @@ window.APP_DATA = {
       "answer": "9月",
       "explain": "その年の9月から翌年8月まで用いる。",
       "point": "定時決定＝9月適用",
-      "topic": "PEN2-5"
+      "topic": "PEN2-5",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q19",
@@ -17713,7 +18043,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "画像では固定的賃金の変動、3か月、原則2等級以上の差を判断軸としている。",
       "point": "随時改定の要件",
-      "topic": "PEN2-5"
+      "topic": "PEN2-5",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q20",
@@ -17728,7 +18059,8 @@ window.APP_DATA = {
       "answer": "4か月目",
       "explain": "変動月から3か月間を見て、その次の4か月目から改定する。",
       "point": "随時改定＝4か月目",
-      "topic": "PEN2-5"
+      "topic": "PEN2-5",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q21",
@@ -17743,7 +18075,8 @@ window.APP_DATA = {
       "answer": "18.3%",
       "explain": "保険料率は1000分の183、すなわち18.3%と示されている。",
       "point": "保険料率18.3%",
-      "topic": "PEN2-6"
+      "topic": "PEN2-6",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q22",
@@ -17756,7 +18089,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "画像では労使折半が原則として示されている。",
       "point": "労使折半",
-      "topic": "PEN2-6"
+      "topic": "PEN2-6",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q23",
@@ -17771,7 +18105,8 @@ window.APP_DATA = {
       "answer": "事業主",
       "explain": "事業主は被保険者負担分と自己負担分を合わせて納付する。",
       "point": "納付義務者＝事業主",
-      "topic": "PEN2-6"
+      "topic": "PEN2-6",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q24",
@@ -17786,7 +18121,8 @@ window.APP_DATA = {
       "answer": "翌月末日",
       "explain": "毎月の保険料は翌月末日までに納付する。",
       "point": "厚年納期限＝翌月末日",
-      "topic": "PEN2-6"
+      "topic": "PEN2-6",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q25",
@@ -17799,7 +18135,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "画像では事業主が実施機関へ申し出る仕組みとして示されている。",
       "point": "育児休業免除＝事業主の申出",
-      "topic": "PEN2-7"
+      "topic": "PEN2-7",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q26",
@@ -17812,7 +18149,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "画像の表では同月内の場合の14日以上という要件が示されている。",
       "point": "同月の育休＝14日以上",
-      "topic": "PEN2-7"
+      "topic": "PEN2-7",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q27",
@@ -17827,7 +18165,8 @@ window.APP_DATA = {
       "answer": "前月分",
       "explain": "原則として、報酬支払時に前月分の被保険者負担保険料を控除できる。",
       "point": "給与控除＝原則前月分",
-      "topic": "PEN2-7"
+      "topic": "PEN2-7",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q28",
@@ -17840,7 +18179,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "画像の確認欄では、当月分を控除できるのは月末退職で翌月1日資格喪失の場合に限ると示されている。",
       "point": "月末退職＝当月分も控除可",
-      "topic": "PEN2-7"
+      "topic": "PEN2-7",
+      "original_asset_ids": []
     },
     {
       "id": "PEN3-Q01",
@@ -17855,7 +18195,8 @@ window.APP_DATA = {
       "answer": "老齢基礎年金",
       "explain": "老齢基礎年金は国民年金の給付として示されている。",
       "point": "国民年金の給付",
-      "topic": "PEN3-1"
+      "topic": "PEN3-1",
+      "original_asset_ids": []
     },
     {
       "id": "PEN3-Q02",
@@ -17868,7 +18209,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "障害手当金は厚生年金保険の欄にある。",
       "point": "障害手当金の位置づけ",
-      "topic": "PEN3-1"
+      "topic": "PEN3-1",
+      "original_asset_ids": []
     },
     {
       "id": "PEN3-Q03",
@@ -17881,7 +18223,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "注記で第1号被保険者のみに係る給付とされている。",
       "point": "第1号被保険者のみの給付",
-      "topic": "PEN3-1"
+      "topic": "PEN3-1",
+      "original_asset_ids": []
     },
     {
       "id": "PEN3-Q04",
@@ -17896,7 +18239,8 @@ window.APP_DATA = {
       "answer": "裁定",
       "explain": "給付を受ける権利は請求に基づいて裁定される。",
       "point": "裁定",
-      "topic": "PEN3-1"
+      "topic": "PEN3-1",
+      "original_asset_ids": []
     },
     {
       "id": "PEN3-Q05",
@@ -17909,7 +18253,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "50銭未満は切捨て。",
       "point": "50銭未満",
-      "topic": "PEN3-2"
+      "topic": "PEN3-2",
+      "original_asset_ids": []
     },
     {
       "id": "PEN3-Q06",
@@ -17924,7 +18269,8 @@ window.APP_DATA = {
       "answer": "その月の翌月",
       "explain": "支給は事由発生月の翌月から始まる。",
       "point": "翌月開始",
-      "topic": "PEN3-2"
+      "topic": "PEN3-2",
+      "original_asset_ids": []
     },
     {
       "id": "PEN3-Q07",
@@ -17939,7 +18285,8 @@ window.APP_DATA = {
       "answer": "2・4・6・8・10・12月",
       "explain": "原則として偶数月の6期に支払われる。",
       "point": "偶数月支払",
-      "topic": "PEN3-2"
+      "topic": "PEN3-2",
+      "original_asset_ids": []
     },
     {
       "id": "PEN3-Q08",
@@ -17952,7 +18299,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "未支給年金は一定の遺族が自己の名で請求できる。",
       "point": "未支給年金＋生計同一",
-      "topic": "PEN3-2"
+      "topic": "PEN3-2",
+      "original_asset_ids": []
     },
     {
       "id": "PEN3-Q09",
@@ -17965,7 +18313,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "確認欄で、将来に向かって撤回できるとされている。",
       "point": "支給停止の撤回",
-      "topic": "PEN3-3"
+      "topic": "PEN3-3",
+      "original_asset_ids": []
     },
     {
       "id": "PEN3-Q10",
@@ -17978,7 +18327,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "原則は1人1年金であり、すべて当然に併給されるわけではない。",
       "point": "1人1年金の原則",
-      "topic": "PEN3-3"
+      "topic": "PEN3-3",
+      "original_asset_ids": []
     },
     {
       "id": "PEN3-Q11",
@@ -17993,7 +18343,8 @@ window.APP_DATA = {
       "answer": "老齢厚生年金と老齢基礎年金",
       "explain": "同一の支給事由に基づくもの等として、老齢厚生年金と老齢基礎年金の組合せが示されている。",
       "point": "同一支給事由の併給",
-      "topic": "PEN3-3"
+      "topic": "PEN3-3",
+      "original_asset_ids": []
     },
     {
       "id": "PEN3-Q12",
@@ -18006,7 +18357,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "確認欄で併給されないと示されている。",
       "point": "寡婦年金と遺族厚生年金",
-      "topic": "PEN3-3"
+      "topic": "PEN3-3",
+      "original_asset_ids": []
     },
     {
       "id": "PEN3-Q13",
@@ -18019,7 +18371,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "65歳に達している場合に限り併給されるものとして整理されている。",
       "point": "65歳到達時の併給",
-      "topic": "PEN3-3"
+      "topic": "PEN3-3",
+      "original_asset_ids": []
     },
     {
       "id": "PEN3-Q14",
@@ -18032,7 +18385,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "受給権の保護の原則。",
       "point": "受給権の保護",
-      "topic": "PEN3-4"
+      "topic": "PEN3-4",
+      "original_asset_ids": []
     },
     {
       "id": "PEN3-Q15",
@@ -18047,7 +18401,8 @@ window.APP_DATA = {
       "answer": "老齢基礎年金",
       "explain": "例外として老齢基礎年金等が示されている。",
       "point": "差押え可能な例外",
-      "topic": "PEN3-4"
+      "topic": "PEN3-4",
+      "original_asset_ids": []
     },
     {
       "id": "PEN3-Q16",
@@ -18060,7 +18415,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "公課の禁止の原則。",
       "point": "公課の禁止",
-      "topic": "PEN3-4"
+      "topic": "PEN3-4",
+      "original_asset_ids": []
     },
     {
       "id": "PEN3-Q17",
@@ -18075,7 +18431,8 @@ window.APP_DATA = {
       "answer": "老齢厚生年金",
       "explain": "厚生年金保険法では老齢厚生年金が課税される給付として示されている。",
       "point": "課税される給付",
-      "topic": "PEN3-4"
+      "topic": "PEN3-4",
+      "original_asset_ids": []
     },
     {
       "id": "PEN3-Q18",
@@ -18090,7 +18447,8 @@ window.APP_DATA = {
       "answer": "3か月前",
       "explain": "支給開始年齢に達する3か月前に事前送付用が送付される。",
       "point": "3か月前",
-      "topic": "PEN3-5"
+      "topic": "PEN3-5",
+      "original_asset_ids": []
     },
     {
       "id": "PEN3-Q19",
@@ -18103,7 +18461,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "全員に必要な書類として示されている。",
       "point": "通帳等",
-      "topic": "PEN3-5"
+      "topic": "PEN3-5",
+      "original_asset_ids": []
     },
     {
       "id": "PEN3-Q20",
@@ -18116,7 +18475,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "戸籍関係書類や住民票の写し、収入確認書類等の追加書類が必要とされている。",
       "point": "20年以上＋配偶者又は子",
-      "topic": "PEN3-5"
+      "topic": "PEN3-5",
+      "original_asset_ids": []
     },
     {
       "id": "PEN3-Q21",
@@ -18129,7 +18489,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "その他の必要書類として示されている。",
       "point": "その他必要書類",
-      "topic": "PEN3-5"
+      "topic": "PEN3-5",
+      "original_asset_ids": []
     },
     {
       "id": "PEN3-Q22",
@@ -18142,7 +18503,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "65歳以後の請求の説明そのもの。",
       "point": "65歳での切替",
-      "topic": "PEN3-6"
+      "topic": "PEN3-6",
+      "original_asset_ids": []
     },
     {
       "id": "PEN3-Q23",
@@ -18157,7 +18519,8 @@ window.APP_DATA = {
       "answer": "誕生月の末日",
       "explain": "提出期限は誕生月の末日（1日生まれは前月末日）。",
       "point": "提出期限",
-      "topic": "PEN3-6"
+      "topic": "PEN3-6",
+      "original_asset_ids": []
     },
     {
       "id": "PEN3-Q24",
@@ -18170,7 +18533,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "1日生まれの者は前月の初め頃に送付、前月末日が提出期限。",
       "point": "1日生まれの特則",
-      "topic": "PEN3-6"
+      "topic": "PEN3-6",
+      "original_asset_ids": []
     },
     {
       "id": "PEN3-Q25",
@@ -18183,7 +18547,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "基礎年金のみ、厚生年金のみ、又は両方同時の繰下げが可能。",
       "point": "繰下げの選択肢",
-      "topic": "PEN3-7"
+      "topic": "PEN3-7",
+      "original_asset_ids": []
     },
     {
       "id": "PEN3-Q26",
@@ -18196,7 +18561,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "画像の表で、両方繰下げ希望の場合は提出しないと整理されている。",
       "point": "両方繰下げ",
-      "topic": "PEN3-7"
+      "topic": "PEN3-7",
+      "original_asset_ids": []
     },
     {
       "id": "PEN3-Q27",
@@ -18211,7 +18577,8 @@ window.APP_DATA = {
       "answer": "老齢基礎年金は65歳から受け取り、老齢厚生年金のみ繰下げる場合",
       "explain": "チェック欄の文言どおり、厚生年金のみを繰下げる場合に使う。",
       "point": "どちらを繰下げるか",
-      "topic": "PEN3-7"
+      "topic": "PEN3-7",
+      "original_asset_ids": []
     },
     {
       "id": "PEN4-Q01",
@@ -18224,7 +18591,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "65歳＋原則10年以上が基本。",
       "point": "65歳・10年",
-      "topic": "PEN4-1"
+      "topic": "PEN4-1",
+      "original_asset_ids": []
     },
     {
       "id": "PEN4-Q02",
@@ -18239,7 +18607,8 @@ window.APP_DATA = {
       "answer": "10年以上",
       "explain": "原資料では10年以上。",
       "point": "10年",
-      "topic": "PEN4-1"
+      "topic": "PEN4-1",
+      "original_asset_ids": []
     },
     {
       "id": "PEN4-Q03",
@@ -18252,7 +18621,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "受給資格期間には算入される。",
       "point": "学生納付特例・納付猶予",
-      "topic": "PEN4-1"
+      "topic": "PEN4-1",
+      "original_asset_ids": []
     },
     {
       "id": "PEN4-Q04",
@@ -18265,7 +18635,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "特例では合算対象期間も加える。",
       "point": "特例＋合算対象期間",
-      "topic": "PEN4-1"
+      "topic": "PEN4-1",
+      "original_asset_ids": []
     },
     {
       "id": "PEN4-Q05",
@@ -18278,7 +18649,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "第3号期間は納付済期間として示されている。",
       "point": "第3号",
-      "topic": "PEN4-2"
+      "topic": "PEN4-2",
+      "original_asset_ids": []
     },
     {
       "id": "PEN4-Q06",
@@ -18291,7 +18663,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "原資料では20歳以上60歳未満の期間が示されている。",
       "point": "第2号＋20～60歳",
-      "topic": "PEN4-2"
+      "topic": "PEN4-2",
+      "original_asset_ids": []
     },
     {
       "id": "PEN4-Q07",
@@ -18306,7 +18679,8 @@ window.APP_DATA = {
       "answer": "学生納付特例期間",
       "explain": "学生納付特例はこの免除期間から除かれる。",
       "point": "免除期間の範囲",
-      "topic": "PEN4-2"
+      "topic": "PEN4-2",
+      "original_asset_ids": []
     },
     {
       "id": "PEN4-Q08",
@@ -18319,7 +18693,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "第1号の納付済期間の説明に含まれている。",
       "point": "産前産後免除",
-      "topic": "PEN4-2"
+      "topic": "PEN4-2",
+      "original_asset_ids": []
     },
     {
       "id": "PEN4-Q09",
@@ -18332,7 +18707,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "受給資格には反映するが、年金額には反映しない。",
       "point": "資格のみ",
-      "topic": "PEN4-3"
+      "topic": "PEN4-3",
+      "original_asset_ids": []
     },
     {
       "id": "PEN4-Q10",
@@ -18347,7 +18723,8 @@ window.APP_DATA = {
       "answer": "20歳前及び60歳後の一定期間",
       "explain": "図で20歳前・60歳後が合算対象として示されている。",
       "point": "20歳前・60歳後",
-      "topic": "PEN4-3"
+      "topic": "PEN4-3",
+      "original_asset_ids": []
     },
     {
       "id": "PEN4-Q11",
@@ -18360,7 +18737,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "任意未加入期間が例示されている。",
       "point": "任意未加入",
-      "topic": "PEN4-3"
+      "topic": "PEN4-3",
+      "original_asset_ids": []
     },
     {
       "id": "PEN4-Q12",
@@ -18373,7 +18751,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "年金額には反映しない。",
       "point": "年金額には入らない",
-      "topic": "PEN4-3"
+      "topic": "PEN4-3",
+      "original_asset_ids": []
     },
     {
       "id": "PEN4-Q13",
@@ -18388,7 +18767,8 @@ window.APP_DATA = {
       "answer": "480月",
       "explain": "40年＝480月を基準として算定する。",
       "point": "480月",
-      "topic": "PEN4-4"
+      "topic": "PEN4-4",
+      "original_asset_ids": []
     },
     {
       "id": "PEN4-Q14",
@@ -18403,7 +18783,8 @@ window.APP_DATA = {
       "answer": "1/2",
       "explain": "平成21年4月以後の全額免除は1/2。",
       "point": "全額免除1/2",
-      "topic": "PEN4-4"
+      "topic": "PEN4-4",
+      "original_asset_ids": []
     },
     {
       "id": "PEN4-Q15",
@@ -18418,7 +18799,8 @@ window.APP_DATA = {
       "answer": "3/4",
       "explain": "半額免除は3/4で反映する。",
       "point": "半額免除3/4",
-      "topic": "PEN4-4"
+      "topic": "PEN4-4",
+      "original_asset_ids": []
     },
     {
       "id": "PEN4-Q16",
@@ -18431,7 +18813,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "原資料は2つの計算式を分けている。",
       "point": "平成21年3月/4月",
-      "topic": "PEN4-4"
+      "topic": "PEN4-4",
+      "original_asset_ids": []
     },
     {
       "id": "PEN4-Q17",
@@ -18444,7 +18827,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "年金額は480月を基準に納付・免除実績で計算する。",
       "point": "資格と年金額の区別",
-      "topic": "PEN4-4"
+      "topic": "PEN4-4",
+      "original_asset_ids": []
     },
     {
       "id": "PEN4-Q18",
@@ -18459,7 +18843,8 @@ window.APP_DATA = {
       "answer": "243,800円×生年月日に応じた率",
       "explain": "振替加算は243,800円に生年月日に応じた率を乗じる。",
       "point": "振替加算額",
-      "topic": "PEN4-5"
+      "topic": "PEN4-5",
+      "original_asset_ids": []
     },
     {
       "id": "PEN4-Q19",
@@ -18472,7 +18857,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "振替加算を行わない場合として示されている。",
       "point": "240月",
-      "topic": "PEN4-5"
+      "topic": "PEN4-5",
+      "original_asset_ids": []
     },
     {
       "id": "PEN4-Q20",
@@ -18487,7 +18873,8 @@ window.APP_DATA = {
       "answer": "200",
       "explain": "原資料では200円×納付済月数。",
       "point": "200円×月数",
-      "topic": "PEN4-5"
+      "topic": "PEN4-5",
+      "original_asset_ids": []
     },
     {
       "id": "PEN4-Q21",
@@ -18500,7 +18887,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "付加年金額は200円×付加保険料納付済期間の月数。",
       "point": "付加年金額",
-      "topic": "PEN4-5"
+      "topic": "PEN4-5",
+      "original_asset_ids": []
     },
     {
       "id": "PEN4-Q22",
@@ -18513,7 +18901,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "振替加算は配偶者関係等、付加年金は付加保険料納付に基づく。",
       "point": "加算理由の違い",
-      "topic": "PEN4-5"
+      "topic": "PEN4-5",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-Q01",
@@ -18526,7 +18915,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "本来支給は原則65歳以上。",
       "point": "65歳",
-      "topic": "PEN5-1"
+      "topic": "PEN5-1",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-Q02",
@@ -18541,7 +18931,8 @@ window.APP_DATA = {
       "answer": "10年以上",
       "explain": "保険料納付済期間と免除期間等を合算した期間が原則10年以上。",
       "point": "10年以上",
-      "topic": "PEN5-1"
+      "topic": "PEN5-1",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-Q03",
@@ -18554,7 +18945,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "画像の確認欄に1月でも支給される旨が示されている。",
       "point": "被保険者期間",
-      "topic": "PEN5-1"
+      "topic": "PEN5-1",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-Q04",
@@ -18569,7 +18961,8 @@ window.APP_DATA = {
       "answer": "報酬比例部分＋経過的加算＋加給年金額",
       "explain": "画像の構造式そのもの。",
       "point": "年金額の構成",
-      "topic": "PEN5-2"
+      "topic": "PEN5-2",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-Q05",
@@ -18584,7 +18977,8 @@ window.APP_DATA = {
       "answer": "7.125/1000",
       "explain": "平成15年3月以前は7.125/1000。",
       "point": "H15.3以前",
-      "topic": "PEN5-2"
+      "topic": "PEN5-2",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-Q06",
@@ -18599,7 +18993,8 @@ window.APP_DATA = {
       "answer": "5.481/1000",
       "explain": "平成15年4月以後は5.481/1000。",
       "point": "H15.4以後",
-      "topic": "PEN5-2"
+      "topic": "PEN5-2",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-Q07",
@@ -18614,7 +19009,8 @@ window.APP_DATA = {
       "answer": "9月1日",
       "explain": "毎年9月1日を基準日とする。",
       "point": "9月1日",
-      "topic": "PEN5-3"
+      "topic": "PEN5-3",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-Q08",
@@ -18627,7 +19023,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "画像の退職改定の説明に沿う。",
       "point": "退職改定",
-      "topic": "PEN5-3"
+      "topic": "PEN5-3",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-Q09",
@@ -18642,7 +19039,8 @@ window.APP_DATA = {
       "answer": "定額部分－老齢基礎年金相当額",
       "explain": "経過的加算はこの差額。",
       "point": "経過的加算",
-      "topic": "PEN5-3"
+      "topic": "PEN5-3",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-Q10",
@@ -18657,7 +19055,8 @@ window.APP_DATA = {
       "answer": "1,766円",
       "explain": "定額部分＝1,766円×被保険者期間月数。",
       "point": "1,766円",
-      "topic": "PEN5-3"
+      "topic": "PEN5-3",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-Q11",
@@ -18672,7 +19071,8 @@ window.APP_DATA = {
       "answer": "240月以上",
       "explain": "原則240月以上。",
       "point": "240月",
-      "topic": "PEN5-4"
+      "topic": "PEN5-4",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-Q12",
@@ -18687,7 +19087,8 @@ window.APP_DATA = {
       "answer": "243,800円",
       "explain": "配偶者は243,800円。",
       "point": "配偶者加給",
-      "topic": "PEN5-4"
+      "topic": "PEN5-4",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-Q13",
@@ -18700,7 +19101,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "画像に65歳未満と示されている。",
       "point": "配偶者65歳未満",
-      "topic": "PEN5-4"
+      "topic": "PEN5-4",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-Q14",
@@ -18713,7 +19115,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "1・2人目は243,800円、3人目以降は81,300円。",
       "point": "子の人数",
-      "topic": "PEN5-4"
+      "topic": "PEN5-4",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-Q15",
@@ -18728,7 +19131,8 @@ window.APP_DATA = {
       "answer": "1年以上",
       "explain": "特別支給は1年以上の被保険者期間を要件とする。",
       "point": "1年以上",
-      "topic": "PEN5-5"
+      "topic": "PEN5-5",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-Q16",
@@ -18741,7 +19145,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "生年月日・男女により支給開始年齢が段階的に異なる。",
       "point": "生年月日",
-      "topic": "PEN5-5"
+      "topic": "PEN5-5",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-Q17",
@@ -18756,7 +19161,8 @@ window.APP_DATA = {
       "answer": "報酬比例部分＋定額部分＋加給年金額",
       "explain": "画像の構造図に示されている。",
       "point": "特別支給の額",
-      "topic": "PEN5-5"
+      "topic": "PEN5-5",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-Q18",
@@ -18771,7 +19177,8 @@ window.APP_DATA = {
       "answer": "44年以上",
       "explain": "長期加入者特例は44年以上。",
       "point": "44年以上",
-      "topic": "PEN5-6"
+      "topic": "PEN5-6",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-Q19",
@@ -18784,7 +19191,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "画像の特例の要件。",
       "point": "障害者特例",
-      "topic": "PEN5-6"
+      "topic": "PEN5-6",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-Q20",
@@ -18799,7 +19207,8 @@ window.APP_DATA = {
       "answer": "1～3級",
       "explain": "1級～3級に該当する障害状態が示されている。",
       "point": "障害等級",
-      "topic": "PEN5-6"
+      "topic": "PEN5-6",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-Q21",
@@ -18814,7 +19223,8 @@ window.APP_DATA = {
       "answer": "65万円",
       "explain": "支給停止調整額は65万円。",
       "point": "65万円",
-      "topic": "PEN5-7"
+      "topic": "PEN5-7",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-Q22",
@@ -18829,7 +19239,8 @@ window.APP_DATA = {
       "answer": "超過額×1/2",
       "explain": "（基本月額＋総報酬月額相当額－65万円）×1/2。",
       "point": "超過額の1/2",
-      "topic": "PEN5-7"
+      "topic": "PEN5-7",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-Q23",
@@ -18842,7 +19253,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "画像の定義どおり。",
       "point": "総報酬月額相当額",
-      "topic": "PEN5-7"
+      "topic": "PEN5-7",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-Q24",
@@ -18855,7 +19267,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "本体が全額支給停止の場合に加給年金額も停止する。",
       "point": "加給年金の停止",
-      "topic": "PEN5-7"
+      "topic": "PEN5-7",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-Q25",
@@ -18868,7 +19281,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "求職申込み後の一定期間、老齢厚生年金が支給停止される。",
       "point": "基本手当との調整",
-      "topic": "PEN5-8"
+      "topic": "PEN5-8",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-Q26",
@@ -18883,7 +19297,8 @@ window.APP_DATA = {
       "answer": "75％未満",
       "explain": "60歳以後の賃金が基準賃金の75％未満に低下した場合。",
       "point": "75％未満",
-      "topic": "PEN5-8"
+      "topic": "PEN5-8",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-Q27",
@@ -18898,7 +19313,8 @@ window.APP_DATA = {
       "answer": "5年以上",
       "explain": "画像に5年以上と示されている。",
       "point": "5年以上",
-      "topic": "PEN5-8"
+      "topic": "PEN5-8",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-Q28",
@@ -18911,7 +19327,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "画像の「高年齢雇用継続給付と在職老齢年金との調整」に示されている。",
       "point": "二段階調整",
-      "topic": "PEN5-8"
+      "topic": "PEN5-8",
+      "original_asset_ids": []
     },
     {
       "id": "PEN6-Q01",
@@ -18924,7 +19341,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "画像では60歳以後、本来の報酬比例部分の支給開始年齢前に繰上げ請求できるとされている。",
       "point": "60歳以後＋本来支給開始前",
-      "topic": "PEN6-1"
+      "topic": "PEN6-1",
+      "original_asset_ids": []
     },
     {
       "id": "PEN6-Q02",
@@ -18937,7 +19355,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "繰上げでは老齢基礎年金の全部繰上げを同時に請求するのが原則。",
       "point": "繰上げ＝原則同時",
-      "topic": "PEN6-1"
+      "topic": "PEN6-1",
+      "original_asset_ids": []
     },
     {
       "id": "PEN6-Q03",
@@ -18952,7 +19371,8 @@ window.APP_DATA = {
       "answer": "4/1000",
       "explain": "繰上げの減額は4/1000×繰上げ月数の構造で示されている。",
       "point": "4/1000",
-      "topic": "PEN6-1"
+      "topic": "PEN6-1",
+      "original_asset_ids": []
     },
     {
       "id": "PEN6-Q04",
@@ -18965,7 +19385,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "加給年金額は繰上げ支給されず、本来の支給開始時期から加算される。",
       "point": "加給年金額は繰上げない",
-      "topic": "PEN6-1"
+      "topic": "PEN6-1",
+      "original_asset_ids": []
     },
     {
       "id": "PEN6-Q05",
@@ -18978,7 +19399,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "繰上げ請求をした場合、特別支給の老齢厚生年金の受給権は取得しない。",
       "point": "特別支給の受給権",
-      "topic": "PEN6-1"
+      "topic": "PEN6-1",
+      "original_asset_ids": []
     },
     {
       "id": "PEN6-Q06",
@@ -18991,7 +19413,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "繰上げ後は一定の障害基礎年金等の請求・受給に制約が生じる。",
       "point": "繰上げ後の制約",
-      "topic": "PEN6-2"
+      "topic": "PEN6-2",
+      "original_asset_ids": []
     },
     {
       "id": "PEN6-Q07",
@@ -19006,7 +19429,8 @@ window.APP_DATA = {
       "answer": "60歳以上65歳未満",
       "explain": "一定の障害基礎年金等との関係で60歳以上65歳未満という条件が示されている。",
       "point": "60～65歳未満",
-      "topic": "PEN6-2"
+      "topic": "PEN6-2",
+      "original_asset_ids": []
     },
     {
       "id": "PEN6-Q08",
@@ -19019,7 +19443,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "画像では繰上げ後に一定の障害年金等の制約が示されている。",
       "point": "障害給付との関係",
-      "topic": "PEN6-2"
+      "topic": "PEN6-2",
+      "original_asset_ids": []
     },
     {
       "id": "PEN6-Q09",
@@ -19032,7 +19457,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "66歳に達する前に請求していなかった一定の者は繰下げ申出ができる。",
       "point": "66歳以後",
-      "topic": "PEN6-3"
+      "topic": "PEN6-3",
+      "original_asset_ids": []
     },
     {
       "id": "PEN6-Q10",
@@ -19047,7 +19473,8 @@ window.APP_DATA = {
       "answer": "申出月の翌月",
       "explain": "支給は申出のあった月の翌月から始まる。",
       "point": "申出月の翌月",
-      "topic": "PEN6-3"
+      "topic": "PEN6-3",
+      "original_asset_ids": []
     },
     {
       "id": "PEN6-Q11",
@@ -19062,7 +19489,8 @@ window.APP_DATA = {
       "answer": "7/1000",
       "explain": "繰下げ加算は7/1000×月数の構造で示されている。",
       "point": "7/1000",
-      "topic": "PEN6-3"
+      "topic": "PEN6-3",
+      "original_asset_ids": []
     },
     {
       "id": "PEN6-Q12",
@@ -19075,7 +19503,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "67歳申出の例で24か月が図示されている。",
       "point": "繰下げ月数",
-      "topic": "PEN6-3"
+      "topic": "PEN6-3",
+      "original_asset_ids": []
     },
     {
       "id": "PEN6-Q13",
@@ -19088,7 +19517,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "他の年金受給権や75歳到達に関するみなし申出が示されている。",
       "point": "みなし申出",
-      "topic": "PEN6-3"
+      "topic": "PEN6-3",
+      "original_asset_ids": []
     },
     {
       "id": "PEN6-Q14",
@@ -19101,7 +19531,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "画像に老齢厚生年金の支給繰下げが示されている。",
       "point": "老齢厚生年金の繰下げ",
-      "topic": "PEN6-4"
+      "topic": "PEN6-4",
+      "original_asset_ids": []
     },
     {
       "id": "PEN6-Q15",
@@ -19116,7 +19547,8 @@ window.APP_DATA = {
       "answer": "申出月の翌月",
       "explain": "老齢厚生年金も申出月の翌月から支給される。",
       "point": "翌月開始",
-      "topic": "PEN6-4"
+      "topic": "PEN6-4",
+      "original_asset_ids": []
     },
     {
       "id": "PEN6-Q16",
@@ -19129,7 +19561,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "画像では在職老齢年金による支給調整を勘案する旨が示されている。",
       "point": "在職調整",
-      "topic": "PEN6-4"
+      "topic": "PEN6-4",
+      "original_asset_ids": []
     },
     {
       "id": "PEN6-Q17",
@@ -19142,7 +19575,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "加給年金額は増額算定の基礎から除かれる構造が示されている。",
       "point": "加給年金額の除外",
-      "topic": "PEN6-4"
+      "topic": "PEN6-4",
+      "original_asset_ids": []
     },
     {
       "id": "PEN6-Q18",
@@ -19155,7 +19589,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "繰下げは基礎年金と厚生年金を別々に選択できる。",
       "point": "繰下げは独立選択",
-      "topic": "PEN6-5"
+      "topic": "PEN6-5",
+      "original_asset_ids": []
     },
     {
       "id": "PEN6-Q19",
@@ -19170,7 +19605,8 @@ window.APP_DATA = {
       "answer": "繰上げ＝原則同時、繰下げ＝別々に選択可能",
       "explain": "今回の画像範囲で最重要の対比。",
       "point": "同時性の違い",
-      "topic": "PEN6-5"
+      "topic": "PEN6-5",
+      "original_asset_ids": []
     },
     {
       "id": "PEN6-Q20",
@@ -19185,7 +19621,8 @@ window.APP_DATA = {
       "answer": "繰上げ4/1000・繰下げ7/1000",
       "explain": "繰上げは4/1000×月数、繰下げは7/1000×月数。",
       "point": "4/1000 vs 7/1000",
-      "topic": "PEN6-5"
+      "topic": "PEN6-5",
+      "original_asset_ids": []
     },
     {
       "id": "SEC1-Q01",
@@ -19200,7 +19637,8 @@ window.APP_DATA = {
       "answer": "機密性・完全性・可用性",
       "explain": "情報セキュリティの3要素は機密性・完全性・可用性。",
       "point": "CIA",
-      "topic": "SEC1-1"
+      "topic": "SEC1-1",
+      "original_asset_ids": []
     },
     {
       "id": "SEC1-Q02",
@@ -19213,7 +19651,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "可用性は必要な時にアクセスできる状態。",
       "point": "可用性",
-      "topic": "SEC1-1"
+      "topic": "SEC1-1",
+      "original_asset_ids": []
     },
     {
       "id": "SEC1-Q03",
@@ -19228,7 +19667,8 @@ window.APP_DATA = {
       "answer": "否認防止",
       "explain": "否認防止の定義。",
       "point": "否認防止",
-      "topic": "SEC1-1"
+      "topic": "SEC1-1",
+      "original_asset_ids": []
     },
     {
       "id": "SEC1-Q04",
@@ -19243,7 +19683,8 @@ window.APP_DATA = {
       "answer": "機密性",
       "explain": "漏えい防止やアクセス権設定、暗号は機密性対策として示されている。",
       "point": "機密性対策",
-      "topic": "SEC1-1"
+      "topic": "SEC1-1",
+      "original_asset_ids": []
     },
     {
       "id": "SEC1-Q05",
@@ -19256,7 +19697,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "脆弱性はセキュリティ上の欠陥・弱点。",
       "point": "脅威と脆弱性",
-      "topic": "SEC1-2"
+      "topic": "SEC1-2",
+      "original_asset_ids": []
     },
     {
       "id": "SEC1-Q06",
@@ -19271,7 +19713,8 @@ window.APP_DATA = {
       "answer": "セキュリティインシデント",
       "explain": "実被害が発生した状態がインシデント。",
       "point": "インシデント",
-      "topic": "SEC1-2"
+      "topic": "SEC1-2",
+      "original_asset_ids": []
     },
     {
       "id": "SEC1-Q07",
@@ -19286,7 +19729,8 @@ window.APP_DATA = {
       "answer": "インシデント発生",
       "explain": "資料の図は脅威→脆弱性→インシデント発生の関係を示す。",
       "point": "因果関係",
-      "topic": "SEC1-2"
+      "topic": "SEC1-2",
+      "original_asset_ids": []
     },
     {
       "id": "SEC1-Q08",
@@ -19301,7 +19745,8 @@ window.APP_DATA = {
       "answer": "漏えい",
       "explain": "誤って情報を外部公開・送付するのが漏えい。",
       "point": "悪意なしの人的脅威",
-      "topic": "SEC1-3"
+      "topic": "SEC1-3",
+      "original_asset_ids": []
     },
     {
       "id": "SEC1-Q09",
@@ -19316,7 +19761,8 @@ window.APP_DATA = {
       "answer": "ソーシャルエンジニアリング",
       "explain": "人から聞き出す手法。",
       "point": "ソーシャルエンジニアリング",
-      "topic": "SEC1-3"
+      "topic": "SEC1-3",
+      "original_asset_ids": []
     },
     {
       "id": "SEC1-Q10",
@@ -19329,7 +19775,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "資料の定義どおり。",
       "point": "盗聴",
-      "topic": "SEC1-3"
+      "topic": "SEC1-3",
+      "original_asset_ids": []
     },
     {
       "id": "SEC1-Q11",
@@ -19344,7 +19791,8 @@ window.APP_DATA = {
       "answer": "なりすまし",
       "explain": "不正入手したID等で本人になりかわる。",
       "point": "なりすまし",
-      "topic": "SEC1-3"
+      "topic": "SEC1-3",
+      "original_asset_ids": []
     },
     {
       "id": "SEC1-Q12",
@@ -19359,7 +19807,8 @@ window.APP_DATA = {
       "answer": "故障",
       "explain": "事故や経年劣化による物理的利用不能は故障。",
       "point": "物理的脅威",
-      "topic": "SEC1-4"
+      "topic": "SEC1-4",
+      "original_asset_ids": []
     },
     {
       "id": "SEC1-Q13",
@@ -19372,7 +19821,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "災害は物理的脅威。",
       "point": "災害",
-      "topic": "SEC1-4"
+      "topic": "SEC1-4",
+      "original_asset_ids": []
     },
     {
       "id": "SEC1-Q14",
@@ -19387,7 +19837,8 @@ window.APP_DATA = {
       "answer": "破壊・妨害行為",
       "explain": "物理的脅威の一つ。",
       "point": "破壊・妨害",
-      "topic": "SEC1-4"
+      "topic": "SEC1-4",
+      "original_asset_ids": []
     },
     {
       "id": "SEC1-Q15",
@@ -19402,7 +19853,8 @@ window.APP_DATA = {
       "answer": "ワーム",
       "explain": "ワームの最大の特徴は自己複製。",
       "point": "自己複製",
-      "topic": "SEC1-5"
+      "topic": "SEC1-5",
+      "original_asset_ids": []
     },
     {
       "id": "SEC1-Q16",
@@ -19415,7 +19867,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "資料ではトロイの木馬は自己増殖しないとされる。",
       "point": "トロイの木馬",
-      "topic": "SEC1-5"
+      "topic": "SEC1-5",
+      "original_asset_ids": []
     },
     {
       "id": "SEC1-Q17",
@@ -19430,7 +19883,8 @@ window.APP_DATA = {
       "answer": "ランサムウェア",
       "explain": "暗号化＋身代金要求が特徴。",
       "point": "ランサムウェア",
-      "topic": "SEC1-5"
+      "topic": "SEC1-5",
+      "original_asset_ids": []
     },
     {
       "id": "SEC1-Q18",
@@ -19445,7 +19899,8 @@ window.APP_DATA = {
       "answer": "ルートキット",
       "explain": "ルートキットの説明。",
       "point": "ログ改ざん・バックドア",
-      "topic": "SEC1-5"
+      "topic": "SEC1-5",
+      "original_asset_ids": []
     },
     {
       "id": "SEC1-Q19",
@@ -19460,7 +19915,8 @@ window.APP_DATA = {
       "answer": "エクスプロイトキット",
       "explain": "脆弱性悪用ツールとして示されている。",
       "point": "エクスプロイトキット",
-      "topic": "SEC1-5"
+      "topic": "SEC1-5",
+      "original_asset_ids": []
     },
     {
       "id": "SEC1-Q20",
@@ -19475,7 +19931,8 @@ window.APP_DATA = {
       "answer": "ステルス型マルウェア",
       "explain": "存在を隠蔽するタイプ。",
       "point": "ステルス型",
-      "topic": "SEC1-5"
+      "topic": "SEC1-5",
+      "original_asset_ids": []
     },
     {
       "id": "SEC1-Q21",
@@ -19490,7 +19947,8 @@ window.APP_DATA = {
       "answer": "侵入・乗っ取り済み端末へ外部から命令し、応答を受け取る",
       "explain": "資料掲載の応用情報技術者試験例題の正解はこの内容。",
       "point": "C&Cサーバ",
-      "topic": "SEC1-6"
+      "topic": "SEC1-6",
+      "original_asset_ids": []
     },
     {
       "id": "SEC1-Q22",
@@ -19503,7 +19961,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "C&Cサーバから複数の感染端末を遠隔操作する。",
       "point": "ボットネット",
-      "topic": "SEC1-6"
+      "topic": "SEC1-6",
+      "original_asset_ids": []
     },
     {
       "id": "SEC1-Q23",
@@ -19518,7 +19977,8 @@ window.APP_DATA = {
       "answer": "標準報酬月額の改定",
       "explain": "前3つはボットネットの迷惑・犯罪行為として記載されている。",
       "point": "ボットの利用目的",
-      "topic": "SEC1-6"
+      "topic": "SEC1-6",
+      "original_asset_ids": []
     },
     {
       "id": "SEC1-Q24",
@@ -19531,7 +19991,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "資料で同義として示されている。",
       "point": "脆弱性＝セキュリティホール",
-      "topic": "SEC1-7"
+      "topic": "SEC1-7",
+      "original_asset_ids": []
     },
     {
       "id": "SEC1-Q25",
@@ -19546,7 +20007,8 @@ window.APP_DATA = {
       "answer": "ID・パスワードのずさんな管理",
       "explain": "人的脆弱性の例として明記されている。",
       "point": "人的脆弱性",
-      "topic": "SEC1-7"
+      "topic": "SEC1-7",
+      "original_asset_ids": []
     },
     {
       "id": "SEC1-Q26",
@@ -19561,7 +20023,8 @@ window.APP_DATA = {
       "answer": "シャドーITによる人的脆弱性",
       "explain": "シャドーITは人的脆弱性の例。",
       "point": "シャドーIT",
-      "topic": "SEC1-7"
+      "topic": "SEC1-7",
+      "original_asset_ids": []
     },
     {
       "id": "SEC2-Q01",
@@ -19574,7 +20037,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "資料ではこの2軸で攻撃を分類している。",
       "point": "攻撃の2軸分類",
-      "topic": "SEC2-1"
+      "topic": "SEC2-1",
+      "original_asset_ids": []
     },
     {
       "id": "SEC2-Q02",
@@ -19589,7 +20053,8 @@ window.APP_DATA = {
       "answer": "ハクティビスト",
       "explain": "ハクティビストは政治的主張をしたい人として説明されている。",
       "point": "攻撃者の特徴",
-      "topic": "SEC2-1"
+      "topic": "SEC2-1",
+      "original_asset_ids": []
     },
     {
       "id": "SEC2-Q03",
@@ -19604,7 +20069,8 @@ window.APP_DATA = {
       "answer": "スクリプトキディ",
       "explain": "資料の説明に対応する。",
       "point": "スクリプトキディ",
-      "topic": "SEC2-1"
+      "topic": "SEC2-1",
+      "original_asset_ids": []
     },
     {
       "id": "SEC2-Q04",
@@ -19619,7 +20085,8 @@ window.APP_DATA = {
       "answer": "辞書攻撃",
       "explain": "辞書語を順に試すのが辞書攻撃。",
       "point": "辞書語",
-      "topic": "SEC2-2"
+      "topic": "SEC2-2",
+      "original_asset_ids": []
     },
     {
       "id": "SEC2-Q05",
@@ -19634,7 +20101,8 @@ window.APP_DATA = {
       "answer": "ブルートフォース攻撃",
       "explain": "特定IDに対する総当たり。",
       "point": "特定ID×全パスワード",
-      "topic": "SEC2-2"
+      "topic": "SEC2-2",
+      "original_asset_ids": []
     },
     {
       "id": "SEC2-Q06",
@@ -19649,7 +20117,8 @@ window.APP_DATA = {
       "answer": "リバースブルートフォース攻撃",
       "explain": "ブルートフォースとは固定する対象が逆。",
       "point": "特定パスワード×複数ID",
-      "topic": "SEC2-2"
+      "topic": "SEC2-2",
+      "original_asset_ids": []
     },
     {
       "id": "SEC2-Q07",
@@ -19662,7 +20131,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "資料に明記されている特徴。",
       "point": "アカウントロック",
-      "topic": "SEC2-2"
+      "topic": "SEC2-2",
+      "original_asset_ids": []
     },
     {
       "id": "SEC2-Q08",
@@ -19677,7 +20147,8 @@ window.APP_DATA = {
       "answer": "アカウントロックを設定する",
       "explain": "総当たり試行を止める対策として示されている。",
       "point": "ブルートフォース対策",
-      "topic": "SEC2-2"
+      "topic": "SEC2-2",
+      "original_asset_ids": []
     },
     {
       "id": "SEC2-Q09",
@@ -19692,7 +20163,8 @@ window.APP_DATA = {
       "answer": "レインボー攻撃",
       "explain": "レインボーデータベースを用いる。",
       "point": "ハッシュ値＋対応表",
-      "topic": "SEC2-3"
+      "topic": "SEC2-3",
+      "original_asset_ids": []
     },
     {
       "id": "SEC2-Q10",
@@ -19705,7 +20177,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "資料の補足説明そのもの。",
       "point": "ハッシュ値の特徴",
-      "topic": "SEC2-3"
+      "topic": "SEC2-3",
+      "original_asset_ids": []
     },
     {
       "id": "SEC2-Q11",
@@ -19720,7 +20193,8 @@ window.APP_DATA = {
       "answer": "パスワードリスト攻撃",
       "explain": "流出済み認証情報の使い回しを狙う。",
       "point": "ID＋平文パスワード",
-      "topic": "SEC2-3"
+      "topic": "SEC2-3",
+      "original_asset_ids": []
     },
     {
       "id": "SEC2-Q12",
@@ -19735,7 +20209,8 @@ window.APP_DATA = {
       "answer": "他サイトで同じパスワードを設定しない",
       "explain": "資料に示された対策。",
       "point": "パスワード使い回し防止",
-      "topic": "SEC2-3"
+      "topic": "SEC2-3",
+      "original_asset_ids": []
     },
     {
       "id": "SEC2-Q13",
@@ -19750,7 +20225,8 @@ window.APP_DATA = {
       "answer": "クリックジャッキング",
       "explain": "透明なサイトやボタンを重ねる攻撃。",
       "point": "見えないボタン",
-      "topic": "SEC2-4"
+      "topic": "SEC2-4",
+      "original_asset_ids": []
     },
     {
       "id": "SEC2-Q14",
@@ -19765,7 +20241,8 @@ window.APP_DATA = {
       "answer": "他ドメインからのframe/iframe読み込みを制限する",
       "explain": "HTTPレスポンスヘッダで制限する。",
       "point": "frame/iframe制限",
-      "topic": "SEC2-4"
+      "topic": "SEC2-4",
+      "original_asset_ids": []
     },
     {
       "id": "SEC2-Q15",
@@ -19780,7 +20257,8 @@ window.APP_DATA = {
       "answer": "クロスサイトスクリプティング",
       "explain": "XSS対策はHTML等で特別な意味を持つ文字を無害化するエスケープ処理。",
       "point": "XSS＝エスケープ",
-      "topic": "SEC2-4"
+      "topic": "SEC2-4",
+      "original_asset_ids": []
     },
     {
       "id": "SEC2-Q16",
@@ -19795,7 +20273,8 @@ window.APP_DATA = {
       "answer": "クロスサイトリクエストフォージェリ",
       "explain": "ログイン状態を悪用して意図しない要求を送る。",
       "point": "CSRF＝ログイン状態",
-      "topic": "SEC2-4"
+      "topic": "SEC2-4",
+      "original_asset_ids": []
     },
     {
       "id": "SEC2-Q17",
@@ -19810,7 +20289,8 @@ window.APP_DATA = {
       "answer": "リクエストにトークンを付加する",
       "explain": "秘密情報であるトークンがなければ受け付けないようにする。",
       "point": "CSRF＝トークン",
-      "topic": "SEC2-4"
+      "topic": "SEC2-4",
+      "original_asset_ids": []
     },
     {
       "id": "SEC2-Q18",
@@ -19825,7 +20305,8 @@ window.APP_DATA = {
       "answer": "ディレクトリトラバーサル",
       "explain": "非公開ディレクトリへの不正アクセス。",
       "point": "非公開ディレクトリ",
-      "topic": "SEC2-5"
+      "topic": "SEC2-5",
+      "original_asset_ids": []
     },
     {
       "id": "SEC2-Q19",
@@ -19840,7 +20321,8 @@ window.APP_DATA = {
       "answer": "ドライブバイダウンロード",
       "explain": "閲覧を契機として不正プログラムを導入する。",
       "point": "閲覧時にダウンロード",
-      "topic": "SEC2-5"
+      "topic": "SEC2-5",
+      "original_asset_ids": []
     },
     {
       "id": "SEC2-Q20",
@@ -19855,7 +20337,8 @@ window.APP_DATA = {
       "answer": "OSやソフトウェアを常に最新状態に保つ",
       "explain": "資料の対策欄に示されている。",
       "point": "最新化",
-      "topic": "SEC2-5"
+      "topic": "SEC2-5",
+      "original_asset_ids": []
     },
     {
       "id": "SEC2-Q21",
@@ -19870,7 +20353,8 @@ window.APP_DATA = {
       "answer": "SQLインジェクション",
       "explain": "対象はデータベース。",
       "point": "DB＋SQL",
-      "topic": "SEC2-6"
+      "topic": "SEC2-6",
+      "original_asset_ids": []
     },
     {
       "id": "SEC2-Q22",
@@ -19885,7 +20369,8 @@ window.APP_DATA = {
       "answer": "シングルクォートやセミコロン",
       "explain": "DBにとって意味がある記号を無効化する。",
       "point": "SQLの特殊記号",
-      "topic": "SEC2-6"
+      "topic": "SEC2-6",
+      "original_asset_ids": []
     },
     {
       "id": "SEC2-Q23",
@@ -19900,7 +20385,8 @@ window.APP_DATA = {
       "answer": "OSコマンドインジェクション",
       "explain": "不正なOSコマンドを実行させる。",
       "point": "OSコマンド",
-      "topic": "SEC2-6"
+      "topic": "SEC2-6",
+      "original_asset_ids": []
     },
     {
       "id": "SEC2-Q24",
@@ -19915,7 +20401,8 @@ window.APP_DATA = {
       "answer": "シェルを起動できる言語機能の利用を避ける",
       "explain": "Perlのopen関数などの利用を避けるとされている。",
       "point": "シェル起動回避",
-      "topic": "SEC2-6"
+      "topic": "SEC2-6",
+      "original_asset_ids": []
     },
     {
       "id": "SEC2-Q25",
@@ -19930,7 +20417,8 @@ window.APP_DATA = {
       "answer": "オープンリダイレクト",
       "explain": "リダイレクト機能の悪用。",
       "point": "偽サイトへ自動遷移",
-      "topic": "SEC2-6"
+      "topic": "SEC2-6",
+      "original_asset_ids": []
     },
     {
       "id": "SEC2-Q26",
@@ -19945,7 +20433,8 @@ window.APP_DATA = {
       "answer": "リダイレクト先URLが適切か確認する",
       "explain": "資料の対策欄どおり。",
       "point": "遷移先URL確認",
-      "topic": "SEC2-6"
+      "topic": "SEC2-6",
+      "original_asset_ids": []
     },
     {
       "id": "SEC2-Q27",
@@ -19960,7 +20449,8 @@ window.APP_DATA = {
       "answer": "XSS―エスケープ処理 / CSRF―トークン",
       "explain": "頻出の見分け方として、XSSはエスケープ、CSRFはトークン。",
       "point": "攻撃と対策の対応",
-      "topic": "SEC2-4"
+      "topic": "SEC2-4",
+      "original_asset_ids": []
     },
     {
       "id": "SEC3-Q01",
@@ -19975,7 +20465,8 @@ window.APP_DATA = {
       "answer": "中間者攻撃",
       "explain": "通信経路に介在するのが中間者攻撃。",
       "point": "中継サイト・通信経路",
-      "topic": "SEC3-1"
+      "topic": "SEC3-1",
+      "original_asset_ids": []
     },
     {
       "id": "SEC3-Q02",
@@ -19990,7 +20481,8 @@ window.APP_DATA = {
       "answer": "MITB",
       "explain": "ブラウザ内部の送受信をマルウェアが改ざんする。",
       "point": "ブラウザ内マルウェア",
-      "topic": "SEC3-1"
+      "topic": "SEC3-1",
+      "original_asset_ids": []
     },
     {
       "id": "SEC3-Q03",
@@ -20003,7 +20495,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "資料の補足に記載。",
       "point": "HSTS",
-      "topic": "SEC3-1"
+      "topic": "SEC3-1",
+      "original_asset_ids": []
     },
     {
       "id": "SEC3-Q04",
@@ -20018,7 +20511,8 @@ window.APP_DATA = {
       "answer": "中間者＝通信経路、MITB＝ブラウザ内部",
       "explain": "混同しやすい2攻撃の核。",
       "point": "介在場所の違い",
-      "topic": "SEC3-1"
+      "topic": "SEC3-1",
+      "original_asset_ids": []
     },
     {
       "id": "SEC3-Q05",
@@ -20033,7 +20527,8 @@ window.APP_DATA = {
       "answer": "IPスプーフィング",
       "explain": "送信元IPの偽装が特徴。",
       "point": "送信元IP偽装",
-      "topic": "SEC3-2"
+      "topic": "SEC3-2",
+      "original_asset_ids": []
     },
     {
       "id": "SEC3-Q06",
@@ -20048,7 +20543,8 @@ window.APP_DATA = {
       "answer": "セッションハイジャック",
       "explain": "セッションIDの窃取が判断語句。",
       "point": "セッションID",
-      "topic": "SEC3-2"
+      "topic": "SEC3-2",
+      "original_asset_ids": []
     },
     {
       "id": "SEC3-Q07",
@@ -20063,7 +20559,8 @@ window.APP_DATA = {
       "answer": "SEOポイズニング",
       "explain": "検索順位付けアルゴリズムを悪用する。",
       "point": "検索結果上位",
-      "topic": "SEC3-2"
+      "topic": "SEC3-2",
+      "original_asset_ids": []
     },
     {
       "id": "SEC3-Q08",
@@ -20078,7 +20575,8 @@ window.APP_DATA = {
       "answer": "DNSキャッシュポイズニング",
       "explain": "名前とIPの対応情報改ざん。",
       "point": "DNSキャッシュ改ざん",
-      "topic": "SEC3-3"
+      "topic": "SEC3-3",
+      "original_asset_ids": []
     },
     {
       "id": "SEC3-Q09",
@@ -20093,7 +20591,8 @@ window.APP_DATA = {
       "answer": "DNSSEC",
       "explain": "DNS応答が本物の権威サーバ由来か検証する。",
       "point": "DNSSEC",
-      "topic": "SEC3-3"
+      "topic": "SEC3-3",
+      "original_asset_ids": []
     },
     {
       "id": "SEC3-Q10",
@@ -20108,7 +20607,8 @@ window.APP_DATA = {
       "answer": "リフレクション攻撃",
       "explain": "DNS応答を反射させて攻撃対象へ集中させる。",
       "point": "偽装送信元＋大量DNS応答",
-      "topic": "SEC3-3"
+      "topic": "SEC3-3",
+      "original_asset_ids": []
     },
     {
       "id": "SEC3-Q11",
@@ -20121,7 +20621,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "資料の補足説明どおり。",
       "point": "DNSサーバの役割",
-      "topic": "SEC3-3"
+      "topic": "SEC3-3",
+      "original_asset_ids": []
     },
     {
       "id": "SEC3-Q12",
@@ -20136,7 +20637,8 @@ window.APP_DATA = {
       "answer": "DoS攻撃",
       "explain": "サービス不能化を狙う。",
       "point": "大量負荷",
-      "topic": "SEC3-4"
+      "topic": "SEC3-4",
+      "original_asset_ids": []
     },
     {
       "id": "SEC3-Q13",
@@ -20149,7 +20651,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "資料に明記。",
       "point": "複数端末・ボットネット",
-      "topic": "SEC3-4"
+      "topic": "SEC3-4",
+      "original_asset_ids": []
     },
     {
       "id": "SEC3-Q14",
@@ -20164,7 +20667,8 @@ window.APP_DATA = {
       "answer": "CDN・WAF",
       "explain": "Webサーバ分散とWAF導入が挙げられている。",
       "point": "DoS対策",
-      "topic": "SEC3-4"
+      "topic": "SEC3-4",
+      "original_asset_ids": []
     },
     {
       "id": "SEC3-Q15",
@@ -20179,7 +20683,8 @@ window.APP_DATA = {
       "answer": "クリプトジャッキング",
       "explain": "資料の例題でもこの定義が正解。",
       "point": "無断マイニング",
-      "topic": "SEC3-5"
+      "topic": "SEC3-5",
+      "original_asset_ids": []
     },
     {
       "id": "SEC3-Q16",
@@ -20194,7 +20699,8 @@ window.APP_DATA = {
       "answer": "ゼロデイ攻撃",
       "explain": "『パッチ配布前』が決め手。",
       "point": "パッチ前",
-      "topic": "SEC3-5"
+      "topic": "SEC3-5",
+      "original_asset_ids": []
     },
     {
       "id": "SEC3-Q17",
@@ -20209,7 +20715,8 @@ window.APP_DATA = {
       "answer": "サイドチャネル攻撃",
       "explain": "物理量やエラー情報を利用する。",
       "point": "物理量",
-      "topic": "SEC3-5"
+      "topic": "SEC3-5",
+      "original_asset_ids": []
     },
     {
       "id": "SEC3-Q18",
@@ -20224,7 +20731,8 @@ window.APP_DATA = {
       "answer": "PCの処理能力を無断利用して暗号資産の計算を行い報酬を得る",
       "explain": "他の選択肢は資料中で別攻撃の説明とされている。",
       "point": "例題",
-      "topic": "SEC3-5"
+      "topic": "SEC3-5",
+      "original_asset_ids": []
     },
     {
       "id": "SEC3-Q19",
@@ -20239,7 +20747,8 @@ window.APP_DATA = {
       "answer": "標的型攻撃",
       "explain": "対象へ直接仕掛ける。",
       "point": "特定企業・ユーザ",
-      "topic": "SEC3-6"
+      "topic": "SEC3-6",
+      "original_asset_ids": []
     },
     {
       "id": "SEC3-Q20",
@@ -20254,7 +20763,8 @@ window.APP_DATA = {
       "answer": "水飲み場攻撃",
       "explain": "対象者が訪れる『場所』へ罠を仕掛ける。",
       "point": "頻繁に使うWebサイト",
-      "topic": "SEC3-6"
+      "topic": "SEC3-6",
+      "original_asset_ids": []
     },
     {
       "id": "SEC3-Q21",
@@ -20269,7 +20779,8 @@ window.APP_DATA = {
       "answer": "フィッシング",
       "explain": "偽メール＋偽サイトで情報入力を誘導。",
       "point": "偽メール・偽URL",
-      "topic": "SEC3-6"
+      "topic": "SEC3-6",
+      "original_asset_ids": []
     },
     {
       "id": "SEC3-Q22",
@@ -20284,7 +20795,8 @@ window.APP_DATA = {
       "answer": "標的型＝対象へ直接、水飲み場＝対象が利用するサイトに罠",
       "explain": "攻撃の入り口が異なる。",
       "point": "直接攻撃か待ち伏せか",
-      "topic": "SEC3-6"
+      "topic": "SEC3-6",
+      "original_asset_ids": []
     },
     {
       "id": "SEC3-Q23",
@@ -20299,7 +20811,8 @@ window.APP_DATA = {
       "answer": "フットプリンティング",
       "explain": "攻撃前の広い情報収集。",
       "point": "情報収集",
-      "topic": "SEC3-7"
+      "topic": "SEC3-7",
+      "original_asset_ids": []
     },
     {
       "id": "SEC3-Q24",
@@ -20314,7 +20827,8 @@ window.APP_DATA = {
       "answer": "ポートスキャン",
       "explain": "ポートのサービス状態調査。",
       "point": "ポート状態",
-      "topic": "SEC3-7"
+      "topic": "SEC3-7",
+      "original_asset_ids": []
     },
     {
       "id": "SEC3-Q25",
@@ -20329,7 +20843,8 @@ window.APP_DATA = {
       "answer": "バックドア",
       "explain": "侵入経路を隠れて確保する。",
       "point": "侵入経路の確保",
-      "topic": "SEC3-7"
+      "topic": "SEC3-7",
+      "original_asset_ids": []
     },
     {
       "id": "SEC3-Q26",
@@ -20344,7 +20859,8 @@ window.APP_DATA = {
       "answer": "情報収集→ポート状態調査→侵入経路確保",
       "explain": "資料の3用語を役割順に並べたもの。",
       "point": "準備段階の役割",
-      "topic": "SEC3-7"
+      "topic": "SEC3-7",
+      "original_asset_ids": []
     },
     {
       "id": "SEC4-Q01",
@@ -20359,7 +20875,8 @@ window.APP_DATA = {
       "answer": "正当なアクセス権を持つユーザによるものか",
       "explain": "資料の認証の定義。",
       "point": "認証の目的",
-      "topic": "SEC4-1"
+      "topic": "SEC4-1",
+      "original_asset_ids": []
     },
     {
       "id": "SEC4-Q02",
@@ -20372,7 +20889,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "資料の説明どおり。",
       "point": "基本認証",
-      "topic": "SEC4-1"
+      "topic": "SEC4-1",
+      "original_asset_ids": []
     },
     {
       "id": "SEC4-Q03",
@@ -20387,7 +20905,8 @@ window.APP_DATA = {
       "answer": "サーバ",
       "explain": "サーバが乱数を生成してユーザへ送信する。",
       "point": "チャレンジコード生成主体",
-      "topic": "SEC4-1"
+      "topic": "SEC4-1",
+      "original_asset_ids": []
     },
     {
       "id": "SEC4-Q04",
@@ -20402,7 +20921,8 @@ window.APP_DATA = {
       "answer": "レスポンスコード",
       "explain": "チャレンジコードとパスワードから生成して返す。",
       "point": "レスポンスコード",
-      "topic": "SEC4-1"
+      "topic": "SEC4-1",
+      "original_asset_ids": []
     },
     {
       "id": "SEC4-Q05",
@@ -20415,7 +20935,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "盗聴リスクは減るが、サーバ侵入や入力時の盗み見の危険は残る。",
       "point": "完全防止ではない",
-      "topic": "SEC4-1"
+      "topic": "SEC4-1",
+      "original_asset_ids": []
     },
     {
       "id": "SEC4-Q06",
@@ -20430,7 +20951,8 @@ window.APP_DATA = {
       "answer": "リスクベース認証",
       "explain": "アクセス履歴などから不正リスクを判定する。",
       "point": "異常環境→追加認証",
-      "topic": "SEC4-2"
+      "topic": "SEC4-2",
+      "original_asset_ids": []
     },
     {
       "id": "SEC4-Q07",
@@ -20443,7 +20965,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "1回使用すると次回から使用できない。",
       "point": "使い捨て",
-      "topic": "SEC4-2"
+      "topic": "SEC4-2",
+      "original_asset_ids": []
     },
     {
       "id": "SEC4-Q08",
@@ -20458,7 +20981,8 @@ window.APP_DATA = {
       "answer": "トークン",
       "explain": "トークンと認証サーバの時間を同期する。",
       "point": "タイムシンクロナス",
-      "topic": "SEC4-2"
+      "topic": "SEC4-2",
+      "original_asset_ids": []
     },
     {
       "id": "SEC4-Q09",
@@ -20473,7 +20997,8 @@ window.APP_DATA = {
       "answer": "チャレンジレスポンス方式・タイムシンクロナス方式",
       "explain": "資料に示された2方式。",
       "point": "OTPの2方式",
-      "topic": "SEC4-2"
+      "topic": "SEC4-2",
+      "original_asset_ids": []
     },
     {
       "id": "SEC4-Q10",
@@ -20488,7 +21013,8 @@ window.APP_DATA = {
       "answer": "生体情報・所持情報・知識情報",
       "explain": "資料の認証3要素。",
       "point": "3要素",
-      "topic": "SEC4-3"
+      "topic": "SEC4-3",
+      "original_asset_ids": []
     },
     {
       "id": "SEC4-Q11",
@@ -20503,7 +21029,8 @@ window.APP_DATA = {
       "answer": "多要素＝異なる要素を複数、多段階＝複数回認証",
       "explain": "名称が似るが判断軸が違う。",
       "point": "要素数 vs 段階数",
-      "topic": "SEC4-3"
+      "topic": "SEC4-3",
+      "original_asset_ids": []
     },
     {
       "id": "SEC4-Q12",
@@ -20516,7 +21043,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "資料中の具体例。",
       "point": "多段階の例",
-      "topic": "SEC4-3"
+      "topic": "SEC4-3",
+      "original_asset_ids": []
     },
     {
       "id": "SEC4-Q13",
@@ -20531,7 +21059,8 @@ window.APP_DATA = {
       "answer": "シングルサインオン",
       "explain": "SSOの定義。",
       "point": "1回認証→複数システム",
-      "topic": "SEC4-4"
+      "topic": "SEC4-4",
+      "original_asset_ids": []
     },
     {
       "id": "SEC4-Q14",
@@ -20546,7 +21075,8 @@ window.APP_DATA = {
       "answer": "代行認証方式",
       "explain": "クライアント側エージェントが代理入力する。",
       "point": "クライアント側",
-      "topic": "SEC4-4"
+      "topic": "SEC4-4",
+      "original_asset_ids": []
     },
     {
       "id": "SEC4-Q15",
@@ -20561,7 +21091,8 @@ window.APP_DATA = {
       "answer": "リバースプロキシ方式",
       "explain": "リバースプロキシサーバが認証を行う。",
       "point": "中継サーバ",
-      "topic": "SEC4-4"
+      "topic": "SEC4-4",
+      "original_asset_ids": []
     },
     {
       "id": "SEC4-Q16",
@@ -20576,7 +21107,8 @@ window.APP_DATA = {
       "answer": "エージェント方式",
       "explain": "Webサーバ側のエージェントが外部SSOサーバと連携する。",
       "point": "Webサーバ側",
-      "topic": "SEC4-4"
+      "topic": "SEC4-4",
+      "original_asset_ids": []
     },
     {
       "id": "SEC4-Q17",
@@ -20591,7 +21123,8 @@ window.APP_DATA = {
       "answer": "IdPとSP",
       "explain": "SAMLではIdentity ProviderとService Providerを使う。",
       "point": "IdP・SP",
-      "topic": "SEC4-5"
+      "topic": "SEC4-5",
+      "original_asset_ids": []
     },
     {
       "id": "SEC4-Q18",
@@ -20606,7 +21139,8 @@ window.APP_DATA = {
       "answer": "SPからIdP",
       "explain": "SPがIdPへ認証要求を送る。",
       "point": "認証要求の向き",
-      "topic": "SEC4-5"
+      "topic": "SEC4-5",
+      "original_asset_ids": []
     },
     {
       "id": "SEC4-Q19",
@@ -20621,7 +21155,8 @@ window.APP_DATA = {
       "answer": "IdPからSP",
       "explain": "IdPがSPへ認証応答を返す。",
       "point": "認証応答の向き",
-      "topic": "SEC4-5"
+      "topic": "SEC4-5",
+      "original_asset_ids": []
     },
     {
       "id": "SEC4-Q20",
@@ -20636,7 +21171,8 @@ window.APP_DATA = {
       "answer": "送信者の秘密鍵",
       "explain": "送信者が自分の秘密鍵で署名を生成する。",
       "point": "署名生成＝秘密鍵",
-      "topic": "SEC4-6"
+      "topic": "SEC4-6",
+      "original_asset_ids": []
     },
     {
       "id": "SEC4-Q21",
@@ -20651,7 +21187,8 @@ window.APP_DATA = {
       "answer": "送信者の公開鍵",
       "explain": "受信者が送信者の公開鍵で検証する。",
       "point": "署名検証＝公開鍵",
-      "topic": "SEC4-6"
+      "topic": "SEC4-6",
+      "original_asset_ids": []
     },
     {
       "id": "SEC4-Q22",
@@ -20666,7 +21203,8 @@ window.APP_DATA = {
       "answer": "データの完全性と作成者の本人性",
       "explain": "資料の中心結論。",
       "point": "完全性＋本人性",
-      "topic": "SEC4-6"
+      "topic": "SEC4-6",
+      "original_asset_ids": []
     },
     {
       "id": "SEC4-Q23",
@@ -20679,7 +21217,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "検証失敗になるだけで、どちらが改ざんされたかは不明。",
       "point": "判別できない事項",
-      "topic": "SEC4-6"
+      "topic": "SEC4-6",
+      "original_asset_ids": []
     },
     {
       "id": "SEC4-Q24",
@@ -20694,7 +21233,8 @@ window.APP_DATA = {
       "answer": "文書が改ざんされていないことと、署名が署名生成鍵で生成されたこと",
       "explain": "例題の正解はイ。",
       "point": "例題の結論",
-      "topic": "SEC4-6"
+      "topic": "SEC4-6",
+      "original_asset_ids": []
     },
     {
       "id": "SEC4-Q25",
@@ -20709,7 +21249,8 @@ window.APP_DATA = {
       "answer": "バイオメトリクス認証",
       "explain": "資料で同義として示されている。",
       "point": "別名",
-      "topic": "SEC4-7"
+      "topic": "SEC4-7",
+      "original_asset_ids": []
     },
     {
       "id": "SEC4-Q26",
@@ -20724,7 +21265,8 @@ window.APP_DATA = {
       "answer": "声紋認証・署名認証",
       "explain": "資料では声紋と署名を行動的特徴としている。",
       "point": "行動的特徴",
-      "topic": "SEC4-7"
+      "topic": "SEC4-7",
+      "original_asset_ids": []
     },
     {
       "id": "SEC4-Q27",
@@ -20739,7 +21281,8 @@ window.APP_DATA = {
       "answer": "偽造困難・認証精度が高い・非接触",
       "explain": "静脈認証の特徴。",
       "point": "静脈認証",
-      "topic": "SEC4-7"
+      "topic": "SEC4-7",
+      "original_asset_ids": []
     },
     {
       "id": "SEC4-Q28",
@@ -20754,7 +21297,8 @@ window.APP_DATA = {
       "answer": "指紋認証",
       "explain": "指紋認証のメリット。",
       "point": "指紋認証",
-      "topic": "SEC4-7"
+      "topic": "SEC4-7",
+      "original_asset_ids": []
     },
     {
       "id": "SEC5-Q01",
@@ -20769,7 +21313,8 @@ window.APP_DATA = {
       "answer": "共通鍵暗号方式",
       "explain": "同じ共通鍵を使用する。",
       "point": "同じ鍵",
-      "topic": "SEC5-1"
+      "topic": "SEC5-1",
+      "original_asset_ids": []
     },
     {
       "id": "SEC5-Q02",
@@ -20784,7 +21329,8 @@ window.APP_DATA = {
       "answer": "暗号化・復号が高速",
       "explain": "共通鍵暗号の代表的長所。",
       "point": "高速",
-      "topic": "SEC5-1"
+      "topic": "SEC5-1",
+      "original_asset_ids": []
     },
     {
       "id": "SEC5-Q03",
@@ -20799,7 +21345,8 @@ window.APP_DATA = {
       "answer": "鍵を相手に安全に届ける必要がある",
       "explain": "鍵配送が主要課題。",
       "point": "鍵配送",
-      "topic": "SEC5-1"
+      "topic": "SEC5-1",
+      "original_asset_ids": []
     },
     {
       "id": "SEC5-Q04",
@@ -20814,7 +21361,8 @@ window.APP_DATA = {
       "answer": "受信者の公開鍵",
       "explain": "受信者が公開した鍵で暗号化する。",
       "point": "暗号化＝公開鍵",
-      "topic": "SEC5-2"
+      "topic": "SEC5-2",
+      "original_asset_ids": []
     },
     {
       "id": "SEC5-Q05",
@@ -20829,7 +21377,8 @@ window.APP_DATA = {
       "answer": "受信者の秘密鍵",
       "explain": "対応する秘密鍵で復号する。",
       "point": "復号＝秘密鍵",
-      "topic": "SEC5-2"
+      "topic": "SEC5-2",
+      "original_asset_ids": []
     },
     {
       "id": "SEC5-Q06",
@@ -20844,7 +21393,8 @@ window.APP_DATA = {
       "answer": "素因数分解問題の困難性",
       "explain": "資料記載のRSAの特徴。",
       "point": "RSA",
-      "topic": "SEC5-2"
+      "topic": "SEC5-2",
+      "original_asset_ids": []
     },
     {
       "id": "SEC5-Q07",
@@ -20859,7 +21409,8 @@ window.APP_DATA = {
       "answer": "公開鍵暗号で共通鍵を安全に配送し、その後は共通鍵暗号で通信",
       "explain": "両方式の長所を組み合わせる。",
       "point": "公開鍵→共通鍵",
-      "topic": "SEC5-3"
+      "topic": "SEC5-3",
+      "original_asset_ids": []
     },
     {
       "id": "SEC5-Q08",
@@ -20872,7 +21423,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "資料の送受信手順どおり。",
       "point": "共通鍵配送",
-      "topic": "SEC5-3"
+      "topic": "SEC5-3",
+      "original_asset_ids": []
     },
     {
       "id": "SEC5-Q09",
@@ -20887,7 +21439,8 @@ window.APP_DATA = {
       "answer": "SSL通信",
       "explain": "資料にSSL通信で活用と記載。",
       "point": "利用例",
-      "topic": "SEC5-3"
+      "topic": "SEC5-3",
+      "original_asset_ids": []
     },
     {
       "id": "SEC5-Q10",
@@ -20900,7 +21453,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "ハッシュ関数の基本定義。",
       "point": "固定長出力",
-      "topic": "SEC5-4"
+      "topic": "SEC5-4",
+      "original_asset_ids": []
     },
     {
       "id": "SEC5-Q11",
@@ -20915,7 +21469,8 @@ window.APP_DATA = {
       "answer": "同じハッシュ値になる",
       "explain": "同一入力なら同一ハッシュ値。",
       "point": "同一入力同一値",
-      "topic": "SEC5-4"
+      "topic": "SEC5-4",
+      "original_asset_ids": []
     },
     {
       "id": "SEC5-Q12",
@@ -20930,7 +21485,8 @@ window.APP_DATA = {
       "answer": "ハッシュ値から元データへ戻すことは非常に困難",
       "explain": "一方向関数である。",
       "point": "一方向",
-      "topic": "SEC5-4"
+      "topic": "SEC5-4",
+      "original_asset_ids": []
     },
     {
       "id": "SEC5-Q13",
@@ -20945,7 +21501,8 @@ window.APP_DATA = {
       "answer": "SHA-2とは異なる方式で計算する",
       "explain": "資料の比較ポイント。",
       "point": "SHA-2とSHA-3",
-      "topic": "SEC5-4"
+      "topic": "SEC5-4",
+      "original_asset_ids": []
     },
     {
       "id": "SEC5-Q14",
@@ -20960,7 +21517,8 @@ window.APP_DATA = {
       "answer": "ブロック暗号",
       "explain": "一定サイズのブロック単位で処理する。",
       "point": "ブロック暗号",
-      "topic": "SEC5-5"
+      "topic": "SEC5-5",
+      "original_asset_ids": []
     },
     {
       "id": "SEC5-Q15",
@@ -20975,7 +21533,8 @@ window.APP_DATA = {
       "answer": "認証暗号ではなくTLS1.3では削除された",
       "explain": "CBCの重要な注意点。",
       "point": "CBC",
-      "topic": "SEC5-5"
+      "topic": "SEC5-5",
+      "original_asset_ids": []
     },
     {
       "id": "SEC5-Q16",
@@ -20990,7 +21549,8 @@ window.APP_DATA = {
       "answer": "CCMまたはGCM",
       "explain": "NIST推奨の認証暗号化モードとして示されている。",
       "point": "CCM/GCM",
-      "topic": "SEC5-5"
+      "topic": "SEC5-5",
+      "original_asset_ids": []
     },
     {
       "id": "SEC5-Q17",
@@ -21005,7 +21565,8 @@ window.APP_DATA = {
       "answer": "総務省・経済産業省",
       "explain": "資料の記載どおり。",
       "point": "CRYPTREC",
-      "topic": "SEC5-5"
+      "topic": "SEC5-5",
+      "original_asset_ids": []
     },
     {
       "id": "SEC5-Q18",
@@ -21020,7 +21581,8 @@ window.APP_DATA = {
       "answer": "公開鍵暗号技術と電子署名を使って安全な通信を実現するための環境",
       "explain": "PKIの定義。",
       "point": "PKI",
-      "topic": "SEC5-6"
+      "topic": "SEC5-6",
+      "original_asset_ids": []
     },
     {
       "id": "SEC5-Q19",
@@ -21035,7 +21597,8 @@ window.APP_DATA = {
       "answer": "送信者の公開鍵",
       "explain": "証明書の構成要素の1つ。",
       "point": "証明書構成",
-      "topic": "SEC5-6"
+      "topic": "SEC5-6",
+      "original_asset_ids": []
     },
     {
       "id": "SEC5-Q20",
@@ -21050,7 +21613,8 @@ window.APP_DATA = {
       "answer": "X.509",
       "explain": "ITU-Tが定めた規格。",
       "point": "X.509",
-      "topic": "SEC5-6"
+      "topic": "SEC5-6",
+      "original_asset_ids": []
     },
     {
       "id": "SEC5-Q21",
@@ -21065,7 +21629,8 @@ window.APP_DATA = {
       "answer": "公開鍵と各種証明書情報で構成されるCSR",
       "explain": "CSRをCAへ送り発行依頼する。",
       "point": "CSR",
-      "topic": "SEC5-7"
+      "topic": "SEC5-7",
+      "original_asset_ids": []
     },
     {
       "id": "SEC5-Q22",
@@ -21080,7 +21645,8 @@ window.APP_DATA = {
       "answer": "CAの秘密鍵",
       "explain": "CAの秘密鍵で署名する。",
       "point": "CA秘密鍵",
-      "topic": "SEC5-7"
+      "topic": "SEC5-7",
+      "original_asset_ids": []
     },
     {
       "id": "SEC5-Q23",
@@ -21095,7 +21661,8 @@ window.APP_DATA = {
       "answer": "CAの公開鍵",
       "explain": "CAの公開鍵でCA署名を復号・検証する。",
       "point": "CA公開鍵",
-      "topic": "SEC5-7"
+      "topic": "SEC5-7",
+      "original_asset_ids": []
     },
     {
       "id": "SEC5-Q24",
@@ -21110,7 +21677,8 @@ window.APP_DATA = {
       "answer": "有効期限前に無効となったディジタル証明書",
       "explain": "CRLの定義。",
       "point": "CRL",
-      "topic": "SEC5-8"
+      "topic": "SEC5-8",
+      "original_asset_ids": []
     },
     {
       "id": "SEC5-Q25",
@@ -21123,7 +21691,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "資料では有効期限を越えた証明書はCRLに入らない。",
       "point": "CRL例外",
-      "topic": "SEC5-8"
+      "topic": "SEC5-8",
+      "original_asset_ids": []
     },
     {
       "id": "SEC5-Q26",
@@ -21138,7 +21707,8 @@ window.APP_DATA = {
       "answer": "OCSP",
       "explain": "OCSPの定義。",
       "point": "リアルタイム",
-      "topic": "SEC5-8"
+      "topic": "SEC5-8",
+      "original_asset_ids": []
     },
     {
       "id": "SEC5-Q27",
@@ -21153,7 +21723,8 @@ window.APP_DATA = {
       "answer": "証明書シリアル番号・発行者DNのハッシュ値など",
       "explain": "例題の正解ポイント。",
       "point": "OCSP問い合わせ項目",
-      "topic": "SEC5-8"
+      "topic": "SEC5-8",
+      "original_asset_ids": []
     },
     {
       "id": "SEC5-Q28",
@@ -21168,7 +21739,8 @@ window.APP_DATA = {
       "answer": "有効・失効・不明",
       "explain": "OCSP応答の3状態。",
       "point": "OCSP応答",
-      "topic": "SEC5-8"
+      "topic": "SEC5-8",
+      "original_asset_ids": []
     },
     {
       "id": "SEC5-Q29",
@@ -21183,7 +21755,8 @@ window.APP_DATA = {
       "answer": "証明書のシリアル番号や発行者DNのハッシュ値などを送り、有効性を確認する",
       "explain": "資料掲載例題の正解はウ。",
       "point": "OCSP例題",
-      "topic": "SEC5-8"
+      "topic": "SEC5-8",
+      "original_asset_ids": []
     },
     {
       "id": "SEC6-Q01",
@@ -21198,7 +21771,8 @@ window.APP_DATA = {
       "answer": "情報セキュリティポリシの策定・リスクアセスメント",
       "explain": "PlanはISMSの確立段階。",
       "point": "Plan",
-      "topic": "SEC6-1"
+      "topic": "SEC6-1",
+      "original_asset_ids": []
     },
     {
       "id": "SEC6-Q02",
@@ -21213,7 +21787,8 @@ window.APP_DATA = {
       "answer": "対策実施・セキュリティ教育",
       "explain": "Doは導入・運用。",
       "point": "Do",
-      "topic": "SEC6-1"
+      "topic": "SEC6-1",
+      "original_asset_ids": []
     },
     {
       "id": "SEC6-Q03",
@@ -21228,7 +21803,8 @@ window.APP_DATA = {
       "answer": "監査・評価・レビュー",
       "explain": "Checkは監視およびレビュー。",
       "point": "Check",
-      "topic": "SEC6-1"
+      "topic": "SEC6-1",
+      "original_asset_ids": []
     },
     {
       "id": "SEC6-Q04",
@@ -21243,7 +21819,8 @@ window.APP_DATA = {
       "answer": "ポリシ見直し・問題の是正改善",
       "explain": "Actは維持・改善。",
       "point": "Act",
-      "topic": "SEC6-1"
+      "topic": "SEC6-1",
+      "original_asset_ids": []
     },
     {
       "id": "SEC6-Q05",
@@ -21258,7 +21835,8 @@ window.APP_DATA = {
       "answer": "JIS Q 27001",
       "explain": "27001は要求事項。",
       "point": "27001",
-      "topic": "SEC6-2"
+      "topic": "SEC6-2",
+      "original_asset_ids": []
     },
     {
       "id": "SEC6-Q06",
@@ -21273,7 +21851,8 @@ window.APP_DATA = {
       "answer": "JIS Q 27002",
       "explain": "27002は管理策。",
       "point": "27002",
-      "topic": "SEC6-2"
+      "topic": "SEC6-2",
+      "original_asset_ids": []
     },
     {
       "id": "SEC6-Q07",
@@ -21288,7 +21867,8 @@ window.APP_DATA = {
       "answer": "JIS Q 27014",
       "explain": "27014は経営陣向けガバナンス規格。",
       "point": "27014",
-      "topic": "SEC6-2"
+      "topic": "SEC6-2",
+      "original_asset_ids": []
     },
     {
       "id": "SEC6-Q08",
@@ -21301,7 +21881,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "規格そのものではなく認証制度。",
       "point": "認証制度",
-      "topic": "SEC6-2"
+      "topic": "SEC6-2",
+      "original_asset_ids": []
     },
     {
       "id": "SEC6-Q09",
@@ -21316,7 +21897,8 @@ window.APP_DATA = {
       "answer": "基本方針→リスク分析・評価→リスク対応選択",
       "explain": "資料の確立手順。",
       "point": "確立手順",
-      "topic": "SEC6-3"
+      "topic": "SEC6-3",
+      "original_asset_ids": []
     },
     {
       "id": "SEC6-Q10",
@@ -21331,7 +21913,8 @@ window.APP_DATA = {
       "answer": "基本方針",
       "explain": "3階層の最上位。",
       "point": "ポリシ階層",
-      "topic": "SEC6-3"
+      "topic": "SEC6-3",
+      "original_asset_ids": []
     },
     {
       "id": "SEC6-Q11",
@@ -21346,7 +21929,8 @@ window.APP_DATA = {
       "answer": "対策基準",
       "explain": "対策基準は適用範囲・対象者などを明確化。",
       "point": "対策基準",
-      "topic": "SEC6-3"
+      "topic": "SEC6-3",
+      "original_asset_ids": []
     },
     {
       "id": "SEC6-Q12",
@@ -21361,7 +21945,8 @@ window.APP_DATA = {
       "answer": "実施手順",
       "explain": "マニュアル的な位置づけ。",
       "point": "実施手順",
-      "topic": "SEC6-3"
+      "topic": "SEC6-3",
+      "original_asset_ids": []
     },
     {
       "id": "SEC6-Q13",
@@ -21376,7 +21961,8 @@ window.APP_DATA = {
       "answer": "J-CRAT",
       "explain": "標的型攻撃支援が中心。",
       "point": "J-CRAT",
-      "topic": "SEC6-4"
+      "topic": "SEC6-4",
+      "original_asset_ids": []
     },
     {
       "id": "SEC6-Q14",
@@ -21391,7 +21977,8 @@ window.APP_DATA = {
       "answer": "JVN",
       "explain": "JPCERT/CCとIPAが共同運営。",
       "point": "JVN",
-      "topic": "SEC6-4"
+      "topic": "SEC6-4",
+      "original_asset_ids": []
     },
     {
       "id": "SEC6-Q15",
@@ -21406,7 +21993,8 @@ window.APP_DATA = {
       "answer": "CSIRT",
       "explain": "企業・公的機関などの組織内に設置。",
       "point": "CSIRT",
-      "topic": "SEC6-4"
+      "topic": "SEC6-4",
+      "original_asset_ids": []
     },
     {
       "id": "SEC6-Q16",
@@ -21421,7 +22009,8 @@ window.APP_DATA = {
       "answer": "JPCERT/CC",
       "explain": "特定政府機関・企業から独立した中立組織。",
       "point": "JPCERT/CC",
-      "topic": "SEC6-4"
+      "topic": "SEC6-4",
+      "original_asset_ids": []
     },
     {
       "id": "SEC6-Q17",
@@ -21436,7 +22025,8 @@ window.APP_DATA = {
       "answer": "純粋リスク",
       "explain": "自然災害や偶発事故など。",
       "point": "純粋リスク",
-      "topic": "SEC6-5"
+      "topic": "SEC6-5",
+      "original_asset_ids": []
     },
     {
       "id": "SEC6-Q18",
@@ -21451,7 +22041,8 @@ window.APP_DATA = {
       "answer": "投機的リスク",
       "explain": "企業活動や経営環境変動に伴う。",
       "point": "投機的リスク",
-      "topic": "SEC6-5"
+      "topic": "SEC6-5",
+      "original_asset_ids": []
     },
     {
       "id": "SEC6-Q19",
@@ -21464,7 +22055,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "資料の定義。",
       "point": "分析＋評価",
-      "topic": "SEC6-5"
+      "topic": "SEC6-5",
+      "original_asset_ids": []
     },
     {
       "id": "SEC6-Q20",
@@ -21479,7 +22071,8 @@ window.APP_DATA = {
       "answer": "定量的分析",
       "explain": "数値化して評価する。",
       "point": "定量的",
-      "topic": "SEC6-6"
+      "topic": "SEC6-6",
+      "original_asset_ids": []
     },
     {
       "id": "SEC6-Q21",
@@ -21494,7 +22087,8 @@ window.APP_DATA = {
       "answer": "定性的分析",
       "explain": "頻度と影響度が判断語句。",
       "point": "定性的",
-      "topic": "SEC6-6"
+      "topic": "SEC6-6",
+      "original_asset_ids": []
     },
     {
       "id": "SEC6-Q22",
@@ -21509,7 +22103,8 @@ window.APP_DATA = {
       "answer": "ベースラインアプローチ",
       "explain": "既存標準を基礎にする。",
       "point": "ベースライン",
-      "topic": "SEC6-6"
+      "topic": "SEC6-6",
+      "original_asset_ids": []
     },
     {
       "id": "SEC6-Q23",
@@ -21524,7 +22119,8 @@ window.APP_DATA = {
       "answer": "非形式的アプローチ",
       "explain": "経験依存が特徴。",
       "point": "非形式的",
-      "topic": "SEC6-6"
+      "topic": "SEC6-6",
+      "original_asset_ids": []
     },
     {
       "id": "SEC6-Q24",
@@ -21539,7 +22135,8 @@ window.APP_DATA = {
       "answer": "詳細リスク分析",
       "explain": "精密だが高コスト。",
       "point": "詳細分析",
-      "topic": "SEC6-6"
+      "topic": "SEC6-6",
+      "original_asset_ids": []
     },
     {
       "id": "SEC6-Q25",
@@ -21554,7 +22151,8 @@ window.APP_DATA = {
       "answer": "リスク評価",
       "explain": "『基準と比較して許容可能か判断』がリスク評価。",
       "point": "リスク評価",
-      "topic": "SEC6-7"
+      "topic": "SEC6-7",
+      "original_asset_ids": []
     },
     {
       "id": "SEC6-Q26",
@@ -21569,7 +22167,8 @@ window.APP_DATA = {
       "answer": "分析＝リスクレベル決定、評価＝許容可能か判断",
       "explain": "役割が異なる。",
       "point": "分析と評価の違い",
-      "topic": "SEC6-7"
+      "topic": "SEC6-7",
+      "original_asset_ids": []
     },
     {
       "id": "SEC6-Q27",
@@ -21584,7 +22183,8 @@ window.APP_DATA = {
       "answer": "リスク回避",
       "explain": "回避はリスクを発生させない。",
       "point": "回避",
-      "topic": "SEC6-8"
+      "topic": "SEC6-8",
+      "original_asset_ids": []
     },
     {
       "id": "SEC6-Q28",
@@ -21599,7 +22199,8 @@ window.APP_DATA = {
       "answer": "リスク軽減",
       "explain": "発生率・損失を縮小。",
       "point": "軽減",
-      "topic": "SEC6-8"
+      "topic": "SEC6-8",
+      "original_asset_ids": []
     },
     {
       "id": "SEC6-Q29",
@@ -21614,7 +22215,8 @@ window.APP_DATA = {
       "answer": "リスクファイナンシングにおけるリスク移転",
       "explain": "保険は金銭的なリスク移転。",
       "point": "保険＝移転",
-      "topic": "SEC6-8"
+      "topic": "SEC6-8",
+      "original_asset_ids": []
     },
     {
       "id": "SEC6-Q30",
@@ -21629,7 +22231,8 @@ window.APP_DATA = {
       "answer": "リスク保有",
       "explain": "対応費用と損失が見合わない場合にも選択。",
       "point": "保有",
-      "topic": "SEC6-8"
+      "topic": "SEC6-8",
+      "original_asset_ids": []
     },
     {
       "id": "SEC6-Q31",
@@ -21644,7 +22247,8 @@ window.APP_DATA = {
       "answer": "残留リスク",
       "explain": "残留リスクはリスク保有とも言える。",
       "point": "残留リスク",
-      "topic": "SEC6-8"
+      "topic": "SEC6-8",
+      "original_asset_ids": []
     },
     {
       "id": "SEC7-Q01",
@@ -21659,7 +22263,8 @@ window.APP_DATA = {
       "answer": "暗号",
       "explain": "4機能は抑止・防止・検知・回復。",
       "point": "4機能",
-      "topic": "SEC7-1"
+      "topic": "SEC7-1",
+      "original_asset_ids": []
     },
     {
       "id": "SEC7-Q02",
@@ -21674,7 +22279,8 @@ window.APP_DATA = {
       "answer": "抑止",
       "explain": "抑止の定義。",
       "point": "抑止",
-      "topic": "SEC7-1"
+      "topic": "SEC7-1",
+      "original_asset_ids": []
     },
     {
       "id": "SEC7-Q03",
@@ -21687,7 +22293,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "資料の基本原則。",
       "point": "多層防御",
-      "topic": "SEC7-1"
+      "topic": "SEC7-1",
+      "original_asset_ids": []
     },
     {
       "id": "SEC7-Q04",
@@ -21702,7 +22309,8 @@ window.APP_DATA = {
       "answer": "知る必要のある人のみに情報を伝える",
       "explain": "最小権限の考え方。",
       "point": "need-to-know",
-      "topic": "SEC7-2"
+      "topic": "SEC7-2",
+      "original_asset_ids": []
     },
     {
       "id": "SEC7-Q05",
@@ -21717,7 +22325,8 @@ window.APP_DATA = {
       "answer": "レッドチーム演習",
       "explain": "人的対策の教育・訓練例。",
       "point": "レッドチーム",
-      "topic": "SEC7-2"
+      "topic": "SEC7-2",
+      "original_asset_ids": []
     },
     {
       "id": "SEC7-Q06",
@@ -21732,7 +22341,8 @@ window.APP_DATA = {
       "answer": "アクセス制御で内部ネットワークを防御",
       "explain": "FWの基本。",
       "point": "FW",
-      "topic": "SEC7-3"
+      "topic": "SEC7-3",
+      "original_asset_ids": []
     },
     {
       "id": "SEC7-Q07",
@@ -21747,7 +22357,8 @@ window.APP_DATA = {
       "answer": "NAPT",
       "explain": "IPマスカレードともいう。",
       "point": "NAPT",
-      "topic": "SEC7-3"
+      "topic": "SEC7-3",
+      "original_asset_ids": []
     },
     {
       "id": "SEC7-Q08",
@@ -21762,7 +22373,8 @@ window.APP_DATA = {
       "answer": "DMZ",
       "explain": "公開サーバを置く緩衝地帯。",
       "point": "DMZ",
-      "topic": "SEC7-3"
+      "topic": "SEC7-3",
+      "original_asset_ids": []
     },
     {
       "id": "SEC7-Q09",
@@ -21775,7 +22387,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "資料では防げない欠点がある。",
       "point": "FW限界",
-      "topic": "SEC7-3"
+      "topic": "SEC7-3",
+      "original_asset_ids": []
     },
     {
       "id": "SEC7-Q10",
@@ -21790,7 +22403,8 @@ window.APP_DATA = {
       "answer": "WAF",
       "explain": "Web Application Firewall。",
       "point": "WAF",
-      "topic": "SEC7-3"
+      "topic": "SEC7-3",
+      "original_asset_ids": []
     },
     {
       "id": "SEC7-Q11",
@@ -21805,7 +22419,8 @@ window.APP_DATA = {
       "answer": "全ポート開放",
       "explain": "要塞化は攻撃面を減らす。",
       "point": "要塞化",
-      "topic": "SEC7-4"
+      "topic": "SEC7-4",
+      "original_asset_ids": []
     },
     {
       "id": "SEC7-Q12",
@@ -21820,7 +22435,8 @@ window.APP_DATA = {
       "answer": "通信の機密性確保",
       "explain": "情報漏えい対策。",
       "point": "暗号化",
-      "topic": "SEC7-5"
+      "topic": "SEC7-5",
+      "original_asset_ids": []
     },
     {
       "id": "SEC7-Q13",
@@ -21835,7 +22451,8 @@ window.APP_DATA = {
       "answer": "IPsec",
       "explain": "拠点間VPNで利用。",
       "point": "VPN",
-      "topic": "SEC7-5"
+      "topic": "SEC7-5",
+      "original_asset_ids": []
     },
     {
       "id": "SEC7-Q14",
@@ -21850,7 +22467,8 @@ window.APP_DATA = {
       "answer": "802.1X",
       "explain": "無線LANの拡張認証。",
       "point": "802.1X",
-      "topic": "SEC7-5"
+      "topic": "SEC7-5",
+      "original_asset_ids": []
     },
     {
       "id": "SEC7-Q15",
@@ -21865,7 +22483,8 @@ window.APP_DATA = {
       "answer": "SIEM",
       "explain": "ログ統合分析。",
       "point": "SIEM",
-      "topic": "SEC7-6"
+      "topic": "SEC7-6",
+      "original_asset_ids": []
     },
     {
       "id": "SEC7-Q16",
@@ -21880,7 +22499,8 @@ window.APP_DATA = {
       "answer": "ディジタルフォレンジックス",
       "explain": "原因究明と証拠保全。",
       "point": "フォレンジックス",
-      "topic": "SEC7-6"
+      "topic": "SEC7-6",
+      "original_asset_ids": []
     },
     {
       "id": "SEC7-Q17",
@@ -21895,7 +22515,8 @@ window.APP_DATA = {
       "answer": "NTPサーバ",
       "explain": "時刻同期。",
       "point": "NTP",
-      "topic": "SEC7-6"
+      "topic": "SEC7-6",
+      "original_asset_ids": []
     },
     {
       "id": "SEC7-Q18",
@@ -21910,7 +22531,8 @@ window.APP_DATA = {
       "answer": "ネットワーク型",
       "explain": "システム形態による分類。",
       "point": "IDS形態",
-      "topic": "SEC7-7"
+      "topic": "SEC7-7",
+      "original_asset_ids": []
     },
     {
       "id": "SEC7-Q19",
@@ -21925,7 +22547,8 @@ window.APP_DATA = {
       "answer": "ホスト型",
       "explain": "システム形態による分類。",
       "point": "IDS形態",
-      "topic": "SEC7-7"
+      "topic": "SEC7-7",
+      "original_asset_ids": []
     },
     {
       "id": "SEC7-Q20",
@@ -21940,7 +22563,8 @@ window.APP_DATA = {
       "answer": "シグネチャ型",
       "explain": "既知不正パターンを利用。",
       "point": "シグネチャ",
-      "topic": "SEC7-7"
+      "topic": "SEC7-7",
+      "original_asset_ids": []
     },
     {
       "id": "SEC7-Q21",
@@ -21955,7 +22579,8 @@ window.APP_DATA = {
       "answer": "アノマリ型",
       "explain": "ホワイトリスト型。",
       "point": "アノマリ",
-      "topic": "SEC7-7"
+      "topic": "SEC7-7",
+      "original_asset_ids": []
     },
     {
       "id": "SEC7-Q22",
@@ -21970,7 +22595,8 @@ window.APP_DATA = {
       "answer": "変更する",
       "explain": "資料記載のIoT対策。",
       "point": "IoT",
-      "topic": "SEC7-8"
+      "topic": "SEC7-8",
+      "original_asset_ids": []
     },
     {
       "id": "SEC7-Q23",
@@ -21985,7 +22611,8 @@ window.APP_DATA = {
       "answer": "TPM",
       "explain": "耐タンパ性に優れる。",
       "point": "TPM",
-      "topic": "SEC7-8"
+      "topic": "SEC7-8",
+      "original_asset_ids": []
     },
     {
       "id": "SEC7-Q24",
@@ -22000,7 +22627,8 @@ window.APP_DATA = {
       "answer": "VDI",
       "explain": "持ち出し対策として記載。",
       "point": "VDI",
-      "topic": "SEC7-8"
+      "topic": "SEC7-8",
+      "original_asset_ids": []
     },
     {
       "id": "SEC7-Q25",
@@ -22015,7 +22643,8 @@ window.APP_DATA = {
       "answer": "パターンマッチング法",
       "explain": "コード列一致で検知。",
       "point": "ウイルス検知",
-      "topic": "SEC7-8"
+      "topic": "SEC7-8",
+      "original_asset_ids": []
     },
     {
       "id": "SEC7-Q26",
@@ -22030,7 +22659,8 @@ window.APP_DATA = {
       "answer": "ビヘイビア法",
       "explain": "振る舞いで検知。",
       "point": "ウイルス検知",
-      "topic": "SEC7-8"
+      "topic": "SEC7-8",
+      "original_asset_ids": []
     },
     {
       "id": "SEC7-Q27",
@@ -22045,7 +22675,8 @@ window.APP_DATA = {
       "answer": "WORM",
       "explain": "Write Once Read Many。",
       "point": "WORM",
-      "topic": "SEC7-8"
+      "topic": "SEC7-8",
+      "original_asset_ids": []
     },
     {
       "id": "SEC7-Q28",
@@ -22060,7 +22691,8 @@ window.APP_DATA = {
       "answer": "Availability",
       "explain": "可用性。",
       "point": "RASIS",
-      "topic": "SEC7-9"
+      "topic": "SEC7-9",
+      "original_asset_ids": []
     },
     {
       "id": "SEC7-Q29",
@@ -22075,7 +22707,8 @@ window.APP_DATA = {
       "answer": "Serviceability",
       "explain": "保守性。",
       "point": "RASIS",
-      "topic": "SEC7-9"
+      "topic": "SEC7-9",
+      "original_asset_ids": []
     },
     {
       "id": "SEC7-Q30",
@@ -22090,7 +22723,8 @@ window.APP_DATA = {
       "answer": "Integrity",
       "explain": "保全性。",
       "point": "RASIS",
-      "topic": "SEC7-9"
+      "topic": "SEC7-9",
+      "original_asset_ids": []
     },
     {
       "id": "SEC8-Q01",
@@ -22103,7 +22737,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "資料の説明どおり。",
       "point": "TCP/UDP",
-      "topic": "SEC8-1"
+      "topic": "SEC8-1",
+      "original_asset_ids": []
     },
     {
       "id": "SEC8-Q02",
@@ -22118,7 +22753,8 @@ window.APP_DATA = {
       "answer": "共通鍵",
       "explain": "最終的には共通鍵で暗号化通信。",
       "point": "共通鍵通信",
-      "topic": "SEC8-1"
+      "topic": "SEC8-1",
+      "original_asset_ids": []
     },
     {
       "id": "SEC8-Q03",
@@ -22133,7 +22769,8 @@ window.APP_DATA = {
       "answer": "電子証明書と公開鍵",
       "explain": "共通鍵交換に利用。",
       "point": "TLS流れ",
-      "topic": "SEC8-1"
+      "topic": "SEC8-1",
+      "original_asset_ids": []
     },
     {
       "id": "SEC8-Q04",
@@ -22148,7 +22785,8 @@ window.APP_DATA = {
       "answer": "ネットワーク層",
       "explain": "IPsecの基本。",
       "point": "IPsec層",
-      "topic": "SEC8-2"
+      "topic": "SEC8-2",
+      "original_asset_ids": []
     },
     {
       "id": "SEC8-Q05",
@@ -22163,7 +22801,8 @@ window.APP_DATA = {
       "answer": "ESP",
       "explain": "ESPは暗号化＋認証。",
       "point": "ESP",
-      "topic": "SEC8-2"
+      "topic": "SEC8-2",
+      "original_asset_ids": []
     },
     {
       "id": "SEC8-Q06",
@@ -22178,7 +22817,8 @@ window.APP_DATA = {
       "answer": "AH",
       "explain": "AHは認証。",
       "point": "AH",
-      "topic": "SEC8-2"
+      "topic": "SEC8-2",
+      "original_asset_ids": []
     },
     {
       "id": "SEC8-Q07",
@@ -22193,7 +22833,8 @@ window.APP_DATA = {
       "answer": "IKE",
       "explain": "鍵交換を担当。",
       "point": "IKE",
-      "topic": "SEC8-2"
+      "topic": "SEC8-2",
+      "original_asset_ids": []
     },
     {
       "id": "SEC8-Q08",
@@ -22206,7 +22847,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "L2TP単独では暗号化しない。",
       "point": "L2TP",
-      "topic": "SEC8-2"
+      "topic": "SEC8-2",
+      "original_asset_ids": []
     },
     {
       "id": "SEC8-Q09",
@@ -22221,7 +22863,8 @@ window.APP_DATA = {
       "answer": "PGP",
       "explain": "当事者間で公開鍵を交換。",
       "point": "PGP",
-      "topic": "SEC8-3"
+      "topic": "SEC8-3",
+      "original_asset_ids": []
     },
     {
       "id": "SEC8-Q10",
@@ -22236,7 +22879,8 @@ window.APP_DATA = {
       "answer": "S/MIME",
       "explain": "証明書利用。",
       "point": "S/MIME",
-      "topic": "SEC8-3"
+      "topic": "SEC8-3",
+      "original_asset_ids": []
     },
     {
       "id": "SEC8-Q11",
@@ -22251,7 +22895,8 @@ window.APP_DATA = {
       "answer": "受信者の公開鍵",
       "explain": "受信者だけが復号できる。",
       "point": "メール暗号化",
-      "topic": "SEC8-3"
+      "topic": "SEC8-3",
+      "original_asset_ids": []
     },
     {
       "id": "SEC8-Q12",
@@ -22266,7 +22911,8 @@ window.APP_DATA = {
       "answer": "送信者の秘密鍵",
       "explain": "署名生成。",
       "point": "メール署名",
-      "topic": "SEC8-3"
+      "topic": "SEC8-3",
+      "original_asset_ids": []
     },
     {
       "id": "SEC8-Q13",
@@ -22281,7 +22927,8 @@ window.APP_DATA = {
       "answer": "SAE",
       "explain": "WPA3 Personalの特徴。",
       "point": "WPA3",
-      "topic": "SEC8-4"
+      "topic": "SEC8-4",
+      "original_asset_ids": []
     },
     {
       "id": "SEC8-Q14",
@@ -22296,7 +22943,8 @@ window.APP_DATA = {
       "answer": "PSK",
       "explain": "事前共有鍵。",
       "point": "WPA2",
-      "topic": "SEC8-4"
+      "topic": "SEC8-4",
+      "original_asset_ids": []
     },
     {
       "id": "SEC8-Q15",
@@ -22311,7 +22959,8 @@ window.APP_DATA = {
       "answer": "電子証明書",
       "explain": "サーバ・クライアント双方に証明書。",
       "point": "EAP-TLS",
-      "topic": "SEC8-4"
+      "topic": "SEC8-4",
+      "original_asset_ids": []
     },
     {
       "id": "SEC8-Q16",
@@ -22326,7 +22975,8 @@ window.APP_DATA = {
       "answer": "ID/パスワード",
       "explain": "端末側はID/PW。",
       "point": "EAP",
-      "topic": "SEC8-4"
+      "topic": "SEC8-4",
+      "original_asset_ids": []
     },
     {
       "id": "SEC8-Q17",
@@ -22341,7 +22991,8 @@ window.APP_DATA = {
       "answer": "遠隔コンピュータへの安全なログイン",
       "explain": "SSHの定義。",
       "point": "SSH",
-      "topic": "SEC8-5"
+      "topic": "SEC8-5",
+      "original_asset_ids": []
     },
     {
       "id": "SEC8-Q18",
@@ -22356,7 +23007,8 @@ window.APP_DATA = {
       "answer": "ID/パスワード認証・公開鍵認証",
       "explain": "代表的2方式。",
       "point": "SSH認証",
-      "topic": "SEC8-5"
+      "topic": "SEC8-5",
+      "original_asset_ids": []
     },
     {
       "id": "SEC8-Q19",
@@ -22371,7 +23023,8 @@ window.APP_DATA = {
       "answer": "自ネットワークから外部へのTCP25番",
       "explain": "Outbound Port 25 Blocking。",
       "point": "OP25B",
-      "topic": "SEC8-6"
+      "topic": "SEC8-6",
+      "original_asset_ids": []
     },
     {
       "id": "SEC8-Q20",
@@ -22386,7 +23039,8 @@ window.APP_DATA = {
       "answer": "587",
       "explain": "資料記載。",
       "point": "587",
-      "topic": "SEC8-6"
+      "topic": "SEC8-6",
+      "original_asset_ids": []
     },
     {
       "id": "SEC8-Q21",
@@ -22401,7 +23055,8 @@ window.APP_DATA = {
       "answer": "SMTP AUTH",
       "explain": "OP25Bと併用される。",
       "point": "SMTP AUTH",
-      "topic": "SEC8-6"
+      "topic": "SEC8-6",
+      "original_asset_ids": []
     },
     {
       "id": "SEC8-Q22",
@@ -22416,7 +23071,8 @@ window.APP_DATA = {
       "answer": "SPF",
       "explain": "SPFレコードを参照。",
       "point": "SPF",
-      "topic": "SEC8-7"
+      "topic": "SEC8-7",
+      "original_asset_ids": []
     },
     {
       "id": "SEC8-Q23",
@@ -22431,7 +23087,8 @@ window.APP_DATA = {
       "answer": "DKIM",
       "explain": "なりすまし・改ざん検知。",
       "point": "DKIM",
-      "topic": "SEC8-7"
+      "topic": "SEC8-7",
+      "original_asset_ids": []
     },
     {
       "id": "SEC8-Q24",
@@ -22446,7 +23103,8 @@ window.APP_DATA = {
       "answer": "DMARC",
       "explain": "DMARCポリシーで宣言。",
       "point": "DMARC",
-      "topic": "SEC8-7"
+      "topic": "SEC8-7",
+      "original_asset_ids": []
     },
     {
       "id": "SEC8-Q25",
@@ -22459,7 +23117,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "資料の流れどおり。",
       "point": "DKIM公開鍵",
-      "topic": "SEC8-7"
+      "topic": "SEC8-7",
+      "original_asset_ids": []
     },
     {
       "id": "SEC8-Q26",
@@ -22474,7 +23133,8 @@ window.APP_DATA = {
       "answer": "サンドボックス",
       "explain": "隔離領域で事前動作。",
       "point": "サンドボックス",
-      "topic": "SEC8-7"
+      "topic": "SEC8-7",
+      "original_asset_ids": []
     },
     {
       "id": "SEC9-Q01",
@@ -22489,7 +23149,8 @@ window.APP_DATA = {
       "answer": "既知脆弱性を作り込まない対策と未知脆弱性の影響軽減",
       "explain": "根本的解決策＋保険的対策。",
       "point": "セキュアプログラミング",
-      "topic": "SEC9-1"
+      "topic": "SEC9-1",
+      "original_asset_ids": []
     },
     {
       "id": "SEC9-Q02",
@@ -22504,7 +23165,8 @@ window.APP_DATA = {
       "answer": "資産の把握",
       "explain": "最初に守るべき資産を確認。",
       "point": "脅威モデリング",
-      "topic": "SEC9-1"
+      "topic": "SEC9-1",
+      "original_asset_ids": []
     },
     {
       "id": "SEC9-Q03",
@@ -22519,7 +23181,8 @@ window.APP_DATA = {
       "answer": "アプリケーションの分解",
       "explain": "構成要素に分解して解析。",
       "point": "分解",
-      "topic": "SEC9-1"
+      "topic": "SEC9-1",
+      "original_asset_ids": []
     },
     {
       "id": "SEC9-Q04",
@@ -22534,7 +23197,8 @@ window.APP_DATA = {
       "answer": "リスクの格付け",
       "explain": "攻撃可能性と被害規模で優先度付け。",
       "point": "格付け",
-      "topic": "SEC9-1"
+      "topic": "SEC9-1",
+      "original_asset_ids": []
     },
     {
       "id": "SEC9-Q05",
@@ -22549,7 +23213,8 @@ window.APP_DATA = {
       "answer": "ソルト",
       "explain": "ソルト付きハッシュ。",
       "point": "ソルト",
-      "topic": "SEC9-2"
+      "topic": "SEC9-2",
+      "original_asset_ids": []
     },
     {
       "id": "SEC9-Q06",
@@ -22564,7 +23229,8 @@ window.APP_DATA = {
       "answer": "ストレッチング",
       "explain": "計算回数を増加。",
       "point": "ストレッチング",
-      "topic": "SEC9-2"
+      "topic": "SEC9-2",
+      "original_asset_ids": []
     },
     {
       "id": "SEC9-Q07",
@@ -22577,7 +23243,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "使い回しをしない。",
       "point": "使い回し",
-      "topic": "SEC9-2"
+      "topic": "SEC9-2",
+      "original_asset_ids": []
     },
     {
       "id": "SEC9-Q08",
@@ -22592,7 +23259,8 @@ window.APP_DATA = {
       "answer": "出力要素へのエスケープ処理",
       "explain": "特殊文字をHTMLエンティティへ置換。",
       "point": "XSS",
-      "topic": "SEC9-3"
+      "topic": "SEC9-3",
+      "original_asset_ids": []
     },
     {
       "id": "SEC9-Q09",
@@ -22607,7 +23275,8 @@ window.APP_DATA = {
       "answer": "http:// または https:// で始まるURL",
       "explain": "根本的対策。",
       "point": "URL",
-      "topic": "SEC9-3"
+      "topic": "SEC9-3",
+      "original_asset_ids": []
     },
     {
       "id": "SEC9-Q10",
@@ -22622,7 +23291,8 @@ window.APP_DATA = {
       "answer": "入力値の内容チェック",
       "explain": "仕様外入力なら再入力を求める。",
       "point": "XSS保険",
-      "topic": "SEC9-3"
+      "topic": "SEC9-3",
+      "original_asset_ids": []
     },
     {
       "id": "SEC9-Q11",
@@ -22637,7 +23307,8 @@ window.APP_DATA = {
       "answer": "プレースホルダ",
       "explain": "SQL文組立てを機械化。",
       "point": "SQLi",
-      "topic": "SEC9-4"
+      "topic": "SEC9-4",
+      "original_asset_ids": []
     },
     {
       "id": "SEC9-Q12",
@@ -22652,7 +23323,8 @@ window.APP_DATA = {
       "answer": "エラーメッセージをそのままブラウザに表示しない",
       "explain": "保険的対策。",
       "point": "SQLi保険",
-      "topic": "SEC9-4"
+      "topic": "SEC9-4",
+      "original_asset_ids": []
     },
     {
       "id": "SEC9-Q13",
@@ -22665,7 +23337,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "資料の根本的対策。",
       "point": "DB API",
-      "topic": "SEC9-4"
+      "topic": "SEC9-4",
+      "original_asset_ids": []
     },
     {
       "id": "SEC9-Q14",
@@ -22680,7 +23353,8 @@ window.APP_DATA = {
       "answer": "実装工程",
       "explain": "コードレベルで確認。",
       "point": "静的検査",
-      "topic": "SEC9-5"
+      "topic": "SEC9-5",
+      "original_asset_ids": []
     },
     {
       "id": "SEC9-Q15",
@@ -22695,7 +23369,8 @@ window.APP_DATA = {
       "answer": "SPF設定ミス",
       "explain": "資料の検出例には含まれない。",
       "point": "静的検査例",
-      "topic": "SEC9-5"
+      "topic": "SEC9-5",
+      "original_asset_ids": []
     },
     {
       "id": "SEC9-Q16",
@@ -22710,7 +23385,8 @@ window.APP_DATA = {
       "answer": "ファジング",
       "explain": "ファズを投入して監視。",
       "point": "ファジング",
-      "topic": "SEC9-5"
+      "topic": "SEC9-5",
+      "original_asset_ids": []
     },
     {
       "id": "SEC9-Q17",
@@ -22723,7 +23399,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "資料記載。",
       "point": "ブラックボックス",
-      "topic": "SEC9-5"
+      "topic": "SEC9-5",
+      "original_asset_ids": []
     },
     {
       "id": "SEC9-Q18",
@@ -22738,7 +23415,8 @@ window.APP_DATA = {
       "answer": "DNS応答の正当性と完全性を検証",
       "explain": "電子署名を利用。",
       "point": "DNSSEC",
-      "topic": "SEC9-6"
+      "topic": "SEC9-6",
+      "original_asset_ids": []
     },
     {
       "id": "SEC9-Q19",
@@ -22753,7 +23431,8 @@ window.APP_DATA = {
       "answer": "公開鍵暗号方式による電子署名",
       "explain": "正当性・完全性検証。",
       "point": "電子署名",
-      "topic": "SEC9-6"
+      "topic": "SEC9-6",
+      "original_asset_ids": []
     },
     {
       "id": "SEC9-Q20",
@@ -22768,7 +23447,8 @@ window.APP_DATA = {
       "answer": "NISC",
       "explain": "企画・設計段階から確保。",
       "point": "NISC",
-      "topic": "SEC9-7"
+      "topic": "SEC9-7",
+      "original_asset_ids": []
     },
     {
       "id": "SEC9-Q21",
@@ -22783,7 +23463,8 @@ window.APP_DATA = {
       "answer": "企画・設計段階からセキュリティを組み込む",
       "explain": "事前考慮が基本。",
       "point": "Security by Design",
-      "topic": "SEC9-7"
+      "topic": "SEC9-7",
+      "original_asset_ids": []
     },
     {
       "id": "SEC9-Q22",
@@ -22798,7 +23479,8 @@ window.APP_DATA = {
       "answer": "必ず攻撃がゼロになる",
       "explain": "そのような記載はない。",
       "point": "メリット",
-      "topic": "SEC9-7"
+      "topic": "SEC9-7",
+      "original_asset_ids": []
     },
     {
       "id": "SEC9-Q23",
@@ -22813,7 +23495,8 @@ window.APP_DATA = {
       "answer": "情報を適切に扱う環境をあらかじめ作り込む概念",
       "explain": "プライバシー配慮を事前組込み。",
       "point": "Privacy by Design",
-      "topic": "SEC9-8"
+      "topic": "SEC9-8",
+      "original_asset_ids": []
     },
     {
       "id": "SEC9-Q24",
@@ -22828,7 +23511,8 @@ window.APP_DATA = {
       "answer": "利用者情報の取扱いに関する透明性の高い説明",
       "explain": "資料の基本原則。",
       "point": "事業者側",
-      "topic": "SEC9-8"
+      "topic": "SEC9-8",
+      "original_asset_ids": []
     },
     {
       "id": "SEC9-Q25",
@@ -22843,7 +23527,8 @@ window.APP_DATA = {
       "answer": "前者は情報セキュリティ、後者はプライバシーを事前に組み込む",
       "explain": "対象が異なる。",
       "point": "比較",
-      "topic": "SEC9-8"
+      "topic": "SEC9-8",
+      "original_asset_ids": []
     },
     {
       "id": "PEN7-Q01",
@@ -22858,7 +23543,8 @@ window.APP_DATA = {
       "answer": "1級・2級",
       "explain": "障害基礎年金は1級または2級。",
       "point": "基礎年金の等級",
-      "topic": "PEN7-1"
+      "topic": "PEN7-1",
+      "original_asset_ids": []
     },
     {
       "id": "PEN7-Q02",
@@ -22873,7 +23559,8 @@ window.APP_DATA = {
       "answer": "1級～3級",
       "explain": "障害厚生年金は1級から3級。",
       "point": "厚生年金の等級",
-      "topic": "PEN7-1"
+      "topic": "PEN7-1",
+      "original_asset_ids": []
     },
     {
       "id": "PEN7-Q03",
@@ -22888,7 +23575,8 @@ window.APP_DATA = {
       "answer": "納付済＋免除が被保険者期間の3分の2以上",
       "explain": "画像に示された原則。",
       "point": "3分の2",
-      "topic": "PEN7-1"
+      "topic": "PEN7-1",
+      "original_asset_ids": []
     },
     {
       "id": "PEN7-Q04",
@@ -22903,7 +23591,8 @@ window.APP_DATA = {
       "answer": "初診日から1年6か月を経過した日",
       "explain": "障害認定日の原則。",
       "point": "1年6か月",
-      "topic": "PEN7-2"
+      "topic": "PEN7-2",
+      "original_asset_ids": []
     },
     {
       "id": "PEN7-Q05",
@@ -22916,7 +23605,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "治った日が障害認定日となる。",
       "point": "治った日",
-      "topic": "PEN7-2"
+      "topic": "PEN7-2",
+      "original_asset_ids": []
     },
     {
       "id": "PEN7-Q06",
@@ -22931,7 +23621,8 @@ window.APP_DATA = {
       "answer": "事後重症",
       "explain": "認定日後の悪化を扱う。",
       "point": "事後重症",
-      "topic": "PEN7-2"
+      "topic": "PEN7-2",
+      "original_asset_ids": []
     },
     {
       "id": "PEN7-Q07",
@@ -22946,7 +23637,8 @@ window.APP_DATA = {
       "answer": "65歳に達する日の前日まで",
       "explain": "画像に示された請求期限。",
       "point": "65歳前",
-      "topic": "PEN7-2"
+      "topic": "PEN7-2",
+      "original_asset_ids": []
     },
     {
       "id": "PEN7-Q08",
@@ -22961,7 +23653,8 @@ window.APP_DATA = {
       "answer": "先発障害と後発障害を併合して初めて1級・2級となる",
       "explain": "基準傷病の中心。",
       "point": "初めて1・2級",
-      "topic": "PEN7-3"
+      "topic": "PEN7-3",
+      "original_asset_ids": []
     },
     {
       "id": "PEN7-Q09",
@@ -22976,7 +23669,8 @@ window.APP_DATA = {
       "answer": "障害2級",
       "explain": "図示された具体例。",
       "point": "併合例",
-      "topic": "PEN7-3"
+      "topic": "PEN7-3",
+      "original_asset_ids": []
     },
     {
       "id": "PEN7-Q10",
@@ -22991,7 +23685,8 @@ window.APP_DATA = {
       "answer": "障害1級",
       "explain": "図示された具体例。",
       "point": "併合例",
-      "topic": "PEN7-3"
+      "topic": "PEN7-3",
+      "original_asset_ids": []
     },
     {
       "id": "PEN7-Q11",
@@ -23006,7 +23701,8 @@ window.APP_DATA = {
       "answer": "初診日が20歳前か",
       "explain": "20歳前傷病の入口。",
       "point": "20歳前初診",
-      "topic": "PEN7-3"
+      "topic": "PEN7-3",
+      "original_asset_ids": []
     },
     {
       "id": "PEN7-Q12",
@@ -23019,7 +23715,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "画像の併合認定の内容。",
       "point": "併合認定",
-      "topic": "PEN7-3"
+      "topic": "PEN7-3",
+      "original_asset_ids": []
     },
     {
       "id": "PEN7-Q13",
@@ -23034,7 +23731,8 @@ window.APP_DATA = {
       "answer": "847,300円",
       "explain": "2級の基準額。",
       "point": "基礎2級額",
-      "topic": "PEN7-4"
+      "topic": "PEN7-4",
+      "original_asset_ids": []
     },
     {
       "id": "PEN7-Q14",
@@ -23049,7 +23747,8 @@ window.APP_DATA = {
       "answer": "125/100",
       "explain": "1級は2級額の125%。",
       "point": "125%",
-      "topic": "PEN7-4"
+      "topic": "PEN7-4",
+      "original_asset_ids": []
     },
     {
       "id": "PEN7-Q15",
@@ -23064,7 +23763,8 @@ window.APP_DATA = {
       "answer": "243,800円",
       "explain": "画像の加算額。",
       "point": "子の加算",
-      "topic": "PEN7-4"
+      "topic": "PEN7-4",
+      "original_asset_ids": []
     },
     {
       "id": "PEN7-Q16",
@@ -23079,7 +23779,8 @@ window.APP_DATA = {
       "answer": "81,300円",
       "explain": "画像の加算額。",
       "point": "子の加算",
-      "topic": "PEN7-4"
+      "topic": "PEN7-4",
+      "original_asset_ids": []
     },
     {
       "id": "PEN7-Q17",
@@ -23094,7 +23795,8 @@ window.APP_DATA = {
       "answer": "計算額×125/100＋加給年金額",
       "explain": "画像の構造。",
       "point": "厚生1級",
-      "topic": "PEN7-5"
+      "topic": "PEN7-5",
+      "original_asset_ids": []
     },
     {
       "id": "PEN7-Q18",
@@ -23109,7 +23811,8 @@ window.APP_DATA = {
       "answer": "計算額のみ",
       "explain": "3級は加給なし。",
       "point": "厚生3級",
-      "topic": "PEN7-5"
+      "topic": "PEN7-5",
+      "original_asset_ids": []
     },
     {
       "id": "PEN7-Q19",
@@ -23124,7 +23827,8 @@ window.APP_DATA = {
       "answer": "300月として計算",
       "explain": "画像の300月みなし。",
       "point": "300月",
-      "topic": "PEN7-5"
+      "topic": "PEN7-5",
+      "original_asset_ids": []
     },
     {
       "id": "PEN7-Q20",
@@ -23139,7 +23843,8 @@ window.APP_DATA = {
       "answer": "243,800円",
       "explain": "画像の加給額。",
       "point": "配偶者加給",
-      "topic": "PEN7-5"
+      "topic": "PEN7-5",
+      "original_asset_ids": []
     },
     {
       "id": "PEN7-Q21",
@@ -23154,7 +23859,8 @@ window.APP_DATA = {
       "answer": "増進改定請求",
       "explain": "年金額改定の請求。",
       "point": "増進改定",
-      "topic": "PEN7-6"
+      "topic": "PEN7-6",
+      "original_asset_ids": []
     },
     {
       "id": "PEN7-Q22",
@@ -23169,7 +23875,8 @@ window.APP_DATA = {
       "answer": "1年",
       "explain": "原則1年経過後。",
       "point": "1年ルール",
-      "topic": "PEN7-6"
+      "topic": "PEN7-6",
+      "original_asset_ids": []
     },
     {
       "id": "PEN7-Q23",
@@ -23184,7 +23891,8 @@ window.APP_DATA = {
       "answer": "職権改定",
       "explain": "職権による改定。",
       "point": "職権改定",
-      "topic": "PEN7-6"
+      "topic": "PEN7-6",
+      "original_asset_ids": []
     },
     {
       "id": "PEN7-Q24",
@@ -23199,7 +23907,8 @@ window.APP_DATA = {
       "answer": "支給停止は権利が残り、失権は権利が消滅する",
       "explain": "区別が重要。",
       "point": "停止と失権",
-      "topic": "PEN7-7"
+      "topic": "PEN7-7",
+      "original_asset_ids": []
     },
     {
       "id": "PEN7-Q25",
@@ -23214,7 +23923,8 @@ window.APP_DATA = {
       "answer": "死亡",
       "explain": "死亡により受給権消滅。",
       "point": "失権",
-      "topic": "PEN7-7"
+      "topic": "PEN7-7",
+      "original_asset_ids": []
     },
     {
       "id": "PEN7-Q26",
@@ -23229,7 +23939,8 @@ window.APP_DATA = {
       "answer": "3年",
       "explain": "画像の失権条件。",
       "point": "3年",
-      "topic": "PEN7-7"
+      "topic": "PEN7-7",
+      "original_asset_ids": []
     },
     {
       "id": "PEN7-Q27",
@@ -23242,7 +23953,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "画像に20歳前傷病独自の停止事由が示されている。",
       "point": "20歳前支給停止",
-      "topic": "PEN7-7"
+      "topic": "PEN7-7",
+      "original_asset_ids": []
     },
     {
       "id": "PEN7-Q28",
@@ -23257,7 +23969,8 @@ window.APP_DATA = {
       "answer": "一時金",
       "explain": "障害手当金は一時金。",
       "point": "一時金",
-      "topic": "PEN7-8"
+      "topic": "PEN7-8",
+      "original_asset_ids": []
     },
     {
       "id": "PEN7-Q29",
@@ -23272,7 +23985,8 @@ window.APP_DATA = {
       "answer": "5年以内",
       "explain": "画像の支給要件。",
       "point": "5年以内",
-      "topic": "PEN7-8"
+      "topic": "PEN7-8",
+      "original_asset_ids": []
     },
     {
       "id": "PEN7-Q30",
@@ -23287,7 +24001,8 @@ window.APP_DATA = {
       "answer": "200/100",
       "explain": "2倍相当。",
       "point": "200%",
-      "topic": "PEN7-8"
+      "topic": "PEN7-8",
+      "original_asset_ids": []
     },
     {
       "id": "PEN7-Q31",
@@ -23302,7 +24017,8 @@ window.APP_DATA = {
       "answer": "障害基礎年金額×3/4×2",
       "explain": "画像下部の最低保障額。",
       "point": "最低保障",
-      "topic": "PEN7-8"
+      "topic": "PEN7-8",
+      "original_asset_ids": []
     },
     {
       "id": "PEN7-Q32",
@@ -23317,7 +24033,8 @@ window.APP_DATA = {
       "answer": "障害手当金",
       "explain": "5年以内に治った場合の一時金。",
       "point": "5年以内・治癒",
-      "topic": "PEN7-8"
+      "topic": "PEN7-8",
+      "original_asset_ids": []
     },
     {
       "id": "PEN8-Q01",
@@ -23332,7 +24049,8 @@ window.APP_DATA = {
       "answer": "被保険者が死亡したとき",
       "explain": "支給要件の基本。",
       "point": "被保険者死亡",
-      "topic": "PEN8-1"
+      "topic": "PEN8-1",
+      "original_asset_ids": []
     },
     {
       "id": "PEN8-Q02",
@@ -23347,7 +24065,8 @@ window.APP_DATA = {
       "answer": "25年以上",
       "explain": "保険料納付済期間と免除期間の合計が25年以上。",
       "point": "25年",
-      "topic": "PEN8-1"
+      "topic": "PEN8-1",
+      "original_asset_ids": []
     },
     {
       "id": "PEN8-Q03",
@@ -23362,7 +24081,8 @@ window.APP_DATA = {
       "answer": "初診日から5年以内",
       "explain": "被保険者中に初診日のある傷病による死亡。",
       "point": "5年以内",
-      "topic": "PEN8-1"
+      "topic": "PEN8-1",
+      "original_asset_ids": []
     },
     {
       "id": "PEN8-Q04",
@@ -23377,7 +24097,8 @@ window.APP_DATA = {
       "answer": "1級・2級",
       "explain": "1級・2級の受給権者の死亡が示されている。",
       "point": "障害1・2級",
-      "topic": "PEN8-1"
+      "topic": "PEN8-1",
+      "original_asset_ids": []
     },
     {
       "id": "PEN8-Q05",
@@ -23392,7 +24113,8 @@ window.APP_DATA = {
       "answer": "保険料納付済期間と免除期間が25年以上の者の死亡",
       "explain": "長期要件。",
       "point": "長期要件",
-      "topic": "PEN8-1"
+      "topic": "PEN8-1",
+      "original_asset_ids": []
     },
     {
       "id": "PEN8-Q06",
@@ -23407,7 +24129,8 @@ window.APP_DATA = {
       "answer": "子のある配偶者または子",
       "explain": "遺族基礎年金の対象者。",
       "point": "基礎年金の遺族",
-      "topic": "PEN8-2"
+      "topic": "PEN8-2",
+      "original_asset_ids": []
     },
     {
       "id": "PEN8-Q07",
@@ -23422,7 +24145,8 @@ window.APP_DATA = {
       "answer": "父母",
       "explain": "第1順位の次は父母。",
       "point": "順位",
-      "topic": "PEN8-2"
+      "topic": "PEN8-2",
+      "original_asset_ids": []
     },
     {
       "id": "PEN8-Q08",
@@ -23437,7 +24161,8 @@ window.APP_DATA = {
       "answer": "孫",
       "explain": "第3順位は孫。",
       "point": "順位",
-      "topic": "PEN8-2"
+      "topic": "PEN8-2",
+      "original_asset_ids": []
     },
     {
       "id": "PEN8-Q09",
@@ -23452,7 +24177,8 @@ window.APP_DATA = {
       "answer": "祖父母",
       "explain": "第4順位は祖父母。",
       "point": "順位",
-      "topic": "PEN8-2"
+      "topic": "PEN8-2",
+      "original_asset_ids": []
     },
     {
       "id": "PEN8-Q10",
@@ -23467,7 +24193,8 @@ window.APP_DATA = {
       "answer": "18歳到達年度末まで",
       "explain": "資料の年齢要件。",
       "point": "18歳年度末",
-      "topic": "PEN8-2"
+      "topic": "PEN8-2",
+      "original_asset_ids": []
     },
     {
       "id": "PEN8-Q11",
@@ -23482,7 +24209,8 @@ window.APP_DATA = {
       "answer": "1級・2級",
       "explain": "20歳未満で1級・2級の障害状態。",
       "point": "20歳未満",
-      "topic": "PEN8-2"
+      "topic": "PEN8-2",
+      "original_asset_ids": []
     },
     {
       "id": "PEN8-Q12",
@@ -23497,7 +24225,8 @@ window.APP_DATA = {
       "answer": "55歳以上",
       "explain": "遺族厚生年金の年齢要件。",
       "point": "55歳",
-      "topic": "PEN8-2"
+      "topic": "PEN8-2",
+      "original_asset_ids": []
     },
     {
       "id": "PEN8-Q13",
@@ -23512,7 +24241,8 @@ window.APP_DATA = {
       "answer": "847,300円",
       "explain": "基本年金額。",
       "point": "847,300円",
-      "topic": "PEN8-3"
+      "topic": "PEN8-3",
+      "original_asset_ids": []
     },
     {
       "id": "PEN8-Q14",
@@ -23527,7 +24257,8 @@ window.APP_DATA = {
       "answer": "243,800円",
       "explain": "画像の加算額。",
       "point": "子の加算",
-      "topic": "PEN8-3"
+      "topic": "PEN8-3",
+      "original_asset_ids": []
     },
     {
       "id": "PEN8-Q15",
@@ -23542,7 +24273,8 @@ window.APP_DATA = {
       "answer": "81,300円",
       "explain": "画像の加算額。",
       "point": "子の加算",
-      "topic": "PEN8-3"
+      "topic": "PEN8-3",
+      "original_asset_ids": []
     },
     {
       "id": "PEN8-Q16",
@@ -23557,7 +24289,8 @@ window.APP_DATA = {
       "answer": "基本額と加算額の合計を子の数で除する",
       "explain": "子への支給は按分。",
       "point": "子への支給",
-      "topic": "PEN8-3"
+      "topic": "PEN8-3",
+      "original_asset_ids": []
     },
     {
       "id": "PEN8-Q17",
@@ -23572,7 +24305,8 @@ window.APP_DATA = {
       "answer": "老齢厚生年金の報酬比例部分×3/4",
       "explain": "中心となる計算式。",
       "point": "3/4",
-      "topic": "PEN8-4"
+      "topic": "PEN8-4",
+      "original_asset_ids": []
     },
     {
       "id": "PEN8-Q18",
@@ -23587,7 +24321,8 @@ window.APP_DATA = {
       "answer": "300月として計算",
       "explain": "画像に示された扱い。",
       "point": "300月",
-      "topic": "PEN8-4"
+      "topic": "PEN8-4",
+      "original_asset_ids": []
     },
     {
       "id": "PEN8-Q19",
@@ -23600,7 +24335,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "受給権者数で除して各人の額を求める。",
       "point": "按分",
-      "topic": "PEN8-4"
+      "topic": "PEN8-4",
+      "original_asset_ids": []
     },
     {
       "id": "PEN8-Q20",
@@ -23615,7 +24351,8 @@ window.APP_DATA = {
       "answer": "老齢厚生年金を全額支給し、遺族厚生年金側を調整する",
       "explain": "65歳以上の併給調整。",
       "point": "65歳以上調整",
-      "topic": "PEN8-5"
+      "topic": "PEN8-5",
+      "original_asset_ids": []
     },
     {
       "id": "PEN8-Q21",
@@ -23630,7 +24367,8 @@ window.APP_DATA = {
       "answer": "40歳以上65歳未満",
       "explain": "画像の中心条件。",
       "point": "40～65歳",
-      "topic": "PEN8-6"
+      "topic": "PEN8-6",
+      "original_asset_ids": []
     },
     {
       "id": "PEN8-Q22",
@@ -23645,7 +24383,8 @@ window.APP_DATA = {
       "answer": "847,300円×3/4",
       "explain": "資料の算式。",
       "point": "3/4",
-      "topic": "PEN8-6"
+      "topic": "PEN8-6",
+      "original_asset_ids": []
     },
     {
       "id": "PEN8-Q23",
@@ -23660,7 +24399,8 @@ window.APP_DATA = {
       "answer": "前者は40～65歳が軸、後者は経過措置として生年月日等で額を定める",
       "explain": "両加算の役割を区別する。",
       "point": "寡婦加算比較",
-      "topic": "PEN8-6"
+      "topic": "PEN8-6",
+      "original_asset_ids": []
     },
     {
       "id": "PEN8-Q24",
@@ -23673,7 +24413,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "資料では支給調整・停止の関係が示されている。",
       "point": "加算調整",
-      "topic": "PEN8-6"
+      "topic": "PEN8-6",
+      "original_asset_ids": []
     },
     {
       "id": "PEN8-Q25",
@@ -23688,7 +24429,8 @@ window.APP_DATA = {
       "answer": "死亡の日から6年間",
       "explain": "労災との調整。",
       "point": "6年間",
-      "topic": "PEN8-7"
+      "topic": "PEN8-7",
+      "original_asset_ids": []
     },
     {
       "id": "PEN8-Q26",
@@ -23703,7 +24445,8 @@ window.APP_DATA = {
       "answer": "支給停止",
       "explain": "配偶者と子の支給関係。",
       "point": "子の支給停止",
-      "topic": "PEN8-7"
+      "topic": "PEN8-7",
+      "original_asset_ids": []
     },
     {
       "id": "PEN8-Q27",
@@ -23718,7 +24461,8 @@ window.APP_DATA = {
       "answer": "1年以上",
       "explain": "所在不明1年以上。",
       "point": "所在不明",
-      "topic": "PEN8-7"
+      "topic": "PEN8-7",
+      "original_asset_ids": []
     },
     {
       "id": "PEN8-Q28",
@@ -23733,7 +24477,8 @@ window.APP_DATA = {
       "answer": "60歳まで",
       "explain": "年齢による支給停止。",
       "point": "60歳",
-      "topic": "PEN8-7"
+      "topic": "PEN8-7",
+      "original_asset_ids": []
     },
     {
       "id": "PEN8-Q29",
@@ -23746,7 +24491,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "資料では解除の申請ができる。",
       "point": "解除申請",
-      "topic": "PEN8-7"
+      "topic": "PEN8-7",
+      "original_asset_ids": []
     },
     {
       "id": "PEN8-Q30",
@@ -23761,7 +24507,8 @@ window.APP_DATA = {
       "answer": "支給停止は受給権を残したまま支払いを止める",
       "explain": "この単元では支給停止の条件を扱う。",
       "point": "支給停止",
-      "topic": "PEN8-7"
+      "topic": "PEN8-7",
+      "original_asset_ids": []
     },
     {
       "id": "PEN9-Q01",
@@ -23776,7 +24523,8 @@ window.APP_DATA = {
       "answer": "合意分割と3号分割",
       "explain": "資料の2類型。",
       "point": "類型",
-      "topic": "PEN9-1"
+      "topic": "PEN9-1",
+      "original_asset_ids": []
     },
     {
       "id": "PEN9-Q02",
@@ -23791,7 +24539,8 @@ window.APP_DATA = {
       "answer": "離婚等の翌日から2年以内",
       "explain": "期限は2年。",
       "point": "2年",
-      "topic": "PEN9-1"
+      "topic": "PEN9-1",
+      "original_asset_ids": []
     },
     {
       "id": "PEN9-Q03",
@@ -23806,7 +24555,8 @@ window.APP_DATA = {
       "answer": "平成20年4月1日",
       "explain": "対象期間の基準。",
       "point": "平成20年4月1日",
-      "topic": "PEN9-1"
+      "topic": "PEN9-1",
+      "original_asset_ids": []
     },
     {
       "id": "PEN9-Q04",
@@ -23819,7 +24569,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "資料の原則。",
       "point": "1/2",
-      "topic": "PEN9-1"
+      "topic": "PEN9-1",
+      "original_asset_ids": []
     },
     {
       "id": "PEN9-Q05",
@@ -23834,7 +24585,8 @@ window.APP_DATA = {
       "answer": "毎年1回・誕生月",
       "explain": "資料の送付時期。",
       "point": "誕生月",
-      "topic": "PEN9-2"
+      "topic": "PEN9-2",
+      "original_asset_ids": []
     },
     {
       "id": "PEN9-Q06",
@@ -23849,7 +24601,8 @@ window.APP_DATA = {
       "answer": "35・45・59歳",
       "explain": "節目年齢。",
       "point": "35/45/59",
-      "topic": "PEN9-2"
+      "topic": "PEN9-2",
+      "original_asset_ids": []
     },
     {
       "id": "PEN9-Q07",
@@ -23864,7 +24617,8 @@ window.APP_DATA = {
       "answer": "地域型と職能型",
       "explain": "資料の2類型。",
       "point": "類型",
-      "topic": "PEN9-3"
+      "topic": "PEN9-3",
+      "original_asset_ids": []
     },
     {
       "id": "PEN9-Q08",
@@ -23879,7 +24633,8 @@ window.APP_DATA = {
       "answer": "月額68,000円",
       "explain": "資料記載の上限。",
       "point": "68,000円",
-      "topic": "PEN9-3"
+      "topic": "PEN9-3",
+      "original_asset_ids": []
     },
     {
       "id": "PEN9-Q09",
@@ -23894,7 +24649,8 @@ window.APP_DATA = {
       "answer": "企業型と個人型",
       "explain": "資料の2類型。",
       "point": "企業型/個人型",
-      "topic": "PEN9-4"
+      "topic": "PEN9-4",
+      "original_asset_ids": []
     },
     {
       "id": "PEN9-Q10",
@@ -23909,7 +24665,8 @@ window.APP_DATA = {
       "answer": "老齢給付金・障害給付金・死亡一時金",
       "explain": "資料記載。",
       "point": "給付種類",
-      "topic": "PEN9-4"
+      "topic": "PEN9-4",
+      "original_asset_ids": []
     },
     {
       "id": "PEN9-Q11",
@@ -23924,7 +24681,8 @@ window.APP_DATA = {
       "answer": "規約型と基金型",
       "explain": "資料の2類型。",
       "point": "規約型/基金型",
-      "topic": "PEN9-5"
+      "topic": "PEN9-5",
+      "original_asset_ids": []
     },
     {
       "id": "PEN9-Q12",
@@ -23937,7 +24695,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "資料の原則。",
       "point": "事業主負担",
-      "topic": "PEN9-5"
+      "topic": "PEN9-5",
+      "original_asset_ids": []
     },
     {
       "id": "PEN9-Q13",
@@ -23952,7 +24711,8 @@ window.APP_DATA = {
       "answer": "雑所得",
       "explain": "年金給付段階の税制。",
       "point": "雑所得",
-      "topic": "PEN9-6"
+      "topic": "PEN9-6",
+      "original_asset_ids": []
     },
     {
       "id": "PEN9-Q14",
@@ -23967,7 +24727,8 @@ window.APP_DATA = {
       "answer": "退職所得",
       "explain": "資料記載。",
       "point": "退職所得",
-      "topic": "PEN9-6"
+      "topic": "PEN9-6",
+      "original_asset_ids": []
     },
     {
       "id": "PEN9-Q15",
@@ -23982,7 +24743,8 @@ window.APP_DATA = {
       "answer": "108万円以上",
       "explain": "資料記載。",
       "point": "108万円",
-      "topic": "PEN9-6"
+      "topic": "PEN9-6",
+      "original_asset_ids": []
     },
     {
       "id": "PEN9-Q16",
@@ -23997,7 +24759,8 @@ window.APP_DATA = {
       "answer": "158万円以上",
       "explain": "資料記載。",
       "point": "158万円",
-      "topic": "PEN9-6"
+      "topic": "PEN9-6",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q01",
@@ -24012,7 +24775,8 @@ window.APP_DATA = {
       "answer": "全国健康保険協会・健康保険組合",
       "explain": "資料の制度表。",
       "point": "保険者",
-      "topic": "SOC1-1"
+      "topic": "SOC1-1",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q02",
@@ -24027,7 +24791,8 @@ window.APP_DATA = {
       "answer": "都道府県・市町村、国民健康保険組合",
       "explain": "資料の制度表。",
       "point": "国保の保険者",
-      "topic": "SOC1-1"
+      "topic": "SOC1-1",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q03",
@@ -24042,7 +24807,8 @@ window.APP_DATA = {
       "answer": "後期高齢者医療広域連合",
       "explain": "資料の制度表。",
       "point": "広域連合",
-      "topic": "SOC1-1"
+      "topic": "SOC1-1",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q04",
@@ -24057,7 +24823,8 @@ window.APP_DATA = {
       "answer": "資格喪失日の前日まで継続して2月以上被保険者",
       "explain": "資料記載。",
       "point": "2月",
-      "topic": "SOC1-2"
+      "topic": "SOC1-2",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q05",
@@ -24072,7 +24839,8 @@ window.APP_DATA = {
       "answer": "資格喪失日から20日以内",
       "explain": "資料記載。",
       "point": "20日",
-      "topic": "SOC1-2"
+      "topic": "SOC1-2",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q06",
@@ -24085,7 +24853,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "画像記載の資格喪失事由。",
       "point": "2年",
-      "topic": "SOC1-2"
+      "topic": "SOC1-2",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q07",
@@ -24100,7 +24869,8 @@ window.APP_DATA = {
       "answer": "130万円未満",
       "explain": "一般基準。",
       "point": "130万円",
-      "topic": "SOC1-2"
+      "topic": "SOC1-2",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q08",
@@ -24115,7 +24885,8 @@ window.APP_DATA = {
       "answer": "180万円未満",
       "explain": "資料の例外的基準。",
       "point": "180万円",
-      "topic": "SOC1-2"
+      "topic": "SOC1-2",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q09",
@@ -24130,7 +24901,8 @@ window.APP_DATA = {
       "answer": "150万円未満として扱う",
       "explain": "資料記載。",
       "point": "150万円",
-      "topic": "SOC1-2"
+      "topic": "SOC1-2",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q10",
@@ -24143,7 +24915,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "資料の生計維持基準。",
       "point": "2分の1",
-      "topic": "SOC1-2"
+      "topic": "SOC1-2",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q11",
@@ -24158,7 +24931,8 @@ window.APP_DATA = {
       "answer": "2割",
       "explain": "資料記載。",
       "point": "2割",
-      "topic": "SOC1-3"
+      "topic": "SOC1-3",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q12",
@@ -24173,7 +24947,8 @@ window.APP_DATA = {
       "answer": "3割",
       "explain": "資料記載。",
       "point": "3割",
-      "topic": "SOC1-3"
+      "topic": "SOC1-3",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q13",
@@ -24188,7 +24963,8 @@ window.APP_DATA = {
       "answer": "2割",
       "explain": "現役並み所得者は3割。",
       "point": "70歳以上",
-      "topic": "SOC1-3"
+      "topic": "SOC1-3",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q14",
@@ -24203,7 +24979,8 @@ window.APP_DATA = {
       "answer": "家族療養費",
       "explain": "家族側の給付名称。",
       "point": "家族療養費",
-      "topic": "SOC1-3"
+      "topic": "SOC1-3",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q15",
@@ -24218,7 +24995,8 @@ window.APP_DATA = {
       "answer": "出産育児一時金・出産手当金",
       "explain": "資料の給付表。",
       "point": "出産給付",
-      "topic": "SOC1-3"
+      "topic": "SOC1-3",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q16",
@@ -24233,7 +25011,8 @@ window.APP_DATA = {
       "answer": "252,600円＋（総医療費－842,000円）×1％",
       "explain": "資料の所得区分表。",
       "point": "83万円以上",
-      "topic": "SOC1-4"
+      "topic": "SOC1-4",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q17",
@@ -24248,7 +25027,8 @@ window.APP_DATA = {
       "answer": "80,100円＋（総医療費－267,000円）×1％",
       "explain": "資料の所得区分表。",
       "point": "28～53万円",
-      "topic": "SOC1-4"
+      "topic": "SOC1-4",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q18",
@@ -24263,7 +25043,8 @@ window.APP_DATA = {
       "answer": "57,600円",
       "explain": "資料記載。",
       "point": "57,600円",
-      "topic": "SOC1-4"
+      "topic": "SOC1-4",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q19",
@@ -24278,7 +25059,8 @@ window.APP_DATA = {
       "answer": "35,400円",
       "explain": "資料記載。",
       "point": "35,400円",
-      "topic": "SOC1-4"
+      "topic": "SOC1-4",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q20",
@@ -24293,7 +25075,8 @@ window.APP_DATA = {
       "answer": "3日",
       "explain": "連続3日後、4日目から。",
       "point": "待期3日",
-      "topic": "SOC1-4"
+      "topic": "SOC1-4",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q21",
@@ -24308,7 +25091,8 @@ window.APP_DATA = {
       "answer": "2/3",
       "explain": "資料の計算式。",
       "point": "2/3",
-      "topic": "SOC1-4"
+      "topic": "SOC1-4",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q22",
@@ -24323,7 +25107,8 @@ window.APP_DATA = {
       "answer": "支給開始日から通算1年6月",
       "explain": "資料記載。",
       "point": "1年6月",
-      "topic": "SOC1-4"
+      "topic": "SOC1-4",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q23",
@@ -24336,7 +25121,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "世帯主も家族も原則被保険者で、被扶養者概念はない。",
       "point": "被扶養者なし",
-      "topic": "SOC1-5"
+      "topic": "SOC1-5",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q24",
@@ -24351,7 +25137,8 @@ window.APP_DATA = {
       "answer": "特別徴収と普通徴収",
       "explain": "資料記載。",
       "point": "徴収方法",
-      "topic": "SOC1-5"
+      "topic": "SOC1-5",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q25",
@@ -24366,7 +25153,8 @@ window.APP_DATA = {
       "answer": "疾病・負傷・出産・死亡",
       "explain": "資料の目的。",
       "point": "保険事故",
-      "topic": "SOC1-5"
+      "topic": "SOC1-5",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q26",
@@ -24381,7 +25169,8 @@ window.APP_DATA = {
       "answer": "75歳以上",
       "explain": "資料記載。",
       "point": "75歳",
-      "topic": "SOC1-6"
+      "topic": "SOC1-6",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q27",
@@ -24396,7 +25185,8 @@ window.APP_DATA = {
       "answer": "一定の障害状態にあり広域連合の認定を受ける",
       "explain": "資料記載。",
       "point": "65～74歳＋障害認定",
-      "topic": "SOC1-6"
+      "topic": "SOC1-6",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q28",
@@ -24409,7 +25199,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "資料では出産給付は行わないと確認されている。",
       "point": "出産給付なし",
-      "topic": "SOC1-6"
+      "topic": "SOC1-6",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q29",
@@ -24424,7 +25215,8 @@ window.APP_DATA = {
       "answer": "後期高齢者医療広域連合",
       "explain": "資料記載。",
       "point": "広域連合",
-      "topic": "SOC1-6"
+      "topic": "SOC1-6",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q30",
@@ -24439,7 +25231,8 @@ window.APP_DATA = {
       "answer": "要介護1～5",
       "explain": "資料の区分図。",
       "point": "要介護1～5",
-      "topic": "SOC1-7"
+      "topic": "SOC1-7",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q31",
@@ -24454,7 +25247,8 @@ window.APP_DATA = {
       "answer": "要支援1～2",
       "explain": "資料の区分図。",
       "point": "要支援1～2",
-      "topic": "SOC1-7"
+      "topic": "SOC1-7",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q32",
@@ -24469,7 +25263,8 @@ window.APP_DATA = {
       "answer": "介護給付",
       "explain": "資料の対応図。",
       "point": "介護給付",
-      "topic": "SOC1-7"
+      "topic": "SOC1-7",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q33",
@@ -24484,7 +25279,8 @@ window.APP_DATA = {
       "answer": "予防給付",
       "explain": "資料の対応図。",
       "point": "予防給付",
-      "topic": "SOC1-7"
+      "topic": "SOC1-7",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q34",
@@ -24499,7 +25295,8 @@ window.APP_DATA = {
       "answer": "特定疾病",
       "explain": "資料記載。",
       "point": "特定疾病",
-      "topic": "SOC1-7"
+      "topic": "SOC1-7",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q35",
@@ -24514,7 +25311,8 @@ window.APP_DATA = {
       "answer": "5年",
       "explain": "資料の確認欄。",
       "point": "5年",
-      "topic": "SOC1-7"
+      "topic": "SOC1-7",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q36",
@@ -24529,7 +25327,8 @@ window.APP_DATA = {
       "answer": "市町村区域内に住所を有する65歳以上の者",
       "explain": "資料記載。",
       "point": "第1号",
-      "topic": "SOC1-8"
+      "topic": "SOC1-8",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q37",
@@ -24544,7 +25343,8 @@ window.APP_DATA = {
       "answer": "市町村区域内に住所を有する40歳以上65歳未満の医療保険加入者",
       "explain": "資料記載。",
       "point": "第2号",
-      "topic": "SOC1-8"
+      "topic": "SOC1-8",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q38",
@@ -24557,7 +25357,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "医療保険加入が要件。",
       "point": "医療保険加入",
-      "topic": "SOC1-8"
+      "topic": "SOC1-8",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q39",
@@ -24572,7 +25373,8 @@ window.APP_DATA = {
       "answer": "40歳",
       "explain": "資格取得事由。",
       "point": "40歳",
-      "topic": "SOC1-8"
+      "topic": "SOC1-8",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q40",
@@ -24587,7 +25389,8 @@ window.APP_DATA = {
       "answer": "市町村",
       "explain": "資料の認定手続。",
       "point": "申請先",
-      "topic": "SOC1-9"
+      "topic": "SOC1-9",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q41",
@@ -24602,7 +25405,8 @@ window.APP_DATA = {
       "answer": "介護認定審査会",
       "explain": "資料の手続図。",
       "point": "審査会",
-      "topic": "SOC1-9"
+      "topic": "SOC1-9",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q42",
@@ -24615,7 +25419,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "認定は申請日にさかのぼって効力を生ずる。",
       "point": "申請日に遡及",
-      "topic": "SOC1-9"
+      "topic": "SOC1-9",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q43",
@@ -24630,7 +25435,8 @@ window.APP_DATA = {
       "answer": "30日以内",
       "explain": "資料記載。",
       "point": "30日",
-      "topic": "SOC1-9"
+      "topic": "SOC1-9",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q44",
@@ -24645,7 +25451,8 @@ window.APP_DATA = {
       "answer": "被保険者への面接・調査と主治医への意見照会",
       "explain": "資料の流れ。",
       "point": "調査＋主治医意見",
-      "topic": "SOC1-9"
+      "topic": "SOC1-9",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q45",
@@ -24660,7 +25467,8 @@ window.APP_DATA = {
       "answer": "居宅介護サービス費",
       "explain": "資料の給付表。",
       "point": "介護給付",
-      "topic": "SOC1-10"
+      "topic": "SOC1-10",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q46",
@@ -24675,7 +25483,8 @@ window.APP_DATA = {
       "answer": "100分の90",
       "explain": "資料記載。",
       "point": "90/100",
-      "topic": "SOC1-10"
+      "topic": "SOC1-10",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q47",
@@ -24690,7 +25499,8 @@ window.APP_DATA = {
       "answer": "100分の100",
       "explain": "資料記載。",
       "point": "100/100",
-      "topic": "SOC1-10"
+      "topic": "SOC1-10",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q48",
@@ -24705,7 +25515,8 @@ window.APP_DATA = {
       "answer": "18万円以上",
       "explain": "資料記載。",
       "point": "18万円",
-      "topic": "SOC1-10"
+      "topic": "SOC1-10",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q49",
@@ -24720,7 +25531,8 @@ window.APP_DATA = {
       "answer": "普通徴収",
       "explain": "資料記載。",
       "point": "普通徴収",
-      "topic": "SOC1-10"
+      "topic": "SOC1-10",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q50",
@@ -24735,7 +25547,8 @@ window.APP_DATA = {
       "answer": "加入する医療保険制度の保険料に上乗せして徴収",
       "explain": "資料記載。",
       "point": "第2号保険料",
-      "topic": "SOC1-10"
+      "topic": "SOC1-10",
+      "original_asset_ids": []
     },
     {
       "id": "SOC1-Q51",
@@ -24750,7 +25563,8 @@ window.APP_DATA = {
       "answer": "第1号は市町村が徴収、第2号は医療保険制度を通じて徴収",
       "explain": "被保険者区分による違い。",
       "point": "第1号/第2号",
-      "topic": "SOC1-10"
+      "topic": "SOC1-10",
+      "original_asset_ids": []
     },
     {
       "id": "PEN8-Q31",
@@ -24763,7 +25577,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "婚姻は配偶者の失権事由。",
       "point": "婚姻→失権",
-      "topic": "PEN8-8"
+      "topic": "PEN8-8",
+      "original_asset_ids": []
     },
     {
       "id": "PEN8-Q32",
@@ -24776,7 +25591,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "原則は18歳に達した日以後の最初の3月31日が終了したとき。",
       "point": "18歳到達日≠直ちに失権",
-      "topic": "PEN8-8"
+      "topic": "PEN8-8",
+      "original_asset_ids": []
     },
     {
       "id": "PEN8-Q33",
@@ -24791,7 +25607,8 @@ window.APP_DATA = {
       "answer": "20歳",
       "explain": "20歳に達したときは失権事由。",
       "point": "20歳",
-      "topic": "PEN8-8"
+      "topic": "PEN8-8",
+      "original_asset_ids": []
     },
     {
       "id": "PEN8-Q34",
@@ -24806,7 +25623,8 @@ window.APP_DATA = {
       "answer": "30歳・5年",
       "explain": "資料では30歳未満の一定の妻について5年経過による失権が定められている。",
       "point": "30歳未満＋5年",
-      "topic": "PEN8-8"
+      "topic": "PEN8-8",
+      "original_asset_ids": []
     },
     {
       "id": "PEN8-Q35",
@@ -24821,7 +25639,8 @@ window.APP_DATA = {
       "answer": "受給権取得日から5年後",
       "explain": "受給権取得日から5年を経過したとき。",
       "point": "5年の起算点＝受給権取得日",
-      "topic": "PEN8-8"
+      "topic": "PEN8-8",
+      "original_asset_ids": []
     },
     {
       "id": "PEN8-Q36",
@@ -24836,7 +25655,8 @@ window.APP_DATA = {
       "answer": "遺族基礎年金の受給権消滅日",
       "explain": "資料では遺族基礎年金の受給権消滅日から5年。",
       "point": "5年の起算点",
-      "topic": "PEN8-8"
+      "topic": "PEN8-8",
+      "original_asset_ids": []
     },
     {
       "id": "PEN8-Q37",
@@ -24851,7 +25671,8 @@ window.APP_DATA = {
       "answer": "10年以上",
       "explain": "合計10年以上が要件。",
       "point": "夫側＝10年以上",
-      "topic": "PEN8-9"
+      "topic": "PEN8-9",
+      "original_asset_ids": []
     },
     {
       "id": "PEN8-Q38",
@@ -24864,7 +25685,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "老齢基礎年金の支給を受けたことがないことが要件。",
       "point": "夫の受給歴",
-      "topic": "PEN8-9"
+      "topic": "PEN8-9",
+      "original_asset_ids": []
     },
     {
       "id": "PEN8-Q39",
@@ -24877,7 +25699,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "障害基礎年金の支給を受けたことがないことが要件。",
       "point": "障害基礎年金の受給歴なし",
-      "topic": "PEN8-9"
+      "topic": "PEN8-9",
+      "original_asset_ids": []
     },
     {
       "id": "PEN8-Q40",
@@ -24892,7 +25715,8 @@ window.APP_DATA = {
       "answer": "10年以上",
       "explain": "夫との婚姻関係が10年以上継続していることが必要。",
       "point": "婚姻10年以上",
-      "topic": "PEN8-9"
+      "topic": "PEN8-9",
+      "original_asset_ids": []
     },
     {
       "id": "PEN8-Q41",
@@ -24907,7 +25731,8 @@ window.APP_DATA = {
       "answer": "65歳未満",
       "explain": "妻は65歳未満であることが必要。",
       "point": "65歳未満",
-      "topic": "PEN8-9"
+      "topic": "PEN8-9",
+      "original_asset_ids": []
     },
     {
       "id": "PEN8-Q42",
@@ -24922,7 +25747,8 @@ window.APP_DATA = {
       "answer": "3/4",
       "explain": "資料では4分の3を乗じた額。",
       "point": "3/4",
-      "topic": "PEN8-9"
+      "topic": "PEN8-9",
+      "original_asset_ids": []
     },
     {
       "id": "PEN8-Q43",
@@ -24937,7 +25763,8 @@ window.APP_DATA = {
       "answer": "36月",
       "explain": "合計月数36月以上が要件。",
       "point": "36月以上",
-      "topic": "PEN8-10"
+      "topic": "PEN8-10",
+      "original_asset_ids": []
     },
     {
       "id": "PEN8-Q44",
@@ -24950,7 +25777,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "老齢基礎年金の支給を受けたことがないことが要件。",
       "point": "死亡者本人の受給歴",
-      "topic": "PEN8-10"
+      "topic": "PEN8-10",
+      "original_asset_ids": []
     },
     {
       "id": "PEN8-Q45",
@@ -24965,7 +25793,8 @@ window.APP_DATA = {
       "answer": "配偶者→子→父母→孫→祖父母→兄弟姉妹",
       "explain": "最先順位者が受給権者。",
       "point": "遺族の順位",
-      "topic": "PEN8-10"
+      "topic": "PEN8-10",
+      "original_asset_ids": []
     },
     {
       "id": "PEN8-Q46",
@@ -24980,7 +25809,8 @@ window.APP_DATA = {
       "answer": "12万円～32万円",
       "explain": "保険料納付実績の月数に応じて12万円から32万円。",
       "point": "12万円～32万円",
-      "topic": "PEN8-10"
+      "topic": "PEN8-10",
+      "original_asset_ids": []
     },
     {
       "id": "PEN8-Q47",
@@ -24993,7 +25823,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "その場合、死亡一時金は原則として支給されない。",
       "point": "遺族基礎年金との調整",
-      "topic": "PEN8-10"
+      "topic": "PEN8-10",
+      "original_asset_ids": []
     },
     {
       "id": "PEN8-Q48",
@@ -25008,7 +25839,8 @@ window.APP_DATA = {
       "answer": "受給権者の選択により一方を支給",
       "explain": "資料では受給権者の選択により一方が支給され、他方は支給されない。",
       "point": "併給ではなく選択",
-      "topic": "PEN8-10"
+      "topic": "PEN8-10",
+      "original_asset_ids": []
     },
     {
       "id": "SOC2-Q1",
@@ -25021,7 +25853,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "1月1日～5月31日に資格取得した場合は、その年8月まで適用する。",
       "point": "資格取得日と適用期間",
-      "topic": "SOC2-1"
+      "topic": "SOC2-1",
+      "original_asset_ids": []
     },
     {
       "id": "SOC2-Q2",
@@ -25036,7 +25869,8 @@ window.APP_DATA = {
       "answer": "翌年8月まで",
       "explain": "6月1日～12月31日に資格取得した場合は翌年8月まで。",
       "point": "6/1～12/31取得",
-      "topic": "SOC2-1"
+      "topic": "SOC2-1",
+      "original_asset_ids": []
     },
     {
       "id": "SOC2-Q3",
@@ -25049,7 +25883,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "資料では年4回以上支払われる賞与等を報酬として扱う。",
       "point": "年4回以上",
-      "topic": "SOC2-1"
+      "topic": "SOC2-1",
+      "original_asset_ids": []
     },
     {
       "id": "SOC2-Q4",
@@ -25064,7 +25899,8 @@ window.APP_DATA = {
       "answer": "結婚祝金",
       "explain": "結婚祝金は報酬とならないものとして示されている。",
       "point": "報酬の範囲",
-      "topic": "SOC2-1"
+      "topic": "SOC2-1",
+      "original_asset_ids": []
     },
     {
       "id": "SOC2-Q5",
@@ -25077,7 +25913,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "資料では現物で支給される食事・社宅・通勤定期券等も報酬として扱う。",
       "point": "現物報酬",
-      "topic": "SOC2-1"
+      "topic": "SOC2-1",
+      "original_asset_ids": []
     },
     {
       "id": "SOC2-Q6",
@@ -25092,7 +25929,8 @@ window.APP_DATA = {
       "answer": "4月・5月・6月",
       "explain": "定時決定は4月・5月・6月の報酬を基に行う。",
       "point": "4・5・6月",
-      "topic": "SOC2-2"
+      "topic": "SOC2-2",
+      "original_asset_ids": []
     },
     {
       "id": "SOC2-Q7",
@@ -25105,7 +25943,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "資料では7月1日現在の被保険者を対象としている。",
       "point": "7月1日現在",
-      "topic": "SOC2-2"
+      "topic": "SOC2-2",
+      "original_asset_ids": []
     },
     {
       "id": "SOC2-Q8",
@@ -25120,7 +25959,8 @@ window.APP_DATA = {
       "answer": "9月～翌年8月",
       "explain": "定時決定による標準報酬月額は原則その年9月から翌年8月まで。",
       "point": "9月～翌年8月",
-      "topic": "SOC2-2"
+      "topic": "SOC2-2",
+      "original_asset_ids": []
     },
     {
       "id": "SOC2-Q9",
@@ -25133,7 +25973,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "17日未満の月は原則算定対象から除外する。",
       "point": "17日基準",
-      "topic": "SOC2-2"
+      "topic": "SOC2-2",
+      "original_asset_ids": []
     },
     {
       "id": "SOC2-Q10",
@@ -25148,7 +25989,8 @@ window.APP_DATA = {
       "answer": "7月1日～7月10日",
       "explain": "毎年7月1日から7月10日までに算定基礎届を提出する。",
       "point": "算定基礎届",
-      "topic": "SOC2-2"
+      "topic": "SOC2-2",
+      "original_asset_ids": []
     },
     {
       "id": "SOC2-Q11",
@@ -25161,7 +26003,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "資料の対象外として示されている。",
       "point": "定時決定の対象外",
-      "topic": "SOC2-2"
+      "topic": "SOC2-2",
+      "original_asset_ids": []
     },
     {
       "id": "SOC2-Q12",
@@ -25176,7 +26019,8 @@ window.APP_DATA = {
       "answer": "前1年間総額の12分の1を4・5・6月の給与に加える",
       "explain": "資料では前1年間の賞与総額の12分の1を各月給与に加算する。",
       "point": "賞与の加算",
-      "topic": "SOC2-3"
+      "topic": "SOC2-3",
+      "original_asset_ids": []
     },
     {
       "id": "SOC2-Q13",
@@ -25189,7 +26033,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "資料では通勤定期代を月数で割って各月に加算する。",
       "point": "通勤費の月割り",
-      "topic": "SOC2-3"
+      "topic": "SOC2-3",
+      "original_asset_ids": []
     },
     {
       "id": "SOC2-Q14",
@@ -25204,7 +26049,8 @@ window.APP_DATA = {
       "answer": "6月のみ",
       "explain": "1か月でも17日以上の月がある場合は、17日以上の月を用いる。",
       "point": "短時間労働者・17日以上",
-      "topic": "SOC2-3"
+      "topic": "SOC2-3",
+      "original_asset_ids": []
     },
     {
       "id": "SOC2-Q15",
@@ -25219,7 +26065,8 @@ window.APP_DATA = {
       "answer": "3か月平均",
       "explain": "資料では3か月の報酬月額の平均を基に決定する。",
       "point": "15日以上17日未満",
-      "topic": "SOC2-3"
+      "topic": "SOC2-3",
+      "original_asset_ids": []
     },
     {
       "id": "SOC2-Q16",
@@ -25232,7 +26079,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "資料の短時間労働者の定時決定の整理による。",
       "point": "3か月とも15日未満",
-      "topic": "SOC2-3"
+      "topic": "SOC2-3",
+      "original_asset_ids": []
     },
     {
       "id": "SOC2-Q17",
@@ -25245,7 +26093,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "固定的賃金の変動に加え、2等級以上の差と3か月連続17日以上等の要件を満たす必要がある。",
       "point": "3要件",
-      "topic": "SOC2-4"
+      "topic": "SOC2-4",
+      "original_asset_ids": []
     },
     {
       "id": "SOC2-Q18",
@@ -25260,7 +26109,8 @@ window.APP_DATA = {
       "answer": "原則2等級以上",
       "explain": "変動後3か月平均と現標準報酬月額との間に原則2等級以上の差が必要。",
       "point": "2等級以上",
-      "topic": "SOC2-4"
+      "topic": "SOC2-4",
+      "original_asset_ids": []
     },
     {
       "id": "SOC2-Q19",
@@ -25273,7 +26123,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "3か月連続で各月17日以上が要件。",
       "point": "3か月連続17日以上",
-      "topic": "SOC2-4"
+      "topic": "SOC2-4",
+      "original_asset_ids": []
     },
     {
       "id": "SOC2-Q20",
@@ -25288,7 +26139,8 @@ window.APP_DATA = {
       "answer": "1月",
       "explain": "変動月から3か月をみて、4か月目から改定する。",
       "point": "4か月目",
-      "topic": "SOC2-4"
+      "topic": "SOC2-4",
+      "original_asset_ids": []
     },
     {
       "id": "SOC2-Q21",
@@ -25303,7 +26155,8 @@ window.APP_DATA = {
       "answer": "残業時間の一時的増加",
       "explain": "資料の例は固定的賃金・給与体系等の変更であり、一時的な残業増加は例示されていない。",
       "point": "固定的賃金",
-      "topic": "SOC2-4"
+      "topic": "SOC2-4",
+      "original_asset_ids": []
     },
     {
       "id": "SOC2-Q22",
@@ -25316,7 +26169,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "資料では7月～12月改定は原則翌年8月まで。",
       "point": "随時改定の有効期間",
-      "topic": "SOC2-4"
+      "topic": "SOC2-4",
+      "original_asset_ids": []
     },
     {
       "id": "SOC2-Q23",
@@ -25331,7 +26185,8 @@ window.APP_DATA = {
       "answer": "4月1日～翌年3月31日",
       "explain": "資料では労働保険年度を4月から翌年3月までとしている。",
       "point": "保険年度",
-      "topic": "SOC2-5"
+      "topic": "SOC2-5",
+      "original_asset_ids": []
     },
     {
       "id": "SOC2-Q24",
@@ -25344,7 +26199,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "前年度分を精算し、当年度分の概算保険料を申告納付する。",
       "point": "確定＋概算",
-      "topic": "SOC2-5"
+      "topic": "SOC2-5",
+      "original_asset_ids": []
     },
     {
       "id": "SOC2-Q25",
@@ -25359,7 +26215,8 @@ window.APP_DATA = {
       "answer": "6月1日～7月10日",
       "explain": "資料では原則毎年6月1日から7月10日までに精算・申告納付する。",
       "point": "6/1～7/10",
-      "topic": "SOC2-5"
+      "topic": "SOC2-5",
+      "original_asset_ids": []
     },
     {
       "id": "SOC2-Q26",
@@ -25372,7 +26229,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "資料の年度更新では両保険料を合わせて扱う。",
       "point": "労働保険料の構成",
-      "topic": "SOC2-5"
+      "topic": "SOC2-5",
+      "original_asset_ids": []
     },
     {
       "id": "SOC2-Q27",
@@ -25387,7 +26245,8 @@ window.APP_DATA = {
       "answer": "確定保険料",
       "explain": "前年度の実績に基づいて確定保険料を計算し精算する。",
       "point": "前年度＝確定",
-      "topic": "SOC2-5"
+      "topic": "SOC2-5",
+      "original_asset_ids": []
     },
     {
       "id": "SOC2-Q28",
@@ -25400,7 +26259,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "資料では労災保険料は会社が全額負担するとされている。",
       "point": "会社全額負担",
-      "topic": "SOC2-6"
+      "topic": "SOC2-6",
+      "original_asset_ids": []
     },
     {
       "id": "SOC2-Q29",
@@ -25415,7 +26275,8 @@ window.APP_DATA = {
       "answer": "全労働者の賃金総額×労災保険率",
       "explain": "資料の計算式による。",
       "point": "労災保険料の式",
-      "topic": "SOC2-6"
+      "topic": "SOC2-6",
+      "original_asset_ids": []
     },
     {
       "id": "SOC2-Q30",
@@ -25428,7 +26289,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "資料では正社員だけでなく臨時的な労働者も含む。",
       "point": "全労働者",
-      "topic": "SOC2-6"
+      "topic": "SOC2-6",
+      "original_asset_ids": []
     },
     {
       "id": "SOC2-Q31",
@@ -25443,7 +26305,8 @@ window.APP_DATA = {
       "answer": "派遣元",
       "explain": "資料では派遣社員については派遣元で計算するとされている。",
       "point": "派遣元",
-      "topic": "SOC2-6"
+      "topic": "SOC2-6",
+      "original_asset_ids": []
     },
     {
       "id": "SOC2-Q32",
@@ -25456,7 +26319,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "資料ではこの範囲なら前年度賃金総額を使用する。",
       "point": "50%以上200%以下",
-      "topic": "SOC2-6"
+      "topic": "SOC2-6",
+      "original_asset_ids": []
     },
     {
       "id": "SOC2-Q33",
@@ -25471,7 +26335,8 @@ window.APP_DATA = {
       "answer": "1,000分の2.5～88",
       "explain": "事業の種類により1,000分の2.5～88とされている。",
       "point": "労災保険率",
-      "topic": "SOC2-6"
+      "topic": "SOC2-6",
+      "original_asset_ids": []
     },
     {
       "id": "SOC2-Q34",
@@ -25484,7 +26349,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "雇用保険の被保険者でない労働者の賃金は除く。",
       "point": "雇用保険の対象賃金",
-      "topic": "SOC2-6"
+      "topic": "SOC2-6",
+      "original_asset_ids": []
     },
     {
       "id": "LAB1-Q25",
@@ -25498,7 +26364,8 @@ window.APP_DATA = {
       "answer": "6週間",
       "explain": "資料では6週間以内。多胎妊娠は14週間以内。",
       "point": "産前6週間",
-      "topic": "LAB1-7"
+      "topic": "LAB1-7",
+      "original_asset_ids": []
     },
     {
       "id": "LAB1-Q26",
@@ -25512,7 +26379,8 @@ window.APP_DATA = {
       "answer": "14週間",
       "explain": "多胎妊娠は14週間以内。",
       "point": "多胎14週間",
-      "topic": "LAB1-7"
+      "topic": "LAB1-7",
+      "original_asset_ids": []
     },
     {
       "id": "LAB1-Q27",
@@ -25525,7 +26393,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "産後8週間は原則就業禁止。",
       "point": "産後8週間",
-      "topic": "LAB1-7"
+      "topic": "LAB1-7",
+      "original_asset_ids": []
     },
     {
       "id": "LAB1-Q28",
@@ -25538,7 +26407,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "産後休業の例外。",
       "point": "6週間＋請求＋医師認定",
-      "topic": "LAB1-7"
+      "topic": "LAB1-7",
+      "original_asset_ids": []
     },
     {
       "id": "LAB1-Q29",
@@ -25552,7 +26422,8 @@ window.APP_DATA = {
       "answer": "1歳",
       "explain": "原則は1歳まで。",
       "point": "原則1歳",
-      "topic": "LAB1-8"
+      "topic": "LAB1-8",
+      "original_asset_ids": []
     },
     {
       "id": "LAB1-Q30",
@@ -25565,7 +26436,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "父母ともに取得する場合の特例として示されている。",
       "point": "1歳2か月",
-      "topic": "LAB1-8"
+      "topic": "LAB1-8",
+      "original_asset_ids": []
     },
     {
       "id": "LAB1-Q31",
@@ -25579,7 +26451,8 @@ window.APP_DATA = {
       "answer": "2歳",
       "explain": "1歳6か月後も条件を満たす場合、最長2歳まで。",
       "point": "最長2歳",
-      "topic": "LAB1-8"
+      "topic": "LAB1-8",
+      "original_asset_ids": []
     },
     {
       "id": "LAB1-Q32",
@@ -25593,7 +26466,8 @@ window.APP_DATA = {
       "answer": "4週間",
       "explain": "資料では8週間以内に4週間まで。",
       "point": "8週間以内・4週間",
-      "topic": "LAB1-8"
+      "topic": "LAB1-8",
+      "original_asset_ids": []
     },
     {
       "id": "LAB1-Q33",
@@ -25607,7 +26481,8 @@ window.APP_DATA = {
       "answer": "93日",
       "explain": "資料では通算93日まで。",
       "point": "93日",
-      "topic": "LAB1-9"
+      "topic": "LAB1-9",
+      "original_asset_ids": []
     },
     {
       "id": "LAB1-Q34",
@@ -25621,7 +26496,8 @@ window.APP_DATA = {
       "answer": "3回",
       "explain": "通算93日を3回まで。",
       "point": "3回",
-      "topic": "LAB1-9"
+      "topic": "LAB1-9",
+      "original_asset_ids": []
     },
     {
       "id": "LAB1-Q35",
@@ -25635,7 +26511,8 @@ window.APP_DATA = {
       "answer": "5日",
       "explain": "1人なら5日、2人以上なら10日。",
       "point": "5日 / 10日",
-      "topic": "LAB1-9"
+      "topic": "LAB1-9",
+      "original_asset_ids": []
     },
     {
       "id": "LAB1-Q36",
@@ -25649,7 +26526,8 @@ window.APP_DATA = {
       "answer": "月24時間・年150時間",
       "explain": "育児・介護関係の時間外労働制限として示されている。",
       "point": "24時間 / 150時間",
-      "topic": "LAB1-9"
+      "topic": "LAB1-9",
+      "original_asset_ids": []
     },
     {
       "id": "LAB1-Q37",
@@ -25663,7 +26541,8 @@ window.APP_DATA = {
       "answer": "22時～5時",
       "explain": "午後10時から午前5時。",
       "point": "22時～5時",
-      "topic": "LAB1-9"
+      "topic": "LAB1-9",
+      "original_asset_ids": []
     },
     {
       "id": "LAB1-Q38",
@@ -25677,7 +26556,8 @@ window.APP_DATA = {
       "answer": "12桁",
       "explain": "資料では12桁の番号。",
       "point": "12桁",
-      "topic": "LAB1-10"
+      "topic": "LAB1-10",
+      "original_asset_ids": []
     },
     {
       "id": "LAB1-Q39",
@@ -25690,7 +26570,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "特定個人情報は提供範囲が法令で制限されている。",
       "point": "第三者提供の制限",
-      "topic": "LAB1-10"
+      "topic": "LAB1-10",
+      "original_asset_ids": []
     },
     {
       "id": "LAB1-Q40",
@@ -25704,7 +26585,8 @@ window.APP_DATA = {
       "answer": "取得・収集→保管→利用→提供→廃棄・削除",
       "explain": "資料の安全管理措置の各場面。",
       "point": "5つの取扱場面",
-      "topic": "LAB1-10"
+      "topic": "LAB1-10",
+      "original_asset_ids": []
     },
     {
       "id": "LAB1-Q41",
@@ -25718,7 +26600,8 @@ window.APP_DATA = {
       "answer": "番号確認＋身元確認",
       "explain": "資料では番号確認と身元確認を組み合わせる。",
       "point": "番号確認＋身元確認",
-      "topic": "LAB1-10"
+      "topic": "LAB1-10",
+      "original_asset_ids": []
     },
     {
       "id": "LAB1-Q42",
@@ -25731,7 +26614,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "資料では受給者交付用は記載不要として整理されている。",
       "point": "受給者交付用は記載不要",
-      "topic": "LAB1-10"
+      "topic": "LAB1-10",
+      "original_asset_ids": []
     },
     {
       "id": "LAB1-Q43",
@@ -25745,7 +26629,8 @@ window.APP_DATA = {
       "answer": "5年",
       "explain": "資料では5年。ただし当分の間3年と整理されている。",
       "point": "5年（当分3年）",
-      "topic": "LAB1-11"
+      "topic": "LAB1-11",
+      "original_asset_ids": []
     },
     {
       "id": "LAB1-Q44",
@@ -25759,7 +26644,8 @@ window.APP_DATA = {
       "answer": "5年",
       "explain": "資料では5年。",
       "point": "退職手当5年",
-      "topic": "LAB1-11"
+      "topic": "LAB1-11",
+      "original_asset_ids": []
     },
     {
       "id": "LAB1-Q45",
@@ -25773,7 +26659,8 @@ window.APP_DATA = {
       "answer": "2年",
       "explain": "健康保険関係は2年。",
       "point": "健康保険2年",
-      "topic": "LAB1-11"
+      "topic": "LAB1-11",
+      "original_asset_ids": []
     },
     {
       "id": "LAB1-Q46",
@@ -25787,7 +26674,8 @@ window.APP_DATA = {
       "answer": "3年",
       "explain": "労災保険関係は3年。",
       "point": "労災3年",
-      "topic": "LAB1-11"
+      "topic": "LAB1-11",
+      "original_asset_ids": []
     },
     {
       "id": "LAB1-Q47",
@@ -25801,7 +26689,8 @@ window.APP_DATA = {
       "answer": "7年",
       "explain": "資料では7年。",
       "point": "税務7年",
-      "topic": "LAB1-11"
+      "topic": "LAB1-11",
+      "original_asset_ids": []
     },
     {
       "id": "SOC3-Q01",
@@ -25815,7 +26704,8 @@ window.APP_DATA = {
       "answer": "健康保険・介護保険・厚生年金保険",
       "explain": "画像では狭義の社会保険を健康・介護・厚生年金として整理。",
       "point": "狭義の範囲",
-      "topic": "SOC3-1"
+      "topic": "SOC3-1",
+      "original_asset_ids": []
     },
     {
       "id": "SOC3-Q02",
@@ -25828,7 +26718,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "狭義に労働保険等を加えた広い意味で整理されている。",
       "point": "広義の範囲",
-      "topic": "SOC3-1"
+      "topic": "SOC3-1",
+      "original_asset_ids": []
     },
     {
       "id": "SOC3-Q03",
@@ -25841,7 +26732,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "要件該当時は原則として強制加入。",
       "point": "強制加入",
-      "topic": "SOC3-1"
+      "topic": "SOC3-1",
+      "original_asset_ids": []
     },
     {
       "id": "SOC3-Q04",
@@ -25854,7 +26746,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "画像では『事業所単位』と明示されている。",
       "point": "事業所単位",
-      "topic": "SOC3-2"
+      "topic": "SOC3-2",
+      "original_asset_ids": []
     },
     {
       "id": "SOC3-Q05",
@@ -25867,7 +26760,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "法人は原則強制適用として整理されている。",
       "point": "法人＝原則強制適用",
-      "topic": "SOC3-2"
+      "topic": "SOC3-2",
+      "original_asset_ids": []
     },
     {
       "id": "SOC3-Q06",
@@ -25881,7 +26775,8 @@ window.APP_DATA = {
       "answer": "事業所",
       "explain": "社会保険は事業所単位で適用される。",
       "point": "事業所",
-      "topic": "SOC3-2"
+      "topic": "SOC3-2",
+      "original_asset_ids": []
     },
     {
       "id": "SOC3-Q07",
@@ -25895,7 +26790,8 @@ window.APP_DATA = {
       "answer": "40歳以上65歳未満",
       "explain": "医療保険加入者の40～64歳が第2号。",
       "point": "40～64歳",
-      "topic": "SOC3-3"
+      "topic": "SOC3-3",
+      "original_asset_ids": []
     },
     {
       "id": "SOC3-Q08",
@@ -25909,7 +26805,8 @@ window.APP_DATA = {
       "answer": "65歳",
       "explain": "65歳以上が第1号。",
       "point": "65歳",
-      "topic": "SOC3-3"
+      "topic": "SOC3-3",
+      "original_asset_ids": []
     },
     {
       "id": "SOC3-Q09",
@@ -25923,7 +26820,8 @@ window.APP_DATA = {
       "answer": "75歳",
       "explain": "75歳以上は後期高齢者医療制度。",
       "point": "75歳",
-      "topic": "SOC3-3"
+      "topic": "SOC3-3",
+      "original_asset_ids": []
     },
     {
       "id": "SOC3-Q10",
@@ -25937,7 +26835,8 @@ window.APP_DATA = {
       "answer": "2か月以上",
       "explain": "画像では継続2か月以上。",
       "point": "2か月以上",
-      "topic": "SOC3-3"
+      "topic": "SOC3-3",
+      "original_asset_ids": []
     },
     {
       "id": "SOC3-Q11",
@@ -25951,7 +26850,8 @@ window.APP_DATA = {
       "answer": "20日",
       "explain": "資格喪失日から20日以内。",
       "point": "20日以内",
-      "topic": "SOC3-3"
+      "topic": "SOC3-3",
+      "original_asset_ids": []
     },
     {
       "id": "SOC3-Q12",
@@ -25965,7 +26865,8 @@ window.APP_DATA = {
       "answer": "2年",
       "explain": "最長2年間。",
       "point": "最長2年",
-      "topic": "SOC3-3"
+      "topic": "SOC3-3",
+      "original_asset_ids": []
     },
     {
       "id": "SOC3-Q13",
@@ -25979,7 +26880,8 @@ window.APP_DATA = {
       "answer": "70歳未満",
       "explain": "画像では70歳未満。",
       "point": "70歳未満",
-      "topic": "SOC3-4"
+      "topic": "SOC3-4",
+      "original_asset_ids": []
     },
     {
       "id": "SOC3-Q14",
@@ -25993,7 +26895,8 @@ window.APP_DATA = {
       "answer": "20時間以上",
       "explain": "4要件の1つ。",
       "point": "週20時間以上",
-      "topic": "SOC3-4"
+      "topic": "SOC3-4",
+      "original_asset_ids": []
     },
     {
       "id": "SOC3-Q15",
@@ -26007,7 +26910,8 @@ window.APP_DATA = {
       "answer": "8.8万円以上",
       "explain": "画像の4要件の1つ。",
       "point": "月8.8万円以上",
-      "topic": "SOC3-4"
+      "topic": "SOC3-4",
+      "original_asset_ids": []
     },
     {
       "id": "SOC3-Q16",
@@ -26020,7 +26924,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "学生ではないことが要件。",
       "point": "学生除外",
-      "topic": "SOC3-4"
+      "topic": "SOC3-4",
+      "original_asset_ids": []
     },
     {
       "id": "SOC3-Q17",
@@ -26034,7 +26939,8 @@ window.APP_DATA = {
       "answer": "130万円未満",
       "explain": "画像では130万円未満が基本。",
       "point": "130万円未満",
-      "topic": "SOC3-5"
+      "topic": "SOC3-5",
+      "original_asset_ids": []
     },
     {
       "id": "SOC3-Q18",
@@ -26048,7 +26954,8 @@ window.APP_DATA = {
       "answer": "180万円未満",
       "explain": "画像では180万円未満。",
       "point": "180万円未満",
-      "topic": "SOC3-5"
+      "topic": "SOC3-5",
+      "original_asset_ids": []
     },
     {
       "id": "SOC3-Q19",
@@ -26062,7 +26969,8 @@ window.APP_DATA = {
       "answer": "2分の1未満",
       "explain": "画像の生計維持認定基準。",
       "point": "2分の1未満",
-      "topic": "SOC3-5"
+      "topic": "SOC3-5",
+      "original_asset_ids": []
     },
     {
       "id": "SOC3-Q20",
@@ -26075,7 +26983,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "親族の種類により同一世帯要件の有無が異なる。",
       "point": "同居要件の有無",
-      "topic": "SOC3-5"
+      "topic": "SOC3-5",
+      "original_asset_ids": []
     },
     {
       "id": "SOC3-Q21",
@@ -26089,7 +26998,8 @@ window.APP_DATA = {
       "answer": "3割",
       "explain": "画像の表では70歳未満は3割。",
       "point": "70歳未満3割",
-      "topic": "SOC3-6"
+      "topic": "SOC3-6",
+      "original_asset_ids": []
     },
     {
       "id": "SOC3-Q22",
@@ -26103,7 +27013,8 @@ window.APP_DATA = {
       "answer": "2割",
       "explain": "現役並み所得者は3割。",
       "point": "70～74歳原則2割",
-      "topic": "SOC3-6"
+      "topic": "SOC3-6",
+      "original_asset_ids": []
     },
     {
       "id": "SOC3-Q23",
@@ -26116,7 +27027,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "画像に示された主な支給要件。",
       "point": "傷病手当金の4要件",
-      "topic": "SOC3-6"
+      "topic": "SOC3-6",
+      "original_asset_ids": []
     },
     {
       "id": "SOC3-Q24",
@@ -26130,7 +27042,8 @@ window.APP_DATA = {
       "answer": "標準報酬月額平均÷30×2/3",
       "explain": "画像の計算式。",
       "point": "÷30×2/3",
-      "topic": "SOC3-6"
+      "topic": "SOC3-6",
+      "original_asset_ids": []
     },
     {
       "id": "SOC3-Q25",
@@ -26144,7 +27057,8 @@ window.APP_DATA = {
       "answer": "1年6か月",
       "explain": "通算1年6か月。",
       "point": "1年6か月",
-      "topic": "SOC3-6"
+      "topic": "SOC3-6",
+      "original_asset_ids": []
     },
     {
       "id": "SOC3-Q26",
@@ -26158,7 +27072,8 @@ window.APP_DATA = {
       "answer": "50万円",
       "explain": "画像では子1人につき50万円。",
       "point": "50万円",
-      "topic": "SOC3-6"
+      "topic": "SOC3-6",
+      "original_asset_ids": []
     },
     {
       "id": "SOC3-Q27",
@@ -26172,7 +27087,8 @@ window.APP_DATA = {
       "answer": "42日",
       "explain": "多胎妊娠は98日。出産後は56日。",
       "point": "42日 / 98日 / 56日",
-      "topic": "SOC3-6"
+      "topic": "SOC3-6",
+      "original_asset_ids": []
     },
     {
       "id": "SOC3-Q28",
@@ -26186,7 +27102,8 @@ window.APP_DATA = {
       "answer": "2階",
       "explain": "国民年金が1階、厚生年金保険が2階。",
       "point": "2階建て",
-      "topic": "SOC3-7"
+      "topic": "SOC3-7",
+      "original_asset_ids": []
     },
     {
       "id": "SOC3-Q29",
@@ -26201,7 +27118,8 @@ window.APP_DATA = {
       "answer": "失業給付",
       "explain": "画像では老齢・障害・遺族を整理。",
       "point": "老齢・障害・遺族",
-      "topic": "SOC3-7"
+      "topic": "SOC3-7",
+      "original_asset_ids": []
     },
     {
       "id": "SOC3-Q30",
@@ -26214,7 +27132,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "画像に報酬比例部分・定額部分等の構成が示されている。",
       "point": "報酬比例部分",
-      "topic": "SOC3-7"
+      "topic": "SOC3-7",
+      "original_asset_ids": []
     },
     {
       "id": "SOC4-Q01",
@@ -26228,7 +27147,8 @@ window.APP_DATA = {
       "answer": "離職前最後の6か月の賃金総額÷180",
       "explain": "基本手当日額の基礎となる賃金日額の式。",
       "point": "6か月÷180",
-      "topic": "SOC4-1"
+      "topic": "SOC4-1",
+      "original_asset_ids": []
     },
     {
       "id": "SOC4-Q02",
@@ -26242,7 +27162,8 @@ window.APP_DATA = {
       "answer": "45～80％",
       "explain": "画像では45～80％。",
       "point": "45～80％",
-      "topic": "SOC4-1"
+      "topic": "SOC4-1",
+      "original_asset_ids": []
     },
     {
       "id": "SOC4-Q03",
@@ -26256,7 +27177,8 @@ window.APP_DATA = {
       "answer": "12か月",
       "explain": "資料では2年間に通算12か月以上。",
       "point": "2年・12か月",
-      "topic": "SOC4-1"
+      "topic": "SOC4-1",
+      "original_asset_ids": []
     },
     {
       "id": "SOC4-Q04",
@@ -26270,7 +27192,8 @@ window.APP_DATA = {
       "answer": "7日",
       "explain": "求職申込み後の待期は7日。",
       "point": "待期7日",
-      "topic": "SOC4-1"
+      "topic": "SOC4-1",
+      "original_asset_ids": []
     },
     {
       "id": "SOC4-Q05",
@@ -26284,7 +27207,8 @@ window.APP_DATA = {
       "answer": "4週間に1回",
       "explain": "画像では原則4週間に1回。",
       "point": "4週間に1回",
-      "topic": "SOC4-1"
+      "topic": "SOC4-1",
+      "original_asset_ids": []
     },
     {
       "id": "SOC4-Q06",
@@ -26298,7 +27222,8 @@ window.APP_DATA = {
       "answer": "1年",
       "explain": "原則1年間。",
       "point": "受給期間1年",
-      "topic": "SOC4-1"
+      "topic": "SOC4-1",
+      "original_asset_ids": []
     },
     {
       "id": "SOC4-Q07",
@@ -26312,7 +27237,8 @@ window.APP_DATA = {
       "answer": "90日",
       "explain": "画像の表では90日。",
       "point": "1～10年未満→90日",
-      "topic": "SOC4-2"
+      "topic": "SOC4-2",
+      "original_asset_ids": []
     },
     {
       "id": "SOC4-Q08",
@@ -26326,7 +27252,8 @@ window.APP_DATA = {
       "answer": "120日",
       "explain": "画像の表では120日。",
       "point": "10～20年未満→120日",
-      "topic": "SOC4-2"
+      "topic": "SOC4-2",
+      "original_asset_ids": []
     },
     {
       "id": "SOC4-Q09",
@@ -26340,7 +27267,8 @@ window.APP_DATA = {
       "answer": "150日",
       "explain": "画像の表では150日。",
       "point": "20年以上→150日",
-      "topic": "SOC4-2"
+      "topic": "SOC4-2",
+      "original_asset_ids": []
     },
     {
       "id": "SOC4-Q10",
@@ -26354,7 +27282,8 @@ window.APP_DATA = {
       "answer": "就職促進給付",
       "explain": "早期再就職等を対象とする給付。",
       "point": "給付分類",
-      "topic": "SOC4-3"
+      "topic": "SOC4-3",
+      "original_asset_ids": []
     },
     {
       "id": "SOC4-Q11",
@@ -26368,7 +27297,8 @@ window.APP_DATA = {
       "answer": "雇用継続給付",
       "explain": "雇用継続給付の一つ。",
       "point": "介護＝雇用継続",
-      "topic": "SOC4-3"
+      "topic": "SOC4-3",
+      "original_asset_ids": []
     },
     {
       "id": "SOC4-Q12",
@@ -26382,7 +27312,8 @@ window.APP_DATA = {
       "answer": "求職者給付",
       "explain": "求職者給付に分類。",
       "point": "高年齢求職者給付金",
-      "topic": "SOC4-3"
+      "topic": "SOC4-3",
+      "original_asset_ids": []
     },
     {
       "id": "SOC4-Q13",
@@ -26396,7 +27327,8 @@ window.APP_DATA = {
       "answer": "67％",
       "explain": "画像では180日まで67％。",
       "point": "180日まで67％",
-      "topic": "SOC4-4"
+      "topic": "SOC4-4",
+      "original_asset_ids": []
     },
     {
       "id": "SOC4-Q14",
@@ -26410,7 +27342,8 @@ window.APP_DATA = {
       "answer": "50％",
       "explain": "181日目以降は50％。",
       "point": "181日目以降50％",
-      "topic": "SOC4-4"
+      "topic": "SOC4-4",
+      "original_asset_ids": []
     },
     {
       "id": "SOC4-Q15",
@@ -26424,7 +27357,8 @@ window.APP_DATA = {
       "answer": "8週間",
       "explain": "画像では出生後8週間以内。",
       "point": "出生後8週間",
-      "topic": "SOC4-4"
+      "topic": "SOC4-4",
+      "original_asset_ids": []
     },
     {
       "id": "SOC4-Q16",
@@ -26438,7 +27372,8 @@ window.APP_DATA = {
       "answer": "13％",
       "explain": "画像では休業前賃金の13％を上乗せ。",
       "point": "13％上乗せ",
-      "topic": "SOC4-4"
+      "topic": "SOC4-4",
+      "original_asset_ids": []
     },
     {
       "id": "SOC4-Q17",
@@ -26452,7 +27387,8 @@ window.APP_DATA = {
       "answer": "28日",
       "explain": "画像では28日分を上限。",
       "point": "28日",
-      "topic": "SOC4-4"
+      "topic": "SOC4-4",
+      "original_asset_ids": []
     },
     {
       "id": "SOC4-Q18",
@@ -26466,7 +27402,8 @@ window.APP_DATA = {
       "answer": "10％",
       "explain": "画像では10％。",
       "point": "時短10％",
-      "topic": "SOC4-4"
+      "topic": "SOC4-4",
+      "original_asset_ids": []
     },
     {
       "id": "SOC4-Q19",
@@ -26479,7 +27416,8 @@ window.APP_DATA = {
       "answer": "○",
       "explain": "資料に75％未満とある。",
       "point": "60歳・75％未満",
-      "topic": "SOC4-4"
+      "topic": "SOC4-4",
+      "original_asset_ids": []
     },
     {
       "id": "SOC4-Q20",
@@ -26493,7 +27431,8 @@ window.APP_DATA = {
       "answer": "10％",
       "explain": "画像では最大10％。",
       "point": "最大10％",
-      "topic": "SOC4-4"
+      "topic": "SOC4-4",
+      "original_asset_ids": []
     },
     {
       "id": "SOC4-Q21",
@@ -26507,7 +27446,8 @@ window.APP_DATA = {
       "answer": "療養補償給付",
       "explain": "業務災害は『補償』付き。",
       "point": "補償の有無",
-      "topic": "SOC4-5"
+      "topic": "SOC4-5",
+      "original_asset_ids": []
     },
     {
       "id": "SOC4-Q22",
@@ -26521,7 +27461,8 @@ window.APP_DATA = {
       "answer": "休業給付",
       "explain": "通勤災害では『補償』が付かない。",
       "point": "通勤災害名称",
-      "topic": "SOC4-5"
+      "topic": "SOC4-5",
+      "original_asset_ids": []
     },
     {
       "id": "SOC4-Q23",
@@ -26535,7 +27476,8 @@ window.APP_DATA = {
       "answer": "4日目",
       "explain": "画像例では4日目から。",
       "point": "4日目",
-      "topic": "SOC4-5"
+      "topic": "SOC4-5",
+      "original_asset_ids": []
     },
     {
       "id": "SOC4-Q24",
@@ -26549,7 +27491,8 @@ window.APP_DATA = {
       "answer": "80％",
       "explain": "60％＋20％＝80％。",
       "point": "60＋20＝80",
-      "topic": "SOC4-5"
+      "topic": "SOC4-5",
+      "original_asset_ids": []
     },
     {
       "id": "SOC4-Q25",
@@ -26563,7 +27506,8 @@ window.APP_DATA = {
       "answer": "障害給付",
       "explain": "通勤災害では『補償』を外した名称。",
       "point": "名称対応",
-      "topic": "SOC4-5"
+      "topic": "SOC4-5",
+      "original_asset_ids": []
     },
     {
       "id": "SOC4-Q26",
@@ -26577,7 +27521,8 @@ window.APP_DATA = {
       "answer": "直前3か月の賃金総額÷その期間の暦日数",
       "explain": "画像では平均賃金相当額を基礎にする。",
       "point": "3か月÷暦日数",
-      "topic": "SOC4-6"
+      "topic": "SOC4-6",
+      "original_asset_ids": []
     },
     {
       "id": "SOC4-Q27",
@@ -26591,7 +27536,8 @@ window.APP_DATA = {
       "answer": "3か月",
       "explain": "画像では3か月間。",
       "point": "3か月",
-      "topic": "SOC4-6"
+      "topic": "SOC4-6",
+      "original_asset_ids": []
     },
     {
       "id": "SOC4-Q28",
@@ -26604,7 +27550,8 @@ window.APP_DATA = {
       "answer": "×",
       "explain": "資料では給付基礎日額を用いる。",
       "point": "給付基礎日額",
-      "topic": "SOC4-6"
+      "topic": "SOC4-6",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q26",
@@ -26624,7 +27571,8 @@ window.APP_DATA = {
       "subtopic": "第1号被保険者の国内居住要件",
       "attention": "日本国内に住所",
       "mistake": "第2号被保険者には国内居住要件がない点との混同。",
-      "review_tag": "PENSION_INSURED_V35_01"
+      "review_tag": "PENSION_INSURED_V35_01",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q27",
@@ -26644,7 +27592,8 @@ window.APP_DATA = {
       "subtopic": "第1号被保険者と年金受給権",
       "attention": "遺族基礎年金・20歳以上60歳未満",
       "mistake": "「年金を受給している＝第1号になれない」と決めつける。",
-      "review_tag": "PENSION_INSURED_V35_02"
+      "review_tag": "PENSION_INSURED_V35_02",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q28",
@@ -26664,7 +27613,8 @@ window.APP_DATA = {
       "subtopic": "第2号被保険者の範囲",
       "attention": "すべて・65歳以上・受給権",
       "mistake": "「厚生年金加入者＝例外なく第2号」という断定。",
-      "review_tag": "PENSION_INSURED_V35_03"
+      "review_tag": "PENSION_INSURED_V35_03",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q29",
@@ -26684,7 +27634,8 @@ window.APP_DATA = {
       "subtopic": "第3号被保険者と配偶者の第2号資格",
       "attention": "在職老齢年金・65歳以上・生計維持",
       "mistake": "配偶者が厚生年金被保険者であることだけを見る。",
-      "review_tag": "PENSION_INSURED_V35_04"
+      "review_tag": "PENSION_INSURED_V35_04",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q30",
@@ -26704,7 +27655,8 @@ window.APP_DATA = {
       "subtopic": "第3号被保険者の年間収入",
       "attention": "年間収入・障害基礎年金",
       "mistake": "非課税等のイメージから収入に含めないと誤認する。",
-      "review_tag": "PENSION_INSURED_V35_05"
+      "review_tag": "PENSION_INSURED_V35_05",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q31",
@@ -26724,7 +27676,8 @@ window.APP_DATA = {
       "subtopic": "任意加入被保険者の申出",
       "attention": "60歳以上65歳未満・口座振替納付",
       "mistake": "任意加入の年齢要件だけを見て手続要件を落とす。",
-      "review_tag": "PENSION_INSURED_V35_06"
+      "review_tag": "PENSION_INSURED_V35_06",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q32",
@@ -26744,7 +27697,8 @@ window.APP_DATA = {
       "subtopic": "第1号被保険者の年齢到達",
       "attention": "20歳・60歳・誕生日",
       "mistake": "誕生日当日と「年齢に達した日」を同一視する。",
-      "review_tag": "PENSION_INSURED_V35_07"
+      "review_tag": "PENSION_INSURED_V35_07",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q33",
@@ -26764,7 +27718,8 @@ window.APP_DATA = {
       "subtopic": "第3号被保険者の年齢要件",
       "attention": "夫19歳・妻18歳・20歳",
       "mistake": "配偶者側の年齢到達だけで判断する。",
-      "review_tag": "PENSION_INSURED_V35_08"
+      "review_tag": "PENSION_INSURED_V35_08",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q34",
@@ -26784,7 +27739,8 @@ window.APP_DATA = {
       "subtopic": "第2号被保険者の資格喪失",
       "attention": "適用事業所に使用されなくなった・翌日",
       "mistake": "退職日当日に資格喪失すると誤認する。",
-      "review_tag": "PENSION_INSURED_V35_09"
+      "review_tag": "PENSION_INSURED_V35_09",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q35",
@@ -26804,7 +27760,8 @@ window.APP_DATA = {
       "subtopic": "国民年金の種別変更",
       "attention": "離婚・第3号→第1号・同日",
       "mistake": "区分が変わると必ず資格喪失・取得が生じると思う。",
-      "review_tag": "PENSION_INSURED_V35_10"
+      "review_tag": "PENSION_INSURED_V35_10",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q36",
@@ -26824,7 +27781,8 @@ window.APP_DATA = {
       "subtopic": "第1号被保険者の住所喪失",
       "attention": "外国人・出国日・翌日",
       "mistake": "出国前日と翌日を取り違える。",
-      "review_tag": "PENSION_INSURED_V35_11"
+      "review_tag": "PENSION_INSURED_V35_11",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q37",
@@ -26844,7 +27802,8 @@ window.APP_DATA = {
       "subtopic": "任意加入被保険者の保険料滞納",
       "attention": "国内居住・滞納・2年",
       "mistake": "在外邦人の2年経過ルールとの混同。",
-      "review_tag": "PENSION_INSURED_V35_12"
+      "review_tag": "PENSION_INSURED_V35_12",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q38",
@@ -26864,7 +27823,8 @@ window.APP_DATA = {
       "subtopic": "任意加入被保険者の480月到達",
       "attention": "65歳未満・480月・申出",
       "mistake": "「任意加入だから喪失も任意」と誤認する。",
-      "review_tag": "PENSION_INSURED_V35_13"
+      "review_tag": "PENSION_INSURED_V35_13",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q39",
@@ -26884,7 +27844,8 @@ window.APP_DATA = {
       "subtopic": "在外邦人の任意加入と滞納",
       "attention": "国外居住・20歳以上65歳未満・2年",
       "mistake": "国内居住の任意加入の督促期限ルールとの混同。",
-      "review_tag": "PENSION_INSURED_V35_14"
+      "review_tag": "PENSION_INSURED_V35_14",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q40",
@@ -26904,7 +27865,8 @@ window.APP_DATA = {
       "subtopic": "特例任意加入の資格喪失",
       "attention": "70歳前・老齢基礎年金受給権・翌日",
       "mistake": "70歳まで必ず加入できると誤認する。",
-      "review_tag": "PENSION_INSURED_V35_15"
+      "review_tag": "PENSION_INSURED_V35_15",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q41",
@@ -26924,7 +27886,8 @@ window.APP_DATA = {
       "subtopic": "厚生年金保険の当然被保険者",
       "attention": "65歳未満・70歳未満",
       "mistake": "健康保険等の年齢区分と混同する。",
-      "review_tag": "PENSION_INSURED_V35_16"
+      "review_tag": "PENSION_INSURED_V35_16",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q42",
@@ -26944,7 +27907,8 @@ window.APP_DATA = {
       "subtopic": "厚生年金被保険者の種別",
       "attention": "地方公務員・国家公務員・第2号・第3号",
       "mistake": "第2号と第3号を逆転させるひっかけ。",
-      "review_tag": "PENSION_INSURED_V35_17"
+      "review_tag": "PENSION_INSURED_V35_17",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q43",
@@ -26964,7 +27928,8 @@ window.APP_DATA = {
       "subtopic": "強制適用事業所と非適用業種",
       "attention": "個人経営・サービス業・20人",
       "mistake": "「5人以上・多数雇用」だけで強制適用と判断する。",
-      "review_tag": "PENSION_INSURED_V35_18"
+      "review_tag": "PENSION_INSURED_V35_18",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q44",
@@ -26984,7 +27949,8 @@ window.APP_DATA = {
       "subtopic": "任意適用事業所の同意割合",
       "attention": "4分の3・2分の1",
       "mistake": "加入と取消しの同意割合を逆にする。",
-      "review_tag": "PENSION_INSURED_V35_19"
+      "review_tag": "PENSION_INSURED_V35_19",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q45",
@@ -27004,7 +27970,8 @@ window.APP_DATA = {
       "subtopic": "臨時使用者の適用除外",
       "attention": "2か月以内・超えて引き続き使用",
       "mistake": "短期契約なら永久に適用除外と考える。",
-      "review_tag": "PENSION_INSURED_V35_20"
+      "review_tag": "PENSION_INSURED_V35_20",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q46",
@@ -27024,7 +27991,8 @@ window.APP_DATA = {
       "subtopic": "試用期間中の被保険者資格",
       "attention": "試用期間2か月・雇入れ当初",
       "mistake": "「2か月」という数字だけで臨時使用の適用除外と結び付ける。",
-      "review_tag": "PENSION_INSURED_V35_21"
+      "review_tag": "PENSION_INSURED_V35_21",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q47",
@@ -27044,7 +28012,8 @@ window.APP_DATA = {
       "subtopic": "所在地が一定しない事業の適用除外",
       "attention": "巡回興業・所在地が一定しない・6か月超",
       "mistake": "期間が長ければ被保険者になると考える。",
-      "review_tag": "PENSION_INSURED_V35_22"
+      "review_tag": "PENSION_INSURED_V35_22",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q48",
@@ -27064,7 +28033,8 @@ window.APP_DATA = {
       "subtopic": "季節的業務の適用除外",
       "attention": "季節的業務・4か月・当初から",
       "mistake": "結果として4か月を超えたことと、当初からの見込みを混同する。",
-      "review_tag": "PENSION_INSURED_V35_23"
+      "review_tag": "PENSION_INSURED_V35_23",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q49",
@@ -27084,7 +28054,8 @@ window.APP_DATA = {
       "subtopic": "臨時的事業の適用除外",
       "attention": "臨時的事業・6か月",
       "mistake": "季節的業務の4か月との混同。",
-      "review_tag": "PENSION_INSURED_V35_24"
+      "review_tag": "PENSION_INSURED_V35_24",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q50",
@@ -27104,7 +28075,8 @@ window.APP_DATA = {
       "subtopic": "短時間労働者の適用要件",
       "attention": "4分の3未満・週20時間以上",
       "mistake": "4分の3基準と短時間労働者の個別要件を混同する。",
-      "review_tag": "PENSION_INSURED_V35_25"
+      "review_tag": "PENSION_INSURED_V35_25",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q51",
@@ -27124,7 +28096,8 @@ window.APP_DATA = {
       "subtopic": "任意単独被保険者",
       "attention": "適用事業所以外・70歳未満・事業主同意・認可",
       "mistake": "本人の申出だけで足りるとする。",
-      "review_tag": "PENSION_INSURED_V35_26"
+      "review_tag": "PENSION_INSURED_V35_26",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q52",
@@ -27144,7 +28117,8 @@ window.APP_DATA = {
       "subtopic": "高齢任意加入被保険者の受給権要件",
       "attention": "70歳以上・障害年金・老齢又は退職",
       "mistake": "障害年金受給権も除外条件だと誤認する。",
-      "review_tag": "PENSION_INSURED_V35_27"
+      "review_tag": "PENSION_INSURED_V35_27",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q53",
@@ -27164,7 +28138,8 @@ window.APP_DATA = {
       "subtopic": "高齢任意加入被保険者の対象者",
       "attention": "70歳以上・老齢厚生年金・老齢基礎年金",
       "mistake": "手続要件を見る前に対象外要件を見落とす。",
-      "review_tag": "PENSION_INSURED_V35_28"
+      "review_tag": "PENSION_INSURED_V35_28",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q54",
@@ -27184,7 +28159,8 @@ window.APP_DATA = {
       "subtopic": "高齢任意加入被保険者（非適用事業所）",
       "attention": "非適用事業所・70歳以上・事業主同意・認可",
       "mistake": "申出と認可を同じものとして扱う。",
-      "review_tag": "PENSION_INSURED_V35_29"
+      "review_tag": "PENSION_INSURED_V35_29",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q55",
@@ -27204,7 +28180,8 @@ window.APP_DATA = {
       "subtopic": "高齢任意加入被保険者の保険料負担",
       "attention": "例外なく・全額負担",
       "mistake": "「任意加入＝全額自己負担」と断定する。",
-      "review_tag": "PENSION_INSURED_V35_30"
+      "review_tag": "PENSION_INSURED_V35_30",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q56",
@@ -27224,7 +28201,8 @@ window.APP_DATA = {
       "subtopic": "厚生年金被保険者の資格喪失日",
       "attention": "70歳・死亡・当日・翌日",
       "mistake": "資格喪失日を一律翌日とする。",
-      "review_tag": "PENSION_INSURED_V35_31"
+      "review_tag": "PENSION_INSURED_V35_31",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q57",
@@ -27244,7 +28222,8 @@ window.APP_DATA = {
       "subtopic": "退職による資格喪失",
       "attention": "退職日・翌日",
       "mistake": "退職当日と翌日を取り違える。",
-      "review_tag": "PENSION_INSURED_V35_32"
+      "review_tag": "PENSION_INSURED_V35_32",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q58",
@@ -27264,7 +28243,8 @@ window.APP_DATA = {
       "subtopic": "高齢任意加入の初回保険料不納",
       "attention": "初めて納付すべき保険料・督促",
       "mistake": "通常の資格喪失日ルールをそのまま当てはめる。",
-      "review_tag": "PENSION_INSURED_V35_33"
+      "review_tag": "PENSION_INSURED_V35_33",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q59",
@@ -27284,7 +28264,8 @@ window.APP_DATA = {
       "subtopic": "高齢任意加入の保険料滞納",
       "attention": "初回を除く・納期限・前月末日",
       "mistake": "督促期限日や納期限日を資格喪失日とする。",
-      "review_tag": "PENSION_INSURED_V35_34"
+      "review_tag": "PENSION_INSURED_V35_34",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q60",
@@ -27304,7 +28285,8 @@ window.APP_DATA = {
       "subtopic": "月単位の被保険者期間",
       "attention": "1月31日退職・翌日2月1日喪失・5か月",
       "mistake": "退職月を資格喪失月と考えて除外する。",
-      "review_tag": "PENSION_INSURED_V35_35"
+      "review_tag": "PENSION_INSURED_V35_35",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q61",
@@ -27324,7 +28306,8 @@ window.APP_DATA = {
       "subtopic": "同月得喪と他制度資格取得",
       "attention": "同月・退職・第1号被保険者",
       "mistake": "「同月得喪は必ず厚生年金1か月」と単純化する。",
-      "review_tag": "PENSION_INSURED_V35_36"
+      "review_tag": "PENSION_INSURED_V35_36",
+      "original_asset_ids": []
     },
     {
       "id": "PEN1-Q62",
@@ -27344,7 +28327,8 @@ window.APP_DATA = {
       "subtopic": "第3種被保険者期間の特例換算",
       "attention": "昭和61年4月1日・平成3年4月1日・6/5・72月",
       "mistake": "実期間60月のままとする、または4/3換算と混同する。",
-      "review_tag": "PENSION_INSURED_V35_37"
+      "review_tag": "PENSION_INSURED_V35_37",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q01",
@@ -27364,7 +28348,8 @@ window.APP_DATA = {
       "subtopic": "定額保険料額",
       "attention": "令和8年度・17,920円",
       "mistake": "年度や金額を取り違える。",
-      "review_tag": "PENSION_PREMIUM_V36_01"
+      "review_tag": "PENSION_PREMIUM_V36_01",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q02",
@@ -27384,7 +28369,8 @@ window.APP_DATA = {
       "subtopic": "死亡と保険料徴収",
       "attention": "8月31日死亡・8月分",
       "mistake": "死亡月は一律徴収しないと誤る。",
-      "review_tag": "PENSION_PREMIUM_V36_02"
+      "review_tag": "PENSION_PREMIUM_V36_02",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q03",
@@ -27404,7 +28390,8 @@ window.APP_DATA = {
       "subtopic": "付加保険料の対象者",
       "attention": "65歳以上70歳未満・特例任意加入",
       "mistake": "任意加入ならすべて付加保険料を納付できると考える。",
-      "review_tag": "PENSION_PREMIUM_V36_03"
+      "review_tag": "PENSION_PREMIUM_V36_03",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q04",
@@ -27424,7 +28411,8 @@ window.APP_DATA = {
       "subtopic": "付加保険料と被保険者区分",
       "attention": "第2号・第3号",
       "mistake": "第3号だけは納付できると混同する。",
-      "review_tag": "PENSION_PREMIUM_V36_04"
+      "review_tag": "PENSION_PREMIUM_V36_04",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q05",
@@ -27444,7 +28432,8 @@ window.APP_DATA = {
       "subtopic": "保険料の納付方法",
       "attention": "現金納付に限る",
       "mistake": "納付書だけと限定してしまう。",
-      "review_tag": "PENSION_PREMIUM_V36_05"
+      "review_tag": "PENSION_PREMIUM_V36_05",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q06",
@@ -27464,7 +28453,8 @@ window.APP_DATA = {
       "subtopic": "連帯納付義務",
       "attention": "夫・第1号被保険者の妻",
       "mistake": "保険料は本人だけが納めるものと考える。",
-      "review_tag": "PENSION_PREMIUM_V36_06"
+      "review_tag": "PENSION_PREMIUM_V36_06",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q07",
@@ -27484,7 +28474,8 @@ window.APP_DATA = {
       "subtopic": "産前産後期間の保険料免除",
       "attention": "前月・多胎3か月前・翌々月",
       "mistake": "産前産後休業の労働法上の期間と混同する。",
-      "review_tag": "PENSION_PREMIUM_V36_07"
+      "review_tag": "PENSION_PREMIUM_V36_07",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q08",
@@ -27504,7 +28495,8 @@ window.APP_DATA = {
       "subtopic": "納付期限",
       "attention": "当月末日",
       "mistake": "翌月末日を当月末日と取り違える。",
-      "review_tag": "PENSION_PREMIUM_V36_08"
+      "review_tag": "PENSION_PREMIUM_V36_08",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q09",
@@ -27524,7 +28516,8 @@ window.APP_DATA = {
       "subtopic": "前納期間",
       "attention": "3年度分・2年度分",
       "mistake": "年数を1つ多く覚える。",
-      "review_tag": "PENSION_PREMIUM_V36_09"
+      "review_tag": "PENSION_PREMIUM_V36_09",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q10",
@@ -27544,7 +28537,8 @@ window.APP_DATA = {
       "subtopic": "早割",
       "attention": "現金・当月末・60円",
       "mistake": "納付時期だけ見て納付方法を見落とす。",
-      "review_tag": "PENSION_PREMIUM_V36_10"
+      "review_tag": "PENSION_PREMIUM_V36_10",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q11",
@@ -27564,7 +28558,8 @@ window.APP_DATA = {
       "subtopic": "前納保険料の還付",
       "attention": "前納・第3号・未経過期間",
       "mistake": "前納した保険料は一切返らないと考える。",
-      "review_tag": "PENSION_PREMIUM_V36_11"
+      "review_tag": "PENSION_PREMIUM_V36_11",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q12",
@@ -27584,7 +28579,8 @@ window.APP_DATA = {
       "subtopic": "障害基礎年金受給者の法定免除",
       "attention": "前月・既納分を除く",
       "mistake": "免除開始を翌月と誤る。",
-      "review_tag": "PENSION_PREMIUM_V36_12"
+      "review_tag": "PENSION_PREMIUM_V36_12",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q13",
@@ -27604,7 +28600,8 @@ window.APP_DATA = {
       "subtopic": "法定免除の届出",
       "attention": "14日以内・市町村長",
       "mistake": "免除だから届出不要と考える。",
-      "review_tag": "PENSION_PREMIUM_V36_13"
+      "review_tag": "PENSION_PREMIUM_V36_13",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q14",
@@ -27624,7 +28621,8 @@ window.APP_DATA = {
       "subtopic": "法定免除期間の納付申出",
       "attention": "生活扶助・納付申出",
       "mistake": "自動的な免除だから申出できないと誤る。",
-      "review_tag": "PENSION_PREMIUM_V36_14"
+      "review_tag": "PENSION_PREMIUM_V36_14",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q15",
@@ -27644,7 +28642,8 @@ window.APP_DATA = {
       "subtopic": "全額免除の所得基準",
       "attention": "夫婦2人・102万円・137万円",
       "mistake": "基準額の計算式で扶養人数を誤る。",
-      "review_tag": "PENSION_PREMIUM_V36_15"
+      "review_tag": "PENSION_PREMIUM_V36_15",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q16",
@@ -27664,7 +28663,8 @@ window.APP_DATA = {
       "subtopic": "半額免除の所得基準",
       "attention": "168万円・128万円",
       "mistake": "別の免除区分の基準額と混同する。",
-      "review_tag": "PENSION_PREMIUM_V36_16"
+      "review_tag": "PENSION_PREMIUM_V36_16",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q17",
@@ -27684,7 +28684,8 @@ window.APP_DATA = {
       "subtopic": "申請免除の特例",
       "attention": "失業・納付困難",
       "mistake": "所得基準だけで判断してしまう。",
-      "review_tag": "PENSION_PREMIUM_V36_17"
+      "review_tag": "PENSION_PREMIUM_V36_17",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q18",
@@ -27704,7 +28705,8 @@ window.APP_DATA = {
       "subtopic": "学生納付特例の所得要件",
       "attention": "本人・配偶者",
       "mistake": "免除・猶予の所得要件と混同する。",
-      "review_tag": "PENSION_PREMIUM_V36_18"
+      "review_tag": "PENSION_PREMIUM_V36_18",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q19",
@@ -27724,7 +28726,8 @@ window.APP_DATA = {
       "subtopic": "納付猶予の所得要件",
       "attention": "本人・配偶者",
       "mistake": "学生納付特例と同じと考える。",
-      "review_tag": "PENSION_PREMIUM_V36_19"
+      "review_tag": "PENSION_PREMIUM_V36_19",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q20",
@@ -27744,7 +28747,8 @@ window.APP_DATA = {
       "subtopic": "任意加入と免除",
       "attention": "任意加入被保険者・法定免除",
       "mistake": "受給権があれば一律免除と考える。",
-      "review_tag": "PENSION_PREMIUM_V36_20"
+      "review_tag": "PENSION_PREMIUM_V36_20",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q21",
@@ -27764,7 +28768,8 @@ window.APP_DATA = {
       "subtopic": "免除申請の遡及",
       "attention": "令和8年10月15日・令和6年9月",
       "mistake": "2年前と2年1か月前を混同する。",
-      "review_tag": "PENSION_PREMIUM_V36_21"
+      "review_tag": "PENSION_PREMIUM_V36_21",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q22",
@@ -27784,7 +28789,8 @@ window.APP_DATA = {
       "subtopic": "追納と付加保険料",
       "attention": "追納済み月・付加保険料",
       "mistake": "通常納付と同じように付加できると考える。",
-      "review_tag": "PENSION_PREMIUM_V36_22"
+      "review_tag": "PENSION_PREMIUM_V36_22",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q23",
@@ -27804,7 +28810,8 @@ window.APP_DATA = {
       "subtopic": "法定免除期間の追納",
       "attention": "障害基礎年金受給権者・追納",
       "mistake": "免除された理由だけで追納不可と決めつける。",
-      "review_tag": "PENSION_PREMIUM_V36_23"
+      "review_tag": "PENSION_PREMIUM_V36_23",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q24",
@@ -27824,7 +28831,8 @@ window.APP_DATA = {
       "subtopic": "追納額の計算",
       "attention": "各月の保険料額・加算額",
       "mistake": "すべての追納に同じ加算が付くと考える。",
-      "review_tag": "PENSION_PREMIUM_V36_24"
+      "review_tag": "PENSION_PREMIUM_V36_24",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q25",
@@ -27844,7 +28852,8 @@ window.APP_DATA = {
       "subtopic": "追納加算額",
       "attention": "令和6年3月・令和8年5月",
       "mistake": "単に2年以上経過したとみて加算対象とする。",
-      "review_tag": "PENSION_PREMIUM_V36_25"
+      "review_tag": "PENSION_PREMIUM_V36_25",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q26",
@@ -27864,7 +28873,8 @@ window.APP_DATA = {
       "subtopic": "報酬の範囲",
       "attention": "労働の対償・臨時・3か月超",
       "mistake": "名称だけで報酬かどうかを決める。",
-      "review_tag": "PENSION_PREMIUM_V36_26"
+      "review_tag": "PENSION_PREMIUM_V36_26",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q27",
@@ -27884,7 +28894,8 @@ window.APP_DATA = {
       "subtopic": "年4回以上の賞与と報酬",
       "attention": "四半期毎・賞与という名称",
       "mistake": "「賞与」という名前だけで賞与扱いにする。",
-      "review_tag": "PENSION_PREMIUM_V36_27"
+      "review_tag": "PENSION_PREMIUM_V36_27",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q28",
@@ -27904,7 +28915,8 @@ window.APP_DATA = {
       "subtopic": "標準報酬月額の等級",
       "attention": "58,000円・88,000円・32等級",
       "mistake": "古い額や別制度の額と混同する。",
-      "review_tag": "PENSION_PREMIUM_V36_28"
+      "review_tag": "PENSION_PREMIUM_V36_28",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q29",
@@ -27924,7 +28936,8 @@ window.APP_DATA = {
       "subtopic": "最高等級の改定",
       "attention": "3月31日・4月1日",
       "mistake": "数字の比率だけ見て日付を見落とす。",
-      "review_tag": "PENSION_PREMIUM_V36_29"
+      "review_tag": "PENSION_PREMIUM_V36_29",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q30",
@@ -27944,7 +28957,8 @@ window.APP_DATA = {
       "subtopic": "定時決定の対象者",
       "attention": "毎年7月1日・すべて",
       "mistake": "原則対象を例外なしと覚える。",
-      "review_tag": "PENSION_PREMIUM_V36_30"
+      "review_tag": "PENSION_PREMIUM_V36_30",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q31",
@@ -27964,7 +28978,8 @@ window.APP_DATA = {
       "subtopic": "定時決定の有効期間",
       "attention": "8月～翌7月・9月～翌8月",
       "mistake": "1か月ずらして覚える。",
-      "review_tag": "PENSION_PREMIUM_V36_31"
+      "review_tag": "PENSION_PREMIUM_V36_31",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q32",
@@ -27984,7 +28999,8 @@ window.APP_DATA = {
       "subtopic": "資格取得時決定の有効期間",
       "attention": "6月1日～12月31日・翌年8月まで",
       "mistake": "定時決定の9月開始と混同する。",
-      "review_tag": "PENSION_PREMIUM_V36_32"
+      "review_tag": "PENSION_PREMIUM_V36_32",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q33",
@@ -28004,7 +29020,8 @@ window.APP_DATA = {
       "subtopic": "60歳以上の再雇用",
       "attention": "資格喪失・再取得",
       "mistake": "単なる随時改定と考える。",
-      "review_tag": "PENSION_PREMIUM_V36_33"
+      "review_tag": "PENSION_PREMIUM_V36_33",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q34",
@@ -28024,7 +29041,8 @@ window.APP_DATA = {
       "subtopic": "随時改定の基礎日数",
       "attention": "17日未満・除外して平均",
       "mistake": "不足月を除外して計算できると誤る。",
-      "review_tag": "PENSION_PREMIUM_V36_34"
+      "review_tag": "PENSION_PREMIUM_V36_34",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q35",
@@ -28044,7 +29062,8 @@ window.APP_DATA = {
       "subtopic": "育児休業等終了時改定",
       "attention": "3か月・2月",
       "mistake": "3か月平均をそのまま適用開始時期と混同する。",
-      "review_tag": "PENSION_PREMIUM_V36_35"
+      "review_tag": "PENSION_PREMIUM_V36_35",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q36",
@@ -28064,7 +29083,8 @@ window.APP_DATA = {
       "subtopic": "産前産後休業終了時改定",
       "attention": "固定的賃金の変動なし",
       "mistake": "随時改定と同じ要件だと考える。",
-      "review_tag": "PENSION_PREMIUM_V36_36"
+      "review_tag": "PENSION_PREMIUM_V36_36",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q37",
@@ -28084,7 +29104,8 @@ window.APP_DATA = {
       "subtopic": "標準賞与額の上限",
       "attention": "150万円",
       "mistake": "健康保険の年度累計上限と混同する。",
-      "review_tag": "PENSION_PREMIUM_V36_37"
+      "review_tag": "PENSION_PREMIUM_V36_37",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q38",
@@ -28104,7 +29125,8 @@ window.APP_DATA = {
       "subtopic": "健康保険の標準賞与額上限",
       "attention": "250万円・300万円・200万円・573万円",
       "mistake": "各回だけを見て年度累計上限を忘れる。",
-      "review_tag": "PENSION_PREMIUM_V36_38"
+      "review_tag": "PENSION_PREMIUM_V36_38",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q39",
@@ -28124,7 +29146,8 @@ window.APP_DATA = {
       "subtopic": "厚生年金保険料の計算",
       "attention": "標準報酬月額・標準賞与額・保険料率",
       "mistake": "月額だけで計算すると誤る。",
-      "review_tag": "PENSION_PREMIUM_V36_39"
+      "review_tag": "PENSION_PREMIUM_V36_39",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q40",
@@ -28144,7 +29167,8 @@ window.APP_DATA = {
       "subtopic": "厚生年金保険料率",
       "attention": "183.00/1000",
       "mistake": "健康保険料率などと混同する。",
-      "review_tag": "PENSION_PREMIUM_V36_40"
+      "review_tag": "PENSION_PREMIUM_V36_40",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q41",
@@ -28164,7 +29188,8 @@ window.APP_DATA = {
       "subtopic": "月末退職と当月保険料",
       "attention": "月末退職・翌月資格喪失",
       "mistake": "退職日＝資格喪失日と考える。",
-      "review_tag": "PENSION_PREMIUM_V36_41"
+      "review_tag": "PENSION_PREMIUM_V36_41",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q42",
@@ -28184,7 +29209,8 @@ window.APP_DATA = {
       "subtopic": "資格喪失日と賞与保険料",
       "attention": "賞与支給日・資格喪失",
       "mistake": "退職前の労働に対する賞与なら徴収すると考える。",
-      "review_tag": "PENSION_PREMIUM_V36_42"
+      "review_tag": "PENSION_PREMIUM_V36_42",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q43",
@@ -28204,7 +29230,8 @@ window.APP_DATA = {
       "subtopic": "育児休業等期間の保険料免除",
       "attention": "開始月・終了日の翌日の属する月・前月",
       "mistake": "終了日が属する月までと単純化する。",
-      "review_tag": "PENSION_PREMIUM_V36_43"
+      "review_tag": "PENSION_PREMIUM_V36_43",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q44",
@@ -28224,7 +29251,8 @@ window.APP_DATA = {
       "subtopic": "任意単独被保険者の納付期限",
       "attention": "その月の10日",
       "mistake": "一般の納付期限と混同する。",
-      "review_tag": "PENSION_PREMIUM_V36_44"
+      "review_tag": "PENSION_PREMIUM_V36_44",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q45",
@@ -28244,7 +29272,8 @@ window.APP_DATA = {
       "subtopic": "事業主による保険料控除",
       "attention": "前月分・賞与分",
       "mistake": "当月分を自由に控除できると考える。",
-      "review_tag": "PENSION_PREMIUM_V36_45"
+      "review_tag": "PENSION_PREMIUM_V36_45",
+      "original_asset_ids": []
     },
     {
       "id": "PEN2-Q46",
@@ -28264,7 +29293,8 @@ window.APP_DATA = {
       "subtopic": "月末退職時の控除",
       "attention": "5月31日退職・4月分・5月分",
       "mistake": "退職月分は不要と誤る。",
-      "review_tag": "PENSION_PREMIUM_V36_46"
+      "review_tag": "PENSION_PREMIUM_V36_46",
+      "original_asset_ids": []
     },
     {
       "id": "PEN3-Q28",
@@ -28284,7 +29314,8 @@ window.APP_DATA = {
       "subtopic": "裁定主体",
       "attention": "日本年金機構・厚生労働大臣",
       "mistake": "年金事務を行う機関と裁定主体を混同する。",
-      "review_tag": "PENSION_COMMON_V37_01"
+      "review_tag": "PENSION_COMMON_V37_01",
+      "original_asset_ids": []
     },
     {
       "id": "PEN3-Q29",
@@ -28304,7 +29335,8 @@ window.APP_DATA = {
       "subtopic": "支給期間",
       "attention": "生じた月から・前月で終わる",
       "mistake": "開始月と終了月を1か月ずつずらしてしまう。",
-      "review_tag": "PENSION_COMMON_V37_02"
+      "review_tag": "PENSION_COMMON_V37_02",
+      "original_asset_ids": []
     },
     {
       "id": "PEN3-Q30",
@@ -28324,7 +29356,8 @@ window.APP_DATA = {
       "subtopic": "支払期月",
       "attention": "2・4・6・8・10・12月・前月まで",
       "mistake": "支給期間と支払期月を混同する。",
-      "review_tag": "PENSION_COMMON_V37_03"
+      "review_tag": "PENSION_COMMON_V37_03",
+      "original_asset_ids": []
     },
     {
       "id": "PEN3-Q31",
@@ -28344,7 +29377,8 @@ window.APP_DATA = {
       "subtopic": "支払額の端数処理",
       "attention": "1円未満・切り上げ",
       "mistake": "年金給付額の50銭基準と混同する。",
-      "review_tag": "PENSION_COMMON_V37_04"
+      "review_tag": "PENSION_COMMON_V37_04",
+      "original_asset_ids": []
     },
     {
       "id": "PEN3-Q32",
@@ -28364,7 +29398,8 @@ window.APP_DATA = {
       "subtopic": "年金給付額の端数処理",
       "attention": "50円・100円",
       "mistake": "円と銭の単位を見落とす。",
-      "review_tag": "PENSION_COMMON_V37_05"
+      "review_tag": "PENSION_COMMON_V37_05",
+      "original_asset_ids": []
     },
     {
       "id": "PEN3-Q33",
@@ -28384,7 +29419,8 @@ window.APP_DATA = {
       "subtopic": "未支給年金の遺族範囲",
       "attention": "限られる・3親等内の親族",
       "mistake": "列挙された親族だけで完結すると考える。",
-      "review_tag": "PENSION_COMMON_V37_06"
+      "review_tag": "PENSION_COMMON_V37_06",
+      "original_asset_ids": []
     },
     {
       "id": "PEN3-Q34",
@@ -28404,7 +29440,8 @@ window.APP_DATA = {
       "subtopic": "障害基礎年金と遺族厚生年金",
       "attention": "年齢にかかわらず",
       "mistake": "年齢条件65歳以上を落とす。",
-      "review_tag": "PENSION_COMMON_V37_07"
+      "review_tag": "PENSION_COMMON_V37_07",
+      "original_asset_ids": []
     },
     {
       "id": "PEN3-Q35",
@@ -28424,7 +29461,8 @@ window.APP_DATA = {
       "subtopic": "遺族基礎年金と老齢厚生年金",
       "attention": "65歳以上・併給",
       "mistake": "65歳以上なら異なる年金をすべて併給できると考える。",
-      "review_tag": "PENSION_COMMON_V37_08"
+      "review_tag": "PENSION_COMMON_V37_08",
+      "original_asset_ids": []
     },
     {
       "id": "PEN3-Q36",
@@ -28444,7 +29482,8 @@ window.APP_DATA = {
       "subtopic": "障害基礎年金と老齢厚生年金",
       "attention": "65歳以上",
       "mistake": "遺族基礎年金との組合せと混同する。",
-      "review_tag": "PENSION_COMMON_V37_09"
+      "review_tag": "PENSION_COMMON_V37_09",
+      "original_asset_ids": []
     },
     {
       "id": "PEN3-Q37",
@@ -28464,7 +29503,8 @@ window.APP_DATA = {
       "subtopic": "寡婦年金と遺族厚生年金",
       "attention": "併給することができる",
       "mistake": "死亡を支給事由とする給付同士なら併給できると考える。",
-      "review_tag": "PENSION_COMMON_V37_10"
+      "review_tag": "PENSION_COMMON_V37_10",
+      "original_asset_ids": []
     },
     {
       "id": "PEN3-Q38",
@@ -28484,7 +29524,8 @@ window.APP_DATA = {
       "subtopic": "受給権の保護・担保",
       "attention": "担保に供することができる",
       "mistake": "財産的価値があるため担保可能と考える。",
-      "review_tag": "PENSION_COMMON_V37_11"
+      "review_tag": "PENSION_COMMON_V37_11",
+      "original_asset_ids": []
     },
     {
       "id": "PEN3-Q39",
@@ -28504,7 +29545,8 @@ window.APP_DATA = {
       "subtopic": "受給権の保護・譲渡差押え",
       "attention": "譲り渡し・差し押える",
       "mistake": "老齢給付の国税滞納処分の例外を一般化する。",
-      "review_tag": "PENSION_COMMON_V37_12"
+      "review_tag": "PENSION_COMMON_V37_12",
+      "original_asset_ids": []
     },
     {
       "id": "PEN3-Q40",
@@ -28524,7 +29566,8 @@ window.APP_DATA = {
       "subtopic": "国税滞納処分による差押え",
       "attention": "老齢厚生・老齢基礎・付加年金・国税滞納処分",
       "mistake": "年金受給権は例外なく差押え不可と覚える。",
-      "review_tag": "PENSION_COMMON_V37_13"
+      "review_tag": "PENSION_COMMON_V37_13",
+      "original_asset_ids": []
     },
     {
       "id": "PEN3-Q41",
@@ -28544,7 +29587,8 @@ window.APP_DATA = {
       "subtopic": "公課の禁止の例外",
       "attention": "老齢厚生・老齢基礎・付加年金・公課",
       "mistake": "公課禁止をすべての年金に一律適用する。",
-      "review_tag": "PENSION_COMMON_V37_14"
+      "review_tag": "PENSION_COMMON_V37_14",
+      "original_asset_ids": []
     },
     {
       "id": "PEN3-Q42",
@@ -28564,7 +29608,8 @@ window.APP_DATA = {
       "subtopic": "65歳到達時の請求",
       "attention": "職権により裁定・提出する必要はない",
       "mistake": "特別支給を受給中なら自動的に本来支給へ移ると考える。",
-      "review_tag": "PENSION_OLDAGE_CLAIM_V37_01"
+      "review_tag": "PENSION_OLDAGE_CLAIM_V37_01",
+      "original_asset_ids": []
     },
     {
       "id": "PEN4-V38-Q01",
@@ -28584,7 +29629,8 @@ window.APP_DATA = {
       "subtopic": "受給資格期間",
       "attention": "3年・5年・2年・65歳",
       "mistake": "学生納付特例や合算対象期間の位置づけを混同する。",
-      "review_tag": "PENSION_OLDAGE_BASIC_V38_01"
+      "review_tag": "PENSION_OLDAGE_BASIC_V38_01",
+      "original_asset_ids": []
     },
     {
       "id": "PEN4-V38-Q02",
@@ -28604,7 +29650,8 @@ window.APP_DATA = {
       "subtopic": "20歳前・60歳後の厚生年金期間",
       "attention": "20歳前・60歳以後",
       "mistake": "保険料納付済期間と全部同じ扱いと考える。",
-      "review_tag": "PENSION_OLDAGE_BASIC_V38_02"
+      "review_tag": "PENSION_OLDAGE_BASIC_V38_02",
+      "original_asset_ids": []
     },
     {
       "id": "PEN4-V38-Q03",
@@ -28624,7 +29671,8 @@ window.APP_DATA = {
       "subtopic": "第2号期間の扱い",
       "attention": "昭和36年4月1日～昭和61年3月31日・20歳・60歳",
       "mistake": "厚生年金期間なら全部納付済期間と考える。",
-      "review_tag": "PENSION_OLDAGE_BASIC_V38_03"
+      "review_tag": "PENSION_OLDAGE_BASIC_V38_03",
+      "original_asset_ids": []
     },
     {
       "id": "PEN4-V38-Q04",
@@ -28644,7 +29692,8 @@ window.APP_DATA = {
       "subtopic": "学生の任意加入しなかった期間",
       "attention": "昭和36年4月1日・平成3年3月31日",
       "mistake": "学生の未加入期間を一律に合算対象と考える。",
-      "review_tag": "PENSION_OLDAGE_BASIC_V38_04"
+      "review_tag": "PENSION_OLDAGE_BASIC_V38_04",
+      "original_asset_ids": []
     },
     {
       "id": "PEN4-V38-Q05",
@@ -28664,7 +29713,8 @@ window.APP_DATA = {
       "subtopic": "配偶者の任意加入未納期間",
       "attention": "昭和36年4月1日～昭和61年3月31日・配偶者",
       "mistake": "未納期間はすべて受給資格期間から除外されると考える。",
-      "review_tag": "PENSION_OLDAGE_BASIC_V38_05"
+      "review_tag": "PENSION_OLDAGE_BASIC_V38_05",
+      "original_asset_ids": []
     },
     {
       "id": "PEN4-V38-Q06",
@@ -28684,7 +29734,8 @@ window.APP_DATA = {
       "subtopic": "国会議員であった期間",
       "attention": "国会議員・60歳未満",
       "mistake": "65歳未満と読み替えるひっかけ。",
-      "review_tag": "PENSION_OLDAGE_BASIC_V38_06"
+      "review_tag": "PENSION_OLDAGE_BASIC_V38_06",
+      "original_asset_ids": []
     },
     {
       "id": "PEN4-V38-Q07",
@@ -28704,7 +29755,8 @@ window.APP_DATA = {
       "subtopic": "海外居住の日本国籍者",
       "attention": "日本国内に住所なし・日本国籍",
       "mistake": "20歳以上60歳未満に機械的に限定する。",
-      "review_tag": "PENSION_OLDAGE_BASIC_V38_07"
+      "review_tag": "PENSION_OLDAGE_BASIC_V38_07",
+      "original_asset_ids": []
     },
     {
       "id": "PEN4-V38-Q08",
@@ -28724,7 +29776,8 @@ window.APP_DATA = {
       "subtopic": "日本国籍取得前の一定期間",
       "attention": "日本国籍取得・一定期間",
       "mistake": "外国籍期間は一律対象外と考える。",
-      "review_tag": "PENSION_OLDAGE_BASIC_V38_08"
+      "review_tag": "PENSION_OLDAGE_BASIC_V38_08",
+      "original_asset_ids": []
     },
     {
       "id": "PEN4-V38-Q09",
@@ -28744,7 +29797,8 @@ window.APP_DATA = {
       "subtopic": "学生納付特例・納付猶予の年金額反映",
       "attention": "学生納付特例・納付猶予・追納",
       "mistake": "資格期間に入る＝年金額にも入ると考える。",
-      "review_tag": "PENSION_OLDAGE_BASIC_V38_09"
+      "review_tag": "PENSION_OLDAGE_BASIC_V38_09",
+      "original_asset_ids": []
     },
     {
       "id": "PEN4-V38-Q10",
@@ -28764,7 +29818,8 @@ window.APP_DATA = {
       "subtopic": "第3号被保険者期間の年金額反映",
       "attention": "第3号被保険者・5分の6",
       "mistake": "旧制度の換算率と混同する。",
-      "review_tag": "PENSION_OLDAGE_BASIC_V38_10"
+      "review_tag": "PENSION_OLDAGE_BASIC_V38_10",
+      "original_asset_ids": []
     },
     {
       "id": "PEN4-V38-Q11",
@@ -28784,7 +29839,8 @@ window.APP_DATA = {
       "subtopic": "半額免除期間の反映割合",
       "attention": "平成21年4月以後・半額免除・4分の3",
       "mistake": "免除割合と反映割合を同じに考える。",
-      "review_tag": "PENSION_OLDAGE_BASIC_V38_11"
+      "review_tag": "PENSION_OLDAGE_BASIC_V38_11",
+      "original_asset_ids": []
     },
     {
       "id": "PEN4-V38-Q12",
@@ -28804,7 +29860,8 @@ window.APP_DATA = {
       "subtopic": "振替加算の生年月日要件",
       "attention": "大正15年4月2日・昭和41年4月1日",
       "mistake": "昭和40年4月1日と1年ずらす。",
-      "review_tag": "PENSION_OLDAGE_BASIC_V38_12"
+      "review_tag": "PENSION_OLDAGE_BASIC_V38_12",
+      "original_asset_ids": []
     },
     {
       "id": "PEN4-V38-Q13",
@@ -28824,7 +29881,8 @@ window.APP_DATA = {
       "subtopic": "振替加算額の算定",
       "attention": "243,800円・生年月日",
       "mistake": "加給年金額の金額と混同する。",
-      "review_tag": "PENSION_OLDAGE_BASIC_V38_13"
+      "review_tag": "PENSION_OLDAGE_BASIC_V38_13",
+      "original_asset_ids": []
     },
     {
       "id": "PEN4-V38-Q14",
@@ -28844,7 +29902,8 @@ window.APP_DATA = {
       "subtopic": "振替加算の不支給",
       "attention": "240月以上・振替加算",
       "mistake": "配偶者側の加給との関係だけで判断する。",
-      "review_tag": "PENSION_OLDAGE_BASIC_V38_14"
+      "review_tag": "PENSION_OLDAGE_BASIC_V38_14",
+      "original_asset_ids": []
     },
     {
       "id": "PEN4-V38-Q15",
@@ -28864,7 +29923,8 @@ window.APP_DATA = {
       "subtopic": "振替加算の支給停止",
       "attention": "障害基礎年金・支給停止",
       "mistake": "振替加算は常に継続すると考える。",
-      "review_tag": "PENSION_OLDAGE_BASIC_V38_15"
+      "review_tag": "PENSION_OLDAGE_BASIC_V38_15",
+      "original_asset_ids": []
     },
     {
       "id": "PEN4-V38-Q16",
@@ -28884,7 +29944,8 @@ window.APP_DATA = {
       "subtopic": "振替加算の開始時期",
       "attention": "支給繰上げ・65歳・翌月",
       "mistake": "本体と一緒に振替加算も繰上げられると考える。",
-      "review_tag": "PENSION_OLDAGE_BASIC_V38_16"
+      "review_tag": "PENSION_OLDAGE_BASIC_V38_16",
+      "original_asset_ids": []
     },
     {
       "id": "PEN4-V38-Q17",
@@ -28904,7 +29965,8 @@ window.APP_DATA = {
       "subtopic": "振替加算と繰下げ",
       "attention": "支給繰下げ・申出月の翌月",
       "mistake": "65歳から当然に加算されると考える。",
-      "review_tag": "PENSION_OLDAGE_BASIC_V38_17"
+      "review_tag": "PENSION_OLDAGE_BASIC_V38_17",
+      "original_asset_ids": []
     },
     {
       "id": "PEN4-V38-Q18",
@@ -28924,7 +29986,8 @@ window.APP_DATA = {
       "subtopic": "付加年金額",
       "attention": "400円・付加保険料納付済期間",
       "mistake": "付加保険料月額と付加年金単価を混同する。",
-      "review_tag": "PENSION_OLDAGE_BASIC_V38_18"
+      "review_tag": "PENSION_OLDAGE_BASIC_V38_18",
+      "original_asset_ids": []
     },
     {
       "id": "PEN4-V38-Q19",
@@ -28944,7 +30007,8 @@ window.APP_DATA = {
       "subtopic": "付加年金の支給対象",
       "attention": "老齢基礎年金・障害基礎年金",
       "mistake": "基礎年金なら種類を問わず付加されると考える。",
-      "review_tag": "PENSION_OLDAGE_BASIC_V38_19"
+      "review_tag": "PENSION_OLDAGE_BASIC_V38_19",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-V38-Q01",
@@ -28964,7 +30028,8 @@ window.APP_DATA = {
       "subtopic": "本来支給の支給要件",
       "attention": "65歳・1年以上",
       "mistake": "特別支給の1年要件と混同する。",
-      "review_tag": "PENSION_OLDAGE_EMP_V38_01"
+      "review_tag": "PENSION_OLDAGE_EMP_V38_01",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-V38-Q02",
@@ -28984,7 +30049,8 @@ window.APP_DATA = {
       "subtopic": "特別支給の被保険者期間要件",
       "attention": "第1号2か月・第2号10か月・61歳",
       "mistake": "異なる種別の期間を単純合算する。",
-      "review_tag": "PENSION_OLDAGE_EMP_V38_02"
+      "review_tag": "PENSION_OLDAGE_EMP_V38_02",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-V38-Q03",
@@ -29004,7 +30070,8 @@ window.APP_DATA = {
       "subtopic": "報酬比例部分の給付乗率",
       "attention": "平成15年4月以後・7.125・5.481",
       "mistake": "平成15年3月以前の乗率と混同する。",
-      "review_tag": "PENSION_OLDAGE_EMP_V38_03"
+      "review_tag": "PENSION_OLDAGE_EMP_V38_03",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-V38-Q04",
@@ -29024,7 +30091,8 @@ window.APP_DATA = {
       "subtopic": "平均標準報酬月額・平均標準報酬額",
       "attention": "標準報酬月額・標準賞与額",
       "mistake": "平均標準報酬月額と平均標準報酬額を混同する。",
-      "review_tag": "PENSION_OLDAGE_EMP_V38_04"
+      "review_tag": "PENSION_OLDAGE_EMP_V38_04",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-V38-Q05",
@@ -29044,7 +30112,8 @@ window.APP_DATA = {
       "subtopic": "在職定時改定",
       "attention": "9月1日・翌月",
       "mistake": "基準月から改定すると考える。",
-      "review_tag": "PENSION_OLDAGE_EMP_V38_05"
+      "review_tag": "PENSION_OLDAGE_EMP_V38_05",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-V38-Q06",
@@ -29064,7 +30133,8 @@ window.APP_DATA = {
       "subtopic": "退職改定",
       "attention": "被保険者資格喪失・1か月",
       "mistake": "退職日の翌月とだけ覚える。",
-      "review_tag": "PENSION_OLDAGE_EMP_V38_06"
+      "review_tag": "PENSION_OLDAGE_EMP_V38_06",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-V38-Q07",
@@ -29084,7 +30154,8 @@ window.APP_DATA = {
       "subtopic": "退職改定と再就職",
       "attention": "4月30日退職・5月",
       "mistake": "再就職の有無だけで退職改定を否定する。",
-      "review_tag": "PENSION_OLDAGE_EMP_V38_07"
+      "review_tag": "PENSION_OLDAGE_EMP_V38_07",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-V38-Q08",
@@ -29104,7 +30175,8 @@ window.APP_DATA = {
       "subtopic": "経過的加算",
       "attention": "20歳以上60歳未満・経過的加算",
       "mistake": "定額部分全額がそのまま加算されると考える。",
-      "review_tag": "PENSION_OLDAGE_EMP_V38_08"
+      "review_tag": "PENSION_OLDAGE_EMP_V38_08",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-V38-Q09",
@@ -29124,7 +30196,8 @@ window.APP_DATA = {
       "subtopic": "経過的加算の月数上限",
       "attention": "420月～480月",
       "mistake": "一律480月と考える。",
-      "review_tag": "PENSION_OLDAGE_EMP_V38_09"
+      "review_tag": "PENSION_OLDAGE_EMP_V38_09",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-V38-Q10",
@@ -29144,7 +30217,8 @@ window.APP_DATA = {
       "subtopic": "加給年金額・子",
       "attention": "1人目・2人目・3人目",
       "mistake": "すべて同額と考える。",
-      "review_tag": "PENSION_OLDAGE_EMP_V38_10"
+      "review_tag": "PENSION_OLDAGE_EMP_V38_10",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-V38-Q11",
@@ -29164,7 +30238,8 @@ window.APP_DATA = {
       "subtopic": "加給年金額の被保険者期間要件",
       "attention": "240月・配偶者・子",
       "mistake": "後から240月に達した場合を見落とす。",
-      "review_tag": "PENSION_OLDAGE_EMP_V38_11"
+      "review_tag": "PENSION_OLDAGE_EMP_V38_11",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-V38-Q12",
@@ -29184,7 +30259,8 @@ window.APP_DATA = {
       "subtopic": "加給年金額の特別加算",
       "attention": "子・特別加算",
       "mistake": "配偶者加給の特別加算を子にも適用する。",
-      "review_tag": "PENSION_OLDAGE_EMP_V38_12"
+      "review_tag": "PENSION_OLDAGE_EMP_V38_12",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-V38-Q13",
@@ -29204,7 +30280,8 @@ window.APP_DATA = {
       "subtopic": "配偶者の老齢年金と加給停止",
       "attention": "繰上げ支給・老齢基礎年金",
       "mistake": "繰上げなら加給に影響しないと考える。",
-      "review_tag": "PENSION_OLDAGE_EMP_V38_13"
+      "review_tag": "PENSION_OLDAGE_EMP_V38_13",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-V38-Q14",
@@ -29224,7 +30301,8 @@ window.APP_DATA = {
       "subtopic": "配偶者の障害年金と加給停止",
       "attention": "障害厚生年金・支給停止",
       "mistake": "老齢給付だけが停止要因と考える。",
-      "review_tag": "PENSION_OLDAGE_EMP_V38_14"
+      "review_tag": "PENSION_OLDAGE_EMP_V38_14",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-V38-Q15",
@@ -29244,7 +30322,8 @@ window.APP_DATA = {
       "subtopic": "加給年金額と2以上の種別",
       "attention": "240月・2以上の種別",
       "mistake": "種別ごとに240月必要と考える。",
-      "review_tag": "PENSION_OLDAGE_EMP_V38_15"
+      "review_tag": "PENSION_OLDAGE_EMP_V38_15",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-V38-Q16",
@@ -29264,7 +30343,8 @@ window.APP_DATA = {
       "subtopic": "特別支給の支給要件",
       "attention": "特別支給・1年以上",
       "mistake": "本来支給の1月要件と混同する。",
-      "review_tag": "PENSION_OLDAGE_EMP_V38_16"
+      "review_tag": "PENSION_OLDAGE_EMP_V38_16",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-V38-Q17",
@@ -29284,7 +30364,8 @@ window.APP_DATA = {
       "subtopic": "特別支給の開始年齢・支給内容",
       "attention": "昭和36年4月1日生まれ男性・64歳",
       "mistake": "定額部分も支給されると考える。",
-      "review_tag": "PENSION_OLDAGE_EMP_V38_17"
+      "review_tag": "PENSION_OLDAGE_EMP_V38_17",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-V38-Q18",
@@ -29304,7 +30385,8 @@ window.APP_DATA = {
       "subtopic": "障害者特例",
       "attention": "障害等級3級・障害者特例",
       "mistake": "障害基礎年金の受給権が必要と考える。",
-      "review_tag": "PENSION_OLDAGE_EMP_V38_18"
+      "review_tag": "PENSION_OLDAGE_EMP_V38_18",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-V38-Q19",
@@ -29324,7 +30406,8 @@ window.APP_DATA = {
       "subtopic": "長期加入者特例",
       "attention": "44年以上・長期加入者特例",
       "mistake": "年齢だけで判定する。",
-      "review_tag": "PENSION_OLDAGE_EMP_V38_19"
+      "review_tag": "PENSION_OLDAGE_EMP_V38_19",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-V38-Q20",
@@ -29344,7 +30427,8 @@ window.APP_DATA = {
       "subtopic": "在職老齢年金・支給停止基準",
       "attention": "65万円以下",
       "mistake": "基本月額だけで判定する。",
-      "review_tag": "PENSION_OLDAGE_EMP_V38_20"
+      "review_tag": "PENSION_OLDAGE_EMP_V38_20",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-V38-Q21",
@@ -29364,7 +30448,8 @@ window.APP_DATA = {
       "subtopic": "在職老齢年金の計算",
       "attention": "46万円・20万円・65万円",
       "mistake": "超過額の計算を誤る。",
-      "review_tag": "PENSION_OLDAGE_EMP_V38_21"
+      "review_tag": "PENSION_OLDAGE_EMP_V38_21",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-V38-Q22",
@@ -29384,7 +30469,8 @@ window.APP_DATA = {
       "subtopic": "在職老齢年金の調整開始月",
       "attention": "資格取得月・翌月",
       "mistake": "資格取得月から即調整と考える。",
-      "review_tag": "PENSION_OLDAGE_EMP_V38_22"
+      "review_tag": "PENSION_OLDAGE_EMP_V38_22",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-V38-Q23",
@@ -29404,7 +30490,8 @@ window.APP_DATA = {
       "subtopic": "総報酬月額相当額",
       "attention": "標準報酬月額・標準賞与額",
       "mistake": "賞与を含めない。",
-      "review_tag": "PENSION_OLDAGE_EMP_V38_23"
+      "review_tag": "PENSION_OLDAGE_EMP_V38_23",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-V38-Q24",
@@ -29424,7 +30511,8 @@ window.APP_DATA = {
       "subtopic": "70歳以上の在職老齢年金",
       "attention": "70歳以上・標準報酬月額相当額",
       "mistake": "70歳以上は在職老齢年金の対象外と考える。",
-      "review_tag": "PENSION_OLDAGE_EMP_V38_24"
+      "review_tag": "PENSION_OLDAGE_EMP_V38_24",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-V38-Q25",
@@ -29444,7 +30532,8 @@ window.APP_DATA = {
       "subtopic": "退職月の在職老齢年金調整",
       "attention": "月末退職・翌月資格喪失",
       "mistake": "退職月も当然に停止と考える。",
-      "review_tag": "PENSION_OLDAGE_EMP_V38_25"
+      "review_tag": "PENSION_OLDAGE_EMP_V38_25",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-V38-Q26",
@@ -29464,7 +30553,8 @@ window.APP_DATA = {
       "subtopic": "在職老齢年金の停止対象",
       "attention": "全額停止・経過的加算・老齢基礎年金",
       "mistake": "関連する給付も全部止まると考える。",
-      "review_tag": "PENSION_OLDAGE_EMP_V38_26"
+      "review_tag": "PENSION_OLDAGE_EMP_V38_26",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-V38-Q27",
@@ -29484,7 +30574,8 @@ window.APP_DATA = {
       "subtopic": "在職老齢年金の計算",
       "attention": "55万円・16万円・65万円",
       "mistake": "基準額との差を取り違える。",
-      "review_tag": "PENSION_OLDAGE_EMP_V38_27"
+      "review_tag": "PENSION_OLDAGE_EMP_V38_27",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-V38-Q28",
@@ -29504,7 +30595,8 @@ window.APP_DATA = {
       "subtopic": "基本手当との調整対象",
       "attention": "障害基礎年金・求職申込み",
       "mistake": "雇用保険と年金はすべて調整されると考える。",
-      "review_tag": "PENSION_OLDAGE_EMP_V38_28"
+      "review_tag": "PENSION_OLDAGE_EMP_V38_28",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-V38-Q29",
@@ -29524,7 +30616,8 @@ window.APP_DATA = {
       "subtopic": "基本手当との調整開始",
       "attention": "受給資格・求職申込み",
       "mistake": "受給資格があるだけで停止と考える。",
-      "review_tag": "PENSION_OLDAGE_EMP_V38_29"
+      "review_tag": "PENSION_OLDAGE_EMP_V38_29",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-V38-Q30",
@@ -29544,7 +30637,8 @@ window.APP_DATA = {
       "subtopic": "基本手当との事後精算",
       "attention": "5日・100日・1か月分",
       "mistake": "待期期間を無視する。",
-      "review_tag": "PENSION_OLDAGE_EMP_V38_30"
+      "review_tag": "PENSION_OLDAGE_EMP_V38_30",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-V38-Q31",
@@ -29564,7 +30658,8 @@ window.APP_DATA = {
       "subtopic": "高年齢雇用継続基本給付金",
       "attention": "みなし賃金日額×30・75％",
       "mistake": "在職老齢年金の基準額と混同する。",
-      "review_tag": "PENSION_OLDAGE_EMP_V38_31"
+      "review_tag": "PENSION_OLDAGE_EMP_V38_31",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-V38-Q32",
@@ -29584,7 +30679,8 @@ window.APP_DATA = {
       "subtopic": "高年齢雇用継続基本給付金の算定基礎期間",
       "attention": "算定基礎期間5年",
       "mistake": "60歳時点で5年未満なら永久に対象外と考える。",
-      "review_tag": "PENSION_OLDAGE_EMP_V38_32"
+      "review_tag": "PENSION_OLDAGE_EMP_V38_32",
+      "original_asset_ids": []
     },
     {
       "id": "PEN5-V38-Q33",
@@ -29604,7 +30700,8 @@ window.APP_DATA = {
       "subtopic": "高年齢雇用継続給付との調整額",
       "attention": "21万円・42万円・8,800円",
       "mistake": "計算基礎となる額を取り違える。",
-      "review_tag": "PENSION_OLDAGE_EMP_V38_33"
+      "review_tag": "PENSION_OLDAGE_EMP_V38_33",
+      "original_asset_ids": []
     },
     {
       "id": "PEN6-V38-UP-Q01",
@@ -29624,7 +30721,8 @@ window.APP_DATA = {
       "subtopic": "任意加入被保険者と繰上げ",
       "attention": "60歳以上65歳未満・任意加入",
       "mistake": "年齢だけで繰上げ可と判断する。",
-      "review_tag": "PENSION_DEFER_ADVANCE_V38_01"
+      "review_tag": "PENSION_DEFER_ADVANCE_V38_01",
+      "original_asset_ids": []
     },
     {
       "id": "PEN6-V38-UP-Q02",
@@ -29644,7 +30742,8 @@ window.APP_DATA = {
       "subtopic": "基礎・厚生の繰上げ同時請求",
       "attention": "老齢基礎年金・老齢厚生年金",
       "mistake": "制度ごとの請求要件を一律に扱う。",
-      "review_tag": "PENSION_DEFER_ADVANCE_V38_02"
+      "review_tag": "PENSION_DEFER_ADVANCE_V38_02",
+      "original_asset_ids": []
     },
     {
       "id": "PEN6-V38-UP-Q03",
@@ -29664,7 +30763,8 @@ window.APP_DATA = {
       "subtopic": "特別支給対象者と繰上げ",
       "attention": "昭和34年9月15日・400月・65歳前",
       "mistake": "65歳前ならいつでも可と考える。",
-      "review_tag": "PENSION_DEFER_ADVANCE_V38_03"
+      "review_tag": "PENSION_DEFER_ADVANCE_V38_03",
+      "original_asset_ids": []
     },
     {
       "id": "PEN6-V38-UP-Q04",
@@ -29684,7 +30784,8 @@ window.APP_DATA = {
       "subtopic": "繰上げ後の寡婦年金",
       "attention": "繰上げ支給・寡婦年金",
       "mistake": "繰上げが他給付に影響しないと考える。",
-      "review_tag": "PENSION_DEFER_ADVANCE_V38_04"
+      "review_tag": "PENSION_DEFER_ADVANCE_V38_04",
+      "original_asset_ids": []
     },
     {
       "id": "PEN6-V38-UP-Q05",
@@ -29704,7 +30805,8 @@ window.APP_DATA = {
       "subtopic": "繰上げ後の障害給付等",
       "attention": "障害補償年金・請求",
       "mistake": "老齢年金繰上げと他制度は無関係と考える。",
-      "review_tag": "PENSION_DEFER_ADVANCE_V38_05"
+      "review_tag": "PENSION_DEFER_ADVANCE_V38_05",
+      "original_asset_ids": []
     },
     {
       "id": "PEN6-V38-DOWN-Q01",
@@ -29724,7 +30826,8 @@ window.APP_DATA = {
       "subtopic": "75歳以後の繰下げ申出",
       "attention": "76歳申出・75歳・84％",
       "mistake": "申出年齢まで無制限に増額すると考える。",
-      "review_tag": "PENSION_DEFER_DELAY_V38_01"
+      "review_tag": "PENSION_DEFER_DELAY_V38_01",
+      "original_asset_ids": []
     },
     {
       "id": "PEN6-V38-DOWN-Q02",
@@ -29744,7 +30847,8 @@ window.APP_DATA = {
       "subtopic": "繰下げ申出の制限",
       "attention": "65歳・障害基礎年金受給権",
       "mistake": "後に障害年金が停止していれば繰下げ可能と考える。",
-      "review_tag": "PENSION_DEFER_DELAY_V38_02"
+      "review_tag": "PENSION_DEFER_DELAY_V38_02",
+      "original_asset_ids": []
     },
     {
       "id": "PEN6-V38-DOWN-Q03",
@@ -29764,7 +30868,8 @@ window.APP_DATA = {
       "subtopic": "加給年金額と繰下げ",
       "attention": "配偶者・加給年金額・繰下げ増額",
       "mistake": "本体に付随する額も同率で増額すると考える。",
-      "review_tag": "PENSION_DEFER_DELAY_V38_03"
+      "review_tag": "PENSION_DEFER_DELAY_V38_03",
+      "original_asset_ids": []
     },
     {
       "id": "STAT1-Q01",
@@ -29786,7 +30891,8 @@ window.APP_DATA = {
       "subtopic": "量的データ",
       "attention": "身長・数値",
       "mistake": "カテゴリを数値化できることと量的データであることを混同する。",
-      "review_tag": "STAT_DATA_V39_01"
+      "review_tag": "STAT_DATA_V39_01",
+      "original_asset_ids": []
     },
     {
       "id": "STAT1-Q02",
@@ -29806,7 +30912,8 @@ window.APP_DATA = {
       "subtopic": "数字で表された質的データ",
       "attention": "月・数字",
       "mistake": "数字であることだけを見て量的変数と判断する。",
-      "review_tag": "STAT_DATA_V39_02"
+      "review_tag": "STAT_DATA_V39_02",
+      "original_asset_ids": []
     },
     {
       "id": "STAT1-Q03",
@@ -29833,7 +30940,8 @@ window.APP_DATA = {
       "subtopic": "量的変数と質的変数",
       "attention": "出席番号・5段階評価",
       "mistake": "数字で表される項目をすべて量的と考える。",
-      "review_tag": "STAT_DATA_V39_03"
+      "review_tag": "STAT_DATA_V39_03",
+      "original_asset_ids": []
     },
     {
       "id": "STAT1-Q04",
@@ -29855,7 +30963,11 @@ window.APP_DATA = {
       "subtopic": "名義尺度",
       "attention": "区別・名前",
       "mistake": "1、2という数字に大小関係があると考える。",
-      "review_tag": "STAT_SCALE_V39_01"
+      "review_tag": "STAT_SCALE_V39_01",
+      "original_asset_ids": [
+        "PDFORIG_STAT3_010",
+        "PDFORIG_STAT3_016"
+      ]
     },
     {
       "id": "STAT1-Q05",
@@ -29877,7 +30989,11 @@ window.APP_DATA = {
       "subtopic": "順序尺度",
       "attention": "優・良・可",
       "mistake": "数字が付いているので間隔尺度と考える。",
-      "review_tag": "STAT_SCALE_V39_02"
+      "review_tag": "STAT_SCALE_V39_02",
+      "original_asset_ids": [
+        "PDFORIG_STAT3_010",
+        "PDFORIG_STAT3_016"
+      ]
     },
     {
       "id": "STAT1-Q06",
@@ -29899,7 +31015,11 @@ window.APP_DATA = {
       "subtopic": "間隔尺度",
       "attention": "気温・0",
       "mistake": "比率にも意味があると考える。",
-      "review_tag": "STAT_SCALE_V39_03"
+      "review_tag": "STAT_SCALE_V39_03",
+      "original_asset_ids": [
+        "PDFORIG_STAT3_010",
+        "PDFORIG_STAT3_016"
+      ]
     },
     {
       "id": "STAT1-Q07",
@@ -29921,7 +31041,11 @@ window.APP_DATA = {
       "subtopic": "比例尺度",
       "attention": "比率・0",
       "mistake": "間隔尺度との違いを0の意味で確認しない。",
-      "review_tag": "STAT_SCALE_V39_04"
+      "review_tag": "STAT_SCALE_V39_04",
+      "original_asset_ids": [
+        "PDFORIG_STAT3_010",
+        "PDFORIG_STAT3_016"
+      ]
     },
     {
       "id": "STAT1-Q08",
@@ -29938,7 +31062,8 @@ window.APP_DATA = {
       "subtopic": "階級",
       "attention": "以上・未満",
       "mistake": "度数と混同する。",
-      "review_tag": "STAT_FREQ_V39_01"
+      "review_tag": "STAT_FREQ_V39_01",
+      "original_asset_ids": []
     },
     {
       "id": "STAT1-Q09",
@@ -29955,7 +31080,8 @@ window.APP_DATA = {
       "subtopic": "度数",
       "attention": "個数",
       "mistake": "割合を表す相対度数と混同する。",
-      "review_tag": "STAT_FREQ_V39_02"
+      "review_tag": "STAT_FREQ_V39_02",
+      "original_asset_ids": []
     },
     {
       "id": "STAT1-Q10",
@@ -29972,7 +31098,8 @@ window.APP_DATA = {
       "subtopic": "相対度数の計算",
       "attention": "2÷73",
       "mistake": "73÷2と逆にする。",
-      "review_tag": "STAT_REL_FREQ_V39_01"
+      "review_tag": "STAT_REL_FREQ_V39_01",
+      "original_asset_ids": []
     },
     {
       "id": "STAT1-Q11",
@@ -29992,7 +31119,8 @@ window.APP_DATA = {
       "subtopic": "相対度数の合計",
       "attention": "合計・1",
       "mistake": "度数の合計と混同する。",
-      "review_tag": "STAT_REL_FREQ_V39_02"
+      "review_tag": "STAT_REL_FREQ_V39_02",
+      "original_asset_ids": []
     },
     {
       "id": "STAT1-Q12",
@@ -30009,7 +31137,8 @@ window.APP_DATA = {
       "subtopic": "相対度数表の空欄",
       "attention": "合計100%",
       "mistake": "既知の値を足し忘れる。",
-      "review_tag": "STAT_REL_FREQ_V39_03"
+      "review_tag": "STAT_REL_FREQ_V39_03",
+      "original_asset_ids": []
     },
     {
       "id": "STAT1-Q13",
@@ -30026,7 +31155,8 @@ window.APP_DATA = {
       "subtopic": "ヒストグラム",
       "attention": "階級・度数",
       "mistake": "度数分布表そのものと混同する。",
-      "review_tag": "STAT_HIST_V39_01"
+      "review_tag": "STAT_HIST_V39_01",
+      "original_asset_ids": []
     },
     {
       "id": "STAT1-Q14",
@@ -30048,7 +31178,8 @@ window.APP_DATA = {
       "subtopic": "右に裾が長い分布",
       "attention": "小さい階級に多い",
       "mistake": "左側にデータが多いので『左に裾が長い』と誤る。",
-      "review_tag": "STAT_HIST_V39_02"
+      "review_tag": "STAT_HIST_V39_02",
+      "original_asset_ids": []
     },
     {
       "id": "STAT1-Q15",
@@ -30070,7 +31201,8 @@ window.APP_DATA = {
       "subtopic": "左右対称の分布",
       "attention": "左右対称・山型",
       "mistake": "最多階級の位置だけで判定する。",
-      "review_tag": "STAT_HIST_V39_03"
+      "review_tag": "STAT_HIST_V39_03",
+      "original_asset_ids": []
     },
     {
       "id": "STAT1-Q16",
@@ -30090,7 +31222,8 @@ window.APP_DATA = {
       "subtopic": "複数の峰",
       "attention": "峰が2つ以上",
       "mistake": "分布パターンは必ず単峰と考える。",
-      "review_tag": "STAT_HIST_V39_04"
+      "review_tag": "STAT_HIST_V39_04",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A11-Q01",
@@ -30113,7 +31246,8 @@ window.APP_DATA = {
       "subtopic": "エクスプロイトキット",
       "attention": "脆弱性・悪用・攻撃",
       "mistake": "ファジングや脆弱性情報確認ツールと混同する。",
-      "review_tag": "SECURITY_A11_V40_01"
+      "review_tag": "SECURITY_A11_V40_01",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A11-Q02",
@@ -30136,7 +31270,8 @@ window.APP_DATA = {
       "subtopic": "ダークネット",
       "attention": "使われていないIPアドレス空間",
       "mistake": "通常通信を選ぶ。",
-      "review_tag": "SECURITY_A11_V40_02"
+      "review_tag": "SECURITY_A11_V40_02",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A11-Q03",
@@ -30159,7 +31294,8 @@ window.APP_DATA = {
       "subtopic": "チャレンジレスポンス認証",
       "attention": "ランダムデータ・演算・パスワードそのものを送らない",
       "mistake": "ワンタイムパスワードやTLSと混同する。",
-      "review_tag": "SECURITY_A11_V40_03"
+      "review_tag": "SECURITY_A11_V40_03",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A11-Q04",
@@ -30182,7 +31318,8 @@ window.APP_DATA = {
       "subtopic": "エクスプロイトコード",
       "attention": "脆弱性・プログラム・スクリプト",
       "mistake": "エクスポート、ファイラー、プロトタイプと語感で混同する。",
-      "review_tag": "SECURITY_A11_V40_04"
+      "review_tag": "SECURITY_A11_V40_04",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A11-Q05",
@@ -30205,7 +31342,8 @@ window.APP_DATA = {
       "subtopic": "リスクベース認証",
       "attention": "普段と異なる利用条件・追加認証",
       "mistake": "二要素認証そのものと混同する。",
-      "review_tag": "SECURITY_A11_V40_05"
+      "review_tag": "SECURITY_A11_V40_05",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A11-Q06",
@@ -30228,7 +31366,8 @@ window.APP_DATA = {
       "subtopic": "レインボー攻撃",
       "attention": "ハッシュ値・チェーン・テーブル",
       "mistake": "パスワードリスト攻撃やブルートフォースと混同する。",
-      "review_tag": "SECURITY_A11_V40_06"
+      "review_tag": "SECURITY_A11_V40_06",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A11-Q07",
@@ -30251,7 +31390,8 @@ window.APP_DATA = {
       "subtopic": "楕円曲線暗号",
       "attention": "公開鍵・TLS・楕円曲線上の離散対数問題",
       "mistake": "RSAの素因数分解問題と混同する。",
-      "review_tag": "SECURITY_A11_V40_07"
+      "review_tag": "SECURITY_A11_V40_07",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A11-Q08",
@@ -30274,7 +31414,8 @@ window.APP_DATA = {
       "subtopic": "ブルートフォース攻撃",
       "attention": "あらゆる組合せ・総当たり",
       "mistake": "セッションハイジャック、キーロガー、リプレイ攻撃と混同する。",
-      "review_tag": "SECURITY_A11_V40_08"
+      "review_tag": "SECURITY_A11_V40_08",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A11-Q09",
@@ -30297,7 +31438,8 @@ window.APP_DATA = {
       "subtopic": "DNSキャッシュポイズニング",
       "attention": "ホスト名とIPアドレス・偽サイト",
       "mistake": "DNSサーバ自体の設定書換えと誤認する。",
-      "review_tag": "SECURITY_A11_V40_09"
+      "review_tag": "SECURITY_A11_V40_09",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A11-Q10",
@@ -30320,7 +31462,8 @@ window.APP_DATA = {
       "subtopic": "クロスサイトスクリプティング",
       "attention": "JavaScript・入力フィールド",
       "mistake": "バッファオーバーフローやディレクトリトラバーサルと混同する。",
-      "review_tag": "SECURITY_A11_V40_10"
+      "review_tag": "SECURITY_A11_V40_10",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A11-Q11",
@@ -30343,7 +31486,8 @@ window.APP_DATA = {
       "subtopic": "ディレクトリトラバーサル",
       "attention": "上位ディレクトリ・非公開ファイル",
       "mistake": "OS/SQLインジェクションと混同する。",
-      "review_tag": "SECURITY_A11_V40_11"
+      "review_tag": "SECURITY_A11_V40_11",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A11-Q12",
@@ -30366,7 +31510,8 @@ window.APP_DATA = {
       "subtopic": "ポリモーフィック型マルウェア",
       "attention": "感染ごと・異なる鍵・同一パターンで検知されない",
       "mistake": "ボット、マルチプラットフォーム型、ステルス型と混同する。",
-      "review_tag": "SECURITY_A11_V40_12"
+      "review_tag": "SECURITY_A11_V40_12",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A11-Q13",
@@ -30389,7 +31534,8 @@ window.APP_DATA = {
       "subtopic": "CRL",
       "attention": "有効期限内・失効・シリアル番号・失効日時",
       "mistake": "OCSPのようなリアルタイム確認と混同する。",
-      "review_tag": "SECURITY_A11_V40_13"
+      "review_tag": "SECURITY_A11_V40_13",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A11-Q14",
@@ -30412,7 +31558,8 @@ window.APP_DATA = {
       "subtopic": "SEOポイズニング",
       "attention": "検索結果・順位付けアルゴリズム",
       "mistake": "ウォードライビングやIDSと混同する。",
-      "review_tag": "SECURITY_A11_V40_14"
+      "review_tag": "SECURITY_A11_V40_14",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A11-Q15",
@@ -30435,7 +31582,8 @@ window.APP_DATA = {
       "subtopic": "パスワード総数",
       "attention": "M・n・各桁独立",
       "mistake": "順列・組合せの式と混同する。",
-      "review_tag": "SECURITY_A11_V40_15"
+      "review_tag": "SECURITY_A11_V40_15",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A11-Q16",
@@ -30458,7 +31606,8 @@ window.APP_DATA = {
       "subtopic": "ドライブバイダウンロード",
       "attention": "Webサイト閲覧・気付かれない・不正プログラム",
       "mistake": "Autorun、ランサムウェア、ウォードライビングと混同する。",
-      "review_tag": "SECURITY_A11_V40_16"
+      "review_tag": "SECURITY_A11_V40_16",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A11-Q17",
@@ -30484,7 +31633,8 @@ window.APP_DATA = {
       "subtopic": "共通鍵暗号方式",
       "attention": "AES・RSA・同一鍵",
       "mistake": "暗号化と署名で鍵の役割を逆にする。",
-      "review_tag": "SECURITY_A11_V40_17"
+      "review_tag": "SECURITY_A11_V40_17",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A11-Q18",
@@ -30507,7 +31657,8 @@ window.APP_DATA = {
       "subtopic": "サーバ証明書の検証",
       "attention": "認証局の公開鍵・サーバ証明書・検証",
       "mistake": "通信の共通鍵暗号化に認証局公開鍵を使うと誤る。",
-      "review_tag": "SECURITY_A11_V40_18"
+      "review_tag": "SECURITY_A11_V40_18",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A11-Q19",
@@ -30533,7 +31684,8 @@ window.APP_DATA = {
       "subtopic": "暗号方式と鍵管理",
       "attention": "通信相手が多い・鍵管理",
       "mistake": "公開鍵と秘密鍵の公開/非公開を逆にする。",
-      "review_tag": "SECURITY_A11_V40_19"
+      "review_tag": "SECURITY_A11_V40_19",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A11-Q20",
@@ -30556,7 +31708,8 @@ window.APP_DATA = {
       "subtopic": "水飲み場攻撃",
       "attention": "標的組織・頻繁にアクセス・Webサイト",
       "mistake": "標的型メールや短縮URL誘導と混同する。",
-      "review_tag": "SECURITY_A11_V40_20"
+      "review_tag": "SECURITY_A11_V40_20",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A11-Q21",
@@ -30581,7 +31734,8 @@ window.APP_DATA = {
       "subtopic": "HTTPSと攻撃通信",
       "attention": "HTTPS・通信経路上・内容チェック",
       "mistake": "HTTPSならWebアプリ側でも一切検査不能と誤る。",
-      "review_tag": "SECURITY_A11_V40_21"
+      "review_tag": "SECURITY_A11_V40_21",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A11-Q22",
@@ -30604,7 +31758,8 @@ window.APP_DATA = {
       "subtopic": "AES",
       "attention": "暗号化と復号で同じ鍵",
       "mistake": "PKIやハッシュ関数を暗号方式として選ぶ。",
-      "review_tag": "SECURITY_A11_V40_22"
+      "review_tag": "SECURITY_A11_V40_22",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A11-Q23",
@@ -30627,7 +31782,8 @@ window.APP_DATA = {
       "subtopic": "認証デバイス",
       "attention": "虹彩・静電容量・接触/非接触ICカード",
       "mistake": "指紋方式と光学方式、接触型と非接触型を混同する。",
-      "review_tag": "SECURITY_A11_V40_23"
+      "review_tag": "SECURITY_A11_V40_23",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A11-Q24",
@@ -30652,7 +31808,8 @@ window.APP_DATA = {
       "subtopic": "ハイブリッド暗号方式",
       "attention": "OpenPGP・S/MIME・共通鍵＋公開鍵",
       "mistake": "複数アルゴリズムの単純併用と誤る。",
-      "review_tag": "SECURITY_A11_V40_24"
+      "review_tag": "SECURITY_A11_V40_24",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A11-Q25",
@@ -30675,7 +31832,8 @@ window.APP_DATA = {
       "subtopic": "共通鍵暗号アルゴリズム",
       "attention": "AES・ElGamal・RSA・楕円曲線暗号",
       "mistake": "公開鍵暗号の代表例と混同する。",
-      "review_tag": "SECURITY_A11_V40_25"
+      "review_tag": "SECURITY_A11_V40_25",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A11-Q26",
@@ -30698,7 +31856,8 @@ window.APP_DATA = {
       "subtopic": "Man-in-the-Browser",
       "attention": "PCに侵入したマルウェア・ブラウザ・振込先改ざん",
       "mistake": "DNSポイズニング、フィッシング、MITMと混同する。",
-      "review_tag": "SECURITY_A11_V40_26"
+      "review_tag": "SECURITY_A11_V40_26",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A11-Q27",
@@ -30721,7 +31880,8 @@ window.APP_DATA = {
       "subtopic": "クロスサイトスクリプティング",
       "attention": "閲覧者・Webブラウザ・スクリプト",
       "mistake": "OSコマンドインジェクション、DoS、ポートスキャンと混同する。",
-      "review_tag": "SECURITY_A11_V40_27"
+      "review_tag": "SECURITY_A11_V40_27",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A11-Q28",
@@ -30744,7 +31904,8 @@ window.APP_DATA = {
       "subtopic": "ゼロデイ攻撃",
       "attention": "パッチが提供される前",
       "mistake": "DDoSやフィッシングと混同する。",
-      "review_tag": "SECURITY_A11_V40_28"
+      "review_tag": "SECURITY_A11_V40_28",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A11-Q29",
@@ -30767,7 +31928,8 @@ window.APP_DATA = {
       "subtopic": "ディジタル署名の鍵",
       "attention": "作成・検証・秘密鍵・公開鍵",
       "mistake": "通信の暗号化と逆に覚える。",
-      "review_tag": "SECURITY_A11_V40_29"
+      "review_tag": "SECURITY_A11_V40_29",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A11-Q30",
@@ -30790,7 +31952,8 @@ window.APP_DATA = {
       "subtopic": "メール第三者中継",
       "attention": "社外→社外",
       "mistake": "社外→自社の通常受信と混同する。",
-      "review_tag": "SECURITY_A11_V40_30"
+      "review_tag": "SECURITY_A11_V40_30",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A11-Q31",
@@ -30813,7 +31976,8 @@ window.APP_DATA = {
       "subtopic": "CVE識別子",
       "attention": "CVE・脆弱性・一意識別",
       "mistake": "CCEやCPEと混同する。",
-      "review_tag": "SECURITY_A11_V40_31"
+      "review_tag": "SECURITY_A11_V40_31",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A11-Q32",
@@ -30836,7 +32000,8 @@ window.APP_DATA = {
       "subtopic": "NISC",
       "attention": "サイバーセキュリティ基本法・内閣官房",
       "mistake": "IPAやJPCERT/CCと混同する。",
-      "review_tag": "SECURITY_A11_V40_32"
+      "review_tag": "SECURITY_A11_V40_32",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A11-Q33",
@@ -30859,7 +32024,8 @@ window.APP_DATA = {
       "subtopic": "J-CRATの活動目的",
       "attention": "J-CRAT・標的型サイバー攻撃",
       "mistake": "他のセキュリティ組織の役割と混同する。",
-      "review_tag": "SECURITY_A11_V40_33"
+      "review_tag": "SECURITY_A11_V40_33",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A11-Q34",
@@ -30882,7 +32048,8 @@ window.APP_DATA = {
       "subtopic": "J-CRATの役割",
       "attention": "標的型攻撃・分析・早期着手支援",
       "mistake": "NISC、J-CSIP、ISOG-Jと混同する。",
-      "review_tag": "SECURITY_A11_V40_34"
+      "review_tag": "SECURITY_A11_V40_34",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A11-Q35",
@@ -30905,7 +32072,8 @@ window.APP_DATA = {
       "subtopic": "DNSキャッシュポイズニング対策",
       "attention": "DNSヘッダーID・ランダム化",
       "mistake": "53番に固定すれば安全と誤る。",
-      "review_tag": "SECURITY_A11_V40_35"
+      "review_tag": "SECURITY_A11_V40_35",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A11-Q36",
@@ -30928,7 +32096,8 @@ window.APP_DATA = {
       "subtopic": "委託先管理",
       "attention": "事前確認・契約書・再委託",
       "mistake": "短期間なら許容、契約後に評価でよいと考える。",
-      "review_tag": "SECURITY_A11_V40_36"
+      "review_tag": "SECURITY_A11_V40_36",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A11-Q37",
@@ -30951,7 +32120,8 @@ window.APP_DATA = {
       "subtopic": "否認防止",
       "attention": "利用事実・証明可能",
       "mistake": "信頼性・可用性・機密性と混同する。",
-      "review_tag": "SECURITY_A11_V40_37"
+      "review_tag": "SECURITY_A11_V40_37",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A11-Q38",
@@ -30974,7 +32144,8 @@ window.APP_DATA = {
       "subtopic": "IaaS/PaaS/SaaSの管理範囲",
       "attention": "IaaS・OS・ハイパバイザ",
       "mistake": "IaaSならハイパバイザも管理できると誤る。",
-      "review_tag": "SECURITY_A11_V40_38"
+      "review_tag": "SECURITY_A11_V40_38",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A11-Q39",
@@ -30997,7 +32168,8 @@ window.APP_DATA = {
       "subtopic": "PaaSの責任分界",
       "attention": "アプリケーション・DBMS・OS・ハードウェア",
       "mistake": "IaaSやSaaSと責任範囲を混同する。",
-      "review_tag": "SECURITY_A11_V40_39"
+      "review_tag": "SECURITY_A11_V40_39",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A11-Q40",
@@ -31020,7 +32192,8 @@ window.APP_DATA = {
       "subtopic": "情報セキュリティ基本方針",
       "attention": "経営陣・方向性・支持",
       "mistake": "詳細手順や特定システムの文書と混同する。",
-      "review_tag": "SECURITY_A11_V40_40"
+      "review_tag": "SECURITY_A11_V40_40",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A11-Q41",
@@ -31043,7 +32216,8 @@ window.APP_DATA = {
       "subtopic": "完全性",
       "attention": "改ざん・完全性",
       "mistake": "不正コピー・盗聴を完全性と誤る。",
-      "review_tag": "SECURITY_A11_V40_41"
+      "review_tag": "SECURITY_A11_V40_41",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A11-Q42",
@@ -31066,7 +32240,8 @@ window.APP_DATA = {
       "subtopic": "オープンリダイレクト",
       "attention": "リダイレクト・自動転送・任意URL",
       "mistake": "単なるメールリンク、DNSアンプ、オープンリレーと混同する。",
-      "review_tag": "SECURITY_A11_V40_42"
+      "review_tag": "SECURITY_A11_V40_42",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A12-Q01",
@@ -31089,7 +32264,8 @@ window.APP_DATA = {
       "subtopic": "VDIによる端末分離",
       "attention": "VDI・画像データだけ",
       "mistake": "VDIを不正コード検知装置やファイル削除機能と考える。",
-      "review_tag": "SECURITY_A12_V41_01"
+      "review_tag": "SECURITY_A12_V41_01",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A12-Q02",
@@ -31112,7 +32288,8 @@ window.APP_DATA = {
       "subtopic": "NAPTのセキュリティ効果",
       "attention": "IPアドレス・ポート番号・プライベートIP",
       "mistake": "IDSやアプリケーションFWの機能と混同する。",
-      "review_tag": "SECURITY_A12_V41_02"
+      "review_tag": "SECURITY_A12_V41_02",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A12-Q03",
@@ -31135,7 +32312,8 @@ window.APP_DATA = {
       "subtopic": "ディジタルフォレンジックスの手順",
       "attention": "削除ログ・復元・痕跡",
       "mistake": "SIEMやアンチウイルスの検知と混同する。",
-      "review_tag": "SECURITY_A12_V41_03"
+      "review_tag": "SECURITY_A12_V41_03",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A12-Q04",
@@ -31158,7 +32336,8 @@ window.APP_DATA = {
       "subtopic": "フォールスネガティブ",
       "attention": "異常→正常・見逃し",
       "mistake": "フォールスポジティブと逆に覚える。",
-      "review_tag": "SECURITY_A12_V41_04"
+      "review_tag": "SECURITY_A12_V41_04",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A12-Q05",
@@ -31183,7 +32362,8 @@ window.APP_DATA = {
       "subtopic": "SBOM",
       "attention": "Software Bill of Materials・依存関係",
       "mistake": "SIEM、IT資産台帳、脆弱性管理プロセスと混同する。",
-      "review_tag": "SECURITY_A12_V41_05"
+      "review_tag": "SECURITY_A12_V41_05",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A12-Q06",
@@ -31206,7 +32386,8 @@ window.APP_DATA = {
       "subtopic": "TPM",
       "attention": "TPM・セキュリティチップ・耐タンパ性",
       "mistake": "UTMやSIEMと混同する。",
-      "review_tag": "SECURITY_A12_V41_06"
+      "review_tag": "SECURITY_A12_V41_06",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A12-Q07",
@@ -31229,7 +32410,8 @@ window.APP_DATA = {
       "subtopic": "SIEM",
       "attention": "複数機器・ログ・収集分析",
       "mistake": "IPS、SNMP、NetFlowと混同する。",
-      "review_tag": "SECURITY_A12_V41_07"
+      "review_tag": "SECURITY_A12_V41_07",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A12-Q08",
@@ -31252,7 +32434,8 @@ window.APP_DATA = {
       "subtopic": "ICカードの耐タンパ性",
       "attention": "プローブ・保存情報消去・解析困難",
       "mistake": "可用性や運用管理の対策を耐タンパ性と誤る。",
-      "review_tag": "SECURITY_A12_V41_08"
+      "review_tag": "SECURITY_A12_V41_08",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A12-Q09",
@@ -31275,7 +32458,8 @@ window.APP_DATA = {
       "subtopic": "WAFの設置場所",
       "attention": "WAF・SSLアクセラレータ・復号",
       "mistake": "暗号化されたままでもWAFが内容検査できると考える。",
-      "review_tag": "SECURITY_A12_V41_09"
+      "review_tag": "SECURITY_A12_V41_09",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A12-Q10",
@@ -31298,7 +32482,8 @@ window.APP_DATA = {
       "subtopic": "ディジタルフォレンジックスの定義",
       "attention": "法的証拠性・保全・収集・分析",
       "mistake": "防御・予防策と混同する。",
-      "review_tag": "SECURITY_A12_V41_10"
+      "review_tag": "SECURITY_A12_V41_10",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A12-Q11",
@@ -31321,7 +32506,8 @@ window.APP_DATA = {
       "subtopic": "虹彩認証",
       "attention": "他人受入率・経年変化・非接触",
       "mistake": "指紋認証の特徴と混同する。",
-      "review_tag": "SECURITY_A12_V41_11"
+      "review_tag": "SECURITY_A12_V41_11",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A12-Q12",
@@ -31344,7 +32530,8 @@ window.APP_DATA = {
       "subtopic": "WPA2-PSK",
       "attention": "WPA2-PSK・Pre-Shared Key・SSID",
       "mistake": "SSIDそのものを暗号鍵と誤る。",
-      "review_tag": "SECURITY_A12_V41_12"
+      "review_tag": "SECURITY_A12_V41_12",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A12-Q13",
@@ -31369,7 +32556,8 @@ window.APP_DATA = {
       "subtopic": "DNSSEC",
       "attention": "DNSSEC・ディジタル署名・完全性",
       "mistake": "ソースポートランダム化や再帰問合せ制限と混同する。",
-      "review_tag": "SECURITY_A12_V41_13"
+      "review_tag": "SECURITY_A12_V41_13",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A12-Q14",
@@ -31394,7 +32582,8 @@ window.APP_DATA = {
       "subtopic": "IPsec・L2TP・TLSのOSI位置",
       "attention": "TLS第4層・IPsec第3層・L2TP第2層",
       "mistake": "名前の印象だけで順序を選ぶ。",
-      "review_tag": "SECURITY_A12_V41_14"
+      "review_tag": "SECURITY_A12_V41_14",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A12-Q15",
@@ -31417,7 +32606,8 @@ window.APP_DATA = {
       "subtopic": "サンドボックス",
       "attention": "隔離・特別な領域・不正プログラム",
       "mistake": "SIEM、サニタイジング、リバースプロキシと混同する。",
-      "review_tag": "SECURITY_A12_V41_15"
+      "review_tag": "SECURITY_A12_V41_15",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A12-Q16",
@@ -31440,7 +32630,8 @@ window.APP_DATA = {
       "subtopic": "パケットフィルタリングの判断情報",
       "attention": "IPアドレス・ポート番号",
       "mistake": "HTTP内容やMACアドレスを選ぶ。",
-      "review_tag": "SECURITY_A12_V41_16"
+      "review_tag": "SECURITY_A12_V41_16",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A12-Q17",
@@ -31463,7 +32654,8 @@ window.APP_DATA = {
       "subtopic": "WAF",
       "attention": "WAF・Webアプリケーション",
       "mistake": "HIDSやアンチウイルスと混同する。",
-      "review_tag": "SECURITY_A12_V41_17"
+      "review_tag": "SECURITY_A12_V41_17",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A12-Q18",
@@ -31486,7 +32678,8 @@ window.APP_DATA = {
       "subtopic": "DNSキャッシュポイズニング対策",
       "attention": "再帰問合せ・内部のみ・固定しない",
       "mistake": "ポート番号やIDを固定すると安全になると誤る。",
-      "review_tag": "SECURITY_A12_V41_18"
+      "review_tag": "SECURITY_A12_V41_18",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A12-Q19",
@@ -31511,7 +32704,8 @@ window.APP_DATA = {
       "subtopic": "クライアント証明書付きTLS",
       "attention": "PC・Webサーバ・利用者個人の証明書",
       "mistake": "内部DBサーバとPCが直接TLS通信すると考える。",
-      "review_tag": "SECURITY_A12_V41_19"
+      "review_tag": "SECURITY_A12_V41_19",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A12-Q20",
@@ -31534,7 +32728,8 @@ window.APP_DATA = {
       "subtopic": "XSS対策",
       "attention": "HTMLタグとして解釈されない",
       "mistake": "OSパッチや入力サイズ制限でXSSを防げると考える。",
-      "review_tag": "SECURITY_A12_V41_20"
+      "review_tag": "SECURITY_A12_V41_20",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A12-Q21",
@@ -31557,7 +32752,8 @@ window.APP_DATA = {
       "subtopic": "ブロックチェーン",
       "attention": "分散型台帳・ハッシュ値・同期",
       "mistake": "MACやXML署名と混同する。",
-      "review_tag": "SECURITY_A12_V41_21"
+      "review_tag": "SECURITY_A12_V41_21",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A12-Q22",
@@ -31580,7 +32776,8 @@ window.APP_DATA = {
       "subtopic": "WPA2・CCMP・AES",
       "attention": "WPA2・CCMP・AES・128ビット",
       "mistake": "WPA/TKIPとWPA2/CCMPを入れ替える。",
-      "review_tag": "SECURITY_A12_V41_22"
+      "review_tag": "SECURITY_A12_V41_22",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A12-Q23",
@@ -31603,7 +32800,8 @@ window.APP_DATA = {
       "subtopic": "ログアウト時のセッションID無効化",
       "attention": "ログアウト・セッションID・無効化",
       "mistake": "ブラウザキャッシュ削除をセッション管理と混同する。",
-      "review_tag": "SECURITY_A12_V41_23"
+      "review_tag": "SECURITY_A12_V41_23",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A12-Q24",
@@ -31626,7 +32824,8 @@ window.APP_DATA = {
       "subtopic": "パケットフィルタリングで防げるもの",
       "attention": "未公開サーバ・IPアドレス・ポート番号",
       "mistake": "通信内容の検査が必要な攻撃も防げると考える。",
-      "review_tag": "SECURITY_A12_V41_24"
+      "review_tag": "SECURITY_A12_V41_24",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A12-Q25",
@@ -31649,7 +32848,8 @@ window.APP_DATA = {
       "subtopic": "SSH",
       "attention": "SSH・遠隔ログイン・暗号化",
       "mistake": "TLSやRADIUSを選ぶ。",
-      "review_tag": "SECURITY_A12_V41_25"
+      "review_tag": "SECURITY_A12_V41_25",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A12-Q26",
@@ -31672,7 +32872,8 @@ window.APP_DATA = {
       "subtopic": "OP25B",
       "attention": "動的IP・25番・直接送信",
       "mistake": "固定IPや正規メールサーバ経由まで遮断すると考える。",
-      "review_tag": "SECURITY_A12_V41_26"
+      "review_tag": "SECURITY_A12_V41_26",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A12-Q27",
@@ -31695,7 +32896,8 @@ window.APP_DATA = {
       "subtopic": "SPF",
       "attention": "SPF・送信元IP・DNS",
       "mistake": "DNSBLやハッシュ検証と混同する。",
-      "review_tag": "SECURITY_A12_V41_27"
+      "review_tag": "SECURITY_A12_V41_27",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A12-Q28",
@@ -31718,7 +32920,8 @@ window.APP_DATA = {
       "subtopic": "WAFの通信内容検査",
       "attention": "WAF・通信内容・不正操作遮断",
       "mistake": "ペネトレーションテストやSSLアクセラレータと混同する。",
-      "review_tag": "SECURITY_A12_V41_28"
+      "review_tag": "SECURITY_A12_V41_28",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A12-Q29",
@@ -31741,7 +32944,8 @@ window.APP_DATA = {
       "subtopic": "VLANによるセグメント分割",
       "attention": "VLAN・ブロードキャスト・セグメント",
       "mistake": "ポートセキュリティやACLの機能と混同する。",
-      "review_tag": "SECURITY_A12_V41_29"
+      "review_tag": "SECURITY_A12_V41_29",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A12-Q30",
@@ -31764,7 +32968,8 @@ window.APP_DATA = {
       "subtopic": "サブミッションポート587",
       "attention": "587番・SMTP-AUTH・OP25B",
       "mistake": "SPFやPOP before SMTPと混同する。",
-      "review_tag": "SECURITY_A12_V41_30"
+      "review_tag": "SECURITY_A12_V41_30",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A12-Q31",
@@ -31787,7 +32992,8 @@ window.APP_DATA = {
       "subtopic": "SQLインジェクション対策",
       "attention": "SQLインジェクション・バインド機構",
       "mistake": "別攻撃の対策を取り違える。",
-      "review_tag": "SECURITY_A12_V41_31"
+      "review_tag": "SECURITY_A12_V41_31",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A12-Q32",
@@ -31810,7 +33016,8 @@ window.APP_DATA = {
       "subtopic": "オープンリゾルバ悪用",
       "attention": "オープンリゾルバ・送信元IP偽装・DNS応答",
       "mistake": "ICMPフラッド、ファーミング、第三者中継と混同する。",
-      "review_tag": "SECURITY_A12_V41_32"
+      "review_tag": "SECURITY_A12_V41_32",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A12-Q33",
@@ -31833,7 +33040,8 @@ window.APP_DATA = {
       "subtopic": "サイドチャネル攻撃",
       "attention": "物理量・処理時間・消費電流",
       "mistake": "スキャベジング、MITM、SQLインジェクションと混同する。",
-      "review_tag": "SECURITY_A12_V41_33"
+      "review_tag": "SECURITY_A12_V41_33",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A12-Q34",
@@ -31856,7 +33064,8 @@ window.APP_DATA = {
       "subtopic": "JPCERT/CCとCSIRTマテリアル",
       "attention": "JPCERT/CC・CSIRTマテリアル",
       "mistake": "JIPDEC、IPA、デジタル・フォレンジック研究会の資料と混同する。",
-      "review_tag": "SECURITY_A12_V41_34"
+      "review_tag": "SECURITY_A12_V41_34",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A12-Q35",
@@ -31883,7 +33092,8 @@ window.APP_DATA = {
       "subtopic": "リスクアセスメント",
       "attention": "リスク特定・分析・評価",
       "mistake": "リスク対応・受容を含める。",
-      "review_tag": "SECURITY_A12_V41_35"
+      "review_tag": "SECURITY_A12_V41_35",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A12-Q36",
@@ -31906,7 +33116,8 @@ window.APP_DATA = {
       "subtopic": "SPFの仕組み",
       "attention": "送信元ドメイン・SPFレコード・送信元IP",
       "mistake": "DKIMのデジタル署名と混同する。",
-      "review_tag": "SECURITY_A12_V41_36"
+      "review_tag": "SECURITY_A12_V41_36",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A12-Q37",
@@ -31929,7 +33140,8 @@ window.APP_DATA = {
       "subtopic": "セキュアOS",
       "attention": "セキュアOS・強制アクセス制御・最小権限",
       "mistake": "SSO、WAF、多要素認証と混同する。",
-      "review_tag": "SECURITY_A12_V41_37"
+      "review_tag": "SECURITY_A12_V41_37",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A12-Q38",
@@ -31952,7 +33164,8 @@ window.APP_DATA = {
       "subtopic": "ランサムウェア対策とWORM",
       "attention": "WORM・変更不可・バックアップ",
       "mistake": "RAIDやオンラインレプリケーションをバックアップ保護と同一視する。",
-      "review_tag": "SECURITY_A12_V41_38"
+      "review_tag": "SECURITY_A12_V41_38",
+      "original_asset_ids": []
     },
     {
       "id": "SEC-A12-Q39",
@@ -31975,7 +33188,8 @@ window.APP_DATA = {
       "subtopic": "DKIM",
       "attention": "DKIM・デジタル署名・送信元ドメイン",
       "mistake": "SMTP-AUTH、DMARC、SPFと混同する。",
-      "review_tag": "SECURITY_A12_V41_39"
+      "review_tag": "SECURITY_A12_V41_39",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q01",
@@ -31998,7 +33212,8 @@ window.APP_DATA = {
       "subtopic": "LPWA",
       "attention": "LPWA・LowPower・WideArea",
       "mistake": "WiGigやPLCの説明を選ぶ。",
-      "review_tag": "NETWORK_A10_V42_01"
+      "review_tag": "NETWORK_A10_V42_01",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q02",
@@ -32021,7 +33236,8 @@ window.APP_DATA = {
       "subtopic": "SSID",
       "attention": "SSID・32オクテット・ネットワーク識別子",
       "mistake": "MACアドレスと混同する。",
-      "review_tag": "NETWORK_A10_V42_02"
+      "review_tag": "NETWORK_A10_V42_02",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q03",
@@ -32044,7 +33260,8 @@ window.APP_DATA = {
       "subtopic": "NFV",
       "attention": "NFV・仮想化・汎用サーバ",
       "mistake": "AR、深層学習、ペトリネットと混同する。",
-      "review_tag": "NETWORK_A10_V42_03"
+      "review_tag": "NETWORK_A10_V42_03",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q04",
@@ -32067,7 +33284,8 @@ window.APP_DATA = {
       "subtopic": "NAPT",
       "attention": "NAPT・ポート番号・1つのグローバルIP",
       "mistake": "NATやNTPと混同する。",
-      "review_tag": "NETWORK_A10_V42_04"
+      "review_tag": "NETWORK_A10_V42_04",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q05",
@@ -32090,7 +33308,8 @@ window.APP_DATA = {
       "subtopic": "リバースプロキシ",
       "attention": "Webサーバ側・外部クライアント・中継",
       "mistake": "フォワードプロキシと逆にする。",
-      "review_tag": "NETWORK_A10_V42_05"
+      "review_tag": "NETWORK_A10_V42_05",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q06",
@@ -32113,7 +33332,8 @@ window.APP_DATA = {
       "subtopic": "VoIP音声ペイロード計算",
       "attention": "8kbit/s・10ms・byte換算",
       "mistake": "80ビットを80バイトと誤る。",
-      "review_tag": "NETWORK_A10_V42_06"
+      "review_tag": "NETWORK_A10_V42_06",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q07",
@@ -32136,7 +33356,8 @@ window.APP_DATA = {
       "subtopic": "伝送時間",
       "attention": "1,000バイト×1,000件・50%",
       "mistake": "バイト→ビット換算や効率を忘れる。",
-      "review_tag": "NETWORK_A10_V42_07"
+      "review_tag": "NETWORK_A10_V42_07",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q08",
@@ -32159,7 +33380,8 @@ window.APP_DATA = {
       "subtopic": "応答時間",
       "attention": "上り＋下り・処理時間",
       "mistake": "伝送時間だけで答える。",
-      "review_tag": "NETWORK_A10_V42_08"
+      "review_tag": "NETWORK_A10_V42_08",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q09",
@@ -32182,7 +33404,8 @@ window.APP_DATA = {
       "subtopic": "ボトルネックとダウンロード時間",
       "attention": "80Mbps・90Mbps・540MB",
       "mistake": "物理速度100Mbpsをそのまま使う。",
-      "review_tag": "NETWORK_A10_V42_09"
+      "review_tag": "NETWORK_A10_V42_09",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q10",
@@ -32205,7 +33428,8 @@ window.APP_DATA = {
       "subtopic": "複数区間の伝送時間",
       "attention": "1,500バイト・10Mbps・1.5Mbps・0.8ms",
       "mistake": "中継回線だけ計算する。",
-      "review_tag": "NETWORK_A10_V42_10"
+      "review_tag": "NETWORK_A10_V42_10",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q11",
@@ -32228,7 +33452,8 @@ window.APP_DATA = {
       "subtopic": "LAN利用率",
       "attention": "30%付加・60回/秒・2組",
       "mistake": "制御情報や組数を忘れる。",
-      "review_tag": "NETWORK_A10_V42_11"
+      "review_tag": "NETWORK_A10_V42_11",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q12",
@@ -32251,7 +33476,8 @@ window.APP_DATA = {
       "subtopic": "ビット誤り率",
       "attention": "30Mbit/s・100秒・1bit",
       "mistake": "100秒を分母にする。",
-      "review_tag": "NETWORK_A10_V42_12"
+      "review_tag": "NETWORK_A10_V42_12",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q13",
@@ -32274,7 +33500,8 @@ window.APP_DATA = {
       "subtopic": "NAPT応答パケットの書換え",
       "attention": "応答パケット・宛先IP・宛先ポート",
       "mistake": "送信元側を書き換えると考える。",
-      "review_tag": "NETWORK_A10_V42_13"
+      "review_tag": "NETWORK_A10_V42_13",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q14",
@@ -32297,7 +33524,8 @@ window.APP_DATA = {
       "subtopic": "ビット誤り率",
       "attention": "64kbit/s・100秒・1bit",
       "mistake": "kbitの桁を誤る。",
-      "review_tag": "NETWORK_A10_V42_14"
+      "review_tag": "NETWORK_A10_V42_14",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q15",
@@ -32320,7 +33548,8 @@ window.APP_DATA = {
       "subtopic": "フォワードプロキシ",
       "attention": "Webブラウザの代理",
       "mistake": "リバースプロキシと混同する。",
-      "review_tag": "NETWORK_A10_V42_15"
+      "review_tag": "NETWORK_A10_V42_15",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q16",
@@ -32343,7 +33572,8 @@ window.APP_DATA = {
       "subtopic": "CSMA/CD",
       "attention": "キャリア検知・衝突・再送",
       "mistake": "TDMA、CSMA/CA、トークン方式と混同する。",
-      "review_tag": "NETWORK_A10_V42_16"
+      "review_tag": "NETWORK_A10_V42_16",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q17",
@@ -32368,7 +33598,8 @@ window.APP_DATA = {
       "subtopic": "MAC宛先とIP宛先",
       "attention": "MAC＝次ホップ・IP＝最終宛先",
       "mistake": "MACも最終端末を指定すると考える。",
-      "review_tag": "NETWORK_A10_V42_17"
+      "review_tag": "NETWORK_A10_V42_17",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q18",
@@ -32391,7 +33622,8 @@ window.APP_DATA = {
       "subtopic": "L2スイッチとブリッジ",
       "attention": "L2・MACアドレス",
       "mistake": "ルータやリピータを選ぶ。",
-      "review_tag": "NETWORK_A10_V42_18"
+      "review_tag": "NETWORK_A10_V42_18",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q19",
@@ -32414,7 +33646,8 @@ window.APP_DATA = {
       "subtopic": "CSMA/CDとスループット",
       "attention": "衝突・再送・スループット",
       "mistake": "キャリア検知すれば衝突しないと考える。",
-      "review_tag": "NETWORK_A10_V42_19"
+      "review_tag": "NETWORK_A10_V42_19",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q20",
@@ -32437,7 +33670,8 @@ window.APP_DATA = {
       "subtopic": "ルータの機能",
       "attention": "ルータ・第3層・IPアドレス",
       "mistake": "L2スイッチやゲートウェイの説明と混同する。",
-      "review_tag": "NETWORK_A10_V42_20"
+      "review_tag": "NETWORK_A10_V42_20",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q21",
@@ -32460,7 +33694,8 @@ window.APP_DATA = {
       "subtopic": "L2スイッチの機能",
       "attention": "MACアドレス・必要ポート",
       "mistake": "IPアドレスを使うルータと混同する。",
-      "review_tag": "NETWORK_A10_V42_21"
+      "review_tag": "NETWORK_A10_V42_21",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q22",
@@ -32483,7 +33718,8 @@ window.APP_DATA = {
       "subtopic": "LAN間接続装置",
       "attention": "リピータ・物理層・信号増幅",
       "mistake": "ブリッジとルータの参照アドレスを逆にする。",
-      "review_tag": "NETWORK_A10_V42_22"
+      "review_tag": "NETWORK_A10_V42_22",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q23",
@@ -32506,7 +33742,8 @@ window.APP_DATA = {
       "subtopic": "DNSとレコード",
       "attention": "逆引き・PTR・リゾルバ",
       "mistake": "MX/NS/CNAMEの役割を取り違える。",
-      "review_tag": "NETWORK_A10_V42_23"
+      "review_tag": "NETWORK_A10_V42_23",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q24",
@@ -32529,7 +33766,8 @@ window.APP_DATA = {
       "subtopic": "ICMP",
       "attention": "ICMP・制御メッセージ・エラー報告",
       "mistake": "ARP/RARP/NAT/DHCPと混同する。",
-      "review_tag": "NETWORK_A10_V42_24"
+      "review_tag": "NETWORK_A10_V42_24",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q25",
@@ -32552,7 +33790,8 @@ window.APP_DATA = {
       "subtopic": "プロキシとキャッシュ",
       "attention": "プロキシ・キャッシュ",
       "mistake": "NAPTやFWを選ぶ。",
-      "review_tag": "NETWORK_A10_V42_25"
+      "review_tag": "NETWORK_A10_V42_25",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q26",
@@ -32575,7 +33814,8 @@ window.APP_DATA = {
       "subtopic": "ARP",
       "attention": "ARP・IP→MAC",
       "mistake": "RARPやDNSと逆にする。",
-      "review_tag": "NETWORK_A10_V42_26"
+      "review_tag": "NETWORK_A10_V42_26",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q27",
@@ -32598,7 +33838,8 @@ window.APP_DATA = {
       "subtopic": "IPv6表記",
       "attention": "IPv6・コロン・::は1か所",
       "mistake": "『::』を2か所使う。",
-      "review_tag": "NETWORK_A10_V42_27"
+      "review_tag": "NETWORK_A10_V42_27",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q28",
@@ -32623,7 +33864,8 @@ window.APP_DATA = {
       "subtopic": "IPv6とIPsec",
       "attention": "IPv6・拡張ヘッダ・IPsec",
       "mistake": "アプリケーション層の検査機能を選ぶ。",
-      "review_tag": "NETWORK_A10_V42_28"
+      "review_tag": "NETWORK_A10_V42_28",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q29",
@@ -32646,7 +33888,8 @@ window.APP_DATA = {
       "subtopic": "ネットワークアドレス",
       "attention": "255.255.255.240・/28・16刻み",
       "mistake": "ブロードキャスト31を選ぶ。",
-      "review_tag": "NETWORK_A10_V42_29"
+      "review_tag": "NETWORK_A10_V42_29",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q30",
@@ -32669,7 +33912,8 @@ window.APP_DATA = {
       "subtopic": "イーサネットブロードキャスト",
       "attention": "ブロードキャスト・全ノード",
       "mistake": "マルチキャストのように選択ノードと考える。",
-      "review_tag": "NETWORK_A10_V42_30"
+      "review_tag": "NETWORK_A10_V42_30",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q31",
@@ -32692,7 +33936,8 @@ window.APP_DATA = {
       "subtopic": "サブネット内アドレス割当て",
       "attention": "/26・65～126・降順",
       "mistake": "127を割当可能と考える。",
-      "review_tag": "NETWORK_A10_V42_31"
+      "review_tag": "NETWORK_A10_V42_31",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q32",
@@ -32715,7 +33960,8 @@ window.APP_DATA = {
       "subtopic": "RARP",
       "attention": "RARP・MAC→IP",
       "mistake": "ARPやDNS、NATと混同する。",
-      "review_tag": "NETWORK_A10_V42_32"
+      "review_tag": "NETWORK_A10_V42_32",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q33",
@@ -32738,7 +33984,8 @@ window.APP_DATA = {
       "subtopic": "経路集約",
       "attention": "/23・共通22ビット・集約",
       "mistake": "境界でないネットワークアドレスを選ぶ。",
-      "review_tag": "NETWORK_A10_V42_33"
+      "review_tag": "NETWORK_A10_V42_33",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q34",
@@ -32761,7 +34008,8 @@ window.APP_DATA = {
       "subtopic": "ARP",
       "attention": "IP→MAC",
       "mistake": "RARPと逆にする。",
-      "review_tag": "NETWORK_A10_V42_34"
+      "review_tag": "NETWORK_A10_V42_34",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q35",
@@ -32784,7 +34032,8 @@ window.APP_DATA = {
       "subtopic": "pingとICMP",
       "attention": "ping・ICMP",
       "mistake": "SNMPを選ぶ。",
-      "review_tag": "NETWORK_A10_V42_35"
+      "review_tag": "NETWORK_A10_V42_35",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q36",
@@ -32807,7 +34056,8 @@ window.APP_DATA = {
       "subtopic": "PPP",
       "attention": "PPP・ダイヤルアップ",
       "mistake": "SLIPやUDPと混同する。",
-      "review_tag": "NETWORK_A10_V42_36"
+      "review_tag": "NETWORK_A10_V42_36",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q37",
@@ -32830,7 +34080,8 @@ window.APP_DATA = {
       "subtopic": "ブロードキャストストーム",
       "attention": "スイッチ間ループ・大量複製",
       "mistake": "単なる通常ブロードキャストと混同する。",
-      "review_tag": "NETWORK_A10_V42_37"
+      "review_tag": "NETWORK_A10_V42_37",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q38",
@@ -32853,7 +34104,8 @@ window.APP_DATA = {
       "subtopic": "WebSocket",
       "attention": "WebSocket・双方向通信",
       "mistake": "既存Web機能やバックグラウンド処理と混同する。",
-      "review_tag": "NETWORK_A10_V42_38"
+      "review_tag": "NETWORK_A10_V42_38",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q39",
@@ -32876,7 +34128,8 @@ window.APP_DATA = {
       "subtopic": "ARP",
       "attention": "ARP・MACアドレス",
       "mistake": "TCP、RIP、DHCPの説明と混同する。",
-      "review_tag": "NETWORK_A10_V42_39"
+      "review_tag": "NETWORK_A10_V42_39",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q40",
@@ -32899,7 +34152,8 @@ window.APP_DATA = {
       "subtopic": "グローバル/プライベートIPv4",
       "attention": "208.77.188.166・プライベート範囲",
       "mistake": "クラスCならすべてプライベートと誤る。",
-      "review_tag": "NETWORK_A10_V42_40"
+      "review_tag": "NETWORK_A10_V42_40",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q41",
@@ -32922,7 +34176,8 @@ window.APP_DATA = {
       "subtopic": "SOAP",
       "attention": "SOAP・XML",
       "mistake": "SIPや分散オブジェクト技術と混同する。",
-      "review_tag": "NETWORK_A10_V42_41"
+      "review_tag": "NETWORK_A10_V42_41",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q42",
@@ -32945,7 +34200,8 @@ window.APP_DATA = {
       "subtopic": "VRRP",
       "attention": "VRRP・仮想ルータ・冗長化",
       "mistake": "SNMPやPPPと混同する。",
-      "review_tag": "NETWORK_A10_V42_42"
+      "review_tag": "NETWORK_A10_V42_42",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q43",
@@ -32968,7 +34224,8 @@ window.APP_DATA = {
       "subtopic": "サブネット分割",
       "attention": "10サブネット・4ビット・240",
       "mistake": "必要以上に多くビットを借りてホスト数を減らす。",
-      "review_tag": "NETWORK_A10_V42_43"
+      "review_tag": "NETWORK_A10_V42_43",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q44",
@@ -32991,7 +34248,8 @@ window.APP_DATA = {
       "subtopic": "UDP",
       "attention": "UDP・コネクションレス",
       "mistake": "TCPと逆にする。",
-      "review_tag": "NETWORK_A10_V42_44"
+      "review_tag": "NETWORK_A10_V42_44",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q45",
@@ -33016,7 +34274,8 @@ window.APP_DATA = {
       "subtopic": "ルータ通過時のMAC/IPアドレス",
       "attention": "MAC＝ルータ1/2・IP＝端末a/b",
       "mistake": "IPアドレスまでルータへ置き換わると考える。",
-      "review_tag": "NETWORK_A10_V42_45"
+      "review_tag": "NETWORK_A10_V42_45",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q46",
@@ -33039,7 +34298,8 @@ window.APP_DATA = {
       "subtopic": "SDN・OpenFlow",
       "attention": "SDN・OpenFlow・集中制御",
       "mistake": "DNS、VoLTE、SANと混同する。",
-      "review_tag": "NETWORK_A10_V42_46"
+      "review_tag": "NETWORK_A10_V42_46",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q47",
@@ -33062,7 +34322,8 @@ window.APP_DATA = {
       "subtopic": "DHCP",
       "attention": "DHCP DISCOVER・ブロードキャスト",
       "mistake": "固定IPとの混在不可、同一IP固定と誤る。",
-      "review_tag": "NETWORK_A10_V42_47"
+      "review_tag": "NETWORK_A10_V42_47",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q48",
@@ -33087,7 +34348,8 @@ window.APP_DATA = {
       "subtopic": "URLでのポート番号指定",
       "attention": "FQDN直後・:8080",
       "mistake": "クエリ文字列やパスの後ろに付ける。",
-      "review_tag": "NETWORK_A10_V42_48"
+      "review_tag": "NETWORK_A10_V42_48",
+      "original_asset_ids": []
     },
     {
       "id": "NW-A10-Q49",
@@ -33110,7 +34372,8 @@ window.APP_DATA = {
       "subtopic": "SAML",
       "attention": "SAML・認証・認可・SSO",
       "mistake": "SNMP、脅威情報交換、VPNと混同する。",
-      "review_tag": "NETWORK_A10_V42_49"
+      "review_tag": "NETWORK_A10_V42_49",
+      "original_asset_ids": []
     },
     {
       "id": "FP1-Q01",
@@ -33130,7 +34393,8 @@ window.APP_DATA = {
       "subtopic": "金融商品取引法",
       "attention": "登録なし・投資顧問契約・特定の上場株式",
       "mistake": "一般的な企業情報の紹介と個別銘柄助言を混同する。",
-      "review_tag": "FP_LIFE_V43_01"
+      "review_tag": "FP_LIFE_V43_01",
+      "original_asset_ids": []
     },
     {
       "id": "FP1-Q02",
@@ -33150,7 +34414,8 @@ window.APP_DATA = {
       "subtopic": "税理士法",
       "attention": "税理士資格なし・無料・具体的税額計算",
       "mistake": "無償なら可能と考える。",
-      "review_tag": "FP_LIFE_V43_02"
+      "review_tag": "FP_LIFE_V43_02",
+      "original_asset_ids": []
     },
     {
       "id": "FP1-Q03",
@@ -33170,7 +34435,8 @@ window.APP_DATA = {
       "subtopic": "保険業法",
       "attention": "登録なし・一般的商品説明",
       "mistake": "説明まで禁止と考える。",
-      "review_tag": "FP_LIFE_V43_03"
+      "review_tag": "FP_LIFE_V43_03",
+      "original_asset_ids": []
     },
     {
       "id": "FP1-Q04",
@@ -33190,7 +34456,8 @@ window.APP_DATA = {
       "subtopic": "保険業法",
       "attention": "必要保障額の試算・保障内容の説明",
       "mistake": "試算や説明を募集行為と混同する。",
-      "review_tag": "FP_LIFE_V43_04"
+      "review_tag": "FP_LIFE_V43_04",
+      "original_asset_ids": []
     },
     {
       "id": "FP1-Q05",
@@ -33210,7 +34477,8 @@ window.APP_DATA = {
       "subtopic": "弁護士法",
       "attention": "弁護士資格なし・代理人・財産分与・報酬",
       "mistake": "一般的法律説明と代理行為を混同する。",
-      "review_tag": "FP_LIFE_V43_05"
+      "review_tag": "FP_LIFE_V43_05",
+      "original_asset_ids": []
     },
     {
       "id": "FP1-Q06",
@@ -33230,7 +34498,8 @@ window.APP_DATA = {
       "subtopic": "税理士法",
       "attention": "有料セミナー・仮定事例・一般的税法",
       "mistake": "有料なら不可と考える。",
-      "review_tag": "FP_LIFE_V43_06"
+      "review_tag": "FP_LIFE_V43_06",
+      "original_asset_ids": []
     },
     {
       "id": "FP1-Q07",
@@ -33252,7 +34521,8 @@ window.APP_DATA = {
       "subtopic": "可処分所得",
       "attention": "社会保険料・所得税・住民税",
       "mistake": "控除や保険料をすべて引くと考える。",
-      "review_tag": "FP_LIFE_V43_07"
+      "review_tag": "FP_LIFE_V43_07",
+      "original_asset_ids": []
     },
     {
       "id": "FP1-Q08",
@@ -33274,7 +34544,8 @@ window.APP_DATA = {
       "subtopic": "将来収入",
       "attention": "600万円・1%・1年後",
       "mistake": "変動率を足すだけでなく倍率で計算する。",
-      "review_tag": "FP_LIFE_V43_08"
+      "review_tag": "FP_LIFE_V43_08",
+      "original_asset_ids": []
     },
     {
       "id": "FP1-Q09",
@@ -33296,7 +34567,8 @@ window.APP_DATA = {
       "subtopic": "将来支出",
       "attention": "300万円・1%・2年後",
       "mistake": "1年分だけ増加させる。",
-      "review_tag": "FP_LIFE_V43_09"
+      "review_tag": "FP_LIFE_V43_09",
+      "original_asset_ids": []
     },
     {
       "id": "FP1-Q10",
@@ -33318,7 +34590,8 @@ window.APP_DATA = {
       "subtopic": "貯蓄残高",
       "attention": "前年残高・変動率・年間収支",
       "mistake": "年間収支だけを加える。",
-      "review_tag": "FP_LIFE_V43_10"
+      "review_tag": "FP_LIFE_V43_10",
+      "original_asset_ids": []
     },
     {
       "id": "FP1-Q11",
@@ -33338,7 +34611,8 @@ window.APP_DATA = {
       "subtopic": "ライフイベント表",
       "attention": "家族全員・将来イベント・時系列",
       "mistake": "キャッシュフロー表と混同する。",
-      "review_tag": "FP_LIFE_V43_11"
+      "review_tag": "FP_LIFE_V43_11",
+      "original_asset_ids": []
     },
     {
       "id": "FP1-Q12",
@@ -33358,7 +34632,8 @@ window.APP_DATA = {
       "subtopic": "必要資金",
       "attention": "必要資金・現在価値",
       "mistake": "将来時点の金額を記入すると考える。",
-      "review_tag": "FP_LIFE_V43_12"
+      "review_tag": "FP_LIFE_V43_12",
+      "original_asset_ids": []
     },
     {
       "id": "FP1-Q13",
@@ -33380,7 +34655,8 @@ window.APP_DATA = {
       "subtopic": "ライフイベント例",
       "attention": "マイホーム・1,500万円",
       "mistake": "車買換え300万円と混同する。",
-      "review_tag": "FP_LIFE_V43_13"
+      "review_tag": "FP_LIFE_V43_13",
+      "original_asset_ids": []
     },
     {
       "id": "FP1-Q14",
@@ -33400,7 +34676,8 @@ window.APP_DATA = {
       "subtopic": "資産評価",
       "attention": "資産・時価",
       "mistake": "取得価額で計上すると考える。",
-      "review_tag": "FP_LIFE_V43_14"
+      "review_tag": "FP_LIFE_V43_14",
+      "original_asset_ids": []
     },
     {
       "id": "FP1-Q15",
@@ -33420,7 +34697,8 @@ window.APP_DATA = {
       "subtopic": "生命保険の評価",
       "attention": "生命保険・解約返戻金",
       "mistake": "保険金額と解約返戻金を混同する。",
-      "review_tag": "FP_LIFE_V43_15"
+      "review_tag": "FP_LIFE_V43_15",
+      "original_asset_ids": []
     },
     {
       "id": "FP1-Q16",
@@ -33442,7 +34720,8 @@ window.APP_DATA = {
       "subtopic": "純資産",
       "attention": "資産7,000・負債4,500",
       "mistake": "足し算してしまう。",
-      "review_tag": "FP_LIFE_V43_16"
+      "review_tag": "FP_LIFE_V43_16",
+      "original_asset_ids": []
     },
     {
       "id": "FP1-Q17",
@@ -33464,7 +34743,8 @@ window.APP_DATA = {
       "subtopic": "現価係数",
       "attention": "将来目標額→現在元本",
       "mistake": "終価係数と逆にする。",
-      "review_tag": "FP_LIFE_V43_17"
+      "review_tag": "FP_LIFE_V43_17",
+      "original_asset_ids": []
     },
     {
       "id": "FP1-Q18",
@@ -33486,7 +34766,8 @@ window.APP_DATA = {
       "subtopic": "終価係数",
       "attention": "現在元本→将来額",
       "mistake": "現価係数と逆にする。",
-      "review_tag": "FP_LIFE_V43_18"
+      "review_tag": "FP_LIFE_V43_18",
+      "original_asset_ids": []
     },
     {
       "id": "FP1-Q19",
@@ -33508,7 +34789,8 @@ window.APP_DATA = {
       "subtopic": "減債基金係数",
       "attention": "将来目標額・毎年積立額",
       "mistake": "年金終価係数と逆にする。",
-      "review_tag": "FP_LIFE_V43_19"
+      "review_tag": "FP_LIFE_V43_19",
+      "original_asset_ids": []
     },
     {
       "id": "FP1-Q20",
@@ -33530,7 +34812,8 @@ window.APP_DATA = {
       "subtopic": "年金終価係数",
       "attention": "毎年積立→将来額",
       "mistake": "減債基金係数と逆にする。",
-      "review_tag": "FP_LIFE_V43_20"
+      "review_tag": "FP_LIFE_V43_20",
+      "original_asset_ids": []
     },
     {
       "id": "FP1-Q21",
@@ -33552,7 +34835,8 @@ window.APP_DATA = {
       "subtopic": "年金現価係数",
       "attention": "毎年受取→現在元本",
       "mistake": "資本回収係数と逆にする。",
-      "review_tag": "FP_LIFE_V43_21"
+      "review_tag": "FP_LIFE_V43_21",
+      "original_asset_ids": []
     },
     {
       "id": "FP1-Q22",
@@ -33574,7 +34858,8 @@ window.APP_DATA = {
       "subtopic": "資本回収係数",
       "attention": "現在元本→毎年受取/返済",
       "mistake": "年金現価係数と逆にする。",
-      "review_tag": "FP_LIFE_V43_22"
+      "review_tag": "FP_LIFE_V43_22",
+      "original_asset_ids": []
     },
     {
       "id": "FP1-Q23",
@@ -33596,7 +34881,8 @@ window.APP_DATA = {
       "subtopic": "減債基金係数の計算",
       "attention": "100万円・2%・5年・0.1922",
       "mistake": "係数を逆数にしたり桁を誤る。",
-      "review_tag": "FP_LIFE_V43_23"
+      "review_tag": "FP_LIFE_V43_23",
+      "original_asset_ids": []
     },
     {
       "id": "FP1-Q24",
@@ -33618,7 +34904,8 @@ window.APP_DATA = {
       "subtopic": "年金終価係数の計算",
       "attention": "10万円・5%・5年・5.5256",
       "mistake": "係数の種類や金額の桁を誤る。",
-      "review_tag": "FP_LIFE_V43_24"
+      "review_tag": "FP_LIFE_V43_24",
+      "original_asset_ids": []
     },
     {
       "id": "FP1-V44-Q01",
@@ -33639,7 +34926,8 @@ window.APP_DATA = {
       "mistake": "元金均等返済と混同",
       "review_tag": "FP_CH1_V44_01",
       "source_group": "Edge.pdf 第1章 ライフプランニングと資金計画",
-      "source_section": "住宅ローン返済"
+      "source_section": "住宅ローン返済",
+      "original_asset_ids": []
     },
     {
       "id": "FP1-V44-Q02",
@@ -33660,7 +34948,8 @@ window.APP_DATA = {
       "mistake": "一般の住宅ローン条件と混同",
       "review_tag": "FP_CH1_V44_02",
       "source_group": "Edge.pdf 第1章 ライフプランニングと資金計画",
-      "source_section": "フラット35"
+      "source_section": "フラット35",
+      "original_asset_ids": []
     },
     {
       "id": "FP1-V44-Q03",
@@ -33679,7 +34968,8 @@ window.APP_DATA = {
       "mistake": "2方式を逆にする",
       "review_tag": "FP_CH1_V44_03",
       "source_group": "Edge.pdf 第1章 ライフプランニングと資金計画",
-      "source_section": "繰上げ返済"
+      "source_section": "繰上げ返済",
+      "original_asset_ids": []
     },
     {
       "id": "FP1-V44-Q04",
@@ -33700,7 +34990,8 @@ window.APP_DATA = {
       "mistake": "海外留学450万円と通常上限を混同",
       "review_tag": "FP_CH1_V44_04",
       "source_group": "Edge.pdf 第1章 ライフプランニングと資金計画",
-      "source_section": "国の教育ローン"
+      "source_section": "国の教育ローン",
+      "original_asset_ids": []
     },
     {
       "id": "FP1-V44-Q05",
@@ -33719,7 +35010,8 @@ window.APP_DATA = {
       "mistake": "重複利用不可と思い込む",
       "review_tag": "FP_CH1_V44_05",
       "source_group": "Edge.pdf 第1章 ライフプランニングと資金計画",
-      "source_section": "教育ローンと奨学金"
+      "source_section": "教育ローンと奨学金",
+      "original_asset_ids": []
     },
     {
       "id": "FP1-V44-Q06",
@@ -33740,7 +35032,8 @@ window.APP_DATA = {
       "mistake": "350万円と混同",
       "review_tag": "FP_CH1_V44_06",
       "source_group": "Edge.pdf 第1章 ライフプランニングと資金計画",
-      "source_section": "国の教育ローン"
+      "source_section": "国の教育ローン",
+      "original_asset_ids": []
     },
     {
       "id": "FP1-V44-Q07",
@@ -33761,7 +35054,8 @@ window.APP_DATA = {
       "mistake": "年単位で計算",
       "review_tag": "FP_CH1_V44_07",
       "source_group": "Edge.pdf 第1章 ライフプランニングと資金計画",
-      "source_section": "繰下げ受給"
+      "source_section": "繰下げ受給",
+      "original_asset_ids": []
     },
     {
       "id": "FP1-V44-Q08",
@@ -33780,7 +35074,8 @@ window.APP_DATA = {
       "mistake": "2倍と誤認",
       "review_tag": "FP_CH1_V44_08",
       "source_group": "Edge.pdf 第1章 ライフプランニングと資金計画",
-      "source_section": "障害基礎年金"
+      "source_section": "障害基礎年金",
+      "original_asset_ids": []
     },
     {
       "id": "FP1-V44-Q09",
@@ -33801,7 +35096,8 @@ window.APP_DATA = {
       "mistake": "加給年金・振替加算と混同",
       "review_tag": "FP_CH1_V44_09",
       "source_group": "Edge.pdf 第1章 ライフプランニングと資金計画",
-      "source_section": "中高齢寡婦加算"
+      "source_section": "中高齢寡婦加算",
+      "original_asset_ids": []
     },
     {
       "id": "FP1-V44-Q10",
@@ -33822,7 +35118,8 @@ window.APP_DATA = {
       "mistake": "第1号・第2号と混同",
       "review_tag": "FP_CH1_V44_10",
       "source_group": "Edge.pdf 第1章 ライフプランニングと資金計画",
-      "source_section": "国民年金被保険者"
+      "source_section": "国民年金被保険者",
+      "original_asset_ids": []
     },
     {
       "id": "FP1-V44-Q11",
@@ -33843,7 +35140,8 @@ window.APP_DATA = {
       "mistake": "14日と混同",
       "review_tag": "FP_CH1_V44_11",
       "source_group": "Edge.pdf 第1章 ライフプランニングと資金計画",
-      "source_section": "任意継続"
+      "source_section": "任意継続",
+      "original_asset_ids": []
     },
     {
       "id": "FP1-V44-Q12",
@@ -33864,7 +35162,8 @@ window.APP_DATA = {
       "mistake": "3日目からと誤る",
       "review_tag": "FP_CH1_V44_12",
       "source_group": "Edge.pdf 第1章 ライフプランニングと資金計画",
-      "source_section": "傷病手当金"
+      "source_section": "傷病手当金",
+      "original_asset_ids": []
     },
     {
       "id": "FP1-V44-Q13",
@@ -33883,7 +35182,8 @@ window.APP_DATA = {
       "mistake": "介護保険第1号と混同",
       "review_tag": "FP_CH1_V44_13",
       "source_group": "Edge.pdf 第1章 ライフプランニングと資金計画",
-      "source_section": "後期高齢者医療"
+      "source_section": "後期高齢者医療",
+      "original_asset_ids": []
     },
     {
       "id": "FP1-V44-Q14",
@@ -33904,7 +35204,8 @@ window.APP_DATA = {
       "mistake": "払戻額212,570円と混同",
       "review_tag": "FP_CH1_V44_14",
       "source_group": "Edge.pdf 第1章 ライフプランニングと資金計画",
-      "source_section": "高額療養費"
+      "source_section": "高額療養費",
+      "original_asset_ids": []
     },
     {
       "id": "FP1-V44-Q15",
@@ -33923,7 +35224,8 @@ window.APP_DATA = {
       "mistake": "第1号の原因不問と混同",
       "review_tag": "FP_CH1_V44_15",
       "source_group": "Edge.pdf 第1章 ライフプランニングと資金計画",
-      "source_section": "第2号被保険者"
+      "source_section": "第2号被保険者",
+      "original_asset_ids": []
     },
     {
       "id": "FP1-V44-Q16",
@@ -33944,7 +35246,8 @@ window.APP_DATA = {
       "mistake": "第1号65歳以上と混同",
       "review_tag": "FP_CH1_V44_16",
       "source_group": "Edge.pdf 第1章 ライフプランニングと資金計画",
-      "source_section": "被保険者区分"
+      "source_section": "被保険者区分",
+      "original_asset_ids": []
     },
     {
       "id": "FP1-V44-Q17",
@@ -33965,7 +35268,8 @@ window.APP_DATA = {
       "mistake": "要介護5段階だけ数える",
       "review_tag": "FP_CH1_V44_17",
       "source_group": "Edge.pdf 第1章 ライフプランニングと資金計画",
-      "source_section": "要介護認定"
+      "source_section": "要介護認定",
+      "original_asset_ids": []
     },
     {
       "id": "FP1-V44-Q18",
@@ -33986,7 +35290,8 @@ window.APP_DATA = {
       "mistake": "健康保険の待期と混同",
       "review_tag": "FP_CH1_V44_18",
       "source_group": "Edge.pdf 第1章 ライフプランニングと資金計画",
-      "source_section": "労災休業補償"
+      "source_section": "労災休業補償",
+      "original_asset_ids": []
     },
     {
       "id": "FP1-V44-Q19",
@@ -34007,7 +35312,8 @@ window.APP_DATA = {
       "mistake": "1年・6カ月の特例と混同",
       "review_tag": "FP_CH1_V44_19",
       "source_group": "Edge.pdf 第1章 ライフプランニングと資金計画",
-      "source_section": "雇用保険基本手当"
+      "source_section": "雇用保険基本手当",
+      "original_asset_ids": []
     },
     {
       "id": "FP1-V44-Q20",
@@ -34028,7 +35334,8 @@ window.APP_DATA = {
       "mistake": "特定受給資格者と混同",
       "review_tag": "FP_CH1_V44_20",
       "source_group": "Edge.pdf 第1章 ライフプランニングと資金計画",
-      "source_section": "基本手当所定給付日数"
+      "source_section": "基本手当所定給付日数",
+      "original_asset_ids": []
     },
     {
       "id": "FP1-V44-Q21",
@@ -34047,7 +35354,8 @@ window.APP_DATA = {
       "mistake": "85%と混同",
       "review_tag": "FP_CH1_V44_21",
       "source_group": "Edge.pdf 第1章 ライフプランニングと資金計画",
-      "source_section": "高年齢雇用継続給付"
+      "source_section": "高年齢雇用継続給付",
+      "original_asset_ids": []
     },
     {
       "id": "FP1-V44-Q22",
@@ -34066,7 +35374,8 @@ window.APP_DATA = {
       "mistake": "84万円と混同",
       "review_tag": "FP_CH1_V44_22",
       "source_group": "Edge.pdf 第1章 ライフプランニングと資金計画",
-      "source_section": "個人型DC"
+      "source_section": "個人型DC",
+      "original_asset_ids": []
     },
     {
       "id": "FP1-V44-Q23",
@@ -34085,7 +35394,8 @@ window.APP_DATA = {
       "mistake": "専業主婦等は不可と誤認",
       "review_tag": "FP_CH1_V44_23",
       "source_group": "Edge.pdf 第1章 ライフプランニングと資金計画",
-      "source_section": "個人型DC"
+      "source_section": "個人型DC",
+      "original_asset_ids": []
     },
     {
       "id": "FP1-V44-Q24",
@@ -34106,7 +35416,8 @@ window.APP_DATA = {
       "mistake": "個人型と混同",
       "review_tag": "FP_CH1_V44_24",
       "source_group": "Edge.pdf 第1章 ライフプランニングと資金計画",
-      "source_section": "企業型DC"
+      "source_section": "企業型DC",
+      "original_asset_ids": []
     },
     {
       "id": "FP2-V45-Q01",
@@ -34127,7 +35438,8 @@ window.APP_DATA = {
       "mistake": "役割逆転",
       "review_tag": "FP_RISK_V45_01",
       "source_group": "Edge.pdf 第2章 リスク管理",
-      "source_section": "保険法と保険業法"
+      "source_section": "保険法と保険業法",
+      "original_asset_ids": []
     },
     {
       "id": "FP2-V45-Q02",
@@ -34148,7 +35460,8 @@ window.APP_DATA = {
       "mistake": "20日と混同",
       "review_tag": "FP_RISK_V45_02",
       "source_group": "Edge.pdf 第2章 リスク管理",
-      "source_section": "クーリングオフ"
+      "source_section": "クーリングオフ",
+      "original_asset_ids": []
     },
     {
       "id": "FP2-V45-Q03",
@@ -34167,7 +35480,8 @@ window.APP_DATA = {
       "mistake": "自主申告と誤認",
       "review_tag": "FP_RISK_V45_03",
       "source_group": "Edge.pdf 第2章 リスク管理",
-      "source_section": "告知義務"
+      "source_section": "告知義務",
+      "original_asset_ids": []
     },
     {
       "id": "FP2-V45-Q04",
@@ -34186,7 +35500,8 @@ window.APP_DATA = {
       "mistake": "一般保険会社と混同",
       "review_tag": "FP_RISK_V45_04",
       "source_group": "Edge.pdf 第2章 リスク管理",
-      "source_section": "契約者保護"
+      "source_section": "契約者保護",
+      "original_asset_ids": []
     },
     {
       "id": "FP2-V45-Q05",
@@ -34207,7 +35522,8 @@ window.APP_DATA = {
       "mistake": "予定死亡率と混同",
       "review_tag": "FP_RISK_V45_05",
       "source_group": "Edge.pdf 第2章 リスク管理",
-      "source_section": "保険料算定"
+      "source_section": "保険料算定",
+      "original_asset_ids": []
     },
     {
       "id": "FP2-V45-Q06",
@@ -34228,7 +35544,8 @@ window.APP_DATA = {
       "mistake": "要素不足",
       "review_tag": "FP_RISK_V45_06",
       "source_group": "Edge.pdf 第2章 リスク管理",
-      "source_section": "責任開始日"
+      "source_section": "責任開始日",
+      "original_asset_ids": []
     },
     {
       "id": "FP2-V45-Q07",
@@ -34247,7 +35564,8 @@ window.APP_DATA = {
       "mistake": "逆にする",
       "review_tag": "FP_RISK_V45_07",
       "source_group": "Edge.pdf 第2章 リスク管理",
-      "source_section": "払済保険と延長保険"
+      "source_section": "払済保険と延長保険",
+      "original_asset_ids": []
     },
     {
       "id": "FP2-V45-Q08",
@@ -34268,7 +35586,8 @@ window.APP_DATA = {
       "mistake": "3カ月と混同",
       "review_tag": "FP_RISK_V45_08",
       "source_group": "Edge.pdf 第2章 リスク管理",
-      "source_section": "リビング・ニーズ"
+      "source_section": "リビング・ニーズ",
+      "original_asset_ids": []
     },
     {
       "id": "FP2-V45-Q09",
@@ -34289,7 +35608,8 @@ window.APP_DATA = {
       "mistake": "死亡＝相続税と決めつける",
       "review_tag": "FP_RISK_V45_09",
       "source_group": "Edge.pdf 第2章 リスク管理",
-      "source_section": "死亡保険金課税"
+      "source_section": "死亡保険金課税",
+      "original_asset_ids": []
     },
     {
       "id": "FP2-V45-Q10",
@@ -34310,7 +35630,8 @@ window.APP_DATA = {
       "mistake": "旧制度と混同",
       "review_tag": "FP_RISK_V45_10",
       "source_group": "Edge.pdf 第2章 リスク管理",
-      "source_section": "生命保険料控除"
+      "source_section": "生命保険料控除",
+      "original_asset_ids": []
     },
     {
       "id": "FP2-V45-Q11",
@@ -34331,7 +35652,8 @@ window.APP_DATA = {
       "mistake": "3000と混同",
       "review_tag": "FP_RISK_V45_11",
       "source_group": "Edge.pdf 第2章 リスク管理",
-      "source_section": "地震保険"
+      "source_section": "地震保険",
+      "original_asset_ids": []
     },
     {
       "id": "FP2-V45-Q12",
@@ -34352,7 +35674,8 @@ window.APP_DATA = {
       "mistake": "任意保険と混同",
       "review_tag": "FP_RISK_V45_12",
       "source_group": "Edge.pdf 第2章 リスク管理",
-      "source_section": "自賠責"
+      "source_section": "自賠責",
+      "original_asset_ids": []
     },
     {
       "id": "FP2-V45-Q13",
@@ -34371,7 +35694,8 @@ window.APP_DATA = {
       "mistake": "同居のみと誤認",
       "review_tag": "FP_RISK_V45_13",
       "source_group": "Edge.pdf 第2章 リスク管理",
-      "source_section": "家族傷害"
+      "source_section": "家族傷害",
+      "original_asset_ids": []
     },
     {
       "id": "FP2-V45-Q14",
@@ -34390,7 +35714,8 @@ window.APP_DATA = {
       "mistake": "国内旅行と混同",
       "review_tag": "FP_RISK_V45_14",
       "source_group": "Edge.pdf 第2章 リスク管理",
-      "source_section": "普通傷害"
+      "source_section": "普通傷害",
+      "original_asset_ids": []
     },
     {
       "id": "FP2-V45-Q15",
@@ -34411,7 +35736,8 @@ window.APP_DATA = {
       "mistake": "国内旅行と混同",
       "review_tag": "FP_RISK_V45_15",
       "source_group": "Edge.pdf 第2章 リスク管理",
-      "source_section": "旅行傷害"
+      "source_section": "旅行傷害",
+      "original_asset_ids": []
     },
     {
       "id": "FP2-V45-Q16",
@@ -34432,7 +35758,8 @@ window.APP_DATA = {
       "mistake": "全賠償責任が対象と思う",
       "review_tag": "FP_RISK_V45_16",
       "source_group": "Edge.pdf 第2章 リスク管理",
-      "source_section": "個人賠償"
+      "source_section": "個人賠償",
+      "original_asset_ids": []
     },
     {
       "id": "FP2-V45-Q17",
@@ -34451,7 +35778,8 @@ window.APP_DATA = {
       "mistake": "施設管理と混同",
       "review_tag": "FP_RISK_V45_17",
       "source_group": "Edge.pdf 第2章 リスク管理",
-      "source_section": "PL保険"
+      "source_section": "PL保険",
+      "original_asset_ids": []
     },
     {
       "id": "FP2-V45-Q18",
@@ -34472,7 +35800,8 @@ window.APP_DATA = {
       "mistake": "90日と混同",
       "review_tag": "FP_RISK_V45_18",
       "source_group": "Edge.pdf 第2章 リスク管理",
-      "source_section": "医療保険"
+      "source_section": "医療保険",
+      "original_asset_ids": []
     },
     {
       "id": "FP2-V45-Q19",
@@ -34491,7 +35820,8 @@ window.APP_DATA = {
       "mistake": "医療保険と混同",
       "review_tag": "FP_RISK_V45_19",
       "source_group": "Edge.pdf 第2章 リスク管理",
-      "source_section": "がん保険"
+      "source_section": "がん保険",
+      "original_asset_ids": []
     },
     {
       "id": "FP2-V45-Q20",
@@ -34510,7 +35840,8 @@ window.APP_DATA = {
       "mistake": "医療保険と混同",
       "review_tag": "FP_RISK_V45_20",
       "source_group": "Edge.pdf 第2章 リスク管理",
-      "source_section": "所得補償"
+      "source_section": "所得補償",
+      "original_asset_ids": []
     },
     {
       "id": "FP2-V45-Q21",
@@ -34531,7 +35862,8 @@ window.APP_DATA = {
       "mistake": "加入時固定と誤認",
       "review_tag": "FP_RISK_V45_21",
       "source_group": "Edge.pdf 第2章 リスク管理",
-      "source_section": "先進医療特約"
+      "source_section": "先進医療特約",
+      "original_asset_ids": []
     },
     {
       "id": "FP2-V45-Q22",
@@ -34550,7 +35882,8 @@ window.APP_DATA = {
       "mistake": "特約＝有料と思う",
       "review_tag": "FP_RISK_V45_22",
       "source_group": "Edge.pdf 第2章 リスク管理",
-      "source_section": "リビング・ニーズ"
+      "source_section": "リビング・ニーズ",
+      "original_asset_ids": []
     },
     {
       "id": "FP3-V46-Q01",
@@ -34571,7 +35904,8 @@ window.APP_DATA = {
       "mistake": "先行/遅行と混同",
       "review_tag": "FP_FIN_V46_01",
       "source_group": "Edge.pdf 第3章 金融資産運用",
-      "source_section": "景気動向指数"
+      "source_section": "景気動向指数",
+      "original_asset_ids": []
     },
     {
       "id": "FP3-V46-Q02",
@@ -34592,7 +35926,8 @@ window.APP_DATA = {
       "mistake": "企業物価指数と混同",
       "review_tag": "FP_FIN_V46_02",
       "source_group": "Edge.pdf 第3章 金融資産運用",
-      "source_section": "消費者物価指数"
+      "source_section": "消費者物価指数",
+      "original_asset_ids": []
     },
     {
       "id": "FP3-V46-Q03",
@@ -34611,7 +35946,8 @@ window.APP_DATA = {
       "mistake": "方向を逆にする",
       "review_tag": "FP_FIN_V46_03",
       "source_group": "Edge.pdf 第3章 金融資産運用",
-      "source_section": "公開市場操作"
+      "source_section": "公開市場操作",
+      "original_asset_ids": []
     },
     {
       "id": "FP3-V46-Q04",
@@ -34630,7 +35966,8 @@ window.APP_DATA = {
       "mistake": "単利計算",
       "review_tag": "FP_FIN_V46_04",
       "source_group": "Edge.pdf 第3章 金融資産運用",
-      "source_section": "複利"
+      "source_section": "複利",
+      "original_asset_ids": []
     },
     {
       "id": "FP3-V46-Q05",
@@ -34651,7 +35988,8 @@ window.APP_DATA = {
       "mistake": "決済用預金と混同",
       "review_tag": "FP_FIN_V46_05",
       "source_group": "Edge.pdf 第3章 金融資産運用",
-      "source_section": "預金保険"
+      "source_section": "預金保険",
+      "original_asset_ids": []
     },
     {
       "id": "FP3-V46-Q06",
@@ -34670,7 +36008,8 @@ window.APP_DATA = {
       "mistake": "一般預金と混同",
       "review_tag": "FP_FIN_V46_06",
       "source_group": "Edge.pdf 第3章 金融資産運用",
-      "source_section": "決済用預金"
+      "source_section": "決済用預金",
+      "original_asset_ids": []
     },
     {
       "id": "FP3-V46-Q07",
@@ -34689,7 +36028,8 @@ window.APP_DATA = {
       "mistake": "同方向と誤認",
       "review_tag": "FP_FIN_V46_07",
       "source_group": "Edge.pdf 第3章 金融資産運用",
-      "source_section": "債券価格と金利"
+      "source_section": "債券価格と金利",
+      "original_asset_ids": []
     },
     {
       "id": "FP3-V46-Q08",
@@ -34710,7 +36050,8 @@ window.APP_DATA = {
       "mistake": "5年と混同",
       "review_tag": "FP_FIN_V46_08",
       "source_group": "Edge.pdf 第3章 金融資産運用",
-      "source_section": "個人向け国債"
+      "source_section": "個人向け国債",
+      "original_asset_ids": []
     },
     {
       "id": "FP3-V46-Q09",
@@ -34731,7 +36072,8 @@ window.APP_DATA = {
       "mistake": "分母を額面にする",
       "review_tag": "FP_FIN_V46_09",
       "source_group": "Edge.pdf 第3章 金融資産運用",
-      "source_section": "最終利回り"
+      "source_section": "最終利回り",
+      "original_asset_ids": []
     },
     {
       "id": "FP3-V46-Q10",
@@ -34750,7 +36092,8 @@ window.APP_DATA = {
       "mistake": "逆にする",
       "review_tag": "FP_FIN_V46_10",
       "source_group": "Edge.pdf 第3章 金融資産運用",
-      "source_section": "注文方法"
+      "source_section": "注文方法",
+      "original_asset_ids": []
     },
     {
       "id": "FP3-V46-Q11",
@@ -34771,7 +36114,8 @@ window.APP_DATA = {
       "mistake": "片方だけ見る",
       "review_tag": "FP_FIN_V46_11",
       "source_group": "Edge.pdf 第3章 金融資産運用",
-      "source_section": "信用取引"
+      "source_section": "信用取引",
+      "original_asset_ids": []
     },
     {
       "id": "FP3-V46-Q12",
@@ -34792,7 +36136,8 @@ window.APP_DATA = {
       "mistake": "PBRと混同",
       "review_tag": "FP_FIN_V46_12",
       "source_group": "Edge.pdf 第3章 金融資産運用",
-      "source_section": "PER"
+      "source_section": "PER",
+      "original_asset_ids": []
     },
     {
       "id": "FP3-V46-Q13",
@@ -34813,7 +36158,8 @@ window.APP_DATA = {
       "mistake": "PERと混同",
       "review_tag": "FP_FIN_V46_13",
       "source_group": "Edge.pdf 第3章 金融資産運用",
-      "source_section": "PBR"
+      "source_section": "PBR",
+      "original_asset_ids": []
     },
     {
       "id": "FP3-V46-Q14",
@@ -34834,7 +36180,8 @@ window.APP_DATA = {
       "mistake": "バリューと混同",
       "review_tag": "FP_FIN_V46_14",
       "source_group": "Edge.pdf 第3章 金融資産運用",
-      "source_section": "グロース運用"
+      "source_section": "グロース運用",
+      "original_asset_ids": []
     },
     {
       "id": "FP3-V46-Q15",
@@ -34855,7 +36202,8 @@ window.APP_DATA = {
       "mistake": "普通分配金と混同",
       "review_tag": "FP_FIN_V46_15",
       "source_group": "Edge.pdf 第3章 金融資産運用",
-      "source_section": "分配金"
+      "source_section": "分配金",
+      "original_asset_ids": []
     },
     {
       "id": "FP3-V46-Q16",
@@ -34876,7 +36224,8 @@ window.APP_DATA = {
       "mistake": "解約時費用と混同",
       "review_tag": "FP_FIN_V46_16",
       "source_group": "Edge.pdf 第3章 金融資産運用",
-      "source_section": "費用"
+      "source_section": "費用",
+      "original_asset_ids": []
     },
     {
       "id": "FP3-V46-Q17",
@@ -34895,7 +36244,8 @@ window.APP_DATA = {
       "mistake": "通常投信と混同",
       "review_tag": "FP_FIN_V46_17",
       "source_group": "Edge.pdf 第3章 金融資産運用",
-      "source_section": "ETF"
+      "source_section": "ETF",
+      "original_asset_ids": []
     },
     {
       "id": "FP3-V46-Q18",
@@ -34914,7 +36264,8 @@ window.APP_DATA = {
       "mistake": "逆にする",
       "review_tag": "FP_FIN_V46_18",
       "source_group": "Edge.pdf 第3章 金融資産運用",
-      "source_section": "外貨預金"
+      "source_section": "外貨預金",
+      "original_asset_ids": []
     },
     {
       "id": "FP3-V46-Q19",
@@ -34935,7 +36286,8 @@ window.APP_DATA = {
       "mistake": "コールと混同",
       "review_tag": "FP_FIN_V46_19",
       "source_group": "Edge.pdf 第3章 金融資産運用",
-      "source_section": "オプション"
+      "source_section": "オプション",
+      "original_asset_ids": []
     },
     {
       "id": "FP3-V46-Q20",
@@ -34954,7 +36306,8 @@ window.APP_DATA = {
       "mistake": "逆にする",
       "review_tag": "FP_FIN_V46_20",
       "source_group": "Edge.pdf 第3章 金融資産運用",
-      "source_section": "プレミアム"
+      "source_section": "プレミアム",
+      "original_asset_ids": []
     },
     {
       "id": "FP3-V46-Q21",
@@ -34975,7 +36328,8 @@ window.APP_DATA = {
       "mistake": "0と混同",
       "review_tag": "FP_FIN_V46_21",
       "source_group": "Edge.pdf 第3章 金融資産運用",
-      "source_section": "相関係数"
+      "source_section": "相関係数",
+      "original_asset_ids": []
     },
     {
       "id": "FP3-V46-Q22",
@@ -34996,7 +36350,8 @@ window.APP_DATA = {
       "mistake": "単純平均",
       "review_tag": "FP_FIN_V46_22",
       "source_group": "Edge.pdf 第3章 金融資産運用",
-      "source_section": "期待収益率"
+      "source_section": "期待収益率",
+      "original_asset_ids": []
     },
     {
       "id": "FP3-V46-Q23",
@@ -35017,7 +36372,8 @@ window.APP_DATA = {
       "mistake": "240万円と混同",
       "review_tag": "FP_FIN_V46_23",
       "source_group": "Edge.pdf 第3章 金融資産運用",
-      "source_section": "NISA"
+      "source_section": "NISA",
+      "original_asset_ids": []
     },
     {
       "id": "FP3-V46-Q24",
@@ -35038,7 +36394,8 @@ window.APP_DATA = {
       "mistake": "1,200万円と混同",
       "review_tag": "FP_FIN_V46_24",
       "source_group": "Edge.pdf 第3章 金融資産運用",
-      "source_section": "NISA"
+      "source_section": "NISA",
+      "original_asset_ids": []
     },
     {
       "id": "FP3-V46-Q25",
@@ -35057,7 +36414,8 @@ window.APP_DATA = {
       "mistake": "円預金と混同",
       "review_tag": "FP_FIN_V46_25",
       "source_group": "Edge.pdf 第3章 金融資産運用",
-      "source_section": "預金保険"
+      "source_section": "預金保険",
+      "original_asset_ids": []
     },
     {
       "id": "FP3-V46-Q26",
@@ -35078,7 +36436,8 @@ window.APP_DATA = {
       "mistake": "預金保険と制度混同",
       "review_tag": "FP_FIN_V46_26",
       "source_group": "Edge.pdf 第3章 金融資産運用",
-      "source_section": "投資者保護基金"
+      "source_section": "投資者保護基金",
+      "original_asset_ids": []
     },
     {
       "id": "FP3-V46-Q27",
@@ -35097,7 +36456,8 @@ window.APP_DATA = {
       "mistake": "特定投資家との区別を見落とす",
       "review_tag": "FP_FIN_V46_27",
       "source_group": "Edge.pdf 第3章 金融資産運用",
-      "source_section": "金融商品取引法"
+      "source_section": "金融商品取引法",
+      "original_asset_ids": []
     },
     {
       "id": "FP4-V47-Q01",
@@ -35116,7 +36476,8 @@ window.APP_DATA = {
       "mistake": "10万円と混同",
       "review_tag": "FP_TAX_V47_01",
       "source_group": "Edge.pdf 第4章 タックスプランニング",
-      "source_section": "非課税所得"
+      "source_section": "非課税所得",
+      "original_asset_ids": []
     },
     {
       "id": "FP4-V47-Q02",
@@ -35137,7 +36498,8 @@ window.APP_DATA = {
       "mistake": "固定資産税等と混同",
       "review_tag": "FP_TAX_V47_02",
       "source_group": "Edge.pdf 第4章 タックスプランニング",
-      "source_section": "税の分類"
+      "source_section": "税の分類",
+      "original_asset_ids": []
     },
     {
       "id": "FP4-V47-Q03",
@@ -35156,7 +36518,8 @@ window.APP_DATA = {
       "mistake": "単一税率と誤認",
       "review_tag": "FP_TAX_V47_03",
       "source_group": "Edge.pdf 第4章 タックスプランニング",
-      "source_section": "所得税率"
+      "source_section": "所得税率",
+      "original_asset_ids": []
     },
     {
       "id": "FP4-V47-Q04",
@@ -35175,7 +36538,8 @@ window.APP_DATA = {
       "mistake": "規模で事業所得と誤認",
       "review_tag": "FP_TAX_V47_04",
       "source_group": "Edge.pdf 第4章 タックスプランニング",
-      "source_section": "不動産所得"
+      "source_section": "不動産所得",
+      "original_asset_ids": []
     },
     {
       "id": "FP4-V47-Q05",
@@ -35196,7 +36560,8 @@ window.APP_DATA = {
       "mistake": "50万円で止める",
       "review_tag": "FP_TAX_V47_05",
       "source_group": "Edge.pdf 第4章 タックスプランニング",
-      "source_section": "一時所得"
+      "source_section": "一時所得",
+      "original_asset_ids": []
     },
     {
       "id": "FP4-V47-Q06",
@@ -35217,7 +36582,8 @@ window.APP_DATA = {
       "mistake": "40万円式を使う",
       "review_tag": "FP_TAX_V47_06",
       "source_group": "Edge.pdf 第4章 タックスプランニング",
-      "source_section": "退職所得控除"
+      "source_section": "退職所得控除",
+      "original_asset_ids": []
     },
     {
       "id": "FP4-V47-Q07",
@@ -35238,7 +36604,8 @@ window.APP_DATA = {
       "mistake": "雑所得を含める",
       "review_tag": "FP_TAX_V47_07",
       "source_group": "Edge.pdf 第4章 タックスプランニング",
-      "source_section": "損益通算"
+      "source_section": "損益通算",
+      "original_asset_ids": []
     },
     {
       "id": "FP4-V47-Q08",
@@ -35257,7 +36624,8 @@ window.APP_DATA = {
       "mistake": "不動産所得なら全部可と誤認",
       "review_tag": "FP_TAX_V47_08",
       "source_group": "Edge.pdf 第4章 タックスプランニング",
-      "source_section": "損益通算例外"
+      "source_section": "損益通算例外",
+      "original_asset_ids": []
     },
     {
       "id": "FP4-V47-Q09",
@@ -35276,7 +36644,8 @@ window.APP_DATA = {
       "mistake": "所得金額と混同",
       "review_tag": "FP_TAX_V47_09",
       "source_group": "Edge.pdf 第4章 タックスプランニング",
-      "source_section": "給与所得者の確定申告"
+      "source_section": "給与所得者の確定申告",
+      "original_asset_ids": []
     },
     {
       "id": "FP4-V47-Q10",
@@ -35297,7 +36666,8 @@ window.APP_DATA = {
       "mistake": "売却日時点と誤認",
       "review_tag": "FP_TAX_V47_10",
       "source_group": "Edge.pdf 第4章 タックスプランニング",
-      "source_section": "譲渡所得"
+      "source_section": "譲渡所得",
+      "original_asset_ids": []
     },
     {
       "id": "FP4-V47-Q11",
@@ -35316,7 +36686,8 @@ window.APP_DATA = {
       "mistake": "配偶者所得だけ見る",
       "review_tag": "FP_TAX_V47_11",
       "source_group": "Edge.pdf 第4章 タックスプランニング",
-      "source_section": "配偶者控除"
+      "source_section": "配偶者控除",
+      "original_asset_ids": []
     },
     {
       "id": "FP4-V47-Q12",
@@ -35337,7 +36708,8 @@ window.APP_DATA = {
       "mistake": "配偶者控除と混同",
       "review_tag": "FP_TAX_V47_12",
       "source_group": "Edge.pdf 第4章 タックスプランニング",
-      "source_section": "配偶者特別控除"
+      "source_section": "配偶者特別控除",
+      "original_asset_ids": []
     },
     {
       "id": "FP4-V47-Q13",
@@ -35356,7 +36728,8 @@ window.APP_DATA = {
       "mistake": "年少扶養を含める",
       "review_tag": "FP_TAX_V47_13",
       "source_group": "Edge.pdf 第4章 タックスプランニング",
-      "source_section": "扶養控除"
+      "source_section": "扶養控除",
+      "original_asset_ids": []
     },
     {
       "id": "FP4-V47-Q14",
@@ -35377,7 +36750,8 @@ window.APP_DATA = {
       "mistake": "老人扶養等と混同",
       "review_tag": "FP_TAX_V47_14",
       "source_group": "Edge.pdf 第4章 タックスプランニング",
-      "source_section": "特定扶養親族"
+      "source_section": "特定扶養親族",
+      "original_asset_ids": []
     },
     {
       "id": "FP4-V47-Q15",
@@ -35396,7 +36770,8 @@ window.APP_DATA = {
       "mistake": "扶養控除要件と混同",
       "review_tag": "FP_TAX_V47_15",
       "source_group": "Edge.pdf 第4章 タックスプランニング",
-      "source_section": "医療費控除"
+      "source_section": "医療費控除",
+      "original_asset_ids": []
     },
     {
       "id": "FP4-V47-Q16",
@@ -35417,7 +36792,8 @@ window.APP_DATA = {
       "mistake": "セルフメディケーション上限と混同",
       "review_tag": "FP_TAX_V47_16",
       "source_group": "Edge.pdf 第4章 タックスプランニング",
-      "source_section": "医療費控除"
+      "source_section": "医療費控除",
+      "original_asset_ids": []
     },
     {
       "id": "FP4-V47-Q17",
@@ -35438,7 +36814,8 @@ window.APP_DATA = {
       "mistake": "12,000円を上限と誤認",
       "review_tag": "FP_TAX_V47_17",
       "source_group": "Edge.pdf 第4章 タックスプランニング",
-      "source_section": "セルフメディケーション"
+      "source_section": "セルフメディケーション",
+      "original_asset_ids": []
     },
     {
       "id": "FP4-V47-Q18",
@@ -35457,7 +36834,8 @@ window.APP_DATA = {
       "mistake": "上限があると誤認",
       "review_tag": "FP_TAX_V47_18",
       "source_group": "Edge.pdf 第4章 タックスプランニング",
-      "source_section": "社会保険料控除"
+      "source_section": "社会保険料控除",
+      "original_asset_ids": []
     },
     {
       "id": "FP4-V47-Q19",
@@ -35478,7 +36856,8 @@ window.APP_DATA = {
       "mistake": "申告分離と混同",
       "review_tag": "FP_TAX_V47_19",
       "source_group": "Edge.pdf 第4章 タックスプランニング",
-      "source_section": "配当控除"
+      "source_section": "配当控除",
+      "original_asset_ids": []
     },
     {
       "id": "FP4-V47-Q20",
@@ -35497,7 +36876,8 @@ window.APP_DATA = {
       "mistake": "5年以上と混同",
       "review_tag": "FP_TAX_V47_20",
       "source_group": "Edge.pdf 第4章 タックスプランニング",
-      "source_section": "住宅ローン控除"
+      "source_section": "住宅ローン控除",
+      "original_asset_ids": []
     },
     {
       "id": "FP4-V47-Q21",
@@ -35518,7 +36898,8 @@ window.APP_DATA = {
       "mistake": "床面積特例の1,000万円と混同",
       "review_tag": "FP_TAX_V47_21",
       "source_group": "Edge.pdf 第4章 タックスプランニング",
-      "source_section": "住宅ローン控除"
+      "source_section": "住宅ローン控除",
+      "original_asset_ids": []
     },
     {
       "id": "FP4-V47-Q22",
@@ -35539,7 +36920,8 @@ window.APP_DATA = {
       "mistake": "住宅ローン0.7％と混同",
       "review_tag": "FP_TAX_V47_22",
       "source_group": "Edge.pdf 第4章 タックスプランニング",
-      "source_section": "復興特別所得税"
+      "source_section": "復興特別所得税",
+      "original_asset_ids": []
     },
     {
       "id": "FP4-V47-Q23",
@@ -35560,7 +36942,8 @@ window.APP_DATA = {
       "mistake": "開始日を誤る",
       "review_tag": "FP_TAX_V47_23",
       "source_group": "Edge.pdf 第4章 タックスプランニング",
-      "source_section": "確定申告"
+      "source_section": "確定申告",
+      "original_asset_ids": []
     },
     {
       "id": "FP4-V47-Q24",
@@ -35581,7 +36964,8 @@ window.APP_DATA = {
       "mistake": "帳簿保存7年と混同",
       "review_tag": "FP_TAX_V47_24",
       "source_group": "Edge.pdf 第4章 タックスプランニング",
-      "source_section": "更正の請求"
+      "source_section": "更正の請求",
+      "original_asset_ids": []
     },
     {
       "id": "FP4-V47-Q25",
@@ -35602,7 +36986,8 @@ window.APP_DATA = {
       "mistake": "青色申請2カ月と混同",
       "review_tag": "FP_TAX_V47_25",
       "source_group": "Edge.pdf 第4章 タックスプランニング",
-      "source_section": "準確定申告"
+      "source_section": "準確定申告",
+      "original_asset_ids": []
     },
     {
       "id": "FP4-V47-Q26",
@@ -35623,7 +37008,8 @@ window.APP_DATA = {
       "mistake": "55万円と混同",
       "review_tag": "FP_TAX_V47_26",
       "source_group": "Edge.pdf 第4章 タックスプランニング",
-      "source_section": "青色申告特別控除"
+      "source_section": "青色申告特別控除",
+      "original_asset_ids": []
     },
     {
       "id": "FP4-V47-Q27",
@@ -35644,7 +37030,8 @@ window.APP_DATA = {
       "mistake": "更正5年と混同",
       "review_tag": "FP_TAX_V47_27",
       "source_group": "Edge.pdf 第4章 タックスプランニング",
-      "source_section": "純損失繰越"
+      "source_section": "純損失繰越",
+      "original_asset_ids": []
     },
     {
       "id": "FP4-V47-Q28",
@@ -35663,7 +37050,8 @@ window.APP_DATA = {
       "mistake": "年末調整で全部完結と誤認",
       "review_tag": "FP_TAX_V47_28",
       "source_group": "Edge.pdf 第4章 タックスプランニング",
-      "source_section": "住宅ローン控除初年度"
+      "source_section": "住宅ローン控除初年度",
+      "original_asset_ids": []
     },
     {
       "id": "FP4-V47-Q29",
@@ -35684,7 +37072,8 @@ window.APP_DATA = {
       "mistake": "非課税取引と混同",
       "review_tag": "FP_TAX_V47_29",
       "source_group": "Edge.pdf 第4章 タックスプランニング",
-      "source_section": "消費税・不課税"
+      "source_section": "消費税・不課税",
+      "original_asset_ids": []
     },
     {
       "id": "FP4-V47-Q30",
@@ -35705,7 +37094,8 @@ window.APP_DATA = {
       "mistake": "住宅譲渡と混同",
       "review_tag": "FP_TAX_V47_30",
       "source_group": "Edge.pdf 第4章 タックスプランニング",
-      "source_section": "消費税・非課税"
+      "source_section": "消費税・非課税",
+      "original_asset_ids": []
     },
     {
       "id": "FP5-V49-Q01",
@@ -35726,7 +37116,8 @@ window.APP_DATA = {
       "mistake": "路線価80％と混同",
       "review_tag": "FP_RE_V49_01",
       "source_group": "Edge.pdf 第5章 不動産",
-      "source_section": "固定資産税評価額"
+      "source_section": "固定資産税評価額",
+      "original_asset_ids": []
     },
     {
       "id": "FP5-V49-Q02",
@@ -35747,7 +37138,8 @@ window.APP_DATA = {
       "mistake": "公示価格の国土交通省と混同",
       "review_tag": "FP_RE_V49_02",
       "source_group": "Edge.pdf 第5章 不動産",
-      "source_section": "相続税路線価"
+      "source_section": "相続税路線価",
+      "original_asset_ids": []
     },
     {
       "id": "FP5-V49-Q03",
@@ -35768,7 +37160,8 @@ window.APP_DATA = {
       "mistake": "直接還元法と混同",
       "review_tag": "FP_RE_V49_03",
       "source_group": "Edge.pdf 第5章 不動産",
-      "source_section": "収益還元法"
+      "source_section": "収益還元法",
+      "original_asset_ids": []
     },
     {
       "id": "FP5-V49-Q04",
@@ -35789,7 +37182,8 @@ window.APP_DATA = {
       "mistake": "抵当権と混同",
       "review_tag": "FP_RE_V49_04",
       "source_group": "Edge.pdf 第5章 不動産",
-      "source_section": "登記記録"
+      "source_section": "登記記録",
+      "original_asset_ids": []
     },
     {
       "id": "FP5-V49-Q05",
@@ -35808,7 +37202,8 @@ window.APP_DATA = {
       "mistake": "所有者限定と誤認",
       "review_tag": "FP_RE_V49_05",
       "source_group": "Edge.pdf 第5章 不動産",
-      "source_section": "登記事項証明書"
+      "source_section": "登記事項証明書",
+      "original_asset_ids": []
     },
     {
       "id": "FP5-V49-Q06",
@@ -35827,7 +37222,8 @@ window.APP_DATA = {
       "mistake": "両方あると誤認",
       "review_tag": "FP_RE_V49_06",
       "source_group": "Edge.pdf 第5章 不動産",
-      "source_section": "対抗力と公信力"
+      "source_section": "対抗力と公信力",
+      "original_asset_ids": []
     },
     {
       "id": "FP5-V49-Q07",
@@ -35848,7 +37244,8 @@ window.APP_DATA = {
       "mistake": "同額返還と混同",
       "review_tag": "FP_RE_V49_07",
       "source_group": "Edge.pdf 第5章 不動産",
-      "source_section": "解約手付"
+      "source_section": "解約手付",
+      "original_asset_ids": []
     },
     {
       "id": "FP5-V49-Q08",
@@ -35869,7 +37266,8 @@ window.APP_DATA = {
       "mistake": "報告頻度と混同",
       "review_tag": "FP_RE_V49_08",
       "source_group": "Edge.pdf 第5章 不動産",
-      "source_section": "専任媒介"
+      "source_section": "専任媒介",
+      "original_asset_ids": []
     },
     {
       "id": "FP5-V49-Q09",
@@ -35888,7 +37286,8 @@ window.APP_DATA = {
       "mistake": "専任媒介と混同",
       "review_tag": "FP_RE_V49_09",
       "source_group": "Edge.pdf 第5章 不動産",
-      "source_section": "専属専任媒介"
+      "source_section": "専属専任媒介",
+      "original_asset_ids": []
     },
     {
       "id": "FP5-V49-Q10",
@@ -35909,7 +37308,8 @@ window.APP_DATA = {
       "mistake": "報酬3％と混同",
       "review_tag": "FP_RE_V49_10",
       "source_group": "Edge.pdf 第5章 不動産",
-      "source_section": "手付金制限"
+      "source_section": "手付金制限",
+      "original_asset_ids": []
     },
     {
       "id": "FP5-V49-Q11",
@@ -35930,7 +37330,8 @@ window.APP_DATA = {
       "mistake": "定期借地50年と混同",
       "review_tag": "FP_RE_V49_11",
       "source_group": "Edge.pdf 第5章 不動産",
-      "source_section": "普通借地権"
+      "source_section": "普通借地権",
+      "original_asset_ids": []
     },
     {
       "id": "FP5-V49-Q12",
@@ -35951,7 +37352,8 @@ window.APP_DATA = {
       "mistake": "一般定期借地権と混同",
       "review_tag": "FP_RE_V49_12",
       "source_group": "Edge.pdf 第5章 不動産",
-      "source_section": "事業用定期借地権"
+      "source_section": "事業用定期借地権",
+      "original_asset_ids": []
     },
     {
       "id": "FP5-V49-Q13",
@@ -35972,7 +37374,8 @@ window.APP_DATA = {
       "mistake": "普通借家の更新通知と整理できない",
       "review_tag": "FP_RE_V49_13",
       "source_group": "Edge.pdf 第5章 不動産",
-      "source_section": "定期借家"
+      "source_section": "定期借家",
+      "original_asset_ids": []
     },
     {
       "id": "FP5-V49-Q14",
@@ -35993,7 +37396,8 @@ window.APP_DATA = {
       "mistake": "セットバック2mと混同",
       "review_tag": "FP_RE_V49_14",
       "source_group": "Edge.pdf 第5章 不動産",
-      "source_section": "接道義務"
+      "source_section": "接道義務",
+      "original_asset_ids": []
     },
     {
       "id": "FP5-V49-Q15",
@@ -36014,7 +37418,8 @@ window.APP_DATA = {
       "mistake": "道路幅4mと混同",
       "review_tag": "FP_RE_V49_15",
       "source_group": "Edge.pdf 第5章 不動産",
-      "source_section": "セットバック"
+      "source_section": "セットバック",
+      "original_asset_ids": []
     },
     {
       "id": "FP5-V49-Q16",
@@ -36033,7 +37438,8 @@ window.APP_DATA = {
       "mistake": "部分適用と誤認",
       "review_tag": "FP_RE_V49_16",
       "source_group": "Edge.pdf 第5章 不動産",
-      "source_section": "用途地域"
+      "source_section": "用途地域",
+      "original_asset_ids": []
     },
     {
       "id": "FP5-V49-Q17",
@@ -36054,7 +37460,8 @@ window.APP_DATA = {
       "mistake": "6×0.6と誤る",
       "review_tag": "FP_RE_V49_17",
       "source_group": "Edge.pdf 第5章 不動産",
-      "source_section": "容積率"
+      "source_section": "容積率",
+      "original_asset_ids": []
     },
     {
       "id": "FP5-V49-Q18",
@@ -36075,7 +37482,8 @@ window.APP_DATA = {
       "mistake": "建替え5分の4と混同",
       "review_tag": "FP_RE_V49_18",
       "source_group": "Edge.pdf 第5章 不動産",
-      "source_section": "規約変更"
+      "source_section": "規約変更",
+      "original_asset_ids": []
     },
     {
       "id": "FP5-V49-Q19",
@@ -36096,7 +37504,8 @@ window.APP_DATA = {
       "mistake": "規約変更と混同",
       "review_tag": "FP_RE_V49_19",
       "source_group": "Edge.pdf 第5章 不動産",
-      "source_section": "建替え決議"
+      "source_section": "建替え決議",
+      "original_asset_ids": []
     },
     {
       "id": "FP5-V49-Q20",
@@ -36117,7 +37526,8 @@ window.APP_DATA = {
       "mistake": "5条と混同",
       "review_tag": "FP_RE_V49_20",
       "source_group": "Edge.pdf 第5章 不動産",
-      "source_section": "農地法4条"
+      "source_section": "農地法4条",
+      "original_asset_ids": []
     },
     {
       "id": "FP5-V49-Q21",
@@ -36136,7 +37546,8 @@ window.APP_DATA = {
       "mistake": "常に知事許可と思う",
       "review_tag": "FP_RE_V49_21",
       "source_group": "Edge.pdf 第5章 不動産",
-      "source_section": "市街化区域農地"
+      "source_section": "市街化区域農地",
+      "original_asset_ids": []
     },
     {
       "id": "FP5-V49-Q22",
@@ -36155,7 +37566,8 @@ window.APP_DATA = {
       "mistake": "贈与と混同",
       "review_tag": "FP_RE_V49_22",
       "source_group": "Edge.pdf 第5章 不動産",
-      "source_section": "不動産取得税"
+      "source_section": "不動産取得税",
+      "original_asset_ids": []
     },
     {
       "id": "FP5-V49-Q23",
@@ -36176,7 +37588,8 @@ window.APP_DATA = {
       "mistake": "都市計画税0.3％と混同",
       "review_tag": "FP_RE_V49_23",
       "source_group": "Edge.pdf 第5章 不動産",
-      "source_section": "固定資産税"
+      "source_section": "固定資産税",
+      "original_asset_ids": []
     },
     {
       "id": "FP5-V49-Q24",
@@ -36197,7 +37610,8 @@ window.APP_DATA = {
       "mistake": "3,000万円特別控除と混同",
       "review_tag": "FP_RE_V49_24",
       "source_group": "Edge.pdf 第5章 不動産",
-      "source_section": "取得費不明"
+      "source_section": "取得費不明",
+      "original_asset_ids": []
     },
     {
       "id": "FP5-V49-Q25",
@@ -36216,7 +37630,8 @@ window.APP_DATA = {
       "mistake": "軽減税率特例と混同",
       "review_tag": "FP_RE_V49_25",
       "source_group": "Edge.pdf 第5章 不動産",
-      "source_section": "3,000万円特別控除"
+      "source_section": "3,000万円特別控除",
+      "original_asset_ids": []
     },
     {
       "id": "FP5-V49-Q26",
@@ -36237,7 +37652,8 @@ window.APP_DATA = {
       "mistake": "総収入だけで計算",
       "review_tag": "FP_RE_V49_26",
       "source_group": "Edge.pdf 第5章 不動産",
-      "source_section": "NOI利回り"
+      "source_section": "NOI利回り",
+      "original_asset_ids": []
     },
     {
       "id": "FP5-V49-Q27",
@@ -36258,7 +37674,8 @@ window.APP_DATA = {
       "mistake": "土地信託と混同",
       "review_tag": "FP_RE_V49_27",
       "source_group": "Edge.pdf 第5章 不動産",
-      "source_section": "等価交換方式"
+      "source_section": "等価交換方式",
+      "original_asset_ids": []
     },
     {
       "id": "FP6-V50-Q01",
@@ -36277,7 +37694,8 @@ window.APP_DATA = {
       "mistake": "贈与者ごとに110万円と誤る",
       "review_tag": "FP_INHERIT_V50_01",
       "source_group": "Edge.pdf 第6章 相続・事業承継",
-      "source_section": "暦年課税"
+      "source_section": "暦年課税",
+      "original_asset_ids": []
     },
     {
       "id": "FP6-V50-Q02",
@@ -36298,7 +37716,8 @@ window.APP_DATA = {
       "mistake": "相続時精算2,500万円と混同",
       "review_tag": "FP_INHERIT_V50_02",
       "source_group": "Edge.pdf 第6章 相続・事業承継",
-      "source_section": "贈与税配偶者控除"
+      "source_section": "贈与税配偶者控除",
+      "original_asset_ids": []
     },
     {
       "id": "FP6-V50-Q03",
@@ -36319,7 +37738,8 @@ window.APP_DATA = {
       "mistake": "所得税2/16〜と混同",
       "review_tag": "FP_INHERIT_V50_03",
       "source_group": "Edge.pdf 第6章 相続・事業承継",
-      "source_section": "申告期限"
+      "source_section": "申告期限",
+      "original_asset_ids": []
     },
     {
       "id": "FP6-V50-Q04",
@@ -36340,7 +37760,8 @@ window.APP_DATA = {
       "mistake": "配偶者控除と混同",
       "review_tag": "FP_INHERIT_V50_04",
       "source_group": "Edge.pdf 第6章 相続・事業承継",
-      "source_section": "相続時精算課税"
+      "source_section": "相続時精算課税",
+      "original_asset_ids": []
     },
     {
       "id": "FP6-V50-Q05",
@@ -36359,7 +37780,8 @@ window.APP_DATA = {
       "mistake": "毎年選べると誤認",
       "review_tag": "FP_INHERIT_V50_05",
       "source_group": "Edge.pdf 第6章 相続・事業承継",
-      "source_section": "相続時精算課税"
+      "source_section": "相続時精算課税",
+      "original_asset_ids": []
     },
     {
       "id": "FP6-V50-Q06",
@@ -36380,7 +37802,8 @@ window.APP_DATA = {
       "mistake": "教育資金1,500万円と混同",
       "review_tag": "FP_INHERIT_V50_06",
       "source_group": "Edge.pdf 第6章 相続・事業承継",
-      "source_section": "住宅取得等資金贈与"
+      "source_section": "住宅取得等資金贈与",
+      "original_asset_ids": []
     },
     {
       "id": "FP6-V50-Q07",
@@ -36401,7 +37824,8 @@ window.APP_DATA = {
       "mistake": "住宅資金と混同",
       "review_tag": "FP_INHERIT_V50_07",
       "source_group": "Edge.pdf 第6章 相続・事業承継",
-      "source_section": "教育資金一括贈与"
+      "source_section": "教育資金一括贈与",
+      "original_asset_ids": []
     },
     {
       "id": "FP6-V50-Q08",
@@ -36422,7 +37846,8 @@ window.APP_DATA = {
       "mistake": "直系尊属との2/3と混同",
       "review_tag": "FP_INHERIT_V50_08",
       "source_group": "Edge.pdf 第6章 相続・事業承継",
-      "source_section": "法定相続順位"
+      "source_section": "法定相続順位",
+      "original_asset_ids": []
     },
     {
       "id": "FP6-V50-Q09",
@@ -36441,7 +37866,8 @@ window.APP_DATA = {
       "mistake": "死亡・欠格と混同",
       "review_tag": "FP_INHERIT_V50_09",
       "source_group": "Edge.pdf 第6章 相続・事業承継",
-      "source_section": "相続放棄"
+      "source_section": "相続放棄",
+      "original_asset_ids": []
     },
     {
       "id": "FP6-V50-Q10",
@@ -36462,7 +37888,8 @@ window.APP_DATA = {
       "mistake": "放棄の単独申出と混同",
       "review_tag": "FP_INHERIT_V50_10",
       "source_group": "Edge.pdf 第6章 相続・事業承継",
-      "source_section": "限定承認"
+      "source_section": "限定承認",
+      "original_asset_ids": []
     },
     {
       "id": "FP6-V50-Q11",
@@ -36481,7 +37908,8 @@ window.APP_DATA = {
       "mistake": "全文自書と混同",
       "review_tag": "FP_INHERIT_V50_11",
       "source_group": "Edge.pdf 第6章 相続・事業承継",
-      "source_section": "自筆証書遺言"
+      "source_section": "自筆証書遺言",
+      "original_asset_ids": []
     },
     {
       "id": "FP6-V50-Q12",
@@ -36502,7 +37930,8 @@ window.APP_DATA = {
       "mistake": "自筆証書と混同",
       "review_tag": "FP_INHERIT_V50_12",
       "source_group": "Edge.pdf 第6章 相続・事業承継",
-      "source_section": "公正証書遺言"
+      "source_section": "公正証書遺言",
+      "original_asset_ids": []
     },
     {
       "id": "FP6-V50-Q13",
@@ -36523,7 +37952,8 @@ window.APP_DATA = {
       "mistake": "法定相続人なら全員あると誤る",
       "review_tag": "FP_INHERIT_V50_13",
       "source_group": "Edge.pdf 第6章 相続・事業承継",
-      "source_section": "遺留分"
+      "source_section": "遺留分",
+      "original_asset_ids": []
     },
     {
       "id": "FP6-V50-Q14",
@@ -36544,7 +37974,8 @@ window.APP_DATA = {
       "mistake": "割合式だけ見る",
       "review_tag": "FP_INHERIT_V50_14",
       "source_group": "Edge.pdf 第6章 相続・事業承継",
-      "source_section": "預貯金仮払い"
+      "source_section": "預貯金仮払い",
+      "original_asset_ids": []
     },
     {
       "id": "FP6-V50-Q15",
@@ -36565,7 +37996,8 @@ window.APP_DATA = {
       "mistake": "生命保険非課税500×人数と混同",
       "review_tag": "FP_INHERIT_V50_15",
       "source_group": "Edge.pdf 第6章 相続・事業承継",
-      "source_section": "基礎控除"
+      "source_section": "基礎控除",
+      "original_asset_ids": []
     },
     {
       "id": "FP6-V50-Q16",
@@ -36586,7 +38018,8 @@ window.APP_DATA = {
       "mistake": "基礎控除600×人数と混同",
       "review_tag": "FP_INHERIT_V50_16",
       "source_group": "Edge.pdf 第6章 相続・事業承継",
-      "source_section": "生命保険非課税"
+      "source_section": "生命保険非課税",
+      "original_asset_ids": []
     },
     {
       "id": "FP6-V50-Q17",
@@ -36605,7 +38038,8 @@ window.APP_DATA = {
       "mistake": "民法上の効果と混同",
       "review_tag": "FP_INHERIT_V50_17",
       "source_group": "Edge.pdf 第6章 相続・事業承継",
-      "source_section": "法定相続人数"
+      "source_section": "法定相続人数",
+      "original_asset_ids": []
     },
     {
       "id": "FP6-V50-Q18",
@@ -36624,7 +38058,8 @@ window.APP_DATA = {
       "mistake": "全法定相続人は対象外と思う",
       "review_tag": "FP_INHERIT_V50_18",
       "source_group": "Edge.pdf 第6章 相続・事業承継",
-      "source_section": "2割加算"
+      "source_section": "2割加算",
+      "original_asset_ids": []
     },
     {
       "id": "FP6-V50-Q19",
@@ -36645,7 +38080,8 @@ window.APP_DATA = {
       "mistake": "養子=1親等だけ見て除外",
       "review_tag": "FP_INHERIT_V50_19",
       "source_group": "Edge.pdf 第6章 相続・事業承継",
-      "source_section": "孫養子"
+      "source_section": "孫養子",
+      "original_asset_ids": []
     },
     {
       "id": "FP6-V50-Q20",
@@ -36666,7 +38102,8 @@ window.APP_DATA = {
       "mistake": "基礎控除と混同",
       "review_tag": "FP_INHERIT_V50_20",
       "source_group": "Edge.pdf 第6章 相続・事業承継",
-      "source_section": "配偶者の税額軽減"
+      "source_section": "配偶者の税額軽減",
+      "original_asset_ids": []
     },
     {
       "id": "FP6-V50-Q21",
@@ -36687,7 +38124,8 @@ window.APP_DATA = {
       "mistake": "準確定申告4カ月と混同",
       "review_tag": "FP_INHERIT_V50_21",
       "source_group": "Edge.pdf 第6章 相続・事業承継",
-      "source_section": "申告期限"
+      "source_section": "申告期限",
+      "original_asset_ids": []
     },
     {
       "id": "FP6-V50-Q22",
@@ -36708,7 +38146,8 @@ window.APP_DATA = {
       "mistake": "終値だけと思う",
       "review_tag": "FP_INHERIT_V50_22",
       "source_group": "Edge.pdf 第6章 相続・事業承継",
-      "source_section": "上場株式評価"
+      "source_section": "上場株式評価",
+      "original_asset_ids": []
     },
     {
       "id": "FP6-V50-Q23",
@@ -36729,7 +38168,8 @@ window.APP_DATA = {
       "mistake": "B=80％と混同",
       "review_tag": "FP_INHERIT_V50_23",
       "source_group": "Edge.pdf 第6章 相続・事業承継",
-      "source_section": "借地権割合"
+      "source_section": "借地権割合",
+      "original_asset_ids": []
     },
     {
       "id": "FP6-V50-Q24",
@@ -36750,7 +38190,8 @@ window.APP_DATA = {
       "mistake": "借地権1,400万円と混同",
       "review_tag": "FP_INHERIT_V50_24",
       "source_group": "Edge.pdf 第6章 相続・事業承継",
-      "source_section": "貸宅地"
+      "source_section": "貸宅地",
+      "original_asset_ids": []
     },
     {
       "id": "FP6-V50-Q25",
@@ -36771,7 +38212,8 @@ window.APP_DATA = {
       "mistake": "貸家建付借地権980万円と混同",
       "review_tag": "FP_INHERIT_V50_25",
       "source_group": "Edge.pdf 第6章 相続・事業承継",
-      "source_section": "貸家建付地"
+      "source_section": "貸家建付地",
+      "original_asset_ids": []
     },
     {
       "id": "FP6-V50-Q26",
@@ -36792,7 +38234,8 @@ window.APP_DATA = {
       "mistake": "特定事業400㎡と混同",
       "review_tag": "FP_INHERIT_V50_26",
       "source_group": "Edge.pdf 第6章 相続・事業承継",
-      "source_section": "小規模宅地等"
+      "source_section": "小規模宅地等",
+      "original_asset_ids": []
     },
     {
       "id": "FP6-V50-Q27",
@@ -36813,7 +38256,8 @@ window.APP_DATA = {
       "mistake": "居住/事業用80％と混同",
       "review_tag": "FP_INHERIT_V50_27",
       "source_group": "Edge.pdf 第6章 相続・事業承継",
-      "source_section": "小規模宅地等"
+      "source_section": "小規模宅地等",
+      "original_asset_ids": []
     },
     {
       "id": "FP6-V50-Q28",
@@ -36832,7 +38276,8 @@ window.APP_DATA = {
       "mistake": "期間要件を見落とす",
       "review_tag": "FP_INHERIT_V50_28",
       "source_group": "Edge.pdf 第6章 相続・事業承継",
-      "source_section": "小規模宅地等"
+      "source_section": "小規模宅地等",
+      "original_asset_ids": []
     },
     {
       "id": "BK3-V51-Q001",
@@ -36853,7 +38298,8 @@ window.APP_DATA = {
       "mistake": "P/Lと逆にする",
       "review_tag": "BOKI3_V51_001",
       "source_group": "いちばんわかる日商簿記3級の教科書 第2版",
-      "source_section": "財務諸表"
+      "source_section": "財務諸表",
+      "original_asset_ids": []
     },
     {
       "id": "BK3-V51-Q002",
@@ -36874,7 +38320,8 @@ window.APP_DATA = {
       "mistake": "B/S要素と混同",
       "review_tag": "BOKI3_V51_002",
       "source_group": "いちばんわかる日商簿記3級の教科書 第2版",
-      "source_section": "簿記の5要素"
+      "source_section": "簿記の5要素",
+      "original_asset_ids": []
     },
     {
       "id": "BK3-V51-Q003",
@@ -36893,7 +38340,8 @@ window.APP_DATA = {
       "mistake": "名称だけ暗記",
       "review_tag": "BOKI3_V51_003",
       "source_group": "いちばんわかる日商簿記3級の教科書 第2版",
-      "source_section": "勘定科目"
+      "source_section": "勘定科目",
+      "original_asset_ids": []
     },
     {
       "id": "BK3-V51-Q004",
@@ -36912,7 +38360,8 @@ window.APP_DATA = {
       "mistake": "一般語の取引に引っ張られる",
       "review_tag": "BOKI3_V51_004",
       "source_group": "いちばんわかる日商簿記3級の教科書 第2版",
-      "source_section": "簿記上の取引"
+      "source_section": "簿記上の取引",
+      "original_asset_ids": []
     },
     {
       "id": "BK3-V51-Q005",
@@ -36931,7 +38380,8 @@ window.APP_DATA = {
       "mistake": "契約=取引と決めつける",
       "review_tag": "BOKI3_V51_005",
       "source_group": "いちばんわかる日商簿記3級の教科書 第2版",
-      "source_section": "簿記上の取引"
+      "source_section": "簿記上の取引",
+      "original_asset_ids": []
     },
     {
       "id": "BK3-V51-Q006",
@@ -36952,7 +38402,8 @@ window.APP_DATA = {
       "mistake": "総勘定元帳と混同",
       "review_tag": "BOKI3_V51_006",
       "source_group": "いちばんわかる日商簿記3級の教科書 第2版",
-      "source_section": "帳簿"
+      "source_section": "帳簿",
+      "original_asset_ids": []
     },
     {
       "id": "BK3-V51-Q007",
@@ -36973,7 +38424,8 @@ window.APP_DATA = {
       "mistake": "借入と混同",
       "review_tag": "BOKI3_V51_007",
       "source_group": "いちばんわかる日商簿記3級の教科書 第2版",
-      "source_section": "会社設立"
+      "source_section": "会社設立",
+      "original_asset_ids": []
     },
     {
       "id": "BK3-V51-Q008",
@@ -36992,7 +38444,8 @@ window.APP_DATA = {
       "mistake": "資本金と混同",
       "review_tag": "BOKI3_V51_008",
       "source_group": "いちばんわかる日商簿記3級の教科書 第2版",
-      "source_section": "借入"
+      "source_section": "借入",
+      "original_asset_ids": []
     },
     {
       "id": "BK3-V51-Q009",
@@ -37013,7 +38466,8 @@ window.APP_DATA = {
       "mistake": "資本金と混同",
       "review_tag": "BOKI3_V51_009",
       "source_group": "いちばんわかる日商簿記3級の教科書 第2版",
-      "source_section": "基本取引"
+      "source_section": "基本取引",
+      "original_asset_ids": []
     },
     {
       "id": "BK3-V51-Q010",
@@ -37034,7 +38488,8 @@ window.APP_DATA = {
       "mistake": "現金売上と混同",
       "review_tag": "BOKI3_V51_010",
       "source_group": "いちばんわかる日商簿記3級の教科書 第2版",
-      "source_section": "掛け売上"
+      "source_section": "掛け売上",
+      "original_asset_ids": []
     },
     {
       "id": "BK3-V51-Q011",
@@ -37053,7 +38508,8 @@ window.APP_DATA = {
       "mistake": "売上を二度計上",
       "review_tag": "BOKI3_V51_011",
       "source_group": "いちばんわかる日商簿記3級の教科書 第2版",
-      "source_section": "掛け代金回収"
+      "source_section": "掛け代金回収",
+      "original_asset_ids": []
     },
     {
       "id": "BK3-V51-Q012",
@@ -37074,7 +38530,8 @@ window.APP_DATA = {
       "mistake": "売掛金と混同",
       "review_tag": "BOKI3_V51_012",
       "source_group": "いちばんわかる日商簿記3級の教科書 第2版",
-      "source_section": "掛け仕入"
+      "source_section": "掛け仕入",
+      "original_asset_ids": []
     },
     {
       "id": "BK3-V51-Q013",
@@ -37095,7 +38552,8 @@ window.APP_DATA = {
       "mistake": "自己振出と混同",
       "review_tag": "BOKI3_V51_013",
       "source_group": "いちばんわかる日商簿記3級の教科書 第2版",
-      "source_section": "現金"
+      "source_section": "現金",
+      "original_asset_ids": []
     },
     {
       "id": "BK3-V51-Q014",
@@ -37116,7 +38574,8 @@ window.APP_DATA = {
       "mistake": "債権債務と混同",
       "review_tag": "BOKI3_V51_014",
       "source_group": "いちばんわかる日商簿記3級の教科書 第2版",
-      "source_section": "通貨代用証券"
+      "source_section": "通貨代用証券",
+      "original_asset_ids": []
     },
     {
       "id": "BK3-V51-Q015",
@@ -37135,7 +38594,8 @@ window.APP_DATA = {
       "mistake": "普通預金と誤る",
       "review_tag": "BOKI3_V51_015",
       "source_group": "いちばんわかる日商簿記3級の教科書 第2版",
-      "source_section": "現金"
+      "source_section": "現金",
+      "original_asset_ids": []
     },
     {
       "id": "BK3-V51-Q016",
@@ -37156,7 +38616,8 @@ window.APP_DATA = {
       "mistake": "受取家賃と逆",
       "review_tag": "BOKI3_V51_016",
       "source_group": "いちばんわかる日商簿記3級の教科書 第2版",
-      "source_section": "賃貸借"
+      "source_section": "賃貸借",
+      "original_asset_ids": []
     },
     {
       "id": "BK3-V51-Q017",
@@ -37175,7 +38636,8 @@ window.APP_DATA = {
       "mistake": "支払地代と逆",
       "review_tag": "BOKI3_V51_017",
       "source_group": "いちばんわかる日商簿記3級の教科書 第2版",
-      "source_section": "賃貸借"
+      "source_section": "賃貸借",
+      "original_asset_ids": []
     },
     {
       "id": "BK3-V51-Q018",
@@ -37196,7 +38658,8 @@ window.APP_DATA = {
       "mistake": "別章論点と混同",
       "review_tag": "BOKI3_V51_018",
       "source_group": "いちばんわかる日商簿記3級の教科書 第2版",
-      "source_section": "固定資産修理"
+      "source_section": "固定資産修理",
+      "original_asset_ids": []
     },
     {
       "id": "BK3-V51-Q019",
@@ -37217,7 +38680,8 @@ window.APP_DATA = {
       "mistake": "支払利息と逆",
       "review_tag": "BOKI3_V51_019",
       "source_group": "いちばんわかる日商簿記3級の教科書 第2版",
-      "source_section": "利息"
+      "source_section": "利息",
+      "original_asset_ids": []
     },
     {
       "id": "BK3-V51-Q020",
@@ -37238,7 +38702,8 @@ window.APP_DATA = {
       "mistake": "元金返済と混同",
       "review_tag": "BOKI3_V51_020",
       "source_group": "いちばんわかる日商簿記3級の教科書 第2版",
-      "source_section": "利息"
+      "source_section": "利息",
+      "original_asset_ids": []
     },
     {
       "id": "BK3-V51-Q021",
@@ -37257,7 +38722,8 @@ window.APP_DATA = {
       "mistake": "年利率をそのまま使う",
       "review_tag": "BOKI3_V51_021",
       "source_group": "いちばんわかる日商簿記3級の教科書 第2版",
-      "source_section": "利息計算"
+      "source_section": "利息計算",
+      "original_asset_ids": []
     },
     {
       "id": "BK3-V51-Q022",
@@ -37278,7 +38744,8 @@ window.APP_DATA = {
       "mistake": "預り金と混同",
       "review_tag": "BOKI3_V51_022",
       "source_group": "いちばんわかる日商簿記3級の教科書 第2版",
-      "source_section": "立替金"
+      "source_section": "立替金",
+      "original_asset_ids": []
     },
     {
       "id": "BK3-V51-Q023",
@@ -37299,7 +38766,8 @@ window.APP_DATA = {
       "mistake": "預金と混同",
       "review_tag": "BOKI3_V51_023",
       "source_group": "いちばんわかる日商簿記3級の教科書 第2版",
-      "source_section": "預り金"
+      "source_section": "預り金",
+      "original_asset_ids": []
     },
     {
       "id": "BK3-V51-Q024",
@@ -37318,7 +38786,8 @@ window.APP_DATA = {
       "mistake": "貸付金と混同",
       "review_tag": "BOKI3_V51_024",
       "source_group": "いちばんわかる日商簿記3級の教科書 第2版",
-      "source_section": "給料前貸し"
+      "source_section": "給料前貸し",
+      "original_asset_ids": []
     },
     {
       "id": "BK3-V51-Q025",
@@ -37339,7 +38808,8 @@ window.APP_DATA = {
       "mistake": "通信費と混同",
       "review_tag": "BOKI3_V51_025",
       "source_group": "いちばんわかる日商簿記3級の教科書 第2版",
-      "source_section": "租税公課"
+      "source_section": "租税公課",
+      "original_asset_ids": []
     },
     {
       "id": "BK3-V51-Q026",
@@ -37360,7 +38830,8 @@ window.APP_DATA = {
       "mistake": "収益と誤る",
       "review_tag": "BOKI3_V51_026",
       "source_group": "いちばんわかる日商簿記3級の教科書 第2版",
-      "source_section": "収入印紙"
+      "source_section": "収入印紙",
+      "original_asset_ids": []
     },
     {
       "id": "BK3-V51-Q027",
@@ -37379,7 +38850,8 @@ window.APP_DATA = {
       "mistake": "同じ郵便局商品で混同",
       "review_tag": "BOKI3_V51_027",
       "source_group": "いちばんわかる日商簿記3級の教科書 第2版",
-      "source_section": "収入印紙と切手"
+      "source_section": "収入印紙と切手",
+      "original_asset_ids": []
     },
     {
       "id": "BK3-V51-Q028",
@@ -37400,7 +38872,8 @@ window.APP_DATA = {
       "mistake": "補助簿と混同",
       "review_tag": "BOKI3_V51_028",
       "source_group": "いちばんわかる日商簿記3級の教科書 第2版",
-      "source_section": "主要簿"
+      "source_section": "主要簿",
+      "original_asset_ids": []
     },
     {
       "id": "BK3-V51-Q029",
@@ -37419,7 +38892,8 @@ window.APP_DATA = {
       "mistake": "逆方向にする",
       "review_tag": "BOKI3_V51_029",
       "source_group": "いちばんわかる日商簿記3級の教科書 第2版",
-      "source_section": "仕訳帳"
+      "source_section": "仕訳帳",
+      "original_asset_ids": []
     },
     {
       "id": "BK3-V51-Q030",
@@ -37438,7 +38912,8 @@ window.APP_DATA = {
       "mistake": "証ひょうから直接と誤る",
       "review_tag": "BOKI3_V51_030",
       "source_group": "いちばんわかる日商簿記3級の教科書 第2版",
-      "source_section": "主要簿"
+      "source_section": "主要簿",
+      "original_asset_ids": []
     },
     {
       "id": "BK3-V51-Q031",
@@ -37459,7 +38934,8 @@ window.APP_DATA = {
       "mistake": "後T/Bと混同",
       "review_tag": "BOKI3_V51_031",
       "source_group": "いちばんわかる日商簿記3級の教科書 第2版",
-      "source_section": "決算"
+      "source_section": "決算",
+      "original_asset_ids": []
     },
     {
       "id": "BK3-V51-Q032",
@@ -37478,7 +38954,8 @@ window.APP_DATA = {
       "mistake": "帳簿締切と混同",
       "review_tag": "BOKI3_V51_032",
       "source_group": "いちばんわかる日商簿記3級の教科書 第2版",
-      "source_section": "決算整理"
+      "source_section": "決算整理",
+      "original_asset_ids": []
     },
     {
       "id": "BK3-V51-Q033",
@@ -37499,7 +38976,8 @@ window.APP_DATA = {
       "mistake": "財務諸表との順序を混同",
       "review_tag": "BOKI3_V51_033",
       "source_group": "いちばんわかる日商簿記3級の教科書 第2版",
-      "source_section": "決算手続"
+      "source_section": "決算手続",
+      "original_asset_ids": []
     },
     {
       "id": "BK3-V51-Q034",
@@ -37520,7 +38998,8 @@ window.APP_DATA = {
       "mistake": "7項目を混同",
       "review_tag": "BOKI3_V51_034",
       "source_group": "いちばんわかる日商簿記3級の教科書 第2版",
-      "source_section": "決算整理項目"
+      "source_section": "決算整理項目",
+      "original_asset_ids": []
     },
     {
       "id": "BK3-V51-Q035",
@@ -37541,7 +39020,8 @@ window.APP_DATA = {
       "mistake": "累計額と混同",
       "review_tag": "BOKI3_V51_035",
       "source_group": "いちばんわかる日商簿記3級の教科書 第2版",
-      "source_section": "減価償却"
+      "source_section": "減価償却",
+      "original_asset_ids": []
     },
     {
       "id": "BK3-V51-Q036",
@@ -37560,7 +39040,8 @@ window.APP_DATA = {
       "mistake": "仕訳だけ暗記",
       "review_tag": "BOKI3_V51_036",
       "source_group": "いちばんわかる日商簿記3級の教科書 第2版",
-      "source_section": "決算整理"
+      "source_section": "決算整理",
+      "original_asset_ids": []
     },
     {
       "id": "BK3-V51-Q037",
@@ -37581,7 +39062,8 @@ window.APP_DATA = {
       "mistake": "逆にする",
       "review_tag": "BOKI3_V51_037",
       "source_group": "いちばんわかる日商簿記3級の教科書 第2版",
-      "source_section": "現金過不足"
+      "source_section": "現金過不足",
+      "original_asset_ids": []
     },
     {
       "id": "BK3-V51-Q038",
@@ -37602,7 +39084,8 @@ window.APP_DATA = {
       "mistake": "逆にする",
       "review_tag": "BOKI3_V51_038",
       "source_group": "いちばんわかる日商簿記3級の教科書 第2版",
-      "source_section": "現金過不足"
+      "source_section": "現金過不足",
+      "original_asset_ids": []
     },
     {
       "id": "BK3-V51-Q039",
@@ -37621,7 +39104,8 @@ window.APP_DATA = {
       "mistake": "そのままB/S計上",
       "review_tag": "BOKI3_V51_039",
       "source_group": "いちばんわかる日商簿記3級の教科書 第2版",
-      "source_section": "仮勘定"
+      "source_section": "仮勘定",
+      "original_asset_ids": []
     },
     {
       "id": "BK3-V51-Q040",
@@ -37642,7 +39126,8 @@ window.APP_DATA = {
       "mistake": "試算表単体と混同",
       "review_tag": "BOKI3_V51_040",
       "source_group": "いちばんわかる日商簿記3級の教科書 第2版",
-      "source_section": "精算表"
+      "source_section": "精算表",
+      "original_asset_ids": []
     },
     {
       "id": "BK3-V51-Q041",
@@ -37663,7 +39148,8 @@ window.APP_DATA = {
       "mistake": "試算表欄と混同",
       "review_tag": "BOKI3_V51_041",
       "source_group": "いちばんわかる日商簿記3級の教科書 第2版",
-      "source_section": "精算表"
+      "source_section": "精算表",
+      "original_asset_ids": []
     },
     {
       "id": "BK3-V51-Q042",
@@ -37682,7 +39168,8 @@ window.APP_DATA = {
       "mistake": "逆にする",
       "review_tag": "BOKI3_V51_042",
       "source_group": "いちばんわかる日商簿記3級の教科書 第2版",
-      "source_section": "精算表"
+      "source_section": "精算表",
+      "original_asset_ids": []
     },
     {
       "id": "BK3-V51-Q043",
@@ -37703,7 +39190,8 @@ window.APP_DATA = {
       "mistake": "増資と混同",
       "review_tag": "BOKI3_V51_043",
       "source_group": "いちばんわかる日商簿記3級の教科書 第2版",
-      "source_section": "株式会社"
+      "source_section": "株式会社",
+      "original_asset_ids": []
     },
     {
       "id": "BK3-V51-Q044",
@@ -37722,7 +39210,8 @@ window.APP_DATA = {
       "mistake": "借入と混同",
       "review_tag": "BOKI3_V51_044",
       "source_group": "いちばんわかる日商簿記3級の教科書 第2版",
-      "source_section": "増資"
+      "source_section": "増資",
+      "original_asset_ids": []
     },
     {
       "id": "BK3-V51-Q045",
@@ -37743,7 +39232,8 @@ window.APP_DATA = {
       "mistake": "借入と混同",
       "review_tag": "BOKI3_V51_045",
       "source_group": "いちばんわかる日商簿記3級の教科書 第2版",
-      "source_section": "株主"
+      "source_section": "株主",
+      "original_asset_ids": []
     },
     {
       "id": "BK3-V51-Q046",
@@ -37764,7 +39254,8 @@ window.APP_DATA = {
       "mistake": "帳簿と混同",
       "review_tag": "BOKI3_V51_046",
       "source_group": "いちばんわかる日商簿記3級の教科書 第2版",
-      "source_section": "証ひょう"
+      "source_section": "証ひょう",
+      "original_asset_ids": []
     },
     {
       "id": "BK3-V51-Q047",
@@ -37785,7 +39276,8 @@ window.APP_DATA = {
       "mistake": "領収書と混同",
       "review_tag": "BOKI3_V51_047",
       "source_group": "いちばんわかる日商簿記3級の教科書 第2版",
-      "source_section": "証ひょう"
+      "source_section": "証ひょう",
+      "original_asset_ids": []
     },
     {
       "id": "BK3-V51-Q048",
@@ -37804,7 +39296,8 @@ window.APP_DATA = {
       "mistake": "証ひょう1枚で決めつける",
       "review_tag": "BOKI3_V51_048",
       "source_group": "いちばんわかる日商簿記3級の教科書 第2版",
-      "source_section": "証ひょうから仕訳"
+      "source_section": "証ひょうから仕訳",
+      "original_asset_ids": []
     },
     {
       "id": "STAT1-V52-Q01",
@@ -37825,7 +39318,10 @@ window.APP_DATA = {
       "mistake": "下限・上限そのものを選ぶ",
       "review_tag": "STAT_DATA_V52_01",
       "source_group": "写真.pdf データの基礎",
-      "source_section": "階級値"
+      "source_section": "階級値",
+      "original_asset_ids": [
+        "PDFORIG_STAT_003"
+      ]
     },
     {
       "id": "STAT1-V52-Q02",
@@ -37844,7 +39340,13 @@ window.APP_DATA = {
       "mistake": "相対度数と混同",
       "review_tag": "STAT_DATA_V52_02",
       "source_group": "写真.pdf データの基礎",
-      "source_section": "累積相対度数"
+      "source_section": "累積相対度数",
+      "original_asset_ids": [
+        "PDFORIG_STAT_004",
+        "PDFORIG_STAT3_002",
+        "PDFORIG_STAT3_011",
+        "PDFORIG_STAT3_016"
+      ]
     },
     {
       "id": "STAT1-V52-Q03",
@@ -37865,7 +39367,16 @@ window.APP_DATA = {
       "mistake": "1階級だけを見る",
       "review_tag": "STAT_DATA_V52_03",
       "source_group": "写真.pdf データの基礎",
-      "source_section": "累積相対度数"
+      "source_section": "累積相対度数",
+      "original_asset_ids": [
+        "PDFORIG_STAT_004",
+        "PDFORIG_STAT_006",
+        "PDFORIG_STAT_013",
+        "PDFORIG_STAT_014",
+        "PDFORIG_STAT3_002",
+        "PDFORIG_STAT3_011",
+        "PDFORIG_STAT3_016"
+      ]
     },
     {
       "id": "STAT1-V52-Q04",
@@ -37886,7 +39397,8 @@ window.APP_DATA = {
       "mistake": "中央値と混同",
       "review_tag": "STAT_DATA_V52_04",
       "source_group": "写真.pdf データの基礎",
-      "source_section": "平均値"
+      "source_section": "平均値",
+      "original_asset_ids": []
     },
     {
       "id": "STAT1-V52-Q05",
@@ -37907,7 +39419,8 @@ window.APP_DATA = {
       "mistake": "平均値を計算してしまう",
       "review_tag": "STAT_DATA_V52_05",
       "source_group": "写真.pdf データの基礎",
-      "source_section": "中央値"
+      "source_section": "中央値",
+      "original_asset_ids": []
     },
     {
       "id": "STAT1-V52-Q06",
@@ -37926,7 +39439,8 @@ window.APP_DATA = {
       "mistake": "どちらか一方を選ぶ",
       "review_tag": "STAT_DATA_V52_06",
       "source_group": "写真.pdf データの基礎",
-      "source_section": "中央値"
+      "source_section": "中央値",
+      "original_asset_ids": []
     },
     {
       "id": "STAT1-V52-Q07",
@@ -37947,7 +39461,8 @@ window.APP_DATA = {
       "mistake": "中央値と混同",
       "review_tag": "STAT_DATA_V52_07",
       "source_group": "写真.pdf データの基礎",
-      "source_section": "最頻値"
+      "source_section": "最頻値",
+      "original_asset_ids": []
     },
     {
       "id": "STAT1-V52-Q08",
@@ -37966,7 +39481,8 @@ window.APP_DATA = {
       "mistake": "中央値と逆に理解",
       "review_tag": "STAT_DATA_V52_08",
       "source_group": "写真.pdf データの基礎",
-      "source_section": "外れた値と平均"
+      "source_section": "外れた値と平均",
+      "original_asset_ids": []
     },
     {
       "id": "STAT1-V52-Q09",
@@ -37987,7 +39503,8 @@ window.APP_DATA = {
       "mistake": "単純平均にする",
       "review_tag": "STAT_DATA_V52_09",
       "source_group": "写真.pdf データの基礎",
-      "source_section": "度数分布表の平均"
+      "source_section": "度数分布表の平均",
+      "original_asset_ids": []
     },
     {
       "id": "STAT1-V52-Q10",
@@ -38006,7 +39523,8 @@ window.APP_DATA = {
       "mistake": "さらに総度数で割る",
       "review_tag": "STAT_DATA_V52_10",
       "source_group": "写真.pdf データの基礎",
-      "source_section": "相対度数による平均"
+      "source_section": "相対度数による平均",
+      "original_asset_ids": []
     },
     {
       "id": "STAT1-V52-Q11",
@@ -38027,7 +39545,8 @@ window.APP_DATA = {
       "mistake": "大小関係を逆にする",
       "review_tag": "STAT_DATA_V52_11",
       "source_group": "写真.pdf データの基礎",
-      "source_section": "右に裾が長い分布"
+      "source_section": "右に裾が長い分布",
+      "original_asset_ids": []
     },
     {
       "id": "STAT1-V52-Q12",
@@ -38048,7 +39567,8 @@ window.APP_DATA = {
       "mistake": "右裾と混同",
       "review_tag": "STAT_DATA_V52_12",
       "source_group": "写真.pdf データの基礎",
-      "source_section": "左に裾が長い分布"
+      "source_section": "左に裾が長い分布",
+      "original_asset_ids": []
     },
     {
       "id": "STAT1-V52-Q13",
@@ -38067,7 +39587,8 @@ window.APP_DATA = {
       "mistake": "裾のある分布と混同",
       "review_tag": "STAT_DATA_V52_13",
       "source_group": "写真.pdf データの基礎",
-      "source_section": "左右対称分布"
+      "source_section": "左右対称分布",
+      "original_asset_ids": []
     },
     {
       "id": "STAT1-V53-Q01",
@@ -38095,7 +39616,10 @@ window.APP_DATA = {
       ],
       "table_ids": [],
       "flow_ids": [],
-      "example_ids": []
+      "example_ids": [],
+      "original_asset_ids": [
+        "PDFORIG_STAT2_002"
+      ]
     },
     {
       "id": "STAT1-V53-Q02",
@@ -38128,7 +39652,13 @@ window.APP_DATA = {
         "TABLE_STAT_V56_01"
       ],
       "flow_ids": [],
-      "example_ids": []
+      "example_ids": [],
+      "original_asset_ids": [
+        "PDFORIG_STAT2_002",
+        "PDFORIG_STAT2_003",
+        "PDFORIG_STAT2_004",
+        "PDFORIG_STAT2_006"
+      ]
     },
     {
       "id": "STAT1-V53-Q03",
@@ -38163,6 +39693,13 @@ window.APP_DATA = {
       ],
       "example_ids": [
         "EXAMPLE_STAT_V56_01"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT2_001",
+        "PDFORIG_STAT2_004",
+        "PDFORIG_STAT2_005",
+        "PDFORIG_STAT2_006",
+        "PDFORIG_STAT3_017"
       ]
     },
     {
@@ -38197,6 +39734,11 @@ window.APP_DATA = {
       ],
       "example_ids": [
         "EXAMPLE_STAT_V56_02"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT2_005",
+        "PDFORIG_STAT2_006",
+        "PDFORIG_STAT3_017"
       ]
     },
     {
@@ -38231,6 +39773,10 @@ window.APP_DATA = {
       ],
       "example_ids": [
         "EXAMPLE_STAT_V56_02"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT2_005",
+        "PDFORIG_STAT3_017"
       ]
     },
     {
@@ -38263,7 +39809,10 @@ window.APP_DATA = {
         "TABLE_STAT_V56_02"
       ],
       "flow_ids": [],
-      "example_ids": []
+      "example_ids": [],
+      "original_asset_ids": [
+        "PDFORIG_STAT2_007"
+      ]
     },
     {
       "id": "STAT1-V53-Q07",
@@ -38291,7 +39840,13 @@ window.APP_DATA = {
         "TABLE_STAT_V56_02"
       ],
       "flow_ids": [],
-      "example_ids": []
+      "example_ids": [],
+      "original_asset_ids": [
+        "PDFORIG_STAT2_007",
+        "PDFORIG_STAT2_008",
+        "PDFORIG_STAT3_013",
+        "PDFORIG_STAT3_014"
+      ]
     },
     {
       "id": "STAT1-V53-Q08",
@@ -38323,7 +39878,13 @@ window.APP_DATA = {
         "TABLE_STAT_V56_02"
       ],
       "flow_ids": [],
-      "example_ids": []
+      "example_ids": [],
+      "original_asset_ids": [
+        "PDFORIG_STAT2_007",
+        "PDFORIG_STAT2_008",
+        "PDFORIG_STAT3_013",
+        "PDFORIG_STAT3_014"
+      ]
     },
     {
       "id": "STAT1-V53-Q09",
@@ -38355,7 +39916,11 @@ window.APP_DATA = {
         "TABLE_STAT_V56_02"
       ],
       "flow_ids": [],
-      "example_ids": []
+      "example_ids": [],
+      "original_asset_ids": [
+        "PDFORIG_STAT2_009",
+        "PDFORIG_STAT3_013"
+      ]
     },
     {
       "id": "STAT1-V53-Q10",
@@ -38389,6 +39954,10 @@ window.APP_DATA = {
       ],
       "example_ids": [
         "EXAMPLE_STAT_V56_03"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT2_010",
+        "PDFORIG_STAT3_013"
       ]
     },
     {
@@ -38417,7 +39986,11 @@ window.APP_DATA = {
       ],
       "table_ids": [],
       "flow_ids": [],
-      "example_ids": []
+      "example_ids": [],
+      "original_asset_ids": [
+        "PDFORIG_STAT2_013",
+        "PDFORIG_STAT2_014"
+      ]
     },
     {
       "id": "STAT1-V53-Q12",
@@ -38447,7 +40020,11 @@ window.APP_DATA = {
       ],
       "table_ids": [],
       "flow_ids": [],
-      "example_ids": []
+      "example_ids": [],
+      "original_asset_ids": [
+        "PDFORIG_STAT2_013",
+        "PDFORIG_STAT2_014"
+      ]
     },
     {
       "id": "STAT1-V53-Q13",
@@ -38481,7 +40058,12 @@ window.APP_DATA = {
       "flow_ids": [
         "FLOW_STAT_V56_03"
       ],
-      "example_ids": []
+      "example_ids": [],
+      "original_asset_ids": [
+        "PDFORIG_STAT2_012",
+        "PDFORIG_STAT2_015",
+        "PDFORIG_STAT2_017"
+      ]
     },
     {
       "id": "STAT1-V53-Q14",
@@ -38517,6 +40099,10 @@ window.APP_DATA = {
       ],
       "example_ids": [
         "EXAMPLE_STAT_V56_04"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT2_012",
+        "PDFORIG_STAT2_015"
       ]
     },
     {
@@ -38551,7 +40137,12 @@ window.APP_DATA = {
       "flow_ids": [
         "FLOW_STAT_V56_03"
       ],
-      "example_ids": []
+      "example_ids": [],
+      "original_asset_ids": [
+        "PDFORIG_STAT2_016",
+        "PDFORIG_STAT2_017",
+        "PDFORIG_STAT3_017"
+      ]
     },
     {
       "id": "STAT1-V54-Q01",
@@ -38581,6 +40172,10 @@ window.APP_DATA = {
       "flow_ids": [],
       "example_ids": [
         "EXAMPLE_STAT_V57_01"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT3_001",
+        "PDFORIG_STAT3_014"
       ]
     },
     {
@@ -38613,6 +40208,10 @@ window.APP_DATA = {
       "flow_ids": [],
       "example_ids": [
         "EXAMPLE_STAT_V57_01"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT3_001",
+        "PDFORIG_STAT3_014"
       ]
     },
     {
@@ -38641,7 +40240,10 @@ window.APP_DATA = {
       "formula_ids": [],
       "table_ids": [],
       "flow_ids": [],
-      "example_ids": []
+      "example_ids": [],
+      "original_asset_ids": [
+        "PDFORIG_STAT3_007"
+      ]
     },
     {
       "id": "STAT1-V54-Q04",
@@ -38673,6 +40275,9 @@ window.APP_DATA = {
       ],
       "example_ids": [
         "EXAMPLE_STAT_V57_02"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT3_007"
       ]
     },
     {
@@ -38703,7 +40308,10 @@ window.APP_DATA = {
         "TABLE_STAT_V57_01"
       ],
       "flow_ids": [],
-      "example_ids": []
+      "example_ids": [],
+      "original_asset_ids": [
+        "PDFORIG_STAT3_006"
+      ]
     },
     {
       "id": "STAT1-V54-Q06",
@@ -38737,7 +40345,13 @@ window.APP_DATA = {
       "flow_ids": [
         "FLOW_STAT_V57_02"
       ],
-      "example_ids": []
+      "example_ids": [],
+      "original_asset_ids": [
+        "PDFORIG_STAT3_003",
+        "PDFORIG_STAT3_004",
+        "PDFORIG_STAT3_008",
+        "PDFORIG_STAT3_015"
+      ]
     },
     {
       "id": "STAT1-V54-Q07",
@@ -38769,7 +40383,13 @@ window.APP_DATA = {
       "flow_ids": [
         "FLOW_STAT_V57_02"
       ],
-      "example_ids": []
+      "example_ids": [],
+      "original_asset_ids": [
+        "PDFORIG_STAT3_003",
+        "PDFORIG_STAT3_004",
+        "PDFORIG_STAT3_008",
+        "PDFORIG_STAT3_015"
+      ]
     },
     {
       "id": "STAT1-V54-Q08",
@@ -38800,6 +40420,11 @@ window.APP_DATA = {
       "flow_ids": [],
       "example_ids": [
         "EXAMPLE_STAT_V57_03"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT3_004",
+        "PDFORIG_STAT3_008",
+        "PDFORIG_STAT3_015"
       ]
     },
     {
@@ -38836,6 +40461,13 @@ window.APP_DATA = {
       ],
       "example_ids": [
         "EXAMPLE_STAT_V57_04"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT3_005",
+        "PDFORIG_STAT3_008",
+        "PDFORIG_STAT3_009",
+        "PDFORIG_STAT3_015",
+        "PDFORIG_STAT3_018"
       ]
     },
     {
@@ -38870,6 +40502,13 @@ window.APP_DATA = {
       ],
       "example_ids": [
         "EXAMPLE_STAT_V57_04"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT3_005",
+        "PDFORIG_STAT3_008",
+        "PDFORIG_STAT3_009",
+        "PDFORIG_STAT3_015",
+        "PDFORIG_STAT3_018"
       ]
     },
     {
@@ -38907,6 +40546,11 @@ window.APP_DATA = {
       ],
       "example_ids": [
         "EXAMPLE_STAT_V57_05"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT2_011",
+        "PDFORIG_STAT3_012",
+        "PDFORIG_STAT3_013"
       ]
     },
     {
@@ -38944,6 +40588,11 @@ window.APP_DATA = {
       ],
       "example_ids": [
         "EXAMPLE_STAT_V57_05"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT2_011",
+        "PDFORIG_STAT3_012",
+        "PDFORIG_STAT3_013"
       ]
     },
     {
@@ -38976,6 +40625,10 @@ window.APP_DATA = {
       ],
       "example_ids": [
         "EXAMPLE_STAT_V57_05"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT2_011",
+        "PDFORIG_STAT3_012"
       ]
     },
     {
@@ -39006,7 +40659,10 @@ window.APP_DATA = {
         "TABLE_STAT_V56_01"
       ],
       "flow_ids": [],
-      "example_ids": []
+      "example_ids": [],
+      "original_asset_ids": [
+        "PDFORIG_STAT3_017"
+      ]
     },
     {
       "id": "STAT1-V54-Q15",
@@ -39037,7 +40693,10 @@ window.APP_DATA = {
         "TABLE_STAT_V56_01"
       ],
       "flow_ids": [],
-      "example_ids": []
+      "example_ids": [],
+      "original_asset_ids": [
+        "PDFORIG_STAT3_017"
+      ]
     },
     {
       "id": "STAT1-V55-Q01",
@@ -39066,6 +40725,9 @@ window.APP_DATA = {
       "table_ids": [],
       "flow_ids": [
         "FLOW_STAT_V55_01"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT_001"
       ]
     },
     {
@@ -39093,6 +40755,9 @@ window.APP_DATA = {
       "table_ids": [],
       "flow_ids": [
         "FLOW_STAT_V55_01"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT_001"
       ]
     },
     {
@@ -39120,7 +40785,12 @@ window.APP_DATA = {
       "table_ids": [
         "TABLE_STAT_V55_01"
       ],
-      "flow_ids": []
+      "flow_ids": [],
+      "original_asset_ids": [
+        "PDFORIG_STAT_002",
+        "PDFORIG_STAT3_010",
+        "PDFORIG_STAT3_016"
+      ]
     },
     {
       "id": "STAT1-V55-Q04",
@@ -39147,7 +40817,10 @@ window.APP_DATA = {
       ],
       "formula_ids": [],
       "table_ids": [],
-      "flow_ids": []
+      "flow_ids": [],
+      "original_asset_ids": [
+        "PDFORIG_STAT_003"
+      ]
     },
     {
       "id": "STAT1-V55-Q05",
@@ -39176,7 +40849,12 @@ window.APP_DATA = {
         "FORMULA_STAT_V55_01"
       ],
       "table_ids": [],
-      "flow_ids": []
+      "flow_ids": [],
+      "original_asset_ids": [
+        "PDFORIG_STAT_004",
+        "PDFORIG_STAT3_002",
+        "PDFORIG_STAT3_011"
+      ]
     },
     {
       "id": "STAT1-V55-Q06",
@@ -39201,7 +40879,12 @@ window.APP_DATA = {
       ],
       "formula_ids": [],
       "table_ids": [],
-      "flow_ids": []
+      "flow_ids": [],
+      "original_asset_ids": [
+        "PDFORIG_STAT_005",
+        "PDFORIG_STAT_006",
+        "PDFORIG_STAT_014"
+      ]
     },
     {
       "id": "STAT1-V55-Q07",
@@ -39234,6 +40917,10 @@ window.APP_DATA = {
       ],
       "flow_ids": [
         "FLOW_STAT_V55_02"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT_007",
+        "PDFORIG_STAT_008"
       ]
     },
     {
@@ -39263,6 +40950,10 @@ window.APP_DATA = {
       ],
       "flow_ids": [
         "FLOW_STAT_V55_02"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT_008",
+        "PDFORIG_STAT_009"
       ]
     },
     {
@@ -39294,6 +40985,10 @@ window.APP_DATA = {
       ],
       "flow_ids": [
         "FLOW_STAT_V55_02"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT_008",
+        "PDFORIG_STAT_009"
       ]
     },
     {
@@ -39323,7 +41018,10 @@ window.APP_DATA = {
         "FORMULA_STAT_V55_03"
       ],
       "table_ids": [],
-      "flow_ids": []
+      "flow_ids": [],
+      "original_asset_ids": [
+        "PDFORIG_STAT_010"
+      ]
     },
     {
       "id": "STAT1-V55-Q11",
@@ -39350,7 +41048,10 @@ window.APP_DATA = {
         "FORMULA_STAT_V55_04"
       ],
       "table_ids": [],
-      "flow_ids": []
+      "flow_ids": [],
+      "original_asset_ids": [
+        "PDFORIG_STAT_011"
+      ]
     },
     {
       "id": "STAT1-V55-Q12",
@@ -39379,7 +41080,12 @@ window.APP_DATA = {
       "table_ids": [
         "TABLE_STAT_V55_03"
       ],
-      "flow_ids": []
+      "flow_ids": [],
+      "original_asset_ids": [
+        "PDFORIG_STAT_005",
+        "PDFORIG_STAT_012",
+        "PDFORIG_STAT_013"
+      ]
     },
     {
       "id": "STAT1-V55-Q13",
@@ -39406,7 +41112,12 @@ window.APP_DATA = {
       "table_ids": [
         "TABLE_STAT_V55_03"
       ],
-      "flow_ids": []
+      "flow_ids": [],
+      "original_asset_ids": [
+        "PDFORIG_STAT_005",
+        "PDFORIG_STAT_012",
+        "PDFORIG_STAT_014"
+      ]
     }
   ],
   "visuals": [
@@ -39966,6 +41677,10 @@ window.APP_DATA = {
       "question_ids": [
         "STAT1-V54-Q01",
         "STAT1-V54-Q02"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT3_001",
+        "PDFORIG_STAT3_014"
       ]
     },
     {
@@ -40006,7 +41721,10 @@ window.APP_DATA = {
       "points": [
         "『未満』の割合を見るとき累積相対度数が有効。"
       ],
-      "question_ids": []
+      "question_ids": [],
+      "original_asset_ids": [
+        "PDFORIG_STAT3_002"
+      ]
     },
     {
       "id": "FIG_STAT_V57_03",
@@ -40058,6 +41776,12 @@ window.APP_DATA = {
         "STAT1-V54-Q06",
         "STAT1-V54-Q07",
         "STAT1-V54-Q08"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT3_003",
+        "PDFORIG_STAT3_004",
+        "PDFORIG_STAT3_008",
+        "PDFORIG_STAT3_015"
       ]
     },
     {
@@ -40102,6 +41826,10 @@ window.APP_DATA = {
       "question_ids": [
         "STAT1-V54-Q09",
         "STAT1-V54-Q10"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT3_005",
+        "PDFORIG_STAT3_018"
       ]
     },
     {
@@ -40138,6 +41866,9 @@ window.APP_DATA = {
       ],
       "question_ids": [
         "STAT1-V54-Q05"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT3_006"
       ]
     },
     {
@@ -40188,6 +41919,9 @@ window.APP_DATA = {
       "question_ids": [
         "STAT1-V54-Q03",
         "STAT1-V54-Q04"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT3_007"
       ]
     },
     {
@@ -40236,6 +41970,9 @@ window.APP_DATA = {
         "STAT1-V54-Q11",
         "STAT1-V54-Q12",
         "STAT1-V54-Q13"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT3_012"
       ]
     }
   ],
@@ -40275,6 +42012,9 @@ window.APP_DATA = {
       ],
       "question_ids": [
         "STAT1-V55-Q05"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT_004"
       ]
     },
     {
@@ -40312,6 +42052,10 @@ window.APP_DATA = {
       ],
       "question_ids": [
         "STAT1-V55-Q07"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT_007",
+        "PDFORIG_STAT_008"
       ]
     },
     {
@@ -40347,6 +42091,9 @@ window.APP_DATA = {
       ],
       "question_ids": [
         "STAT1-V55-Q10"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT_010"
       ]
     },
     {
@@ -40384,6 +42131,9 @@ window.APP_DATA = {
       ],
       "question_ids": [
         "STAT1-V55-Q11"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT_011"
       ]
     },
     {
@@ -40421,6 +42171,9 @@ window.APP_DATA = {
       ],
       "question_ids": [
         "STAT1-V53-Q01"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT2_002"
       ]
     },
     {
@@ -40460,6 +42213,10 @@ window.APP_DATA = {
       ],
       "question_ids": [
         "STAT1-V53-Q02"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT2_003",
+        "PDFORIG_STAT2_004"
       ]
     },
     {
@@ -40498,6 +42255,9 @@ window.APP_DATA = {
       ],
       "question_ids": [
         "STAT1-V53-Q02"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT2_004"
       ]
     },
     {
@@ -40534,6 +42294,10 @@ window.APP_DATA = {
       ],
       "question_ids": [
         "STAT1-V53-Q03"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT2_004",
+        "PDFORIG_STAT2_005"
       ]
     },
     {
@@ -40572,6 +42336,11 @@ window.APP_DATA = {
       "question_ids": [
         "STAT1-V53-Q04",
         "STAT1-V53-Q05"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT2_005",
+        "PDFORIG_STAT2_006",
+        "PDFORIG_STAT3_017"
       ]
     },
     {
@@ -40609,6 +42378,9 @@ window.APP_DATA = {
       ],
       "question_ids": [
         "STAT1-V53-Q06"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT2_007"
       ]
     },
     {
@@ -40647,6 +42419,12 @@ window.APP_DATA = {
       "question_ids": [
         "STAT1-V53-Q08",
         "STAT1-V53-Q09"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT2_007",
+        "PDFORIG_STAT2_008",
+        "PDFORIG_STAT3_013",
+        "PDFORIG_STAT3_014"
       ]
     },
     {
@@ -40686,6 +42464,9 @@ window.APP_DATA = {
       ],
       "question_ids": [
         "STAT1-V53-Q10"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT2_010"
       ]
     },
     {
@@ -40726,6 +42507,10 @@ window.APP_DATA = {
       "question_ids": [
         "STAT1-V53-Q11",
         "STAT1-V53-Q12"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT2_013",
+        "PDFORIG_STAT2_014"
       ]
     },
     {
@@ -40765,6 +42550,9 @@ window.APP_DATA = {
       "question_ids": [
         "STAT1-V53-Q13",
         "STAT1-V53-Q14"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT2_015"
       ]
     },
     {
@@ -40801,6 +42589,11 @@ window.APP_DATA = {
       ],
       "question_ids": [
         "STAT1-V53-Q15"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT2_016",
+        "PDFORIG_STAT2_017",
+        "PDFORIG_STAT3_017"
       ]
     },
     {
@@ -40835,7 +42628,12 @@ window.APP_DATA = {
       "visual_ids": [
         "FIG_STAT_V57_02"
       ],
-      "question_ids": []
+      "question_ids": [],
+      "original_asset_ids": [
+        "PDFORIG_STAT3_002",
+        "PDFORIG_STAT3_011",
+        "PDFORIG_STAT3_016"
+      ]
     },
     {
       "id": "FORMULA_STAT_V57_02",
@@ -40872,6 +42670,10 @@ window.APP_DATA = {
       ],
       "question_ids": [
         "STAT1-V54-Q07"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT3_003",
+        "PDFORIG_STAT3_004"
       ]
     },
     {
@@ -40910,6 +42712,13 @@ window.APP_DATA = {
       "question_ids": [
         "STAT1-V54-Q09",
         "STAT1-V54-Q10"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT3_005",
+        "PDFORIG_STAT3_008",
+        "PDFORIG_STAT3_009",
+        "PDFORIG_STAT3_015",
+        "PDFORIG_STAT3_018"
       ]
     },
     {
@@ -40947,6 +42756,9 @@ window.APP_DATA = {
       ],
       "question_ids": [
         "STAT1-V54-Q04"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT3_007"
       ]
     }
   ],
@@ -41004,6 +42816,9 @@ window.APP_DATA = {
       ],
       "question_ids": [
         "STAT1-V55-Q03"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT_002"
       ]
     },
     {
@@ -41045,6 +42860,10 @@ window.APP_DATA = {
         "STAT1-V55-Q07",
         "STAT1-V55-Q08",
         "STAT1-V55-Q09"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT_008",
+        "PDFORIG_STAT_009"
       ]
     },
     {
@@ -41087,6 +42906,9 @@ window.APP_DATA = {
       "question_ids": [
         "STAT1-V55-Q12",
         "STAT1-V55-Q13"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT_012"
       ]
     },
     {
@@ -41129,6 +42951,10 @@ window.APP_DATA = {
         "STAT1-V53-Q03",
         "STAT1-V53-Q04",
         "STAT1-V53-Q05"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT2_005",
+        "PDFORIG_STAT2_006"
       ]
     },
     {
@@ -41172,6 +42998,11 @@ window.APP_DATA = {
         "STAT1-V53-Q07",
         "STAT1-V53-Q08",
         "STAT1-V53-Q09"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT2_007",
+        "PDFORIG_STAT2_008",
+        "PDFORIG_STAT2_009"
       ]
     },
     {
@@ -41210,6 +43041,10 @@ window.APP_DATA = {
         "STAT1-V53-Q13",
         "STAT1-V53-Q14",
         "STAT1-V53-Q15"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT2_015",
+        "PDFORIG_STAT2_016"
       ]
     },
     {
@@ -41257,6 +43092,11 @@ window.APP_DATA = {
         "STAT1-V54-Q01",
         "STAT1-V54-Q02",
         "STAT1-V54-Q05"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT3_001",
+        "PDFORIG_STAT3_006",
+        "PDFORIG_STAT3_007"
       ]
     },
     {
@@ -41288,7 +43128,12 @@ window.APP_DATA = {
       "important": [
         "最後の累積相対度数は1（100％）。"
       ],
-      "question_ids": []
+      "question_ids": [],
+      "original_asset_ids": [
+        "PDFORIG_STAT3_002",
+        "PDFORIG_STAT3_011",
+        "PDFORIG_STAT3_016"
+      ]
     },
     {
       "id": "TABLE_STAT_V57_03",
@@ -41323,6 +43168,14 @@ window.APP_DATA = {
         "STAT1-V54-Q08",
         "STAT1-V54-Q09",
         "STAT1-V54-Q10"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT3_004",
+        "PDFORIG_STAT3_005",
+        "PDFORIG_STAT3_008",
+        "PDFORIG_STAT3_009",
+        "PDFORIG_STAT3_015",
+        "PDFORIG_STAT3_018"
       ]
     },
     {
@@ -41364,6 +43217,11 @@ window.APP_DATA = {
         "STAT1-V54-Q11",
         "STAT1-V54-Q12",
         "STAT1-V54-Q13"
+      ],
+      "original_asset_ids": [
+        "PDFORIG_STAT3_012",
+        "PDFORIG_STAT3_013",
+        "PDFORIG_STAT3_017"
       ]
     }
   ],
@@ -41752,6 +43610,1373 @@ window.APP_DATA = {
         "STAT1-V54-Q12",
         "STAT1-V54-Q13"
       ]
+    }
+  ],
+  "original_assets": [
+    {
+      "id": "PDFORIG_STAT_001",
+      "source_pdf": "写真.pdf",
+      "pdf_page": 2,
+      "figure_no": null,
+      "title": "量的データと質的データ",
+      "type": "比較表",
+      "topic_ids": [
+        "STAT1-1"
+      ],
+      "description": "量的データと質的データの説明と例示表を原図のまま確認する。",
+      "view_point": "数値かどうかではなく、量として数値に意味があるかを見る。",
+      "question_ids": [
+        "STAT1-V55-Q01",
+        "STAT1-V55-Q02"
+      ],
+      "display_timing": "データ分類の定義や例を確認するとき",
+      "path": "assets/original/PDFORIG_STAT_001.png",
+      "crop_box_fraction": [
+        0.12,
+        0.13,
+        0.86,
+        0.67
+      ],
+      "origin": "PDF原図",
+      "button_label": "元の表を見る"
+    },
+    {
+      "id": "PDFORIG_STAT_002",
+      "source_pdf": "写真.pdf",
+      "pdf_page": 3,
+      "figure_no": null,
+      "title": "4つの尺度",
+      "type": "比較表",
+      "topic_ids": [
+        "STAT1-2"
+      ],
+      "description": "名義・順序・間隔・比例の4尺度の比較表を原図のまま確認する。",
+      "view_point": "順序・差・比・絶対的0の違いに注目する。",
+      "question_ids": [
+        "STAT1-V55-Q03"
+      ],
+      "display_timing": "尺度の違いを比較するとき",
+      "path": "assets/original/PDFORIG_STAT_002.png",
+      "crop_box_fraction": [
+        0.1,
+        0.07,
+        0.87,
+        0.64
+      ],
+      "origin": "PDF原図",
+      "button_label": "元の表を見る"
+    },
+    {
+      "id": "PDFORIG_STAT_003",
+      "source_pdf": "写真.pdf",
+      "pdf_page": 5,
+      "figure_no": null,
+      "title": "階級・度数・度数分布表",
+      "type": "表",
+      "topic_ids": [
+        "STAT1-3"
+      ],
+      "description": "身長データを階級へ分け、度数分布表へ整理する過程を確認する。",
+      "view_point": "階級の範囲・階級値・度数を混同しない。",
+      "question_ids": [
+        "STAT1-V55-Q04",
+        "STAT1-V52-Q01"
+      ],
+      "display_timing": "度数分布表の作り方を確認するとき",
+      "path": "assets/original/PDFORIG_STAT_003.png",
+      "crop_box_fraction": [
+        0.1,
+        0.08,
+        0.87,
+        0.7
+      ],
+      "origin": "PDF原図",
+      "button_label": "元の表を見る"
+    },
+    {
+      "id": "PDFORIG_STAT_004",
+      "source_pdf": "写真.pdf",
+      "pdf_page": 6,
+      "figure_no": null,
+      "title": "相対度数分布表",
+      "type": "表・数式",
+      "topic_ids": [
+        "STAT1-4"
+      ],
+      "description": "度数から相対度数を求める例と相対度数分布表を確認する。",
+      "view_point": "相対度数=階級の度数÷全データ数、合計は1。",
+      "question_ids": [
+        "STAT1-V55-Q05",
+        "STAT1-V52-Q02",
+        "STAT1-V52-Q03"
+      ],
+      "display_timing": "相対度数の計算・意味を確認するとき",
+      "path": "assets/original/PDFORIG_STAT_004.png",
+      "crop_box_fraction": [
+        0.1,
+        0.12,
+        0.87,
+        0.68
+      ],
+      "origin": "PDF原図",
+      "button_label": "元の数式を見る"
+    },
+    {
+      "id": "PDFORIG_STAT_005",
+      "source_pdf": "写真.pdf",
+      "pdf_page": 7,
+      "figure_no": null,
+      "title": "ヒストグラムと分布の4パターン",
+      "type": "グラフ",
+      "topic_ids": [
+        "STAT1-5",
+        "STAT1-8"
+      ],
+      "description": "身長のヒストグラムと、左右対称・右裾・左裾・複数ピークの模式図を確認する。",
+      "view_point": "横軸=階級、縦軸=度数。裾の方向と分布形を読む。",
+      "question_ids": [
+        "STAT1-V55-Q06",
+        "STAT1-V55-Q12",
+        "STAT1-V55-Q13"
+      ],
+      "display_timing": "分布の形を目で確認するとき",
+      "path": "assets/original/PDFORIG_STAT_005.png",
+      "crop_box_fraction": [
+        0.08,
+        0.08,
+        0.89,
+        0.77
+      ],
+      "origin": "PDF原図",
+      "button_label": "原図を見る"
+    },
+    {
+      "id": "PDFORIG_STAT_006",
+      "source_pdf": "写真.pdf",
+      "pdf_page": 8,
+      "figure_no": null,
+      "title": "相対度数の練習問題とヒストグラム",
+      "type": "表・グラフ",
+      "topic_ids": [
+        "STAT1-4",
+        "STAT1-5"
+      ],
+      "description": "相対度数表の穴埋めと、それに対応するヒストグラムを確認する。",
+      "view_point": "累積・単独の割合を混同せず、棒の高さとの対応を見る。",
+      "question_ids": [
+        "STAT1-V52-Q03",
+        "STAT1-V55-Q06"
+      ],
+      "display_timing": "表とヒストグラムを対応させるとき",
+      "path": "assets/original/PDFORIG_STAT_006.png",
+      "crop_box_fraction": [
+        0.08,
+        0.13,
+        0.89,
+        0.76
+      ],
+      "origin": "PDF原図",
+      "button_label": "原図を見る"
+    },
+    {
+      "id": "PDFORIG_STAT_007",
+      "source_pdf": "写真.pdf",
+      "pdf_page": 9,
+      "figure_no": null,
+      "title": "平均値の考え方と計算",
+      "type": "模式図・数式",
+      "topic_ids": [
+        "STAT1-6"
+      ],
+      "description": "積み木の高さをそろえる模式図と平均値の計算式を原図で確認する。",
+      "view_point": "平均は全データを均した1個あたりの値というイメージ。",
+      "question_ids": [
+        "STAT1-V55-Q07"
+      ],
+      "display_timing": "平均値の意味・計算を確認するとき",
+      "path": "assets/original/PDFORIG_STAT_007.png",
+      "crop_box_fraction": [
+        0.07,
+        0.08,
+        0.9,
+        0.78
+      ],
+      "origin": "PDF原図",
+      "button_label": "元の数式を見る"
+    },
+    {
+      "id": "PDFORIG_STAT_008",
+      "source_pdf": "写真.pdf",
+      "pdf_page": 10,
+      "figure_no": null,
+      "title": "平均値の一般式・中央値・最頻値",
+      "type": "数式・模式図",
+      "topic_ids": [
+        "STAT1-6"
+      ],
+      "description": "平均値の一般式と中央値・最頻値の定義を確認する。",
+      "view_point": "中央値は並べた中央、偶数個では中央2値の平均。最頻値は最多値。",
+      "question_ids": [
+        "STAT1-V55-Q07",
+        "STAT1-V55-Q08",
+        "STAT1-V55-Q09"
+      ],
+      "display_timing": "代表値3種類をまとめて確認するとき",
+      "path": "assets/original/PDFORIG_STAT_008.png",
+      "crop_box_fraction": [
+        0.07,
+        0.07,
+        0.9,
+        0.76
+      ],
+      "origin": "PDF原図",
+      "button_label": "元の数式を見る"
+    },
+    {
+      "id": "PDFORIG_STAT_009",
+      "source_pdf": "写真.pdf",
+      "pdf_page": 11,
+      "figure_no": null,
+      "title": "中央値（奇数個・偶数個）と最頻値",
+      "type": "模式図",
+      "topic_ids": [
+        "STAT1-6"
+      ],
+      "description": "奇数個・偶数個それぞれの中央値の位置と最頻値の例を確認する。",
+      "view_point": "偶数個の中央値は中央2個の平均。",
+      "question_ids": [
+        "STAT1-V55-Q08",
+        "STAT1-V55-Q09"
+      ],
+      "display_timing": "中央値の求め方を視覚確認するとき",
+      "path": "assets/original/PDFORIG_STAT_009.png",
+      "crop_box_fraction": [
+        0.1,
+        0.08,
+        0.86,
+        0.74
+      ],
+      "origin": "PDF原図",
+      "button_label": "原図を見る"
+    },
+    {
+      "id": "PDFORIG_STAT_010",
+      "source_pdf": "写真.pdf",
+      "pdf_page": 12,
+      "figure_no": null,
+      "title": "度数分布表から平均を求める（度数法）",
+      "type": "表・数式",
+      "topic_ids": [
+        "STAT1-7"
+      ],
+      "description": "階級値×度数を合計し、総度数で割る計算過程を原図で確認する。",
+      "view_point": "各階級を階級値で代表させる。",
+      "question_ids": [
+        "STAT1-V55-Q10"
+      ],
+      "display_timing": "度数法の加重平均を確認するとき",
+      "path": "assets/original/PDFORIG_STAT_010.png",
+      "crop_box_fraction": [
+        0.08,
+        0.07,
+        0.88,
+        0.84
+      ],
+      "origin": "PDF原図",
+      "button_label": "元の数式を見る"
+    },
+    {
+      "id": "PDFORIG_STAT_011",
+      "source_pdf": "写真.pdf",
+      "pdf_page": 13,
+      "figure_no": null,
+      "title": "度数分布表から平均を求める（相対度数法）",
+      "type": "表・数式",
+      "topic_ids": [
+        "STAT1-7"
+      ],
+      "description": "階級値×相対度数を合計する計算過程を確認する。",
+      "view_point": "相対度数の合計は1なので最後に総度数で割らない。",
+      "question_ids": [
+        "STAT1-V55-Q11"
+      ],
+      "display_timing": "相対度数法の加重平均を確認するとき",
+      "path": "assets/original/PDFORIG_STAT_011.png",
+      "crop_box_fraction": [
+        0.08,
+        0.05,
+        0.88,
+        0.72
+      ],
+      "origin": "PDF原図",
+      "button_label": "元の数式を見る"
+    },
+    {
+      "id": "PDFORIG_STAT_012",
+      "source_pdf": "写真.pdf",
+      "pdf_page": 14,
+      "figure_no": null,
+      "title": "代表値から分布パターンを読み取る",
+      "type": "表・グラフ",
+      "topic_ids": [
+        "STAT1-8"
+      ],
+      "description": "平均・中央値・最頻値と、左右対称・右裾・左裾の分布図を確認する。",
+      "view_point": "右裾では平均が右へ、左裾では平均が左へ引かれる。",
+      "question_ids": [
+        "STAT1-V55-Q12",
+        "STAT1-V55-Q13"
+      ],
+      "display_timing": "代表値と分布形の関係を確認するとき",
+      "path": "assets/original/PDFORIG_STAT_012.png",
+      "crop_box_fraction": [
+        0.07,
+        0.05,
+        0.9,
+        0.83
+      ],
+      "origin": "PDF原図",
+      "button_label": "原図を見る"
+    },
+    {
+      "id": "PDFORIG_STAT_013",
+      "source_pdf": "写真.pdf",
+      "pdf_page": 15,
+      "figure_no": null,
+      "title": "右に裾が長い分布と相対度数練習",
+      "type": "グラフ・表",
+      "topic_ids": [
+        "STAT1-8",
+        "STAT1-4"
+      ],
+      "description": "給与所得の右裾が長い分布例と相対度数表の練習を確認する。",
+      "view_point": "極端に大きい値がある分布では平均が右へ引かれる。",
+      "question_ids": [
+        "STAT1-V55-Q12",
+        "STAT1-V52-Q03"
+      ],
+      "display_timing": "右裾分布の具体例を見るとき",
+      "path": "assets/original/PDFORIG_STAT_013.png",
+      "crop_box_fraction": [
+        0.09,
+        0.07,
+        0.88,
+        0.76
+      ],
+      "origin": "PDF原図",
+      "button_label": "原図を見る"
+    },
+    {
+      "id": "PDFORIG_STAT_014",
+      "source_pdf": "写真.pdf",
+      "pdf_page": 16,
+      "figure_no": null,
+      "title": "練習問題の解説表とヒストグラム",
+      "type": "表・グラフ",
+      "topic_ids": [
+        "STAT1-4",
+        "STAT1-5",
+        "STAT1-8"
+      ],
+      "description": "相対度数・累積相対度数の解説表と、中央値位置を示したヒストグラムを確認する。",
+      "view_point": "累積相対度数と中央値付近の位置関係を確認する。",
+      "question_ids": [
+        "STAT1-V52-Q03",
+        "STAT1-V55-Q06",
+        "STAT1-V55-Q13"
+      ],
+      "display_timing": "練習問題の復習時",
+      "path": "assets/original/PDFORIG_STAT_014.png",
+      "crop_box_fraction": [
+        0.08,
+        0.08,
+        0.9,
+        0.84
+      ],
+      "origin": "PDF原図",
+      "button_label": "原図を見る"
+    },
+    {
+      "id": "PDFORIG_STAT2_001",
+      "source_pdf": "写真(1).pdf",
+      "pdf_page": 1,
+      "figure_no": null,
+      "title": "同じ平均・異なるばらつきの比較",
+      "type": "グラフ・模式図",
+      "topic_ids": [
+        "STAT1-9"
+      ],
+      "description": "平均が同じでもデータの散らばり方が異なる例を原図で確認する。",
+      "view_point": "平均だけでは分布の違いを表せず、分散・標準偏差が必要になる。",
+      "question_ids": [
+        "STAT1-V53-Q03"
+      ],
+      "display_timing": "ばらつきの概念を確認するとき",
+      "path": "assets/original/PDFORIG_STAT2_001.png",
+      "crop_box_fraction": [
+        0.08,
+        0.07,
+        0.9,
+        0.78
+      ],
+      "origin": "PDF原図",
+      "button_label": "原図を見る"
+    },
+    {
+      "id": "PDFORIG_STAT2_002",
+      "source_pdf": "写真(1).pdf",
+      "pdf_page": 2,
+      "figure_no": null,
+      "title": "偏差から分散へ",
+      "type": "表・数式",
+      "topic_ids": [
+        "STAT1-9"
+      ],
+      "description": "各データから平均を引いて偏差を求め、偏差の2乗平均へ進む考え方を確認する。",
+      "view_point": "偏差の合計は0になるため、そのまま平均せず2乗する。",
+      "question_ids": [
+        "STAT1-V53-Q01",
+        "STAT1-V53-Q02"
+      ],
+      "display_timing": "偏差と分散の意味を確認するとき",
+      "path": "assets/original/PDFORIG_STAT2_002.png",
+      "crop_box_fraction": [
+        0.08,
+        0.08,
+        0.9,
+        0.8
+      ],
+      "origin": "PDF原図",
+      "button_label": "元の数式を見る"
+    },
+    {
+      "id": "PDFORIG_STAT2_003",
+      "source_pdf": "写真(1).pdf",
+      "pdf_page": 3,
+      "figure_no": null,
+      "title": "データA・Bの分散計算と一般式",
+      "type": "表・数式",
+      "topic_ids": [
+        "STAT1-9"
+      ],
+      "description": "データA・Bについて偏差平方和から分散を計算する過程と一般式を確認する。",
+      "view_point": "分散＝偏差の2乗の平均。",
+      "question_ids": [
+        "STAT1-V53-Q02"
+      ],
+      "display_timing": "分散の計算手順を確認するとき",
+      "path": "assets/original/PDFORIG_STAT2_003.png",
+      "crop_box_fraction": [
+        0.07,
+        0.07,
+        0.9,
+        0.86
+      ],
+      "origin": "PDF原図",
+      "button_label": "元の数式を見る"
+    },
+    {
+      "id": "PDFORIG_STAT2_004",
+      "source_pdf": "写真(1).pdf",
+      "pdf_page": 4,
+      "figure_no": null,
+      "title": "分散の別式と標準偏差",
+      "type": "数式",
+      "topic_ids": [
+        "STAT1-9"
+      ],
+      "description": "分散の別式と、分散の正の平方根として標準偏差を求める流れを確認する。",
+      "view_point": "『2乗の平均－平均の2乗』と、標準偏差＝√分散を区別する。",
+      "question_ids": [
+        "STAT1-V53-Q02",
+        "STAT1-V53-Q03"
+      ],
+      "display_timing": "分散の公式・標準偏差を確認するとき",
+      "path": "assets/original/PDFORIG_STAT2_004.png",
+      "crop_box_fraction": [
+        0.08,
+        0.06,
+        0.9,
+        0.83
+      ],
+      "origin": "PDF原図",
+      "button_label": "元の数式を見る"
+    },
+    {
+      "id": "PDFORIG_STAT2_005",
+      "source_pdf": "写真(1).pdf",
+      "pdf_page": 5,
+      "figure_no": null,
+      "title": "標準偏差と変動係数",
+      "type": "数式・表",
+      "topic_ids": [
+        "STAT1-9"
+      ],
+      "description": "標準偏差の具体例と、変動係数=標準偏差÷平均値の比較例を確認する。",
+      "view_point": "異なる平均水準の比較では変動係数を見る。",
+      "question_ids": [
+        "STAT1-V53-Q03",
+        "STAT1-V53-Q04",
+        "STAT1-V53-Q05"
+      ],
+      "display_timing": "標準偏差と変動係数を使い分けるとき",
+      "path": "assets/original/PDFORIG_STAT2_005.png",
+      "crop_box_fraction": [
+        0.08,
+        0.08,
+        0.9,
+        0.82
+      ],
+      "origin": "PDF原図",
+      "button_label": "元の数式を見る"
+    },
+    {
+      "id": "PDFORIG_STAT2_006",
+      "source_pdf": "写真(1).pdf",
+      "pdf_page": 6,
+      "figure_no": null,
+      "title": "分散・標準偏差・変動係数の練習問題",
+      "type": "数式・解説",
+      "topic_ids": [
+        "STAT1-9"
+      ],
+      "description": "平均・分散・標準偏差・変動係数を一連で計算する練習例を確認する。",
+      "view_point": "式の順序と平方根・比率を確認する。",
+      "question_ids": [
+        "STAT1-V53-Q02",
+        "STAT1-V53-Q03",
+        "STAT1-V53-Q04"
+      ],
+      "display_timing": "計算手順をまとめて復習するとき",
+      "path": "assets/original/PDFORIG_STAT2_006.png",
+      "crop_box_fraction": [
+        0.07,
+        0.08,
+        0.9,
+        0.76
+      ],
+      "origin": "PDF原図",
+      "button_label": "元の数式を見る"
+    },
+    {
+      "id": "PDFORIG_STAT2_007",
+      "source_pdf": "写真(1).pdf",
+      "pdf_page": 7,
+      "figure_no": null,
+      "title": "範囲と四分位範囲",
+      "type": "模式図・数式",
+      "topic_ids": [
+        "STAT1-10"
+      ],
+      "description": "範囲、四分位数、IQRの定義を原図で確認する。",
+      "view_point": "Q2=中央値、IQR=Q3-Q1。",
+      "question_ids": [
+        "STAT1-V53-Q06",
+        "STAT1-V53-Q07",
+        "STAT1-V53-Q08"
+      ],
+      "display_timing": "範囲と四分位範囲の定義を確認するとき",
+      "path": "assets/original/PDFORIG_STAT2_007.png",
+      "crop_box_fraction": [
+        0.08,
+        0.07,
+        0.9,
+        0.84
+      ],
+      "origin": "PDF原図",
+      "button_label": "元の数式を見る"
+    },
+    {
+      "id": "PDFORIG_STAT2_008",
+      "source_pdf": "写真(1).pdf",
+      "pdf_page": 8,
+      "figure_no": null,
+      "title": "四分位数と5数要約の具体例",
+      "type": "模式図・表",
+      "topic_ids": [
+        "STAT1-10"
+      ],
+      "description": "並べたデータからQ1・Q2・Q3を決め、範囲とIQRを計算する例を確認する。",
+      "view_point": "25%・50%・75%位置と5数要約の関係を見る。",
+      "question_ids": [
+        "STAT1-V53-Q07",
+        "STAT1-V53-Q08"
+      ],
+      "display_timing": "四分位数の位置を具体例で確認するとき",
+      "path": "assets/original/PDFORIG_STAT2_008.png",
+      "crop_box_fraction": [
+        0.09,
+        0.08,
+        0.88,
+        0.78
+      ],
+      "origin": "PDF原図",
+      "button_label": "元の表を見る"
+    },
+    {
+      "id": "PDFORIG_STAT2_009",
+      "source_pdf": "写真(1).pdf",
+      "pdf_page": 9,
+      "figure_no": null,
+      "title": "箱ひげ図",
+      "type": "模式図・グラフ",
+      "topic_ids": [
+        "STAT1-10"
+      ],
+      "description": "箱ひげ図の構成と複数都市の比較例を確認する。",
+      "view_point": "箱=Q1〜Q3、中央線=中央値、ひげ=外側の広がり。",
+      "question_ids": [
+        "STAT1-V53-Q09"
+      ],
+      "display_timing": "箱ひげ図の読み方を確認するとき",
+      "path": "assets/original/PDFORIG_STAT2_009.png",
+      "crop_box_fraction": [
+        0.08,
+        0.06,
+        0.91,
+        0.82
+      ],
+      "origin": "PDF原図",
+      "button_label": "原図を見る"
+    },
+    {
+      "id": "PDFORIG_STAT2_010",
+      "source_pdf": "写真(1).pdf",
+      "pdf_page": 10,
+      "figure_no": null,
+      "title": "外れ値と箱ひげ図",
+      "type": "グラフ・数式",
+      "topic_ids": [
+        "STAT1-10"
+      ],
+      "description": "外れ値のあるヒストグラムと箱ひげ図、1.5×IQRによる判定を確認する。",
+      "view_point": "Q1-1.5IQR未満 / Q3+1.5IQR超を外れ値の目安とする。",
+      "question_ids": [
+        "STAT1-V53-Q10"
+      ],
+      "display_timing": "外れ値判定を確認するとき",
+      "path": "assets/original/PDFORIG_STAT2_010.png",
+      "crop_box_fraction": [
+        0.07,
+        0.06,
+        0.92,
+        0.83
+      ],
+      "origin": "PDF原図",
+      "button_label": "元の数式を見る"
+    },
+    {
+      "id": "PDFORIG_STAT2_011",
+      "source_pdf": "写真(1).pdf",
+      "pdf_page": 11,
+      "figure_no": null,
+      "title": "箱ひげ図選択の練習問題",
+      "type": "表・問題",
+      "topic_ids": [
+        "STAT1-10",
+        "STAT1-14"
+      ],
+      "description": "度数分布表から対応する箱ひげ図を選ぶ練習問題を確認する。",
+      "view_point": "中央値・四分位・範囲を表から読み取って図と対応させる。",
+      "question_ids": [
+        "STAT1-V54-Q11",
+        "STAT1-V54-Q12",
+        "STAT1-V54-Q13"
+      ],
+      "display_timing": "箱ひげ図と度数分布を対応させるとき",
+      "path": "assets/original/PDFORIG_STAT2_011.png",
+      "crop_box_fraction": [
+        0.09,
+        0.08,
+        0.88,
+        0.64
+      ],
+      "origin": "PDF原図",
+      "button_label": "元の表を見る"
+    },
+    {
+      "id": "PDFORIG_STAT2_012",
+      "source_pdf": "写真(1).pdf",
+      "pdf_page": 12,
+      "figure_no": null,
+      "title": "標準化得点の導入",
+      "type": "概念図・説明",
+      "topic_ids": [
+        "STAT1-11"
+      ],
+      "description": "平均が異なるテスト得点を、その分布内の位置として比較する考え方を確認する。",
+      "view_point": "素点ではなく平均との差を標準偏差単位で見る。",
+      "question_ids": [
+        "STAT1-V53-Q13",
+        "STAT1-V53-Q14"
+      ],
+      "display_timing": "標準化の目的を確認するとき",
+      "path": "assets/original/PDFORIG_STAT2_012.png",
+      "crop_box_fraction": [
+        0.08,
+        0.07,
+        0.9,
+        0.79
+      ],
+      "origin": "PDF原図",
+      "button_label": "原図を見る"
+    },
+    {
+      "id": "PDFORIG_STAT2_013",
+      "source_pdf": "写真(1).pdf",
+      "pdf_page": 13,
+      "figure_no": null,
+      "title": "線形変換と平均・分散",
+      "type": "数式",
+      "topic_ids": [
+        "STAT1-11"
+      ],
+      "description": "全データをa倍してbを加えたときの平均・分散の変化を原式で確認する。",
+      "view_point": "平均はa倍+b、分散はa²倍。",
+      "question_ids": [
+        "STAT1-V53-Q11",
+        "STAT1-V53-Q12"
+      ],
+      "display_timing": "線形変換の式を確認するとき",
+      "path": "assets/original/PDFORIG_STAT2_013.png",
+      "crop_box_fraction": [
+        0.07,
+        0.06,
+        0.91,
+        0.86
+      ],
+      "origin": "PDF原図",
+      "button_label": "元の数式を見る"
+    },
+    {
+      "id": "PDFORIG_STAT2_014",
+      "source_pdf": "写真(1).pdf",
+      "pdf_page": 14,
+      "figure_no": null,
+      "title": "線形変換と標準偏差",
+      "type": "グラフ・数式",
+      "topic_ids": [
+        "STAT1-11"
+      ],
+      "description": "定数加算と倍率変更が分布位置・ばらつきへ与える影響を図と式で確認する。",
+      "view_point": "bの加算はばらつきを変えず、a倍は標準偏差を|a|倍する。",
+      "question_ids": [
+        "STAT1-V53-Q11",
+        "STAT1-V53-Q12"
+      ],
+      "display_timing": "分布の位置移動と伸縮を確認するとき",
+      "path": "assets/original/PDFORIG_STAT2_014.png",
+      "crop_box_fraction": [
+        0.07,
+        0.05,
+        0.91,
+        0.83
+      ],
+      "origin": "PDF原図",
+      "button_label": "元の数式を見る"
+    },
+    {
+      "id": "PDFORIG_STAT2_015",
+      "source_pdf": "写真(1).pdf",
+      "pdf_page": 15,
+      "figure_no": null,
+      "title": "標準化得点の式と具体例",
+      "type": "数式・例",
+      "topic_ids": [
+        "STAT1-11"
+      ],
+      "description": "標準化得点z=(x-平均)/標準偏差と、得点比較の具体例を確認する。",
+      "view_point": "平均と同じ値はz=0。平均より高ければ正。",
+      "question_ids": [
+        "STAT1-V53-Q13",
+        "STAT1-V53-Q14"
+      ],
+      "display_timing": "標準化得点を計算するとき",
+      "path": "assets/original/PDFORIG_STAT2_015.png",
+      "crop_box_fraction": [
+        0.07,
+        0.07,
+        0.91,
+        0.83
+      ],
+      "origin": "PDF原図",
+      "button_label": "元の数式を見る"
+    },
+    {
+      "id": "PDFORIG_STAT2_016",
+      "source_pdf": "写真(1).pdf",
+      "pdf_page": 16,
+      "figure_no": null,
+      "title": "偏差値",
+      "type": "数式・例",
+      "topic_ids": [
+        "STAT1-11"
+      ],
+      "description": "標準化得点から偏差値へ変換する式と具体例を確認する。",
+      "view_point": "偏差値=10z+50、平均50・標準偏差10。",
+      "question_ids": [
+        "STAT1-V53-Q15"
+      ],
+      "display_timing": "偏差値の意味・式を確認するとき",
+      "path": "assets/original/PDFORIG_STAT2_016.png",
+      "crop_box_fraction": [
+        0.08,
+        0.07,
+        0.9,
+        0.82
+      ],
+      "origin": "PDF原図",
+      "button_label": "元の数式を見る"
+    },
+    {
+      "id": "PDFORIG_STAT2_017",
+      "source_pdf": "写真(1).pdf",
+      "pdf_page": 17,
+      "figure_no": null,
+      "title": "標準化得点と偏差値の練習問題",
+      "type": "問題・数式",
+      "topic_ids": [
+        "STAT1-11"
+      ],
+      "description": "平均・標準偏差から標準化得点と偏差値を求める練習問題を確認する。",
+      "view_point": "zを先に求め、偏差値へ変換する。",
+      "question_ids": [
+        "STAT1-V53-Q13",
+        "STAT1-V53-Q15"
+      ],
+      "display_timing": "標準化と偏差値をまとめて復習するとき",
+      "path": "assets/original/PDFORIG_STAT2_017.png",
+      "crop_box_fraction": [
+        0.1,
+        0.1,
+        0.88,
+        0.52
+      ],
+      "origin": "PDF原図",
+      "button_label": "元の数式を見る"
+    },
+    {
+      "id": "PDFORIG_STAT3_001",
+      "source_pdf": "写真(2).pdf",
+      "pdf_page": 1,
+      "figure_no": null,
+      "title": "幹葉図",
+      "type": "幹葉図",
+      "topic_ids": [
+        "STAT1-12"
+      ],
+      "description": "幹葉図の原図をそのまま確認し、元データを残したまま分布を表せることを理解する。",
+      "view_point": "幹＝十の位、葉＝一の位。分布だけでなく元の値も読める。",
+      "question_ids": [
+        "STAT1-V54-Q01",
+        "STAT1-V54-Q02"
+      ],
+      "display_timing": "幹葉図の意味や読み方を確認するとき",
+      "path": "assets/original/PDFORIG_STAT3_001.png",
+      "crop_box_fraction": [
+        0.16,
+        0.17,
+        0.78,
+        0.79
+      ],
+      "origin": "PDF原図",
+      "button_label": "原図を見る"
+    },
+    {
+      "id": "PDFORIG_STAT3_002",
+      "source_pdf": "写真(2).pdf",
+      "pdf_page": 2,
+      "figure_no": null,
+      "title": "累積相対度数分布表",
+      "type": "表",
+      "topic_ids": [
+        "STAT1-4",
+        "STAT1-13"
+      ],
+      "description": "累積相対度数分布表の原表を確認する。",
+      "view_point": "各階級の相対度数を下から順に足していく。",
+      "question_ids": [
+        "STAT1-V52-Q02",
+        "STAT1-V52-Q03",
+        "STAT1-V55-Q05"
+      ],
+      "display_timing": "累積相対度数の意味や表の見方を確認するとき",
+      "path": "assets/original/PDFORIG_STAT3_002.png",
+      "crop_box_fraction": [
+        0.15,
+        0.18,
+        0.79,
+        0.43
+      ],
+      "origin": "PDF原図",
+      "button_label": "元の表を見る"
+    },
+    {
+      "id": "PDFORIG_STAT3_003",
+      "source_pdf": "写真(2).pdf",
+      "pdf_page": 2,
+      "figure_no": null,
+      "title": "ローレンツ曲線を作るための表",
+      "type": "表",
+      "topic_ids": [
+        "STAT1-13"
+      ],
+      "description": "ローレンツ曲線の作成前に使う階級別の所得表を原表で確認する。",
+      "view_point": "階級値・度数・相対度数・累積相対度数の関係を見る。",
+      "question_ids": [
+        "STAT1-V54-Q06",
+        "STAT1-V54-Q07"
+      ],
+      "display_timing": "ローレンツ曲線の材料になる表を確認するとき",
+      "path": "assets/original/PDFORIG_STAT3_003.png",
+      "crop_box_fraction": [
+        0.15,
+        0.47,
+        0.79,
+        0.83
+      ],
+      "origin": "PDF原図",
+      "button_label": "元の表を見る"
+    },
+    {
+      "id": "PDFORIG_STAT3_004",
+      "source_pdf": "写真(2).pdf",
+      "pdf_page": 3,
+      "figure_no": null,
+      "title": "ローレンツ曲線",
+      "type": "グラフ・表",
+      "topic_ids": [
+        "STAT1-13"
+      ],
+      "description": "ローレンツ曲線の原図を表とグラフ込みで確認する。",
+      "view_point": "横軸＝累積相対度数、縦軸＝累積配分比率。",
+      "question_ids": [
+        "STAT1-V54-Q06",
+        "STAT1-V54-Q07",
+        "STAT1-V54-Q08"
+      ],
+      "display_timing": "ローレンツ曲線の軸や形を確認するとき",
+      "path": "assets/original/PDFORIG_STAT3_004.png",
+      "crop_box_fraction": [
+        0.17,
+        0.11,
+        0.81,
+        0.78
+      ],
+      "origin": "PDF原図",
+      "button_label": "原図を見る"
+    },
+    {
+      "id": "PDFORIG_STAT3_005",
+      "source_pdf": "写真(2).pdf",
+      "pdf_page": 4,
+      "figure_no": null,
+      "title": "ジニ係数",
+      "type": "グラフ・数式",
+      "topic_ids": [
+        "STAT1-13"
+      ],
+      "description": "ジニ係数の説明図と式を原図のまま確認する。",
+      "view_point": "完全平等線とローレンツ曲線にはさまれた面積比で不平等度を見る。",
+      "question_ids": [
+        "STAT1-V54-Q09",
+        "STAT1-V54-Q10"
+      ],
+      "display_timing": "ジニ係数の意味を確認するとき",
+      "path": "assets/original/PDFORIG_STAT3_005.png",
+      "crop_box_fraction": [
+        0.17,
+        0.12,
+        0.81,
+        0.74
+      ],
+      "origin": "PDF原図",
+      "button_label": "元の数式を見る"
+    },
+    {
+      "id": "PDFORIG_STAT3_006",
+      "source_pdf": "写真(2).pdf",
+      "pdf_page": 5,
+      "figure_no": null,
+      "title": "棒グラフ・円グラフ",
+      "type": "棒グラフ・円グラフ",
+      "topic_ids": [
+        "STAT1-12"
+      ],
+      "description": "質的データの度数分布を表す棒グラフ・円グラフの原図を確認する。",
+      "view_point": "棒グラフは比較、円グラフは構成比を見る。",
+      "question_ids": [
+        "STAT1-V54-Q05"
+      ],
+      "display_timing": "質的データの図表を使い分けるとき",
+      "path": "assets/original/PDFORIG_STAT3_006.png",
+      "crop_box_fraction": [
+        0.15,
+        0.11,
+        0.83,
+        0.43
+      ],
+      "origin": "PDF原図",
+      "button_label": "原図を見る"
+    },
+    {
+      "id": "PDFORIG_STAT3_007",
+      "source_pdf": "写真(2).pdf",
+      "pdf_page": 5,
+      "figure_no": null,
+      "title": "クロス集計表",
+      "type": "クロス集計表",
+      "topic_ids": [
+        "STAT1-12"
+      ],
+      "description": "2つのカテゴリ変数を組み合わせたクロス集計表の原表を確認する。",
+      "view_point": "全体割合と、男女別などの条件付き割合を混同しない。",
+      "question_ids": [
+        "STAT1-V54-Q03",
+        "STAT1-V54-Q04"
+      ],
+      "display_timing": "クロス集計表の読み方を確認するとき",
+      "path": "assets/original/PDFORIG_STAT3_007.png",
+      "crop_box_fraction": [
+        0.15,
+        0.45,
+        0.79,
+        0.77
+      ],
+      "origin": "PDF原図",
+      "button_label": "元の表を見る"
+    },
+    {
+      "id": "PDFORIG_STAT3_008",
+      "source_pdf": "写真(2).pdf",
+      "pdf_page": 6,
+      "figure_no": null,
+      "title": "練習問題：3都市のローレンツ曲線",
+      "type": "グラフ・表",
+      "topic_ids": [
+        "STAT1-13"
+      ],
+      "description": "ローレンツ曲線とジニ係数の練習問題の原図を確認する。",
+      "view_point": "表から累積を追い、曲線が完全平等線に近いほど平等。",
+      "question_ids": [
+        "STAT1-V54-Q06",
+        "STAT1-V54-Q07",
+        "STAT1-V54-Q08",
+        "STAT1-V54-Q09",
+        "STAT1-V54-Q10"
+      ],
+      "display_timing": "ローレンツ曲線の問題演習に入るとき",
+      "path": "assets/original/PDFORIG_STAT3_008.png",
+      "crop_box_fraction": [
+        0.15,
+        0.16,
+        0.8,
+        0.8
+      ],
+      "origin": "PDF原図",
+      "button_label": "原図を見る"
+    },
+    {
+      "id": "PDFORIG_STAT3_009",
+      "source_pdf": "写真(2).pdf",
+      "pdf_page": 7,
+      "figure_no": null,
+      "title": "練習問題の解説：3都市のローレンツ曲線",
+      "type": "表・解説",
+      "topic_ids": [
+        "STAT1-13"
+      ],
+      "description": "練習問題の解説表を原図のまま確認する。",
+      "view_point": "累積所得割合と完全平等線との差を比較してジニ係数の大小を判断する。",
+      "question_ids": [
+        "STAT1-V54-Q09",
+        "STAT1-V54-Q10"
+      ],
+      "display_timing": "ローレンツ曲線の練習問題を復習するとき",
+      "path": "assets/original/PDFORIG_STAT3_009.png",
+      "crop_box_fraction": [
+        0.17,
+        0.15,
+        0.71,
+        0.6
+      ],
+      "origin": "PDF原図",
+      "button_label": "元の表を見る"
+    },
+    {
+      "id": "PDFORIG_STAT3_010",
+      "source_pdf": "写真(2).pdf",
+      "pdf_page": 8,
+      "figure_no": null,
+      "title": "章末問題：尺度の判定",
+      "type": "表",
+      "topic_ids": [
+        "STAT1-2"
+      ],
+      "description": "血液型・席次・西暦・通勤時間の尺度を判定する問題の原表を確認する。",
+      "view_point": "名義・順序・間隔・比例の違いを表と選択肢で確認する。",
+      "question_ids": [
+        "STAT1-Q04",
+        "STAT1-Q05",
+        "STAT1-Q06",
+        "STAT1-Q07",
+        "STAT1-V55-Q03"
+      ],
+      "display_timing": "尺度の違いを問題で確認するとき",
+      "path": "assets/original/PDFORIG_STAT3_010.png",
+      "crop_box_fraction": [
+        0.12,
+        0.16,
+        0.84,
+        0.43
+      ],
+      "origin": "PDF原図",
+      "button_label": "元の表を見る"
+    },
+    {
+      "id": "PDFORIG_STAT3_011",
+      "source_pdf": "写真(2).pdf",
+      "pdf_page": 8,
+      "figure_no": null,
+      "title": "章末問題：相対度数分布表と中央値",
+      "type": "表",
+      "topic_ids": [
+        "STAT1-4",
+        "STAT1-13"
+      ],
+      "description": "所得階級別の相対度数分布表から中央値の属する階級を判断する問題の原表を確認する。",
+      "view_point": "累積相対度数が初めて50%を超える階級を探す。",
+      "question_ids": [
+        "STAT1-V52-Q02",
+        "STAT1-V52-Q03",
+        "STAT1-V55-Q05"
+      ],
+      "display_timing": "累積相対度数から中央値位置を判断するとき",
+      "path": "assets/original/PDFORIG_STAT3_011.png",
+      "crop_box_fraction": [
+        0.38,
+        0.28,
+        0.84,
+        0.74
+      ],
+      "origin": "PDF原図",
+      "button_label": "元の表を見る"
+    },
+    {
+      "id": "PDFORIG_STAT3_012",
+      "source_pdf": "写真(2).pdf",
+      "pdf_page": 9,
+      "figure_no": null,
+      "title": "章末問題：箱ひげ図とヒストグラムの対応",
+      "type": "箱ひげ図・ヒストグラム",
+      "topic_ids": [
+        "STAT1-14"
+      ],
+      "description": "英語・数学の箱ひげ図とヒストグラムを対応させる問題の原図を確認する。",
+      "view_point": "中央値・四分位範囲・ひげの長さ・裾の方向を合わせて見る。",
+      "question_ids": [
+        "STAT1-V54-Q11",
+        "STAT1-V54-Q12",
+        "STAT1-V54-Q13"
+      ],
+      "display_timing": "箱ひげ図とヒストグラムの対応を考えるとき",
+      "path": "assets/original/PDFORIG_STAT3_012.png",
+      "crop_box_fraction": [
+        0.15,
+        0.07,
+        0.84,
+        0.54
+      ],
+      "origin": "PDF原図",
+      "button_label": "原図を見る"
+    },
+    {
+      "id": "PDFORIG_STAT3_013",
+      "source_pdf": "写真(2).pdf",
+      "pdf_page": 10,
+      "figure_no": null,
+      "title": "章末問題：5数要約と平均・分散",
+      "type": "表・解説",
+      "topic_ids": [
+        "STAT1-9",
+        "STAT1-10",
+        "STAT1-11",
+        "STAT1-14"
+      ],
+      "description": "5数要約・平均・分散の表から分布や四分位範囲・偏差値を考える問題の原表を確認する。",
+      "view_point": "最小・Q1・中央値・Q3・最大・平均・分散を見比べる。",
+      "question_ids": [
+        "STAT1-V53-Q07",
+        "STAT1-V53-Q08",
+        "STAT1-V53-Q09",
+        "STAT1-V53-Q10",
+        "STAT1-V54-Q11",
+        "STAT1-V54-Q12"
+      ],
+      "display_timing": "5数要約から分布を読み取るとき",
+      "path": "assets/original/PDFORIG_STAT3_013.png",
+      "crop_box_fraction": [
+        0.17,
+        0.1,
+        0.73,
+        0.61
+      ],
+      "origin": "PDF原図",
+      "button_label": "元の表を見る"
+    },
+    {
+      "id": "PDFORIG_STAT3_014",
+      "source_pdf": "写真(2).pdf",
+      "pdf_page": 11,
+      "figure_no": null,
+      "title": "章末問題：病院数の幹葉図",
+      "type": "幹葉図・表",
+      "topic_ids": [
+        "STAT1-10",
+        "STAT1-12"
+      ],
+      "description": "都道府県別の病院数を示す幹葉図の原図を確認する。",
+      "view_point": "幹葉図から中央値・平均・四分位範囲を考える。",
+      "question_ids": [
+        "STAT1-V54-Q01",
+        "STAT1-V54-Q02",
+        "STAT1-V53-Q07",
+        "STAT1-V53-Q08"
+      ],
+      "display_timing": "幹葉図を使って代表値や散らばりを考えるとき",
+      "path": "assets/original/PDFORIG_STAT3_014.png",
+      "crop_box_fraction": [
+        0.18,
+        0.08,
+        0.79,
+        0.65
+      ],
+      "origin": "PDF原図",
+      "button_label": "原図を見る"
+    },
+    {
+      "id": "PDFORIG_STAT3_015",
+      "source_pdf": "写真(2).pdf",
+      "pdf_page": 12,
+      "figure_no": null,
+      "title": "章末問題：2つのローレンツ曲線",
+      "type": "グラフ",
+      "topic_ids": [
+        "STAT1-13"
+      ],
+      "description": "2つのローレンツ曲線A・Bを比較する問題の原図を確認する。",
+      "view_point": "曲線がより下にふくらむほど不平等で、ジニ係数も大きい。",
+      "question_ids": [
+        "STAT1-V54-Q06",
+        "STAT1-V54-Q07",
+        "STAT1-V54-Q08",
+        "STAT1-V54-Q09",
+        "STAT1-V54-Q10"
+      ],
+      "display_timing": "複数のローレンツ曲線を比較するとき",
+      "path": "assets/original/PDFORIG_STAT3_015.png",
+      "crop_box_fraction": [
+        0.14,
+        0.08,
+        0.85,
+        0.58
+      ],
+      "origin": "PDF原図",
+      "button_label": "原図を見る"
+    },
+    {
+      "id": "PDFORIG_STAT3_016",
+      "source_pdf": "写真(2).pdf",
+      "pdf_page": 13,
+      "figure_no": null,
+      "title": "章末問題の解説①",
+      "type": "表・解説",
+      "topic_ids": [
+        "STAT1-2",
+        "STAT1-4"
+      ],
+      "description": "尺度の判定と、相対度数分布表から中央値を判断する解説を原図で確認する。",
+      "view_point": "『絶対的0の有無』『累積相対度数が50%を超える位置』を見る。",
+      "question_ids": [
+        "STAT1-Q04",
+        "STAT1-Q05",
+        "STAT1-Q06",
+        "STAT1-Q07",
+        "STAT1-V55-Q03",
+        "STAT1-V52-Q02",
+        "STAT1-V52-Q03"
+      ],
+      "display_timing": "章末問題の前半を復習するとき",
+      "path": "assets/original/PDFORIG_STAT3_016.png",
+      "crop_box_fraction": [
+        0.13,
+        0.15,
+        0.76,
+        0.57
+      ],
+      "origin": "PDF原図",
+      "button_label": "元の表を見る"
+    },
+    {
+      "id": "PDFORIG_STAT3_017",
+      "source_pdf": "写真(2).pdf",
+      "pdf_page": 14,
+      "figure_no": null,
+      "title": "章末問題の解説②",
+      "type": "数式・解説",
+      "topic_ids": [
+        "STAT1-9",
+        "STAT1-10",
+        "STAT1-11",
+        "STAT1-14"
+      ],
+      "description": "変動係数と偏差値を求める解説を原図で確認する。",
+      "view_point": "CV=標準偏差÷平均、偏差値=(x-平均)/標準偏差×10+50。",
+      "question_ids": [
+        "STAT1-V54-Q14",
+        "STAT1-V54-Q15",
+        "STAT1-V53-Q03",
+        "STAT1-V53-Q04",
+        "STAT1-V53-Q05",
+        "STAT1-V53-Q15"
+      ],
+      "display_timing": "章末問題の後半を復習するとき",
+      "path": "assets/original/PDFORIG_STAT3_017.png",
+      "crop_box_fraction": [
+        0.13,
+        0.03,
+        0.84,
+        0.62
+      ],
+      "origin": "PDF原図",
+      "button_label": "元の数式を見る"
+    },
+    {
+      "id": "PDFORIG_STAT3_018",
+      "source_pdf": "写真(2).pdf",
+      "pdf_page": 15,
+      "figure_no": null,
+      "title": "章末問題の解説③",
+      "type": "解説",
+      "topic_ids": [
+        "STAT1-13"
+      ],
+      "description": "ローレンツ曲線とジニ係数の章末問題の解説を原図で確認する。",
+      "view_point": "曲線のふくらみと、上位10%が占める所得割合の読み方を確認する。",
+      "question_ids": [
+        "STAT1-V54-Q09",
+        "STAT1-V54-Q10"
+      ],
+      "display_timing": "ローレンツ曲線の章末問題を復習するとき",
+      "path": "assets/original/PDFORIG_STAT3_018.png",
+      "crop_box_fraction": [
+        0.14,
+        0.03,
+        0.76,
+        0.46
+      ],
+      "origin": "PDF原図",
+      "button_label": "原図を見る"
     }
   ]
 };
