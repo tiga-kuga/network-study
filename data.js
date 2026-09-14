@@ -11047,7 +11047,20 @@ window.APP_DATA = {
           "exam": [
             "数字表記＝量的データ、と即断しない。",
             "生年月日の月は質的変数。"
-          ]
+          ],
+          "visual_ids": [
+            "FIG_STAT_V55_01"
+          ],
+          "formula_ids": [],
+          "table_ids": [],
+          "flow_ids": [
+            "FLOW_STAT_V55_01"
+          ],
+          "question_ids": [
+            "STAT1-V55-Q01",
+            "STAT1-V55-Q02"
+          ],
+          "example_ids": []
         },
         {
           "id": "STAT1-2",
@@ -11090,7 +11103,17 @@ window.APP_DATA = {
             "成績＝順序尺度",
             "気温＝間隔尺度",
             "身長・体重・所得＝比例尺度"
-          ]
+          ],
+          "visual_ids": [],
+          "formula_ids": [],
+          "table_ids": [
+            "TABLE_STAT_V55_01"
+          ],
+          "flow_ids": [],
+          "question_ids": [
+            "STAT1-V55-Q03"
+          ],
+          "example_ids": []
         },
         {
           "id": "STAT1-3",
@@ -11131,7 +11154,18 @@ window.APP_DATA = {
             "階級と度数を混同しない。",
             "最多階級を度数分布表から読み取る。",
             "階級値は階級の中央。度数との積を使って平均を求める。"
-          ]
+          ],
+          "visual_ids": [
+            "FIG_STAT_V55_02",
+            "FIG_STAT_V55_06"
+          ],
+          "formula_ids": [],
+          "table_ids": [],
+          "flow_ids": [],
+          "question_ids": [
+            "STAT1-V55-Q04"
+          ],
+          "example_ids": []
         },
         {
           "id": "STAT1-4",
@@ -11172,7 +11206,19 @@ window.APP_DATA = {
           "exam": [
             "空欄の相対度数は、合計100%から既知の相対度数を引いて求める。",
             "『60点未満』など累積割合を問う問題では累積相対度数を使う。"
-          ]
+          ],
+          "visual_ids": [
+            "FIG_STAT_V55_02"
+          ],
+          "formula_ids": [
+            "FORMULA_STAT_V55_01"
+          ],
+          "table_ids": [],
+          "flow_ids": [],
+          "question_ids": [
+            "STAT1-V55-Q05"
+          ],
+          "example_ids": []
         },
         {
           "id": "STAT1-5",
@@ -11210,7 +11256,20 @@ window.APP_DATA = {
           "exam": [
             "小さい階級に多く大きい階級側へ減っていく → 右に裾が長い。",
             "峰が複数かどうかにも注目。"
-          ]
+          ],
+          "visual_ids": [
+            "FIG_STAT_V55_02",
+            "FIG_STAT_V55_05"
+          ],
+          "formula_ids": [],
+          "table_ids": [
+            "TABLE_STAT_V55_03"
+          ],
+          "flow_ids": [],
+          "question_ids": [
+            "STAT1-V55-Q06"
+          ],
+          "example_ids": []
         },
         {
           "id": "STAT1-6",
@@ -11253,7 +11312,26 @@ window.APP_DATA = {
           "exam": [
             "極端値があるデータでは平均値と中央値の差に注目。",
             "偶数個の中央値は中央2値の平均。"
-          ]
+          ],
+          "visual_ids": [
+            "FIG_STAT_V55_03",
+            "FIG_STAT_V55_04"
+          ],
+          "formula_ids": [
+            "FORMULA_STAT_V55_02"
+          ],
+          "table_ids": [
+            "TABLE_STAT_V55_02"
+          ],
+          "flow_ids": [
+            "FLOW_STAT_V55_02"
+          ],
+          "question_ids": [
+            "STAT1-V55-Q07",
+            "STAT1-V55-Q08",
+            "STAT1-V55-Q09"
+          ],
+          "example_ids": []
         },
         {
           "id": "STAT1-7",
@@ -11292,7 +11370,21 @@ window.APP_DATA = {
           ],
           "exam": [
             "『階級値×度数』と『階級値×相対度数』の2通りを区別する。"
-          ]
+          ],
+          "visual_ids": [
+            "FIG_STAT_V55_06"
+          ],
+          "formula_ids": [
+            "FORMULA_STAT_V55_03",
+            "FORMULA_STAT_V55_04"
+          ],
+          "table_ids": [],
+          "flow_ids": [],
+          "question_ids": [
+            "STAT1-V55-Q10",
+            "STAT1-V55-Q11"
+          ],
+          "example_ids": []
         },
         {
           "id": "STAT1-8",
@@ -11329,7 +11421,20 @@ window.APP_DATA = {
           ],
           "exam": [
             "平均値と中央値の大小から、右裾・左裾を判断する問題に注意。"
-          ]
+          ],
+          "visual_ids": [
+            "FIG_STAT_V55_05"
+          ],
+          "formula_ids": [],
+          "table_ids": [
+            "TABLE_STAT_V55_03"
+          ],
+          "flow_ids": [],
+          "question_ids": [
+            "STAT1-V55-Q12",
+            "STAT1-V55-Q13"
+          ],
+          "example_ids": []
         },
         {
           "id": "STAT1-9",
@@ -11378,6 +11483,34 @@ window.APP_DATA = {
             "偏差の合計は0。",
             "分散と標準偏差の大小関係を混同しない。",
             "異なる尺度の比較では変動係数を見る。"
+          ],
+          "visual_ids": [
+            "FIG_STAT_V56_01",
+            "FIG_STAT_V56_02"
+          ],
+          "formula_ids": [
+            "FORMULA_STAT_V56_01",
+            "FORMULA_STAT_V56_02",
+            "FORMULA_STAT_V56_03",
+            "FORMULA_STAT_V56_04",
+            "FORMULA_STAT_V56_05"
+          ],
+          "table_ids": [
+            "TABLE_STAT_V56_01"
+          ],
+          "flow_ids": [
+            "FLOW_STAT_V56_01"
+          ],
+          "question_ids": [
+            "STAT1-V53-Q01",
+            "STAT1-V53-Q02",
+            "STAT1-V53-Q03",
+            "STAT1-V53-Q04",
+            "STAT1-V53-Q05"
+          ],
+          "example_ids": [
+            "EXAMPLE_STAT_V56_01",
+            "EXAMPLE_STAT_V56_02"
           ]
         },
         {
@@ -11426,6 +11559,31 @@ window.APP_DATA = {
             "Q2＝中央値。",
             "IQR＝Q3－Q1。",
             "外れ値判定の1.5倍を忘れない。"
+          ],
+          "visual_ids": [
+            "FIG_STAT_V56_03",
+            "FIG_STAT_V56_04"
+          ],
+          "formula_ids": [
+            "FORMULA_STAT_V56_06",
+            "FORMULA_STAT_V56_07",
+            "FORMULA_STAT_V56_08"
+          ],
+          "table_ids": [
+            "TABLE_STAT_V56_02"
+          ],
+          "flow_ids": [
+            "FLOW_STAT_V56_02"
+          ],
+          "question_ids": [
+            "STAT1-V53-Q06",
+            "STAT1-V53-Q07",
+            "STAT1-V53-Q08",
+            "STAT1-V53-Q09",
+            "STAT1-V53-Q10"
+          ],
+          "example_ids": [
+            "EXAMPLE_STAT_V56_03"
           ]
         },
         {
@@ -11475,6 +11633,31 @@ window.APP_DATA = {
             "a倍+bで、平均・分散・標準偏差がどう変わるか。",
             "標準化得点は平均から何標準偏差離れているかを示す。",
             "偏差値＝10z＋50。"
+          ],
+          "visual_ids": [
+            "FIG_STAT_V56_05",
+            "FIG_STAT_V56_06"
+          ],
+          "formula_ids": [
+            "FORMULA_STAT_V56_09",
+            "FORMULA_STAT_V56_10",
+            "FORMULA_STAT_V56_11"
+          ],
+          "table_ids": [
+            "TABLE_STAT_V56_03"
+          ],
+          "flow_ids": [
+            "FLOW_STAT_V56_03"
+          ],
+          "question_ids": [
+            "STAT1-V53-Q11",
+            "STAT1-V53-Q12",
+            "STAT1-V53-Q13",
+            "STAT1-V53-Q14",
+            "STAT1-V53-Q15"
+          ],
+          "example_ids": [
+            "EXAMPLE_STAT_V56_04"
           ]
         },
         {
@@ -11520,6 +11703,31 @@ window.APP_DATA = {
           "exam": [
             "幹葉図は桁の読み違いに注意。",
             "クロス集計は分母が『全体』か『行/列』かを確認する。"
+          ],
+          "visual_ids": [
+            "FIG_STAT_V57_01",
+            "FIG_STAT_V57_05",
+            "FIG_STAT_V57_06"
+          ],
+          "formula_ids": [
+            "FORMULA_STAT_V57_04"
+          ],
+          "table_ids": [
+            "TABLE_STAT_V57_01"
+          ],
+          "flow_ids": [
+            "FLOW_STAT_V57_01"
+          ],
+          "question_ids": [
+            "STAT1-V54-Q01",
+            "STAT1-V54-Q02",
+            "STAT1-V54-Q03",
+            "STAT1-V54-Q04",
+            "STAT1-V54-Q05"
+          ],
+          "example_ids": [
+            "EXAMPLE_STAT_V57_01",
+            "EXAMPLE_STAT_V57_02"
           ]
         },
         {
@@ -11566,6 +11774,35 @@ window.APP_DATA = {
             "ローレンツ曲線の2軸を逆にしない。",
             "完全平等線から遠いほど不平等。",
             "ジニ係数は小さいほど平等。"
+          ],
+          "visual_ids": [
+            "FIG_STAT_V57_02",
+            "FIG_STAT_V57_03",
+            "FIG_STAT_V57_04"
+          ],
+          "formula_ids": [
+            "FORMULA_STAT_V57_01",
+            "FORMULA_STAT_V57_02",
+            "FORMULA_STAT_V57_03"
+          ],
+          "table_ids": [
+            "TABLE_STAT_V57_02",
+            "TABLE_STAT_V57_03"
+          ],
+          "flow_ids": [
+            "FLOW_STAT_V57_02",
+            "FLOW_STAT_V57_03"
+          ],
+          "question_ids": [
+            "STAT1-V54-Q06",
+            "STAT1-V54-Q07",
+            "STAT1-V54-Q08",
+            "STAT1-V54-Q09",
+            "STAT1-V54-Q10"
+          ],
+          "example_ids": [
+            "EXAMPLE_STAT_V57_03",
+            "EXAMPLE_STAT_V57_04"
           ]
         },
         {
@@ -11609,6 +11846,33 @@ window.APP_DATA = {
           "exam": [
             "図の形だけでなく、中央値・IQR・範囲を合わせて判断。",
             "平均と中央値の大小関係から裾方向を確認。"
+          ],
+          "visual_ids": [
+            "FIG_STAT_V57_07",
+            "FIG_STAT_V56_03",
+            "FIG_STAT_V56_05"
+          ],
+          "formula_ids": [
+            "FORMULA_STAT_V56_05",
+            "FORMULA_STAT_V56_07",
+            "FORMULA_STAT_V56_09"
+          ],
+          "table_ids": [
+            "TABLE_STAT_V57_04",
+            "TABLE_STAT_V56_01"
+          ],
+          "flow_ids": [
+            "FLOW_STAT_V57_04"
+          ],
+          "question_ids": [
+            "STAT1-V54-Q11",
+            "STAT1-V54-Q12",
+            "STAT1-V54-Q13",
+            "STAT1-V54-Q14",
+            "STAT1-V54-Q15"
+          ],
+          "example_ids": [
+            "EXAMPLE_STAT_V57_05"
           ]
         }
       ],
@@ -37822,7 +38086,16 @@ window.APP_DATA = {
       "mistake": "偏差の絶対値と混同",
       "review_tag": "STAT_DISP_V53_01",
       "source_group": "写真(1).pdf データの基礎",
-      "source_section": "偏差"
+      "source_section": "偏差",
+      "visual_ids": [
+        "FIG_STAT_V56_01"
+      ],
+      "formula_ids": [
+        "FORMULA_STAT_V56_01"
+      ],
+      "table_ids": [],
+      "flow_ids": [],
+      "example_ids": []
     },
     {
       "id": "STAT1-V53-Q02",
@@ -37843,7 +38116,19 @@ window.APP_DATA = {
       "mistake": "偏差そのものを平均",
       "review_tag": "STAT_DISP_V53_02",
       "source_group": "写真(1).pdf データの基礎",
-      "source_section": "分散"
+      "source_section": "分散",
+      "visual_ids": [
+        "FIG_STAT_V56_01"
+      ],
+      "formula_ids": [
+        "FORMULA_STAT_V56_02",
+        "FORMULA_STAT_V56_03"
+      ],
+      "table_ids": [
+        "TABLE_STAT_V56_01"
+      ],
+      "flow_ids": [],
+      "example_ids": []
     },
     {
       "id": "STAT1-V53-Q03",
@@ -37862,7 +38147,23 @@ window.APP_DATA = {
       "mistake": "分散と単位を同じと思う",
       "review_tag": "STAT_DISP_V53_03",
       "source_group": "写真(1).pdf データの基礎",
-      "source_section": "標準偏差"
+      "source_section": "標準偏差",
+      "visual_ids": [
+        "FIG_STAT_V56_01",
+        "FIG_STAT_V56_02"
+      ],
+      "formula_ids": [
+        "FORMULA_STAT_V56_04"
+      ],
+      "table_ids": [
+        "TABLE_STAT_V56_01"
+      ],
+      "flow_ids": [
+        "FLOW_STAT_V56_01"
+      ],
+      "example_ids": [
+        "EXAMPLE_STAT_V56_01"
+      ]
     },
     {
       "id": "STAT1-V53-Q04",
@@ -37883,7 +38184,20 @@ window.APP_DATA = {
       "mistake": "逆に割る",
       "review_tag": "STAT_DISP_V53_04",
       "source_group": "写真(1).pdf データの基礎",
-      "source_section": "変動係数"
+      "source_section": "変動係数",
+      "visual_ids": [],
+      "formula_ids": [
+        "FORMULA_STAT_V56_05"
+      ],
+      "table_ids": [
+        "TABLE_STAT_V56_01"
+      ],
+      "flow_ids": [
+        "FLOW_STAT_V56_01"
+      ],
+      "example_ids": [
+        "EXAMPLE_STAT_V56_02"
+      ]
     },
     {
       "id": "STAT1-V53-Q05",
@@ -37904,7 +38218,20 @@ window.APP_DATA = {
       "mistake": "標準偏差だけで比較",
       "review_tag": "STAT_DISP_V53_05",
       "source_group": "写真(1).pdf データの基礎",
-      "source_section": "変動係数"
+      "source_section": "変動係数",
+      "visual_ids": [],
+      "formula_ids": [
+        "FORMULA_STAT_V56_05"
+      ],
+      "table_ids": [
+        "TABLE_STAT_V56_01"
+      ],
+      "flow_ids": [
+        "FLOW_STAT_V56_01"
+      ],
+      "example_ids": [
+        "EXAMPLE_STAT_V56_02"
+      ]
     },
     {
       "id": "STAT1-V53-Q06",
@@ -37925,7 +38252,18 @@ window.APP_DATA = {
       "mistake": "平均を使う",
       "review_tag": "STAT_DISP_V53_06",
       "source_group": "写真(1).pdf データの基礎",
-      "source_section": "範囲"
+      "source_section": "範囲",
+      "visual_ids": [
+        "FIG_STAT_V56_03"
+      ],
+      "formula_ids": [
+        "FORMULA_STAT_V56_06"
+      ],
+      "table_ids": [
+        "TABLE_STAT_V56_02"
+      ],
+      "flow_ids": [],
+      "example_ids": []
     },
     {
       "id": "STAT1-V53-Q07",
@@ -37944,7 +38282,16 @@ window.APP_DATA = {
       "mistake": "Q1と混同",
       "review_tag": "STAT_DISP_V53_07",
       "source_group": "写真(1).pdf データの基礎",
-      "source_section": "四分位数"
+      "source_section": "四分位数",
+      "visual_ids": [
+        "FIG_STAT_V56_03"
+      ],
+      "formula_ids": [],
+      "table_ids": [
+        "TABLE_STAT_V56_02"
+      ],
+      "flow_ids": [],
+      "example_ids": []
     },
     {
       "id": "STAT1-V53-Q08",
@@ -37965,7 +38312,18 @@ window.APP_DATA = {
       "mistake": "Q1+Q3にする",
       "review_tag": "STAT_DISP_V53_08",
       "source_group": "写真(1).pdf データの基礎",
-      "source_section": "四分位範囲"
+      "source_section": "四分位範囲",
+      "visual_ids": [
+        "FIG_STAT_V56_03"
+      ],
+      "formula_ids": [
+        "FORMULA_STAT_V56_07"
+      ],
+      "table_ids": [
+        "TABLE_STAT_V56_02"
+      ],
+      "flow_ids": [],
+      "example_ids": []
     },
     {
       "id": "STAT1-V53-Q09",
@@ -37986,7 +38344,18 @@ window.APP_DATA = {
       "mistake": "ひげを含める",
       "review_tag": "STAT_DISP_V53_09",
       "source_group": "写真(1).pdf データの基礎",
-      "source_section": "箱ひげ図"
+      "source_section": "箱ひげ図",
+      "visual_ids": [
+        "FIG_STAT_V56_03"
+      ],
+      "formula_ids": [
+        "FORMULA_STAT_V56_07"
+      ],
+      "table_ids": [
+        "TABLE_STAT_V56_02"
+      ],
+      "flow_ids": [],
+      "example_ids": []
     },
     {
       "id": "STAT1-V53-Q10",
@@ -38007,7 +38376,20 @@ window.APP_DATA = {
       "mistake": "Q3+IQRとする",
       "review_tag": "STAT_DISP_V53_10",
       "source_group": "写真(1).pdf データの基礎",
-      "source_section": "外れ値"
+      "source_section": "外れ値",
+      "visual_ids": [
+        "FIG_STAT_V56_04"
+      ],
+      "formula_ids": [
+        "FORMULA_STAT_V56_08"
+      ],
+      "table_ids": [],
+      "flow_ids": [
+        "FLOW_STAT_V56_02"
+      ],
+      "example_ids": [
+        "EXAMPLE_STAT_V56_03"
+      ]
     },
     {
       "id": "STAT1-V53-Q11",
@@ -38026,7 +38408,16 @@ window.APP_DATA = {
       "mistake": "標準偏差も5増える",
       "review_tag": "STAT_DISP_V53_11",
       "source_group": "写真(1).pdf データの基礎",
-      "source_section": "線形変換"
+      "source_section": "線形変換",
+      "visual_ids": [
+        "FIG_STAT_V56_05"
+      ],
+      "formula_ids": [
+        "FORMULA_STAT_V56_09"
+      ],
+      "table_ids": [],
+      "flow_ids": [],
+      "example_ids": []
     },
     {
       "id": "STAT1-V53-Q12",
@@ -38047,7 +38438,16 @@ window.APP_DATA = {
       "mistake": "標準偏差と混同",
       "review_tag": "STAT_DISP_V53_12",
       "source_group": "写真(1).pdf データの基礎",
-      "source_section": "線形変換"
+      "source_section": "線形変換",
+      "visual_ids": [
+        "FIG_STAT_V56_05"
+      ],
+      "formula_ids": [
+        "FORMULA_STAT_V56_09"
+      ],
+      "table_ids": [],
+      "flow_ids": [],
+      "example_ids": []
     },
     {
       "id": "STAT1-V53-Q13",
@@ -38068,7 +38468,20 @@ window.APP_DATA = {
       "mistake": "平均との差の符号を逆にする",
       "review_tag": "STAT_DISP_V53_13",
       "source_group": "写真(1).pdf データの基礎",
-      "source_section": "標準化"
+      "source_section": "標準化",
+      "visual_ids": [
+        "FIG_STAT_V56_06"
+      ],
+      "formula_ids": [
+        "FORMULA_STAT_V56_10"
+      ],
+      "table_ids": [
+        "TABLE_STAT_V56_03"
+      ],
+      "flow_ids": [
+        "FLOW_STAT_V56_03"
+      ],
+      "example_ids": []
     },
     {
       "id": "STAT1-V53-Q14",
@@ -38089,7 +38502,22 @@ window.APP_DATA = {
       "mistake": "素点70を選ぶ",
       "review_tag": "STAT_DISP_V53_14",
       "source_group": "写真(1).pdf データの基礎",
-      "source_section": "標準化比較"
+      "source_section": "標準化比較",
+      "visual_ids": [
+        "FIG_STAT_V56_06"
+      ],
+      "formula_ids": [
+        "FORMULA_STAT_V56_10"
+      ],
+      "table_ids": [
+        "TABLE_STAT_V56_03"
+      ],
+      "flow_ids": [
+        "FLOW_STAT_V56_03"
+      ],
+      "example_ids": [
+        "EXAMPLE_STAT_V56_04"
+      ]
     },
     {
       "id": "STAT1-V53-Q15",
@@ -38110,7 +38538,20 @@ window.APP_DATA = {
       "mistake": "50を足し忘れる",
       "review_tag": "STAT_DISP_V53_15",
       "source_group": "写真(1).pdf データの基礎",
-      "source_section": "偏差値"
+      "source_section": "偏差値",
+      "visual_ids": [
+        "FIG_STAT_V56_06"
+      ],
+      "formula_ids": [
+        "FORMULA_STAT_V56_11"
+      ],
+      "table_ids": [
+        "TABLE_STAT_V56_03"
+      ],
+      "flow_ids": [
+        "FLOW_STAT_V56_03"
+      ],
+      "example_ids": []
     },
     {
       "id": "STAT1-V54-Q01",
@@ -38129,7 +38570,18 @@ window.APP_DATA = {
       "mistake": "ヒストグラムと同じと思う",
       "review_tag": "STAT_CHART_V54_01",
       "source_group": "写真(2).pdf その他の図表",
-      "source_section": "幹葉図"
+      "source_section": "幹葉図",
+      "visual_ids": [
+        "FIG_STAT_V57_01"
+      ],
+      "formula_ids": [],
+      "table_ids": [
+        "TABLE_STAT_V57_01"
+      ],
+      "flow_ids": [],
+      "example_ids": [
+        "EXAMPLE_STAT_V57_01"
+      ]
     },
     {
       "id": "STAT1-V54-Q02",
@@ -38150,7 +38602,18 @@ window.APP_DATA = {
       "mistake": "棒グラフと混同",
       "review_tag": "STAT_CHART_V54_02",
       "source_group": "写真(2).pdf その他の図表",
-      "source_section": "幹葉図"
+      "source_section": "幹葉図",
+      "visual_ids": [
+        "FIG_STAT_V57_01"
+      ],
+      "formula_ids": [],
+      "table_ids": [
+        "TABLE_STAT_V57_01"
+      ],
+      "flow_ids": [],
+      "example_ids": [
+        "EXAMPLE_STAT_V57_01"
+      ]
     },
     {
       "id": "STAT1-V54-Q03",
@@ -38171,7 +38634,14 @@ window.APP_DATA = {
       "mistake": "度数分布表と混同",
       "review_tag": "STAT_CHART_V54_03",
       "source_group": "写真(2).pdf その他の図表",
-      "source_section": "クロス集計"
+      "source_section": "クロス集計",
+      "visual_ids": [
+        "FIG_STAT_V57_06"
+      ],
+      "formula_ids": [],
+      "table_ids": [],
+      "flow_ids": [],
+      "example_ids": []
     },
     {
       "id": "STAT1-V54-Q04",
@@ -38190,7 +38660,20 @@ window.APP_DATA = {
       "mistake": "全体比率と混同",
       "review_tag": "STAT_CHART_V54_04",
       "source_group": "写真(2).pdf その他の図表",
-      "source_section": "クロス集計"
+      "source_section": "クロス集計",
+      "visual_ids": [
+        "FIG_STAT_V57_06"
+      ],
+      "formula_ids": [
+        "FORMULA_STAT_V57_04"
+      ],
+      "table_ids": [],
+      "flow_ids": [
+        "FLOW_STAT_V57_01"
+      ],
+      "example_ids": [
+        "EXAMPLE_STAT_V57_02"
+      ]
     },
     {
       "id": "STAT1-V54-Q05",
@@ -38211,7 +38694,16 @@ window.APP_DATA = {
       "mistake": "ヒストグラムと混同",
       "review_tag": "STAT_CHART_V54_05",
       "source_group": "写真(2).pdf その他の図表",
-      "source_section": "棒グラフ・円グラフ"
+      "source_section": "棒グラフ・円グラフ",
+      "visual_ids": [
+        "FIG_STAT_V57_05"
+      ],
+      "formula_ids": [],
+      "table_ids": [
+        "TABLE_STAT_V57_01"
+      ],
+      "flow_ids": [],
+      "example_ids": []
     },
     {
       "id": "STAT1-V54-Q06",
@@ -38232,7 +38724,20 @@ window.APP_DATA = {
       "mistake": "縦軸と逆",
       "review_tag": "STAT_CHART_V54_06",
       "source_group": "写真(2).pdf その他の図表",
-      "source_section": "ローレンツ曲線"
+      "source_section": "ローレンツ曲線",
+      "visual_ids": [
+        "FIG_STAT_V57_03"
+      ],
+      "formula_ids": [
+        "FORMULA_STAT_V57_01"
+      ],
+      "table_ids": [
+        "TABLE_STAT_V57_02"
+      ],
+      "flow_ids": [
+        "FLOW_STAT_V57_02"
+      ],
+      "example_ids": []
     },
     {
       "id": "STAT1-V54-Q07",
@@ -38253,7 +38758,18 @@ window.APP_DATA = {
       "mistake": "横軸と逆",
       "review_tag": "STAT_CHART_V54_07",
       "source_group": "写真(2).pdf その他の図表",
-      "source_section": "ローレンツ曲線"
+      "source_section": "ローレンツ曲線",
+      "visual_ids": [
+        "FIG_STAT_V57_03"
+      ],
+      "formula_ids": [
+        "FORMULA_STAT_V57_02"
+      ],
+      "table_ids": [],
+      "flow_ids": [
+        "FLOW_STAT_V57_02"
+      ],
+      "example_ids": []
     },
     {
       "id": "STAT1-V54-Q08",
@@ -38272,7 +38788,19 @@ window.APP_DATA = {
       "mistake": "曲線が下に膨らむと思う",
       "review_tag": "STAT_CHART_V54_08",
       "source_group": "写真(2).pdf その他の図表",
-      "source_section": "完全平等線"
+      "source_section": "完全平等線",
+      "visual_ids": [
+        "FIG_STAT_V57_03",
+        "FIG_STAT_V57_04"
+      ],
+      "formula_ids": [],
+      "table_ids": [
+        "TABLE_STAT_V57_03"
+      ],
+      "flow_ids": [],
+      "example_ids": [
+        "EXAMPLE_STAT_V57_03"
+      ]
     },
     {
       "id": "STAT1-V54-Q09",
@@ -38293,7 +38821,22 @@ window.APP_DATA = {
       "mistake": "方向を逆にする",
       "review_tag": "STAT_CHART_V54_09",
       "source_group": "写真(2).pdf その他の図表",
-      "source_section": "ジニ係数"
+      "source_section": "ジニ係数",
+      "visual_ids": [
+        "FIG_STAT_V57_04"
+      ],
+      "formula_ids": [
+        "FORMULA_STAT_V57_03"
+      ],
+      "table_ids": [
+        "TABLE_STAT_V57_03"
+      ],
+      "flow_ids": [
+        "FLOW_STAT_V57_03"
+      ],
+      "example_ids": [
+        "EXAMPLE_STAT_V57_04"
+      ]
     },
     {
       "id": "STAT1-V54-Q10",
@@ -38312,7 +38855,22 @@ window.APP_DATA = {
       "mistake": "小さくなると誤る",
       "review_tag": "STAT_CHART_V54_10",
       "source_group": "写真(2).pdf その他の図表",
-      "source_section": "ジニ係数"
+      "source_section": "ジニ係数",
+      "visual_ids": [
+        "FIG_STAT_V57_04"
+      ],
+      "formula_ids": [
+        "FORMULA_STAT_V57_03"
+      ],
+      "table_ids": [
+        "TABLE_STAT_V57_03"
+      ],
+      "flow_ids": [
+        "FLOW_STAT_V57_03"
+      ],
+      "example_ids": [
+        "EXAMPLE_STAT_V57_04"
+      ]
     },
     {
       "id": "STAT1-V54-Q11",
@@ -38333,7 +38891,23 @@ window.APP_DATA = {
       "mistake": "左右を逆にする",
       "review_tag": "STAT_CHART_V54_11",
       "source_group": "写真(2).pdf その他の図表",
-      "source_section": "箱ひげ図とヒストグラム"
+      "source_section": "箱ひげ図とヒストグラム",
+      "visual_ids": [
+        "FIG_STAT_V57_07",
+        "FIG_STAT_V56_03"
+      ],
+      "formula_ids": [
+        "FORMULA_STAT_V56_07"
+      ],
+      "table_ids": [
+        "TABLE_STAT_V57_04"
+      ],
+      "flow_ids": [
+        "FLOW_STAT_V57_04"
+      ],
+      "example_ids": [
+        "EXAMPLE_STAT_V57_05"
+      ]
     },
     {
       "id": "STAT1-V54-Q12",
@@ -38354,7 +38928,23 @@ window.APP_DATA = {
       "mistake": "中心だけ見る",
       "review_tag": "STAT_CHART_V54_12",
       "source_group": "写真(2).pdf その他の図表",
-      "source_section": "分布比較"
+      "source_section": "分布比較",
+      "visual_ids": [
+        "FIG_STAT_V57_07",
+        "FIG_STAT_V56_03"
+      ],
+      "formula_ids": [
+        "FORMULA_STAT_V56_07"
+      ],
+      "table_ids": [
+        "TABLE_STAT_V57_04"
+      ],
+      "flow_ids": [
+        "FLOW_STAT_V57_04"
+      ],
+      "example_ids": [
+        "EXAMPLE_STAT_V57_05"
+      ]
     },
     {
       "id": "STAT1-V54-Q13",
@@ -38373,7 +38963,20 @@ window.APP_DATA = {
       "mistake": "形だけで決める",
       "review_tag": "STAT_CHART_V54_13",
       "source_group": "写真(2).pdf その他の図表",
-      "source_section": "図表対応"
+      "source_section": "図表対応",
+      "visual_ids": [
+        "FIG_STAT_V57_07"
+      ],
+      "formula_ids": [],
+      "table_ids": [
+        "TABLE_STAT_V57_04"
+      ],
+      "flow_ids": [
+        "FLOW_STAT_V57_04"
+      ],
+      "example_ids": [
+        "EXAMPLE_STAT_V57_05"
+      ]
     },
     {
       "id": "STAT1-V54-Q14",
@@ -38394,7 +38997,16 @@ window.APP_DATA = {
       "mistake": "逆に割る",
       "review_tag": "STAT_CHART_V54_14",
       "source_group": "写真(2).pdf その他の図表",
-      "source_section": "章末問題"
+      "source_section": "章末問題",
+      "visual_ids": [],
+      "formula_ids": [
+        "FORMULA_STAT_V56_05"
+      ],
+      "table_ids": [
+        "TABLE_STAT_V56_01"
+      ],
+      "flow_ids": [],
+      "example_ids": []
     },
     {
       "id": "STAT1-V54-Q15",
@@ -38413,7 +39025,2733 @@ window.APP_DATA = {
       "mistake": "2倍になると誤る",
       "review_tag": "STAT_CHART_V54_15",
       "source_group": "写真(2).pdf その他の図表",
-      "source_section": "章末問題"
+      "source_section": "章末問題",
+      "visual_ids": [
+        "FIG_STAT_V56_05"
+      ],
+      "formula_ids": [
+        "FORMULA_STAT_V56_05",
+        "FORMULA_STAT_V56_09"
+      ],
+      "table_ids": [
+        "TABLE_STAT_V56_01"
+      ],
+      "flow_ids": [],
+      "example_ids": []
+    },
+    {
+      "id": "STAT1-V55-Q01",
+      "type": "四択",
+      "q": "身長のように数値の大小や差に量として意味があるデータは？",
+      "choices": [
+        "量的データ",
+        "質的データ",
+        "名義尺度だけ",
+        "カテゴリだけ"
+      ],
+      "answer": "量的データ",
+      "explain": "身長は量として数値に意味がある。",
+      "point": "数値の意味",
+      "topic": "STAT1-1",
+      "subtopic": "データ分類",
+      "attention": "",
+      "mistake": "",
+      "review_tag": "STAT_VISUAL_V55_01",
+      "source_group": "写真.pdf データの基礎",
+      "source_section": "データ分類",
+      "visual_ids": [
+        "FIG_STAT_V55_01"
+      ],
+      "formula_ids": [],
+      "table_ids": [],
+      "flow_ids": [
+        "FLOW_STAT_V55_01"
+      ]
+    },
+    {
+      "id": "STAT1-V55-Q02",
+      "type": "○×",
+      "q": "数字で表されていれば必ず量的データである。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "×",
+      "explain": "月名などカテゴリを示す数字もある。",
+      "point": "見た目より意味",
+      "topic": "STAT1-1",
+      "subtopic": "データ分類",
+      "attention": "",
+      "mistake": "",
+      "review_tag": "STAT_VISUAL_V55_02",
+      "source_group": "写真.pdf データの基礎",
+      "source_section": "データ分類",
+      "visual_ids": [
+        "FIG_STAT_V55_01"
+      ],
+      "formula_ids": [],
+      "table_ids": [],
+      "flow_ids": [
+        "FLOW_STAT_V55_01"
+      ]
+    },
+    {
+      "id": "STAT1-V55-Q03",
+      "type": "四択",
+      "q": "絶対的0があり比にも意味がある尺度は？",
+      "choices": [
+        "名義",
+        "順序",
+        "間隔",
+        "比例"
+      ],
+      "answer": "比例",
+      "explain": "比例尺度は比にも意味をもつ。",
+      "point": "絶対的0・比",
+      "topic": "STAT1-2",
+      "subtopic": "4尺度",
+      "attention": "",
+      "mistake": "",
+      "review_tag": "STAT_VISUAL_V55_03",
+      "source_group": "写真.pdf データの基礎",
+      "source_section": "4尺度",
+      "visual_ids": [],
+      "formula_ids": [],
+      "table_ids": [
+        "TABLE_STAT_V55_01"
+      ],
+      "flow_ids": []
+    },
+    {
+      "id": "STAT1-V55-Q04",
+      "type": "四択",
+      "q": "150以上153未満の階級に2人いるとき度数は？",
+      "choices": [
+        "2",
+        "3",
+        "150",
+        "153"
+      ],
+      "answer": "2",
+      "explain": "度数はその階級の個数。",
+      "point": "個数",
+      "topic": "STAT1-3",
+      "subtopic": "度数",
+      "attention": "",
+      "mistake": "",
+      "review_tag": "STAT_VISUAL_V55_04",
+      "source_group": "写真.pdf データの基礎",
+      "source_section": "度数",
+      "visual_ids": [
+        "FIG_STAT_V55_02"
+      ],
+      "formula_ids": [],
+      "table_ids": [],
+      "flow_ids": []
+    },
+    {
+      "id": "STAT1-V55-Q05",
+      "type": "四択",
+      "q": "度数2、全体73の相対度数に最も近いものは？",
+      "choices": [
+        "0.027",
+        "0.073",
+        "0.20",
+        "2.73"
+      ],
+      "answer": "0.027",
+      "explain": "2÷73≒0.027。",
+      "point": "度数÷全体",
+      "topic": "STAT1-4",
+      "subtopic": "相対度数",
+      "attention": "",
+      "mistake": "",
+      "review_tag": "STAT_VISUAL_V55_05",
+      "source_group": "写真.pdf データの基礎",
+      "source_section": "相対度数",
+      "visual_ids": [
+        "FIG_STAT_V55_02"
+      ],
+      "formula_ids": [
+        "FORMULA_STAT_V55_01"
+      ],
+      "table_ids": [],
+      "flow_ids": []
+    },
+    {
+      "id": "STAT1-V55-Q06",
+      "type": "○×",
+      "q": "ヒストグラムは横軸に階級、縦軸に度数をとる。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "○",
+      "explain": "原資料のヒストグラムの構成。",
+      "point": "軸",
+      "topic": "STAT1-5",
+      "subtopic": "ヒストグラム",
+      "attention": "",
+      "mistake": "",
+      "review_tag": "STAT_VISUAL_V55_06",
+      "source_group": "写真.pdf データの基礎",
+      "source_section": "ヒストグラム",
+      "visual_ids": [
+        "FIG_STAT_V55_02"
+      ],
+      "formula_ids": [],
+      "table_ids": [],
+      "flow_ids": []
+    },
+    {
+      "id": "STAT1-V55-Q07",
+      "type": "四択",
+      "q": "平均値の求め方は？",
+      "choices": [
+        "合計÷個数",
+        "最大－最小",
+        "中央2値の差",
+        "最多値"
+      ],
+      "answer": "合計÷個数",
+      "explain": "平均は全データを合計して個数で割る。",
+      "point": "全データ",
+      "topic": "STAT1-6",
+      "subtopic": "平均",
+      "attention": "",
+      "mistake": "",
+      "review_tag": "STAT_VISUAL_V55_07",
+      "source_group": "写真.pdf データの基礎",
+      "source_section": "平均",
+      "visual_ids": [
+        "FIG_STAT_V55_03"
+      ],
+      "formula_ids": [
+        "FORMULA_STAT_V55_02"
+      ],
+      "table_ids": [
+        "TABLE_STAT_V55_02"
+      ],
+      "flow_ids": [
+        "FLOW_STAT_V55_02"
+      ]
+    },
+    {
+      "id": "STAT1-V55-Q08",
+      "type": "○×",
+      "q": "データ数が偶数なら中央値は中央2個の平均。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "○",
+      "explain": "原資料の定義。",
+      "point": "偶数個",
+      "topic": "STAT1-6",
+      "subtopic": "中央値",
+      "attention": "",
+      "mistake": "",
+      "review_tag": "STAT_VISUAL_V55_08",
+      "source_group": "写真.pdf データの基礎",
+      "source_section": "中央値",
+      "visual_ids": [
+        "FIG_STAT_V55_04"
+      ],
+      "formula_ids": [],
+      "table_ids": [
+        "TABLE_STAT_V55_02"
+      ],
+      "flow_ids": [
+        "FLOW_STAT_V55_02"
+      ]
+    },
+    {
+      "id": "STAT1-V55-Q09",
+      "type": "四択",
+      "q": "最頻値とは？",
+      "choices": [
+        "合計",
+        "中央",
+        "最も多く現れる値",
+        "最大と最小の平均"
+      ],
+      "answer": "最も多く現れる値",
+      "explain": "出現頻度が最大の値。",
+      "point": "頻度",
+      "topic": "STAT1-6",
+      "subtopic": "最頻値",
+      "attention": "",
+      "mistake": "",
+      "review_tag": "STAT_VISUAL_V55_09",
+      "source_group": "写真.pdf データの基礎",
+      "source_section": "最頻値",
+      "visual_ids": [
+        "FIG_STAT_V55_03"
+      ],
+      "formula_ids": [],
+      "table_ids": [
+        "TABLE_STAT_V55_02"
+      ],
+      "flow_ids": [
+        "FLOW_STAT_V55_02"
+      ]
+    },
+    {
+      "id": "STAT1-V55-Q10",
+      "type": "四択",
+      "q": "度数分布表から平均を求める式は？",
+      "choices": [
+        "Σ(階級値×度数)÷総度数",
+        "度数だけの平均",
+        "上限だけの平均",
+        "最大度数の階級値"
+      ],
+      "answer": "Σ(階級値×度数)÷総度数",
+      "explain": "階級値を代表値として重み付けする。",
+      "point": "階級値×度数",
+      "topic": "STAT1-7",
+      "subtopic": "度数分布平均",
+      "attention": "",
+      "mistake": "",
+      "review_tag": "STAT_VISUAL_V55_10",
+      "source_group": "写真.pdf データの基礎",
+      "source_section": "度数分布平均",
+      "visual_ids": [
+        "FIG_STAT_V55_06"
+      ],
+      "formula_ids": [
+        "FORMULA_STAT_V55_03"
+      ],
+      "table_ids": [],
+      "flow_ids": []
+    },
+    {
+      "id": "STAT1-V55-Q11",
+      "type": "○×",
+      "q": "階級値×相対度数を合計後、さらに総度数で割る。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "×",
+      "explain": "相対度数合計は1なので積の合計が平均。",
+      "point": "相対度数合計=1",
+      "topic": "STAT1-7",
+      "subtopic": "相対度数平均",
+      "attention": "",
+      "mistake": "",
+      "review_tag": "STAT_VISUAL_V55_11",
+      "source_group": "写真.pdf データの基礎",
+      "source_section": "相対度数平均",
+      "visual_ids": [
+        "FIG_STAT_V55_06"
+      ],
+      "formula_ids": [
+        "FORMULA_STAT_V55_04"
+      ],
+      "table_ids": [],
+      "flow_ids": []
+    },
+    {
+      "id": "STAT1-V55-Q12",
+      "type": "四択",
+      "q": "右に裾が長い分布の代表値関係は？",
+      "choices": [
+        "平均＜中央値＜最頻値",
+        "最頻値＜中央値＜平均値",
+        "必ず同じ",
+        "中央値＜平均＜最頻値"
+      ],
+      "answer": "最頻値＜中央値＜平均値",
+      "explain": "平均が大きい値側へ引かれる。",
+      "point": "裾方向",
+      "topic": "STAT1-8",
+      "subtopic": "右裾",
+      "attention": "",
+      "mistake": "",
+      "review_tag": "STAT_VISUAL_V55_12",
+      "source_group": "写真.pdf データの基礎",
+      "source_section": "右裾",
+      "visual_ids": [
+        "FIG_STAT_V55_05"
+      ],
+      "formula_ids": [],
+      "table_ids": [
+        "TABLE_STAT_V55_03"
+      ],
+      "flow_ids": []
+    },
+    {
+      "id": "STAT1-V55-Q13",
+      "type": "○×",
+      "q": "左右対称の山型分布では平均・中央値・最頻値は概ね同じ位置。",
+      "choices": [
+        "○",
+        "×"
+      ],
+      "answer": "○",
+      "explain": "対称なら中心が一致しやすい。",
+      "point": "左右対称",
+      "topic": "STAT1-8",
+      "subtopic": "左右対称",
+      "attention": "",
+      "mistake": "",
+      "review_tag": "STAT_VISUAL_V55_13",
+      "source_group": "写真.pdf データの基礎",
+      "source_section": "左右対称",
+      "visual_ids": [
+        "FIG_STAT_V55_05"
+      ],
+      "formula_ids": [],
+      "table_ids": [
+        "TABLE_STAT_V55_03"
+      ],
+      "flow_ids": []
+    }
+  ],
+  "visuals": [
+    {
+      "id": "FIG_STAT_V55_01",
+      "title": "量的データと質的データの分類",
+      "topic_ids": [
+        "STAT1-1"
+      ],
+      "purpose": "データを量として扱えるかで分類",
+      "type": "階層図",
+      "structure": [
+        "データ",
+        "├─量的データ → 身長・体重など",
+        "└─質的データ → 性別・血液型など"
+      ],
+      "nodes": [
+        "データ",
+        "量的データ",
+        "質的データ"
+      ],
+      "connections": [
+        "データ→量的データ",
+        "データ→質的データ"
+      ],
+      "direction": "上→下",
+      "labels": [
+        "量として数値に意味",
+        "分類・カテゴリ"
+      ],
+      "points": [
+        "数字表記でも量の大小に意味がなければ量的データとは限らない。"
+      ],
+      "question_ids": [
+        "STAT1-V55-Q01",
+        "STAT1-V55-Q02"
+      ]
+    },
+    {
+      "id": "FIG_STAT_V55_02",
+      "title": "度数分布からヒストグラムまで",
+      "topic_ids": [
+        "STAT1-3",
+        "STAT1-4",
+        "STAT1-5"
+      ],
+      "purpose": "生データを度数分布へ整理する流れ",
+      "type": "フロー図",
+      "structure": [
+        "生データ",
+        "↓",
+        "階級に区切る",
+        "↓",
+        "度数を数える",
+        "↓",
+        "度数分布表",
+        "├→相対度数",
+        "└→ヒストグラム"
+      ],
+      "nodes": [
+        "生データ",
+        "階級",
+        "度数",
+        "度数分布表",
+        "相対度数",
+        "ヒストグラム"
+      ],
+      "connections": [
+        "生データ→階級",
+        "階級→度数",
+        "度数→度数分布表",
+        "度数分布表→相対度数",
+        "度数分布表→ヒストグラム"
+      ],
+      "direction": "上→下",
+      "labels": [
+        "階級＝範囲",
+        "度数＝個数"
+      ],
+      "points": [
+        "ヒストグラムは横軸が階級、縦軸が度数。"
+      ],
+      "question_ids": [
+        "STAT1-V55-Q04",
+        "STAT1-V55-Q05",
+        "STAT1-V55-Q06"
+      ]
+    },
+    {
+      "id": "FIG_STAT_V55_03",
+      "title": "代表値の選び分け",
+      "topic_ids": [
+        "STAT1-6"
+      ],
+      "purpose": "平均・中央値・最頻値を区別",
+      "type": "比較図",
+      "structure": [
+        "代表値",
+        "├─平均値 → 合計÷個数",
+        "├─中央値 → 並べた中央",
+        "└─最頻値 → 最多の値"
+      ],
+      "nodes": [
+        "代表値",
+        "平均値",
+        "中央値",
+        "最頻値"
+      ],
+      "connections": [
+        "代表値→平均値",
+        "代表値→中央値",
+        "代表値→最頻値"
+      ],
+      "direction": "上→下",
+      "labels": [],
+      "points": [
+        "平均値は極端値の影響を受けやすい。"
+      ],
+      "question_ids": [
+        "STAT1-V55-Q07",
+        "STAT1-V55-Q08",
+        "STAT1-V55-Q09"
+      ]
+    },
+    {
+      "id": "FIG_STAT_V55_04",
+      "title": "中央値の求め方",
+      "topic_ids": [
+        "STAT1-6"
+      ],
+      "purpose": "奇数個・偶数個の中央値判定",
+      "type": "フロー図",
+      "structure": [
+        "小さい順に並べる",
+        "↓",
+        "個数は奇数？",
+        "├─YES → 真ん中1個",
+        "└─NO → 中央2個の平均"
+      ],
+      "nodes": [
+        "並べ替え",
+        "個数判定",
+        "中央1個",
+        "中央2個"
+      ],
+      "connections": [
+        "並べ替え→個数判定",
+        "個数判定→中央1個",
+        "個数判定→中央2個"
+      ],
+      "direction": "上→下",
+      "labels": [
+        "奇数",
+        "偶数"
+      ],
+      "points": [
+        "位置を使って求める。"
+      ],
+      "question_ids": [
+        "STAT1-V55-Q08"
+      ]
+    },
+    {
+      "id": "FIG_STAT_V55_05",
+      "title": "分布の形と代表値",
+      "topic_ids": [
+        "STAT1-5",
+        "STAT1-8"
+      ],
+      "purpose": "裾の方向と代表値の関係",
+      "type": "模式図",
+      "structure": [
+        "左右対称 → 平均≒中央値≒最頻値",
+        "右に裾が長い → 最頻値＜中央値＜平均値",
+        "左に裾が長い → 平均値＜中央値＜最頻値",
+        "複数の山 → 複数集団の可能性"
+      ],
+      "nodes": [
+        "左右対称",
+        "右裾長い",
+        "左裾長い",
+        "複数ピーク"
+      ],
+      "connections": [],
+      "direction": "横並び",
+      "labels": [],
+      "points": [
+        "平均値は極端な値側へ引っ張られる。"
+      ],
+      "question_ids": [
+        "STAT1-V55-Q12",
+        "STAT1-V55-Q13"
+      ]
+    },
+    {
+      "id": "FIG_STAT_V55_06",
+      "title": "度数分布表から平均値",
+      "topic_ids": [
+        "STAT1-3",
+        "STAT1-7"
+      ],
+      "purpose": "階級値を使う加重平均の手順",
+      "type": "フロー図",
+      "structure": [
+        "階級の中央 → 階級値",
+        "↓",
+        "階級値×度数",
+        "↓",
+        "全階級で合計",
+        "↓",
+        "総度数で割る",
+        "↓",
+        "平均値"
+      ],
+      "nodes": [
+        "階級値",
+        "度数",
+        "積",
+        "合計",
+        "平均値"
+      ],
+      "connections": [
+        "階級値→積",
+        "度数→積",
+        "積→合計",
+        "合計→平均値"
+      ],
+      "direction": "上→下",
+      "labels": [
+        "重み＝度数"
+      ],
+      "points": [
+        "相対度数法では階級値×相対度数を合計。"
+      ],
+      "question_ids": [
+        "STAT1-V55-Q10",
+        "STAT1-V55-Q11"
+      ]
+    },
+    {
+      "id": "FIG_STAT_V56_01",
+      "title": "分散・標準偏差を求める流れ",
+      "topic_ids": [
+        "STAT1-9"
+      ],
+      "purpose": "平均からのばらつきを、偏差→分散→標準偏差の順に理解する。",
+      "type": "フロー図",
+      "structure": [
+        "各データ",
+        "↓ －平均値",
+        "偏差",
+        "↓ 2乗",
+        "偏差²",
+        "↓ 平均",
+        "分散",
+        "↓ 正の平方根",
+        "標準偏差"
+      ],
+      "nodes": [
+        "各データ",
+        "平均値",
+        "偏差",
+        "偏差²",
+        "分散",
+        "標準偏差"
+      ],
+      "connections": [
+        "各データ→偏差",
+        "平均値→偏差",
+        "偏差→偏差²",
+        "偏差²→分散",
+        "分散→標準偏差"
+      ],
+      "direction": "上→下",
+      "labels": [
+        "引く",
+        "2乗",
+        "平均",
+        "平方根"
+      ],
+      "points": [
+        "偏差の合計は0。",
+        "分散は2乗するため元データと単位が異なる。",
+        "標準偏差は元データと同じ単位。"
+      ],
+      "question_ids": [
+        "STAT1-V53-Q01",
+        "STAT1-V53-Q02",
+        "STAT1-V53-Q03"
+      ]
+    },
+    {
+      "id": "FIG_STAT_V56_02",
+      "title": "同じ平均でもばらつきが違う",
+      "topic_ids": [
+        "STAT1-9"
+      ],
+      "purpose": "平均値だけでは分布の違いを表せないことを視覚化する。",
+      "type": "比較図",
+      "structure": [
+        "データA：平均50付近に集中 → ばらつき小",
+        "データB：10〜90へ広がる → ばらつき大",
+        "平均が同じ",
+        "↓",
+        "分散・標準偏差で違いを表す"
+      ],
+      "nodes": [
+        "データA",
+        "データB",
+        "平均50",
+        "ばらつき小",
+        "ばらつき大"
+      ],
+      "connections": [
+        "データA→平均50",
+        "データB→平均50",
+        "データA→ばらつき小",
+        "データB→ばらつき大"
+      ],
+      "direction": "左右比較",
+      "labels": [
+        "平均は同じ",
+        "広がりが異なる"
+      ],
+      "points": [
+        "平均値だけでなく散らばりも見る。"
+      ],
+      "question_ids": [
+        "STAT1-V53-Q03"
+      ]
+    },
+    {
+      "id": "FIG_STAT_V56_03",
+      "title": "範囲・四分位範囲・5数要約",
+      "topic_ids": [
+        "STAT1-10"
+      ],
+      "purpose": "データの広がりを最大最小と四分位点で整理する。",
+      "type": "模式図",
+      "structure": [
+        "最小値 ── Q1 ── Q2(中央値) ── Q3 ── 最大値",
+        "          └──── IQR = Q3－Q1 ────┘",
+        "範囲 = 最大値－最小値"
+      ],
+      "nodes": [
+        "最小値",
+        "Q1",
+        "Q2",
+        "Q3",
+        "最大値",
+        "IQR",
+        "範囲"
+      ],
+      "connections": [
+        "最小値→Q1",
+        "Q1→Q2",
+        "Q2→Q3",
+        "Q3→最大値",
+        "Q1→IQR",
+        "Q3→IQR",
+        "最小値→範囲",
+        "最大値→範囲"
+      ],
+      "direction": "左→右",
+      "labels": [
+        "25%",
+        "50%",
+        "75%"
+      ],
+      "points": [
+        "Q2は中央値。",
+        "箱ひげ図の箱はQ1〜Q3。"
+      ],
+      "question_ids": [
+        "STAT1-V53-Q06",
+        "STAT1-V53-Q07",
+        "STAT1-V53-Q08",
+        "STAT1-V53-Q09"
+      ]
+    },
+    {
+      "id": "FIG_STAT_V56_04",
+      "title": "箱ひげ図と外れ値",
+      "topic_ids": [
+        "STAT1-10"
+      ],
+      "purpose": "箱ひげ図の構成と外れ値判定をつなげる。",
+      "type": "フロー図",
+      "structure": [
+        "Q1・Q3を求める",
+        "↓",
+        "IQR = Q3－Q1",
+        "↓",
+        "下限 = Q1－1.5×IQR",
+        "上限 = Q3＋1.5×IQR",
+        "↓",
+        "範囲外 → 外れ値"
+      ],
+      "nodes": [
+        "Q1",
+        "Q3",
+        "IQR",
+        "下限",
+        "上限",
+        "外れ値"
+      ],
+      "connections": [
+        "Q1→IQR",
+        "Q3→IQR",
+        "IQR→下限",
+        "IQR→上限",
+        "下限→外れ値",
+        "上限→外れ値"
+      ],
+      "direction": "上→下",
+      "labels": [
+        "1.5×IQR"
+      ],
+      "points": [
+        "外れ値は箱ひげ図では点などで別表示される。"
+      ],
+      "question_ids": [
+        "STAT1-V53-Q10"
+      ]
+    },
+    {
+      "id": "FIG_STAT_V56_05",
+      "title": "線形変換で分布はどう変わるか",
+      "topic_ids": [
+        "STAT1-11"
+      ],
+      "purpose": "データをa倍してbを加えたときの平均・分散・標準偏差の変化を整理する。",
+      "type": "因果関係図",
+      "structure": [
+        "x → ax+b",
+        "├─平均 → a×平均+b",
+        "├─分散 → a²×分散",
+        "└─標準偏差 → |a|×標準偏差",
+        "bだけを加える → 分布の位置だけ移動"
+      ],
+      "nodes": [
+        "元データx",
+        "ax+b",
+        "平均",
+        "分散",
+        "標準偏差",
+        "定数b"
+      ],
+      "connections": [
+        "元データx→ax+b",
+        "ax+b→平均",
+        "ax+b→分散",
+        "ax+b→標準偏差",
+        "定数b→平均"
+      ],
+      "direction": "左→右",
+      "labels": [
+        "位置",
+        "ばらつき"
+      ],
+      "points": [
+        "定数bの加算は分散・標準偏差を変えない。"
+      ],
+      "question_ids": [
+        "STAT1-V53-Q11",
+        "STAT1-V53-Q12"
+      ]
+    },
+    {
+      "id": "FIG_STAT_V56_06",
+      "title": "標準化から偏差値まで",
+      "topic_ids": [
+        "STAT1-11"
+      ],
+      "purpose": "素点を標準化し、さらに偏差値へ変換する流れを示す。",
+      "type": "フロー図",
+      "structure": [
+        "素点 x",
+        "↓ －平均",
+        "平均との差",
+        "↓ ÷標準偏差",
+        "標準化得点 z",
+        "↓ ×10＋50",
+        "偏差値"
+      ],
+      "nodes": [
+        "素点",
+        "平均",
+        "標準偏差",
+        "平均との差",
+        "z",
+        "偏差値"
+      ],
+      "connections": [
+        "素点→平均との差",
+        "平均→平均との差",
+        "平均との差→z",
+        "標準偏差→z",
+        "z→偏差値"
+      ],
+      "direction": "上→下",
+      "labels": [
+        "標準化",
+        "平均0・標準偏差1",
+        "偏差値化",
+        "平均50・標準偏差10"
+      ],
+      "points": [
+        "異なる平均・標準偏差のテストを共通尺度で比較できる。"
+      ],
+      "question_ids": [
+        "STAT1-V53-Q13",
+        "STAT1-V53-Q14",
+        "STAT1-V53-Q15"
+      ]
+    },
+    {
+      "id": "FIG_STAT_V57_01",
+      "title": "幹葉図の読み方",
+      "topic_ids": [
+        "STAT1-12"
+      ],
+      "purpose": "分布と元データを同時に読める幹葉図の構造を理解する。",
+      "type": "模式図",
+      "structure": [
+        "得点 40〜99",
+        "↓",
+        "十の位 → 幹",
+        "一の位 → 葉",
+        "例：9｜0 → 90",
+        "同じ幹の葉が多い → その範囲にデータが集中"
+      ],
+      "nodes": [
+        "得点",
+        "幹",
+        "葉",
+        "元の値",
+        "分布"
+      ],
+      "connections": [
+        "得点→幹",
+        "得点→葉",
+        "幹→元の値",
+        "葉→元の値",
+        "幹→分布",
+        "葉→分布"
+      ],
+      "direction": "左→右",
+      "labels": [
+        "十の位",
+        "一の位"
+      ],
+      "points": [
+        "元の値を残したまま分布が読める。",
+        "幹と葉の桁の意味を確認する。"
+      ],
+      "question_ids": [
+        "STAT1-V54-Q01",
+        "STAT1-V54-Q02"
+      ]
+    },
+    {
+      "id": "FIG_STAT_V57_02",
+      "title": "累積相対度数表の作り方",
+      "topic_ids": [
+        "STAT1-13"
+      ],
+      "purpose": "相対度数を下の階級から足し上げ、累積割合を作る流れを示す。",
+      "type": "フロー図",
+      "structure": [
+        "各階級の度数",
+        "↓ ÷総度数",
+        "相対度数",
+        "↓ 下の階級から順に加算",
+        "累積相対度数",
+        "↓",
+        "最後は100％（1）"
+      ],
+      "nodes": [
+        "度数",
+        "総度数",
+        "相対度数",
+        "累積相対度数",
+        "100%"
+      ],
+      "connections": [
+        "度数→相対度数",
+        "総度数→相対度数",
+        "相対度数→累積相対度数",
+        "累積相対度数→100%"
+      ],
+      "direction": "上→下",
+      "labels": [
+        "割合化",
+        "累積"
+      ],
+      "points": [
+        "『未満』の割合を見るとき累積相対度数が有効。"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "FIG_STAT_V57_03",
+      "title": "ローレンツ曲線の作成",
+      "topic_ids": [
+        "STAT1-13"
+      ],
+      "purpose": "人口側と所得側の累積割合を使ってローレンツ曲線を描く流れを理解する。",
+      "type": "フロー図",
+      "structure": [
+        "所得階級別データ",
+        "├→ 人数 → 相対度数 → 累積相対度数（横軸）",
+        "└→ 階級所得総額 → 所得相対度数 → 累積所得相対度数（縦軸）",
+        "↓",
+        "各点を結ぶ",
+        "↓",
+        "ローレンツ曲線"
+      ],
+      "nodes": [
+        "所得階級",
+        "人数",
+        "相対度数",
+        "累積相対度数",
+        "階級所得総額",
+        "所得相対度数",
+        "累積所得相対度数",
+        "ローレンツ曲線"
+      ],
+      "connections": [
+        "所得階級→人数",
+        "人数→相対度数",
+        "相対度数→累積相対度数",
+        "所得階級→階級所得総額",
+        "階級所得総額→所得相対度数",
+        "所得相対度数→累積所得相対度数",
+        "累積相対度数→ローレンツ曲線",
+        "累積所得相対度数→ローレンツ曲線"
+      ],
+      "direction": "左右に分岐→合流",
+      "labels": [
+        "横軸",
+        "縦軸"
+      ],
+      "points": [
+        "横軸と縦軸を逆にしない。",
+        "完全平等なら45度線と一致する。"
+      ],
+      "question_ids": [
+        "STAT1-V54-Q06",
+        "STAT1-V54-Q07",
+        "STAT1-V54-Q08"
+      ]
+    },
+    {
+      "id": "FIG_STAT_V57_04",
+      "title": "ジニ係数と不平等度",
+      "topic_ids": [
+        "STAT1-13"
+      ],
+      "purpose": "完全平等線とローレンツ曲線の面積関係からジニ係数を理解する。",
+      "type": "概念図",
+      "structure": [
+        "完全平等線（45度線）",
+        "＼",
+        " ＼  ← 2線の間の面積",
+        "  ＼",
+        "   ローレンツ曲線",
+        "",
+        "面積差 小 → ジニ係数 小 → 平等",
+        "面積差 大 → ジニ係数 大 → 不平等"
+      ],
+      "nodes": [
+        "完全平等線",
+        "ローレンツ曲線",
+        "2線間の面積",
+        "三角形面積",
+        "ジニ係数"
+      ],
+      "connections": [
+        "完全平等線→2線間の面積",
+        "ローレンツ曲線→2線間の面積",
+        "2線間の面積→ジニ係数",
+        "三角形面積→ジニ係数"
+      ],
+      "direction": "面積→比率",
+      "labels": [
+        "0に近い＝平等",
+        "1に近い＝不平等"
+      ],
+      "points": [
+        "曲線が完全平等線から遠いほどジニ係数は大きい。"
+      ],
+      "question_ids": [
+        "STAT1-V54-Q09",
+        "STAT1-V54-Q10"
+      ]
+    },
+    {
+      "id": "FIG_STAT_V57_05",
+      "title": "質的データの度数分布を表す図",
+      "topic_ids": [
+        "STAT1-12"
+      ],
+      "purpose": "カテゴリデータを棒グラフ・円グラフへ表す関係を整理する。",
+      "type": "比較図",
+      "structure": [
+        "質的データの度数分布",
+        "├─棒グラフ → カテゴリごとの度数を棒の高さで比較",
+        "└─円グラフ → 全体に占める割合を扇形で比較"
+      ],
+      "nodes": [
+        "質的データ",
+        "度数分布",
+        "棒グラフ",
+        "円グラフ"
+      ],
+      "connections": [
+        "質的データ→度数分布",
+        "度数分布→棒グラフ",
+        "度数分布→円グラフ"
+      ],
+      "direction": "上→下",
+      "labels": [
+        "度数比較",
+        "構成割合"
+      ],
+      "points": [
+        "ヒストグラムは量的データの階級分布を表す点で異なる。"
+      ],
+      "question_ids": [
+        "STAT1-V54-Q05"
+      ]
+    },
+    {
+      "id": "FIG_STAT_V57_06",
+      "title": "クロス集計表の読み方",
+      "topic_ids": [
+        "STAT1-12"
+      ],
+      "purpose": "2つの質的変数を組み合わせ、行・列ごとの割合を比較する。",
+      "type": "比較図",
+      "structure": [
+        "質的変数A × 質的変数B",
+        "↓",
+        "クロス集計表",
+        "├─行方向の合計",
+        "├─列方向の合計",
+        "└─セルの度数",
+        "↓",
+        "比較したい条件に合わせて分母を選ぶ"
+      ],
+      "nodes": [
+        "変数A",
+        "変数B",
+        "クロス集計表",
+        "セル度数",
+        "行合計",
+        "列合計",
+        "割合"
+      ],
+      "connections": [
+        "変数A→クロス集計表",
+        "変数B→クロス集計表",
+        "クロス集計表→セル度数",
+        "クロス集計表→行合計",
+        "クロス集計表→列合計",
+        "セル度数→割合",
+        "行合計→割合",
+        "列合計→割合"
+      ],
+      "direction": "上→下",
+      "labels": [
+        "条件付き割合"
+      ],
+      "points": [
+        "『男性のうち何％』なら男性合計を分母にする。",
+        "全体割合と条件付き割合を混同しない。"
+      ],
+      "question_ids": [
+        "STAT1-V54-Q03",
+        "STAT1-V54-Q04"
+      ]
+    },
+    {
+      "id": "FIG_STAT_V57_07",
+      "title": "箱ひげ図とヒストグラムの対応",
+      "topic_ids": [
+        "STAT1-14"
+      ],
+      "purpose": "同じ分布を異なる図で表したときの対応関係を整理する。",
+      "type": "比較図",
+      "structure": [
+        "ヒストグラム",
+        "├─山の位置 → 中心",
+        "├─裾の方向 → 歪み",
+        "└─広がり → 分布範囲",
+        "        ↓ 対応",
+        "箱ひげ図",
+        "├─中央値 → 中心",
+        "├─箱の長さ → IQR",
+        "└─ひげの長さ → 外側の広がり"
+      ],
+      "nodes": [
+        "ヒストグラム",
+        "山",
+        "裾",
+        "箱ひげ図",
+        "中央値",
+        "IQR",
+        "ひげ"
+      ],
+      "connections": [
+        "山→中央値",
+        "裾→ひげ",
+        "ヒストグラム→箱ひげ図"
+      ],
+      "direction": "上下対応",
+      "labels": [
+        "中心",
+        "広がり",
+        "歪み"
+      ],
+      "points": [
+        "1つの特徴だけで決めず、中央値・IQR・裾を合わせて判断する。"
+      ],
+      "question_ids": [
+        "STAT1-V54-Q11",
+        "STAT1-V54-Q12",
+        "STAT1-V54-Q13"
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "id": "FORMULA_STAT_V55_01",
+      "name": "相対度数",
+      "topic_ids": [
+        "STAT1-4"
+      ],
+      "formula": "相対度数 = その階級の度数 ÷ 全データ数",
+      "latex": "r_i=\\frac{f_i}{n}",
+      "symbols": {
+        "r_i": "相対度数",
+        "f_i": "度数",
+        "n": "全データ数"
+      },
+      "purpose": "各階級の割合を求める",
+      "conditions": [
+        "全階級の相対度数合計=1"
+      ],
+      "usage": [
+        "度数÷全データ数"
+      ],
+      "meaning": [
+        "全体に占める割合"
+      ],
+      "change_relation": [
+        "度数が増え全体数一定なら相対度数は増える"
+      ],
+      "example": "2÷73≒0.027",
+      "notes": [
+        "％なら×100"
+      ],
+      "visual_ids": [
+        "FIG_STAT_V55_02"
+      ],
+      "question_ids": [
+        "STAT1-V55-Q05"
+      ]
+    },
+    {
+      "id": "FORMULA_STAT_V55_02",
+      "name": "平均値",
+      "topic_ids": [
+        "STAT1-6"
+      ],
+      "formula": "平均値 = データの合計 ÷ データ数",
+      "latex": "\\bar{x}=\\frac{1}{n}\\sum_{i=1}^{n}x_i",
+      "symbols": {
+        "\\bar{x}": "平均",
+        "n": "データ数",
+        "x_i": "各データ"
+      },
+      "purpose": "中心を求める",
+      "conditions": [
+        "全データを使用"
+      ],
+      "usage": [
+        "合計÷個数"
+      ],
+      "meaning": [
+        "均した1個あたりの値"
+      ],
+      "change_relation": [
+        "極端に大きい値で上がりやすい"
+      ],
+      "example": "原資料の積み木例と同じ考え方",
+      "notes": [
+        "中央値とは異なる"
+      ],
+      "visual_ids": [
+        "FIG_STAT_V55_03"
+      ],
+      "question_ids": [
+        "STAT1-V55-Q07"
+      ]
+    },
+    {
+      "id": "FORMULA_STAT_V55_03",
+      "name": "度数分布表の平均（度数法）",
+      "topic_ids": [
+        "STAT1-7"
+      ],
+      "formula": "平均値 = Σ(階級値×度数) ÷ 総度数",
+      "latex": "\\bar{x}=\\frac{\\sum_i m_i f_i}{\\sum_i f_i}",
+      "symbols": {
+        "m_i": "階級値",
+        "f_i": "度数",
+        "\\bar{x}": "平均"
+      },
+      "purpose": "度数分布表から平均を求める",
+      "conditions": [
+        "階級値を代表値にする"
+      ],
+      "usage": [
+        "階級値×度数→合計→総度数で割る"
+      ],
+      "meaning": [
+        "度数を重みとする加重平均"
+      ],
+      "change_relation": [
+        "度数が大きい階級ほど影響大"
+      ],
+      "example": "身長表では積の合計を73で割る",
+      "notes": [],
+      "visual_ids": [
+        "FIG_STAT_V55_06"
+      ],
+      "question_ids": [
+        "STAT1-V55-Q10"
+      ]
+    },
+    {
+      "id": "FORMULA_STAT_V55_04",
+      "name": "度数分布表の平均（相対度数法）",
+      "topic_ids": [
+        "STAT1-7"
+      ],
+      "formula": "平均値 = Σ(階級値×相対度数)",
+      "latex": "\\bar{x}=\\sum_i m_i r_i",
+      "symbols": {
+        "m_i": "階級値",
+        "r_i": "相対度数",
+        "\\bar{x}": "平均"
+      },
+      "purpose": "相対度数で加重平均",
+      "conditions": [
+        "相対度数合計=1"
+      ],
+      "usage": [
+        "積を全階級で合計"
+      ],
+      "meaning": [
+        "割合を重みにする"
+      ],
+      "change_relation": [
+        "相対度数が大きい階級ほど影響大"
+      ],
+      "example": "階級値×相対度数を合計",
+      "notes": [
+        "最後に総度数で割らない"
+      ],
+      "visual_ids": [
+        "FIG_STAT_V55_06"
+      ],
+      "question_ids": [
+        "STAT1-V55-Q11"
+      ]
+    },
+    {
+      "id": "FORMULA_STAT_V56_01",
+      "name": "偏差",
+      "topic_ids": [
+        "STAT1-9"
+      ],
+      "formula": "偏差 = x_i - x̄",
+      "latex": "d_i=x_i-\\bar{x}",
+      "symbols": {
+        "d_i": "偏差",
+        "x_i": "各データ",
+        "\\bar{x}": "平均値"
+      },
+      "purpose": "各データが平均からどれだけ離れているかを求める。",
+      "conditions": [
+        "平均との差を符号付きで表す。"
+      ],
+      "usage": [
+        "各データ－平均値。"
+      ],
+      "meaning": [
+        "正なら平均より大きい、負なら平均より小さい。"
+      ],
+      "change_relation": [
+        "平均から離れるほど偏差の絶対値が大きい。"
+      ],
+      "example": "平均50のとき、データ40の偏差は-10。",
+      "notes": [
+        "偏差の合計は0。"
+      ],
+      "visual_ids": [
+        "FIG_STAT_V56_01"
+      ],
+      "question_ids": [
+        "STAT1-V53-Q01"
+      ]
+    },
+    {
+      "id": "FORMULA_STAT_V56_02",
+      "name": "分散",
+      "topic_ids": [
+        "STAT1-9"
+      ],
+      "formula": "分散 = 偏差²の平均",
+      "latex": "\\sigma^2=\\frac{1}{n}\\sum_{i=1}^{n}(x_i-\\bar{x})^2",
+      "symbols": {
+        "\\sigma^2": "分散",
+        "n": "データ数",
+        "x_i": "各データ",
+        "\\bar{x}": "平均値"
+      },
+      "purpose": "データの平均からの散らばりを数値化する。",
+      "conditions": [
+        "偏差を2乗してから平均する。"
+      ],
+      "usage": [
+        "偏差→2乗→合計→データ数で割る。"
+      ],
+      "meaning": [
+        "値が大きいほどデータが平均から広く散らばる。"
+      ],
+      "change_relation": [
+        "平均から遠い値が増えると分散は大きくなりやすい。"
+      ],
+      "example": "原資料のデータAでは分散44.44、データBでは666.67。",
+      "notes": [
+        "別式：値の2乗の平均－平均値の2乗。"
+      ],
+      "visual_ids": [
+        "FIG_STAT_V56_01",
+        "FIG_STAT_V56_02"
+      ],
+      "question_ids": [
+        "STAT1-V53-Q02"
+      ]
+    },
+    {
+      "id": "FORMULA_STAT_V56_03",
+      "name": "分散の別式",
+      "topic_ids": [
+        "STAT1-9"
+      ],
+      "formula": "分散 = 値の2乗の平均－平均値の2乗",
+      "latex": "\\sigma^2=\\frac{1}{n}\\sum_{i=1}^{n}x_i^2-\\bar{x}^2",
+      "symbols": {
+        "\\sigma^2": "分散",
+        "x_i": "各データ",
+        "\\bar{x}": "平均値",
+        "n": "データ数"
+      },
+      "purpose": "偏差を1つずつ求めずに分散を計算する。",
+      "conditions": [
+        "同じデータ集合について用いる。"
+      ],
+      "usage": [
+        "各値の2乗の平均を求め、平均値の2乗を引く。"
+      ],
+      "meaning": [
+        "偏差²平均と同じ分散を別の形で表す。"
+      ],
+      "change_relation": [
+        "値の2乗平均と平均値²の差が大きいほど分散が大きい。"
+      ],
+      "example": "原資料で展開により同値であることを示している。",
+      "notes": [
+        "『平均の2乗』と『2乗の平均』を取り違えない。"
+      ],
+      "visual_ids": [
+        "FIG_STAT_V56_01"
+      ],
+      "question_ids": [
+        "STAT1-V53-Q02"
+      ]
+    },
+    {
+      "id": "FORMULA_STAT_V56_04",
+      "name": "標準偏差",
+      "topic_ids": [
+        "STAT1-9"
+      ],
+      "formula": "標準偏差 = √分散",
+      "latex": "\\sigma=\\sqrt{\\sigma^2}",
+      "symbols": {
+        "\\sigma": "標準偏差",
+        "\\sigma^2": "分散"
+      },
+      "purpose": "分散を元データと同じ単位のばらつき指標へ戻す。",
+      "conditions": [
+        "分散の正の平方根を取る。"
+      ],
+      "usage": [
+        "分散を求め、その正の平方根を取る。"
+      ],
+      "meaning": [
+        "平均からの典型的な離れ具合を同じ単位で表す。"
+      ],
+      "change_relation": [
+        "分散が大きいほど標準偏差も大きい。"
+      ],
+      "example": "分散44.44なら標準偏差は約6.67。",
+      "notes": [
+        "元データと同じ単位。"
+      ],
+      "visual_ids": [
+        "FIG_STAT_V56_01"
+      ],
+      "question_ids": [
+        "STAT1-V53-Q03"
+      ]
+    },
+    {
+      "id": "FORMULA_STAT_V56_05",
+      "name": "変動係数",
+      "topic_ids": [
+        "STAT1-9"
+      ],
+      "formula": "CV = 標準偏差 ÷ 平均値",
+      "latex": "CV=\\frac{\\sigma}{\\bar{x}}",
+      "symbols": {
+        "CV": "変動係数",
+        "\\sigma": "標準偏差",
+        "\\bar{x}": "平均値"
+      },
+      "purpose": "平均水準の違うデータの相対的なばらつきを比較する。",
+      "conditions": [
+        "平均値に対する標準偏差の割合を見る。"
+      ],
+      "usage": [
+        "標準偏差÷平均値。"
+      ],
+      "meaning": [
+        "単位を外して相対的な変動の大きさを見る。"
+      ],
+      "change_relation": [
+        "標準偏差が同じなら平均が小さいほどCVは大きくなる。"
+      ],
+      "example": "牛肉300÷2000=0.15、トマト50÷200=0.25。",
+      "notes": [
+        "CVが大きい方が相対的なばらつきが大きい。"
+      ],
+      "visual_ids": [
+        "FIG_STAT_V56_02"
+      ],
+      "question_ids": [
+        "STAT1-V53-Q04",
+        "STAT1-V53-Q05"
+      ]
+    },
+    {
+      "id": "FORMULA_STAT_V56_06",
+      "name": "範囲",
+      "topic_ids": [
+        "STAT1-10"
+      ],
+      "formula": "範囲 = 最大値－最小値",
+      "latex": "R=x_{max}-x_{min}",
+      "symbols": {
+        "R": "範囲",
+        "x_{max}": "最大値",
+        "x_{min}": "最小値"
+      },
+      "purpose": "データ全体の広がりを最大値と最小値だけで表す。",
+      "conditions": [
+        "最大値・最小値を確認する。"
+      ],
+      "usage": [
+        "最大値から最小値を引く。"
+      ],
+      "meaning": [
+        "端から端までの広がり。"
+      ],
+      "change_relation": [
+        "最大値が上がる、または最小値が下がると範囲は大きくなる。"
+      ],
+      "example": "最大32.3、最小2.8なら範囲29.5。",
+      "notes": [
+        "中央部分の散らばりは表さない。"
+      ],
+      "visual_ids": [
+        "FIG_STAT_V56_03"
+      ],
+      "question_ids": [
+        "STAT1-V53-Q06"
+      ]
+    },
+    {
+      "id": "FORMULA_STAT_V56_07",
+      "name": "四分位範囲",
+      "topic_ids": [
+        "STAT1-10"
+      ],
+      "formula": "IQR = Q3－Q1",
+      "latex": "IQR=Q_3-Q_1",
+      "symbols": {
+        "IQR": "四分位範囲",
+        "Q1": "第1四分位数",
+        "Q3": "第3四分位数"
+      },
+      "purpose": "中央50%のデータの広がりを求める。",
+      "conditions": [
+        "データを小さい順に並べ、Q1・Q3を求める。"
+      ],
+      "usage": [
+        "Q3からQ1を引く。"
+      ],
+      "meaning": [
+        "外側25%ずつを除いた中央部分の広がり。"
+      ],
+      "change_relation": [
+        "Q3とQ1の距離が広いほどIQRが大きい。"
+      ],
+      "example": "Q1=9.45、Q3=24.2ならIQR=14.75（原資料の表の考え方）。",
+      "notes": [
+        "箱ひげ図の箱の長さ。"
+      ],
+      "visual_ids": [
+        "FIG_STAT_V56_03"
+      ],
+      "question_ids": [
+        "STAT1-V53-Q08",
+        "STAT1-V53-Q09"
+      ]
+    },
+    {
+      "id": "FORMULA_STAT_V56_08",
+      "name": "外れ値判定",
+      "topic_ids": [
+        "STAT1-10"
+      ],
+      "formula": "下限 = Q1－1.5×IQR / 上限 = Q3＋1.5×IQR",
+      "latex": "L=Q_1-1.5IQR,\\quad U=Q_3+1.5IQR",
+      "symbols": {
+        "L": "下側境界",
+        "U": "上側境界",
+        "Q1": "第1四分位数",
+        "Q3": "第3四分位数",
+        "IQR": "四分位範囲"
+      },
+      "purpose": "箱ひげ図で外れ値の目安を判断する。",
+      "conditions": [
+        "IQRを先に求める。"
+      ],
+      "usage": [
+        "Q1から1.5IQRを引く / Q3に1.5IQRを足す。"
+      ],
+      "meaning": [
+        "中央50%の広がりを基準に外側の極端値を判定する。"
+      ],
+      "change_relation": [
+        "IQRが大きいほど判定境界は外側へ広がる。"
+      ],
+      "example": "原資料では箱ひげ図で外れ値を点として示す。",
+      "notes": [
+        "境界の外側が外れ値の目安。"
+      ],
+      "visual_ids": [
+        "FIG_STAT_V56_04"
+      ],
+      "question_ids": [
+        "STAT1-V53-Q10"
+      ]
+    },
+    {
+      "id": "FORMULA_STAT_V56_09",
+      "name": "線形変換の平均・分散・標準偏差",
+      "topic_ids": [
+        "STAT1-11"
+      ],
+      "formula": "y=ax+b → 平均_y=a平均_x+b / 分散_y=a²分散_x / 標準偏差_y=|a|標準偏差_x",
+      "latex": "\\bar{y}=a\\bar{x}+b,\\quad \\sigma_y^2=a^2\\sigma_x^2,\\quad \\sigma_y=|a|\\sigma_x",
+      "symbols": {
+        "a": "倍率",
+        "b": "加える定数",
+        "\\bar{x}": "元の平均",
+        "\\sigma_x^2": "元の分散",
+        "\\sigma_x": "元の標準偏差"
+      },
+      "purpose": "全データを同じ式で変換したときの統計量の変化を求める。",
+      "conditions": [
+        "すべてのデータに同じa,bを適用。"
+      ],
+      "usage": [
+        "平均はa倍してbを足す。分散はa²倍。標準偏差は|a|倍。"
+      ],
+      "meaning": [
+        "bは分布の位置だけ、aは位置とばらつきの尺度を変える。"
+      ],
+      "change_relation": [
+        "bだけ変えても分散・標準偏差は変化しない。"
+      ],
+      "example": "全データを2倍して5を加えると、平均は2倍+5、分散4倍、標準偏差2倍。",
+      "notes": [
+        "分散はa倍ではなくa²倍。"
+      ],
+      "visual_ids": [
+        "FIG_STAT_V56_05"
+      ],
+      "question_ids": [
+        "STAT1-V53-Q11",
+        "STAT1-V53-Q12"
+      ]
+    },
+    {
+      "id": "FORMULA_STAT_V56_10",
+      "name": "標準化得点",
+      "topic_ids": [
+        "STAT1-11"
+      ],
+      "formula": "z = (x－平均値) ÷ 標準偏差",
+      "latex": "z=\\frac{x-\\bar{x}}{\\sigma}",
+      "symbols": {
+        "z": "標準化得点",
+        "x": "データ値",
+        "\\bar{x}": "平均値",
+        "\\sigma": "標準偏差"
+      },
+      "purpose": "異なる平均・標準偏差のデータを共通尺度へ変換する。",
+      "conditions": [
+        "平均値と標準偏差が分かっている。"
+      ],
+      "usage": [
+        "平均との差を標準偏差で割る。"
+      ],
+      "meaning": [
+        "平均から標準偏差何個分離れているかを表す。"
+      ],
+      "change_relation": [
+        "平均と同じ値ならz=0。平均より大きければ正。"
+      ],
+      "example": "英語60、平均48、標準偏差12 → z=1。",
+      "notes": [
+        "標準化後は平均0・標準偏差1。"
+      ],
+      "visual_ids": [
+        "FIG_STAT_V56_06"
+      ],
+      "question_ids": [
+        "STAT1-V53-Q13",
+        "STAT1-V53-Q14"
+      ]
+    },
+    {
+      "id": "FORMULA_STAT_V56_11",
+      "name": "偏差値",
+      "topic_ids": [
+        "STAT1-11"
+      ],
+      "formula": "偏差値 = 10z＋50",
+      "latex": "T=10z+50",
+      "symbols": {
+        "T": "偏差値",
+        "z": "標準化得点"
+      },
+      "purpose": "標準化得点を平均50・標準偏差10の尺度へ変換する。",
+      "conditions": [
+        "zを先に求める。"
+      ],
+      "usage": [
+        "zを10倍して50を加える。"
+      ],
+      "meaning": [
+        "平均が50になる共通尺度。"
+      ],
+      "change_relation": [
+        "zが1増えると偏差値は10増える。"
+      ],
+      "example": "z=0.83 → 偏差値58.3。",
+      "notes": [
+        "偏差値50はz=0。"
+      ],
+      "visual_ids": [
+        "FIG_STAT_V56_06"
+      ],
+      "question_ids": [
+        "STAT1-V53-Q15"
+      ]
+    },
+    {
+      "id": "FORMULA_STAT_V57_01",
+      "name": "累積相対度数",
+      "topic_ids": [
+        "STAT1-13"
+      ],
+      "formula": "第k階級までの累積相対度数 = r1 + r2 + … + rk",
+      "latex": "C_k=\\sum_{i=1}^{k}r_i",
+      "symbols": {
+        "C_k": "第k階級までの累積相対度数",
+        "r_i": "第i階級の相対度数"
+      },
+      "purpose": "ある階級までに全体の何割が含まれるかを求める。",
+      "conditions": [
+        "階級を小さい順に並べて累積する。"
+      ],
+      "usage": [
+        "下位階級から相対度数を順番に足す。"
+      ],
+      "meaning": [
+        "その階級以下（資料の区切りに応じた未満範囲）までの累積割合。"
+      ],
+      "change_relation": [
+        "階級が上がるにつれ累積相対度数は減少せず、最後は1になる。"
+      ],
+      "example": "相対度数30%,30%,20%なら第3階級まで80%。",
+      "notes": [
+        "単独の相対度数との違いに注意。"
+      ],
+      "visual_ids": [
+        "FIG_STAT_V57_02"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "FORMULA_STAT_V57_02",
+      "name": "階級別の所得総額",
+      "topic_ids": [
+        "STAT1-13"
+      ],
+      "formula": "階級別所得総額 = 階級の代表値 × 度数",
+      "latex": "I_i=m_i f_i",
+      "symbols": {
+        "I_i": "階級iの所得総額",
+        "m_i": "階級の代表値",
+        "f_i": "度数"
+      },
+      "purpose": "ローレンツ曲線の所得側割合を求めるための階級所得総額を計算する。",
+      "conditions": [
+        "階級を代表値で代表させる。"
+      ],
+      "usage": [
+        "各階級で代表値×人数。"
+      ],
+      "meaning": [
+        "その階級全体が持つ所得量の近似。"
+      ],
+      "change_relation": [
+        "代表値または度数が大きいほど階級所得総額は大きくなる。"
+      ],
+      "example": "資料では階級値と度数から所得総額を計算している。",
+      "notes": [
+        "その後、所得総額全体に対する割合を求める。"
+      ],
+      "visual_ids": [
+        "FIG_STAT_V57_03"
+      ],
+      "question_ids": [
+        "STAT1-V54-Q07"
+      ]
+    },
+    {
+      "id": "FORMULA_STAT_V57_03",
+      "name": "ジニ係数",
+      "topic_ids": [
+        "STAT1-13"
+      ],
+      "formula": "ジニ係数 = 完全平等線とローレンツ曲線の間の面積 ÷ 完全平等線下の三角形の面積",
+      "latex": "G=\\frac{A}{A+B}",
+      "symbols": {
+        "G": "ジニ係数",
+        "A": "完全平等線とローレンツ曲線の間の面積",
+        "A+B": "完全平等線下の三角形全体の面積"
+      },
+      "purpose": "所得分布の不平等度を0〜1の数値で表す。",
+      "conditions": [
+        "ローレンツ曲線と完全平等線を用いる。"
+      ],
+      "usage": [
+        "2線間の面積を三角形全体の面積で割る。"
+      ],
+      "meaning": [
+        "完全平等線からの離れ具合を面積比で表す。"
+      ],
+      "change_relation": [
+        "2線間の面積が大きいほどGは大きくなり、不平等度が高い。"
+      ],
+      "example": "完全平等なら2線間面積0 → G=0。",
+      "notes": [
+        "0に近いほど平等、1に近いほど不平等。"
+      ],
+      "visual_ids": [
+        "FIG_STAT_V57_04"
+      ],
+      "question_ids": [
+        "STAT1-V54-Q09",
+        "STAT1-V54-Q10"
+      ]
+    },
+    {
+      "id": "FORMULA_STAT_V57_04",
+      "name": "クロス集計の条件付き割合",
+      "topic_ids": [
+        "STAT1-12"
+      ],
+      "formula": "条件付き割合 = 条件に該当するセルの度数 ÷ その条件の行（または列）合計",
+      "latex": "p=\\frac{n_{cell}}{n_{condition}}",
+      "symbols": {
+        "p": "条件付き割合",
+        "n_{cell}": "対象セルの度数",
+        "n_{condition}": "条件に対応する行または列の合計"
+      },
+      "purpose": "特定カテゴリ内で別カテゴリが占める割合を求める。",
+      "conditions": [
+        "問題文が指定する条件を分母にする。"
+      ],
+      "usage": [
+        "例：『男性のうち選んだ割合』→ 男性かつ選んだ人数 ÷ 男性全体。"
+      ],
+      "meaning": [
+        "全体割合ではなく、条件を限定した中での割合。"
+      ],
+      "change_relation": [
+        "同じセル度数なら条件全体が小さいほど割合は大きくなる。"
+      ],
+      "example": "資料では男女別の選択割合を行合計で比較している。",
+      "notes": [
+        "分母を全体人数に固定しない。"
+      ],
+      "visual_ids": [
+        "FIG_STAT_V57_06"
+      ],
+      "question_ids": [
+        "STAT1-V54-Q04"
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "TABLE_STAT_V55_01",
+      "title": "4つの尺度の比較",
+      "topic_ids": [
+        "STAT1-2"
+      ],
+      "axes": [
+        "尺度",
+        "意味",
+        "順序",
+        "差",
+        "比",
+        "例"
+      ],
+      "rows": [
+        [
+          "名義尺度",
+          "分類",
+          "×",
+          "×",
+          "×",
+          "血液型・性別"
+        ],
+        [
+          "順序尺度",
+          "順序",
+          "○",
+          "×",
+          "×",
+          "順位"
+        ],
+        [
+          "間隔尺度",
+          "差",
+          "○",
+          "○",
+          "×",
+          "気温"
+        ],
+        [
+          "比例尺度",
+          "差と比・絶対的0",
+          "○",
+          "○",
+          "○",
+          "身長・体重・所得"
+        ]
+      ],
+      "important": [
+        "名義→順序→間隔→比例の順に情報が増える"
+      ],
+      "question_ids": [
+        "STAT1-V55-Q03"
+      ]
+    },
+    {
+      "id": "TABLE_STAT_V55_02",
+      "title": "代表値の比較",
+      "topic_ids": [
+        "STAT1-6"
+      ],
+      "axes": [
+        "代表値",
+        "求め方",
+        "特徴",
+        "極端値"
+      ],
+      "rows": [
+        [
+          "平均値",
+          "合計÷個数",
+          "全データ",
+          "影響を受けやすい"
+        ],
+        [
+          "中央値",
+          "並べた中央",
+          "位置",
+          "比較的受けにくい"
+        ],
+        [
+          "最頻値",
+          "最多値",
+          "頻度",
+          "直接は受けにくい"
+        ]
+      ],
+      "important": [
+        "目的に応じて使い分ける"
+      ],
+      "question_ids": [
+        "STAT1-V55-Q07",
+        "STAT1-V55-Q08",
+        "STAT1-V55-Q09"
+      ]
+    },
+    {
+      "id": "TABLE_STAT_V55_03",
+      "title": "分布形と代表値",
+      "topic_ids": [
+        "STAT1-5",
+        "STAT1-8"
+      ],
+      "axes": [
+        "形",
+        "代表値の関係",
+        "ポイント"
+      ],
+      "rows": [
+        [
+          "左右対称",
+          "平均≒中央値≒最頻値",
+          "中心一致"
+        ],
+        [
+          "右裾長い",
+          "最頻値＜中央値＜平均",
+          "平均が右へ"
+        ],
+        [
+          "左裾長い",
+          "平均＜中央値＜最頻値",
+          "平均が左へ"
+        ],
+        [
+          "複数の山",
+          "単純化困難",
+          "複数集団の可能性"
+        ]
+      ],
+      "important": [
+        "裾方向と平均の位置"
+      ],
+      "question_ids": [
+        "STAT1-V55-Q12",
+        "STAT1-V55-Q13"
+      ]
+    },
+    {
+      "id": "TABLE_STAT_V56_01",
+      "title": "分散・標準偏差・変動係数の比較",
+      "topic_ids": [
+        "STAT1-9"
+      ],
+      "axes": [
+        "指標",
+        "式",
+        "単位",
+        "何を見るか"
+      ],
+      "rows": [
+        [
+          "分散",
+          "偏差²の平均",
+          "元データ単位の2乗",
+          "絶対的なばらつき"
+        ],
+        [
+          "標準偏差",
+          "√分散",
+          "元データと同じ",
+          "絶対的なばらつき"
+        ],
+        [
+          "変動係数",
+          "標準偏差÷平均",
+          "なし",
+          "相対的なばらつき"
+        ]
+      ],
+      "important": [
+        "単位・平均水準が違うデータの比較では変動係数が有効。"
+      ],
+      "question_ids": [
+        "STAT1-V53-Q02",
+        "STAT1-V53-Q03",
+        "STAT1-V53-Q04",
+        "STAT1-V53-Q05"
+      ]
+    },
+    {
+      "id": "TABLE_STAT_V56_02",
+      "title": "範囲・IQR・箱ひげ図の比較",
+      "topic_ids": [
+        "STAT1-10"
+      ],
+      "axes": [
+        "要素",
+        "求め方/構成",
+        "見る範囲",
+        "特徴"
+      ],
+      "rows": [
+        [
+          "範囲",
+          "最大－最小",
+          "全体",
+          "極端値の影響を受ける"
+        ],
+        [
+          "四分位範囲",
+          "Q3－Q1",
+          "中央50%",
+          "中央部分の広がり"
+        ],
+        [
+          "箱ひげ図",
+          "最小・Q1・中央値・Q3・最大",
+          "全体＋中央50%",
+          "位置と広がりを可視化"
+        ]
+      ],
+      "important": [
+        "Q2は中央値。",
+        "箱の長さがIQR。"
+      ],
+      "question_ids": [
+        "STAT1-V53-Q06",
+        "STAT1-V53-Q07",
+        "STAT1-V53-Q08",
+        "STAT1-V53-Q09"
+      ]
+    },
+    {
+      "id": "TABLE_STAT_V56_03",
+      "title": "標準化得点と偏差値の比較",
+      "topic_ids": [
+        "STAT1-11"
+      ],
+      "axes": [
+        "尺度",
+        "平均",
+        "標準偏差",
+        "式",
+        "用途"
+      ],
+      "rows": [
+        [
+          "標準化得点z",
+          "0",
+          "1",
+          "(x－平均)/標準偏差",
+          "異なる分布を共通尺度で比較"
+        ],
+        [
+          "偏差値",
+          "50",
+          "10",
+          "10z＋50",
+          "zを見慣れた尺度へ変換"
+        ]
+      ],
+      "important": [
+        "素点そのものではなく、平均との差を標準偏差単位で比較する。"
+      ],
+      "question_ids": [
+        "STAT1-V53-Q13",
+        "STAT1-V53-Q14",
+        "STAT1-V53-Q15"
+      ]
+    },
+    {
+      "id": "TABLE_STAT_V57_01",
+      "title": "幹葉図・棒グラフ・円グラフ・ヒストグラムの比較",
+      "topic_ids": [
+        "STAT1-12"
+      ],
+      "axes": [
+        "図表",
+        "主な対象",
+        "何が分かる",
+        "特徴"
+      ],
+      "rows": [
+        [
+          "幹葉図",
+          "量的データ",
+          "分布＋元の値",
+          "各値を保持"
+        ],
+        [
+          "棒グラフ",
+          "質的データ",
+          "カテゴリ別度数",
+          "棒の高さで比較"
+        ],
+        [
+          "円グラフ",
+          "質的データ",
+          "全体に占める割合",
+          "構成比を扇形で表示"
+        ],
+        [
+          "ヒストグラム",
+          "量的データ",
+          "階級ごとの度数分布",
+          "連続した階級の形を見る"
+        ]
+      ],
+      "important": [
+        "棒グラフとヒストグラムは対象データが異なる。"
+      ],
+      "question_ids": [
+        "STAT1-V54-Q01",
+        "STAT1-V54-Q02",
+        "STAT1-V54-Q05"
+      ]
+    },
+    {
+      "id": "TABLE_STAT_V57_02",
+      "title": "相対度数と累積相対度数の比較",
+      "topic_ids": [
+        "STAT1-13"
+      ],
+      "axes": [
+        "指標",
+        "意味",
+        "求め方",
+        "用途"
+      ],
+      "rows": [
+        [
+          "相対度数",
+          "各階級単独の割合",
+          "度数÷総度数",
+          "各階級の割合比較"
+        ],
+        [
+          "累積相対度数",
+          "その階級までの累計割合",
+          "下から相対度数を加算",
+          "未満割合・ローレンツ曲線横軸"
+        ]
+      ],
+      "important": [
+        "最後の累積相対度数は1（100％）。"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "TABLE_STAT_V57_03",
+      "title": "ローレンツ曲線とジニ係数の対応",
+      "topic_ids": [
+        "STAT1-13"
+      ],
+      "axes": [
+        "状態",
+        "ローレンツ曲線",
+        "ジニ係数",
+        "意味"
+      ],
+      "rows": [
+        [
+          "平等度が高い",
+          "完全平等線に近い",
+          "0に近い",
+          "所得分布が比較的平等"
+        ],
+        [
+          "不平等度が高い",
+          "完全平等線から遠い",
+          "1に近い",
+          "所得分布の偏りが大きい"
+        ]
+      ],
+      "important": [
+        "曲線が下に膨らむほど不平等度が大きい。"
+      ],
+      "question_ids": [
+        "STAT1-V54-Q08",
+        "STAT1-V54-Q09",
+        "STAT1-V54-Q10"
+      ]
+    },
+    {
+      "id": "TABLE_STAT_V57_04",
+      "title": "図表横断で見るポイント",
+      "topic_ids": [
+        "STAT1-14"
+      ],
+      "axes": [
+        "図表",
+        "中心",
+        "広がり",
+        "歪み/偏り"
+      ],
+      "rows": [
+        [
+          "ヒストグラム",
+          "山の位置",
+          "横方向の広がり",
+          "裾の方向・山の形"
+        ],
+        [
+          "箱ひげ図",
+          "中央値",
+          "IQR・範囲",
+          "箱/ひげの非対称"
+        ],
+        [
+          "ローレンツ曲線",
+          "－",
+          "－",
+          "完全平等線からの離れ"
+        ]
+      ],
+      "important": [
+        "図ごとに得意な情報が異なる。"
+      ],
+      "question_ids": [
+        "STAT1-V54-Q11",
+        "STAT1-V54-Q12",
+        "STAT1-V54-Q13"
+      ]
+    }
+  ],
+  "flows": [
+    {
+      "id": "FLOW_STAT_V55_01",
+      "title": "量的・質的データ判断",
+      "topic_ids": [
+        "STAT1-1"
+      ],
+      "start": "対象データを確認",
+      "steps": [
+        {
+          "question": "数値の大小・差を量として扱う意味がある？",
+          "yes": "量的データ",
+          "no": "質的データ"
+        }
+      ],
+      "final": "数字表記でもカテゴリなら質的データ",
+      "question_ids": [
+        "STAT1-V55-Q01",
+        "STAT1-V55-Q02"
+      ]
+    },
+    {
+      "id": "FLOW_STAT_V55_02",
+      "title": "代表値の求め方",
+      "topic_ids": [
+        "STAT1-6"
+      ],
+      "start": "求めたい代表値を確認",
+      "steps": [
+        {
+          "question": "全データを使った中心？",
+          "yes": "平均値",
+          "no": "次へ"
+        },
+        {
+          "question": "並べた中央？",
+          "yes": "中央値",
+          "no": "最頻値"
+        }
+      ],
+      "final": "平均・中央値・最頻値を使い分ける",
+      "question_ids": [
+        "STAT1-V55-Q07",
+        "STAT1-V55-Q08",
+        "STAT1-V55-Q09"
+      ]
+    },
+    {
+      "id": "FLOW_STAT_V56_01",
+      "title": "ばらつき指標の選択",
+      "topic_ids": [
+        "STAT1-9"
+      ],
+      "start": "ばらつきを比較したい",
+      "steps": [
+        {
+          "question": "元データと同じ単位で見たい？",
+          "yes": "標準偏差",
+          "no": "次へ"
+        },
+        {
+          "question": "平均水準や単位の異なるデータ同士を比較？",
+          "yes": "変動係数",
+          "no": "分散も利用可能"
+        }
+      ],
+      "final": "目的により分散・標準偏差・変動係数を使い分ける。",
+      "question_ids": [
+        "STAT1-V53-Q03",
+        "STAT1-V53-Q04",
+        "STAT1-V53-Q05"
+      ]
+    },
+    {
+      "id": "FLOW_STAT_V56_02",
+      "title": "外れ値判定フロー",
+      "topic_ids": [
+        "STAT1-10"
+      ],
+      "start": "外れ値を判定したい",
+      "steps": [
+        {
+          "question": "Q1・Q3を求めた？",
+          "yes": "IQR=Q3-Q1",
+          "no": "まず四分位数を求める"
+        },
+        {
+          "question": "値がQ1-1.5IQR未満 または Q3+1.5IQR超？",
+          "yes": "外れ値の目安",
+          "no": "通常範囲"
+        }
+      ],
+      "final": "箱ひげ図では外れ値を別点で示す。",
+      "question_ids": [
+        "STAT1-V53-Q10"
+      ]
+    },
+    {
+      "id": "FLOW_STAT_V56_03",
+      "title": "標準化して比較する",
+      "topic_ids": [
+        "STAT1-11"
+      ],
+      "start": "異なるテスト等の得点を比較したい",
+      "steps": [
+        {
+          "question": "平均・標準偏差が異なる？",
+          "yes": "z=(x-平均)/標準偏差",
+          "no": "素点比較も可能"
+        },
+        {
+          "question": "偏差値表示が必要？",
+          "yes": "10z+50",
+          "no": "zで比較"
+        }
+      ],
+      "final": "zが大きい方が、その分布内で相対的に高い。",
+      "question_ids": [
+        "STAT1-V53-Q13",
+        "STAT1-V53-Q14",
+        "STAT1-V53-Q15"
+      ]
+    },
+    {
+      "id": "FLOW_STAT_V57_01",
+      "title": "クロス集計で割合を求める",
+      "topic_ids": [
+        "STAT1-12"
+      ],
+      "start": "『○○のうち△△の割合』を求める",
+      "steps": [
+        {
+          "question": "○○に対応する行・列を特定した？",
+          "yes": "その行・列の合計を分母にする",
+          "no": "条件カテゴリを確認"
+        },
+        {
+          "question": "△△に対応するセルを特定した？",
+          "yes": "セル度数÷条件合計",
+          "no": "対象セルを確認"
+        }
+      ],
+      "final": "条件付き割合を計算する。",
+      "question_ids": [
+        "STAT1-V54-Q04"
+      ]
+    },
+    {
+      "id": "FLOW_STAT_V57_02",
+      "title": "ローレンツ曲線の作成手順",
+      "topic_ids": [
+        "STAT1-13"
+      ],
+      "start": "所得階級別の度数分布表がある",
+      "steps": [
+        {
+          "question": "人数の相対度数を求めた？",
+          "yes": "累積して横軸へ",
+          "no": "度数÷総度数"
+        },
+        {
+          "question": "各階級の所得総額を求めた？",
+          "yes": "所得割合を累積して縦軸へ",
+          "no": "代表値×度数"
+        },
+        {
+          "question": "横軸・縦軸の点を得た？",
+          "yes": "点を結ぶ",
+          "no": "累積値を確認"
+        }
+      ],
+      "final": "ローレンツ曲線完成。",
+      "question_ids": [
+        "STAT1-V54-Q06",
+        "STAT1-V54-Q07"
+      ]
+    },
+    {
+      "id": "FLOW_STAT_V57_03",
+      "title": "ジニ係数の大小判断",
+      "topic_ids": [
+        "STAT1-13"
+      ],
+      "start": "2つのローレンツ曲線を比較",
+      "steps": [
+        {
+          "question": "完全平等線からより遠いのはどちら？",
+          "yes": "その曲線のジニ係数が大きい",
+          "no": "より近い方のジニ係数が小さい"
+        }
+      ],
+      "final": "遠い＝不平等度大、近い＝平等度高。",
+      "question_ids": [
+        "STAT1-V54-Q09",
+        "STAT1-V54-Q10"
+      ]
+    },
+    {
+      "id": "FLOW_STAT_V57_04",
+      "title": "箱ひげ図とヒストグラムを対応させる",
+      "topic_ids": [
+        "STAT1-14"
+      ],
+      "start": "2種類の図を対応付ける",
+      "steps": [
+        {
+          "question": "中央値の位置が対応する？",
+          "yes": "次へ",
+          "no": "候補から外す"
+        },
+        {
+          "question": "IQR・全体範囲が対応する？",
+          "yes": "次へ",
+          "no": "候補から外す"
+        },
+        {
+          "question": "裾・ひげの長い方向が対応する？",
+          "yes": "対応候補",
+          "no": "候補から外す"
+        }
+      ],
+      "final": "中心・広がり・歪みを複合して判断する。",
+      "question_ids": [
+        "STAT1-V54-Q11",
+        "STAT1-V54-Q12",
+        "STAT1-V54-Q13"
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "id": "EXAMPLE_STAT_V56_01",
+      "title": "同じ平均50でもばらつきが違う例",
+      "topic_ids": [
+        "STAT1-9"
+      ],
+      "steps": [
+        "データA：平均50付近に集中",
+        "データB：10〜90へ広がる",
+        "平均は同じ",
+        "分散・標準偏差はBの方が大きい"
+      ],
+      "point": "平均だけで分布の違いは分からない。",
+      "question_ids": [
+        "STAT1-V53-Q03"
+      ]
+    },
+    {
+      "id": "EXAMPLE_STAT_V56_02",
+      "title": "変動係数で牛肉とトマトを比較",
+      "topic_ids": [
+        "STAT1-9"
+      ],
+      "steps": [
+        "牛肉：平均2,000円・標準偏差300円 → CV=0.15",
+        "トマト：平均200円・標準偏差50円 → CV=0.25",
+        "0.25>0.15 → トマトの方が相対的変動大"
+      ],
+      "point": "単位・平均水準が違うときはCVで比較。",
+      "question_ids": [
+        "STAT1-V53-Q04",
+        "STAT1-V53-Q05"
+      ]
+    },
+    {
+      "id": "EXAMPLE_STAT_V56_03",
+      "title": "四分位範囲から外れ値を判定",
+      "topic_ids": [
+        "STAT1-10"
+      ],
+      "steps": [
+        "Q1とQ3を求める",
+        "IQR=Q3-Q1",
+        "下限=Q1-1.5IQR",
+        "上限=Q3+1.5IQR",
+        "境界外を外れ値として扱う"
+      ],
+      "point": "先にIQRを求める。",
+      "question_ids": [
+        "STAT1-V53-Q10"
+      ]
+    },
+    {
+      "id": "EXAMPLE_STAT_V56_04",
+      "title": "英語と数学を標準化して比較",
+      "topic_ids": [
+        "STAT1-11"
+      ],
+      "steps": [
+        "英語：60点、平均48、標準偏差12 → z=1",
+        "数学：70点、平均60、標準偏差20 → z=0.5",
+        "素点は数学が高いが、相対評価は英語が高い"
+      ],
+      "point": "素点ではなくz得点で比較する。",
+      "question_ids": [
+        "STAT1-V53-Q14"
+      ]
+    },
+    {
+      "id": "EXAMPLE_STAT_V57_01",
+      "title": "幹葉図で90点を読む",
+      "topic_ids": [
+        "STAT1-12"
+      ],
+      "steps": [
+        "幹『9』を見る",
+        "葉『0』を見る",
+        "9｜0 → 90点"
+      ],
+      "point": "幹と葉がどの桁を表すかを最初に確認する。",
+      "question_ids": [
+        "STAT1-V54-Q01",
+        "STAT1-V54-Q02"
+      ]
+    },
+    {
+      "id": "EXAMPLE_STAT_V57_02",
+      "title": "クロス集計の分母選択",
+      "topic_ids": [
+        "STAT1-12"
+      ],
+      "steps": [
+        "『男性のうち』という条件を見る",
+        "男性行の合計を分母にする",
+        "男性かつ対象カテゴリのセルを分子にする",
+        "割合を比較する"
+      ],
+      "point": "条件付き割合では分母が全体人数とは限らない。",
+      "question_ids": [
+        "STAT1-V54-Q04"
+      ]
+    },
+    {
+      "id": "EXAMPLE_STAT_V57_03",
+      "title": "ローレンツ曲線と完全平等線",
+      "topic_ids": [
+        "STAT1-13"
+      ],
+      "steps": [
+        "完全平等なら累積人口20％→累積所得20％",
+        "40％→40％…と一致",
+        "曲線が45度線から下に離れるほど所得偏在が大きい"
+      ],
+      "point": "横軸と縦軸の累積割合を対応させる。",
+      "question_ids": [
+        "STAT1-V54-Q08",
+        "STAT1-V54-Q10"
+      ]
+    },
+    {
+      "id": "EXAMPLE_STAT_V57_04",
+      "title": "ジニ係数が小さい都市を選ぶ",
+      "topic_ids": [
+        "STAT1-13"
+      ],
+      "steps": [
+        "2都市のローレンツ曲線を見る",
+        "完全平等線に近い方を確認",
+        "近い方＝2線間面積が小さい",
+        "ジニ係数も小さい"
+      ],
+      "point": "ジニ係数の大小を曲線の離れ具合へ変換する。",
+      "question_ids": [
+        "STAT1-V54-Q09",
+        "STAT1-V54-Q10"
+      ]
+    },
+    {
+      "id": "EXAMPLE_STAT_V57_05",
+      "title": "箱ひげ図とヒストグラムの対応",
+      "topic_ids": [
+        "STAT1-14"
+      ],
+      "steps": [
+        "箱ひげ図の中央値を見る",
+        "箱の長さ＝IQRを見る",
+        "左右のひげの長さを見る",
+        "ヒストグラムの山・広がり・裾と照合"
+      ],
+      "point": "1特徴だけでなく3点セットで判断する。",
+      "question_ids": [
+        "STAT1-V54-Q11",
+        "STAT1-V54-Q12",
+        "STAT1-V54-Q13"
+      ]
     }
   ]
 };

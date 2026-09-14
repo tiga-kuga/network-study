@@ -34,10 +34,13 @@ nav button{background:transparent;padding:8px 3px;font-size:11px;color:var(--sub
 details{border-top:1px solid var(--line);padding-top:10px;margin-top:10px}summary{font-weight:700;cursor:pointer}
 .progress{height:8px;background:#e5e7eb;border-radius:99px;overflow:hidden}.bar{height:100%;background:var(--accent);width:0%}
 a{color:var(--accent)}
+
+.asset-panel{background:#f8fafc;border:1px solid var(--line);border-radius:16px;padding:14px;margin-top:12px}.asset-title{font-size:17px;font-weight:800;margin:8px 0}.asset-meta{font-size:11px;color:var(--sub);margin-bottom:8px}.diagram{white-space:pre-wrap;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;background:white;border:1px solid var(--line);border-radius:12px;padding:12px;line-height:1.6}.formula{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:16px;background:white;border:1px solid var(--line);border-radius:12px;padding:12px;overflow:auto}.asset-table{width:100%;border-collapse:collapse;font-size:12px}.asset-table th,.asset-table td{border:1px solid var(--line);padding:7px}.asset-table th{background:#f1f5f9}.assetbtn{background:#eef2ff;color:#3730a3}.formula-btn{background:#ecfeff;color:#155e75}.table-btn{background:#f0fdf4;color:#166534}.flow-btn{background:#fff7ed;color:#9a3412}
+.example-btn{background:#fdf2f8;color:#9d174d}
 </style>
 </head>
-<body data-version="v36">
-<header><h1>MY STUDY 学習アプリ</h1><div class="sub">科目 → 知識の地図 → 詳細 → 問題 → 間違えた論点へ戻る　<span style="opacity:.55">v36</span></div></header>
+<body data-version="v57">
+<header><h1>MY STUDY 学習アプリ</h1><div class="sub">科目 → 知識の地図 → 詳細 → 問題 → 間違えた論点へ戻る　<span style="opacity:.55">v57</span></div></header>
 <main id="app"></main>
 <nav>
 <button data-tab="home" class="active">🏠<br>全体</button>
@@ -48,7 +51,7 @@ a{color:var(--accent)}
 <script src="data.js"></script>
 <script>
 const D=window.APP_DATA, app=document.getElementById('app');
-let state={tab:'home',unit:null,topic:null,q:0,quizTopic:null,selected:null,answered:false,scrollTarget:null};
+let state={tab:'home',unit:null,topic:null,q:0,quizTopic:null,selected:null,answered:false,scrollTarget:null,assetType:null,assetId:null};
 let wrong=JSON.parse(localStorage.getItem('wrongTopics')||'[]');
 function esc(s){return String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]))}
 function setTab(t){state.tab=t;state.unit=null;state.topic=null;if(t==='quiz')state.quizTopic=null;render();document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('active',b.dataset.tab===t))}
@@ -56,8 +59,8 @@ document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>setTab(b.datase
 function unitById(id){return D.units.find(u=>u.id===id)}
 function topicById(id){for(const u of D.units){const t=u.topics.find(x=>x.id===id);if(t)return {u,t}}}
 function goUnit(id){state.unit=id;state.topic=null;render()}
-function goTopic(id){state.topic=id;state.tab='topics';render();document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('active',b.dataset.tab==='topics'))}
-function backToTopicList(id){state.topic=null;state.tab='topics';state.scrollTarget=id;render();}
+function goTopic(id){state.topic=id;state.tab='topics';state.assetType=null;state.assetId=null;render();document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('active',b.dataset.tab==='topics'))}
+function backToTopicList(id){state.topic=null;state.tab='topics';state.assetType=null;state.assetId=null;state.scrollTarget=id;render();}
 function home(){
 const cats=[...new Set(D.units.map(u=>u.category||'その他'))];
 let out=`<div class="card"><div class="big">${D.units.length}単元</div><div class="small">複数科目を1つのiPhone学習アプリで管理</div></div>`;
@@ -72,12 +75,14 @@ function unitView(u){
 return `<button onclick="state.unit=null;render()">← 全体へ</button><div class="card"><h2>${u.id} ${esc(u.title)}</h2><p>${esc(u.summary)}</p>${u.map.map(x=>`<div class="mapline">${esc(x)}</div>`).join('')}</div>`+
 u.topics.map(t=>`<div class="card unit" onclick="goTopic('${t.id}')"><h3>${t.id} ${esc(t.title)}</h3><div class="small">${esc(t.overview)}</div></div>`).join('');
 }
+
+function assetById(type,id){const k=type==='visual'?'visuals':type==='formula'?'formulas':type==='table'?'tables':type==='flow'?'flows':'examples';return (D[k]||[]).find(x=>x.id===id)}
+function openAsset(type,id){state.assetType=type;state.assetId=id;render(false);requestAnimationFrame(()=>document.getElementById('asset-panel')?.scrollIntoView({behavior:'smooth',block:'start'}))}
+function closeAsset(){state.assetType=null;state.assetId=null;render(false)}
+function assetButtons(t){return [...(t.visual_ids||[]).map(id=>`<button class="assetbtn" onclick="openAsset('visual','${id}')">図を見る</button>`),...(t.formula_ids||[]).map(id=>`<button class="assetbtn formula-btn" onclick="openAsset('formula','${id}')">数式を見る</button>`),...(t.table_ids||[]).map(id=>`<button class="assetbtn table-btn" onclick="openAsset('table','${id}')">比較を見る</button>`),...(t.flow_ids||[]).map(id=>`<button class="assetbtn flow-btn" onclick="openAsset('flow','${id}')">判断フローを見る</button>`),...(t.example_ids||[]).map(id=>`<button class="assetbtn example-btn" onclick="openAsset('example','${id}')">具体例を見る</button>`)].join('')}
+function assetPanel(){if(!state.assetId)return '';const a=assetById(state.assetType,state.assetId);if(!a)return '';let b='';if(state.assetType==='visual'){b=`<div class="diagram">${(a.structure||[]).map(esc).join('\n')}</div>${a.points?.length?`<h4>見るポイント</h4><ul>${a.points.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:''}`}else if(state.assetType==='formula'){b=`<div class="formula">${esc(a.formula)}</div><div class="small">LaTeX: ${esc(a.latex||'')}</div><h4>意味</h4><ul>${(a.meaning||[]).map(x=>`<li>${esc(x)}</li>`).join('')}</ul>${a.example?`<h4>具体例</h4><div>${esc(a.example)}</div>`:''}`}else if(state.assetType==='table'){b=`<div style="overflow:auto"><table class="asset-table"><thead><tr>${(a.axes||[]).map(x=>`<th>${esc(x)}</th>`).join('')}</tr></thead><tbody>${(a.rows||[]).map(r=>`<tr>${r.map(x=>`<td>${esc(x)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`}else if(state.assetType==='flow'){b=`<div class="diagram">${esc(a.start)}\n${(a.steps||[]).map(s=>`${s.question}\n├─YES → ${s.yes}\n└─NO → ${s.no}`).join('\n↓\n')}\n↓\n${esc(a.final)}</div>`}else{b=`<div class="diagram">${(a.steps||[]).map((x,i)=>`${i+1}. ${x}`).join('\n↓\n')}</div>${a.point?`<h4>ポイント</h4><div>${esc(a.point)}</div>`:''}`}return `<div id="asset-panel" class="asset-panel"><button onclick="closeAsset()">× 閉じる</button><div class="asset-title">${esc(a.title||a.name||a.id)}</div><div class="asset-meta">${esc(a.id)}</div>${b}</div>`}
 function topics(){
-if(state.topic){const z=topicById(state.topic);if(!z)return ''; const {u,t}=z;
-const sec=(name,arr)=>arr&&arr.length?`<h4>${name}</h4><ul>${arr.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:'';
-return `<button onclick="backToTopicList('${t.id}')">← 論点一覧</button><div class="card topic"><div class="small">${u.id} / ${esc(u.title)}</div><h3>${t.id} ${esc(t.title)}</h3><h4>この論点の役割</h4><div>${esc(t.role)}</div><h4>概要</h4><div>${esc(t.overview)}</div>${sec('基本構造',t.structure)}${sec('原則',t.principles)}${sec('成立条件・適用条件',t.conditions)}${sec('結論・効果',t.effects)}${sec('例外',t.exceptions)}${sec('注意点',t.notes)}${sec('似た概念との違い',t.differences)}${sec('関連論点',t.related)}${sec('資格問題での着眼点',t.exam)}<div class="btnrow"><button class="primary" onclick="startTopicQuiz('${t.id}')">この論点を問題で確認</button></div></div>`}
-return D.units.map(u=>`<div class="card"><h2>${u.id} ${esc(u.title)}</h2>${u.topics.map(t=>`<button id="topic-${t.id}" class="choice" onclick="goTopic('${t.id}')">${t.id}　${esc(t.title)}</button>`).join('')}</div>`).join('');
-}
+if(state.topic){const z=topicById(state.topic);if(!z)return '';const {u,t}=z;const sec=(n,a)=>a&&a.length?`<h4>${n}</h4><ul>${a.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:'';return `<button onclick="backToTopicList('${t.id}')">← 論点一覧</button><div class="card topic"><div class="small">${u.id} / ${esc(u.title)}</div><h3>${t.id} ${esc(t.title)}</h3><h4>この論点の役割</h4><div>${esc(t.role)}</div><h4>概要</h4><div>${esc(t.overview)}</div>${sec('基本構造',t.structure)}${sec('原則',t.principles)}${sec('成立条件・適用条件',t.conditions)}${sec('結論・効果',t.effects)}${sec('例外',t.exceptions)}${sec('注意点',t.notes)}${sec('似た概念との違い',t.differences)}${sec('関連論点',t.related)}${sec('資格問題での着眼点',t.exam)}${(t.question_ids||[]).length?`<h4>関連問題ID</h4><div class="small">${t.question_ids.join(' / ')}</div>`:''}<div class="btnrow">${assetButtons(t)}<button class="primary" onclick="startTopicQuiz('${t.id}')">問題を解く</button></div>${assetPanel()}</div>`}return D.units.map(u=>`<div class="card"><h2>${u.id} ${esc(u.title)}</h2>${u.topics.map(t=>`<button id="topic-${t.id}" class="choice" onclick="goTopic('${t.id}')">${t.id}　${esc(t.title)}</button>`).join('')}</div>`).join('')}
 function startTopicQuiz(tid){
 const qs=D.questions.filter(q=>q.topic===tid);
 if(!qs.length)return alert('この論点に紐づく確認問題はまだありません');
@@ -99,7 +104,7 @@ const q=pool[state.q], pct=Math.round((state.q)/pool.length*100);
 let feedback='';
 if(state.answered){
   const ok=state.selected===q.answer;
-  feedback=`<div class="notice ${ok?'correct':'wrong'}"><b>${ok?'正解':'不正解'}</b><br>正解：${esc(q.answer)}<br>${esc(q.explain)}<br><b>判断ポイント：</b>${esc(q.point)}<br><button class="good" onclick="goTopic('${q.topic}')">対応する論点 ${q.topic} に戻る</button></div>`
+  const ab=[...(q.visual_ids||[]).map(id=>`<button class="assetbtn" onclick="state.topic='${q.topic}';state.tab='topics';openAsset('visual','${id}')">図を見る</button>`),...(q.formula_ids||[]).map(id=>`<button class="assetbtn formula-btn" onclick="state.topic='${q.topic}';state.tab='topics';openAsset('formula','${id}')">数式を見る</button>`),...(q.table_ids||[]).map(id=>`<button class="assetbtn table-btn" onclick="state.topic='${q.topic}';state.tab='topics';openAsset('table','${id}')">比較を見る</button>`),...(q.flow_ids||[]).map(id=>`<button class="assetbtn flow-btn" onclick="state.topic='${q.topic}';state.tab='topics';openAsset('flow','${id}')">判断フローを見る</button>`),...(q.example_ids||[]).map(id=>`<button class="assetbtn example-btn" onclick="state.topic='${q.topic}';state.tab='topics';openAsset('example','${id}')">具体例を見る</button>`)].join('');feedback=`<div class="notice ${ok?'correct':'wrong'}"><b>${ok?'正解':'不正解'}</b><br>正解：${esc(q.answer)}<br>${esc(q.explain)}<br><b>判断ポイント：</b>${esc(q.point)}<div class="btnrow">${ab}<button class="good" onclick="goTopic('${q.topic}')">詳細へ戻る</button></div></div>`
 }
 const mode=state.quizTopic?`<div class="notice">この論点の問題だけを出題中：<b>${esc(state.quizTopic)}</b></div>`:'';
 return `<div class="card">${mode}<div class="small">問題 ${state.q+1} / ${pool.length}</div><div class="progress"><div class="bar" style="width:${pct}%"></div></div><h2>${esc(q.type)}｜${esc(q.q)}</h2>${q.choices.map((c,i)=>`<button type="button" class="choice ${state.selected===c?'selected':''}" onclick="selectChoice(${i})">${esc(c)}</button>`).join('')}<div class="btnrow"><button class="primary" onclick="answerQ()">答え合わせ</button><button onclick="nextQ()">次の問題</button>${state.quizTopic?`<button onclick="goTopic('${state.quizTopic}')">この論点へ戻る</button>`:''}</div>${feedback}</div><div class="card"><b>間違えた論点</b><div class="small">${wrong.length?wrong.join(' / '):'まだありません'}</div><button class="bad" style="margin-top:8px" onclick="wrong=[];localStorage.setItem('wrongTopics','[]');render()">履歴を消す</button></div>`;
