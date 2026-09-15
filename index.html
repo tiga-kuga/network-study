@@ -28,7 +28,7 @@ button.primary{background:var(--accent);color:#fff}button.good{background:#ecfdf
 .topic-return-highlight{outline:3px solid var(--accent);box-shadow:0 0 0 6px rgba(37,99,235,.12);transition:outline .25s,box-shadow .25s}
 .notice{padding:12px;border-radius:12px;background:#eff6ff;font-size:13px;line-height:1.5}
 .correct{background:#ecfdf5;color:var(--ok)}.wrong{background:#fef2f2;color:var(--ng)}
-nav{position:fixed;bottom:0;left:0;right:0;background:rgba(255,255,255,.96);border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(4,1fr);padding:8px 8px max(8px,env(safe-area-inset-bottom));z-index:20}
+nav{position:fixed;bottom:0;left:0;right:0;background:rgba(255,255,255,.96);border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(5,1fr);padding:8px 8px max(8px,env(safe-area-inset-bottom));z-index:20}
 nav button{background:transparent;padding:8px 3px;font-size:11px;color:var(--sub)}nav button.active{color:var(--accent)}
 .small{font-size:12px;color:var(--sub)} .big{font-size:28px;font-weight:700}
 details{border-top:1px solid var(--line);padding-top:10px;margin-top:10px}summary{font-weight:700;cursor:pointer}
@@ -58,24 +58,43 @@ a{color:var(--accent)}
 .zoom-scroll.original-size{display:block;text-align:left}
 .zoom-scroll.original-size img{max-width:none;max-height:none;width:auto;height:auto;margin:0}
 
+
+.db-search{width:100%;border:1px solid var(--line);border-radius:12px;padding:12px 13px;font-size:16px;background:#fff}
+.db-breadcrumb{font-size:12px;color:var(--sub);margin-bottom:8px;line-height:1.5}
+.db-topic-title{font-size:18px;font-weight:800;margin:4px 0}
+.db-kernel{background:#f8fafc;border-left:4px solid var(--accent);padding:10px 12px;border-radius:8px;line-height:1.55}
+.db-tags{display:flex;gap:5px;flex-wrap:wrap;margin-top:8px}
+.db-tag{font-size:11px;background:#f3f4f6;border-radius:999px;padding:4px 7px}
+.db-section{margin-top:14px}.db-section h4{font-size:12px;color:var(--accent);margin:0 0 5px}
+.db-problem-snippet{font-size:13px;line-height:1.5}
+.db-count{font-size:11px;color:var(--sub)}
+.db-filter{background:#eef2ff;color:#3730a3}
+.db-filter-wrong{background:#fef2f2;color:#991b1b}
+.db-filter-unanswered{background:#fff7ed;color:#9a3412}
+.db-level{display:inline-block;font-size:10px;border-radius:999px;padding:3px 7px;background:#ecfeff;color:#155e75;margin-left:5px}
+
 </style>
 </head>
-<body data-version="v64">
-<header><h1>MY STUDY 学習アプリ</h1><div class="sub">科目 → 知識の地図 → 詳細 → 問題 → 間違えた論点へ戻る　<span style="opacity:.55">v64</span></div></header>
+<body data-version="v65">
+<header><h1>MY STUDY 学習アプリ</h1><div class="sub">科目 → 論点DB → 関連問題 → 間違えた論点へ戻る　<span style="opacity:.55">v65</span></div></header>
 <main id="app"></main>
 <nav>
 <button data-tab="home" class="active">🏠<br>全体</button>
-<button data-tab="topics">🧭<br>論点</button>
+<button data-tab="db">🔎<br>論点DB</button>
+<button data-tab="topics">🧭<br>詳細</button>
 <button data-tab="quiz">📝<br>問題</button>
 <button data-tab="review">⚡️<br>30秒</button>
 </nav>
 <script src="data.js"></script>
 <script>
 const D=window.APP_DATA, app=document.getElementById('app');
-let state={tab:'home',unit:null,topic:null,q:0,quizTopic:null,selected:null,answered:false,scrollTarget:null,assetType:null,assetId:null};
+let state={tab:'home',unit:null,topic:null,q:0,quizTopic:null,selected:null,answered:false,scrollTarget:null,assetType:null,assetId:null,dbChapter:null,dbUnit:null,dbTopic:null,dbSearch:'',dbProblemIds:null,dbProblemIndex:0,dbSelected:null,dbAnswered:false};
 let wrong=JSON.parse(localStorage.getItem('wrongTopics')||'[]');
+let dbAnsweredSet=new Set(JSON.parse(localStorage.getItem('fpdbAnswered')||'[]'));
+let dbWrongSet=new Set(JSON.parse(localStorage.getItem('fpdbWrong')||'[]'));
+
 function esc(s){return String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]))}
-function setTab(t){state.tab=t;state.unit=null;state.topic=null;if(t==='quiz')state.quizTopic=null;render();document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('active',b.dataset.tab===t))}
+function setTab(t){state.tab=t;state.unit=null;state.topic=null;if(t==='quiz')state.quizTopic=null;if(t==='db'){state.dbProblemIds=null;state.dbProblemIndex=0;state.dbSelected=null;state.dbAnswered=false;}render();document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('active',b.dataset.tab===t))}
 document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>setTab(b.dataset.tab));
 function unitById(id){return D.units.find(u=>u.id===id)}
 function topicById(id){for(const u of D.units){const t=u.topics.find(x=>x.id===id);if(t)return {u,t}}}
@@ -171,7 +190,147 @@ function nextQ(){const pool=state.quizTopic?D.questions.filter(x=>x.topic===stat
 function review(){
 return D.units.map(u=>`<div class="card"><div class="small">${esc(u.category||'')}</div><h2>${u.id} ${esc(u.title)}</h2>${u.review.map(x=>`<div class="mapline">✓ ${esc(x)}</div>`).join('')}</div>`).join('');
 }
-function render(resetScroll=true){if(state.tab==='home')app.innerHTML=state.unit?unitView(unitById(state.unit)):home(); else if(state.tab==='topics')app.innerHTML=topics(); else if(state.tab==='quiz')app.innerHTML=quiz(); else app.innerHTML=review();
+
+const K=D.knowledge_db||{chapters:[],units:[],topics:[],problems:[],tags:[]};
+function kUnit(id){return K.units.find(x=>x.id===id)}
+function kTopic(id){return K.topics.find(x=>x.id===id)}
+function kProblem(id){return K.problems.find(x=>x.id===id)}
+function dbSetNav(){document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('active',b.dataset.tab==='db'))}
+function openDBChapter(id){state.dbChapter=id;state.dbUnit=null;state.dbTopic=null;state.dbProblemIds=null;state.tab='db';render();dbSetNav()}
+function openDBUnit(id){const u=kUnit(id);state.dbChapter=u?.chapter_id||state.dbChapter;state.dbUnit=id;state.dbTopic=null;state.dbProblemIds=null;state.tab='db';render();dbSetNav()}
+function openDBTopic(id){const t=kTopic(id);if(!t)return;state.dbChapter=t.chapter_id;state.dbUnit=t.unit_id;state.dbTopic=id;state.dbProblemIds=null;state.tab='db';render();dbSetNav()}
+function dbBackRoot(){state.dbChapter=null;state.dbUnit=null;state.dbTopic=null;state.dbProblemIds=null;render()}
+function dbBackChapter(){state.dbUnit=null;state.dbTopic=null;state.dbProblemIds=null;render()}
+function dbBackUnit(){state.dbTopic=null;state.dbProblemIds=null;render()}
+function dbSearchInput(v){state.dbSearch=v;render(false);requestAnimationFrame(()=>{const x=document.getElementById('db-search');if(x){x.focus();x.setSelectionRange(x.value.length,x.value.length)}})}
+function dbProblemIdsForTopic(tid){
+  const direct=K.problems.filter(p=>p.primary_topic_id===tid||(p.secondary_topic_ids||[]).includes(tid)).map(p=>p.id);
+  const childIds=K.topics.filter(t=>t.parent_id===tid).map(t=>t.id);
+  const child=K.problems.filter(p=>childIds.includes(p.primary_topic_id)||(p.secondary_topic_ids||[]).some(x=>childIds.includes(x))).map(p=>p.id);
+  return [...new Set([...direct,...child])];
+}
+function shuffleCopy(a){const x=[...a];for(let i=x.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[x[i],x[j]]=[x[j],x[i]]}return x}
+function startDBProblems(tid,mode='all'){
+  let ids=dbProblemIdsForTopic(tid);
+  if(mode==='unanswered')ids=ids.filter(id=>!dbAnsweredSet.has(id));
+  if(mode==='wrong')ids=ids.filter(id=>dbWrongSet.has(id));
+  if(mode==='random3')ids=shuffleCopy(ids).slice(0,3);
+  if(!ids.length)return alert(mode==='wrong'?'この論点の誤答問題はまだありません':mode==='unanswered'?'この論点の未回答問題はありません':'この論点に関連問題がありません');
+  state.dbTopic=tid;state.dbProblemIds=ids;state.dbProblemIndex=0;state.dbSelected=null;state.dbAnswered=false;state.tab='db';render();dbSetNav()
+}
+function startSingleDBProblem(pid){const p=kProblem(pid);if(!p)return;state.dbTopic=p.primary_topic_id;state.dbProblemIds=[pid];state.dbProblemIndex=0;state.dbSelected=null;state.dbAnswered=false;state.tab='db';render();dbSetNav()}
+function dbSearchResults(q){
+  q=(q||'').trim().toLowerCase();if(!q)return '';
+  const topics=K.topics.filter(t=>[t.title,t.one_line_definition,t.unit_title,...(t.tags||[])].join(' ').toLowerCase().includes(q)).slice(0,35);
+  const probs=K.problems.filter(p=>[p.q,p.explain,p.source_exam,...(p.tags||[])].join(' ').toLowerCase().includes(q)).slice(0,20);
+  return `<div class="card"><h2>検索結果</h2><div class="small">論点 ${topics.length}件 / 問題 ${probs.length}件</div>
+  ${topics.map(t=>`<button class="choice" onclick="openDBTopic('${t.id}')"><b>${esc(t.title)}</b><br><span class="small">${esc(t.unit_title)} / ${esc(t.id)}</span></button>`).join('')}
+  ${probs.map(p=>`<button class="choice" onclick="startSingleDBProblem('${p.id}')"><b>${esc(p.id)} ${esc(p.source_exam)}</b><br><span class="small">${esc(p.q.slice(0,90))}${p.q.length>90?'…':''}</span></button>`).join('')}</div>`;
+}
+function dbRoot(){
+  const q=state.dbSearch||'';
+  let out=`<div class="card"><h2>🔎 FP 論点データベース</h2><div class="small">分野 → 単元 → 論点 → サブ論点 → 関連問題</div><div style="margin-top:10px"><input id="db-search" class="db-search" value="${esc(q)}" placeholder="論点・タグ・問題文を検索" oninput="dbSearchInput(this.value)"></div></div>`;
+  if(q.trim())return out+dbSearchResults(q);
+  out+=`<div class="card"><div class="big">${K.topics.length}論点</div><div class="small">${K.units.length}単元 / ${K.problems.length}資格問題 / ${K.tags.length}検索タグ</div></div>`;
+  out+=K.chapters.map(ch=>{
+    const units=K.units.filter(u=>u.chapter_id===ch.id), topics=K.topics.filter(t=>t.chapter_id===ch.id), probs=K.problems.filter(p=>units.some(u=>u.id===p.unit_id));
+    return `<div class="card unit" onclick="openDBChapter('${ch.id}')"><h2>${esc(ch.id)} ${esc(ch.title)}</h2><div class="db-count">${units.length}単元 / ${topics.length}論点 / ${probs.length}問題</div></div>`;
+  }).join('');
+  return out;
+}
+function dbChapterView(){
+  const ch=K.chapters.find(x=>x.id===state.dbChapter);if(!ch)return dbRoot();
+  const units=K.units.filter(u=>u.chapter_id===ch.id);
+  return `<button onclick="dbBackRoot()">← FP論点DB</button><div class="card"><h2>${esc(ch.title)}</h2><div class="small">教材の章順ではなく、各単元から細分化論点へ入ります。</div></div>`+
+  units.map(u=>`<div class="card unit" onclick="openDBUnit('${u.id}')"><h3>${esc(u.id)} ${esc(u.title)}</h3><div class="db-count">${u.topic_ids.length}論点 / ${u.problem_ids.length}関連問題</div><div class="db-tags">${(u.tags||[]).map(x=>`<span class="db-tag">${esc(x)}</span>`).join('')}</div></div>`).join('');
+}
+function dbUnitView(){
+  const u=kUnit(state.dbUnit);if(!u)return dbChapterView();
+  const roots=K.topics.filter(t=>t.unit_id===u.id&&t.level===1);
+  return `<button onclick="dbBackChapter()">← ${esc(u.chapter_title)}</button><div class="card"><div class="db-breadcrumb">${esc(u.chapter_title)} → ${esc(u.title)}</div><h2>${esc(u.title)}</h2><div class="small">論点を選ぶと、核 → サブ論点 → 関連問題へ進めます。</div></div>`+
+  roots.map(t=>{const child=K.topics.filter(x=>x.parent_id===t.id).length,pc=dbProblemIdsForTopic(t.id).length;return `<div class="card unit" onclick="openDBTopic('${t.id}')"><div class="db-topic-title">${esc(t.title)}<span class="db-level">論点</span></div><div class="small">${esc(t.one_line_definition.slice(0,150))}</div><div class="db-count" style="margin-top:8px">サブ論点 ${child} / 関連問題 ${pc}</div></div>`}).join('');
+}
+function dbList(name,arr){
+  return arr&&arr.length?`<div class="db-section"><h4>${esc(name)}</h4><ul>${arr.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div>`:'';
+}
+function dbTopicView(){
+  const t=kTopic(state.dbTopic);if(!t)return dbUnitView();
+  const u=kUnit(t.unit_id), parent=t.parent_id?kTopic(t.parent_id):null;
+  const kids=K.topics.filter(x=>x.parent_id===t.id);
+  const pids=dbProblemIdsForTopic(t.id), probs=pids.map(kProblem).filter(Boolean);
+  return `<button onclick="${parent?`openDBTopic('${parent.id}')`:'dbBackUnit()'}">← ${parent?esc(parent.title):esc(u?.title||'単元')}</button>
+  <div class="card topic">
+    <div class="db-breadcrumb">${esc(t.chapter_title)} → ${esc(t.unit_title)}${parent?' → '+esc(parent.title):''}</div>
+    <div class="db-topic-title">${esc(t.title)}<span class="db-level">${t.level===1?'論点':'サブ論点'}</span></div>
+    <div class="db-kernel">${esc(t.one_line_definition)}</div>
+    ${dbList('何を理解すればよいか',t.understand)}
+    ${dbList('仕組み',t.mechanism)}
+    ${dbList('条件',t.conditions)}
+    ${dbList('原則',t.principles)}
+    ${dbList('例外',t.exceptions)}
+    ${dbList('判断ポイント',t.judgment_points)}
+    ${dbList('混同しやすい概念',t.confused_with)}
+    <div class="db-section"><h4>検索タグ</h4><div class="db-tags">${(t.tags||[]).map(x=>`<span class="db-tag">${esc(x)}</span>`).join('')}</div></div>
+    <div class="btnrow">
+      <button class="primary" onclick="startDBProblems('${t.id}','all')">関連問題すべて (${pids.length})</button>
+      <button class="db-filter-unanswered" onclick="startDBProblems('${t.id}','unanswered')">未回答</button>
+      <button class="db-filter-wrong" onclick="startDBProblems('${t.id}','wrong')">誤答</button>
+      <button class="db-filter" onclick="startDBProblems('${t.id}','random3')">ランダム3問</button>
+    </div>
+    <div class="small" style="margin-top:8px">難易度：原資料に表示がないため未設定。将来の難易度タグ追加に対応したデータ構造です。</div>
+  </div>
+  ${kids.length?`<div class="card"><h3>サブ論点</h3>${kids.map(k=>`<button class="choice" onclick="openDBTopic('${k.id}')"><b>${esc(k.title)}</b><br><span class="small">${esc(k.one_line_definition.slice(0,100))}</span></button>`).join('')}</div>`:''}
+  <div class="card"><h3>関連問題</h3>${probs.length?probs.slice(0,30).map(p=>`<button class="choice" onclick="startSingleDBProblem('${p.id}')"><b>${esc(p.id)} ${esc(p.source_exam)}</b><br><span class="db-problem-snippet">${esc(p.q.slice(0,120))}${p.q.length>120?'…':''}</span></button>`).join(''):'<div class="small">関連問題なし</div>'}</div>`;
+}
+function dbProblemView(){
+  const ids=state.dbProblemIds||[];if(!ids.length){state.dbProblemIds=null;return dbTopicView()}
+  if(state.dbProblemIndex>=ids.length)state.dbProblemIndex=0;
+  const p=kProblem(ids[state.dbProblemIndex]);if(!p)return '<div class="card">問題データがありません。</div>';
+  const primary=kTopic(p.primary_topic_id), secs=(p.secondary_topic_ids||[]).map(kTopic).filter(Boolean);
+  const pct=Math.round(state.dbProblemIndex/ids.length*100);
+  let fb='';
+  if(state.dbAnswered){
+    const ok=state.dbSelected===p.answer;
+    fb=`<div class="notice ${ok?'correct':'wrong'}"><b>${ok?'正解':'不正解'}</b><br><b>正解：</b>${esc(p.answer)}<br>${esc(p.explain)}<br><b>判断ポイント：</b>${esc(p.judgment_point)}
+      <div class="btnrow"><button class="good" onclick="openDBTopic('${p.primary_topic_id}')">主論点へ戻る</button>${secs.map(x=>`<button onclick="openDBTopic('${x.id}')">副論点：${esc(x.title)}</button>`).join('')}</div></div>`;
+  }
+  return `<button onclick="state.dbProblemIds=null;state.dbSelected=null;state.dbAnswered=false;render()">← 論点へ戻る</button>
+  <div class="card"><div class="small">${esc(p.source_exam)} / PDF P.${p.source_page} / ${esc(p.id)}</div><div class="progress"><div class="bar" style="width:${pct}%"></div></div>
+  <h2>${esc(p.type)}｜${esc(p.q)}</h2>
+  ${(p.choices||[]).map((c,i)=>`<button class="choice ${state.dbSelected===c?'selected':''}" onclick="selectDBChoice(${i})">${esc(c)}</button>`).join('')}
+  <div class="btnrow"><button class="primary" onclick="answerDBProblem()">答え合わせ</button><button onclick="nextDBProblem()">次の問題</button></div>
+  ${fb}
+  <div class="db-section"><h4>主論点</h4><button class="choice" onclick="openDBTopic('${p.primary_topic_id}')">${esc(primary?.title||p.primary_topic_id)}</button></div>
+  ${secs.length?`<div class="db-section"><h4>副論点</h4>${secs.map(x=>`<button class="choice" onclick="openDBTopic('${x.id}')">${esc(x.title)}</button>`).join('')}</div>`:''}
+  <div class="db-section"><h4>着目語句</h4><div class="db-tags">${(p.attention_words||[]).map(x=>`<span class="db-tag">${esc(x)}</span>`).join('')||'<span class="small">特記なし</span>'}</div></div>
+  </div>`;
+}
+function selectDBChoice(i){
+  const p=kProblem((state.dbProblemIds||[])[state.dbProblemIndex]);if(!p||!p.choices||i<0||i>=p.choices.length)return;
+  state.dbSelected=p.choices[i];state.dbAnswered=false;render(false)
+}
+function answerDBProblem(){
+  if(state.dbSelected==null)return alert('選択肢を選んでください');
+  const p=kProblem((state.dbProblemIds||[])[state.dbProblemIndex]);if(!p)return;
+  state.dbAnswered=true;dbAnsweredSet.add(p.id);
+  if(state.dbSelected!==p.answer)dbWrongSet.add(p.id);else dbWrongSet.delete(p.id);
+  localStorage.setItem('fpdbAnswered',JSON.stringify([...dbAnsweredSet]));
+  localStorage.setItem('fpdbWrong',JSON.stringify([...dbWrongSet]));
+  render(false)
+}
+function nextDBProblem(){
+  const ids=state.dbProblemIds||[];if(!ids.length)return;
+  state.dbProblemIndex=(state.dbProblemIndex+1)%ids.length;state.dbSelected=null;state.dbAnswered=false;render()
+}
+function dbView(){
+  if(state.dbProblemIds)return dbProblemView();
+  if(state.dbTopic)return dbTopicView();
+  if(state.dbUnit)return dbUnitView();
+  if(state.dbChapter)return dbChapterView();
+  return dbRoot();
+}
+
+function render(resetScroll=true){if(state.tab==='home')app.innerHTML=state.unit?unitView(unitById(state.unit)):home(); else if(state.tab==='db')app.innerHTML=dbView(); else if(state.tab==='topics')app.innerHTML=topics(); else if(state.tab==='quiz')app.innerHTML=quiz(); else app.innerHTML=review();
 const target=state.scrollTarget;
 if(target){state.scrollTarget=null;requestAnimationFrame(()=>{const el=document.getElementById('topic-'+target);if(el){el.scrollIntoView({behavior:'instant',block:'center'});el.classList.add('topic-return-highlight');setTimeout(()=>el.classList.remove('topic-return-highlight'),1400);}});}
 else if(resetScroll)window.scrollTo({top:0,behavior:'instant'});}
