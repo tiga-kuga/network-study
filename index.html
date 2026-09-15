@@ -48,14 +48,20 @@ a{color:var(--accent)}
 .zoom-toolbar{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:10px;background:rgba(17,24,39,.95);color:#fff;position:sticky;top:0;z-index:2}
 .zoom-title{font-size:13px;font-weight:700;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .zoom-close{border:0;border-radius:10px;padding:10px 14px;background:#fff;color:#111827;font-weight:800}
-.zoom-scroll{flex:1;overflow:auto;-webkit-overflow-scrolling:touch;padding:12px;text-align:center;touch-action:pan-x pan-y pinch-zoom}
-.zoom-scroll img{display:inline-block;width:auto;height:auto;max-width:none;min-width:100%;object-fit:contain;background:#fff}
+.zoom-scroll{flex:1;overflow:auto;-webkit-overflow-scrolling:touch;padding:12px;text-align:center;touch-action:pan-x pan-y pinch-zoom;display:flex;align-items:flex-start;justify-content:center}
+.zoom-scroll img{display:block;width:auto;height:auto;max-width:100%;max-height:calc(100vh - 92px);object-fit:contain;background:#fff;margin:0 auto;transform-origin:top center}
 .zoom-hint{font-size:11px;opacity:.75}
+
+
+.zoom-actions{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
+.zoom-action{border:1px solid rgba(255,255,255,.35);border-radius:10px;padding:8px 10px;background:#374151;color:#fff;font-weight:700;font-size:12px}
+.zoom-scroll.original-size{display:block;text-align:left}
+.zoom-scroll.original-size img{max-width:none;max-height:none;width:auto;height:auto;margin:0}
 
 </style>
 </head>
-<body data-version="v63">
-<header><h1>MY STUDY 学習アプリ</h1><div class="sub">科目 → 知識の地図 → 詳細 → 問題 → 間違えた論点へ戻る　<span style="opacity:.55">v63</span></div></header>
+<body data-version="v64">
+<header><h1>MY STUDY 学習アプリ</h1><div class="sub">科目 → 知識の地図 → 詳細 → 問題 → 間違えた論点へ戻る　<span style="opacity:.55">v64</span></div></header>
 <main id="app"></main>
 <nav>
 <button data-tab="home" class="active">🏠<br>全体</button>
@@ -110,12 +116,19 @@ function openOriginalZoom(id){
          <div class="zoom-title">${esc(a.title||a.id)}</div>
          <div class="zoom-hint">ピンチ操作・スクロールで拡大して確認できます</div>
        </div>
-       <button class="zoom-close" type="button">閉じる</button>
+       <div class="zoom-actions">
+         <button class="zoom-action zoom-fit" type="button">画面に合わせる</button>
+         <button class="zoom-action zoom-original" type="button">原寸</button>
+         <button class="zoom-close" type="button">閉じる</button>
+       </div>
      </div>
      <div class="zoom-scroll">
        <img src="${a.data_uri||esc(a.path)}" alt="${esc(a.title||a.id)}">
      </div>`;
+  const zoomScroll=overlay.querySelector('.zoom-scroll');
   overlay.querySelector('.zoom-close').addEventListener('click',closeOriginalZoom);
+  overlay.querySelector('.zoom-fit').addEventListener('click',()=>zoomScroll.classList.remove('original-size'));
+  overlay.querySelector('.zoom-original').addEventListener('click',()=>zoomScroll.classList.add('original-size'));
   document.body.appendChild(overlay);
   document.body.style.overflow='hidden';
 }
